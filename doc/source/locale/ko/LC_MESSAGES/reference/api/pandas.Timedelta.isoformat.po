@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Timedelta.isoformat.rst:2
+msgid "pandas.Timedelta.isoformat"
+msgstr ""
+
+#: of pandas.Timedelta.isoformat:2
+msgid ""
+"Format Timedelta as ISO 8601 Duration like "
+"``P[n]Y[n]M[n]DT[n]H[n]M[n]S``, where the ``[n]`` s are replaced by the "
+"values. See https://en.wikipedia.org/wiki/ISO_8601#Durations"
+msgstr ""
+
+#: of pandas.Timedelta.isoformat
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Timedelta.isoformat:17
+msgid "**formatted**"
+msgstr ""
+
+#: of pandas.Timedelta.isoformat:16
+msgid "str"
+msgstr ""
+
+#: of pandas.Timedelta.isoformat:22
+msgid ":obj:`Timestamp.isoformat`"
+msgstr ""
+
+#: of pandas.Timedelta.isoformat:25
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Timedelta.isoformat:26
+msgid ""
+"The longest component is days, whose value may be larger than 365. Every "
+"component is always included, even if its value is 0. Pandas uses "
+"nanosecond precision, so up to 9 decimal places may be included in the "
+"seconds component. Trailing 0's are removed from the seconds component "
+"after the decimal. We do not 0 pad components, so it's `...T5H...`, not "
+"`...T05H...`"
+msgstr ""
+
+#: of pandas.Timedelta.isoformat:36
+msgid "Examples"
+msgstr ""
+

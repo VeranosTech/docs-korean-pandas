@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.isin.rst:2
+msgid "pandas.DataFrame.isin"
+msgstr ""
+
+#: of pandas.DataFrame.isin:2
+msgid "Whether each element in the DataFrame is contained in values."
+msgstr ""
+
+#: of pandas.DataFrame.isin
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.isin:12
+msgid "**values**"
+msgstr ""
+
+#: of pandas.DataFrame.isin:11
+msgid "iterable, Series, DataFrame or dict"
+msgstr ""
+
+#: of pandas.DataFrame.isin:8
+msgid ""
+"The result will only be true at a location if all the labels match. If "
+"`values` is a Series, that's the index. If `values` is a dict, the keys "
+"must be the column names, which must match. If `values` is a DataFrame, "
+"then both the index and column labels must match."
+msgstr ""
+
+#: of pandas.DataFrame.isin
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.isin:23
+msgid "**DataFrame**"
+msgstr ""
+
+#: of pandas.DataFrame.isin:17
+msgid ""
+"DataFrame of booleans showing whether each element in the DataFrame is "
+"contained in values."
+msgstr ""
+
+#: of pandas.DataFrame.isin:29
+msgid ":obj:`DataFrame.eq`"
+msgstr ""
+
+#: of pandas.DataFrame.isin:29
+msgid "Equality test for DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.isin:32
+msgid ":obj:`Series.isin`"
+msgstr ""
+
+#: of pandas.DataFrame.isin:32
+msgid "Equivalent method on Series."
+msgstr ""
+
+#: of pandas.DataFrame.isin:34
+msgid ":obj:`Series.str.contains`"
+msgstr ""
+
+#: of pandas.DataFrame.isin:35
+msgid ""
+"Test if pattern or regex is contained within a string of a Series or "
+"Index."
+msgstr ""
+
+#: of pandas.DataFrame.isin:40
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.isin:48
+msgid ""
+"When ``values`` is a list check whether every value in the DataFrame is "
+"present in the list (which animals have 0 or 2 legs or wings)"
+msgstr ""
+
+#: of pandas.DataFrame.isin:56
+msgid ""
+"When ``values`` is a dict, we can pass values to check for each column "
+"separately:"
+msgstr ""
+
+#: of pandas.DataFrame.isin:64
+msgid ""
+"When ``values`` is a Series or DataFrame the index and column must match."
+" Note that 'falcon' does not match based on the number of legs in df2."
+msgstr ""
+

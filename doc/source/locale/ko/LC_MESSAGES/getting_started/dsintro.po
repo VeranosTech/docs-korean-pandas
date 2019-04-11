@@ -1,0 +1,857 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../getting_started/dsintro.rst:3
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:7
+msgid "Intro to Data Structures"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:9
+msgid ""
+"We'll start with a quick, non-comprehensive overview of the fundamental "
+"data structures in pandas to get you started. The fundamental behavior "
+"about data types, indexing, and axis labeling / alignment apply across "
+"all of the objects. To get started, import NumPy and load pandas into "
+"your namespace:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:19
+msgid ""
+"Here is a basic tenet to keep in mind: **data alignment is intrinsic**. "
+"The link between labels and data will not be broken unless done so "
+"explicitly by you."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:22
+msgid ""
+"We'll give a brief intro to the data structures, then consider all of the"
+" broad categories of functionality and methods in separate sections."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:1 ../../getting_started/dsintro.rst:28
+msgid "Series"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:30
+msgid ""
+":class:`Series` is a one-dimensional labeled array capable of holding any"
+" data type (integers, strings, floating point numbers, Python objects, "
+"etc.). The axis labels are collectively referred to as the **index**. The"
+" basic method to create a Series is to call:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:38
+msgid "Here, ``data`` can be many different things:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:40
+msgid "a Python dict"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:41
+msgid "an ndarray"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:42
+msgid "a scalar value (like 5)"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:44
+msgid ""
+"The passed **index** is a list of axis labels. Thus, this separates into "
+"a few cases depending on what **data is**:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:47
+msgid "**From ndarray**"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:49
+msgid ""
+"If ``data`` is an ndarray, **index** must be the same length as **data**."
+" If no index is passed, one will be created having values ``[0, ..., "
+"len(data) - 1]``."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:62
+msgid ""
+"pandas supports non-unique index values. If an operation that does not "
+"support duplicate index values is attempted, an exception will be raised "
+"at that time. The reason for being lazy is nearly all performance-based "
+"(there are many instances in computations, like parts of GroupBy, where "
+"the index is not used)."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:68
+msgid "**From dict**"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:70
+msgid "Series can be instantiated from dicts:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:79
+msgid ""
+"When the data is a dict, and an index is not passed, the ``Series`` index"
+" will be ordered by the dict's insertion order, if you're using Python "
+"version >= 3.6 and Pandas version >= 0.23."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:83
+msgid ""
+"If you're using Python < 3.6 or Pandas < 0.23, and an index is not "
+"passed, the ``Series`` index will be the lexically ordered list of dict "
+"keys."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:86
+msgid ""
+"In the example above, if you were on a Python version lower than 3.6 or a"
+" Pandas version lower than 0.23, the ``Series`` would be ordered by the "
+"lexical order of the dict keys (i.e. ``['a', 'b', 'c']`` rather than "
+"``['b', 'a', 'c']``)."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:90
+msgid ""
+"If an index is passed, the values in data corresponding to the labels in "
+"the index will be pulled out."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:101
+msgid "NaN (not a number) is the standard missing data marker used in pandas."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:103
+msgid "**From scalar value**"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:105
+msgid ""
+"If ``data`` is a scalar value, an index must be provided. The value will "
+"be repeated to match the length of **index**."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:113
+msgid "Series is ndarray-like"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:115
+msgid ""
+"``Series`` acts very similarly to a ``ndarray``, and is a valid argument "
+"to most NumPy functions. However, operations such as slicing will also "
+"slice the index."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:128
+msgid ""
+"We will address array-based indexing like ``s[[4, 3, 1]]`` in "
+":ref:`section <indexing>`."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:131
+msgid "Like a NumPy array, a pandas Series has a :attr:`~Series.dtype`."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:137
+msgid ""
+"This is often a NumPy dtype. However, pandas and 3rd-party libraries "
+"extend NumPy's type system in a few places, in which case the dtype would"
+" be a :class:`~pandas.api.extensions.ExtensionDtype`. Some examples "
+"within pandas are :ref:`categorical` and :ref:`integer_na`. See "
+":ref:`basics.dtypes` for more."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:143
+msgid ""
+"If you need the actual array backing a ``Series``, use "
+":attr:`Series.array`."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:149
+msgid ""
+"Accessing the array can be useful when you need to do some operation "
+"without the index (to disable :ref:`automatic alignment "
+"<dsintro.alignment>`, for example)."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:152
+msgid ""
+":attr:`Series.array` will always be an "
+":class:`~pandas.api.extensions.ExtensionArray`. Briefly, an "
+"ExtensionArray is a thin wrapper around one or more *concrete* arrays "
+"like a :class:`numpy.ndarray`. Pandas knows how to take an "
+"``ExtensionArray`` and store it in a ``Series`` or a column of a "
+"``DataFrame``. See :ref:`basics.dtypes` for more."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:158
+msgid ""
+"While Series is ndarray-like, if you need an *actual* ndarray, then use "
+":meth:`Series.to_numpy`."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:165
+msgid ""
+"Even if the Series is backed by a "
+":class:`~pandas.api.extensions.ExtensionArray`, :meth:`Series.to_numpy` "
+"will return a NumPy ndarray."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:169
+msgid "Series is dict-like"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:171
+msgid ""
+"A Series is like a fixed-size dict in that you can get and set values by "
+"index label:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:182
+msgid "If a label is not contained, an exception is raised:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:189
+msgid ""
+"Using the ``get`` method, a missing label will return None or specified "
+"default:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:197
+msgid ""
+"See also the :ref:`section on attribute "
+"access<indexing.attribute_access>`."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:200
+msgid "Vectorized operations and label alignment with Series"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:202
+msgid ""
+"When working with raw NumPy arrays, looping through value-by-value is "
+"usually not necessary. The same is true when working with Series in "
+"pandas. Series can also be passed into most NumPy methods expecting an "
+"ndarray."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:212
+msgid ""
+"A key difference between Series and ndarray is that operations between "
+"Series automatically align the data based on label. Thus, you can write "
+"computations without giving consideration to whether the Series involved "
+"have the same labels."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:221
+msgid ""
+"The result of an operation between unaligned Series will have the "
+"**union** of the indexes involved. If a label is not found in one Series "
+"or the other, the result will be marked as missing ``NaN``. Being able to"
+" write code without doing any explicit data alignment grants immense "
+"freedom and flexibility in interactive data analysis and research. The "
+"integrated data alignment features of the pandas data structures set "
+"pandas apart from the majority of related tools for working with labeled "
+"data."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:231
+msgid ""
+"In general, we chose to make the default result of operations between "
+"differently indexed objects yield the **union** of the indexes in order "
+"to avoid loss of information. Having an index label, though the data is "
+"missing, is typically important information as part of a computation. You"
+" of course have the option of dropping labels with missing data via the "
+"**dropna** function."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:239
+msgid "Name attribute"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:243
+msgid "Series can also have a ``name`` attribute:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:251
+msgid ""
+"The Series ``name`` will be assigned automatically in many cases, in "
+"particular when taking 1D slices of DataFrame as you will see below."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:256
+msgid "You can rename a Series with the :meth:`pandas.Series.rename` method."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:263
+msgid "Note that ``s`` and ``s2`` refer to different objects."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:1 ../../getting_started/dsintro.rst:268
+msgid "DataFrame"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:270
+msgid ""
+"**DataFrame** is a 2-dimensional labeled data structure with columns of "
+"potentially different types. You can think of it like a spreadsheet or "
+"SQL table, or a dict of Series objects. It is generally the most commonly"
+" used pandas object. Like Series, DataFrame accepts many different kinds "
+"of input:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:275
+msgid "Dict of 1D ndarrays, lists, dicts, or Series"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:276
+msgid "2-D numpy.ndarray"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:277
+msgid ""
+"`Structured or record "
+"<https://docs.scipy.org/doc/numpy/user/basics.rec.html>`__ ndarray"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:279
+msgid "A ``Series``"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:280
+msgid "Another ``DataFrame``"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:282
+msgid ""
+"Along with the data, you can optionally pass **index** (row labels) and "
+"**columns** (column labels) arguments. If you pass an index and / or "
+"columns, you are guaranteeing the index and / or columns of the resulting"
+" DataFrame. Thus, a dict of Series plus a specific index will discard all"
+" data not matching up to the passed index."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:288
+msgid ""
+"If axis labels are not passed, they will be constructed from the input "
+"data based on common sense rules."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:293
+msgid ""
+"When the data is a dict, and ``columns`` is not specified, the "
+"``DataFrame`` columns will be ordered by the dict's insertion order, if "
+"you are using Python version >= 3.6 and Pandas >= 0.23."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:297
+msgid ""
+"If you are using Python < 3.6 or Pandas < 0.23, and ``columns`` is not "
+"specified, the ``DataFrame`` columns will be the lexically ordered list "
+"of dict keys."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:302
+msgid "From dict of Series or dicts"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:304
+msgid ""
+"The resulting **index** will be the **union** of the indexes of the "
+"various Series. If there are any nested dicts, these will first be "
+"converted to Series. If no columns are passed, the columns will be the "
+"ordered list of dict keys."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:319
+msgid ""
+"The row and column labels can be accessed respectively by accessing the "
+"**index** and **columns** attributes:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:324
+msgid ""
+"When a particular set of columns is passed along with a dict of data, the"
+" passed columns override the keys in the dict."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:333
+msgid "From dict of ndarrays / lists"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:335
+msgid ""
+"The ndarrays must all be the same length. If an index is passed, it must "
+"clearly also be the same length as the arrays. If no index is passed, the"
+" result will be ``range(n)``, where ``n`` is the array length."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:347
+msgid "From structured or record array"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:349
+msgid "This case is handled identically to a dict of arrays."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:362
+msgid ""
+"DataFrame is not intended to work exactly like a 2-dimensional NumPy "
+"ndarray."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:368
+msgid "From a list of dicts"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:380
+msgid "From a dict of tuples"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:382
+msgid ""
+"You can automatically create a MultiIndexed frame by passing a tuples "
+"dictionary."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:396
+msgid "From a Series"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:398
+msgid ""
+"The result will be a DataFrame with the same index as the input Series, "
+"and with one column whose name is the original name of the Series (only "
+"if no other column name provided)."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:402
+msgid "**Missing Data**"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:404
+msgid ""
+"Much more will be said on this topic in the :ref:`Missing data "
+"<missing_data>` section. To construct a DataFrame with missing data, we "
+"use ``np.nan`` to represent missing values. Alternatively, you may pass a"
+" ``numpy.MaskedArray`` as the data argument to the DataFrame constructor,"
+" and its masked entries will be considered missing."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:411
+msgid "Alternate Constructors"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:415
+msgid "**DataFrame.from_dict**"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:417
+msgid ""
+"``DataFrame.from_dict`` takes a dict of dicts or a dict of array-like "
+"sequences and returns a DataFrame. It operates like the ``DataFrame`` "
+"constructor except for the ``orient`` parameter which is ``'columns'`` by"
+" default, but which can be set to ``'index'`` in order to use the dict "
+"keys as row labels."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:427
+msgid ""
+"If you pass ``orient='index'``, the keys will be the row labels. In this "
+"case, you can also pass the desired column names:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:437
+msgid "**DataFrame.from_records**"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:439
+msgid ""
+"``DataFrame.from_records`` takes a list of tuples or an ndarray with "
+"structured dtype. It works analogously to the normal ``DataFrame`` "
+"constructor, except that the resulting DataFrame index may be a specific "
+"field of the structured dtype. For example:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:451
+msgid "Column selection, addition, deletion"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:453
+msgid ""
+"You can treat a DataFrame semantically like a dict of like-indexed Series"
+" objects. Getting, setting, and deleting columns works with the same "
+"syntax as the analogous dict operations:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:464
+msgid "Columns can be deleted or popped like with a dict:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:472
+msgid ""
+"When inserting a scalar value, it will naturally be propagated to fill "
+"the column:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:480
+msgid ""
+"When inserting a Series that does not have the same index as the "
+"DataFrame, it will be conformed to the DataFrame's index:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:488
+msgid ""
+"You can insert raw ndarrays but their length must match the length of the"
+" DataFrame's index."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:491
+msgid ""
+"By default, columns get inserted at the end. The ``insert`` function is "
+"available to insert at a particular location in the columns:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:502
+msgid "Assigning New Columns in Method Chains"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:504
+msgid ""
+"Inspired by `dplyr's "
+"<https://dplyr.tidyverse.org/reference/mutate.html>`__ ``mutate`` verb, "
+"DataFrame has an :meth:`~pandas.DataFrame.assign` method that allows you "
+"to easily create new columns that are potentially derived from existing "
+"columns."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:517
+msgid ""
+"In the example above, we inserted a precomputed value. We can also pass "
+"in a function of one argument to be evaluated on the DataFrame being "
+"assigned to."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:524
+msgid ""
+"``assign`` **always** returns a copy of the data, leaving the original "
+"DataFrame untouched."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:527
+msgid ""
+"Passing a callable, as opposed to an actual value to be inserted, is "
+"useful when you don't have a reference to the DataFrame at hand. This is "
+"common when using ``assign`` in a chain of operations. For example, we "
+"can limit the DataFrame to just those observations with a Sepal Length "
+"greater than 5, calculate the ratio, and plot:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:541
+msgid ""
+"Since a function is passed in, the function is computed on the DataFrame "
+"being assigned to. Importantly, this is the DataFrame that's been "
+"filtered to those rows with sepal length greater than 5. The filtering "
+"happens first, and then the ratio calculations. This is an example where "
+"we didn't have a reference to the *filtered* DataFrame available."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:547
+msgid ""
+"The function signature for ``assign`` is simply ``**kwargs``. The keys "
+"are the column names for the new fields, and the values are either a "
+"value to be inserted (for example, a ``Series`` or NumPy array), or a "
+"function of one argument to be called on the ``DataFrame``. A *copy* of "
+"the original DataFrame is returned, with the new values inserted."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:555
+msgid ""
+"Starting with Python 3.6 the order of ``**kwargs`` is preserved. This "
+"allows for *dependent* assignment, where an expression later in "
+"``**kwargs`` can refer to a column created earlier in the same "
+":meth:`~DataFrame.assign`."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:566
+msgid ""
+"In the second expression, ``x['C']`` will refer to the newly created "
+"column, that's equal to ``dfa['A'] + dfa['B']``."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:569
+msgid ""
+"To write code compatible with all versions of Python, split the "
+"assignment in two."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:579
+msgid ""
+"Dependent assignment may subtly change the behavior of your code between "
+"Python 3.6 and older versions of Python."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:582
+msgid ""
+"If you wish to write code that supports versions of python before and "
+"after 3.6, you'll need to take care when passing ``assign`` expressions "
+"that"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:585
+msgid "Update an existing column"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:586
+msgid "Refer to the newly updated column in the same ``assign``"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:588
+msgid ""
+"For example, we'll update column \"A\" and then refer to it when creating"
+" \"B\"."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:595
+msgid ""
+"For Python 3.5 and earlier the expression creating ``B`` refers to the "
+"\"old\" value of ``A``, ``[1, 1, 1]``. The output is then"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:605
+msgid ""
+"For Python 3.6 and later, the expression creating ``A`` refers to the "
+"\"new\" value of ``A``, ``[2, 2, 2]``, which results in"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:618
+msgid "Indexing / Selection"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:619
+msgid "The basics of indexing are as follows:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:1
+msgid "Operation"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:1
+msgid "Syntax"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:1
+msgid "Result"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:1
+msgid "Select column"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:1
+msgid "``df[col]``"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:1
+msgid "Select row by label"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:1
+msgid "``df.loc[label]``"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:1
+msgid "Select row by integer location"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:1
+msgid "``df.iloc[loc]``"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:1
+msgid "Slice rows"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:1
+msgid "``df[5:10]``"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:1
+msgid "Select rows by boolean vector"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:1
+msgid "``df[bool_vec]``"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:631
+msgid ""
+"Row selection, for example, returns a Series whose index is the columns "
+"of the DataFrame:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:639
+msgid ""
+"For a more exhaustive treatment of sophisticated label-based indexing and"
+" slicing, see the :ref:`section on indexing <indexing>`. We will address "
+"the fundamentals of reindexing / conforming to new sets of labels in the "
+":ref:`section on reindexing <basics.reindexing>`."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:647
+msgid "Data alignment and arithmetic"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:649
+msgid ""
+"Data alignment between DataFrame objects automatically align on **both "
+"the columns and the index (row labels)**. Again, the resulting object "
+"will have the union of the column and row labels."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:659
+msgid ""
+"When doing an operation between DataFrame and Series, the default "
+"behavior is to align the Series **index** on the DataFrame **columns**, "
+"thus `broadcasting "
+"<http://docs.scipy.org/doc/numpy/user/basics.broadcasting.html>`__ row-"
+"wise. For example:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:668
+msgid ""
+"In the special case of working with time series data, if the DataFrame "
+"index contains dates, the broadcasting will be column-wise:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:686
+msgid ""
+"is now deprecated and will be removed in a future release. The preferred "
+"way to replicate this behavior is"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:693
+msgid ""
+"For explicit control over the matching and broadcasting behavior, see the"
+" section on :ref:`flexible binary operations <basics.binop>`."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:696
+msgid "Operations with scalars are just as you would expect:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:706
+msgid "Boolean operators work as well:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:718
+msgid "Transposing"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:720
+msgid ""
+"To transpose, access the ``T`` attribute (also the ``transpose`` "
+"function), similar to an ndarray:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:729
+msgid "DataFrame interoperability with NumPy functions"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:733
+msgid ""
+"Elementwise NumPy ufuncs (log, exp, sqrt, ...) and various other NumPy "
+"functions can be used with no issues on DataFrame, assuming the data "
+"within are numeric:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:741
+msgid "The dot method on DataFrame implements matrix multiplication:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:747
+msgid "Similarly, the dot method on Series implements dot product:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:754
+msgid ""
+"DataFrame is not intended to be a drop-in replacement for ndarray as its "
+"indexing semantics are quite different in places from a matrix."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:758
+msgid "Console display"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:760
+msgid ""
+"Very large DataFrames will be truncated to display them in the console. "
+"You can also get a summary using :meth:`~pandas.DataFrame.info`. (Here I "
+"am reading a CSV version of the **baseball** dataset from the **plyr** R "
+"package):"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:784
+msgid ""
+"However, using ``to_string`` will return a string representation of the "
+"DataFrame in tabular form, though it won't always fit the console width:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:791
+msgid "Wide DataFrames will be printed across multiple rows by default:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:798
+msgid ""
+"You can change how much to print on a single row by setting the "
+"``display.width`` option:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:807
+msgid ""
+"You can adjust the max width of the individual columns by setting "
+"``display.max_colwidth``"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:827
+msgid ""
+"You can also disable this feature via the ``expand_frame_repr`` option. "
+"This will print the table in one block."
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:831
+msgid "DataFrame column attribute access and IPython completion"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:833
+msgid ""
+"If a DataFrame column label is a valid Python variable name, the column "
+"can be accessed like an attribute:"
+msgstr ""
+
+#: ../../getting_started/dsintro.rst:843
+msgid ""
+"The columns are also connected to the `IPython <https://ipython.org>`__ "
+"completion mechanism so they can be tab-completed:"
+msgstr ""
+

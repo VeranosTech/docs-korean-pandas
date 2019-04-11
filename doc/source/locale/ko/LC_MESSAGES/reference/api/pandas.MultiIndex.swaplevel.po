@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.MultiIndex.swaplevel.rst:2
+msgid "pandas.MultiIndex.swaplevel"
+msgstr ""
+
+#: of pandas.MultiIndex.swaplevel:2
+msgid "Swap level i with level j."
+msgstr ""
+
+#: of pandas.MultiIndex.swaplevel:4
+msgid "Calling this method does not change the ordering of the values."
+msgstr ""
+
+#: of pandas.MultiIndex.swaplevel
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.MultiIndex.swaplevel:10
+msgid "**i**"
+msgstr ""
+
+#: of pandas.MultiIndex.swaplevel:9
+msgid "int, str, default -2"
+msgstr ""
+
+#: of pandas.MultiIndex.swaplevel:9
+msgid ""
+"First level of index to be swapped. Can pass level name as string. Type "
+"of parameters can be mixed."
+msgstr ""
+
+#: of pandas.MultiIndex.swaplevel:14
+msgid "**j**"
+msgstr ""
+
+#: of pandas.MultiIndex.swaplevel:13
+msgid "int, str, default -1"
+msgstr ""
+
+#: of pandas.MultiIndex.swaplevel:13
+msgid ""
+"Second level of index to be swapped. Can pass level name as string. Type "
+"of parameters can be mixed."
+msgstr ""
+
+#: of pandas.MultiIndex.swaplevel
+msgid "Returns"
+msgstr ""
+
+#: of pandas.MultiIndex.swaplevel:19
+msgid "**MultiIndex**"
+msgstr ""
+
+#: of pandas.MultiIndex.swaplevel:19
+msgid "A new MultiIndex"
+msgstr ""
+
+#: of pandas.MultiIndex.swaplevel:28
+msgid "**.. versionchanged:: 0.18.1**"
+msgstr ""
+
+#: of pandas.MultiIndex.swaplevel:22
+msgid ""
+"The indexes ``i`` and ``j`` are now optional, and default to the two "
+"innermost levels of the index."
+msgstr ""
+
+#: of pandas.MultiIndex.swaplevel:34
+msgid ":obj:`Series.swaplevel`"
+msgstr ""
+
+#: of pandas.MultiIndex.swaplevel:34
+msgid "Swap levels i and j in a MultiIndex."
+msgstr ""
+
+#: of pandas.MultiIndex.swaplevel:36
+msgid ":obj:`Dataframe.swaplevel`"
+msgstr ""
+
+#: of pandas.MultiIndex.swaplevel:37
+msgid "Swap levels i and j in a MultiIndex on a particular axis."
+msgstr ""
+
+#: of pandas.MultiIndex.swaplevel:42
+msgid "Examples"
+msgstr ""
+

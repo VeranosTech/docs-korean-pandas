@@ -1,0 +1,500 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.plot.rst:2
+msgid "pandas.DataFrame.plot"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:2
+msgid "Make plots of DataFrame using matplotlib / pylab."
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:4
+msgid ""
+"*New in version 0.17.0:* Each plot kind has a corresponding method on the"
+" ``DataFrame.plot`` accessor: ``df.plot(kind='line')`` is equivalent to "
+"``df.plot.line()``."
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:12
+msgid "**data**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:11
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:15
+msgid "**x**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:14
+msgid "label or position, default None"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:18
+msgid "**y**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:17
+msgid "label, position or list of label, positions, default None"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:18
+msgid "Allows plotting of one column versus another"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:31
+msgid "**kind**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:30
+msgid "str"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:21
+msgid "'line' : line plot (default)"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:22
+msgid "'bar' : vertical bar plot"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:23
+msgid "'barh' : horizontal bar plot"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:24
+msgid "'hist' : histogram"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:25
+msgid "'box' : boxplot"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:26
+msgid "'kde' : Kernel Density Estimation plot"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:27
+msgid "'density' : same as 'kde'"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:28
+msgid "'area' : area plot"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:29
+msgid "'pie' : pie plot"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:30
+msgid "'scatter' : scatter plot"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:31
+msgid "'hexbin' : hexbin plot"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:34
+msgid "**ax**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:33
+msgid "matplotlib axes object, default None"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:37
+msgid "**subplots**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:36 pandas.DataFrame.plot.__call__:46
+#: pandas.DataFrame.plot.__call__:72 pandas.DataFrame.plot.__call__:75
+#: pandas.DataFrame.plot.__call__:78 pandas.DataFrame.plot.__call__:125
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:37
+msgid "Make separate subplots for each column"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:43
+msgid "**sharex**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:42
+msgid "boolean, default True if ax is None else False"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:40
+msgid ""
+"In case subplots=True, share x axis and set some x axis labels to "
+"invisible; defaults to True if ax is None otherwise False if an ax is "
+"passed in; Be aware, that passing in both an ax and sharex=True will "
+"alter all x axis labels for all axis in a figure!"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:47
+msgid "**sharey**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:46
+msgid ""
+"In case subplots=True, share y axis and set some y axis labels to "
+"invisible"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:50
+msgid "**layout**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:49
+msgid "tuple (optional)"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:50
+msgid "(rows, columns) for the layout of subplots"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:53
+msgid "**figsize**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:52
+msgid "a tuple (width, height) in inches"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:56
+msgid "**use_index**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:55 pandas.DataFrame.plot.__call__:133
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:56
+msgid "Use index as ticks for x axis"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:61
+msgid "**title**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:60
+msgid "string or list"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:59
+msgid ""
+"Title to use for the plot. If a string is passed, print the string at the"
+" top of the figure. If a list is passed and `subplots` is True, print "
+"each item in the list above the corresponding subplot."
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:64
+msgid "**grid**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:63
+msgid "boolean, default None (matlab style default)"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:64
+msgid "Axis grid lines"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:67
+msgid "**legend**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:66
+msgid "False/True/'reverse'"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:67
+msgid "Place legend on axis subplots"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:70
+msgid "**style**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:69
+msgid "list or dict"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:70
+msgid "matplotlib line style per column"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:73
+msgid "**logx**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:73
+msgid "Use log scaling on x axis"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:76
+msgid "**logy**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:76
+msgid "Use log scaling on y axis"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:79
+msgid "**loglog**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:79
+msgid "Use log scaling on both x and y axes"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:82
+msgid "**xticks**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:81 pandas.DataFrame.plot.__call__:84
+msgid "sequence"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:82
+msgid "Values to use for the xticks"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:85
+msgid "**yticks**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:85
+msgid "Values to use for the yticks"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:88
+msgid "**xlim**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:87 pandas.DataFrame.plot.__call__:90
+msgid "2-tuple/list"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:91
+msgid "**ylim**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:94
+msgid "**rot**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:93 pandas.DataFrame.plot.__call__:96
+msgid "int, default None"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:94
+msgid "Rotation for ticks (xticks for vertical, yticks for horizontal plots)"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:97
+msgid "**fontsize**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:97
+msgid "Font size for xticks and yticks"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:101
+msgid "**colormap**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:100
+msgid "str or matplotlib colormap object, default None"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:100
+msgid ""
+"Colormap to select colors from. If string, load colormap with that name "
+"from matplotlib."
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:104
+msgid "**colorbar**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:103
+msgid "boolean, optional"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:104
+msgid "If True, plot colorbar (only relevant for 'scatter' and 'hexbin' plots)"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:108
+msgid "**position**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:107
+msgid "float"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:107
+msgid ""
+"Specify relative alignments for bar plot layout. From 0 (left/bottom-end)"
+" to 1 (right/top-end). Default is 0.5 (center)"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:113
+msgid "**table**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:112
+msgid "boolean, Series or DataFrame, default False"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:111
+msgid ""
+"If True, draw a table using the data in the DataFrame and the data will "
+"be transposed to meet matplotlib's default layout. If a Series or "
+"DataFrame is passed, use passed data to draw a table."
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:117
+msgid "**yerr**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:116
+msgid "DataFrame, Series, array-like, dict and str"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:116
+msgid "See :ref:`Plotting with Error Bars <visualization.errorbars>` for detail."
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:120
+msgid "**xerr**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:119
+msgid "same types as yerr."
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:123
+msgid "**stacked**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:122
+msgid "boolean, default False in line and"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:123
+msgid "bar plots, and True in area plot. If True, create stacked plot."
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:126
+msgid "**sort_columns**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:126
+msgid "Sort column names to determine plot ordering"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:130
+msgid "**secondary_y**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:129
+msgid "boolean or sequence, default False"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:129
+msgid ""
+"Whether to plot on the secondary y-axis If a list/tuple, which columns to"
+" plot on secondary y-axis"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:134
+msgid "**mark_right**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:133
+msgid ""
+"When using a secondary_y axis, automatically mark the column labels with "
+"\"(right)\" in the legend"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:137
+msgid "**`**kwds`**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:136
+msgid "keywords"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:137
+msgid "Options to pass to matplotlib plotting method"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:148
+msgid "**axes** : :class:`matplotlib.axes.Axes` or numpy.ndarray of them"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:147
+msgid "matplotlib.axes.Axes or numpy.ndarray of them"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:151
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:152
+msgid "See matplotlib documentation online for more on this subject"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:153
+msgid ""
+"If `kind` = 'bar' or 'barh', you can specify relative alignments for bar "
+"plot layout by `position` keyword. From 0 (left/bottom-end) to 1 (right"
+"/top-end). Default is 0.5 (center)"
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:156
+msgid ""
+"If `kind` = 'scatter' and the argument `c` is the name of a dataframe "
+"column, the values of that column are used to color each point."
+msgstr ""
+
+#: of pandas.DataFrame.plot.__call__:158
+msgid ""
+"If `kind` = 'hexbin', you can control the size of the bins with the "
+"`gridsize` argument. By default, a histogram of the counts around each "
+"`(x, y)` point is computed. You can specify alternative aggregations by "
+"passing values to the `C` and `reduce_C_function` arguments. `C` "
+"specifies the value at each `(x, y)` point and `reduce_C_function` is a "
+"function of one argument that reduces all the values in a bin to a single"
+" number (e.g. `mean`, `max`, `sum`, `std`)."
+msgstr ""
+

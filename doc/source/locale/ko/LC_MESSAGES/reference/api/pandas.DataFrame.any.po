@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.any.rst:2
+msgid "pandas.DataFrame.any"
+msgstr ""
+
+#: of pandas.DataFrame.any:2
+msgid "Return whether any element is True, potentially over an axis."
+msgstr ""
+
+#: of pandas.DataFrame.any:4
+msgid ""
+"Returns False unless there at least one element within a series or along "
+"a Dataframe axis that is True or equivalent (e.g. non-zero or non-empty)."
+msgstr ""
+
+#: of pandas.DataFrame.any
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.any:17
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.DataFrame.any:16
+msgid "{0 or 'index', 1 or 'columns', None}, default 0"
+msgstr ""
+
+#: of pandas.DataFrame.any:11
+msgid "Indicate which axis or axes should be reduced."
+msgstr ""
+
+#: of pandas.DataFrame.any:13
+msgid ""
+"0 / 'index' : reduce the index, return a Series whose index is the "
+"original column labels."
+msgstr ""
+
+#: of pandas.DataFrame.any:15
+msgid ""
+"1 / 'columns' : reduce the columns, return a Series whose index is the "
+"original index."
+msgstr ""
+
+#: of pandas.DataFrame.any:17
+msgid "None : reduce all axes, return a scalar."
+msgstr ""
+
+#: of pandas.DataFrame.any:21
+msgid "**bool_only**"
+msgstr ""
+
+#: of pandas.DataFrame.any:20
+msgid "bool, default None"
+msgstr ""
+
+#: of pandas.DataFrame.any:20
+msgid ""
+"Include only boolean columns. If None, will attempt to use everything, "
+"then use only boolean data. Not implemented for Series."
+msgstr ""
+
+#: of pandas.DataFrame.any:27
+msgid "**skipna**"
+msgstr ""
+
+#: of pandas.DataFrame.any:26
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.DataFrame.any:24
+msgid ""
+"Exclude NA/null values. If the entire row/column is NA and skipna is "
+"True, then the result will be False, as for an empty row/column. If "
+"skipna is False, then NA are treated as True, because these are not equal"
+" to zero."
+msgstr ""
+
+#: of pandas.DataFrame.any:31
+msgid "**level**"
+msgstr ""
+
+#: of pandas.DataFrame.any:30
+msgid "int or level name, default None"
+msgstr ""
+
+#: of pandas.DataFrame.any:30
+msgid ""
+"If the axis is a MultiIndex (hierarchical), count along a particular "
+"level, collapsing into a Series."
+msgstr ""
+
+#: of pandas.DataFrame.any:35
+msgid "**\\*\\*kwargs**"
+msgstr ""
+
+#: of pandas.DataFrame.any:34
+msgid "any, default None"
+msgstr ""
+
+#: of pandas.DataFrame.any:34
+msgid ""
+"Additional keywords have no effect but might be accepted for "
+"compatibility with NumPy."
+msgstr ""
+
+#: of pandas.DataFrame.any
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.any:46
+msgid "**Series or DataFrame**"
+msgstr ""
+
+#: of pandas.DataFrame.any:40
+msgid ""
+"If level is specified, then, DataFrame is returned; otherwise, Series is "
+"returned."
+msgstr ""
+
+#: of pandas.DataFrame.any:52
+msgid ":obj:`numpy.any`"
+msgstr ""
+
+#: of pandas.DataFrame.any:52
+msgid "Numpy version of this method."
+msgstr ""
+
+#: of pandas.DataFrame.any:55
+msgid ":obj:`Series.any`"
+msgstr ""
+
+#: of pandas.DataFrame.any:55
+msgid "Return whether any element is True."
+msgstr ""
+
+#: of pandas.DataFrame.any:58
+msgid ":obj:`Series.all`"
+msgstr ""
+
+#: of pandas.DataFrame.any:58
+msgid "Return whether all elements are True."
+msgstr ""
+
+#: of pandas.DataFrame.any:61
+msgid ":obj:`DataFrame.any`"
+msgstr ""
+
+#: of pandas.DataFrame.any:61
+msgid "Return whether any element is True over requested axis."
+msgstr ""
+
+#: of pandas.DataFrame.any:63
+msgid ":obj:`DataFrame.all`"
+msgstr ""
+
+#: of pandas.DataFrame.any:64
+msgid "Return whether all elements are True over requested axis."
+msgstr ""
+
+#: of pandas.DataFrame.any:69
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.any:70
+msgid "**Series**"
+msgstr ""
+
+#: of pandas.DataFrame.any:72
+msgid ""
+"For Series input, the output is a scalar indicating whether any element "
+"is True."
+msgstr ""
+
+#: of pandas.DataFrame.any:86
+msgid "**DataFrame**"
+msgstr ""
+
+#: of pandas.DataFrame.any:88
+msgid "Whether each column contains at least one True element (the default)."
+msgstr ""
+
+#: of pandas.DataFrame.any:102
+msgid "Aggregating over the columns."
+msgstr ""
+
+#: of pandas.DataFrame.any:126
+msgid "Aggregating over the entire DataFrame with ``axis=None``."
+msgstr ""
+
+#: of pandas.DataFrame.any:131
+msgid "`any` for an empty DataFrame is an empty Series."
+msgstr ""
+

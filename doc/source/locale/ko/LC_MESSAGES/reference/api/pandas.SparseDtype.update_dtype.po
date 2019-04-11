@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.SparseDtype.update_dtype.rst:2
+msgid "pandas.SparseDtype.update\\_dtype"
+msgstr ""
+
+#: of pandas.SparseDtype.update_dtype:2
+msgid "Convert the SparseDtype to a new dtype."
+msgstr ""
+
+#: of pandas.SparseDtype.update_dtype:4
+msgid "This takes care of converting the ``fill_value``."
+msgstr ""
+
+#: of pandas.SparseDtype.update_dtype
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.SparseDtype.update_dtype:14
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.SparseDtype.update_dtype:13
+msgid "Union[str, numpy.dtype, SparseDtype]"
+msgstr ""
+
+#: of pandas.SparseDtype.update_dtype:9
+msgid "The new dtype to use."
+msgstr ""
+
+#: of pandas.SparseDtype.update_dtype:11
+msgid "For a SparseDtype, it is simply returned"
+msgstr ""
+
+#: of pandas.SparseDtype.update_dtype:12
+msgid ""
+"For a NumPy dtype (or str), the current fill value is converted to the "
+"new dtype, and a SparseDtype with `dtype` and the new fill value is "
+"returned."
+msgstr ""
+
+#: of pandas.SparseDtype.update_dtype
+msgid "Returns"
+msgstr ""
+
+#: of pandas.SparseDtype.update_dtype:22
+msgid "**SparseDtype**"
+msgstr ""
+
+#: of pandas.SparseDtype.update_dtype:19
+msgid "A new SparseDtype with the corret `dtype` and fill value for that `dtype`."
+msgstr ""
+
+#: of pandas.SparseDtype.update_dtype
+msgid "Raises"
+msgstr ""
+
+#: of pandas.SparseDtype.update_dtype:34
+msgid "**ValueError**"
+msgstr ""
+
+#: of pandas.SparseDtype.update_dtype:27
+msgid ""
+"When the current fill value cannot be converted to the new `dtype` (e.g. "
+"trying to convert ``np.nan`` to an integer dtype)."
+msgstr ""
+
+#: of pandas.SparseDtype.update_dtype:37
+msgid "Examples"
+msgstr ""
+

@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.dropna.rst:2
+msgid "pandas.Series.dropna"
+msgstr ""
+
+#: of pandas.Series.dropna:2
+msgid "Return a new Series with missing values removed."
+msgstr ""
+
+#: of pandas.Series.dropna:4
+msgid ""
+"See the :ref:`User Guide <missing_data>` for more on which values are "
+"considered missing, and how to work with missing data."
+msgstr ""
+
+#: of pandas.Series.dropna
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.dropna:10
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.Series.dropna:9
+msgid "{0 or 'index'}, default 0"
+msgstr ""
+
+#: of pandas.Series.dropna:10
+msgid "There is only one axis to drop values from."
+msgstr ""
+
+#: of pandas.Series.dropna:13
+msgid "**inplace**"
+msgstr ""
+
+#: of pandas.Series.dropna:12
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.Series.dropna:13
+msgid "If True, do operation inplace and return None."
+msgstr ""
+
+#: of pandas.Series.dropna:16
+msgid "**\\*\\*kwargs**"
+msgstr ""
+
+#: of pandas.Series.dropna:16
+msgid "Not in use."
+msgstr ""
+
+#: of pandas.Series.dropna
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.dropna:26
+msgid "**Series**"
+msgstr ""
+
+#: of pandas.Series.dropna:21
+msgid "Series with NA entries dropped from it."
+msgstr ""
+
+#: of pandas.Series.dropna:32
+msgid ":obj:`Series.isna`"
+msgstr ""
+
+#: of pandas.Series.dropna:32
+msgid "Indicate missing values."
+msgstr ""
+
+#: of pandas.Series.dropna:35
+msgid ":obj:`Series.notna`"
+msgstr ""
+
+#: of pandas.Series.dropna:35
+msgid "Indicate existing (non-missing) values."
+msgstr ""
+
+#: of pandas.Series.dropna:38
+msgid ":obj:`Series.fillna`"
+msgstr ""
+
+#: of pandas.Series.dropna:38
+msgid "Replace missing values."
+msgstr ""
+
+#: of pandas.Series.dropna:41
+msgid ":obj:`DataFrame.dropna`"
+msgstr ""
+
+#: of pandas.Series.dropna:41
+msgid "Drop rows or columns which contain NA values."
+msgstr ""
+
+#: of pandas.Series.dropna:43
+msgid ":obj:`Index.dropna`"
+msgstr ""
+
+#: of pandas.Series.dropna:44
+msgid "Drop missing indices."
+msgstr ""
+
+#: of pandas.Series.dropna:49
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.dropna:57
+msgid "Drop NA values from a Series."
+msgstr ""
+
+#: of pandas.Series.dropna:64
+msgid "Keep the Series with valid entries in the same variable."
+msgstr ""
+
+#: of pandas.Series.dropna:72
+msgid ""
+"Empty strings are not considered NA values. ``None`` is considered an NA "
+"value."
+msgstr ""
+

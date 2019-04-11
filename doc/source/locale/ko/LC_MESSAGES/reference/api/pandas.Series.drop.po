@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.drop.rst:2
+msgid "pandas.Series.drop"
+msgstr ""
+
+#: of pandas.Series.drop:2
+msgid "Return Series with specified index labels removed."
+msgstr ""
+
+#: of pandas.Series.drop:4
+msgid ""
+"Remove elements of a Series based on specifying the index labels. When "
+"using a multi-index, labels on different levels can be removed by "
+"specifying the level."
+msgstr ""
+
+#: of pandas.Series.drop
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.drop:11
+msgid "**labels**"
+msgstr ""
+
+#: of pandas.Series.drop:10
+msgid "single label or list-like"
+msgstr ""
+
+#: of pandas.Series.drop:11
+msgid "Index labels to drop."
+msgstr ""
+
+#: of pandas.Series.drop:14
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.Series.drop:13
+msgid "0, default 0"
+msgstr ""
+
+#: of pandas.Series.drop:14
+msgid "Redundant for application on Series."
+msgstr ""
+
+#: of pandas.Series.drop:20
+msgid "**index, columns**"
+msgstr ""
+
+#: of pandas.Series.drop:19
+msgid "None"
+msgstr ""
+
+#: of pandas.Series.drop:17
+msgid ""
+"Redundant for application on Series, but index can be used instead of "
+"labels."
+msgstr ""
+
+#: of pandas.Series.drop:23
+msgid "**level**"
+msgstr ""
+
+#: of pandas.Series.drop:22
+msgid "int or level name, optional"
+msgstr ""
+
+#: of pandas.Series.drop:23
+msgid "For MultiIndex, level for which the labels will be removed."
+msgstr ""
+
+#: of pandas.Series.drop:26
+msgid "**inplace**"
+msgstr ""
+
+#: of pandas.Series.drop:25
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.Series.drop:26
+msgid "If True, do operation inplace and return None."
+msgstr ""
+
+#: of pandas.Series.drop:29
+msgid "**errors**"
+msgstr ""
+
+#: of pandas.Series.drop:28
+msgid "{'ignore', 'raise'}, default 'raise'"
+msgstr ""
+
+#: of pandas.Series.drop:29
+msgid "If 'ignore', suppress error and only existing labels are dropped."
+msgstr ""
+
+#: of pandas.Series.drop
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.drop:36
+msgid "**dropped**"
+msgstr ""
+
+#: of pandas.Series.drop:35
+msgid "pandas.Series"
+msgstr ""
+
+#: of pandas.Series.drop
+msgid "Raises"
+msgstr ""
+
+#: of pandas.Series.drop:43
+msgid "**KeyError**"
+msgstr ""
+
+#: of pandas.Series.drop:41
+msgid "If none of the labels are found in the index."
+msgstr ""
+
+#: of pandas.Series.drop:49
+msgid ":obj:`Series.reindex`"
+msgstr ""
+
+#: of pandas.Series.drop:49
+msgid "Return only specified index labels of Series."
+msgstr ""
+
+#: of pandas.Series.drop:52
+msgid ":obj:`Series.dropna`"
+msgstr ""
+
+#: of pandas.Series.drop:52
+msgid "Return series without null values."
+msgstr ""
+
+#: of pandas.Series.drop:55
+msgid ":obj:`Series.drop_duplicates`"
+msgstr ""
+
+#: of pandas.Series.drop:55
+msgid "Return Series with duplicate values removed."
+msgstr ""
+
+#: of pandas.Series.drop:57
+msgid ":obj:`DataFrame.drop`"
+msgstr ""
+
+#: of pandas.Series.drop:58
+msgid "Drop specified labels from rows or columns."
+msgstr ""
+
+#: of pandas.Series.drop:63
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.drop:71
+msgid "Drop labels B en C"
+msgstr ""
+
+#: of pandas.Series.drop:77
+msgid "Drop 2nd level label in MultiIndex Series"
+msgstr ""
+

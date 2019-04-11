@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.HDFStore.walk.rst:2
+msgid "pandas.HDFStore.walk"
+msgstr ""
+
+#: of pandas.HDFStore.walk:2
+msgid "Walk the pytables group hierarchy for pandas objects"
+msgstr ""
+
+#: of pandas.HDFStore.walk:4
+msgid ""
+"This generator will yield the group path, subgroups and pandas object "
+"names for each group. Any non-pandas PyTables objects that are not a "
+"group will be ignored."
+msgstr ""
+
+#: of pandas.HDFStore.walk:8
+msgid ""
+"The `where` group itself is listed first (preorder), then each of its "
+"child groups (following an alphanumerical order) is also traversed, "
+"following the same procedure."
+msgstr ""
+
+#: of pandas.HDFStore.walk
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.HDFStore.walk:19
+msgid "**where**"
+msgstr ""
+
+#: of pandas.HDFStore.walk:18
+msgid "str, optional"
+msgstr ""
+
+#: of pandas.HDFStore.walk:17
+msgid "Group where to start walking. If not supplied, the root group is used."
+msgstr ""
+
+#: of pandas.HDFStore.walk
+msgid "Yields"
+msgstr ""
+
+#: of pandas.HDFStore.walk:24
+msgid "**path**"
+msgstr ""
+
+#: of pandas.HDFStore.walk:23
+msgid "str"
+msgstr ""
+
+#: of pandas.HDFStore.walk:24
+msgid "Full path to a group (without trailing '/')"
+msgstr ""
+
+#: of pandas.HDFStore.walk:27
+msgid "**groups**"
+msgstr ""
+
+#: of pandas.HDFStore.walk:26 pandas.HDFStore.walk:39
+msgid "list of str"
+msgstr ""
+
+#: of pandas.HDFStore.walk:27
+msgid "names of the groups contained in `path`"
+msgstr ""
+
+#: of pandas.HDFStore.walk:40
+msgid "**leaves**"
+msgstr ""
+
+#: of pandas.HDFStore.walk:30
+msgid "names of the pandas objects contained in `path`"
+msgstr ""
+

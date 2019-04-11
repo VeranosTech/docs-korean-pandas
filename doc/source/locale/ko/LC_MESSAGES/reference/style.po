@@ -1,0 +1,307 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/style.rst:1
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../reference/style.rst:7
+msgid "Style"
+msgstr ""
+
+#: ../../reference/style.rst:10
+msgid "``Styler`` objects are returned by :attr:`pandas.DataFrame.style`."
+msgstr ""
+
+#: ../../reference/style.rst:13
+msgid "Styler Constructor"
+msgstr ""
+
+#: ../../reference/style.rst:19:<autosummary>:1
+msgid ""
+":obj:`Styler <pandas.io.formats.style.Styler>`\\ \\(data\\[\\, "
+"precision\\, table\\_styles\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/style.rst:19:<autosummary>:1
+msgid "Helps style a DataFrame or Series according to the data with HTML and CSS."
+msgstr ""
+
+#: ../../reference/style.rst:19:<autosummary>:1
+msgid ""
+":obj:`Styler.from_custom_template "
+"<pandas.io.formats.style.Styler.from_custom_template>`\\ \\(searchpath\\,"
+" name\\)"
+msgstr ""
+
+#: ../../reference/style.rst:19:<autosummary>:1
+msgid ""
+"Factory function for creating a subclass of ``Styler`` with a custom "
+"template and Jinja environment."
+msgstr ""
+
+#: ../../reference/style.rst:21
+msgid "Styler Properties"
+msgstr ""
+
+#: ../../reference/style.rst:28:<autosummary>:1
+msgid ":obj:`Styler.env <pandas.io.formats.style.Styler.env>`\\"
+msgstr ""
+
+#: ../../reference/style.rst:28:<autosummary>:1
+msgid ":obj:`Styler.template <pandas.io.formats.style.Styler.template>`\\"
+msgstr ""
+
+#: ../../reference/style.rst:28:<autosummary>:1
+msgid ":obj:`Styler.loader <pandas.io.formats.style.Styler.loader>`\\"
+msgstr ""
+
+#: ../../reference/style.rst:30
+msgid "Style Application"
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid ""
+":obj:`Styler.apply <pandas.io.formats.style.Styler.apply>`\\ "
+"\\(func\\[\\, axis\\, subset\\]\\)"
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid ""
+"Apply a function column-wise, row-wise, or table-wise, updating the HTML "
+"representation with the result."
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid ""
+":obj:`Styler.applymap <pandas.io.formats.style.Styler.applymap>`\\ "
+"\\(func\\[\\, subset\\]\\)"
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid ""
+"Apply a function elementwise, updating the HTML representation with the "
+"result."
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid ""
+":obj:`Styler.where <pandas.io.formats.style.Styler.where>`\\ \\(cond\\, "
+"value\\[\\, other\\, subset\\]\\)"
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid ""
+"Apply a function elementwise, updating the HTML representation with a "
+"style which is selected in accordance with the return value of a "
+"function."
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid ""
+":obj:`Styler.format <pandas.io.formats.style.Styler.format>`\\ "
+"\\(formatter\\[\\, subset\\]\\)"
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid "Format the text display value of cells."
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid ""
+":obj:`Styler.set_precision "
+"<pandas.io.formats.style.Styler.set_precision>`\\ \\(precision\\)"
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid "Set the precision used to render."
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid ""
+":obj:`Styler.set_table_styles "
+"<pandas.io.formats.style.Styler.set_table_styles>`\\ \\(table\\_styles\\)"
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid "Set the table styles on a Styler."
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid ""
+":obj:`Styler.set_table_attributes "
+"<pandas.io.formats.style.Styler.set_table_attributes>`\\ \\(attributes\\)"
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid "Set the table attributes."
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid ""
+":obj:`Styler.set_caption <pandas.io.formats.style.Styler.set_caption>`\\ "
+"\\(caption\\)"
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid "Set the caption on a Styler"
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid ""
+":obj:`Styler.set_properties "
+"<pandas.io.formats.style.Styler.set_properties>`\\ \\(\\[subset\\]\\)"
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid ""
+"Convenience method for setting one or more non-data dependent properties "
+"or each cell."
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid ""
+":obj:`Styler.set_uuid <pandas.io.formats.style.Styler.set_uuid>`\\ "
+"\\(uuid\\)"
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid "Set the uuid for a Styler."
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid ":obj:`Styler.clear <pandas.io.formats.style.Styler.clear>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid "Reset the styler, removing any previously applied styles."
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid ""
+":obj:`Styler.pipe <pandas.io.formats.style.Styler.pipe>`\\ \\(func\\, "
+"\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: ../../reference/style.rst:46:<autosummary>:1
+msgid "Apply ``func(self, *args, **kwargs)``, and return the result."
+msgstr ""
+
+#: ../../reference/style.rst:48
+msgid "Builtin Styles"
+msgstr ""
+
+#: ../../reference/style.rst:57:<autosummary>:1
+msgid ""
+":obj:`Styler.highlight_max "
+"<pandas.io.formats.style.Styler.highlight_max>`\\ \\(\\[subset\\, "
+"color\\, axis\\]\\)"
+msgstr ""
+
+#: ../../reference/style.rst:57:<autosummary>:1
+msgid "Highlight the maximum by shading the background."
+msgstr ""
+
+#: ../../reference/style.rst:57:<autosummary>:1
+msgid ""
+":obj:`Styler.highlight_min "
+"<pandas.io.formats.style.Styler.highlight_min>`\\ \\(\\[subset\\, "
+"color\\, axis\\]\\)"
+msgstr ""
+
+#: ../../reference/style.rst:57:<autosummary>:1
+msgid "Highlight the minimum by shading the background."
+msgstr ""
+
+#: ../../reference/style.rst:57:<autosummary>:1
+msgid ""
+":obj:`Styler.highlight_null "
+"<pandas.io.formats.style.Styler.highlight_null>`\\ "
+"\\(\\[null\\_color\\]\\)"
+msgstr ""
+
+#: ../../reference/style.rst:57:<autosummary>:1
+msgid "Shade the background ``null_color`` for missing values."
+msgstr ""
+
+#: ../../reference/style.rst:57:<autosummary>:1
+msgid ""
+":obj:`Styler.background_gradient "
+"<pandas.io.formats.style.Styler.background_gradient>`\\ \\(\\[cmap\\, "
+"low\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/style.rst:57:<autosummary>:1
+msgid ""
+"Color the background in a gradient according to the data in each column "
+"(optionally row)."
+msgstr ""
+
+#: ../../reference/style.rst:57:<autosummary>:1
+msgid ""
+":obj:`Styler.bar <pandas.io.formats.style.Styler.bar>`\\ \\(\\[subset\\, "
+"axis\\, color\\, width\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/style.rst:57:<autosummary>:1
+msgid "Draw bar chart in the cell backgrounds."
+msgstr ""
+
+#: ../../reference/style.rst:59
+msgid "Style Export and Import"
+msgstr ""
+
+#: ../../reference/style.rst:66:<autosummary>:1
+msgid ""
+":obj:`Styler.render <pandas.io.formats.style.Styler.render>`\\ "
+"\\(\\*\\*kwargs\\)"
+msgstr ""
+
+#: ../../reference/style.rst:66:<autosummary>:1
+msgid "Render the built up styles to HTML."
+msgstr ""
+
+#: ../../reference/style.rst:66:<autosummary>:1
+msgid ":obj:`Styler.export <pandas.io.formats.style.Styler.export>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/style.rst:66:<autosummary>:1
+msgid "Export the styles to applied to the current Styler."
+msgstr ""
+
+#: ../../reference/style.rst:66:<autosummary>:1
+msgid ":obj:`Styler.use <pandas.io.formats.style.Styler.use>`\\ \\(styles\\)"
+msgstr ""
+
+#: ../../reference/style.rst:66:<autosummary>:1
+msgid ""
+"Set the styles on the current Styler, possibly using styles from "
+"``Styler.export``."
+msgstr ""
+
+#: ../../reference/style.rst:66:<autosummary>:1
+msgid ""
+":obj:`Styler.to_excel <pandas.io.formats.style.Styler.to_excel>`\\ "
+"\\(excel\\_writer\\[\\, sheet\\_name\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/style.rst:66:<autosummary>:1
+msgid "Write Styler to an Excel sheet."
+msgstr ""
+

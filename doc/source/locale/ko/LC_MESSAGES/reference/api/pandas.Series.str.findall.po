@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.str.findall.rst:2
+msgid "pandas.Series.str.findall"
+msgstr ""
+
+#: of pandas.Series.str.findall:2
+msgid "Find all occurrences of pattern or regular expression in the Series/Index."
+msgstr ""
+
+#: of pandas.Series.str.findall:4
+msgid ""
+"Equivalent to applying :func:`re.findall` to all the elements in the "
+"Series/Index."
+msgstr ""
+
+#: of pandas.Series.str.findall
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.str.findall:10
+msgid "**pat**"
+msgstr ""
+
+#: of pandas.Series.str.findall:9
+msgid "string"
+msgstr ""
+
+#: of pandas.Series.str.findall:10
+msgid "Pattern or regular expression."
+msgstr ""
+
+#: of pandas.Series.str.findall:14
+msgid "**flags**"
+msgstr ""
+
+#: of pandas.Series.str.findall:13
+msgid "int, default 0"
+msgstr ""
+
+#: of pandas.Series.str.findall:13
+msgid ""
+"``re`` module flags, e.g. `re.IGNORECASE` (default is 0, which means no "
+"flags)."
+msgstr ""
+
+#: of pandas.Series.str.findall
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.str.findall:25
+msgid "**Series/Index of lists of strings**"
+msgstr ""
+
+#: of pandas.Series.str.findall:19
+msgid ""
+"All non-overlapping matches of pattern or regular expression in each "
+"string of this Series/Index."
+msgstr ""
+
+#: of pandas.Series.str.findall:31
+msgid ":obj:`count`"
+msgstr ""
+
+#: of pandas.Series.str.findall:31
+msgid ""
+"Count occurrences of pattern or regular expression in each string of the "
+"Series/Index."
+msgstr ""
+
+#: of pandas.Series.str.findall:34
+msgid ":obj:`extractall`"
+msgstr ""
+
+#: of pandas.Series.str.findall:34
+msgid ""
+"For each string in the Series, extract groups from all matches of regular"
+" expression and return a DataFrame with one row for each match and one "
+"column for each group."
+msgstr ""
+
+#: of pandas.Series.str.findall:36
+msgid ":obj:`re.findall`"
+msgstr ""
+
+#: of pandas.Series.str.findall:37
+msgid ""
+"The equivalent ``re`` function to all non-overlapping matches of pattern "
+"or regular expression in string, as a list of strings."
+msgstr ""
+
+#: of pandas.Series.str.findall:42
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.str.findall:45
+msgid "The search for the pattern 'Monkey' returns one match:"
+msgstr ""
+
+#: of pandas.Series.str.findall:53
+msgid ""
+"On the other hand, the search for the pattern 'MONKEY' doesn't return any"
+" match:"
+msgstr ""
+
+#: of pandas.Series.str.findall:62
+msgid ""
+"Flags can be added to the pattern or regular expression. For instance, to"
+" find the pattern 'MONKEY' ignoring the case:"
+msgstr ""
+
+#: of pandas.Series.str.findall:72
+msgid ""
+"When the pattern matches more than one string in the Series, all matches "
+"are returned:"
+msgstr ""
+
+#: of pandas.Series.str.findall:81
+msgid ""
+"Regular expressions are supported too. For instance, the search for all "
+"the strings ending with the word 'on' is shown next:"
+msgstr ""
+
+#: of pandas.Series.str.findall:90
+msgid ""
+"If the pattern is found more than once in the same string, then a list of"
+" multiple strings is returned:"
+msgstr ""
+

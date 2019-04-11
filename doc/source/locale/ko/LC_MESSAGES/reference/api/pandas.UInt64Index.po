@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.UInt64Index.rst:2
+msgid "pandas.UInt64Index"
+msgstr ""
+
+#: of pandas.UInt64Index:2
+msgid ""
+"Immutable ndarray implementing an ordered, sliceable set. The basic "
+"object storing axis labels for all pandas objects. UInt64Index is a "
+"special case of `Index` with purely unsigned integer labels."
+msgstr ""
+
+#: of pandas.UInt64Index
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.UInt64Index:10
+msgid "**data**"
+msgstr ""
+
+#: of pandas.UInt64Index:9
+msgid "array-like (1-dimensional)"
+msgstr ""
+
+#: of pandas.UInt64Index:13
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.UInt64Index:12
+msgid "NumPy dtype (default: uint64)"
+msgstr ""
+
+#: of pandas.UInt64Index:16
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.UInt64Index:15
+msgid "bool"
+msgstr ""
+
+#: of pandas.UInt64Index:16
+msgid "Make a copy of input ndarray"
+msgstr ""
+
+#: of pandas.UInt64Index:25
+msgid "**name**"
+msgstr ""
+
+#: of pandas.UInt64Index:24
+msgid "object"
+msgstr ""
+
+#: of pandas.UInt64Index:19
+msgid "Name to be stored in the index"
+msgstr ""
+
+#: of pandas.UInt64Index:30
+msgid ":obj:`Index`"
+msgstr ""
+
+#: of pandas.UInt64Index:31
+msgid "The base pandas Index type."
+msgstr ""
+
+#: of pandas.UInt64Index:34
+msgid "Notes"
+msgstr ""
+
+#: of pandas.UInt64Index:35
+msgid "An Index instance can **only** contain hashable objects."
+msgstr ""
+
+#: of pandas.UInt64Index:42
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.UInt64Index:44 pandas.UInt64Index:52
+msgid "**None**"
+msgstr ""
+
+#: of pandas.UInt64Index:50
+msgid "Methods"
+msgstr ""
+

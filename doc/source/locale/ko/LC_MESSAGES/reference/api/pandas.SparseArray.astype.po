@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.SparseArray.astype.rst:2
+msgid "pandas.SparseArray.astype"
+msgstr ""
+
+#: of pandas.SparseArray.astype:2
+msgid "Change the dtype of a SparseArray."
+msgstr ""
+
+#: of pandas.SparseArray.astype:4
+msgid ""
+"The output will always be a SparseArray. To convert to a dense ndarray "
+"with a certain dtype, use :meth:`numpy.asarray`."
+msgstr ""
+
+#: of pandas.SparseArray.astype
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.SparseArray.astype:14
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.SparseArray.astype:13
+msgid "np.dtype or ExtensionDtype"
+msgstr ""
+
+#: of pandas.SparseArray.astype:10
+msgid ""
+"For SparseDtype, this changes the dtype of ``self.sp_values`` and the "
+"``self.fill_value``."
+msgstr ""
+
+#: of pandas.SparseArray.astype:13
+msgid "For other dtypes, this only changes the dtype of ``self.sp_values``."
+msgstr ""
+
+#: of pandas.SparseArray.astype:17
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.SparseArray.astype:16
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.SparseArray.astype:17
+msgid "Whether to ensure a copy is made, even if not necessary."
+msgstr ""
+
+#: of pandas.SparseArray.astype
+msgid "Returns"
+msgstr ""
+
+#: of pandas.SparseArray.astype:30
+msgid "**SparseArray**"
+msgstr ""
+
+#: of pandas.SparseArray.astype:33
+msgid "Examples"
+msgstr ""
+
+#: of pandas.SparseArray.astype:47
+msgid ""
+"Using a NumPy dtype with a different kind (e.g. float) will coerce just "
+"``self.sp_values``."
+msgstr ""
+
+#: of pandas.SparseArray.astype:57
+msgid "Use a SparseDtype if you wish to be change the fill value as well."
+msgstr ""
+

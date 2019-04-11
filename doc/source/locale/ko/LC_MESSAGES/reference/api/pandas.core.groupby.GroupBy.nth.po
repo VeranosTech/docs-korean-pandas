@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.core.groupby.GroupBy.nth.rst:2
+msgid "pandas.core.groupby.GroupBy.nth"
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.nth:2
+msgid ""
+"Take the nth row from each group if n is an int, or a subset of rows if n"
+" is a list of ints."
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.nth:5
+msgid ""
+"If dropna, will take the nth non-null row, dropna is either Truthy (if a "
+"Series) or 'all', 'any' (if a DataFrame); this is equivalent to calling "
+"dropna(how=dropna) before the groupby."
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.nth
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.nth:13
+msgid "**n**"
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.nth:12
+msgid "int or list of ints"
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.nth:13
+msgid "a single nth value for the row or a list of nth values"
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.nth:23
+msgid "**dropna**"
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.nth:22
+msgid "None or str, optional"
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.nth:16
+msgid ""
+"apply the specified dropna operation before counting which row is the nth"
+" row. Needs to be None, 'any' or 'all'"
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.nth:28
+msgid ":obj:`pandas.Series.`, :obj:`pandas.DataFrame.`, :obj:`pandas.Panel.`"
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.nth:33
+msgid "Examples"
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.nth:60
+msgid "Specifying `dropna` allows count ignoring ``NaN``"
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.nth:68
+msgid "NaNs denote group exhausted when using dropna"
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.nth:76
+msgid "Specifying `as_index=False` in `groupby` keeps the original index."
+msgstr ""
+

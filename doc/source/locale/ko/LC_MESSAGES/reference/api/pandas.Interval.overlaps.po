@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Interval.overlaps.rst:2
+msgid "pandas.Interval.overlaps"
+msgstr ""
+
+#: of pandas.Interval.overlaps:2
+msgid "Check whether two Interval objects overlap."
+msgstr ""
+
+#: of pandas.Interval.overlaps:4
+msgid ""
+"Two intervals overlap if they share a common point, including closed "
+"endpoints. Intervals that only have an open endpoint in common do not "
+"overlap."
+msgstr ""
+
+#: of pandas.Interval.overlaps
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Interval.overlaps:13
+msgid "**other**"
+msgstr ""
+
+#: of pandas.Interval.overlaps:12
+msgid "Interval"
+msgstr ""
+
+#: of pandas.Interval.overlaps:13
+msgid "The interval to check against for an overlap."
+msgstr ""
+
+#: of pandas.Interval.overlaps
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Interval.overlaps:23
+msgid "**bool**"
+msgstr ""
+
+#: of pandas.Interval.overlaps:18
+msgid "``True`` if the two intervals overlap, else ``False``."
+msgstr ""
+
+#: of pandas.Interval.overlaps:29
+msgid ":obj:`IntervalArray.overlaps`"
+msgstr ""
+
+#: of pandas.Interval.overlaps:29
+msgid "The corresponding method for IntervalArray."
+msgstr ""
+
+#: of pandas.Interval.overlaps:31
+msgid ":obj:`IntervalIndex.overlaps`"
+msgstr ""
+
+#: of pandas.Interval.overlaps:32
+msgid "The corresponding method for IntervalIndex."
+msgstr ""
+
+#: of pandas.Interval.overlaps:37
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Interval.overlaps:46
+msgid "Intervals that share closed endpoints overlap:"
+msgstr ""
+
+#: of pandas.Interval.overlaps:53
+msgid "Intervals that only have an open endpoint in common do not overlap:"
+msgstr ""
+

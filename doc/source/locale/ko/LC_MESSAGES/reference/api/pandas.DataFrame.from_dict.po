@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.from_dict.rst:2
+msgid "pandas.DataFrame.from\\_dict"
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:2
+msgid "Construct DataFrame from dict of array-like or dicts."
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:4
+msgid ""
+"Creates DataFrame object from dictionary by columns or by index allowing "
+"dtype specification."
+msgstr ""
+
+#: of pandas.DataFrame.from_dict
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:10
+msgid "**data**"
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:9
+msgid "dict"
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:10
+msgid "Of the form {field : array-like} or {field : dict}."
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:15
+msgid "**orient**"
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:14
+msgid "{'columns', 'index'}, default 'columns'"
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:13
+msgid ""
+"The \"orientation\" of the data. If the keys of the passed dict should be"
+" the columns of the resulting DataFrame, pass 'columns' (default). "
+"Otherwise if the keys should be rows, pass 'index'."
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:18
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:17
+msgid "dtype, default None"
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:18
+msgid "Data type to force, otherwise infer."
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:24
+msgid "**columns**"
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:23
+msgid "list, default None"
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:21
+msgid ""
+"Column labels to use when ``orient='index'``. Raises a ValueError if used"
+" with ``orient='columns'``."
+msgstr ""
+
+#: of pandas.DataFrame.from_dict
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:34
+msgid "**pandas.DataFrame**"
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:40
+msgid ":obj:`DataFrame.from_records`"
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:40
+msgid ""
+"DataFrame from ndarray (structured dtype), list of tuples, dict, or "
+"DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:42
+msgid ":obj:`DataFrame`"
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:43
+msgid "DataFrame object creation using constructor."
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:48
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:49
+msgid "By default the keys of the dict become the DataFrame columns:"
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:59
+msgid ""
+"Specify ``orient='index'`` to create the DataFrame using dictionary keys "
+"as rows:"
+msgstr ""
+
+#: of pandas.DataFrame.from_dict:68
+msgid ""
+"When using the 'index' orientation, the column names can be specified "
+"manually:"
+msgstr ""
+

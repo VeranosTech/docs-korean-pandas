@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.IntervalDtype.rst:2
+msgid "pandas.IntervalDtype"
+msgstr ""
+
+#: of pandas.IntervalDtype:2
+msgid "A Interval duck-typed class, suitable for holding an interval"
+msgstr ""
+
+#: of pandas.IntervalDtype:4
+msgid "THIS IS NOT A REAL NUMPY DTYPE"
+msgstr ""
+
+#: of pandas.IntervalDtype:18
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.IntervalDtype:25:<autosummary>:1
+msgid ":obj:`names <pandas.IntervalDtype.names>`\\"
+msgstr ""
+
+#: of pandas.IntervalDtype:25:<autosummary>:1
+msgid "Ordered list of field names, or None if there are no fields."
+msgstr ""
+
+#: of pandas.IntervalDtype:25:<autosummary>:1
+msgid ":obj:`type <pandas.IntervalDtype.type>`\\"
+msgstr ""
+
+#: of pandas.IntervalDtype:25:<autosummary>:1
+msgid "The scalar type for the array, e.g."
+msgstr ""
+
+#: of pandas.IntervalDtype:27
+msgid "**kind**"
+msgstr ""
+
+#: of pandas.IntervalDtype:28
+msgid "**subdtype**"
+msgstr ""
+
+#: of pandas.IntervalDtype:32
+msgid "Methods"
+msgstr ""
+
+#: of pandas.IntervalDtype:40:<autosummary>:1
+msgid ""
+":obj:`construct_array_type <pandas.IntervalDtype.construct_array_type>`\\"
+" \\(\\)"
+msgstr ""
+
+#: of pandas.IntervalDtype:40:<autosummary>:1
+msgid "Return the array type associated with this dtype"
+msgstr ""
+
+#: of pandas.IntervalDtype:40:<autosummary>:1
+msgid ""
+":obj:`construct_from_string "
+"<pandas.IntervalDtype.construct_from_string>`\\ \\(string\\)"
+msgstr ""
+
+#: of pandas.IntervalDtype:40:<autosummary>:1
+msgid ""
+"attempt to construct this type from a string, raise a TypeError if its "
+"not possible"
+msgstr ""
+
+#: of pandas.IntervalDtype:40:<autosummary>:1
+msgid ":obj:`is_dtype <pandas.IntervalDtype.is_dtype>`\\ \\(dtype\\)"
+msgstr ""
+
+#: of pandas.IntervalDtype:40:<autosummary>:1
+msgid ""
+"Return a boolean if we if the passed type is an actual dtype that we can "
+"match (via string or type)"
+msgstr ""
+
+#: of pandas.IntervalDtype:40:<autosummary>:1
+msgid ":obj:`reset_cache <pandas.IntervalDtype.reset_cache>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.IntervalDtype:40:<autosummary>:1
+msgid "clear the cache"
+msgstr ""
+

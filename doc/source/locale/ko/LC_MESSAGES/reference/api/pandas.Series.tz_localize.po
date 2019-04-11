@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.tz_localize.rst:2
+msgid "pandas.Series.tz\\_localize"
+msgstr ""
+
+#: of pandas.Series.tz_localize:2
+msgid "Localize tz-naive index of a Series or DataFrame to target time zone."
+msgstr ""
+
+#: of pandas.Series.tz_localize:4
+msgid ""
+"This operation localizes the Index. To localize the values in a timezone-"
+"naive Series, use :meth:`Series.dt.tz_localize`."
+msgstr ""
+
+#: of pandas.Series.tz_localize
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.tz_localize:10
+msgid "**tz**"
+msgstr ""
+
+#: of pandas.Series.tz_localize:9
+msgid "string or pytz.timezone object"
+msgstr ""
+
+#: of pandas.Series.tz_localize:13
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.Series.tz_localize:12
+msgid "the axis to localize"
+msgstr ""
+
+#: of pandas.Series.tz_localize:17
+msgid "**level**"
+msgstr ""
+
+#: of pandas.Series.tz_localize:16
+msgid "int, str, default None"
+msgstr ""
+
+#: of pandas.Series.tz_localize:16
+msgid "If axis ia a MultiIndex, localize a specific level. Otherwise must be None"
+msgstr ""
+
+#: of pandas.Series.tz_localize:20
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.Series.tz_localize:19
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.Series.tz_localize:20
+msgid "Also make a copy of the underlying data"
+msgstr ""
+
+#: of pandas.Series.tz_localize:37
+msgid "**ambiguous**"
+msgstr ""
+
+#: of pandas.Series.tz_localize:36
+msgid "'infer', bool-ndarray, 'NaT', default 'raise'"
+msgstr ""
+
+#: of pandas.Series.tz_localize:23
+msgid ""
+"When clocks moved backward due to DST, ambiguous times may arise. For "
+"example in Central European Time (UTC+01), when going from 03:00 DST to "
+"02:00 non-DST, 02:30:00 local time occurs both at 00:30:00 UTC and at "
+"01:30:00 UTC. In such a situation, the `ambiguous` parameter dictates how"
+" ambiguous times should be handled."
+msgstr ""
+
+#: of pandas.Series.tz_localize:30
+msgid "'infer' will attempt to infer fall dst-transition hours based on order"
+msgstr ""
+
+#: of pandas.Series.tz_localize:32
+msgid ""
+"bool-ndarray where True signifies a DST time, False designates a non-DST "
+"time (note that this flag is only applicable for ambiguous times)"
+msgstr ""
+
+#: of pandas.Series.tz_localize:35
+msgid "'NaT' will return NaT where there are ambiguous times"
+msgstr ""
+
+#: of pandas.Series.tz_localize:36
+msgid "'raise' will raise an AmbiguousTimeError if there are ambiguous times"
+msgstr ""
+
+#: of pandas.Series.tz_localize:52
+msgid "**nonexistent**"
+msgstr ""
+
+#: of pandas.Series.tz_localize:51
+msgid "str, default 'raise'"
+msgstr ""
+
+#: of pandas.Series.tz_localize:40
+msgid ""
+"A nonexistent time does not exist in a particular timezone where clocks "
+"moved forward due to DST. Valid valuse are:"
+msgstr ""
+
+#: of pandas.Series.tz_localize:43
+msgid ""
+"'shift_forward' will shift the nonexistent time forward to the closest "
+"existing time"
+msgstr ""
+
+#: of pandas.Series.tz_localize:45
+msgid ""
+"'shift_backward' will shift the nonexistent time backward to the closest "
+"existing time"
+msgstr ""
+
+#: of pandas.Series.tz_localize:47
+msgid "'NaT' will return NaT where there are nonexistent times"
+msgstr ""
+
+#: of pandas.Series.tz_localize:48
+msgid "timedelta objects will shift nonexistent times by the timedelta"
+msgstr ""
+
+#: of pandas.Series.tz_localize:49
+msgid "'raise' will raise an NonExistentTimeError if there are nonexistent times"
+msgstr ""
+
+#: of pandas.Series.tz_localize
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.tz_localize:59
+msgid "**Series or DataFrame**"
+msgstr ""
+
+#: of pandas.Series.tz_localize:57
+msgid "Same type as the input."
+msgstr ""
+
+#: of pandas.Series.tz_localize
+msgid "Raises"
+msgstr ""
+
+#: of pandas.Series.tz_localize:69
+msgid "**TypeError**"
+msgstr ""
+
+#: of pandas.Series.tz_localize:64
+msgid "If the TimeSeries is tz-aware and tz is not None."
+msgstr ""
+
+#: of pandas.Series.tz_localize:72
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.tz_localize:73
+msgid "Localize local times:"
+msgstr ""
+
+#: of pandas.Series.tz_localize:81
+msgid ""
+"Be careful with DST changes. When there is sequential data, pandas can "
+"infer the DST time:"
+msgstr ""
+
+#: of pandas.Series.tz_localize:102
+msgid ""
+"In some cases, inferring the DST is impossible. In such cases, you can "
+"pass an ndarray to the ambiguous parameter to set the DST explicitly"
+msgstr ""
+
+#: of pandas.Series.tz_localize:115
+msgid ""
+"If the DST transition causes nonexistent times, you can shift these dates"
+" forward or backwards with a timedelta object or `'shift_forward'` or "
+"`'shift_backwards'`. >>> s = pd.Series(range(2), index=pd.DatetimeIndex(["
+" ... '2015-03-29 02:30:00', ... '2015-03-29 03:30:00'])) >>> "
+"s.tz_localize('Europe/Warsaw', nonexistent='shift_forward') 2015-03-29 "
+"03:00:00+02:00    0 2015-03-29 03:30:00+02:00    1 dtype: int64 >>> "
+"s.tz_localize('Europe/Warsaw', nonexistent='shift_backward') 2015-03-29 "
+"01:59:59.999999999+01:00    0 2015-03-29 03:30:00+02:00              1 "
+"dtype: int64 >>> s.tz_localize('Europe/Warsaw', "
+"nonexistent=pd.Timedelta('1H')) 2015-03-29 03:30:00+02:00    0 2015-03-29"
+" 03:30:00+02:00    1 dtype: int64"
+msgstr ""
+

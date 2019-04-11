@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.str.translate.rst:2
+msgid "pandas.Series.str.translate"
+msgstr ""
+
+#: of pandas.Series.str.translate:2
+msgid ""
+"Map all characters in the string through the given mapping table. "
+"Equivalent to standard :meth:`str.translate`. Note that the optional "
+"argument deletechars is only valid if you are using python 2. For python "
+"3, character deletion should be specified via the table argument."
+msgstr ""
+
+#: of pandas.Series.str.translate
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.str.translate:18
+msgid "**table**"
+msgstr ""
+
+#: of pandas.Series.str.translate:17
+msgid "dict (python 3), str or None (python 2)"
+msgstr ""
+
+#: of pandas.Series.str.translate:11
+msgid ""
+"In python 3, table is a mapping of Unicode ordinals to Unicode ordinals, "
+"strings, or None. Unmapped characters are left untouched. Characters "
+"mapped to None are deleted. :meth:`str.maketrans` is a helper function "
+"for making translation tables. In python 2, table is either a string of "
+"length 256 or None. If the table argument is None, no translation is "
+"applied and the operation simply removes the characters in deletechars. "
+":func:`string.maketrans` is a helper function for making translation "
+"tables."
+msgstr ""
+
+#: of pandas.Series.str.translate:22
+msgid "**deletechars**"
+msgstr ""
+
+#: of pandas.Series.str.translate:21
+msgid "str, optional (python 2)"
+msgstr ""
+
+#: of pandas.Series.str.translate:21
+msgid "A string of characters to delete. This argument is only valid in python 2."
+msgstr ""
+
+#: of pandas.Series.str.translate
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.str.translate:38
+msgid "**translated**"
+msgstr ""
+
+#: of pandas.Series.str.translate:37
+msgid "Series/Index of objects"
+msgstr ""
+

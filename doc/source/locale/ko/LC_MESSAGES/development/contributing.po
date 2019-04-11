@@ -1,0 +1,1700 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../development/contributing.rst:3
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../development/contributing.rst:7
+msgid "Contributing to pandas"
+msgstr ""
+
+#: ../../development/contributing.rst:10
+msgid "Table of contents:"
+msgstr ""
+
+#: ../../development/contributing.rst:13
+msgid "Where to start?"
+msgstr ""
+
+#: ../../development/contributing.rst:15
+msgid ""
+"All contributions, bug reports, bug fixes, documentation improvements, "
+"enhancements, and ideas are welcome."
+msgstr ""
+
+#: ../../development/contributing.rst:18
+msgid ""
+"If you are brand new to pandas or open-source development, we recommend "
+"going through the `GitHub \"issues\" tab <https://github.com/pandas-"
+"dev/pandas/issues>`_ to find issues that interest you. There are a number"
+" of issues listed under `Docs <https://github.com/pandas-"
+"dev/pandas/issues?labels=Docs&sort=updated&state=open>`_ and `good first "
+"issue <https://github.com/pandas-"
+"dev/pandas/issues?labels=good+first+issue&sort=updated&state=open>`_ "
+"where you could start out. Once you've found an interesting issue, you "
+"can return here to get your development environment setup."
+msgstr ""
+
+#: ../../development/contributing.rst:27
+msgid ""
+"Feel free to ask questions on the `mailing list "
+"<https://groups.google.com/forum/?fromgroups#!forum/pydata>`_ or on "
+"`Gitter`_."
+msgstr ""
+
+#: ../../development/contributing.rst:33
+msgid "Bug reports and enhancement requests"
+msgstr ""
+
+#: ../../development/contributing.rst:35
+msgid ""
+"Bug reports are an important part of making *pandas* more stable. Having "
+"a complete bug report will allow others to reproduce the bug and provide "
+"insight into fixing. See `this stackoverflow article "
+"<https://stackoverflow.com/help/mcve>`_ and `this blogpost "
+"<http://matthewrocklin.com/blog/work/2018/02/28/minimal-bug-reports>`_ "
+"for tips on writing a good bug report."
+msgstr ""
+
+#: ../../development/contributing.rst:41
+msgid ""
+"Trying the bug-producing code out on the *master* branch is often a "
+"worthwhile exercise to confirm the bug still exists. It is also worth "
+"searching existing bug reports and pull requests to see if the issue has "
+"already been reported and/or fixed."
+msgstr ""
+
+#: ../../development/contributing.rst:45
+msgid "Bug reports must:"
+msgstr ""
+
+#: ../../development/contributing.rst:47
+msgid ""
+"Include a short, self-contained Python snippet reproducing the problem. "
+"You can format the code nicely by using `GitHub Flavored Markdown "
+"<http://github.github.com/github-flavored-markdown/>`_::"
+msgstr ""
+
+#: ../../development/contributing.rst:57
+msgid ""
+"Include the full version string of *pandas* and its dependencies. You can"
+" use the built-in function::"
+msgstr ""
+
+#: ../../development/contributing.rst:62
+msgid ""
+"Explain why the current behavior is wrong/not desired and what you expect"
+" instead."
+msgstr ""
+
+#: ../../development/contributing.rst:64
+msgid ""
+"The issue will then show up to the *pandas* community and be open to "
+"comments/ideas from others."
+msgstr ""
+
+#: ../../development/contributing.rst:69
+msgid "Working with the code"
+msgstr ""
+
+#: ../../development/contributing.rst:71
+msgid ""
+"Now that you have an issue you want to fix, enhancement to add, or "
+"documentation to improve, you need to learn how to work with GitHub and "
+"the *pandas* code base."
+msgstr ""
+
+#: ../../development/contributing.rst:77
+msgid "Version control, Git, and GitHub"
+msgstr ""
+
+#: ../../development/contributing.rst:79
+msgid ""
+"To the new user, working with Git is one of the more daunting aspects of "
+"contributing to *pandas*. It can very quickly become overwhelming, but "
+"sticking to the guidelines below will help keep the process "
+"straightforward and mostly trouble free.  As always, if you are having "
+"difficulties please feel free to ask for help."
+msgstr ""
+
+#: ../../development/contributing.rst:84
+msgid ""
+"The code is hosted on `GitHub <https://www.github.com/pandas-"
+"dev/pandas>`_. To contribute you will need to sign up for a `free GitHub "
+"account <https://github.com/signup/free>`_. We use `Git <http://git-"
+"scm.com/>`_ for version control to allow many people to work together on "
+"the project."
+msgstr ""
+
+#: ../../development/contributing.rst:89
+msgid "Some great resources for learning Git:"
+msgstr ""
+
+#: ../../development/contributing.rst:91
+msgid "the `GitHub help pages <http://help.github.com/>`_."
+msgstr ""
+
+#: ../../development/contributing.rst:92
+msgid ""
+"the `NumPy's documentation "
+"<http://docs.scipy.org/doc/numpy/dev/index.html>`_."
+msgstr ""
+
+#: ../../development/contributing.rst:93
+msgid "Matthew Brett's `Pydagogue <http://matthew-brett.github.com/pydagogue/>`_."
+msgstr ""
+
+#: ../../development/contributing.rst:96
+msgid "Getting started with Git"
+msgstr ""
+
+#: ../../development/contributing.rst:98
+msgid ""
+"`GitHub has instructions <http://help.github.com/set-up-git-redirect>`__ "
+"for installing git, setting up your SSH key, and configuring git.  All "
+"these steps need to be completed before you can work seamlessly between "
+"your local repository and GitHub."
+msgstr ""
+
+#: ../../development/contributing.rst:105
+msgid "Forking"
+msgstr ""
+
+#: ../../development/contributing.rst:107
+msgid ""
+"You will need your own fork to work on the code. Go to the `pandas "
+"project page <https://github.com/pandas-dev/pandas>`_ and hit the "
+"``Fork`` button. You will want to clone your fork to your machine::"
+msgstr ""
+
+#: ../../development/contributing.rst:115
+msgid ""
+"This creates the directory `pandas-yourname` and connects your repository"
+" to the upstream (main project) *pandas* repository."
+msgstr ""
+
+#: ../../development/contributing.rst:121
+msgid "Creating a development environment"
+msgstr ""
+
+#: ../../development/contributing.rst:123
+msgid ""
+"To test out code changes, you'll need to build pandas from source, which "
+"requires a C compiler and Python environment. If you're making "
+"documentation changes, you can skip to :ref:`contributing.documentation` "
+"but you won't be able to build the documentation locally before pushing "
+"your changes."
+msgstr ""
+
+#: ../../development/contributing.rst:131
+msgid "Installing a C Compiler"
+msgstr ""
+
+#: ../../development/contributing.rst:133
+msgid ""
+"Pandas uses C extensions (mostly written using Cython) to speed up "
+"certain operations. To install pandas from source, you need to compile "
+"these C extensions, which means you need a C compiler. This process "
+"depends on which platform you're using. Follow the `CPython contributing "
+"guide <https://devguide.python.org/setup/#compile-and-build>`_ for "
+"getting a compiler installed. You don't need to do any of the "
+"``./configure`` or ``make`` steps; you only need to install the compiler."
+msgstr ""
+
+#: ../../development/contributing.rst:141
+msgid ""
+"For Windows developers, when using Python 3.5 and later, it is sufficient"
+" to install `Visual Studio 2017 <https://visualstudio.com/>`_ with the "
+"**Python development workload** and the **Python native development "
+"tools** option. Otherwise, the following links may be helpful."
+msgstr ""
+
+#: ../../development/contributing.rst:146
+msgid ""
+"https://blogs.msdn.microsoft.com/pythonengineering/2017/03/07/python-"
+"support-in-vs2017/"
+msgstr ""
+
+#: ../../development/contributing.rst:147
+msgid ""
+"https://blogs.msdn.microsoft.com/pythonengineering/2016/04/11/unable-to-"
+"find-vcvarsall-bat/"
+msgstr ""
+
+#: ../../development/contributing.rst:148
+msgid ""
+"https://github.com/conda/conda-recipes/wiki/Building-from-Source-on-"
+"Windows-32-bit-and-64-bit"
+msgstr ""
+
+#: ../../development/contributing.rst:149
+msgid "https://cowboyprogrammer.org/building-python-wheels-for-windows/"
+msgstr ""
+
+#: ../../development/contributing.rst:150
+msgid "https://blog.ionelmc.ro/2014/12/21/compiling-python-extensions-on-windows/"
+msgstr ""
+
+#: ../../development/contributing.rst:151
+msgid ""
+"https://support.enthought.com/hc/en-us/articles/204469260-Building-"
+"Python-extensions-with-Canopy"
+msgstr ""
+
+#: ../../development/contributing.rst:153
+msgid ""
+"Let us know if you have any difficulties by opening an issue or reaching "
+"out on `Gitter`_."
+msgstr ""
+
+#: ../../development/contributing.rst:159
+msgid "Creating a Python Environment"
+msgstr ""
+
+#: ../../development/contributing.rst:161
+msgid ""
+"Now that you have a C compiler, create an isolated pandas development "
+"environment:"
+msgstr ""
+
+#: ../../development/contributing.rst:164
+msgid ""
+"Install either `Anaconda <https://www.anaconda.com/download/>`_ or "
+"`miniconda <https://conda.io/miniconda.html>`_"
+msgstr ""
+
+#: ../../development/contributing.rst:166
+msgid "Make sure your conda is up to date (``conda update conda``)"
+msgstr ""
+
+#: ../../development/contributing.rst:167
+msgid ""
+"Make sure that you have :ref:`cloned the repository "
+"<contributing.forking>`"
+msgstr ""
+
+#: ../../development/contributing.rst:168
+msgid "``cd`` to the *pandas* source directory"
+msgstr ""
+
+#: ../../development/contributing.rst:170
+msgid "We'll now kick off a three-step process:"
+msgstr ""
+
+#: ../../development/contributing.rst:172
+msgid "Install the build dependencies"
+msgstr ""
+
+#: ../../development/contributing.rst:173
+msgid "Build and install pandas"
+msgstr ""
+
+#: ../../development/contributing.rst:174
+msgid "Install the optional dependencies"
+msgstr ""
+
+#: ../../development/contributing.rst:190
+msgid ""
+"At this point you should be able to import pandas from your locally built"
+" version::"
+msgstr ""
+
+#: ../../development/contributing.rst:197
+msgid ""
+"This will create the new environment, and not touch any of your existing "
+"environments, nor any existing Python installation."
+msgstr ""
+
+#: ../../development/contributing.rst:200
+msgid "To view your environments::"
+msgstr ""
+
+#: ../../development/contributing.rst:204
+msgid "To return to your root environment::"
+msgstr ""
+
+#: ../../development/contributing.rst:208
+msgid "See the full conda docs `here <http://conda.pydata.org/docs>`__."
+msgstr ""
+
+#: ../../development/contributing.rst:213
+msgid "Creating a Python Environment (pip)"
+msgstr ""
+
+#: ../../development/contributing.rst:215
+msgid ""
+"If you aren't using conda for your development environment, follow these "
+"instructions. You'll need to have at least python3.5 installed on your "
+"system."
+msgstr ""
+
+#: ../../development/contributing.rst:235
+msgid "Creating a branch"
+msgstr ""
+
+#: ../../development/contributing.rst:237
+msgid ""
+"You want your master branch to reflect only production-ready code, so "
+"create a feature branch for making your changes. For example::"
+msgstr ""
+
+#: ../../development/contributing.rst:243
+msgid "The above can be simplified to::"
+msgstr ""
+
+#: ../../development/contributing.rst:247
+msgid ""
+"This changes your working directory to the shiny-new-feature branch.  "
+"Keep any changes in this branch specific to one bug or feature so it is "
+"clear what the branch brings to *pandas*. You can have many shiny-new-"
+"features and switch in between them using the git checkout command."
+msgstr ""
+
+#: ../../development/contributing.rst:252
+msgid ""
+"When creating this branch, make sure your master branch is up to date "
+"with the latest upstream master version. To update your local master "
+"branch, you can do::"
+msgstr ""
+
+#: ../../development/contributing.rst:259
+msgid ""
+"When you want to update the feature branch with changes in master after "
+"you created the branch, check the section on :ref:`updating a PR "
+"<contributing.update-pr>`."
+msgstr ""
+
+#: ../../development/contributing.rst:266
+msgid "Contributing to the documentation"
+msgstr ""
+
+#: ../../development/contributing.rst:268
+msgid ""
+"Contributing to the documentation benefits everyone who uses *pandas*. We"
+" encourage you to help us improve the documentation, and you don't have "
+"to be an expert on *pandas* to do so! In fact, there are sections of the "
+"docs that are worse off after being written by experts. If something in "
+"the docs doesn't make sense to you, updating the relevant section after "
+"you figure it out is a great way to ensure it will help the next person."
+msgstr ""
+
+#: ../../development/contributing.rst:278
+msgid "Documentation:"
+msgstr ""
+
+#: ../../development/contributing.rst:281
+msgid "About the *pandas* documentation"
+msgstr ""
+
+#: ../../development/contributing.rst:283
+msgid ""
+"The documentation is written in **reStructuredText**, which is almost "
+"like writing in plain English, and built using `Sphinx "
+"<http://sphinx.pocoo.org/>`__. The Sphinx Documentation has an excellent "
+"`introduction to reST <http://sphinx.pocoo.org/rest.html>`__. Review the "
+"Sphinx docs to perform more complex changes to the documentation as well."
+msgstr ""
+
+#: ../../development/contributing.rst:289
+msgid "Some other important things to know about the docs:"
+msgstr ""
+
+#: ../../development/contributing.rst:291
+msgid ""
+"The *pandas* documentation consists of two parts: the docstrings in the "
+"code itself and the docs in this folder ``pandas/doc/``."
+msgstr ""
+
+#: ../../development/contributing.rst:294
+msgid ""
+"The docstrings provide a clear explanation of the usage of the individual"
+" functions, while the documentation in this folder consists of tutorial-"
+"like overviews per topic together with some other information (what's "
+"new, installation, etc)."
+msgstr ""
+
+#: ../../development/contributing.rst:299
+msgid ""
+"The docstrings follow a pandas convention, based on the **Numpy Docstring"
+" Standard**. Follow the :ref:`pandas docstring guide <docstring>` for "
+"detailed instructions on how to write a correct docstring."
+msgstr ""
+
+#: ../../development/contributing.rst:308
+msgid ""
+"The tutorials make heavy use of the `ipython directive "
+"<http://matplotlib.org/sampledoc/ipython_directive.html>`_ sphinx "
+"extension. This directive lets you put code in the documentation which "
+"will be run during the doc build. For example::"
+msgstr ""
+
+#: ../../development/contributing.rst:318
+msgid "will be rendered as::"
+msgstr ""
+
+#: ../../development/contributing.rst:325
+msgid ""
+"Almost all code examples in the docs are run (and the output saved) "
+"during the doc build. This approach means that code examples will always "
+"be up to date, but it does make the doc building a bit more complex."
+msgstr ""
+
+#: ../../development/contributing.rst:329
+msgid ""
+"Our API documentation in ``doc/source/api.rst`` houses the auto-generated"
+" documentation from the docstrings. For classes, there are a few "
+"subtleties around controlling which methods and attributes have pages "
+"auto-generated."
+msgstr ""
+
+#: ../../development/contributing.rst:333
+msgid "We have two autosummary templates for classes."
+msgstr ""
+
+#: ../../development/contributing.rst:335
+msgid ""
+"``_templates/autosummary/class.rst``. Use this when you want to "
+"automatically generate a page for every public method and attribute on "
+"the class. The ``Attributes`` and ``Methods`` sections will be "
+"automatically added to the class' rendered documentation by numpydoc. See"
+" ``DataFrame`` for an example."
+msgstr ""
+
+#: ../../development/contributing.rst:341
+msgid ""
+"``_templates/autosummary/class_without_autosummary``. Use this when you "
+"want to pick a subset of methods / attributes to auto-generate pages for."
+" When using this template, you should include an ``Attributes`` and "
+"``Methods`` section in the class docstring. See ``CategoricalIndex`` for "
+"an example."
+msgstr ""
+
+#: ../../development/contributing.rst:347
+msgid ""
+"Every method should be included in a ``toctree`` in ``api.rst``, else "
+"Sphinx will emit a warning."
+msgstr ""
+
+#: ../../development/contributing.rst:352
+msgid ""
+"The ``.rst`` files are used to automatically generate Markdown and HTML "
+"versions of the docs. For this reason, please do not edit "
+"``CONTRIBUTING.md`` directly, but instead make any changes to "
+"``doc/source/contributing.rst``. Then, to generate ``CONTRIBUTING.md``, "
+"use `pandoc <http://johnmacfarlane.net/pandoc/>`_ with the following "
+"command::"
+msgstr ""
+
+#: ../../development/contributing.rst:360
+msgid ""
+"The utility script ``scripts/validate_docstrings.py`` can be used to get "
+"a csv summary of the API documentation. And also validate common errors "
+"in the docstring of a specific class, function or method. The summary "
+"also compares the list of methods documented in ``doc/source/api.rst`` "
+"(which is used to generate the `API Reference <http://pandas.pydata.org"
+"/pandas-docs/stable/api.html>`_ page) and the actual public methods. This"
+" will identify methods documented in ``doc/source/api.rst`` that are not "
+"actually class methods, and existing methods that are not documented in "
+"``doc/source/api.rst``."
+msgstr ""
+
+#: ../../development/contributing.rst:371
+msgid "Updating a *pandas* docstring"
+msgstr ""
+
+#: ../../development/contributing.rst:373
+msgid ""
+"When improving a single function or method's docstring, it is not "
+"necessarily needed to build the full documentation (see next section). "
+"However, there is a script that checks a docstring (for example for the "
+"``DataFrame.mean`` method)::"
+msgstr ""
+
+#: ../../development/contributing.rst:379
+msgid ""
+"This script will indicate some formatting errors if present, and will "
+"also run and test the examples included in the docstring. Check the "
+":ref:`pandas docstring guide <docstring>` for a detailed guide on how to "
+"format the docstring."
+msgstr ""
+
+#: ../../development/contributing.rst:384
+msgid ""
+"The examples in the docstring ('doctests') must be valid Python code, "
+"that in a deterministic way returns the presented output, and that can be"
+" copied and run by users. This can be checked with the script above, and "
+"is also tested on Travis. A failing doctest will be a blocker for merging"
+" a PR. Check the :ref:`examples <docstring.examples>` section in the "
+"docstring guide for some tips and tricks to get the doctests passing."
+msgstr ""
+
+#: ../../development/contributing.rst:391
+msgid ""
+"When doing a PR with a docstring update, it is good to post the output of"
+" the validation script in a comment on github."
+msgstr ""
+
+#: ../../development/contributing.rst:396
+msgid "How to build the *pandas* documentation"
+msgstr ""
+
+#: ../../development/contributing.rst:399
+msgid "Requirements"
+msgstr ""
+
+#: ../../development/contributing.rst:401
+msgid ""
+"First, you need to have a development environment to be able to build "
+"pandas (see the docs on :ref:`creating a development environment above "
+"<contributing.dev_env>`)."
+msgstr ""
+
+#: ../../development/contributing.rst:405
+msgid "Building the documentation"
+msgstr ""
+
+#: ../../development/contributing.rst:407
+msgid ""
+"So how do you build the docs? Navigate to your local ``pandas/doc/`` "
+"directory in the console and run::"
+msgstr ""
+
+#: ../../development/contributing.rst:412
+msgid ""
+"Then you can find the HTML output in the folder "
+"``pandas/doc/build/html/``."
+msgstr ""
+
+#: ../../development/contributing.rst:414
+msgid ""
+"The first time you build the docs, it will take quite a while because it "
+"has to run all the code examples and build all the generated docstring "
+"pages. In subsequent evocations, sphinx will try to only build the pages "
+"that have been modified."
+msgstr ""
+
+#: ../../development/contributing.rst:418
+msgid "If you want to do a full clean build, do::"
+msgstr ""
+
+#: ../../development/contributing.rst:423
+msgid ""
+"You can tell ``make.py`` to compile only a single section of the docs, "
+"greatly reducing the turn-around time for checking your changes."
+msgstr ""
+
+#: ../../development/contributing.rst:441
+msgid ""
+"For comparison, a full documentation build may take 15 minutes, but a "
+"single section may take 15 seconds. Subsequent builds, which only process"
+" portions you have changed, will be faster."
+msgstr ""
+
+#: ../../development/contributing.rst:445
+msgid ""
+"You can also specify to use multiple cores to speed up the documentation "
+"build::"
+msgstr ""
+
+#: ../../development/contributing.rst:449
+msgid ""
+"Open the following file in a web browser to see the full documentation "
+"you just built::"
+msgstr ""
+
+#: ../../development/contributing.rst:454
+msgid ""
+"And you'll have the satisfaction of seeing your new and improved "
+"documentation!"
+msgstr ""
+
+#: ../../development/contributing.rst:459
+msgid "Building master branch documentation"
+msgstr ""
+
+#: ../../development/contributing.rst:461
+msgid ""
+"When pull requests are merged into the *pandas* ``master`` branch, the "
+"main parts of the documentation are also built by Travis-CI. These docs "
+"are then hosted `here <http://pandas-docs.github.io/pandas-docs-"
+"travis>`__, see also the :ref:`Continuous Integration <contributing.ci>` "
+"section."
+msgstr ""
+
+#: ../../development/contributing.rst:469
+msgid "Contributing to the code base"
+msgstr ""
+
+#: ../../development/contributing.rst:472
+msgid "Code Base:"
+msgstr ""
+
+#: ../../development/contributing.rst:475
+msgid "Code standards"
+msgstr ""
+
+#: ../../development/contributing.rst:477
+msgid ""
+"Writing good code is not just about what you write. It is also about "
+"*how* you write it. During :ref:`Continuous Integration "
+"<contributing.ci>` testing, several tools will be run to check your code "
+"for stylistic errors. Generating any warnings will cause the test to "
+"fail. Thus, good style is a requirement for submitting code to *pandas*."
+msgstr ""
+
+#: ../../development/contributing.rst:483
+msgid ""
+"There is a tool in pandas to help contributors verify their changes "
+"before contributing them to the project::"
+msgstr ""
+
+#: ../../development/contributing.rst:488
+msgid ""
+"The script verifies the linting of code files, it looks for common "
+"mistake patterns (like missing spaces around sphinx directives that make "
+"the documentation not being rendered properly) and it also validates the "
+"doctests. It is possible to run the checks independently by using the "
+"parameters ``lint``, ``patterns`` and ``doctests`` (e.g. "
+"``./ci/code_checks.sh lint``)."
+msgstr ""
+
+#: ../../development/contributing.rst:494
+msgid ""
+"In addition, because a lot of people use our library, it is important "
+"that we do not make sudden changes to the code that could have the "
+"potential to break a lot of user code as a result, that is, we need it to"
+" be as *backwards compatible* as possible to avoid mass breakages."
+msgstr ""
+
+#: ../../development/contributing.rst:499
+msgid ""
+"Additional standards are outlined on the `code style wiki page "
+"<https://github.com/pandas-dev/pandas/wiki/Code-Style-and-Conventions>`_."
+msgstr ""
+
+#: ../../development/contributing.rst:503
+msgid "C (cpplint)"
+msgstr ""
+
+#: ../../development/contributing.rst:505
+msgid ""
+"*pandas* uses the `Google "
+"<https://google.github.io/styleguide/cppguide.html>`_ standard. Google "
+"provides an open source style checker called ``cpplint``, but we use a "
+"fork of it that can be found `here "
+"<https://github.com/cpplint/cpplint>`__. Here are *some* of the more "
+"common ``cpplint`` issues:"
+msgstr ""
+
+#: ../../development/contributing.rst:510
+msgid "we restrict line-length to 80 characters to promote readability"
+msgstr ""
+
+#: ../../development/contributing.rst:511
+msgid ""
+"every header file must include a header guard to avoid name collisions if"
+" re-included"
+msgstr ""
+
+#: ../../development/contributing.rst:513
+msgid ""
+":ref:`Continuous Integration <contributing.ci>` will run the `cpplint "
+"<https://pypi.org/project/cpplint>`_ tool and report any stylistic errors"
+" in your code. Therefore, it is helpful before submitting code to run the"
+" check yourself::"
+msgstr ""
+
+#: ../../development/contributing.rst:520
+msgid "You can also run this command on an entire directory if necessary::"
+msgstr ""
+
+#: ../../development/contributing.rst:524
+msgid ""
+"To make your commits compliant with this standard, you can install the "
+"`ClangFormat <http://clang.llvm.org/docs/ClangFormat.html>`_ tool, which "
+"can be downloaded `here <http://llvm.org/builds/>`__. To configure, in "
+"your home directory, run the following command::"
+msgstr ""
+
+#: ../../development/contributing.rst:531
+msgid ""
+"Then modify the file to ensure that any indentation width parameters are "
+"at least four. Once configured, you can run the tool as follows::"
+msgstr ""
+
+#: ../../development/contributing.rst:536
+msgid ""
+"This will output what your file will look like if the changes are made, "
+"and to apply them, run the following command::"
+msgstr ""
+
+#: ../../development/contributing.rst:541
+msgid ""
+"To run the tool on an entire directory, you can run the following "
+"analogous commands::"
+msgstr ""
+
+#: ../../development/contributing.rst:546
+msgid ""
+"Do note that this tool is best-effort, meaning that it will try to "
+"correct as many errors as possible, but it may not correct *all* of them."
+" Thus, it is recommended that you run ``cpplint`` to double check and "
+"make any other style fixes manually."
+msgstr ""
+
+#: ../../development/contributing.rst:552
+msgid "Python (PEP8)"
+msgstr ""
+
+#: ../../development/contributing.rst:554
+msgid ""
+"*pandas* uses the `PEP8 <http://www.python.org/dev/peps/pep-0008/>`_ "
+"standard. There are several tools to ensure you abide by this standard. "
+"Here are *some* of the more common ``PEP8`` issues:"
+msgstr ""
+
+#: ../../development/contributing.rst:558
+msgid "we restrict line-length to 79 characters to promote readability"
+msgstr ""
+
+#: ../../development/contributing.rst:559
+msgid ""
+"passing arguments should have spaces after commas, e.g. ``foo(arg1, arg2,"
+" kw1='bar')``"
+msgstr ""
+
+#: ../../development/contributing.rst:561
+msgid ""
+":ref:`Continuous Integration <contributing.ci>` will run the `flake8 "
+"<https://pypi.org/project/flake8>`_ tool and report any stylistic errors "
+"in your code. Therefore, it is helpful before submitting code to run the "
+"check yourself on the diff::"
+msgstr ""
+
+#: ../../development/contributing.rst:568
+msgid ""
+"This command will catch any stylistic errors in your changes "
+"specifically, but be beware it may not catch all of them. For example, if"
+" you delete the only usage of an imported function, it is stylistically "
+"incorrect to import an unused function. However, style-checking the diff "
+"will not catch this because the actual import is not part of the diff. "
+"Thus, for completeness, you should run this command, though it will take "
+"longer::"
+msgstr ""
+
+#: ../../development/contributing.rst:577
+msgid ""
+"Note that on OSX, the ``-r`` flag is not available, so you have to omit "
+"it and run this slightly modified command::"
+msgstr ""
+
+#: ../../development/contributing.rst:582
+msgid ""
+"Windows does not support the ``xargs`` command (unless installed for "
+"example via the `MinGW <http://www.mingw.org/>`__ toolchain), but one can"
+" imitate the behaviour as follows::"
+msgstr ""
+
+#: ../../development/contributing.rst:588
+msgid ""
+"This will get all the files being changed by the PR (and ending with "
+"``.py``), and run ``flake8`` on them, one after the other."
+msgstr ""
+
+#: ../../development/contributing.rst:594
+msgid "Import Formatting"
+msgstr ""
+
+#: ../../development/contributing.rst:595
+msgid ""
+"*pandas* uses `isort <https://pypi.org/project/isort/>`__ to standardise "
+"import formatting across the codebase."
+msgstr ""
+
+#: ../../development/contributing.rst:598
+msgid ""
+"A guide to import layout as per pep8 can be found `here "
+"<https://www.python.org/dev/peps/pep-0008/#imports/>`__."
+msgstr ""
+
+#: ../../development/contributing.rst:600
+msgid "A summary of our current import sections ( in order ):"
+msgstr ""
+
+#: ../../development/contributing.rst:602
+msgid "Future"
+msgstr ""
+
+#: ../../development/contributing.rst:603
+msgid "Python Standard Library"
+msgstr ""
+
+#: ../../development/contributing.rst:604
+msgid "Third Party"
+msgstr ""
+
+#: ../../development/contributing.rst:605
+msgid ""
+"``pandas._libs``, ``pandas.compat``, ``pandas.util._*``, "
+"``pandas.errors`` (largely not dependent on ``pandas.core``)"
+msgstr ""
+
+#: ../../development/contributing.rst:606
+msgid ""
+"``pandas.core.dtypes`` (largely not dependent on the rest of "
+"``pandas.core``)"
+msgstr ""
+
+#: ../../development/contributing.rst:607
+msgid "Rest of ``pandas.core.*``"
+msgstr ""
+
+#: ../../development/contributing.rst:608
+msgid "Non-core ``pandas.io``, ``pandas.plotting``, ``pandas.tseries``"
+msgstr ""
+
+#: ../../development/contributing.rst:609
+msgid "Local application/library specific imports"
+msgstr ""
+
+#: ../../development/contributing.rst:611
+msgid "Imports are alphabetically sorted within these sections."
+msgstr ""
+
+#: ../../development/contributing.rst:614
+msgid "As part of :ref:`Continuous Integration <contributing.ci>` checks we run::"
+msgstr ""
+
+#: ../../development/contributing.rst:618
+msgid "to check that imports are correctly formatted as per the `setup.cfg`."
+msgstr ""
+
+#: ../../development/contributing.rst:620
+msgid ""
+"If you see output like the below in :ref:`Continuous Integration "
+"<contributing.ci>` checks:"
+msgstr ""
+
+#: ../../development/contributing.rst:629
+msgid "You should run::"
+msgstr ""
+
+#: ../../development/contributing.rst:633
+msgid ""
+"to automatically format imports correctly. This will modify your local "
+"copy of the files."
+msgstr ""
+
+#: ../../development/contributing.rst:635
+msgid "The `--recursive` flag can be passed to sort all files in a directory."
+msgstr ""
+
+#: ../../development/contributing.rst:637
+msgid ""
+"You can then verify the changes look ok, then git :ref:`commit "
+"<contributing.commit-code>` and :ref:`push <contributing.push-code>`."
+msgstr ""
+
+#: ../../development/contributing.rst:640
+msgid "Backwards Compatibility"
+msgstr ""
+
+#: ../../development/contributing.rst:642
+msgid ""
+"Please try to maintain backward compatibility. *pandas* has lots of users"
+" with lots of existing code, so don't break it if at all possible.  If "
+"you think breakage is required, clearly state why as part of the pull "
+"request.  Also, be careful when changing method signatures and add "
+"deprecation warnings where needed. Also, add the deprecated sphinx "
+"directive to the deprecated functions or methods."
+msgstr ""
+
+#: ../../development/contributing.rst:648
+msgid ""
+"If a function with the same arguments as the one being deprecated exist, "
+"you can use the ``pandas.util._decorators.deprecate``:"
+msgstr ""
+
+#: ../../development/contributing.rst:657
+msgid "Otherwise, you need to do it manually:"
+msgstr ""
+
+#: ../../development/contributing.rst:677
+msgid "You'll also need to"
+msgstr ""
+
+#: ../../development/contributing.rst:679
+msgid ""
+"Write a new test that asserts a warning is issued when calling with the "
+"deprecated argument"
+msgstr ""
+
+#: ../../development/contributing.rst:680
+msgid "Update all of pandas existing tests and code to use the new argument"
+msgstr ""
+
+#: ../../development/contributing.rst:682
+msgid "See :ref:`contributing.warnings` for more."
+msgstr ""
+
+#: ../../development/contributing.rst:688
+msgid "Testing With Continuous Integration"
+msgstr ""
+
+#: ../../development/contributing.rst:690
+msgid ""
+"The *pandas* test suite will run automatically on `Travis-CI <https"
+"://travis-ci.org/>`__ and `Azure Pipelines <https://azure.microsoft.com"
+"/en-us/services/devops/pipelines/>`__ continuous integration services, "
+"once your pull request is submitted. However, if you wish to run the test"
+" suite on a branch prior to submitting the pull request, then the "
+"continuous integration services need to be hooked to your GitHub "
+"repository. Instructions are here for `Travis-CI <http://about.travis-"
+"ci.org/docs/user/getting-started/>`__ and `Azure Pipelines "
+"<https://docs.microsoft.com/en-us/azure/devops/pipelines/>`__."
+msgstr ""
+
+#: ../../development/contributing.rst:698
+msgid ""
+"A pull-request will be considered for merging when you have an all "
+"'green' build. If any tests are failing, then you will get a red 'X', "
+"where you can click through to see the individual failed tests. This is "
+"an example of a green build."
+msgstr ""
+
+#: ../../development/contributing.rst:706
+msgid ""
+"Each time you push to *your* fork, a *new* run of the tests will be "
+"triggered on the CI. You can enable the auto-cancel feature, which "
+"removes any non-currently-running tests for that same pull-request, for "
+"`Travis-CI here <https://docs.travis-ci.com/user/customizing-the-build"
+"/#Building-only-the-latest-commit>`__."
+msgstr ""
+
+#: ../../development/contributing.rst:714
+msgid "Test-driven development/code writing"
+msgstr ""
+
+#: ../../development/contributing.rst:716
+msgid ""
+"*pandas* is serious about testing and strongly encourages contributors to"
+" embrace `test-driven development (TDD) <https://en.wikipedia.org/wiki"
+"/Test-driven_development>`_. This development process \"relies on the "
+"repetition of a very short development cycle: first the developer writes "
+"an (initially failing) automated test case that defines a desired "
+"improvement or new function, then produces the minimum amount of code to "
+"pass that test.\" So, before actually writing any code, you should write "
+"your tests.  Often the test can be taken from the original GitHub issue."
+"  However, it is always worth considering additional use cases and "
+"writing corresponding tests."
+msgstr ""
+
+#: ../../development/contributing.rst:725
+msgid ""
+"Adding tests is one of the most common requests after code is pushed to "
+"*pandas*.  Therefore, it is worth getting in the habit of writing tests "
+"ahead of time so this is never an issue."
+msgstr ""
+
+#: ../../development/contributing.rst:728
+msgid ""
+"Like many packages, *pandas* uses `pytest "
+"<http://docs.pytest.org/en/latest/>`_ and the convenient extensions in "
+"`numpy.testing "
+"<http://docs.scipy.org/doc/numpy/reference/routines.testing.html>`_."
+msgstr ""
+
+#: ../../development/contributing.rst:735
+msgid "The earliest supported pytest version is 4.0.2."
+msgstr ""
+
+#: ../../development/contributing.rst:738
+msgid "Writing tests"
+msgstr ""
+
+#: ../../development/contributing.rst:740
+msgid ""
+"All tests should go into the ``tests`` subdirectory of the specific "
+"package. This folder contains many current examples of tests, and we "
+"suggest looking to these for inspiration.  If your test requires working "
+"with files or network connectivity, there is more information on the "
+"`testing page <https://github.com/pandas-dev/pandas/wiki/Testing>`_ of "
+"the wiki."
+msgstr ""
+
+#: ../../development/contributing.rst:746
+msgid ""
+"The ``pandas.util.testing`` module has many special ``assert`` functions "
+"that make it easier to make statements about whether Series or DataFrame "
+"objects are equivalent. The easiest way to verify that your code is "
+"correct is to explicitly construct the result you expect, then compare "
+"the actual result to the expected correct result::"
+msgstr ""
+
+#: ../../development/contributing.rst:770
+msgid "Transitioning to ``pytest``"
+msgstr ""
+
+#: ../../development/contributing.rst:772
+msgid ""
+"*pandas* existing test structure is *mostly* classed based, meaning that "
+"you will typically find tests wrapped in a class."
+msgstr ""
+
+#: ../../development/contributing.rst:779
+msgid ""
+"Going forward, we are moving to a more *functional* style using the "
+"`pytest <http://docs.pytest.org/en/latest/>`__ framework, which offers a "
+"richer testing framework that will facilitate testing and developing. "
+"Thus, instead of writing test classes, we will write test functions like "
+"this:"
+msgstr ""
+
+#: ../../development/contributing.rst:788
+msgid "Using ``pytest``"
+msgstr ""
+
+#: ../../development/contributing.rst:790
+msgid ""
+"Here is an example of a self-contained set of tests that illustrate "
+"multiple features that we like to use."
+msgstr ""
+
+#: ../../development/contributing.rst:792
+msgid ""
+"functional style: tests are like ``test_*`` and *only* take arguments "
+"that are either fixtures or parameters"
+msgstr ""
+
+#: ../../development/contributing.rst:793
+msgid ""
+"``pytest.mark`` can be used to set metadata on test functions, e.g. "
+"``skip`` or ``xfail``."
+msgstr ""
+
+#: ../../development/contributing.rst:794
+msgid "using ``parametrize``: allow testing of multiple cases"
+msgstr ""
+
+#: ../../development/contributing.rst:795
+msgid ""
+"to set a mark on a parameter, ``pytest.param(..., marks=...)`` syntax "
+"should be used"
+msgstr ""
+
+#: ../../development/contributing.rst:796
+msgid "``fixture``, code for object construction, on a per-test basis"
+msgstr ""
+
+#: ../../development/contributing.rst:797
+msgid "using bare ``assert`` for scalars and truth-testing"
+msgstr ""
+
+#: ../../development/contributing.rst:798
+msgid ""
+"``tm.assert_series_equal`` (and its counter part "
+"``tm.assert_frame_equal``), for pandas object comparisons."
+msgstr ""
+
+#: ../../development/contributing.rst:799
+msgid ""
+"the typical pattern of constructing an ``expected`` and comparing versus "
+"the ``result``"
+msgstr ""
+
+#: ../../development/contributing.rst:801
+msgid ""
+"We would name this file ``test_cool_feature.py`` and put in an "
+"appropriate place in the ``pandas/tests/`` structure."
+msgstr ""
+
+#: ../../development/contributing.rst:841
+msgid "A test run of this yields"
+msgstr ""
+
+#: ../../development/contributing.rst:862
+msgid ""
+"Tests that we have ``parametrized`` are now accessible via the test name,"
+" for example we could run these with ``-k int8`` to sub-select *only* "
+"those tests which match ``int8``."
+msgstr ""
+
+#: ../../development/contributing.rst:879
+msgid "Using ``hypothesis``"
+msgstr ""
+
+#: ../../development/contributing.rst:881
+msgid ""
+"Hypothesis is a library for property-based testing.  Instead of "
+"explicitly parametrizing a test, you can describe *all* valid inputs and "
+"let Hypothesis try to find a failing input.  Even better, no matter how "
+"many random examples it tries, Hypothesis always reports a single minimal"
+" counterexample to your assertions - often an example that you would "
+"never have thought to test."
+msgstr ""
+
+#: ../../development/contributing.rst:887
+msgid ""
+"See `Getting Started with Hypothesis <https://hypothesis.works/articles"
+"/getting-started-with-hypothesis/>`_ for more of an introduction, then "
+"`refer to the Hypothesis documentation for details "
+"<https://hypothesis.readthedocs.io/en/latest/index.html>`_."
+msgstr ""
+
+#: ../../development/contributing.rst:907
+msgid ""
+"This test shows off several useful features of Hypothesis, as well as "
+"demonstrating a good use-case: checking properties that should hold over "
+"a large or complicated domain of inputs."
+msgstr ""
+
+#: ../../development/contributing.rst:911
+msgid ""
+"To keep the Pandas test suite running quickly, parametrized tests are "
+"preferred if the inputs or logic are simple, with Hypothesis tests "
+"reserved for cases with complex logic or where there are too many "
+"combinations of options or subtle interactions to test (or think of!) all"
+" of them."
+msgstr ""
+
+#: ../../development/contributing.rst:919
+msgid "Testing Warnings"
+msgstr ""
+
+#: ../../development/contributing.rst:921
+msgid ""
+"By default, one of pandas CI workers will fail if any unhandled warnings "
+"are emitted."
+msgstr ""
+
+#: ../../development/contributing.rst:923
+msgid ""
+"If your change involves checking that a warning is actually emitted, use "
+"``tm.assert_produces_warning(ExpectedWarning)``."
+msgstr ""
+
+#: ../../development/contributing.rst:936
+msgid ""
+"We prefer this to the ``pytest.warns`` context manager because ours "
+"checks that the warning's stacklevel is set correctly. The stacklevel is "
+"what ensure the *user's* file name and line number is printed in the "
+"warning, rather than something internal to pandas. It represents the "
+"number of function calls from user code (e.g. ``df.some_operation()``) to"
+" the function that actually emits the warning. Our linter will fail the "
+"build if you use ``pytest.warns`` in a test."
+msgstr ""
+
+#: ../../development/contributing.rst:942
+msgid ""
+"If you have a test that would emit a warning, but you aren't actually "
+"testing the warning itself (say because it's going to be removed in the "
+"future, or because we're matching a 3rd-party library's behavior), then "
+"use ``pytest.mark.filterwarnings`` to ignore the error."
+msgstr ""
+
+#: ../../development/contributing.rst:953
+msgid ""
+"If the test generates a warning of class ``category`` whose message "
+"starts with ``msg``, the warning will be ignored and the test will pass."
+msgstr ""
+
+#: ../../development/contributing.rst:956
+msgid ""
+"If you need finer-grained control, you can use Python's usual `warnings "
+"module <https://docs.python.org/3/library/warnings.html>`__ to control "
+"whether a warning is ignored / raised at different places within a single"
+" test."
+msgstr ""
+
+#: ../../development/contributing.rst:967
+msgid "Alternatively, consider breaking up the unit test."
+msgstr ""
+
+#: ../../development/contributing.rst:971
+msgid "Running the test suite"
+msgstr ""
+
+#: ../../development/contributing.rst:973
+msgid ""
+"The tests can then be run directly inside your Git clone (without having "
+"to install *pandas*) by typing::"
+msgstr ""
+
+#: ../../development/contributing.rst:978
+msgid ""
+"The tests suite is exhaustive and takes around 20 minutes to run.  Often "
+"it is worth running only a subset of tests first around your changes "
+"before running the entire suite."
+msgstr ""
+
+#: ../../development/contributing.rst:982
+msgid "The easiest way to do this is with::"
+msgstr ""
+
+#: ../../development/contributing.rst:986
+msgid "Or with one of the following constructs::"
+msgstr ""
+
+#: ../../development/contributing.rst:992
+msgid ""
+"Using `pytest-xdist <https://pypi.org/project/pytest-xdist>`_, one can "
+"speed up local testing on multicore machines. To use this feature, you "
+"will need to install `pytest-xdist` via::"
+msgstr ""
+
+#: ../../development/contributing.rst:998
+msgid ""
+"Two scripts are provided to assist with this.  These scripts distribute "
+"testing across 4 threads."
+msgstr ""
+
+#: ../../development/contributing.rst:1001
+msgid "On Unix variants, one can type::"
+msgstr ""
+
+#: ../../development/contributing.rst:1005
+msgid "On Windows, one can type::"
+msgstr ""
+
+#: ../../development/contributing.rst:1009
+msgid ""
+"This can significantly reduce the time it takes to locally run tests "
+"before submitting a pull request."
+msgstr ""
+
+#: ../../development/contributing.rst:1012
+msgid ""
+"For more, see the `pytest <http://docs.pytest.org/en/latest/>`_ "
+"documentation."
+msgstr ""
+
+#: ../../development/contributing.rst:1016
+msgid "Furthermore one can run"
+msgstr ""
+
+#: ../../development/contributing.rst:1022
+msgid "with an imported pandas to run tests similarly."
+msgstr ""
+
+#: ../../development/contributing.rst:1025
+msgid "Running the performance test suite"
+msgstr ""
+
+#: ../../development/contributing.rst:1027
+msgid ""
+"Performance matters and it is worth considering whether your code has "
+"introduced performance regressions.  *pandas* is in the process of "
+"migrating to `asv benchmarks <https://github.com/spacetelescope/asv>`__ "
+"to enable easy monitoring of the performance of critical *pandas* "
+"operations. These benchmarks are all found in the ``pandas/asv_bench`` "
+"directory.  asv supports both python2 and python3."
+msgstr ""
+
+#: ../../development/contributing.rst:1034
+msgid ""
+"To use all features of asv, you will need either ``conda`` or "
+"``virtualenv``. For more details please check the `asv installation "
+"webpage <https://asv.readthedocs.io/en/latest/installing.html>`_."
+msgstr ""
+
+#: ../../development/contributing.rst:1038
+msgid "To install asv::"
+msgstr ""
+
+#: ../../development/contributing.rst:1042
+msgid ""
+"If you need to run a benchmark, change your directory to ``asv_bench/`` "
+"and run::"
+msgstr ""
+
+#: ../../development/contributing.rst:1046
+msgid ""
+"You can replace ``HEAD`` with the name of the branch you are working on, "
+"and report benchmarks that changed by more than 10%. The command uses "
+"``conda`` by default for creating the benchmark environments. If you want"
+" to use virtualenv instead, write::"
+msgstr ""
+
+#: ../../development/contributing.rst:1053
+msgid ""
+"The ``-E virtualenv`` option should be added to all ``asv`` commands that"
+" run benchmarks. The default value is defined in ``asv.conf.json``."
+msgstr ""
+
+#: ../../development/contributing.rst:1056
+msgid ""
+"Running the full test suite can take up to one hour and use up to 3GB of "
+"RAM. Usually it is sufficient to paste only a subset of the results into "
+"the pull request to show that the committed changes do not cause "
+"unexpected performance regressions.  You can run specific benchmarks "
+"using the ``-b`` flag, which takes a regular expression.  For example, "
+"this will only run tests from a "
+"``pandas/asv_bench/benchmarks/groupby.py`` file::"
+msgstr ""
+
+#: ../../development/contributing.rst:1065
+msgid ""
+"If you want to only run a specific group of tests from a file, you can do"
+" it using ``.`` as a separator. For example::"
+msgstr ""
+
+#: ../../development/contributing.rst:1070
+msgid "will only run the ``GroupByMethods`` benchmark defined in ``groupby.py``."
+msgstr ""
+
+#: ../../development/contributing.rst:1072
+msgid ""
+"You can also run the benchmark suite using the version of ``pandas`` "
+"already installed in your current Python environment. This can be useful "
+"if you do not have virtualenv or conda, or are using the ``setup.py "
+"develop`` approach discussed above; for the in-place build you need to "
+"set ``PYTHONPATH``, e.g. ``PYTHONPATH=\"$PWD/..\" asv [remaining "
+"arguments]``. You can run benchmarks using an existing Python environment"
+" by::"
+msgstr ""
+
+#: ../../development/contributing.rst:1083
+msgid "or, to use a specific Python interpreter,::"
+msgstr ""
+
+#: ../../development/contributing.rst:1087
+msgid ""
+"This will display stderr from the benchmarks, and use your local "
+"``python`` that comes from your ``$PATH``."
+msgstr ""
+
+#: ../../development/contributing.rst:1090
+msgid ""
+"Information on how to write a benchmark and how to use asv can be found "
+"in the `asv documentation "
+"<https://asv.readthedocs.io/en/latest/writing_benchmarks.html>`_."
+msgstr ""
+
+#: ../../development/contributing.rst:1094
+msgid "Documenting your code"
+msgstr ""
+
+#: ../../development/contributing.rst:1096
+msgid ""
+"Changes should be reflected in the release notes located in "
+"``doc/source/whatsnew/vx.y.z.rst``. This file contains an ongoing change "
+"log for each release.  Add an entry to this file to document your fix, "
+"enhancement or (unavoidable) breaking change.  Make sure to include the "
+"GitHub issue number when adding your entry (using ``:issue:`1234``` where"
+" ``1234`` is the issue/pull request number)."
+msgstr ""
+
+#: ../../development/contributing.rst:1102
+msgid ""
+"If your code is an enhancement, it is most likely necessary to add usage "
+"examples to the existing documentation.  This can be done following the "
+"section regarding documentation :ref:`above "
+"<contributing.documentation>`. Further, to let users know when this "
+"feature was added, the ``versionadded`` directive is used. The sphinx "
+"syntax for that is:"
+msgstr ""
+
+#: ../../development/contributing.rst:1112
+msgid ""
+"This will put the text *New in version 0.21.0* wherever you put the "
+"sphinx directive. This should also be put in the docstring when adding a "
+"new function or method (`example <https://github.com/pandas-"
+"dev/pandas/blob/v0.20.2/pandas/core/frame.py#L1495>`__) or a new keyword "
+"argument (`example <https://github.com/pandas-"
+"dev/pandas/blob/v0.20.2/pandas/core/generic.py#L568>`__)."
+msgstr ""
+
+#: ../../development/contributing.rst:1118
+msgid "Contributing your changes to *pandas*"
+msgstr ""
+
+#: ../../development/contributing.rst:1123
+msgid "Committing your code"
+msgstr ""
+
+#: ../../development/contributing.rst:1125
+msgid ""
+"Keep style fixes to a separate commit to make your pull request more "
+"readable."
+msgstr ""
+
+#: ../../development/contributing.rst:1127
+msgid "Once you've made changes, you can see them by typing::"
+msgstr ""
+
+#: ../../development/contributing.rst:1131
+msgid ""
+"If you have created a new file, it is not being tracked by git. Add it by"
+" typing::"
+msgstr ""
+
+#: ../../development/contributing.rst:1135
+msgid "Doing 'git status' again should give something like::"
+msgstr ""
+
+#: ../../development/contributing.rst:1142
+msgid ""
+"Finally, commit your changes to your local repository with an explanatory"
+" message.  *Pandas* uses a convention for commit message prefixes and "
+"layout.  Here are some common prefixes along with general guidelines for "
+"when to use them:"
+msgstr ""
+
+#: ../../development/contributing.rst:1146
+msgid "ENH: Enhancement, new functionality"
+msgstr ""
+
+#: ../../development/contributing.rst:1147
+msgid "BUG: Bug fix"
+msgstr ""
+
+#: ../../development/contributing.rst:1148
+msgid "DOC: Additions/updates to documentation"
+msgstr ""
+
+#: ../../development/contributing.rst:1149
+msgid "TST: Additions/updates to tests"
+msgstr ""
+
+#: ../../development/contributing.rst:1150
+msgid "BLD: Updates to the build process/scripts"
+msgstr ""
+
+#: ../../development/contributing.rst:1151
+msgid "PERF: Performance improvement"
+msgstr ""
+
+#: ../../development/contributing.rst:1152
+msgid "CLN: Code cleanup"
+msgstr ""
+
+#: ../../development/contributing.rst:1154
+msgid ""
+"The following defines how a commit message should be structured.  Please "
+"reference the relevant GitHub issues in your commit message using GH1234 "
+"or #1234.  Either style is fine, but the former is generally preferred:"
+msgstr ""
+
+#: ../../development/contributing.rst:1158
+msgid "a subject line with `< 80` chars."
+msgstr ""
+
+#: ../../development/contributing.rst:1159
+msgid "One blank line."
+msgstr ""
+
+#: ../../development/contributing.rst:1160
+msgid "Optionally, a commit message body."
+msgstr ""
+
+#: ../../development/contributing.rst:1162
+msgid "Now you can commit your changes in your local repository::"
+msgstr ""
+
+#: ../../development/contributing.rst:1169
+msgid "Pushing your changes"
+msgstr ""
+
+#: ../../development/contributing.rst:1171
+msgid ""
+"When you want your changes to appear publicly on your GitHub page, push "
+"your forked feature branch's commits::"
+msgstr ""
+
+#: ../../development/contributing.rst:1176
+msgid ""
+"Here ``origin`` is the default name given to your remote repository on "
+"GitHub. You can see the remote repositories::"
+msgstr ""
+
+#: ../../development/contributing.rst:1181
+msgid ""
+"If you added the upstream repository as described above you will see "
+"something like::"
+msgstr ""
+
+#: ../../development/contributing.rst:1189
+msgid ""
+"Now your code is on GitHub, but it is not yet a part of the *pandas* "
+"project.  For that to happen, a pull request needs to be submitted on "
+"GitHub."
+msgstr ""
+
+#: ../../development/contributing.rst:1193
+msgid "Review your code"
+msgstr ""
+
+#: ../../development/contributing.rst:1195
+msgid ""
+"When you're ready to ask for a code review, file a pull request. Before "
+"you do, once again make sure that you have followed all the guidelines "
+"outlined in this document regarding code style, tests, performance tests,"
+" and documentation. You should also double check your branch changes "
+"against the branch it was based on:"
+msgstr ""
+
+#: ../../development/contributing.rst:1200
+msgid ""
+"Navigate to your repository on GitHub -- https://github.com/your-user-"
+"name/pandas"
+msgstr ""
+
+#: ../../development/contributing.rst:1201
+msgid "Click on ``Branches``"
+msgstr ""
+
+#: ../../development/contributing.rst:1202
+msgid "Click on the ``Compare`` button for your feature branch"
+msgstr ""
+
+#: ../../development/contributing.rst:1203
+msgid ""
+"Select the ``base`` and ``compare`` branches, if necessary. This will be "
+"``master`` and ``shiny-new-feature``, respectively."
+msgstr ""
+
+#: ../../development/contributing.rst:1207
+msgid "Finally, make the pull request"
+msgstr ""
+
+#: ../../development/contributing.rst:1209
+msgid ""
+"If everything looks good, you are ready to make a pull request.  A pull "
+"request is how code from a local repository becomes available to the "
+"GitHub community and can be looked at and eventually merged into the "
+"master version.  This pull request and its associated changes will "
+"eventually be committed to the master branch and available in the next "
+"release.  To submit a pull request:"
+msgstr ""
+
+#: ../../development/contributing.rst:1215
+msgid "Navigate to your repository on GitHub"
+msgstr ""
+
+#: ../../development/contributing.rst:1216
+msgid "Click on the ``Pull Request`` button"
+msgstr ""
+
+#: ../../development/contributing.rst:1217
+msgid ""
+"You can then click on ``Commits`` and ``Files Changed`` to make sure "
+"everything looks okay one last time"
+msgstr ""
+
+#: ../../development/contributing.rst:1219
+msgid "Write a description of your changes in the ``Preview Discussion`` tab"
+msgstr ""
+
+#: ../../development/contributing.rst:1220
+msgid "Click ``Send Pull Request``."
+msgstr ""
+
+#: ../../development/contributing.rst:1222
+msgid ""
+"This request then goes to the repository maintainers, and they will "
+"review the code."
+msgstr ""
+
+#: ../../development/contributing.rst:1228
+msgid "Updating your pull request"
+msgstr ""
+
+#: ../../development/contributing.rst:1230
+msgid ""
+"Based on the review you get on your pull request, you will probably need "
+"to make some changes to the code. In that case, you can make them in your"
+" branch, add a new commit to that branch, push it to GitHub, and the pull"
+" request will be automatically updated.  Pushing them to GitHub again is "
+"done by::"
+msgstr ""
+
+#: ../../development/contributing.rst:1237
+msgid ""
+"This will automatically update your pull request with the latest code and"
+" restart the :ref:`Continuous Integration <contributing.ci>` tests."
+msgstr ""
+
+#: ../../development/contributing.rst:1240
+msgid ""
+"Another reason you might need to update your pull request is to solve "
+"conflicts with changes that have been merged into the master branch since"
+" you opened your pull request."
+msgstr ""
+
+#: ../../development/contributing.rst:1244
+msgid "To do this, you need to \"merge upstream master\" in your branch::"
+msgstr ""
+
+#: ../../development/contributing.rst:1250
+msgid ""
+"If there are no conflicts (or they could be fixed automatically), a file "
+"with a default commit message will open, and you can simply save and quit"
+" this file."
+msgstr ""
+
+#: ../../development/contributing.rst:1253
+msgid ""
+"If there are merge conflicts, you need to solve those conflicts. See for "
+"example at https://help.github.com/articles/resolving-a-merge-conflict-"
+"using-the-command-line/ for an explanation on how to do this. Once the "
+"conflicts are merged and the files where the conflicts were solved are "
+"added, you can run ``git commit`` to save those fixes."
+msgstr ""
+
+#: ../../development/contributing.rst:1259
+msgid ""
+"If you have uncommitted changes at the moment you want to update the "
+"branch with master, you will need to ``stash`` them prior to updating "
+"(see the `stash docs <https://git-scm.com/book/en/v2/Git-Tools-Stashing-"
+"and-Cleaning>`__). This will effectively store your changes and they can "
+"be reapplied after updating."
+msgstr ""
+
+#: ../../development/contributing.rst:1264
+msgid ""
+"After the feature branch has been update locally, you can now update your"
+" pull request by pushing to the branch on GitHub::"
+msgstr ""
+
+#: ../../development/contributing.rst:1270
+msgid "Delete your merged branch (optional)"
+msgstr ""
+
+#: ../../development/contributing.rst:1272
+msgid ""
+"Once your feature branch is accepted into upstream, you'll probably want "
+"to get rid of the branch. First, merge upstream master into your branch "
+"so git knows it is safe to delete your branch::"
+msgstr ""
+
+#: ../../development/contributing.rst:1280
+msgid "Then you can do::"
+msgstr ""
+
+#: ../../development/contributing.rst:1284
+msgid ""
+"Make sure you use a lower-case ``-d``, or else git won't warn you if your"
+" feature branch has not actually been merged."
+msgstr ""
+
+#: ../../development/contributing.rst:1287
+msgid "The branch will still exist on GitHub, so to delete it there do::"
+msgstr ""
+

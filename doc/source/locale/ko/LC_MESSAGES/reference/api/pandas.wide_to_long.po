@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.wide_to_long.rst:2
+msgid "pandas.wide\\_to\\_long"
+msgstr ""
+
+#: of pandas.wide_to_long:2
+msgid "Wide panel to long format. Less flexible but more user-friendly than melt."
+msgstr ""
+
+#: of pandas.wide_to_long:4
+msgid ""
+"With stubnames ['A', 'B'], this function expects to find one or more "
+"group of columns with format A-suffix1, A-suffix2,..., B-suffix1, "
+"B-suffix2,... You specify what you want to call this suffix in the "
+"resulting long format with `j` (for example `j='year'`)"
+msgstr ""
+
+#: of pandas.wide_to_long:10
+msgid ""
+"Each row of these wide variables are assumed to be uniquely identified by"
+" `i` (can be a single column name or a list of column names)"
+msgstr ""
+
+#: of pandas.wide_to_long:13
+msgid "All remaining variables in the data frame are left intact."
+msgstr ""
+
+#: of pandas.wide_to_long
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.wide_to_long:18
+msgid "**df**"
+msgstr ""
+
+#: of pandas.wide_to_long:17
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.wide_to_long:18
+msgid "The wide-format DataFrame"
+msgstr ""
+
+#: of pandas.wide_to_long:22
+msgid "**stubnames**"
+msgstr ""
+
+#: of pandas.wide_to_long:21 pandas.wide_to_long:24
+msgid "str or list-like"
+msgstr ""
+
+#: of pandas.wide_to_long:21
+msgid ""
+"The stub name(s). The wide format variables are assumed to start with the"
+" stub names."
+msgstr ""
+
+#: of pandas.wide_to_long:25
+msgid "**i**"
+msgstr ""
+
+#: of pandas.wide_to_long:25
+msgid "Column(s) to use as id variable(s)"
+msgstr ""
+
+#: of pandas.wide_to_long:29
+msgid "**j**"
+msgstr ""
+
+#: of pandas.wide_to_long:28
+msgid "str"
+msgstr ""
+
+#: of pandas.wide_to_long:28
+msgid ""
+"The name of the sub-observation variable. What you wish to name your "
+"suffix in the long format."
+msgstr ""
+
+#: of pandas.wide_to_long:37
+msgid "**sep**"
+msgstr ""
+
+#: of pandas.wide_to_long:36
+msgid "str, default \"\""
+msgstr ""
+
+#: of pandas.wide_to_long:32
+msgid ""
+"A character indicating the separation of the variable names in the wide "
+"format, to be stripped from the names in the long format. For example, if"
+" your column names are A-suffix1, A-suffix2, you can strip the hyphen by "
+"specifying `sep='-'`"
+msgstr ""
+
+#: of pandas.wide_to_long:50
+msgid "**suffix**"
+msgstr ""
+
+#: of pandas.wide_to_long:49
+msgid "str, default '\\\\d+'"
+msgstr ""
+
+#: of pandas.wide_to_long:40
+msgid ""
+"A regular expression capturing the wanted suffixes. '\\\\d+' captures "
+"numeric suffixes. Suffixes with no numbers could be specified with the "
+"negated character class '\\\\D+'. You can also further disambiguate "
+"suffixes, for example, if your wide variables are of the form A-one, "
+"B-two,.., and you have an unrelated column A-rating, you can ignore the "
+"last one by specifying `suffix='(!?one|two)'`"
+msgstr ""
+
+#: of pandas.wide_to_long:49
+msgid "When all suffixes are numeric, they are cast to int64/float64."
+msgstr ""
+
+#: of pandas.wide_to_long
+msgid "Returns"
+msgstr ""
+
+#: of pandas.wide_to_long:62
+msgid "**DataFrame**"
+msgstr ""
+
+#: of pandas.wide_to_long:55
+msgid ""
+"A DataFrame that contains each stub name as a variable, with new index "
+"(i, j)"
+msgstr ""
+
+#: of pandas.wide_to_long:65
+msgid "Notes"
+msgstr ""
+
+#: of pandas.wide_to_long:66
+msgid ""
+"All extra variables are left untouched. This simply uses `pandas.melt` "
+"under the hood, but is hard-coded to \"do the right thing\" in a typical "
+"case."
+msgstr ""
+
+#: of pandas.wide_to_long:72
+msgid "Examples"
+msgstr ""
+
+#: of pandas.wide_to_long:97
+msgid "With multiple id columns"
+msgstr ""
+
+#: of pandas.wide_to_long:140
+msgid "Going from long back to wide just takes some creative use of `unstack`"
+msgstr ""
+
+#: of pandas.wide_to_long:156
+msgid "Less wieldy column names are also handled"
+msgstr ""
+
+#: of pandas.wide_to_long:187
+msgid ""
+"If we have many columns, we could also use a regex to find our stubnames "
+"and pass that list on to wide_to_long"
+msgstr ""
+
+#: of pandas.wide_to_long:197
+msgid ""
+"All of the above examples have integers as suffixes. It is possible to "
+"have non-integers as suffixes."
+msgstr ""
+

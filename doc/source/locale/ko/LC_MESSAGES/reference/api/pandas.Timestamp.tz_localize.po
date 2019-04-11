@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Timestamp.tz_localize.rst:2
+msgid "pandas.Timestamp.tz\\_localize"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:2
+msgid ""
+"Convert naive Timestamp to local time zone, or remove timezone from tz-"
+"aware Timestamp."
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize
+msgid "Parameters"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:10
+msgid "**tz**"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:9
+msgid "str, pytz.timezone, dateutil.tz.tzfile or None"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:9
+msgid ""
+"Time zone for time which Timestamp will be converted to. None will remove"
+" timezone holding local time."
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:23
+msgid "**ambiguous**"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:22
+msgid "bool, 'NaT', default 'raise'"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:13
+msgid ""
+"When clocks moved backward due to DST, ambiguous times may arise. For "
+"example in Central European Time (UTC+01), when going from 03:00 DST to "
+"02:00 non-DST, 02:30:00 local time occurs both at 00:30:00 UTC and at "
+"01:30:00 UTC. In such a situation, the `ambiguous` parameter dictates how"
+" ambiguous times should be handled."
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:20
+msgid ""
+"bool contains flags to determine if time is dst or not (note that this "
+"flag is only applicable for ambiguous fall dst dates)"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:22
+msgid "'NaT' will return NaT for an ambiguous time"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:23
+msgid "'raise' will raise an AmbiguousTimeError for an ambiguous time"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:39
+msgid "**nonexistent**"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:38
+msgid "'shift_forward', 'shift_backward, 'NaT', timedelta,"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:26
+msgid "default 'raise'"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:27
+msgid ""
+"A nonexistent time does not exist in a particular timezone where clocks "
+"moved forward due to DST."
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:30
+msgid ""
+"'shift_forward' will shift the nonexistent time forward to the closest "
+"existing time"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:32
+msgid ""
+"'shift_backward' will shift the nonexistent time backward to the closest "
+"existing time"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:34
+msgid "'NaT' will return NaT where there are nonexistent times"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:35
+msgid "timedelta objects will shift nonexistent times by the timedelta"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:36
+msgid "'raise' will raise an NonExistentTimeError if there are nonexistent times"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:48
+msgid "**errors**"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:47
+msgid "'raise', 'coerce', default None"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:43
+msgid "'raise' will raise a NonExistentTimeError if a timestamp is not"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:43
+msgid ""
+"valid in the specified timezone (e.g. due to a transition from or to DST "
+"time). Use ``nonexistent='raise'`` instead."
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:45
+msgid ""
+"'coerce' will return NaT if the timestamp can not be converted into the "
+"specified timezone. Use ``nonexistent='NaT'`` instead."
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize
+msgid "Returns"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:55
+msgid "**localized**"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:54
+msgid "Timestamp"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize
+msgid "Raises"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:68
+msgid "**TypeError**"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.tz_localize:60
+msgid "If the Timestamp is tz-aware and tz is not None."
+msgstr ""
+

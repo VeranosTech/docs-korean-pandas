@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.str.contains.rst:2
+msgid "pandas.Series.str.contains"
+msgstr ""
+
+#: of pandas.Series.str.contains:2
+msgid ""
+"Test if pattern or regex is contained within a string of a Series or "
+"Index."
+msgstr ""
+
+#: of pandas.Series.str.contains:4
+msgid ""
+"Return boolean Series or Index based on whether a given pattern or regex "
+"is contained within a string of a Series or Index."
+msgstr ""
+
+#: of pandas.Series.str.contains
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.str.contains:10
+msgid "**pat**"
+msgstr ""
+
+#: of pandas.Series.str.contains:9
+msgid "str"
+msgstr ""
+
+#: of pandas.Series.str.contains:10
+msgid "Character sequence or regular expression."
+msgstr ""
+
+#: of pandas.Series.str.contains:13
+msgid "**case**"
+msgstr ""
+
+#: of pandas.Series.str.contains:12 pandas.Series.str.contains:23
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.Series.str.contains:13
+msgid "If True, case sensitive."
+msgstr ""
+
+#: of pandas.Series.str.contains:16
+msgid "**flags**"
+msgstr ""
+
+#: of pandas.Series.str.contains:15
+msgid "int, default 0 (no flags)"
+msgstr ""
+
+#: of pandas.Series.str.contains:16
+msgid "Flags to pass through to the re module, e.g. re.IGNORECASE."
+msgstr ""
+
+#: of pandas.Series.str.contains:19
+msgid "**na**"
+msgstr ""
+
+#: of pandas.Series.str.contains:18
+msgid "default NaN"
+msgstr ""
+
+#: of pandas.Series.str.contains:19
+msgid "Fill value for missing values."
+msgstr ""
+
+#: of pandas.Series.str.contains:24
+msgid "**regex**"
+msgstr ""
+
+#: of pandas.Series.str.contains:22
+msgid "If True, assumes the pat is a regular expression."
+msgstr ""
+
+#: of pandas.Series.str.contains:24
+msgid "If False, treats the pat as a literal string."
+msgstr ""
+
+#: of pandas.Series.str.contains
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.str.contains:36
+msgid "**Series or Index of boolean values**"
+msgstr ""
+
+#: of pandas.Series.str.contains:29
+msgid ""
+"A Series or Index of boolean values indicating whether the given pattern "
+"is contained within the string of each element of the Series or Index."
+msgstr ""
+
+#: of pandas.Series.str.contains:42
+msgid ":obj:`match`"
+msgstr ""
+
+#: of pandas.Series.str.contains:42
+msgid "Analogous, but stricter, relying on re.match instead of re.search."
+msgstr ""
+
+#: of pandas.Series.str.contains:45
+msgid ":obj:`Series.str.startswith`"
+msgstr ""
+
+#: of pandas.Series.str.contains:45
+msgid "Test if the start of each string element matches a pattern."
+msgstr ""
+
+#: of pandas.Series.str.contains:47
+msgid ":obj:`Series.str.endswith`"
+msgstr ""
+
+#: of pandas.Series.str.contains:48
+msgid "Same as startswith, but tests the end of string."
+msgstr ""
+
+#: of pandas.Series.str.contains:53
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.str.contains:54
+msgid "Returning a Series of booleans using only a literal pattern."
+msgstr ""
+
+#: of pandas.Series.str.contains:65
+msgid "Returning an Index of booleans using only a literal pattern."
+msgstr ""
+
+#: of pandas.Series.str.contains:71
+msgid "Specifying case sensitivity using `case`."
+msgstr ""
+
+#: of pandas.Series.str.contains:81
+msgid ""
+"Specifying `na` to be `False` instead of `NaN` replaces NaN values with "
+"`False`. If Series or Index does not contain NaN values the resultant "
+"dtype will be `bool`, otherwise, an `object` dtype."
+msgstr ""
+
+#: of pandas.Series.str.contains:93
+msgid "Returning 'house' or 'dog' when either expression occurs in a string."
+msgstr ""
+
+#: of pandas.Series.str.contains:103
+msgid "Ignoring case sensitivity using `flags` with regex."
+msgstr ""
+
+#: of pandas.Series.str.contains:114
+msgid "Returning any digit using regular expression."
+msgstr ""
+
+#: of pandas.Series.str.contains:124
+msgid ""
+"Ensure `pat` is a not a literal pattern when `regex` is set to True. Note"
+" in the following example one might expect only `s2[1]` and `s2[3]` to "
+"return `True`. However, '.0' as a regex matches any character followed by"
+" a 0."
+msgstr ""
+

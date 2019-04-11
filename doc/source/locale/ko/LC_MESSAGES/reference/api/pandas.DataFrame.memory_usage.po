@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.memory_usage.rst:2
+msgid "pandas.DataFrame.memory\\_usage"
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:2
+msgid "Return the memory usage of each column in bytes."
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:4
+msgid ""
+"The memory usage can optionally include the contribution of the index and"
+" elements of `object` dtype."
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:7
+msgid ""
+"This value is displayed in `DataFrame.info` by default. This can be "
+"suppressed by setting ``pandas.options.display.memory_usage`` to False."
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:15
+msgid "**index**"
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:14
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:13
+msgid ""
+"Specifies whether to include the memory usage of the DataFrame's index in"
+" returned Series. If ``index=True`` the memory usage of the index the "
+"first item in the output."
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:20
+msgid "**deep**"
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:19
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:18
+msgid ""
+"If True, introspect the data deeply by interrogating `object` dtypes for "
+"system-level memory consumption, and include it in the returned values."
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:31
+msgid "**sizes**"
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:30
+msgid "Series"
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:25
+msgid ""
+"A Series whose index is the original column names and whose values is the"
+" memory usage of each column in bytes."
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:37
+msgid ":obj:`numpy.ndarray.nbytes`"
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:37
+msgid "Total bytes consumed by the elements of an ndarray."
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:40
+msgid ":obj:`Series.memory_usage`"
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:40
+msgid "Bytes consumed by a Series."
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:43
+msgid ":obj:`pandas.Categorical`"
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:43
+msgid "Memory-efficient array for string values with many repeated values."
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:45
+msgid ":obj:`DataFrame.info`"
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:46
+msgid "Concise summary of a DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:51
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:81
+msgid "The memory footprint of `object` dtype columns is ignored by default:"
+msgstr ""
+
+#: of pandas.DataFrame.memory_usage:92
+msgid ""
+"Use a Categorical for efficient storage of an object-dtype column with "
+"many repeated values."
+msgstr ""
+

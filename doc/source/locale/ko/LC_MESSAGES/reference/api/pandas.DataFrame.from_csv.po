@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.from_csv.rst:2
+msgid "pandas.DataFrame.from\\_csv"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:2
+msgid "Read CSV file."
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:4
+msgid "Use :func:`pandas.read_csv` instead."
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:7
+msgid ""
+"It is preferable to use the more powerful :func:`pandas.read_csv` for "
+"most general purposes, but ``from_csv`` makes for an easy roundtrip to "
+"and from a file (the exact counterpart of ``to_csv``), especially with a "
+"DataFrame of time series data."
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:12
+msgid ""
+"This method only differs from the preferred :func:`pandas.read_csv` in "
+"some defaults:"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:15
+msgid ""
+"`index_col` is ``0`` instead of ``None`` (take first column as index by "
+"default)"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:17
+msgid ""
+"`parse_dates` is ``True`` instead of ``False`` (try parsing the index as "
+"datetime by default)"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:20
+msgid ""
+"So a ``pd.DataFrame.from_csv(path)`` can be replaced by "
+"``pd.read_csv(path, index_col=0, parse_dates=True)``."
+msgstr ""
+
+#: of pandas.DataFrame.from_csv
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:26
+msgid "**path**"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:25
+msgid "string file path or file handle / StringIO"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:29
+msgid "**header**"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:28
+msgid "int, default 0"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:29
+msgid "Row to use as header (skip prior rows)"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:32
+msgid "**sep**"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:31
+msgid "string, default ','"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:32
+msgid "Field delimiter"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:36
+msgid "**index_col**"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:35
+msgid "int or sequence, default 0"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:35
+msgid ""
+"Column to use for index. If a sequence is given, a MultiIndex is used. "
+"Different default from read_table"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:39
+msgid "**parse_dates**"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:38
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:39
+msgid "Parse dates. Different default from read_table"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:43
+msgid "**tupleize_cols**"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:42 pandas.DataFrame.from_csv:47
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:42
+msgid ""
+"write multi_index columns as a list of tuples (if True) or new (expanded "
+"format) if False)"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:48
+msgid "**infer_datetime_format**"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:46
+msgid ""
+"If True and `parse_dates` is True for a column, try to infer the datetime"
+" format based on the first datetime string. If the format can be "
+"inferred, there often will be a large parsing speed-up."
+msgstr ""
+
+#: of pandas.DataFrame.from_csv
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:58
+msgid "**y**"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:57
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.DataFrame.from_csv:63
+msgid ":obj:`pandas.read_csv`"
+msgstr ""
+

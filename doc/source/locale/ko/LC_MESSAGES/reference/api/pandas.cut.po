@@ -1,0 +1,292 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.cut.rst:2
+msgid "pandas.cut"
+msgstr ""
+
+#: of pandas.cut:2
+msgid "Bin values into discrete intervals."
+msgstr ""
+
+#: of pandas.cut:4
+msgid ""
+"Use `cut` when you need to segment and sort data values into bins. This "
+"function is also useful for going from a continuous variable to a "
+"categorical variable. For example, `cut` could convert ages to groups of "
+"age ranges. Supports binning into an equal number of bins, or a pre-"
+"specified array of bins."
+msgstr ""
+
+#: of pandas.cut
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.cut:13
+msgid "**x**"
+msgstr ""
+
+#: of pandas.cut:12
+msgid "array-like"
+msgstr ""
+
+#: of pandas.cut:13
+msgid "The input array to be binned. Must be 1-dimensional."
+msgstr ""
+
+#: of pandas.cut:24 pandas.cut:78
+msgid "**bins**"
+msgstr ""
+
+#: of pandas.cut:23
+msgid "int, sequence of scalars, or pandas.IntervalIndex"
+msgstr ""
+
+#: of pandas.cut:16
+msgid "The criteria to bin by."
+msgstr ""
+
+#: of pandas.cut:18
+#, python-format
+msgid ""
+"int : Defines the number of equal-width bins in the range of `x`. The "
+"range of `x` is extended by .1% on each side to include the minimum and "
+"maximum values of `x`."
+msgstr ""
+
+#: of pandas.cut:21
+msgid ""
+"sequence of scalars : Defines the bin edges allowing for non-uniform "
+"width. No extension of the range of `x` is done."
+msgstr ""
+
+#: of pandas.cut:23
+msgid ""
+"IntervalIndex : Defines the exact bins to be used. Note that "
+"IntervalIndex for `bins` must be non-overlapping."
+msgstr ""
+
+#: of pandas.cut:30
+msgid "**right**"
+msgstr ""
+
+#: of pandas.cut:29
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.cut:27
+msgid ""
+"Indicates whether `bins` includes the rightmost edge or not. If ``right "
+"== True`` (the default), then the `bins` ``[1, 2, 3, 4]`` indicate (1,2],"
+" (2,3], (3,4]. This argument is ignored when `bins` is an IntervalIndex."
+msgstr ""
+
+#: of pandas.cut:36
+msgid "**labels**"
+msgstr ""
+
+#: of pandas.cut:35
+msgid "array or bool, optional"
+msgstr ""
+
+#: of pandas.cut:33
+msgid ""
+"Specifies the labels for the returned bins. Must be the same length as "
+"the resulting bins. If False, returns only integer indicators of the "
+"bins. This affects the type of the output container (see below). This "
+"argument is ignored when `bins` is an IntervalIndex."
+msgstr ""
+
+#: of pandas.cut:40
+msgid "**retbins**"
+msgstr ""
+
+#: of pandas.cut:39 pandas.cut:45
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.cut:39
+msgid ""
+"Whether to return the bins or not. Useful when bins is provided as a "
+"scalar."
+msgstr ""
+
+#: of pandas.cut:43
+msgid "**precision**"
+msgstr ""
+
+#: of pandas.cut:42
+msgid "int, default 3"
+msgstr ""
+
+#: of pandas.cut:43
+msgid "The precision at which to store and display the bins labels."
+msgstr ""
+
+#: of pandas.cut:46
+msgid "**include_lowest**"
+msgstr ""
+
+#: of pandas.cut:46
+msgid "Whether the first interval should be left-inclusive or not."
+msgstr ""
+
+#: of pandas.cut:51
+msgid "**duplicates**"
+msgstr ""
+
+#: of pandas.cut:50
+msgid "{default 'raise', 'drop'}, optional"
+msgstr ""
+
+#: of pandas.cut:49
+msgid "If bin edges are not unique, raise ValueError or drop non-uniques."
+msgstr ""
+
+#: of pandas.cut
+msgid "Returns"
+msgstr ""
+
+#: of pandas.cut:67
+msgid "**out**"
+msgstr ""
+
+#: of pandas.cut:66
+msgid "pandas.Categorical, Series, or ndarray"
+msgstr ""
+
+#: of pandas.cut:56
+msgid ""
+"An array-like object representing the respective bin for each value of "
+"`x`. The type depends on the value of `labels`."
+msgstr ""
+
+#: of pandas.cut:59
+msgid ""
+"True (default) : returns a Series for Series `x` or a pandas.Categorical "
+"for all other inputs. The values stored within are Interval dtype."
+msgstr ""
+
+#: of pandas.cut:63
+msgid ""
+"sequence of scalars : returns a Series for Series `x` or a "
+"pandas.Categorical for all other inputs. The values stored within are "
+"whatever the type in the sequence is."
+msgstr ""
+
+#: of pandas.cut:67
+msgid "False : returns an ndarray of integers."
+msgstr ""
+
+#: of pandas.cut:77
+msgid "numpy.ndarray or IntervalIndex."
+msgstr ""
+
+#: of pandas.cut:70
+msgid ""
+"The computed or specified bins. Only returned when `retbins=True`. For "
+"scalar or sequence `bins`, this is an ndarray with the computed bins. If "
+"set `duplicates=drop`, `bins` will drop non-unique bin. For an "
+"IntervalIndex `bins`, this is equal to `bins`."
+msgstr ""
+
+#: of pandas.cut:84
+msgid ":obj:`qcut`"
+msgstr ""
+
+#: of pandas.cut:84
+msgid ""
+"Discretize variable into equal-sized buckets based on rank or based on "
+"sample quantiles."
+msgstr ""
+
+#: of pandas.cut:87
+msgid ":obj:`pandas.Categorical`"
+msgstr ""
+
+#: of pandas.cut:87
+msgid "Array type for storing data that come from a fixed set of values."
+msgstr ""
+
+#: of pandas.cut:90
+msgid ":obj:`Series`"
+msgstr ""
+
+#: of pandas.cut:90
+msgid "One-dimensional array with axis labels (including time series)."
+msgstr ""
+
+#: of pandas.cut:92
+msgid ":obj:`pandas.IntervalIndex`"
+msgstr ""
+
+#: of pandas.cut:93
+msgid "Immutable Index implementing an ordered, sliceable set."
+msgstr ""
+
+#: of pandas.cut:96
+msgid "Notes"
+msgstr ""
+
+#: of pandas.cut:97
+msgid ""
+"Any NA values will be NA in the result. Out of bounds values will be NA "
+"in the resulting Series or pandas.Categorical object."
+msgstr ""
+
+#: of pandas.cut:102
+msgid "Examples"
+msgstr ""
+
+#: of pandas.cut:103
+msgid "Discretize into three equal-sized bins."
+msgstr ""
+
+#: of pandas.cut:116
+msgid ""
+"Discovers the same bins, but assign them specific labels. Notice that the"
+" returned Categorical's categories are `labels` and is ordered."
+msgstr ""
+
+#: of pandas.cut:124
+msgid "``labels=False`` implies you just want the bins back."
+msgstr ""
+
+#: of pandas.cut:129
+msgid "Passing a Series as an input returns a Series with categorical dtype:"
+msgstr ""
+
+#: of pandas.cut:143
+msgid ""
+"Passing a Series as an input returns a Series with mapping value. It is "
+"used to map numerically to intervals based on bins."
+msgstr ""
+
+#: of pandas.cut:157
+msgid "Use `drop` optional when bins is not unique"
+msgstr ""
+
+#: of pandas.cut:169
+msgid ""
+"Passing an IntervalIndex for `bins` results in those categories exactly. "
+"Notice that values not covered by the IntervalIndex are set to NaN. 0 is "
+"to the left of the first bin (which is closed on the right), and 1.5 "
+"falls between two bins."
+msgstr ""
+

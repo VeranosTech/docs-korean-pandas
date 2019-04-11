@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.MultiIndex.get_loc.rst:2
+msgid "pandas.MultiIndex.get\\_loc"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc:2
+msgid ""
+"Get location for a label or a tuple of labels as an integer, slice or "
+"boolean mask."
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc:9
+msgid "**key**"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc:8
+msgid "label or tuple of labels (one for each level)"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc:12
+msgid "**method**"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc:11
+msgid "None"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc
+msgid "Returns"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc:23
+msgid "**loc**"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc:22
+msgid "int, slice object or boolean mask"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc:17
+msgid ""
+"If the key is past the lexsort depth, the return may be a boolean mask "
+"array, otherwise it is always a slice or int."
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc:29
+msgid ":obj:`Index.get_loc`"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc:29
+msgid "The get_loc method for (single-level) index."
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc:32
+msgid ":obj:`MultiIndex.slice_locs`"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc:32
+msgid "Get slice location given start label(s) and end label(s)."
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc:34
+msgid ":obj:`MultiIndex.get_locs`"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc:35
+msgid "Get location for a label/slice/list/mask or a sequence of such."
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc:38
+msgid "Notes"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc:39
+msgid ""
+"The key cannot be a slice, list of same-level labels, a boolean mask, or "
+"a sequence of such. If you want to use those, use "
+":meth:`MultiIndex.get_locs` instead."
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc:45
+msgid "Examples"
+msgstr ""
+

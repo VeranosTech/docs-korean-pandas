@@ -1,0 +1,231 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../whatsnew/v0.24.1.rst:6
+msgid "Whats New in 0.24.1 (February 3, 2019)"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:10
+msgid ""
+"The 0.24.x series of releases will be the last to support Python 2. "
+"Future feature releases will support Python 3 only. See "
+":ref:`install.dropping-27` for more."
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:13
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:15
+msgid ""
+"These are the changes in pandas 0.24.1. See :ref:`release` for a full "
+"changelog including other versions of pandas. See :ref:`whatsnew_0240` "
+"for the 0.24.0 changelog."
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:21
+msgid "API Changes"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:24
+msgid "Changing the ``sort`` parameter for :class:`Index` set operations"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:26
+msgid ""
+"The default ``sort`` value for :meth:`Index.union` has changed from "
+"``True`` to ``None`` (:issue:`24959`). The default *behavior*, however, "
+"remains the same: the result is sorted, unless"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:29
+msgid "``self`` and ``other`` are identical"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:30
+msgid "``self`` or ``other`` is empty"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:31
+msgid ""
+"``self`` or ``other`` contain values that can not be compared (a "
+"``RuntimeWarning`` is raised)."
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:33
+msgid ""
+"This change will allow ``sort=True`` to mean \"always sort\" in a future "
+"release."
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:35
+msgid ""
+"The same change applies to :meth:`Index.difference` and "
+":meth:`Index.symmetric_difference`, which would not sort the result when "
+"the values could not be compared."
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:38
+msgid ""
+"The `sort` option for :meth:`Index.intersection` has changed in three "
+"ways."
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:40
+msgid ""
+"The default has changed from ``True`` to ``False``, to restore the pandas"
+" 0.23.4 and earlier behavior of not sorting by default."
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:42
+msgid ""
+"The behavior of ``sort=True`` can now be obtained with ``sort=None``. "
+"This will sort the result only if the values in ``self`` and ``other`` "
+"are not identical."
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:45
+msgid ""
+"The value ``sort=True`` is no longer allowed. A future version of pandas "
+"will properly support ``sort=True`` meaning \"always sort\"."
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:51
+msgid "Fixed Regressions"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:53
+msgid ""
+"Fixed regression in :meth:`DataFrame.to_dict` with ``records`` orient "
+"raising an ``AttributeError`` when the ``DataFrame`` contained more than "
+"255 columns, or wrongly converting column names that were not valid "
+"python identifiers (:issue:`24939`, :issue:`24940`)."
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:56
+msgid ""
+"Fixed regression in :func:`read_sql` when passing certain queries with "
+"MySQL/pymysql (:issue:`24988`)."
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:57
+msgid ""
+"Fixed regression in :class:`Index.intersection` incorrectly sorting the "
+"values by default (:issue:`24959`)."
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:58
+msgid ""
+"Fixed regression in :func:`merge` when merging an empty ``DataFrame`` "
+"with multiple timezone-aware columns on one of the timezone-aware columns"
+" (:issue:`25014`)."
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:59
+msgid ""
+"Fixed regression in :meth:`Series.rename_axis` and "
+":meth:`DataFrame.rename_axis` where passing ``None`` failed to remove the"
+" axis name (:issue:`25034`)"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:60
+msgid ""
+"Fixed regression in :func:`to_timedelta` with `box=False` incorrectly "
+"returning a ``datetime64`` object instead of a ``timedelta64`` object "
+"(:issue:`24961`)"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:61
+msgid ""
+"Fixed regression where custom hashable types could not be used as column "
+"keys in :meth:`DataFrame.set_index` (:issue:`24969`)"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:66
+msgid "Bug Fixes"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:68
+msgid "**Reshaping**"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:70
+msgid ""
+"Bug in :meth:`DataFrame.groupby` with :class:`Grouper` when there is a "
+"time change (DST) and grouping frequency is ``'1d'`` (:issue:`24972`)"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:72
+msgid "**Visualization**"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:74
+msgid ""
+"Fixed the warning for implicitly registered matplotlib converters not "
+"showing. See :ref:`whatsnew_0211.converters` for more (:issue:`24963`)."
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:76
+msgid "**Other**"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:78
+msgid ""
+"Fixed AttributeError when printing a DataFrame's HTML repr after "
+"accessing the IPython config object (:issue:`25036`)"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:83
+msgid "Contributors"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:88
+msgid ""
+"A total of 7 people contributed patches to this release. People with a "
+"\"+\" by their names contributed a patch for the first time."
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:90
+msgid "Alex Buchkovsky"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:91
+msgid "Roman Yurchak"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:92
+msgid "h-vetinari"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:93
+msgid "jbrockmendel"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:94
+msgid "Jeremy Schendel"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:95
+msgid "Joris Van den Bossche"
+msgstr ""
+
+#: ../../whatsnew/v0.24.1.rst:96
+msgid "Tom Augspurger"
+msgstr ""
+

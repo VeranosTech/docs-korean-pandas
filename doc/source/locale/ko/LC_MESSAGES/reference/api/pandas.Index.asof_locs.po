@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.asof_locs.rst:2
+msgid "pandas.Index.asof\\_locs"
+msgstr ""
+
+#: of pandas.Index.asof_locs:2
+msgid ""
+"Finds the locations (indices) of the labels from the index for every "
+"entry in the `where` argument."
+msgstr ""
+
+#: of pandas.Index.asof_locs:5
+msgid ""
+"As in the `asof` function, if the label (a particular entry in `where`) "
+"is not in the index, the latest index label upto the passed label is "
+"chosen and its index returned."
+msgstr ""
+
+#: of pandas.Index.asof_locs:9
+msgid ""
+"If all of the labels in the index are later than a label in `where`, -1 "
+"is returned."
+msgstr ""
+
+#: of pandas.Index.asof_locs:12
+msgid "`mask` is used to ignore NA values in the index during calculation."
+msgstr ""
+
+#: of pandas.Index.asof_locs
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.asof_locs:17
+msgid "**where**"
+msgstr ""
+
+#: of pandas.Index.asof_locs:16
+msgid "Index"
+msgstr ""
+
+#: of pandas.Index.asof_locs:17
+msgid "An Index consisting of an array of timestamps."
+msgstr ""
+
+#: of pandas.Index.asof_locs:21
+msgid "**mask**"
+msgstr ""
+
+#: of pandas.Index.asof_locs:20
+msgid "array-like"
+msgstr ""
+
+#: of pandas.Index.asof_locs:20
+msgid "Array of booleans denoting where values in the original data are not NA."
+msgstr ""
+
+#: of pandas.Index.asof_locs
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.asof_locs:39
+msgid "**numpy.ndarray**"
+msgstr ""
+
+#: of pandas.Index.asof_locs:26
+msgid ""
+"An array of locations (indices) of the labels from the Index which "
+"correspond to the return values of the `asof` function for every element "
+"in `where`."
+msgstr ""
+

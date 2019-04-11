@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.mode.rst:2
+msgid "pandas.DataFrame.mode"
+msgstr ""
+
+#: of pandas.DataFrame.mode:2
+msgid "Get the mode(s) of each element along the selected axis."
+msgstr ""
+
+#: of pandas.DataFrame.mode:4
+msgid ""
+"The mode of a set of values is the value that appears most often. It can "
+"be multiple values."
+msgstr ""
+
+#: of pandas.DataFrame.mode
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.mode:13
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.DataFrame.mode:12
+msgid "{0 or 'index', 1 or 'columns'}, default 0"
+msgstr ""
+
+#: of pandas.DataFrame.mode:10
+msgid "The axis to iterate over while searching for the mode:"
+msgstr ""
+
+#: of pandas.DataFrame.mode:12
+msgid "0 or 'index' : get mode of each column"
+msgstr ""
+
+#: of pandas.DataFrame.mode:13
+msgid "1 or 'columns' : get mode of each row"
+msgstr ""
+
+#: of pandas.DataFrame.mode:16
+msgid "**numeric_only**"
+msgstr ""
+
+#: of pandas.DataFrame.mode:15
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.DataFrame.mode:16
+msgid "If True, only apply to numeric columns."
+msgstr ""
+
+#: of pandas.DataFrame.mode:21
+msgid "**dropna**"
+msgstr ""
+
+#: of pandas.DataFrame.mode:20
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.DataFrame.mode:19
+msgid "Don't consider counts of NaN/NaT."
+msgstr ""
+
+#: of pandas.DataFrame.mode
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.mode:31
+msgid "**DataFrame**"
+msgstr ""
+
+#: of pandas.DataFrame.mode:26
+msgid "The modes of each column or row."
+msgstr ""
+
+#: of pandas.DataFrame.mode:37
+msgid ":obj:`Series.mode`"
+msgstr ""
+
+#: of pandas.DataFrame.mode:37
+msgid "Return the highest frequency value in a Series."
+msgstr ""
+
+#: of pandas.DataFrame.mode:39
+msgid ":obj:`Series.value_counts`"
+msgstr ""
+
+#: of pandas.DataFrame.mode:40
+msgid "Return the counts of values in a Series."
+msgstr ""
+
+#: of pandas.DataFrame.mode:45
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.mode:59
+msgid ""
+"By default, missing values are not considered, and the mode of wings are "
+"both 0 and 2. The second row of species and legs contains ``NaN``, "
+"because they have only one mode, but the DataFrame has two rows."
+msgstr ""
+
+#: of pandas.DataFrame.mode:68
+msgid ""
+"Setting ``dropna=False`` ``NaN`` values are considered and they can be "
+"the mode (like for wings)."
+msgstr ""
+
+#: of pandas.DataFrame.mode:75
+msgid ""
+"Setting ``numeric_only=True``, only the mode of numeric columns is "
+"computed, and columns of other types are ignored."
+msgstr ""
+
+#: of pandas.DataFrame.mode:83
+msgid "To compute the mode over columns and not rows, use the axis parameter:"
+msgstr ""
+

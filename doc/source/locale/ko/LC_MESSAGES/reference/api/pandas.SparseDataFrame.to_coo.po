@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.SparseDataFrame.to_coo.rst:2
+msgid "pandas.SparseDataFrame.to\\_coo"
+msgstr ""
+
+#: of pandas.SparseDataFrame.to_coo:2
+msgid "Return the contents of the frame as a sparse SciPy COO matrix."
+msgstr ""
+
+#: of pandas.SparseDataFrame.to_coo
+msgid "Returns"
+msgstr ""
+
+#: of pandas.SparseDataFrame.to_coo:17
+msgid "**coo_matrix**"
+msgstr ""
+
+#: of pandas.SparseDataFrame.to_coo:16
+msgid "scipy.sparse.spmatrix"
+msgstr ""
+
+#: of pandas.SparseDataFrame.to_coo:10
+msgid ""
+"If the caller is heterogeneous and contains booleans or objects, the "
+"result will be of dtype=object. See Notes."
+msgstr ""
+
+#: of pandas.SparseDataFrame.to_coo:20
+msgid "Notes"
+msgstr ""
+
+#: of pandas.SparseDataFrame.to_coo:21
+msgid ""
+"The dtype will be the lowest-common-denominator type (implicit "
+"upcasting); that is to say if the dtypes (even of numeric types) are "
+"mixed, the one that accommodates all will be chosen."
+msgstr ""
+
+#: of pandas.SparseDataFrame.to_coo:25
+msgid ""
+"e.g. If the dtypes are float16 and float32, dtype will be upcast to "
+"float32. By numpy.find_common_type convention, mixing int64 and and "
+"uint64 will result in a float64 dtype."
+msgstr ""
+

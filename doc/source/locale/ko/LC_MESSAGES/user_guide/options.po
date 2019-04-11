@@ -1,0 +1,860 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../user_guide/options.rst:3
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../user_guide/options.rst:7
+msgid "Options and Settings"
+msgstr ""
+
+#: ../../user_guide/options.rst:10
+msgid "Overview"
+msgstr ""
+
+#: ../../user_guide/options.rst:11
+msgid ""
+"pandas has an options system that lets you customize some aspects of its "
+"behaviour, display-related options being those the user is most likely to"
+" adjust."
+msgstr ""
+
+#: ../../user_guide/options.rst:14
+msgid ""
+"Options have a full \"dotted-style\", case-insensitive name (e.g. "
+"``display.max_rows``). You can get/set options directly as attributes of "
+"the top-level ``options`` attribute:"
+msgstr ""
+
+#: ../../user_guide/options.rst:24
+msgid ""
+"The API is composed of 5 relevant functions, available directly from the "
+"``pandas`` namespace:"
+msgstr ""
+
+#: ../../user_guide/options.rst:27
+msgid ""
+":func:`~pandas.get_option` / :func:`~pandas.set_option` - get/set the "
+"value of a single option."
+msgstr ""
+
+#: ../../user_guide/options.rst:28
+msgid ""
+":func:`~pandas.reset_option` - reset one or more options to their default"
+" value."
+msgstr ""
+
+#: ../../user_guide/options.rst:29
+msgid ""
+":func:`~pandas.describe_option` - print the descriptions of one or more "
+"options."
+msgstr ""
+
+#: ../../user_guide/options.rst:30
+msgid ""
+":func:`~pandas.option_context` - execute a codeblock with a set of "
+"options that revert to prior settings after execution."
+msgstr ""
+
+#: ../../user_guide/options.rst:33
+msgid ""
+"**Note:** Developers can check out `pandas/core/config.py "
+"<https://github.com/pandas-"
+"dev/pandas/blob/master/pandas/core/config.py>`_ for more information."
+msgstr ""
+
+#: ../../user_guide/options.rst:35
+msgid ""
+"All of the functions above accept a regexp pattern (``re.search`` style) "
+"as an argument, and so passing in a substring will work - as long as it "
+"is unambiguous:"
+msgstr ""
+
+#: ../../user_guide/options.rst:47
+msgid ""
+"The following will **not work** because it matches multiple option names,"
+" e.g. ``display.max_colwidth``, ``display.max_rows``, "
+"``display.max_columns``:"
+msgstr ""
+
+#: ../../user_guide/options.rst:59
+msgid ""
+"**Note:** Using this form of shorthand may cause your code to break if "
+"new options with similar names are added in future versions."
+msgstr ""
+
+#: ../../user_guide/options.rst:62
+msgid ""
+"You can get a list of available options and their descriptions with "
+"``describe_option``. When called with no argument ``describe_option`` "
+"will print out the descriptions for all available options."
+msgstr ""
+
+#: ../../user_guide/options.rst:72
+msgid "Getting and Setting Options"
+msgstr ""
+
+#: ../../user_guide/options.rst:74
+msgid ""
+"As described above, :func:`~pandas.get_option` and "
+":func:`~pandas.set_option` are available from the pandas namespace.  To "
+"change an option, call ``set_option('option regex', new_value)``."
+msgstr ""
+
+#: ../../user_guide/options.rst:84
+msgid ""
+"**Note:** The option 'mode.sim_interactive' is mostly used for debugging "
+"purposes."
+msgstr ""
+
+#: ../../user_guide/options.rst:86
+msgid ""
+"All options also have a default value, and you can use ``reset_option`` "
+"to do just that:"
+msgstr ""
+
+#: ../../user_guide/options.rst:102
+msgid "It's also possible to reset multiple options at once (using a regex):"
+msgstr ""
+
+#: ../../user_guide/options.rst:110
+msgid ""
+"``option_context`` context manager has been exposed through the top-level"
+" API, allowing you to execute code with given option values. Option "
+"values are restored automatically when you exit the `with` block:"
+msgstr ""
+
+#: ../../user_guide/options.rst:124
+msgid "Setting Startup Options in python/ipython Environment"
+msgstr ""
+
+#: ../../user_guide/options.rst:126
+msgid ""
+"Using startup scripts for the python/ipython environment to import pandas"
+" and set options makes working with pandas more efficient.  To do this, "
+"create a .py or .ipy script in the startup directory of the desired "
+"profile.  An example where the startup folder is in a default ipython "
+"profile can be found at:"
+msgstr ""
+
+#: ../../user_guide/options.rst:132
+msgid ""
+"More information can be found in the `ipython documentation "
+"<https://ipython.org/ipython-doc/stable/interactive/tutorial.html"
+"#startup-files>`__.  An example startup script for pandas is displayed "
+"below:"
+msgstr ""
+
+#: ../../user_guide/options.rst:144
+msgid "Frequently Used Options"
+msgstr ""
+
+#: ../../user_guide/options.rst:145
+msgid ""
+"The following is a walk-through of the more frequently used display "
+"options."
+msgstr ""
+
+#: ../../user_guide/options.rst:147
+msgid ""
+"``display.max_rows`` and ``display.max_columns`` sets the maximum number "
+"of rows and columns displayed when a frame is pretty-printed.  Truncated "
+"lines are replaced by an ellipsis."
+msgstr ""
+
+#: ../../user_guide/options.rst:160
+msgid ""
+"``display.expand_frame_repr`` allows for the representation of dataframes"
+" to stretch across pages, wrapped over the full column vs row-wise."
+msgstr ""
+
+#: ../../user_guide/options.rst:172
+msgid ""
+"``display.large_repr`` lets you select whether to display dataframes that"
+" exceed ``max_columns`` or ``max_rows`` as a truncated frame, or as a "
+"summary."
+msgstr ""
+
+#: ../../user_guide/options.rst:186
+msgid ""
+"``display.max_colwidth`` sets the maximum width of columns.  Cells of "
+"this length or longer will be truncated with an ellipsis."
+msgstr ""
+
+#: ../../user_guide/options.rst:199
+msgid ""
+"``display.max_info_columns`` sets a threshold for when by-column info "
+"will be given."
+msgstr ""
+
+#: ../../user_guide/options.rst:211
+msgid ""
+"``display.max_info_rows``: ``df.info()`` will usually show null-counts "
+"for each column. For large frames this can be quite slow. "
+"``max_info_rows`` and ``max_info_cols`` limit this null check only to "
+"frames with smaller dimensions then specified. Note that you can specify "
+"the option ``df.info(null_counts=True)`` to override on showing a "
+"particular frame."
+msgstr ""
+
+#: ../../user_guide/options.rst:226
+msgid ""
+"``display.precision`` sets the output display precision in terms of "
+"decimal places. This is only a suggestion."
+msgstr ""
+
+#: ../../user_guide/options.rst:237
+msgid ""
+"``display.chop_threshold`` sets at what level pandas rounds to zero when "
+"it displays a Series of DataFrame. This setting does not change the "
+"precision at which the number is stored."
+msgstr ""
+
+#: ../../user_guide/options.rst:250
+msgid ""
+"``display.colheader_justify`` controls the justification of the headers. "
+"The options are 'right', and 'left'."
+msgstr ""
+
+#: ../../user_guide/options.rst:270
+msgid "Available Options"
+msgstr ""
+
+#: ../../user_guide/options.rst:273
+msgid "Option"
+msgstr ""
+
+#: ../../user_guide/options.rst:273
+msgid "Default"
+msgstr ""
+
+#: ../../user_guide/options.rst:273
+msgid "Function"
+msgstr ""
+
+#: ../../user_guide/options.rst:275
+msgid "display.chop_threshold"
+msgstr ""
+
+#: ../../user_guide/options.rst:275 ../../user_guide/options.rst:297
+#: ../../user_guide/options.rst:411 ../../user_guide/options.rst:417
+msgid "None"
+msgstr ""
+
+#: ../../user_guide/options.rst:275
+msgid ""
+"If set to a float value, all float values smaller then the given "
+"threshold will be displayed as exactly 0 by repr and friends."
+msgstr ""
+
+#: ../../user_guide/options.rst:279
+msgid "display.colheader_justify"
+msgstr ""
+
+#: ../../user_guide/options.rst:279
+msgid "right"
+msgstr ""
+
+#: ../../user_guide/options.rst:279
+msgid "Controls the justification of column headers. used by DataFrameFormatter."
+msgstr ""
+
+#: ../../user_guide/options.rst:281
+msgid "display.column_space"
+msgstr ""
+
+#: ../../user_guide/options.rst:281
+msgid "12"
+msgstr ""
+
+#: ../../user_guide/options.rst:281
+msgid "No description available."
+msgstr ""
+
+#: ../../user_guide/options.rst:282
+msgid "display.date_dayfirst"
+msgstr ""
+
+#: ../../user_guide/options.rst:282 ../../user_guide/options.rst:284
+#: ../../user_guide/options.rst:309 ../../user_guide/options.rst:314
+#: ../../user_guide/options.rst:318 ../../user_guide/options.rst:394
+#: ../../user_guide/options.rst:424 ../../user_guide/options.rst:426
+msgid "False"
+msgstr ""
+
+#: ../../user_guide/options.rst:282
+msgid "When True, prints and parses dates with the day first, eg 20/01/2005"
+msgstr ""
+
+#: ../../user_guide/options.rst:284
+msgid "display.date_yearfirst"
+msgstr ""
+
+#: ../../user_guide/options.rst:284
+msgid "When True, prints and parses dates with the year first, eg 2005/01/20"
+msgstr ""
+
+#: ../../user_guide/options.rst:286
+msgid "display.encoding"
+msgstr ""
+
+#: ../../user_guide/options.rst:286
+msgid "UTF-8"
+msgstr ""
+
+#: ../../user_guide/options.rst:286
+msgid ""
+"Defaults to the detected encoding of the console. Specifies the encoding "
+"to be used for strings returned by to_string, these are generally strings"
+" meant to be displayed on the console."
+msgstr ""
+
+#: ../../user_guide/options.rst:291
+msgid "display.expand_frame_repr"
+msgstr ""
+
+#: ../../user_guide/options.rst:291 ../../user_guide/options.rst:312
+#: ../../user_guide/options.rst:316 ../../user_guide/options.rst:364
+#: ../../user_guide/options.rst:367 ../../user_guide/options.rst:370
+#: ../../user_guide/options.rst:400 ../../user_guide/options.rst:415
+#: ../../user_guide/options.rst:430 ../../user_guide/options.rst:432
+#: ../../user_guide/options.rst:434
+msgid "True"
+msgstr ""
+
+#: ../../user_guide/options.rst:291
+msgid ""
+"Whether to print out the full DataFrame repr for wide DataFrames across "
+"multiple lines, `max_columns` is still respected, but the output will "
+"wrap-around across multiple \"pages\" if its width exceeds "
+"`display.width`."
+msgstr ""
+
+#: ../../user_guide/options.rst:297
+msgid "display.float_format"
+msgstr ""
+
+#: ../../user_guide/options.rst:297
+msgid ""
+"The callable should accept a floating point number and return a string "
+"with the desired format of the number. This is used in some places like "
+"SeriesFormatter. See core.format.EngFormatter for an example."
+msgstr ""
+
+#: ../../user_guide/options.rst:303
+msgid "display.large_repr"
+msgstr ""
+
+#: ../../user_guide/options.rst:303 ../../user_guide/options.rst:380
+msgid "truncate"
+msgstr ""
+
+#: ../../user_guide/options.rst:303
+msgid ""
+"For DataFrames exceeding max_rows/max_cols, the repr (and HTML repr) can "
+"show a truncated table (the default), or switch to the view from "
+"df.info() (the behaviour in earlier versions of pandas). allowable "
+"settings, ['truncate', 'info']"
+msgstr ""
+
+#: ../../user_guide/options.rst:309
+msgid "display.latex.repr"
+msgstr ""
+
+#: ../../user_guide/options.rst:309
+msgid ""
+"Whether to produce a latex DataFrame representation for jupyter frontends"
+" that support it."
+msgstr ""
+
+#: ../../user_guide/options.rst:312
+msgid "display.latex.escape"
+msgstr ""
+
+#: ../../user_guide/options.rst:312
+msgid "Escapes special characters in DataFrames, when using the to_latex method."
+msgstr ""
+
+#: ../../user_guide/options.rst:314
+msgid "display.latex.longtable"
+msgstr ""
+
+#: ../../user_guide/options.rst:314
+msgid "Specifies if the to_latex method of a DataFrame uses the longtable format."
+msgstr ""
+
+#: ../../user_guide/options.rst:316
+msgid "display.latex.multicolumn"
+msgstr ""
+
+#: ../../user_guide/options.rst:316
+msgid "Combines columns when using a MultiIndex"
+msgstr ""
+
+#: ../../user_guide/options.rst:317
+msgid "display.latex.multicolumn_format"
+msgstr ""
+
+#: ../../user_guide/options.rst:317
+msgid "'l'"
+msgstr ""
+
+#: ../../user_guide/options.rst:317
+msgid "Alignment of multicolumn labels"
+msgstr ""
+
+#: ../../user_guide/options.rst:318
+msgid "display.latex.multirow"
+msgstr ""
+
+#: ../../user_guide/options.rst:318
+msgid ""
+"Combines rows when using a MultiIndex. Centered instead of top-aligned, "
+"separated by clines."
+msgstr ""
+
+#: ../../user_guide/options.rst:321
+msgid "display.max_columns"
+msgstr ""
+
+#: ../../user_guide/options.rst:321
+msgid "0 or 20"
+msgstr ""
+
+#: ../../user_guide/options.rst:321
+msgid ""
+"max_rows and max_columns are used in __repr__() methods to decide if "
+"to_string() or info() is used to render an object to a string.  In case "
+"Python/IPython is running in a terminal this is set to 0 by default and "
+"pandas will correctly auto-detect the width of the terminal and switch to"
+" a smaller format in case all columns would not fit vertically. The "
+"IPython notebook, IPython qtconsole, or IDLE do not run in a terminal and"
+" hence it is not possible to do correct auto-detection, in which case the"
+" default is set to 20. 'None' value means unlimited."
+msgstr ""
+
+#: ../../user_guide/options.rst:336
+msgid "display.max_colwidth"
+msgstr ""
+
+#: ../../user_guide/options.rst:336
+msgid "50"
+msgstr ""
+
+#: ../../user_guide/options.rst:336
+msgid ""
+"The maximum width in characters of a column in the repr of a pandas data "
+"structure. When the column overflows, a \"...\" placeholder is embedded "
+"in the output."
+msgstr ""
+
+#: ../../user_guide/options.rst:341
+msgid "display.max_info_columns"
+msgstr ""
+
+#: ../../user_guide/options.rst:341 ../../user_guide/options.rst:357
+msgid "100"
+msgstr ""
+
+#: ../../user_guide/options.rst:341
+msgid ""
+"max_info_columns is used in DataFrame.info method to decide if per column"
+" information will be printed."
+msgstr ""
+
+#: ../../user_guide/options.rst:344
+msgid "display.max_info_rows"
+msgstr ""
+
+#: ../../user_guide/options.rst:344
+msgid "1690785"
+msgstr ""
+
+#: ../../user_guide/options.rst:344
+msgid ""
+"df.info() will usually show null-counts for each column. For large frames"
+" this can be quite slow. max_info_rows and max_info_cols limit this null "
+"check only to frames with smaller dimensions then specified."
+msgstr ""
+
+#: ../../user_guide/options.rst:350
+msgid "display.max_rows"
+msgstr ""
+
+#: ../../user_guide/options.rst:350
+msgid "60"
+msgstr ""
+
+#: ../../user_guide/options.rst:350
+msgid ""
+"This sets the maximum number of rows pandas should output when printing "
+"out various output. For example, this value determines whether the repr()"
+" for a dataframe prints out fully or just a summary repr. 'None' value "
+"means unlimited."
+msgstr ""
+
+#: ../../user_guide/options.rst:357
+msgid "display.max_seq_items"
+msgstr ""
+
+#: ../../user_guide/options.rst:357
+msgid ""
+"when pretty-printing a long sequence, no more then `max_seq_items` will "
+"be printed. If items are omitted, they will be denoted by the addition of"
+" \"...\" to the resulting string. If set to None, the number of items to "
+"be printed is unlimited."
+msgstr ""
+
+#: ../../user_guide/options.rst:364
+msgid "display.memory_usage"
+msgstr ""
+
+#: ../../user_guide/options.rst:364
+msgid ""
+"This specifies if the memory usage of a DataFrame should be displayed "
+"when the df.info() method is invoked."
+msgstr ""
+
+#: ../../user_guide/options.rst:367
+msgid "display.multi_sparse"
+msgstr ""
+
+#: ../../user_guide/options.rst:367
+msgid ""
+"\"Sparsify\" MultiIndex display (don't display repeated elements in outer"
+" levels within groups)"
+msgstr ""
+
+#: ../../user_guide/options.rst:370
+msgid "display.notebook_repr_html"
+msgstr ""
+
+#: ../../user_guide/options.rst:370
+msgid ""
+"When True, IPython notebook will use html representation for pandas "
+"objects (if it is available)."
+msgstr ""
+
+#: ../../user_guide/options.rst:373
+msgid "display.pprint_nest_depth"
+msgstr ""
+
+#: ../../user_guide/options.rst:373
+msgid "3"
+msgstr ""
+
+#: ../../user_guide/options.rst:373
+msgid "Controls the number of nested levels to process when pretty-printing"
+msgstr ""
+
+#: ../../user_guide/options.rst:375
+msgid "display.precision"
+msgstr ""
+
+#: ../../user_guide/options.rst:375
+msgid "6"
+msgstr ""
+
+#: ../../user_guide/options.rst:375
+msgid ""
+"Floating point output precision in terms of number of places after the "
+"decimal, for regular formatting as well as scientific notation. Similar "
+"to numpy's ``precision`` print option"
+msgstr ""
+
+#: ../../user_guide/options.rst:380
+msgid "display.show_dimensions"
+msgstr ""
+
+#: ../../user_guide/options.rst:380
+msgid ""
+"Whether to print out dimensions at the end of DataFrame repr. If "
+"'truncate' is specified, only print out the dimensions if the frame is "
+"truncated (e.g. not display all rows and/or columns)"
+msgstr ""
+
+#: ../../user_guide/options.rst:386
+msgid "display.width"
+msgstr ""
+
+#: ../../user_guide/options.rst:386
+msgid "80"
+msgstr ""
+
+#: ../../user_guide/options.rst:386
+msgid ""
+"Width of the display in characters. In case python/IPython is running in "
+"a terminal this can be set to None and pandas will correctly auto-detect "
+"the width. Note that the IPython notebook, IPython qtconsole, or IDLE do "
+"not run in a terminal and hence it is not possible to correctly detect "
+"the width."
+msgstr ""
+
+#: ../../user_guide/options.rst:394
+msgid "display.html.table_schema"
+msgstr ""
+
+#: ../../user_guide/options.rst:394
+msgid ""
+"Whether to publish a Table Schema representation for frontends that "
+"support it."
+msgstr ""
+
+#: ../../user_guide/options.rst:397
+msgid "display.html.border"
+msgstr ""
+
+#: ../../user_guide/options.rst:397
+msgid "1"
+msgstr ""
+
+#: ../../user_guide/options.rst:397
+msgid ""
+"A ``border=value`` attribute is inserted in the ``<table>`` tag for the "
+"DataFrame HTML repr."
+msgstr ""
+
+#: ../../user_guide/options.rst:400
+msgid "display.html.use_mathjax"
+msgstr ""
+
+#: ../../user_guide/options.rst:400
+msgid ""
+"When True, Jupyter notebook will process table contents using MathJax, "
+"rendering mathematical expressions enclosed by the dollar symbol."
+msgstr ""
+
+#: ../../user_guide/options.rst:404
+msgid "io.excel.xls.writer"
+msgstr ""
+
+#: ../../user_guide/options.rst:404
+msgid "xlwt"
+msgstr ""
+
+#: ../../user_guide/options.rst:404
+msgid "The default Excel writer engine for 'xls' files."
+msgstr ""
+
+#: ../../user_guide/options.rst:406
+msgid "io.excel.xlsm.writer"
+msgstr ""
+
+#: ../../user_guide/options.rst:406 ../../user_guide/options.rst:409
+msgid "openpyxl"
+msgstr ""
+
+#: ../../user_guide/options.rst:406
+msgid ""
+"The default Excel writer engine for 'xlsm' files. Available options: "
+"'openpyxl' (the default)."
+msgstr ""
+
+#: ../../user_guide/options.rst:409
+msgid "io.excel.xlsx.writer"
+msgstr ""
+
+#: ../../user_guide/options.rst:409
+msgid "The default Excel writer engine for 'xlsx' files."
+msgstr ""
+
+#: ../../user_guide/options.rst:411
+msgid "io.hdf.default_format"
+msgstr ""
+
+#: ../../user_guide/options.rst:411
+msgid ""
+"default format writing format, if None, then put will default to 'fixed' "
+"and append will default to 'table'"
+msgstr ""
+
+#: ../../user_guide/options.rst:415
+msgid "io.hdf.dropna_table"
+msgstr ""
+
+#: ../../user_guide/options.rst:415
+msgid "drop ALL nan rows when appending to a table"
+msgstr ""
+
+#: ../../user_guide/options.rst:417
+msgid "io.parquet.engine"
+msgstr ""
+
+#: ../../user_guide/options.rst:417
+msgid ""
+"The engine to use as a default for parquet reading and writing. If None "
+"then try 'pyarrow' and 'fastparquet'"
+msgstr ""
+
+#: ../../user_guide/options.rst:420
+msgid "mode.chained_assignment"
+msgstr ""
+
+#: ../../user_guide/options.rst:420
+msgid "warn"
+msgstr ""
+
+#: ../../user_guide/options.rst:420
+msgid ""
+"Controls ``SettingWithCopyWarning``: 'raise', 'warn', or None. Raise an "
+"exception, warn, or no action if trying to use :ref:`chained assignment "
+"<indexing.evaluation_order>`."
+msgstr ""
+
+#: ../../user_guide/options.rst:424
+msgid "mode.sim_interactive"
+msgstr ""
+
+#: ../../user_guide/options.rst:424
+msgid "Whether to simulate interactive mode for purposes of testing."
+msgstr ""
+
+#: ../../user_guide/options.rst:426
+msgid "mode.use_inf_as_na"
+msgstr ""
+
+#: ../../user_guide/options.rst:426
+msgid ""
+"True means treat None, NaN, -INF, INF as NA (old way), False means None "
+"and NaN are null, but INF, -INF are not NA (new way)."
+msgstr ""
+
+#: ../../user_guide/options.rst:430
+msgid "compute.use_bottleneck"
+msgstr ""
+
+#: ../../user_guide/options.rst:430
+msgid "Use the bottleneck library to accelerate computation if it is installed."
+msgstr ""
+
+#: ../../user_guide/options.rst:432
+msgid "compute.use_numexpr"
+msgstr ""
+
+#: ../../user_guide/options.rst:432
+msgid "Use the numexpr library to accelerate computation if it is installed."
+msgstr ""
+
+#: ../../user_guide/options.rst:434
+msgid "plotting.matplotlib.register_converters"
+msgstr ""
+
+#: ../../user_guide/options.rst:434
+msgid "Register custom converters with matplotlib. Set to False to de-register."
+msgstr ""
+
+#: ../../user_guide/options.rst:442
+msgid "Number Formatting"
+msgstr ""
+
+#: ../../user_guide/options.rst:444
+msgid ""
+"pandas also allows you to set how numbers are displayed in the console. "
+"This option is not set through the ``set_options`` API."
+msgstr ""
+
+#: ../../user_guide/options.rst:447
+msgid ""
+"Use the ``set_eng_float_format`` function to alter the floating-point "
+"formatting of pandas objects to produce a particular format."
+msgstr ""
+
+#: ../../user_guide/options.rst:451
+msgid "For instance:"
+msgstr ""
+
+#: ../../user_guide/options.rst:468
+msgid ""
+"To round floats on a case-by-case basis, you can also use "
+":meth:`~pandas.Series.round` and :meth:`~pandas.DataFrame.round`."
+msgstr ""
+
+#: ../../user_guide/options.rst:473
+msgid "Unicode Formatting"
+msgstr ""
+
+#: ../../user_guide/options.rst:477
+msgid ""
+"Enabling this option will affect the performance for printing of "
+"DataFrame and Series (about 2 times slower). Use only when it is actually"
+" required."
+msgstr ""
+
+#: ../../user_guide/options.rst:480
+msgid ""
+"Some East Asian countries use Unicode characters whose width corresponds "
+"to two Latin characters. If a DataFrame or Series contains these "
+"characters, the default output mode may not align them properly."
+msgstr ""
+
+#: ../../user_guide/options.rst:483
+msgid "Screen captures are attached for each output to show the actual results."
+msgstr ""
+
+#: ../../user_guide/options.rst:492
+msgid ""
+"Enabling ``display.unicode.east_asian_width`` allows pandas to check each"
+" character's \"East Asian Width\" property. These characters can be "
+"aligned properly by setting this option to ``True``. However, this will "
+"result in longer render times than the standard ``len`` function."
+msgstr ""
+
+#: ../../user_guide/options.rst:503
+msgid ""
+"In addition, Unicode characters whose width is \"Ambiguous\" can either "
+"be 1 or 2 characters wide depending on the terminal setting or encoding. "
+"The option ``display.unicode.ambiguous_as_wide`` can be used to handle "
+"the ambiguity."
+msgstr ""
+
+#: ../../user_guide/options.rst:506
+msgid ""
+"By default, an \"Ambiguous\" character's width, such as \"¡\" (inverted "
+"exclamation) in the example below, is taken to be 1."
+msgstr ""
+
+#: ../../user_guide/options.rst:515
+msgid ""
+"Enabling ``display.unicode.ambiguous_as_wide`` makes pandas interpret "
+"these characters' widths to be 2. (Note that this option will only be "
+"effective when ``display.unicode.east_asian_width`` is enabled.)"
+msgstr ""
+
+#: ../../user_guide/options.rst:518
+msgid ""
+"However, setting this option incorrectly for your terminal will cause "
+"these characters to be aligned incorrectly:"
+msgstr ""
+
+#: ../../user_guide/options.rst:536
+msgid "Table Schema Display"
+msgstr ""
+
+#: ../../user_guide/options.rst:540
+msgid ""
+"``DataFrame`` and ``Series`` will publish a Table Schema representation "
+"by default. False by default, this can be enabled globally with the "
+"``display.html.table_schema`` option:"
+msgstr ""
+
+#: ../../user_guide/options.rst:548
+msgid "Only ``'display.max_rows'`` are serialized and published."
+msgstr ""
+

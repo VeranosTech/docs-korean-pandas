@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.SparseDtype.rst:2
+msgid "pandas.SparseDtype"
+msgstr ""
+
+#: of pandas.SparseDtype:2
+msgid "Dtype for data stored in :class:`SparseArray`."
+msgstr ""
+
+#: of pandas.SparseDtype:4
+msgid "This dtype implements the pandas ExtensionDtype interface."
+msgstr ""
+
+#: of pandas.SparseDtype
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.SparseDtype:11
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.SparseDtype:10
+msgid "str, ExtensionDtype, numpy.dtype, type, default numpy.float64"
+msgstr ""
+
+#: of pandas.SparseDtype:11
+msgid "The dtype of the underlying array storing the non-fill value values."
+msgstr ""
+
+#: of pandas.SparseDtype:37
+msgid "**fill_value**"
+msgstr ""
+
+#: of pandas.SparseDtype:36
+msgid "scalar, optional"
+msgstr ""
+
+#: of pandas.SparseDtype:14
+msgid ""
+"The scalar value not stored in the SparseArray. By default, this depends "
+"on `dtype`."
+msgstr ""
+
+#: of pandas.SparseDtype:18
+msgid "dtype"
+msgstr ""
+
+#: of pandas.SparseDtype:18
+msgid "na_value"
+msgstr ""
+
+#: of pandas.SparseDtype:20
+msgid "float"
+msgstr ""
+
+#: of pandas.SparseDtype:20
+msgid "``np.nan``"
+msgstr ""
+
+#: of pandas.SparseDtype:21
+msgid "int"
+msgstr ""
+
+#: of pandas.SparseDtype:21
+msgid "``0``"
+msgstr ""
+
+#: of pandas.SparseDtype:22
+msgid "bool"
+msgstr ""
+
+#: of pandas.SparseDtype:22
+msgid "``False``"
+msgstr ""
+
+#: of pandas.SparseDtype:23
+msgid "datetime64"
+msgstr ""
+
+#: of pandas.SparseDtype:23 pandas.SparseDtype:24
+msgid "``pd.NaT``"
+msgstr ""
+
+#: of pandas.SparseDtype:24
+msgid "timedelta64"
+msgstr ""
+
+#: of pandas.SparseDtype:27
+msgid "The default value may be overridden by specifying a `fill_value`."
+msgstr ""
+
+#: of pandas.SparseDtype:40
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.SparseDtype:50:<autosummary>:1
+msgid ":obj:`fill_value <pandas.SparseDtype.fill_value>`\\"
+msgstr ""
+
+#: of pandas.SparseDtype:50:<autosummary>:1
+msgid "The fill value of the array."
+msgstr ""
+
+#: of pandas.SparseDtype:50:<autosummary>:1
+msgid ":obj:`kind <pandas.SparseDtype.kind>`\\"
+msgstr ""
+
+#: of pandas.SparseDtype:50:<autosummary>:1
+msgid "The sparse kind."
+msgstr ""
+
+#: of pandas.SparseDtype:50:<autosummary>:1
+msgid ":obj:`name <pandas.SparseDtype.name>`\\"
+msgstr ""
+
+#: of pandas.SparseDtype:50:<autosummary>:1
+msgid "A string identifying the data type."
+msgstr ""
+
+#: of pandas.SparseDtype:50:<autosummary>:1
+msgid ":obj:`names <pandas.SparseDtype.names>`\\"
+msgstr ""
+
+#: of pandas.SparseDtype:50:<autosummary>:1
+msgid "Ordered list of field names, or None if there are no fields."
+msgstr ""
+
+#: of pandas.SparseDtype:50:<autosummary>:1
+msgid ":obj:`type <pandas.SparseDtype.type>`\\"
+msgstr ""
+
+#: of pandas.SparseDtype:50:<autosummary>:1
+msgid "The scalar type for the array, e.g."
+msgstr ""
+
+#: of pandas.SparseDtype:52
+msgid "**subtype**"
+msgstr ""
+
+#: of pandas.SparseDtype:56
+msgid "Methods"
+msgstr ""
+
+#: of pandas.SparseDtype:64:<autosummary>:1
+msgid ""
+":obj:`construct_array_type <pandas.SparseDtype.construct_array_type>`\\ "
+"\\(\\)"
+msgstr ""
+
+#: of pandas.SparseDtype:64:<autosummary>:1
+msgid "Return the array type associated with this dtype"
+msgstr ""
+
+#: of pandas.SparseDtype:64:<autosummary>:1
+msgid ""
+":obj:`construct_from_string <pandas.SparseDtype.construct_from_string>`\\"
+" \\(string\\)"
+msgstr ""
+
+#: of pandas.SparseDtype:64:<autosummary>:1
+msgid "Construct a SparseDtype from a string form."
+msgstr ""
+
+#: of pandas.SparseDtype:64:<autosummary>:1
+msgid ":obj:`is_dtype <pandas.SparseDtype.is_dtype>`\\ \\(dtype\\)"
+msgstr ""
+
+#: of pandas.SparseDtype:64:<autosummary>:1
+msgid "Check if we match 'dtype'."
+msgstr ""
+
+#: of pandas.SparseDtype:64:<autosummary>:1
+msgid ":obj:`update_dtype <pandas.SparseDtype.update_dtype>`\\ \\(dtype\\)"
+msgstr ""
+
+#: of pandas.SparseDtype:64:<autosummary>:1
+msgid "Convert the SparseDtype to a new dtype."
+msgstr ""
+

@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Timestamp.floor.rst:2
+msgid "pandas.Timestamp.floor"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.floor:2
+msgid "return a new Timestamp floored to this resolution"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.floor
+msgid "Parameters"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.floor:8
+msgid "**freq**"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.floor:7
+msgid "a freq string indicating the flooring resolution"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.floor:16
+msgid "**ambiguous**"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.floor:15
+msgid "bool, 'NaT', default 'raise'"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.floor:11
+msgid ""
+"bool contains flags to determine if time is dst or not (note that this "
+"flag is only applicable for ambiguous fall dst dates)"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.floor:13
+msgid "'NaT' will return NaT for an ambiguous time"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.floor:14
+msgid "'raise' will raise an AmbiguousTimeError for an ambiguous time"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.floor:35
+msgid "**nonexistent**"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.floor:34
+msgid "'shift_forward', 'shift_backward, 'NaT', timedelta,"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.floor:19
+msgid "default 'raise'"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.floor:20
+msgid ""
+"A nonexistent time does not exist in a particular timezone where clocks "
+"moved forward due to DST."
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.floor:23
+msgid ""
+"'shift_forward' will shift the nonexistent time forward to the closest "
+"existing time"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.floor:25
+msgid ""
+"'shift_backward' will shift the nonexistent time backward to the closest "
+"existing time"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.floor:27
+msgid "'NaT' will return NaT where there are nonexistent times"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.floor:28
+msgid "timedelta objects will shift nonexistent times by the timedelta"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.floor:29
+msgid "'raise' will raise an NonExistentTimeError if there are nonexistent times"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.floor
+msgid "Raises"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.floor:48
+msgid "**ValueError if the freq cannot be converted**"
+msgstr ""
+

@@ -1,0 +1,3067 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../user_guide/timeseries.rst:3
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:7
+msgid "Time Series / Date functionality"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:9
+msgid ""
+"pandas contains extensive capabilities and features for working with time"
+" series data for all domains. Using the NumPy ``datetime64`` and "
+"``timedelta64`` dtypes, pandas has consolidated a large number of "
+"features from other Python libraries like ``scikits.timeseries`` as well "
+"as created a tremendous amount of new functionality for manipulating time"
+" series data."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:14
+msgid "For example, pandas supports:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:16
+msgid "Parsing time series information from various sources and formats"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:26
+msgid "Generate sequences of fixed-frequency dates and time spans"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:33
+msgid "Manipulating and converting date times with timezone information"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:41
+msgid "Resampling or converting a time series to a particular frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:50
+msgid ""
+"Performing date and time arithmetic with absolute or relative time "
+"increments"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:63
+msgid ""
+"pandas provides a relatively compact and self-contained set of tools for "
+"performing the above tasks and more."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:70
+msgid "Overview"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:72
+msgid "pandas captures 4 general time related concepts:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:74
+msgid ""
+"Date times: A specific date and time with timezone support. Similar to "
+"``datetime.datetime`` from the standard library."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:75
+msgid ""
+"Time deltas: An absolute time duration. Similar to ``datetime.timedelta``"
+" from the standard library."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:76
+msgid ""
+"Time spans: A span of time defined by a point in time and its associated "
+"frequency."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:77
+msgid ""
+"Date offsets: A relative time duration that respects calendar arithmetic."
+" Similar to ``dateutil.relativedelta.relativedelta`` from the "
+"``dateutil`` package."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:80
+msgid "Concept"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:80
+msgid "Scalar Class"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:80
+msgid "Array Class"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:80
+msgid "pandas Data Type"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:80
+msgid "Primary Creation Method"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:82
+msgid "Date times"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:82
+msgid "``Timestamp``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:82
+msgid "``DatetimeIndex``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:82
+msgid "``datetime64[ns]`` or ``datetime64[ns, tz]``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:82
+msgid "``to_datetime`` or ``date_range``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:83
+msgid "Time deltas"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:83
+msgid "``Timedelta``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:83
+msgid "``TimedeltaIndex``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:83
+msgid "``timedelta64[ns]``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:83
+msgid "``to_timedelta`` or ``timedelta_range``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:84
+msgid "Time spans"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:84
+msgid "``Period``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:84
+msgid "``PeriodIndex``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:84
+msgid "``period[freq]``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:84
+msgid "``Period`` or ``period_range``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:85
+msgid "Date offsets"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:85
+msgid "``DateOffset``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:85
+msgid "``None``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:88
+msgid ""
+"For time series data, it's conventional to represent the time component "
+"in the index of a :class:`Series` or :class:`DataFrame` so manipulations "
+"can be performed with respect to the time element."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:95
+msgid ""
+"However, :class:`Series` and :class:`DataFrame` can directly also support"
+" the time component as data itself."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:101
+msgid ""
+":class:`Series` and :class:`DataFrame` have extended data type support "
+"and functionality for ``datetime``, ``timedelta`` and ``Period`` data "
+"when passed into those constructors. ``DateOffset`` data however will be "
+"stored as ``object`` data."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:111
+msgid ""
+"Lastly, pandas represents null date times, time deltas, and time spans as"
+" ``NaT`` which is useful for representing missing or null date like "
+"values and behaves similar as ``np.nan`` does for float data."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:126
+msgid "Timestamps vs. Time Spans"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:128
+msgid ""
+"Timestamped data is the most basic type of time series data that "
+"associates values with points in time. For pandas objects it means using "
+"the points in time."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:138
+msgid ""
+"However, in many cases it is more natural to associate things like change"
+" variables with a time span instead. The span represented by ``Period`` "
+"can be specified explicitly, or inferred from datetime string format."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:142
+msgid "For example:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:150
+msgid ""
+":class:`Timestamp` and :class:`Period` can serve as an index. Lists of "
+"``Timestamp`` and ``Period`` are automatically coerced to "
+":class:`DatetimeIndex` and :class:`PeriodIndex` respectively."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:175
+msgid ""
+"pandas allows you to capture both representations and convert between "
+"them. Under the hood, pandas represents timestamps using instances of "
+"``Timestamp`` and sequences of timestamps using instances of "
+"``DatetimeIndex``. For regular time spans, pandas uses ``Period`` objects"
+" for scalar values and ``PeriodIndex`` for sequences of spans. Better "
+"support for irregular intervals with arbitrary start and end points are "
+"forth-coming in future releases."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:187
+msgid "Converting to Timestamps"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:189
+msgid ""
+"To convert a :class:`Series` or list-like object of date-like objects "
+"e.g. strings, epochs, or a mixture, you can use the ``to_datetime`` "
+"function. When passed a ``Series``, this returns a ``Series`` (with the "
+"same index), while a list-like is converted to a ``DatetimeIndex``:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:200
+msgid ""
+"If you use dates which start with the day first (i.e. European style), "
+"you can pass the ``dayfirst`` flag:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:211
+msgid ""
+"You see in the above example that ``dayfirst`` isn't strict, so if a date"
+" can't be parsed with the day being first it will be parsed as if "
+"``dayfirst`` were False."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:215
+msgid ""
+"If you pass a single string to ``to_datetime``, it returns a single "
+"``Timestamp``. ``Timestamp`` can also accept string input, but it doesn't"
+" accept string parsing options like ``dayfirst`` or ``format``, so use "
+"``to_datetime`` if these are required."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:225
+msgid "You can also use the ``DatetimeIndex`` constructor directly:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:231
+msgid ""
+"The string 'infer' can be passed in order to set the frequency of the "
+"index as the inferred frequency upon creation:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:239
+msgid "Providing a Format Argument"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:241
+msgid ""
+"In addition to the required datetime string, a ``format`` argument can be"
+" passed to ensure specific parsing. This could also potentially speed up "
+"the conversion considerably."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:250
+msgid ""
+"For more information on the choices available when specifying the "
+"``format`` option, see the Python `datetime documentation`_."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:256
+msgid "Assembling Datetime from Multiple DataFrame Columns"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:260
+msgid ""
+"You can also pass a ``DataFrame`` of integer or string columns to "
+"assemble into a ``Series`` of ``Timestamps``."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:271
+msgid "You can pass only the columns that you need to assemble."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:277
+msgid ""
+"``pd.to_datetime`` looks for standard designations of the datetime "
+"component in the column names, including:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:279
+msgid "required: ``year``, ``month``, ``day``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:280
+msgid ""
+"optional: ``hour``, ``minute``, ``second``, ``millisecond``, "
+"``microsecond``, ``nanosecond``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:283
+msgid "Invalid Data"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:285
+msgid "The default behavior, ``errors='raise'``, is to raise when unparseable:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:292
+msgid "Pass ``errors='ignore'`` to return the original input when unparseable:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:298
+msgid ""
+"Pass ``errors='coerce'`` to convert unparseable data to ``NaT`` (not a "
+"time):"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:308
+msgid "Epoch Timestamps"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:310
+msgid ""
+"pandas supports converting integer or float epoch times to ``Timestamp`` "
+"and ``DatetimeIndex``. The default unit is nanoseconds, since that is how"
+" ``Timestamp`` objects are stored internally. However, epochs are often "
+"stored in another ``unit`` which can be specified. These are computed "
+"from the starting point specified by the ``origin`` parameter."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:324
+msgid ""
+"Constructing a :class:`Timestamp` or :class:`DatetimeIndex` with an epoch"
+" timestamp with the ``tz`` argument specified will localize the epoch "
+"timestamps to UTC first then convert the result to the specified time "
+"zone."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:335
+msgid "Epoch times will be rounded to the nearest nanosecond."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:339
+msgid ""
+"Conversion of float epoch times can lead to inaccurate and unexpected "
+"results. :ref:`Python floats <python:tut-fp-issues>` have about 15 digits"
+" precision in decimal. Rounding during conversion from float to high "
+"precision ``Timestamp`` is unavoidable. The only way to achieve exact "
+"precision is to use a fixed-width types (e.g. an int64)."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:352
+msgid ":ref:`timeseries.origin`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:357
+msgid "From Timestamps to Epoch"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:359
+msgid ""
+"To invert the operation from above, namely, to convert from a "
+"``Timestamp`` to a 'unix' epoch:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:366
+msgid ""
+"We subtract the epoch (midnight at January 1, 1970 UTC) and then floor "
+"divide by the \"unit\" (1 second)."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:376
+msgid "Using the ``origin`` Parameter"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:380
+msgid ""
+"Using the ``origin`` parameter, one can specify an alternative starting "
+"point for creation of a ``DatetimeIndex``. For example, to use 1960-01-01"
+" as the starting date:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:387
+msgid ""
+"The default is set at ``origin='unix'``, which defaults to ``1970-01-01 "
+"00:00:00``. Commonly called 'unix epoch' or POSIX time."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:397
+msgid "Generating Ranges of Timestamps"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:399
+msgid ""
+"To generate an index with timestamps, you can use either the "
+"``DatetimeIndex`` or ``Index`` constructor and pass in a list of datetime"
+" objects:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:416
+msgid ""
+"In practice this becomes very cumbersome because we often need a very "
+"long index with a large number of timestamps. If we need timestamps on a "
+"regular frequency, we can use the :func:`date_range` and "
+":func:`bdate_range` functions to create a ``DatetimeIndex``. The default "
+"frequency for ``date_range`` is a **calendar day** while the default for "
+"``bdate_range`` is a **business day**:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:433
+msgid ""
+"Convenience functions like ``date_range`` and ``bdate_range`` can utilize"
+" a variety of :ref:`frequency aliases <timeseries.offset_aliases>`:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:442
+msgid ""
+"``date_range`` and ``bdate_range`` make it easy to generate a range of "
+"dates using various combinations of parameters like ``start``, ``end``, "
+"``periods``, and ``freq``. The start and end dates are strictly "
+"inclusive, so dates outside of those specified will not be generated:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:459
+msgid ""
+"Specifying ``start``, ``end``, and ``periods`` will generate a range of "
+"evenly spaced dates from ``start`` to ``end`` inclusively, with "
+"``periods`` number of elements in the resulting ``DatetimeIndex``:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:472
+msgid "Custom Frequency Ranges"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:476
+msgid ""
+"This functionality was originally exclusive to ``cdate_range``, which is "
+"deprecated as of version 0.21.0 in favor of ``bdate_range``.  Note that "
+"``cdate_range`` only utilizes the ``weekmask`` and ``holidays`` "
+"parameters when custom business day, 'C', is passed as the frequency "
+"string. Support has been expanded with ``bdate_range`` to work with any "
+"custom frequency string."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:484
+msgid ""
+"``bdate_range`` can also generate a range of custom frequency dates by "
+"using the ``weekmask`` and ``holidays`` parameters.  These parameters "
+"will only be used if a custom frequency string is passed."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:500
+msgid ":ref:`timeseries.custombusinessdays`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:505
+msgid "Timestamp Limitations"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:507
+msgid ""
+"Since pandas represents timestamps in nanosecond resolution, the time "
+"span that can be represented using a 64-bit integer is limited to "
+"approximately 584 years:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:517
+msgid ":ref:`timeseries.oob`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:522
+msgid "Indexing"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:524
+msgid ""
+"One of the main uses for ``DatetimeIndex`` is as an index for pandas "
+"objects. The ``DatetimeIndex`` class contains many time series related "
+"optimizations:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:527
+msgid ""
+"A large range of dates for various offsets are pre-computed and cached "
+"under the hood in order to make generating subsequent date ranges very "
+"fast (just have to grab a slice)."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:530
+msgid "Fast shifting using the ``shift`` and ``tshift`` method on pandas objects."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:531
+msgid ""
+"Unioning of overlapping ``DatetimeIndex`` objects with the same frequency"
+" is very fast (important for fast data alignment)."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:533
+msgid ""
+"Quick access to date fields via properties such as ``year``, ``month``, "
+"etc."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:534
+msgid "Regularization functions like ``snap`` and very fast ``asof`` logic."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:536
+msgid ""
+"``DatetimeIndex`` objects have all the basic functionality of regular "
+"``Index`` objects, and a smorgasbord of advanced time series specific "
+"methods for easy frequency processing."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:541
+msgid ":ref:`Reindexing methods <basics.reindexing>`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:545
+msgid ""
+"While pandas does not force you to have a sorted date index, some of "
+"these methods may have unexpected or incorrect behavior if the dates are "
+"unsorted."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:548
+msgid ""
+"``DatetimeIndex`` can be used like a regular index and offers all of its "
+"intelligent functionality like selection, slicing, etc."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:562
+msgid "Partial String Indexing"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:564
+msgid ""
+"Dates and strings that parse to timestamps can be passed as indexing "
+"parameters:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:574
+msgid ""
+"To provide convenience for accessing longer time series, you can also "
+"pass in the year or year and month as strings:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:583
+msgid ""
+"This type of slicing will work on a ``DataFrame`` with a "
+"``DatetimeIndex`` as well. Since the partial string selection is a form "
+"of label slicing, the endpoints **will be** included. This would include "
+"matching times on an included date:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:594
+msgid ""
+"This starts on the very first time in the month, and includes the last "
+"date and time for the month:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:601
+msgid ""
+"This specifies a stop time **that includes all of the times on the last "
+"day**:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:607
+msgid "This specifies an **exact** stop time (and is not the same as the above):"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:613
+msgid "We are stopping on the included end-point as it is part of the index:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:621
+msgid ""
+"``DatetimeIndex`` partial string indexing also works on a ``DataFrame`` "
+"with a ``MultiIndex``:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:638
+msgid "Slicing with string indexing also honors UTC offset."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:649
+msgid "Slice vs. Exact Match"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:653
+msgid ""
+"The same string used as an indexing parameter can be treated either as a "
+"slice or as an exact match depending on the resolution of the index. If "
+"the string is less accurate than the index, it will be treated as a "
+"slice, otherwise as an exact match."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:655
+msgid "Consider a ``Series`` object with a minute resolution index:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:665
+msgid "A timestamp string less accurate than a minute gives a ``Series`` object."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:671
+msgid ""
+"A timestamp string with minute resolution (or more accurate), gives a "
+"scalar instead, i.e. it is not casted to a slice."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:678
+msgid ""
+"If index resolution is second, then the minute-accurate timestamp gives a"
+" ``Series``."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:690
+msgid ""
+"If the timestamp string is treated as a slice, it can be used to index "
+"``DataFrame`` with ``[]`` as well."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:701
+msgid ""
+"However, if the string is treated as an exact match, the selection in "
+"``DataFrame``'s ``[]`` will be column-wise and not row-wise, see "
+":ref:`Indexing Basics <indexing.basics>`. For example "
+"``dft_minute['2011-12-31 23:59']`` will raise ``KeyError`` as "
+"``'2012-12-31 23:59'`` has the same resolution as the index and there is "
+"no column with such name:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:703
+msgid ""
+"To *always* have unambiguous selection, whether the row is treated as a "
+"slice or a single selection, use ``.loc``."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:709
+msgid ""
+"Note also that ``DatetimeIndex`` resolution cannot be less precise than "
+"day."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:720
+msgid "Exact Indexing"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:722
+msgid ""
+"As discussed in previous section, indexing a ``DatetimeIndex`` with a "
+"partial string depends on the \"accuracy\" of the period, in other words "
+"how specific the interval is in relation to the resolution of the index. "
+"In contrast, indexing with ``Timestamp`` or ``datetime`` objects is "
+"exact, because the objects have exact meaning. These also follow the "
+"semantics of *including both endpoints*."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:724
+msgid ""
+"These ``Timestamp`` and ``datetime`` objects have exact ``hours, "
+"minutes,`` and ``seconds``, even though they were not explicitly "
+"specified (they are ``0``)."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:730
+msgid "With no defaults."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:739
+msgid "Truncating & Fancy Indexing"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:741
+msgid ""
+"A :meth:`~DataFrame.truncate` convenience function is provided that is "
+"similar to slicing. Note that ``truncate`` assumes a 0 value for any "
+"unspecified date component in a ``DatetimeIndex`` in contrast to slicing "
+"which returns any partially matching dates:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:754
+msgid ""
+"Even complicated fancy indexing that breaks the ``DatetimeIndex`` "
+"frequency regularity will result in a ``DatetimeIndex``, although "
+"frequency is lost:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:764
+msgid "Iterating through groups"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:766
+msgid ""
+"With the ``Resampler`` object in hand, iterating through the grouped data"
+" is very natural and functions similarly to :py:func:`itertools.groupby`:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:787
+msgid ""
+"See :ref:`groupby.iterating-label` or :class:`Resampler.__iter__` for "
+"more."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:792
+msgid "Time/Date Components"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:794
+msgid ""
+"There are several time/date properties that one can access from "
+"``Timestamp`` or a collection of timestamps like a ``DatetimeIndex``."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "Property"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "year"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "The year of the datetime"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "month"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "The month of the datetime"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "day"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "The days of the datetime"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "hour"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "The hour of the datetime"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "minute"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "The minutes of the datetime"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "second"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "The seconds of the datetime"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "microsecond"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "The microseconds of the datetime"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "nanosecond"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "The nanoseconds of the datetime"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "date"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "Returns datetime.date (does not contain timezone information)"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "time"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "Returns datetime.time (does not contain timezone information)"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "timetz"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "Returns datetime.time as local time with timezone information"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "dayofyear"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "The ordinal day of year"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "weekofyear"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "The week ordinal of the year"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "week"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "dayofweek"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "The number of the day of the week with Monday=0, Sunday=6"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "weekday"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "weekday_name"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "The name of the day in a week (ex: Friday)"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "quarter"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "Quarter of the date: Jan-Mar = 1, Apr-Jun = 2, etc."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "days_in_month"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "The number of days in the month of the datetime"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "is_month_start"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "Logical indicating if first day of month (defined by frequency)"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "is_month_end"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "Logical indicating if last day of month (defined by frequency)"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "is_quarter_start"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "Logical indicating if first day of quarter (defined by frequency)"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "is_quarter_end"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "Logical indicating if last day of quarter (defined by frequency)"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "is_year_start"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "Logical indicating if first day of year (defined by frequency)"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "is_year_end"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "Logical indicating if last day of year (defined by frequency)"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "is_leap_year"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "Logical indicating if the date belongs to a leap year"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:827
+msgid ""
+"Furthermore, if you have a ``Series`` with datetimelike values, then you "
+"can access these properties via the ``.dt`` accessor, as detailed in the "
+"section on :ref:`.dt accessors<basics.dt_accessors>`."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:834
+msgid "DateOffset Objects"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:836
+msgid ""
+"In the preceding examples, frequency strings (e.g. ``'D'``) were used to "
+"specify a frequency that defined:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:839
+msgid ""
+"how the date times in :class:`DatetimeIndex` were spaced when using "
+":meth:`date_range`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:840
+msgid "the frequency of a :class:`Period` or :class:`PeriodIndex`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:842
+msgid ""
+"These frequency strings map to a :class:`DateOffset` object and its "
+"subclasses. A :class:`DateOffset` is similar to a :class:`Timedelta` that"
+" represents a duration of time but follows specific calendar duration "
+"rules. For example, a :class:`Timedelta` day will always increment "
+"``datetimes`` by 24 hours, while a :class:`DateOffset` day will increment"
+" ``datetimes`` to the same time the next day whether a day represents 23,"
+" 24 or 25 hours due to daylight savings time. However, all "
+":class:`DateOffset` subclasses that are an hour or smaller (``Hour``, "
+"``Minute``, ``Second``, ``Milli``, ``Micro``, ``Nano``) behave like "
+":class:`Timedelta` and respect absolute time."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:850
+msgid ""
+"The basic :class:`DateOffset` acts similar to ``dateutil.relativedelta`` "
+"(`relativedelta documentation`_) that shifts a date time by the "
+"corresponding calendar duration specified. The arithmetic operator "
+"(``+``) or the ``apply`` method can be used to perform the shift."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:870
+msgid ""
+"Most ``DateOffsets`` have associated frequencies strings, or offset "
+"aliases, that can be passed into ``freq`` keyword arguments. The "
+"available date offsets and associated frequency strings can be found "
+"below:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "Date Offset"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "Frequency String"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.DateOffset`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "None"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "Generic offset class, defaults to 1 calendar day"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ""
+":class:`~pandas.tseries.offsets.BDay` or "
+":class:`~pandas.tseries.offsets.BusinessDay`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'B'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "business day (weekday)"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ""
+":class:`~pandas.tseries.offsets.CDay` or "
+":class:`~pandas.tseries.offsets.CustomBusinessDay`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'C'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "custom business day"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.Week`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'W'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "one week, optionally anchored on a day of the week"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.WeekOfMonth`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'WOM'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "the x-th day of the y-th week of each month"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.LastWeekOfMonth`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'LWOM'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "the x-th day of the last week of each month"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.MonthEnd`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'M'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "calendar month end"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.MonthBegin`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'MS'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "calendar month begin"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ""
+":class:`~pandas.tseries.offsets.BMonthEnd` or "
+":class:`~pandas.tseries.offsets.BusinessMonthEnd`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'BM'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "business month end"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ""
+":class:`~pandas.tseries.offsets.BMonthBegin` or "
+":class:`~pandas.tseries.offsets.BusinessMonthBegin`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'BMS'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "business month begin"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ""
+":class:`~pandas.tseries.offsets.CBMonthEnd` or "
+":class:`~pandas.tseries.offsets.CustomBusinessMonthEnd`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'CBM'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "custom business month end"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ""
+":class:`~pandas.tseries.offsets.CBMonthBegin` or "
+":class:`~pandas.tseries.offsets.CustomBusinessMonthBegin`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'CBMS'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "custom business month begin"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.SemiMonthEnd`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'SM'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "15th (or other day_of_month) and calendar month end"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.SemiMonthBegin`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'SMS'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "15th (or other day_of_month) and calendar month begin"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.QuarterEnd`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'Q'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "calendar quarter end"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.QuarterBegin`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'QS'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "calendar quarter begin"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.BQuarterEnd`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'BQ``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "business quarter end"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.BQuarterBegin`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'BQS'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "business quarter begin"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.FY5253Quarter`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'REQ'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "retail (aka 52-53 week) quarter"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.YearEnd`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'A'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "calendar year end"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.YearBegin`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'AS'`` or ``'BYS'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "calendar year begin"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.BYearEnd`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'BA'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "business year end"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.BYearBegin`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'BAS'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "business year begin"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.FY5253`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'RE'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "retail (aka 52-53 week) year"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.Easter`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "Easter holiday"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.BusinessHour`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'BH'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "business hour"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.CustomBusinessHour`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'CBH'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "custom business hour"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.Day`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'D'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "one absolute day"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.Hour`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'H'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "one hour"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.Minute`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'T'`` or ``'min'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "one minute"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.Second`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'S'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "one second"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.Milli`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'L'`` or ``'ms'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "one millisecond"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.Micro`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'U'`` or ``'us'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "one microsecond"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid ":class:`~pandas.tseries.offsets.Nano`"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "``'N'``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "one nanosecond"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:912
+msgid ""
+"``DateOffsets`` additionally have :meth:`rollforward` and "
+":meth:`rollback` methods for moving a date forward or backward "
+"respectively to a valid offset date relative to the offset. For example, "
+"business offsets will roll dates that land on the weekends (Saturday and "
+"Sunday) forward to Monday since business offsets operate on the weekdays."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:929
+msgid ""
+"These operations preserve time (hour, minute, etc) information by "
+"default. To reset time to midnight, use :meth:`normalize` before or after"
+" applying the operation (depending on whether you want the time "
+"information included in the operation)."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:951
+msgid "Parametric Offsets"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:953
+msgid ""
+"Some of the offsets can be \"parameterized\" when created to result in "
+"different behaviors. For example, the ``Week`` offset for generating "
+"weekly data accepts a ``weekday`` parameter which results in the "
+"generated dates always lying on a particular day of the week:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:968
+msgid "The ``normalize`` option will be effective for addition and subtraction."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:976
+msgid ""
+"Another example is parameterizing ``YearEnd`` with the specific ending "
+"month:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:987
+msgid "Using Offsets with ``Series`` / ``DatetimeIndex``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:989
+msgid ""
+"Offsets can be used with either a ``Series`` or ``DatetimeIndex`` to "
+"apply the offset to each element."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1001
+msgid ""
+"If the offset class maps directly to a ``Timedelta`` (``Day``, ``Hour``, "
+"``Minute``, ``Second``, ``Micro``, ``Milli``, ``Nano``) it can be used "
+"exactly like a ``Timedelta`` - see the :ref:`Timedelta "
+"section<timedeltas.operations>` for more examples."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1013
+msgid ""
+"Note that some offsets (such as ``BQuarterEnd``) do not have a vectorized"
+" implementation.  They can still be used but may calculate significantly "
+"slower and will show a ``PerformanceWarning``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1026
+msgid "Custom Business Days"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1028
+msgid ""
+"The ``CDay`` or ``CustomBusinessDay`` class provides a parametric "
+"``BusinessDay`` class which can be used to create customized business day"
+" calendars which account for local holidays and local weekend "
+"conventions."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1032
+msgid ""
+"As an interesting example, let's look at Egypt where a Friday-Saturday "
+"weekend is observed."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1049
+msgid "Let's map to the weekday names:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1058
+msgid ""
+"Holiday calendars can be used to provide the list of holidays.  See the "
+":ref:`holiday calendar<timeseries.holiday>` section for more information."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1073
+msgid ""
+"Monthly offsets that respect a certain holiday calendar can be defined in"
+" the usual way."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1090
+msgid ""
+"The frequency string 'C' is used to indicate that a CustomBusinessDay "
+"DateOffset is used, it is important to note that since CustomBusinessDay "
+"is a parameterised type, instances of CustomBusinessDay may differ and "
+"this is not detectable from the 'C' frequency string. The user therefore "
+"needs to ensure that the 'C' frequency string is used consistently within"
+" the user's application."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1100
+msgid "Business Hour"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1102
+msgid ""
+"The ``BusinessHour`` class provides a business hour representation on "
+"``BusinessDay``, allowing to use specific start and end times."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1105
+msgid ""
+"By default, ``BusinessHour`` uses 9:00 - 17:00 as business hours. Adding "
+"``BusinessHour`` will increment ``Timestamp`` by hourly frequency. If "
+"target ``Timestamp`` is out of business hours, move to the next business "
+"hour then increment it. If the result exceeds the business hours end, the"
+" remaining hours are added to the next business day."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1135
+msgid ""
+"You can also specify ``start`` and ``end`` time by keywords. The argument"
+" must be a ``str`` with an ``hour:minute`` representation or a "
+"``datetime.time`` instance. Specifying seconds, microseconds and "
+"nanoseconds as business hour results in ``ValueError``."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1149
+msgid ""
+"Passing ``start`` time later than ``end`` represents midnight business "
+"hour. In this case, business hour exceeds midnight and overlap to the "
+"next day. Valid business hours are distinguished by whether it started "
+"from valid ``BusinessDay``."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1169
+msgid ""
+"Applying ``BusinessHour.rollforward`` and ``rollback`` to out of business"
+" hours results in the next business hour start or previous day's end. "
+"Different from other offsets, ``BusinessHour.rollforward`` may output "
+"different results from ``apply`` by definition."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1173
+msgid ""
+"This is because one day's business hour end is equal to next day's "
+"business hour start. For example, under the default business hours (9:00 "
+"- 17:00), there is no gap (0 minutes) between ``2014-08-01 17:00`` and "
+"``2014-08-04 09:00``."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1194
+msgid ""
+"``BusinessHour`` regards Saturday and Sunday as holidays. To use "
+"arbitrary holidays, you can use ``CustomBusinessHour`` offset, as "
+"explained in the following subsection."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1201
+msgid "Custom Business Hour"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1205
+msgid ""
+"The ``CustomBusinessHour`` is a mixture of ``BusinessHour`` and "
+"``CustomBusinessDay`` which allows you to specify arbitrary holidays. "
+"``CustomBusinessHour`` works as the same as ``BusinessHour`` except that "
+"it skips specified custom holidays."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1221
+msgid ""
+"You can use keyword arguments supported by either ``BusinessHour`` and "
+"``CustomBusinessDay``."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1234
+msgid "Offset Aliases"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1236
+msgid ""
+"A number of string aliases are given to useful common time series "
+"frequencies. We will refer to these aliases as *offset aliases*."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "Alias"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "B"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "business day frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "C"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "custom business day frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "D"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "calendar day frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "W"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "weekly frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "M"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "month end frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "SM"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "semi-month end frequency (15th and end of month)"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "BM"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "business month end frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "CBM"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "custom business month end frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "MS"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "month start frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "SMS"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "semi-month start frequency (1st and 15th)"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "BMS"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "business month start frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "CBMS"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "custom business month start frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "Q"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "quarter end frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "BQ"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "business quarter end frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "QS"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "quarter start frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "BQS"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "business quarter start frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "A, Y"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "year end frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "BA, BY"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "business year end frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "AS, YS"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "year start frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "BAS, BYS"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "business year start frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "BH"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "business hour frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "H"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "hourly frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "T, min"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "minutely frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "S"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "secondly frequency"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "L, ms"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "milliseconds"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "U, us"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "microseconds"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "N"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "nanoseconds"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1272
+msgid "Combining Aliases"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1274
+msgid ""
+"As we have seen previously, the alias and the offset instance are "
+"fungible in most functions:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1283
+msgid "You can combine together day and intraday offsets:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1292
+msgid "Anchored Offsets"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1294
+msgid "For some frequencies you can specify an anchoring suffix:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "W\\-SUN"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "weekly frequency (Sundays). Same as 'W'"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "W\\-MON"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "weekly frequency (Mondays)"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "W\\-TUE"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "weekly frequency (Tuesdays)"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "W\\-WED"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "weekly frequency (Wednesdays)"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "W\\-THU"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "weekly frequency (Thursdays)"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "W\\-FRI"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "weekly frequency (Fridays)"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "W\\-SAT"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "weekly frequency (Saturdays)"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)Q(S)\\-DEC"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "quarterly frequency, year ends in December. Same as 'Q'"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)Q(S)\\-JAN"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "quarterly frequency, year ends in January"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)Q(S)\\-FEB"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "quarterly frequency, year ends in February"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)Q(S)\\-MAR"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "quarterly frequency, year ends in March"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)Q(S)\\-APR"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "quarterly frequency, year ends in April"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)Q(S)\\-MAY"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "quarterly frequency, year ends in May"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)Q(S)\\-JUN"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "quarterly frequency, year ends in June"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)Q(S)\\-JUL"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "quarterly frequency, year ends in July"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)Q(S)\\-AUG"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "quarterly frequency, year ends in August"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)Q(S)\\-SEP"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "quarterly frequency, year ends in September"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)Q(S)\\-OCT"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "quarterly frequency, year ends in October"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)Q(S)\\-NOV"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "quarterly frequency, year ends in November"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)A(S)\\-DEC"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "annual frequency, anchored end of December. Same as 'A'"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)A(S)\\-JAN"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "annual frequency, anchored end of January"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)A(S)\\-FEB"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "annual frequency, anchored end of February"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)A(S)\\-MAR"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "annual frequency, anchored end of March"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)A(S)\\-APR"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "annual frequency, anchored end of April"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)A(S)\\-MAY"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "annual frequency, anchored end of May"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)A(S)\\-JUN"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "annual frequency, anchored end of June"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)A(S)\\-JUL"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "annual frequency, anchored end of July"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)A(S)\\-AUG"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "annual frequency, anchored end of August"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)A(S)\\-SEP"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "annual frequency, anchored end of September"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)A(S)\\-OCT"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "annual frequency, anchored end of October"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "(B)A(S)\\-NOV"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "annual frequency, anchored end of November"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1332
+msgid ""
+"These can be used as arguments to ``date_range``, ``bdate_range``, "
+"constructors for ``DatetimeIndex``, as well as various other timeseries-"
+"related functions in pandas."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1337
+msgid "Anchored Offset Semantics"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1339
+msgid ""
+"For those offsets that are anchored to the start or end of specific "
+"frequency (``MonthEnd``, ``MonthBegin``, ``WeekEnd``, etc), the following"
+" rules apply to rolling forward and backwards."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1343
+msgid ""
+"When ``n`` is not 0, if the given date is not on an anchor point, it "
+"snapped to the next(previous) anchor point, and moved ``|n|-1`` "
+"additional steps forwards or backwards."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1357
+msgid ""
+"If the given date *is* on an anchor point, it is moved ``|n|`` points "
+"forwards or backwards."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1371
+msgid ""
+"For the case when ``n=0``, the date is not moved if on an anchor point, "
+"otherwise it is rolled forward to the next anchor point."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1385
+msgid "Holidays / Holiday Calendars"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1387
+msgid ""
+"Holidays and calendars provide a simple way to define holiday rules to be"
+" used with ``CustomBusinessDay`` or in other analysis that requires a "
+"predefined set of holidays.  The ``AbstractHolidayCalendar`` class "
+"provides all the necessary methods to return a list of holidays and only "
+"``rules`` need to be defined in a specific holiday calendar class. "
+"Furthermore, the ``start_date`` and ``end_date`` class attributes "
+"determine over what date range holidays are generated.  These should be "
+"overwritten on the ``AbstractHolidayCalendar`` class to have the range "
+"apply to all calendar subclasses.  ``USFederalHolidayCalendar`` is the "
+"only calendar that exists and primarily serves as an example for "
+"developing other calendars."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1398
+msgid ""
+"For holidays that occur on fixed dates (e.g., US Memorial Day or July "
+"4th) an observance rule determines when that holiday is observed if it "
+"falls on a weekend or some other non-observed day.  Defined observance "
+"rules are:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "Rule"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "nearest_workday"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "move Saturday to Friday and Sunday to Monday"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "sunday_to_monday"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "move Sunday to following Monday"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "next_monday_or_tuesday"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "move Saturday to Monday and Sunday/Monday to Tuesday"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "previous_friday"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "move Saturday and Sunday to previous Friday\""
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "next_monday"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1
+msgid "move Saturday and Sunday to following Monday"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1412
+msgid "An example of how holidays and holiday calendars are defined:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst
+msgid "hint"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1429
+msgid "**weekday=MO(2)** is same as **2 * Week(weekday=2)**"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1431
+msgid ""
+"Using this calendar, creating an index or doing offset arithmetic skips "
+"weekends and holidays (i.e., Memorial Day/July 4th).  For example, the "
+"below defines a custom business day offset using the ``ExampleCalendar``."
+"  Like any other offset, it can be used to create a ``DatetimeIndex`` or "
+"added to ``datetime`` or ``Timestamp`` objects."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1447
+msgid ""
+"Ranges are defined by the ``start_date`` and ``end_date`` class "
+"attributes of ``AbstractHolidayCalendar``.  The defaults are shown below."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1455
+msgid ""
+"These dates can be overwritten by setting the attributes as "
+"datetime/Timestamp/string."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1464
+msgid ""
+"Every calendar class is accessible by name using the ``get_calendar`` "
+"function which returns a holiday class instance.  Any imported calendar "
+"class will automatically be available by this function.  Also, "
+"``HolidayCalendarFactory`` provides an easy interface to create calendars"
+" that are combinations of calendars or calendars with additional rules."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1482
+msgid "Time Series-Related Instance Methods"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1485
+msgid "Shifting / Lagging"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1487
+msgid ""
+"One may want to *shift* or *lag* the values in a time series back and "
+"forward in time. The method for this is :meth:`~Series.shift`, which is "
+"available on all of the pandas objects."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1497
+msgid ""
+"The ``shift`` method accepts an ``freq`` argument which can accept a "
+"``DateOffset`` class or other ``timedelta``-like object or also an "
+":ref:`offset alias <timeseries.offset_aliases>`:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1506
+msgid ""
+"Rather than changing the alignment of the data and the index, "
+"``DataFrame`` and ``Series`` objects also have a :meth:`~Series.tshift` "
+"convenience method that changes all the dates in the index by a specified"
+" number of offsets:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1514
+msgid ""
+"Note that with ``tshift``, the leading entry is no longer NaN because the"
+" data is not being realigned."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1518
+msgid "Frequency Conversion"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1520
+msgid ""
+"The primary function for changing frequencies is the "
+":meth:`~Series.asfreq` method. For a ``DatetimeIndex``, this is basically"
+" just a thin, but convenient wrapper around :meth:`~Series.reindex`  "
+"which generates a ``date_range`` and calls ``reindex``."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1532
+msgid ""
+"``asfreq`` provides a further convenience so you can specify an "
+"interpolation method for any gaps that may appear after the frequency "
+"conversion."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1540
+msgid "Filling Forward / Backward"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1542
+msgid ""
+"Related to ``asfreq`` and ``reindex`` is :meth:`~Series.fillna`, which is"
+" documented in the :ref:`missing data section <missing_data.fillna>`."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1546
+msgid "Converting to Python Datetimes"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1548
+msgid ""
+"``DatetimeIndex`` can be converted to an array of Python native "
+":py:class:`datetime.datetime` objects using the ``to_pydatetime`` method."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1554
+msgid "Resampling"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1558
+msgid ""
+"The interface to ``.resample`` has changed in 0.18.0 to be more groupby-"
+"like and hence more flexible. See the :ref:`whatsnew docs "
+"<whatsnew_0180.breaking.resample>` for a comparison with prior versions."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1561
+msgid ""
+"Pandas has a simple, powerful, and efficient functionality for performing"
+" resampling operations during frequency conversion (e.g., converting "
+"secondly data into 5-minutely data). This is extremely common in, but not"
+" limited to, financial applications."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1566
+msgid ""
+":meth:`~Series.resample` is a time-based groupby, followed by a reduction"
+" method on each of its groups. See some :ref:`cookbook examples "
+"<cookbook.resample>` for some advanced strategies."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1570
+msgid ""
+"Starting in version 0.18.1, the ``resample()`` function can be used "
+"directly from ``DataFrameGroupBy`` objects, see the :ref:`groupby docs "
+"<groupby.transform.window_resample>`."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1575
+msgid ""
+"``.resample()`` is similar to using a :meth:`~Series.rolling` operation "
+"with a time-based offset, see a discussion :ref:`here <stats.moments.ts-"
+"versus-resampling>`."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1579
+msgid "Basics"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1589
+msgid ""
+"The ``resample`` function is very flexible and allows you to specify many"
+" different parameters to control the frequency conversion and resampling "
+"operation."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1593
+msgid ""
+"Any function available via :ref:`dispatching <groupby.dispatch>` is "
+"available as a method of the returned object, including ``sum``, "
+"``mean``, ``std``, ``sem``, ``max``, ``min``, ``median``, ``first``, "
+"``last``, ``ohlc``:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1606
+msgid ""
+"For downsampling, ``closed`` can be set to 'left' or 'right' to specify "
+"which end of the interval is closed:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1615
+msgid ""
+"Parameters like ``label`` and ``loffset`` are used to manipulate the "
+"resulting labels. ``label`` specifies whether the result is labeled with "
+"the beginning or the end of the interval. ``loffset`` performs a time "
+"adjustment on the output labels."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1630
+msgid ""
+"The default values for ``label`` and ``closed`` is 'left' for all "
+"frequency offsets except for 'M', 'A', 'Q', 'BM', 'BA', 'BQ', and 'W' "
+"which all have a default of 'right'."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1647
+msgid ""
+"The ``axis`` parameter can be set to 0 or 1 and allows you to resample "
+"the specified axis for a ``DataFrame``."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1650
+msgid ""
+"``kind`` can be set to 'timestamp' or 'period' to convert the resulting "
+"index to/from timestamp and time span representations. By default "
+"``resample`` retains the input representation."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1654
+msgid ""
+"``convention`` can be set to 'start' or 'end' when resampling period data"
+" (detail below). It specifies how low frequency periods are converted to "
+"higher frequency periods."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1660
+msgid "Upsampling"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1662
+msgid ""
+"For upsampling, you can specify a way to upsample and the ``limit`` "
+"parameter to interpolate over the gaps that are created:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1675
+msgid "Sparse Resampling"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1677
+msgid ""
+"Sparse timeseries are the ones where you have a lot fewer points relative"
+" to the amount of time you are looking to resample. Naively upsampling a "
+"sparse series can potentially generate lots of intermediate values. When "
+"you don't want to use a method to fill these values, e.g. ``fill_method``"
+" is ``None``, then intermediate values will be filled with ``NaN``."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1683
+msgid ""
+"Since ``resample`` is a time-based groupby, the following is a method to "
+"efficiently resample only the groups that are not all ``NaN``."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1691
+msgid "If we want to resample to the full range of the series:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1697
+msgid "We can instead only resample those groups where we have points as follows:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1714
+msgid "Aggregation"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1716
+msgid ""
+"Similar to the :ref:`aggregating API <basics.aggregate>`, :ref:`groupby "
+"API <groupby.aggregate>`, and the :ref:`window functions API "
+"<stats.aggregate>`, a ``Resampler`` can be selectively resampled."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1719
+msgid ""
+"Resampling a ``DataFrame``, the default will be to act on all columns "
+"with the same function."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1729
+msgid "We can select a specific column or columns using standard getitem."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1737
+msgid ""
+"You can pass a list or dict of functions to do aggregation with, "
+"outputting a ``DataFrame``:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1743
+msgid ""
+"On a resampled ``DataFrame``, you can pass a list of functions to apply "
+"to each column, which produces an aggregated result with a hierarchical "
+"index:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1750
+msgid ""
+"By passing a dict to ``aggregate`` you can apply a different aggregation "
+"to the columns of a ``DataFrame``:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1759
+msgid ""
+"The function names can also be strings. In order for a string to be valid"
+" it must be implemented on the resampled object:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1766
+msgid ""
+"Furthermore, you can also specify multiple aggregation functions for each"
+" column separately."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1773
+msgid ""
+"If a ``DataFrame`` does not have a datetimelike index, but instead you "
+"want to resample based on datetimelike column in the frame, it can passed"
+" to the ``on`` keyword."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1788
+msgid ""
+"Similarly, if you instead want to resample by a datetimelike level of "
+"``MultiIndex``, its name or location can be passed to the ``level`` "
+"keyword."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1800
+msgid "Time Span Representation"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1802
+msgid ""
+"Regular intervals of time are represented by ``Period`` objects in pandas"
+" while sequences of ``Period`` objects are collected in a "
+"``PeriodIndex``, which can be created with the convenience function "
+"``period_range``."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1807
+msgid "Period"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1809
+msgid ""
+"A ``Period`` represents a span of time (e.g., a day, a month, a quarter, "
+"etc). You can specify the span via ``freq`` keyword using a frequency "
+"alias like below. Because ``freq`` represents a span of ``Period``, it "
+"cannot be negative like \"-3D\"."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1823
+msgid ""
+"Adding and subtracting integers from periods shifts the period by its own"
+" frequency. Arithmetic is not allowed between ``Period`` with different "
+"``freq`` (span)."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1838
+msgid ""
+"If ``Period`` freq is daily or higher (``D``, ``H``, ``T``, ``S``, ``L``,"
+" ``U``, ``N``), ``offsets`` and ``timedelta``-like can be added if the "
+"result can have the same freq. Otherwise, ``ValueError`` will be raised."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1854
+msgid ""
+"If ``Period`` has other frequencies, only the same ``offsets`` can be "
+"added. Otherwise, ``ValueError`` will be raised."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1868
+msgid ""
+"Taking the difference of ``Period`` instances with the same frequency "
+"will return the number of frequency units between them:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1876
+msgid "PeriodIndex and period_range"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1877
+msgid ""
+"Regular sequences of ``Period`` objects can be collected in a "
+"``PeriodIndex``, which can be constructed using the ``period_range`` "
+"convenience function:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1885
+msgid "The ``PeriodIndex`` constructor can also be used directly:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1891
+msgid ""
+"Passing multiplied frequency outputs a sequence of ``Period`` which has "
+"multiplied span."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1898
+msgid ""
+"If ``start`` or ``end`` are ``Period`` objects, they will be used as "
+"anchor endpoints for a ``PeriodIndex`` with frequency matching that of "
+"the ``PeriodIndex`` constructor."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1907
+msgid ""
+"Just like ``DatetimeIndex``, a ``PeriodIndex`` can also be used to index "
+"pandas objects:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1915
+msgid ""
+"``PeriodIndex`` supports addition and subtraction with the same rule as "
+"``Period``."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1927
+msgid ""
+"``PeriodIndex`` has its own dtype named ``period``, refer to :ref:`Period"
+" Dtypes <timeseries.period_dtype>`."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1932
+msgid "Period Dtypes"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1936
+msgid ""
+"``PeriodIndex`` has a custom ``period`` dtype. This is a pandas extension"
+" dtype similar to the :ref:`timezone aware dtype "
+"<timeseries.timezone_series>` (``datetime64[ns, tz]``)."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1939
+msgid ""
+"The ``period`` dtype holds the ``freq`` attribute and is represented with"
+" ``period[freq]`` like ``period[D]`` or ``period[M]``, using "
+":ref:`frequency strings <timeseries.offset_aliases>`."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1948
+msgid ""
+"The ``period`` dtype can be used in ``.astype(...)``. It allows one to "
+"change the ``freq`` of a ``PeriodIndex`` like ``.asfreq()`` and convert a"
+" ``DatetimeIndex`` to ``PeriodIndex`` like ``to_period()``:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1967
+msgid "PeriodIndex Partial String Indexing"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1969
+msgid ""
+"You can pass in dates and strings to ``Series`` and ``DataFrame`` with "
+"``PeriodIndex``, in the same manner as ``DatetimeIndex``. For details, "
+"refer to :ref:`DatetimeIndex Partial String Indexing "
+"<timeseries.partialindexing>`."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1979
+msgid ""
+"Passing a string representing a lower frequency than ``PeriodIndex`` "
+"returns partial sliced data."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:1993
+msgid ""
+"As with ``DatetimeIndex``, the endpoints will be included in the result. "
+"The example below slices data starting from 10:00 to 11:59."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2000
+msgid "Frequency Conversion and Resampling with PeriodIndex"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2001
+msgid ""
+"The frequency of ``Period`` and ``PeriodIndex`` can be converted via the "
+"``asfreq`` method. Let's start with the fiscal year 2011, ending in "
+"December:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2009
+msgid ""
+"We can convert it to a monthly frequency. Using the ``how`` parameter, we"
+" can specify whether to return the starting or ending month:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2018
+msgid "The shorthands 's' and 'e' are provided for convenience:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2025
+msgid ""
+"Converting to a \"super-period\" (e.g., annual frequency is a super-"
+"period of quarterly frequency) automatically returns the super-period "
+"that includes the input period:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2035
+msgid ""
+"Note that since we converted to an annual frequency that ends the year in"
+" November, the monthly period of December 2011 is actually in the 2012 "
+"A-NOV period."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2041
+msgid ""
+"Period conversions with anchored frequencies are particularly useful for "
+"working with various quarterly data common to economics, business, and "
+"other fields. Many organizations define quarters relative to the month in"
+" which their fiscal year starts and ends. Thus, first quarter of 2011 "
+"could start in 2010 or a few months into 2011. Via anchored frequencies, "
+"pandas works for all quarterly frequencies ``Q-JAN`` through ``Q-DEC``."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2048
+msgid "``Q-DEC`` define regular calendar quarters:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2058
+msgid "``Q-MAR`` defines fiscal year end in March:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2071
+msgid "Converting Between Representations"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2073
+msgid ""
+"Timestamped data can be converted to PeriodIndex-ed data using "
+"``to_period`` and vice-versa using ``to_timestamp``:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2090
+msgid ""
+"Remember that 's' and 'e' can be used to return the timestamps at the "
+"start or end of the period:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2097
+msgid ""
+"Converting between period and timestamp enables some convenient "
+"arithmetic functions to be used. In the following example, we convert a "
+"quarterly frequency with year ending in November to 9am of the end of the"
+" month following the quarter end:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2115
+msgid "Representing Out-of-Bounds Spans"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2117
+msgid ""
+"If you have data that is outside of the ``Timestamp`` bounds, see "
+":ref:`Timestamp limitations <timeseries.timestamp-limits>`, then you can "
+"use a ``PeriodIndex`` and/or ``Series`` of ``Periods`` to do "
+"computations."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2125
+msgid "To convert from an ``int64`` based YYYYMMDD representation."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2139
+msgid "These can easily be converted to a ``PeriodIndex``:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2149
+msgid "Time Zone Handling"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2151
+msgid ""
+"pandas provides rich support for working with timestamps in different "
+"time zones using the ``pytz`` and ``dateutil`` libraries or "
+"class:`datetime.timezone` objects from the standard library."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2157
+msgid "Working with Time Zones"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2159
+msgid "By default, pandas objects are time zone unaware:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2166
+msgid ""
+"To localize these dates to a time zone (assign a particular time zone to "
+"a naive date), you can use the ``tz_localize`` method or the ``tz`` "
+"keyword argument in :func:`date_range`, :class:`Timestamp`, or "
+":class:`DatetimeIndex`. You can either pass ``pytz`` or ``dateutil`` time"
+" zone objects or Olson time zone database strings. Olson time zone "
+"strings will return ``pytz`` time zone objects by default. To return "
+"``dateutil`` time zone objects, append ``dateutil/`` before the string."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2173
+msgid ""
+"In ``pytz`` you can find a list of common (and less common) time zones "
+"using ``from pytz import common_timezones, all_timezones``."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2175
+msgid ""
+"``dateutil`` uses the OS time zones so there isn't a fixed list "
+"available. For common zones, the names are the same as ``pytz``."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2206
+msgid ""
+"Note that the ``UTC`` time zone is a special case in ``dateutil`` and "
+"should be constructed explicitly as an instance of ``dateutil.tz.tzutc``."
+" You can also construct other time zones objects explicitly first."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2226
+msgid ""
+"To convert a time zone aware pandas object from one time zone to another,"
+" you can use the ``tz_convert`` method."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2235
+msgid ""
+"When using ``pytz`` time zones, :class:`DatetimeIndex` will construct a "
+"different time zone object than a :class:`Timestamp` for the same time "
+"zone input. A :class:`DatetimeIndex` can hold a collection of "
+":class:`Timestamp` objects that may have different UTC offsets and cannot"
+" be succinctly represented by one ``pytz`` time zone instance while one "
+":class:`Timestamp` represents one point in time with a specific UTC "
+"offset."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2250
+msgid ""
+"Be wary of conversions between libraries. For some time zones, ``pytz`` "
+"and ``dateutil`` have different definitions of the zone. This is more of "
+"a problem for unusual time zones than for 'standard' zones like "
+"``US/Eastern``."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2256
+msgid ""
+"Be aware that a time zone definition across versions of time zone "
+"libraries may not be considered equal.  This may cause problems when "
+"working with stored data that is localized using one version and operated"
+" on with a different version. See :ref:`here<io.hdf5-notes>` for how to "
+"handle such a situation."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2263
+msgid ""
+"For ``pytz`` time zones, it is incorrect to pass a time zone object "
+"directly into the ``datetime.datetime`` constructor (e.g., "
+"``datetime.datetime(2011, 1, 1, tz=pytz.timezone('US/Eastern'))``. "
+"Instead, the datetime needs to be localized using the ``localize`` method"
+" on the ``pytz`` time zone object."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2269
+msgid ""
+"Under the hood, all timestamps are stored in UTC. Values from a time zone"
+" aware :class:`DatetimeIndex` or :class:`Timestamp` will have their "
+"fields (day, hour, minute, etc.) localized to the time zone. However, "
+"timestamps with the same UTC value are still considered to be equal even "
+"if they are in different time zones:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2283
+msgid ""
+"Operations between :class:`Series` in different time zones will yield UTC"
+" :class:`Series`, aligning the data on the UTC timestamps:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2295
+msgid ""
+"To remove time zone information, use ``tz_localize(None)`` or "
+"``tz_convert(None)``. ``tz_localize(None)`` will remove the time zone "
+"yielding the local time representation. ``tz_convert(None)`` will remove "
+"the time zone after converting to UTC time."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2313
+msgid "Ambiguous Times when Localizing"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2315
+msgid ""
+"``tz_localize`` may not be able to determine the UTC offset of a "
+"timestamp because daylight savings time (DST) in a local time zone causes"
+" some times to occur twice within one day (\"clocks fall back\"). The "
+"following options are available:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2319
+msgid "``'raise'``: Raises a ``pytz.AmbiguousTimeError`` (the default behavior)"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2320
+msgid ""
+"``'infer'``: Attempt to determine the correct offset base on the "
+"monotonicity of the timestamps"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2321
+msgid "``'NaT'``: Replaces ambiguous times with ``NaT``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2322
+msgid ""
+"``bool``: ``True`` represents a DST time, ``False`` represents non-DST "
+"time. An array-like of ``bool`` values is supported for a sequence of "
+"times."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2329
+msgid "This will fail as there are ambiguous times (``'11/06/2011 01:00'``)"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2336
+msgid "Handle these ambiguous times by specifying the following."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2347
+msgid "Nonexistent Times when Localizing"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2349
+msgid ""
+"A DST transition may also shift the local time ahead by 1 hour creating "
+"nonexistent local times (\"clocks spring forward\"). The behavior of "
+"localizing a timeseries with nonexistent times can be controlled by the "
+"``nonexistent`` argument. The following options are available:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2353
+msgid "``'raise'``: Raises a ``pytz.NonExistentTimeError`` (the default behavior)"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2354
+msgid "``'NaT'``: Replaces nonexistent times with ``NaT``"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2355
+msgid ""
+"``'shift_forward'``: Shifts nonexistent times forward to the closest real"
+" time"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2356
+msgid ""
+"``'shift_backward'``: Shifts nonexistent times backward to the closest "
+"real time"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2357
+msgid "timedelta object: Shifts nonexistent times by the timedelta duration"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2364
+msgid "Localization of nonexistent times will raise an error by default."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2371
+msgid "Transform nonexistent times to ``NaT`` or shift the times."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2385
+msgid "Time Zone Series Operations"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2387
+msgid ""
+"A :class:`Series` with time zone **naive** values is represented with a "
+"dtype of ``datetime64[ns]``."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2395
+msgid ""
+"A :class:`Series` with a time zone **aware** values is represented with a"
+" dtype of ``datetime64[ns, tz]`` where ``tz`` is the time zone"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2403
+msgid ""
+"Both of these :class:`Series` time zone information can be manipulated "
+"via the ``.dt`` accessor, see :ref:`the dt accessor section "
+"<basics.dt_accessors>`."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2406
+msgid "For example, to localize and convert a naive stamp to time zone aware."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2412
+msgid ""
+"Time zone information can also be manipulated using the ``astype`` "
+"method. This method can localize and convert time zone naive timestamps "
+"or convert time zone aware timestamps."
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2429
+msgid ""
+"Using :meth:`Series.to_numpy` on a ``Series``, returns a NumPy array of "
+"the data. NumPy does not currently support time zones (even though it is "
+"*printing* in the local time zone!), therefore an object array of "
+"Timestamps is returned for time zone aware data:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2438
+msgid ""
+"By converting to an object array of Timestamps, it preserves the time "
+"zone information. For example, when converting back to a Series:"
+msgstr ""
+
+#: ../../user_guide/timeseries.rst:2445
+msgid ""
+"However, if you want an actual NumPy ``datetime64[ns]`` array (with the "
+"values converted to UTC) instead of an array of objects, you can specify "
+"the ``dtype`` argument:"
+msgstr ""
+

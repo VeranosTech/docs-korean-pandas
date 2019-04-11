@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Categorical.from_codes.rst:2
+msgid "pandas.Categorical.from\\_codes"
+msgstr ""
+
+#: of pandas.Categorical.from_codes:2
+msgid "Make a Categorical type from codes and categories or dtype."
+msgstr ""
+
+#: of pandas.Categorical.from_codes:4
+msgid ""
+"This constructor is useful if you already have codes and categories/dtype"
+" and so do not need the (computation intensive) factorization step, which"
+" is usually done on the constructor."
+msgstr ""
+
+#: of pandas.Categorical.from_codes:8
+msgid ""
+"If your data does not follow this convention, please use the normal "
+"constructor."
+msgstr ""
+
+#: of pandas.Categorical.from_codes
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Categorical.from_codes:15
+msgid "**codes**"
+msgstr ""
+
+#: of pandas.Categorical.from_codes:14
+msgid "array-like, integers"
+msgstr ""
+
+#: of pandas.Categorical.from_codes:14
+msgid ""
+"An integer array, where each integer points to a category in categories "
+"or dtype.categories, or else is -1 for NaN"
+msgstr ""
+
+#: of pandas.Categorical.from_codes:20
+msgid "**categories**"
+msgstr ""
+
+#: of pandas.Categorical.from_codes:19
+msgid "index-like, optional"
+msgstr ""
+
+#: of pandas.Categorical.from_codes:18
+msgid ""
+"The categories for the categorical. Items need to be unique. If the "
+"categories are not given here, then they must be provided in `dtype`."
+msgstr ""
+
+#: of pandas.Categorical.from_codes:25
+msgid "**ordered**"
+msgstr ""
+
+#: of pandas.Categorical.from_codes:24
+msgid "bool, optional"
+msgstr ""
+
+#: of pandas.Categorical.from_codes:23
+msgid ""
+"Whether or not this categorical is treated as an ordered categorical. If "
+"not given here or in `dtype`, the resulting categorical will be "
+"unordered."
+msgstr ""
+
+#: of pandas.Categorical.from_codes:43
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.Categorical.from_codes:42
+msgid "CategoricalDtype or the string \"category\", optional"
+msgstr ""
+
+#: of pandas.Categorical.from_codes:28
+msgid ""
+"If :class:`CategoricalDtype`, cannot be used together with `categories` "
+"or `ordered`."
+msgstr ""
+
+#: of pandas.Categorical.from_codes:33
+msgid ""
+"When `dtype` is provided, neither `categories` nor `ordered` should be "
+"provided."
+msgstr ""
+
+#: of pandas.Categorical.from_codes:46
+msgid "Examples"
+msgstr ""
+

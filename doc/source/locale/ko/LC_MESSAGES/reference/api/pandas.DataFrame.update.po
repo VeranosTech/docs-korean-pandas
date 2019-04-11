@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.update.rst:2
+msgid "pandas.DataFrame.update"
+msgstr ""
+
+#: of pandas.DataFrame.update:2
+msgid "Modify in place using non-NA values from another DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.update:4
+msgid "Aligns on indices. There is no return value."
+msgstr ""
+
+#: of pandas.DataFrame.update
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.update:12
+msgid "**other**"
+msgstr ""
+
+#: of pandas.DataFrame.update:11
+msgid "DataFrame, or object coercible into a DataFrame"
+msgstr ""
+
+#: of pandas.DataFrame.update:9
+msgid ""
+"Should have at least one matching index/column label with the original "
+"DataFrame. If a Series is passed, its name attribute must be set, and "
+"that will be used as the column name to align with the original "
+"DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.update:16
+msgid "**join**"
+msgstr ""
+
+#: of pandas.DataFrame.update:15
+msgid "{'left'}, default 'left'"
+msgstr ""
+
+#: of pandas.DataFrame.update:15
+msgid ""
+"Only left join is implemented, keeping the index and columns of the "
+"original object."
+msgstr ""
+
+#: of pandas.DataFrame.update:24
+msgid "**overwrite**"
+msgstr ""
+
+#: of pandas.DataFrame.update:23
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.DataFrame.update:19
+msgid "How to handle non-NA values for overlapping keys:"
+msgstr ""
+
+#: of pandas.DataFrame.update:21
+msgid "True: overwrite original DataFrame's values with values from `other`."
+msgstr ""
+
+#: of pandas.DataFrame.update:23
+msgid "False: only update values that are NA in the original DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.update:28
+msgid "**filter_func**"
+msgstr ""
+
+#: of pandas.DataFrame.update:27
+msgid "callable(1d-array) -> bool 1d-array, optional"
+msgstr ""
+
+#: of pandas.DataFrame.update:27
+msgid ""
+"Can choose to replace values other than NA. Return True for values that "
+"should be updated."
+msgstr ""
+
+#: of pandas.DataFrame.update:36
+msgid "**errors**"
+msgstr ""
+
+#: of pandas.DataFrame.update:35
+msgid "{'raise', 'ignore'}, default 'ignore'"
+msgstr ""
+
+#: of pandas.DataFrame.update:31
+msgid ""
+"If 'raise', will raise a ValueError if the DataFrame and `other` both "
+"contain non-NA data in the same place."
+msgstr ""
+
+#: of pandas.DataFrame.update:34
+msgid "Changed from `raise_conflict=False|True` to `errors='ignore'|'raise'`."
+msgstr ""
+
+#: of pandas.DataFrame.update
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.update:43
+msgid "**None**"
+msgstr ""
+
+#: of pandas.DataFrame.update:42
+msgid "method directly changes calling object"
+msgstr ""
+
+#: of pandas.DataFrame.update
+msgid "Raises"
+msgstr ""
+
+#: of pandas.DataFrame.update:49
+msgid "**ValueError**"
+msgstr ""
+
+#: of pandas.DataFrame.update:48
+msgid "When `errors='raise'` and there's overlapping non-NA data."
+msgstr ""
+
+#: of pandas.DataFrame.update:49
+msgid "When `errors` is not either `'ignore'` or `'raise'`"
+msgstr ""
+
+#: of pandas.DataFrame.update:54
+msgid "**NotImplementedError**"
+msgstr ""
+
+#: of pandas.DataFrame.update:52
+msgid "If `join != 'left'`"
+msgstr ""
+
+#: of pandas.DataFrame.update:60
+msgid ":obj:`dict.update`"
+msgstr ""
+
+#: of pandas.DataFrame.update:60
+msgid "Similar method for dictionaries."
+msgstr ""
+
+#: of pandas.DataFrame.update:62
+msgid ":obj:`DataFrame.merge`"
+msgstr ""
+
+#: of pandas.DataFrame.update:63
+msgid "For column(s)-on-columns(s) operations."
+msgstr ""
+
+#: of pandas.DataFrame.update:68
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.update:80
+msgid ""
+"The DataFrame's length does not increase as a result of the update, only "
+"values at matching index/column labels are updated."
+msgstr ""
+
+#: of pandas.DataFrame.update:93
+msgid "For Series, it's name attribute must be set."
+msgstr ""
+
+#: of pandas.DataFrame.update:114
+msgid ""
+"If `other` contains NaNs the corresponding values are not updated in the "
+"original dataframe."
+msgstr ""
+

@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.copy.rst:2
+msgid "pandas.Series.copy"
+msgstr ""
+
+#: of pandas.Series.copy:2
+msgid "Make a copy of this object's indices and data."
+msgstr ""
+
+#: of pandas.Series.copy:4
+msgid ""
+"When ``deep=True`` (default), a new object will be created with a copy of"
+" the calling object's data and indices. Modifications to the data or "
+"indices of the copy will not be reflected in the original object (see "
+"notes below)."
+msgstr ""
+
+#: of pandas.Series.copy:9
+msgid ""
+"When ``deep=False``, a new object will be created without copying the "
+"calling object's data or index (only references to the data and index are"
+" copied). Any changes to the data of the original will be reflected in "
+"the shallow copy (and vice versa)."
+msgstr ""
+
+#: of pandas.Series.copy
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.copy:18
+msgid "**deep**"
+msgstr ""
+
+#: of pandas.Series.copy:17
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.Series.copy:17
+msgid ""
+"Make a deep copy, including a copy of the data and the indices. With "
+"``deep=False`` neither the indices nor the data are copied."
+msgstr ""
+
+#: of pandas.Series.copy
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.copy:29
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.Series.copy:28
+msgid "Series, DataFrame or Panel"
+msgstr ""
+
+#: of pandas.Series.copy:23
+msgid "Object type matches caller."
+msgstr ""
+
+#: of pandas.Series.copy:32
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Series.copy:33
+msgid ""
+"When ``deep=True``, data is copied but actual Python objects will not be "
+"copied recursively, only the reference to the object. This is in contrast"
+" to `copy.deepcopy` in the Standard Library, which recursively copies "
+"object data (see examples below)."
+msgstr ""
+
+#: of pandas.Series.copy:38
+msgid ""
+"While ``Index`` objects are copied when ``deep=True``, the underlying "
+"numpy array is not copied for performance reasons. Since ``Index`` is "
+"immutable, the underlying data can be safely shared and a copy is not "
+"needed."
+msgstr ""
+
+#: of pandas.Series.copy:45
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.copy:58
+msgid "**Shallow copy versus default (deep) copy:**"
+msgstr ""
+
+#: of pandas.Series.copy:64
+msgid "Shallow copy shares data and index with original."
+msgstr ""
+
+#: of pandas.Series.copy:71
+msgid "Deep copy has own copy of data and index."
+msgstr ""
+
+#: of pandas.Series.copy:78
+msgid ""
+"Updates to the data shared by shallow copy and original is reflected in "
+"both; deep copy remains unchanged."
+msgstr ""
+
+#: of pandas.Series.copy:96
+msgid ""
+"Note that when copying an object containing Python objects, a deep copy "
+"will copy the data, but will not do so recursively. Updating a nested "
+"data object will be reflected in the deep copy."
+msgstr ""
+

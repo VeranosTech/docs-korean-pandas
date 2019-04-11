@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.tseries.offsets.BusinessHour.rst:2
+msgid "pandas.tseries.offsets.BusinessHour"
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:2
+msgid "DateOffset subclass representing possibly n business days."
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:18
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:26:<autosummary>:1
+msgid ":obj:`base <pandas.tseries.offsets.BusinessHour.base>`\\"
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:26:<autosummary>:1
+msgid ""
+"Returns a copy of the calling offset object with n=1 and all other "
+"attributes equal."
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:26:<autosummary>:1
+msgid ":obj:`next_bday <pandas.tseries.offsets.BusinessHour.next_bday>`\\"
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:26:<autosummary>:1
+msgid "Used for moving to next business day."
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:26:<autosummary>:1
+msgid ":obj:`offset <pandas.tseries.offsets.BusinessHour.offset>`\\"
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:26:<autosummary>:1
+msgid "Alias for self._offset."
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:28
+msgid "**freqstr**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:29
+msgid "**kwds**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:30
+msgid "**name**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:31
+msgid "**nanos**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:32
+msgid "**rule_code**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:36
+msgid "Methods"
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:44:<autosummary>:1
+msgid ":obj:`apply_index <pandas.tseries.offsets.BusinessHour.apply_index>`\\"
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:44:<autosummary>:1
+msgid ""
+"Vectorized apply of DateOffset to DatetimeIndex, raises NotImplentedError"
+" for offsets without a vectorized implementation."
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:44:<autosummary>:1
+msgid ":obj:`rollback <pandas.tseries.offsets.BusinessHour.rollback>`\\ \\(dt\\)"
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:44:<autosummary>:1
+msgid "Roll provided date backward to next offset only if not on offset."
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:44:<autosummary>:1
+msgid ""
+":obj:`rollforward <pandas.tseries.offsets.BusinessHour.rollforward>`\\ "
+"\\(dt\\)"
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:44:<autosummary>:1
+msgid "Roll provided date forward to next offset only if not on offset."
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:46
+msgid "**__call__**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:47
+msgid "**apply**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:48
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:49
+msgid "**isAnchored**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BusinessHour:50
+msgid "**onOffset**"
+msgstr ""
+

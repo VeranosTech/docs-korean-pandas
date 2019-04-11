@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.drop.rst:2
+msgid "pandas.Index.drop"
+msgstr ""
+
+#: of pandas.Index.drop:2
+msgid "Make new Index with passed list of labels deleted."
+msgstr ""
+
+#: of pandas.Index.drop
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.drop:8
+msgid "**labels**"
+msgstr ""
+
+#: of pandas.Index.drop:7
+msgid "array-like"
+msgstr ""
+
+#: of pandas.Index.drop:11
+msgid "**errors**"
+msgstr ""
+
+#: of pandas.Index.drop:10
+msgid "{'ignore', 'raise'}, default 'raise'"
+msgstr ""
+
+#: of pandas.Index.drop:11
+msgid "If 'ignore', suppress error and existing labels are dropped."
+msgstr ""
+
+#: of pandas.Index.drop
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.drop:18
+msgid "**dropped**"
+msgstr ""
+
+#: of pandas.Index.drop:17
+msgid "Index"
+msgstr ""
+
+#: of pandas.Index.drop
+msgid "Raises"
+msgstr ""
+
+#: of pandas.Index.drop:31
+msgid "**KeyError**"
+msgstr ""
+
+#: of pandas.Index.drop:23
+msgid "If not all of the labels are found in the selected axis"
+msgstr ""
+

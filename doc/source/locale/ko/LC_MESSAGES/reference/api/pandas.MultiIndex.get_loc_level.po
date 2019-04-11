@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.MultiIndex.get_loc_level.rst:2
+msgid "pandas.MultiIndex.get\\_loc\\_level"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc_level:2
+msgid ""
+"Get both the location for the requested label(s) and the resulting sliced"
+" index."
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc_level
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc_level:9
+msgid "**key**"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc_level:8
+msgid "label or sequence of labels"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc_level:12
+msgid "**level**"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc_level:11
+msgid "int/level name or list thereof, optional"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc_level:15
+msgid "**drop_level**"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc_level:14
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc_level:15
+msgid "if ``False``, the resulting index will not drop any level."
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc_level
+msgid "Returns"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc_level:27
+msgid "**loc**"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc_level:26
+msgid "A 2-tuple where the elements are:"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc_level:20
+msgid ""
+"Element 0: int, slice object or boolean array Element 1: The resulting "
+"sliced multiindex/index. If the key contains all levels, this will be "
+"``None``."
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc_level:33
+msgid ":obj:`MultiIndex.get_loc`"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc_level:33
+msgid "Get location for a label or a tuple of labels."
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc_level:35
+msgid ":obj:`MultiIndex.get_locs`"
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc_level:36
+msgid "Get location for a label/slice/list/mask or a sequence of such."
+msgstr ""
+
+#: of pandas.MultiIndex.get_loc_level:41
+msgid "Examples"
+msgstr ""
+

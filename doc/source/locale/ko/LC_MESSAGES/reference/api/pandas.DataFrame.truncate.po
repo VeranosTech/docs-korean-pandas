@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.truncate.rst:2
+msgid "pandas.DataFrame.truncate"
+msgstr ""
+
+#: of pandas.DataFrame.truncate:2
+msgid "Truncate a Series or DataFrame before and after some index value."
+msgstr ""
+
+#: of pandas.DataFrame.truncate:4
+msgid ""
+"This is a useful shorthand for boolean indexing based on index values "
+"above or below certain thresholds."
+msgstr ""
+
+#: of pandas.DataFrame.truncate
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.truncate:10
+msgid "**before**"
+msgstr ""
+
+#: of pandas.DataFrame.truncate:9 pandas.DataFrame.truncate:12
+msgid "date, string, int"
+msgstr ""
+
+#: of pandas.DataFrame.truncate:10
+msgid "Truncate all rows before this index value."
+msgstr ""
+
+#: of pandas.DataFrame.truncate:13
+msgid "**after**"
+msgstr ""
+
+#: of pandas.DataFrame.truncate:13
+msgid "Truncate all rows after this index value."
+msgstr ""
+
+#: of pandas.DataFrame.truncate:16
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.DataFrame.truncate:15
+msgid "{0 or 'index', 1 or 'columns'}, optional"
+msgstr ""
+
+#: of pandas.DataFrame.truncate:16
+msgid "Axis to truncate. Truncates the index (rows) by default."
+msgstr ""
+
+#: of pandas.DataFrame.truncate:19
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.DataFrame.truncate:18
+msgid "boolean, default is True,"
+msgstr ""
+
+#: of pandas.DataFrame.truncate:19
+msgid "Return a copy of the truncated section."
+msgstr ""
+
+#: of pandas.DataFrame.truncate
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.truncate:29
+msgid "**type of caller**"
+msgstr ""
+
+#: of pandas.DataFrame.truncate:24
+msgid "The truncated Series or DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.truncate:35
+msgid ":obj:`DataFrame.loc`"
+msgstr ""
+
+#: of pandas.DataFrame.truncate:35
+msgid "Select a subset of a DataFrame by label."
+msgstr ""
+
+#: of pandas.DataFrame.truncate:37
+msgid ":obj:`DataFrame.iloc`"
+msgstr ""
+
+#: of pandas.DataFrame.truncate:38
+msgid "Select a subset of a DataFrame by position."
+msgstr ""
+
+#: of pandas.DataFrame.truncate:41
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.truncate:42
+msgid ""
+"If the index being truncated contains only datetime values, `before` and "
+"`after` may be specified as strings instead of Timestamps."
+msgstr ""
+
+#: of pandas.DataFrame.truncate:48
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.truncate:67
+msgid "The columns of a DataFrame can be truncated."
+msgstr ""
+
+#: of pandas.DataFrame.truncate:77
+msgid "For Series, only rows can be truncated."
+msgstr ""
+
+#: of pandas.DataFrame.truncate:85
+msgid "The index values in ``truncate`` can be datetimes or string dates."
+msgstr ""
+
+#: of pandas.DataFrame.truncate:107
+msgid ""
+"Because the index is a DatetimeIndex containing only dates, we can "
+"specify `before` and `after` as strings. They will be coerced to "
+"Timestamps before truncation."
+msgstr ""
+
+#: of pandas.DataFrame.truncate:119
+msgid ""
+"Note that ``truncate`` assumes a 0 value for any unspecified time "
+"component (midnight). This differs from partial string slicing, which "
+"returns any partially matching dates."
+msgstr ""
+

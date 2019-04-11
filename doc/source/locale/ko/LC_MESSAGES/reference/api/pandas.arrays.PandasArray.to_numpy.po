@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.arrays.PandasArray.to_numpy.rst:2
+msgid "pandas.arrays.PandasArray.to\\_numpy"
+msgstr ""
+
+#: of pandas.arrays.PandasArray.to_numpy:2
+msgid "Convert the PandasArray to a :class:`numpy.ndarray`."
+msgstr ""
+
+#: of pandas.arrays.PandasArray.to_numpy:4
+msgid "By default, this requires no coercion or copying of data."
+msgstr ""
+
+#: of pandas.arrays.PandasArray.to_numpy
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.arrays.PandasArray.to_numpy:9
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.arrays.PandasArray.to_numpy:8
+msgid "numpy.dtype"
+msgstr ""
+
+#: of pandas.arrays.PandasArray.to_numpy:9
+msgid "The NumPy dtype to pass to :func:`numpy.asarray`."
+msgstr ""
+
+#: of pandas.arrays.PandasArray.to_numpy:12
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.arrays.PandasArray.to_numpy:11
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.arrays.PandasArray.to_numpy:12
+msgid "Whether to copy the underlying data."
+msgstr ""
+
+#: of pandas.arrays.PandasArray.to_numpy
+msgid "Returns"
+msgstr ""
+
+#: of pandas.arrays.PandasArray.to_numpy:28
+msgid "**ndarray**"
+msgstr ""
+

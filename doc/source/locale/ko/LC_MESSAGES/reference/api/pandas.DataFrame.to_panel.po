@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.to_panel.rst:2
+msgid "pandas.DataFrame.to\\_panel"
+msgstr ""
+
+#: of pandas.DataFrame.to_panel:2
+msgid "Transform long (stacked) format (DataFrame) into wide (3D, Panel) format."
+msgstr ""
+
+#: of pandas.DataFrame.to_panel:7
+msgid ""
+"Currently the index of the DataFrame must be a 2-level MultiIndex. This "
+"may be generalized later"
+msgstr ""
+
+#: of pandas.DataFrame.to_panel
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.to_panel:25
+msgid "**panel**"
+msgstr ""
+
+#: of pandas.DataFrame.to_panel:24
+msgid "Panel"
+msgstr ""
+

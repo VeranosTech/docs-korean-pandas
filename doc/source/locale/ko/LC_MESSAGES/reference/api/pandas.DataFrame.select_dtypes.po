@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.select_dtypes.rst:2
+msgid "pandas.DataFrame.select\\_dtypes"
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes:2
+msgid "Return a subset of the DataFrame's columns based on the column dtypes."
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes:9
+msgid "**include, exclude**"
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes:8
+msgid "scalar or list-like"
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes:8
+msgid ""
+"A selection of dtypes or strings to be included/excluded. At least one of"
+" these parameters must be supplied."
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes:17
+msgid "**subset**"
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes:16
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes:14
+msgid ""
+"The subset of the frame including the dtypes in ``include`` and excluding"
+" the dtypes in ``exclude``."
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes
+msgid "Raises"
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes:27
+msgid "**ValueError**"
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes:22
+msgid "If both of ``include`` and ``exclude`` are empty"
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes:23
+msgid "If ``include`` and ``exclude`` have overlapping elements"
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes:24
+msgid "If any kind of string dtype is passed in."
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes:30
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes:31
+msgid "To select all *numeric* types, use ``np.number`` or ``'number'``"
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes:32
+msgid ""
+"To select strings you must use the ``object`` dtype, but note that this "
+"will return *all* object dtype columns"
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes:34
+msgid ""
+"See the `numpy dtype hierarchy "
+"<http://docs.scipy.org/doc/numpy/reference/arrays.scalars.html>`__"
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes:36
+msgid ""
+"To select datetimes, use ``np.datetime64``, ``'datetime'`` or "
+"``'datetime64'``"
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes:38
+msgid ""
+"To select timedeltas, use ``np.timedelta64``, ``'timedelta'`` or "
+"``'timedelta64'``"
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes:40
+msgid "To select Pandas categorical dtypes, use ``'category'``"
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes:41
+msgid ""
+"To select Pandas datetimetz dtypes, use ``'datetimetz'`` (new in 0.20.0) "
+"or ``'datetime64[ns, tz]'``"
+msgstr ""
+
+#: of pandas.DataFrame.select_dtypes:46
+msgid "Examples"
+msgstr ""
+

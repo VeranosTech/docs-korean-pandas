@@ -1,0 +1,423 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/io.rst:1
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../reference/io.rst:7
+msgid "Input/Output"
+msgstr ""
+
+#: ../../reference/io.rst:11
+msgid "Pickling"
+msgstr ""
+
+#: ../../reference/io.rst:16:<autosummary>:1
+msgid ":obj:`read_pickle <pandas.read_pickle>`\\ \\(path\\[\\, compression\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:16:<autosummary>:1
+msgid "Load pickled pandas object (or any object) from file."
+msgstr ""
+
+#: ../../reference/io.rst:18
+msgid "Flat File"
+msgstr ""
+
+#: ../../reference/io.rst:26:<autosummary>:1
+msgid ""
+":obj:`read_table <pandas.read_table>`\\ \\(filepath\\_or\\_buffer\\[\\, "
+"sep\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:26:<autosummary>:1
+msgid "(DEPRECATED) Read general delimited file into DataFrame."
+msgstr ""
+
+#: ../../reference/io.rst:26:<autosummary>:1
+msgid ""
+":obj:`read_csv <pandas.read_csv>`\\ \\(filepath\\_or\\_buffer\\[\\, "
+"sep\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:26:<autosummary>:1
+msgid "Read a comma-separated values (csv) file into DataFrame."
+msgstr ""
+
+#: ../../reference/io.rst:26:<autosummary>:1
+msgid ""
+":obj:`read_fwf <pandas.read_fwf>`\\ \\(filepath\\_or\\_buffer\\[\\, "
+"colspecs\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:26:<autosummary>:1
+msgid "Read a table of fixed-width formatted lines into DataFrame."
+msgstr ""
+
+#: ../../reference/io.rst:26:<autosummary>:1
+msgid ""
+":obj:`read_msgpack <pandas.read_msgpack>`\\ \\(path\\_or\\_buf\\[\\, "
+"encoding\\, iterator\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:26:<autosummary>:1
+msgid "Load msgpack pandas object from the specified file path"
+msgstr ""
+
+#: ../../reference/io.rst:28
+msgid "Clipboard"
+msgstr ""
+
+#: ../../reference/io.rst:33:<autosummary>:1
+msgid ":obj:`read_clipboard <pandas.read_clipboard>`\\ \\(\\[sep\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:33:<autosummary>:1
+msgid "Read text from clipboard and pass to read_csv."
+msgstr ""
+
+#: ../../reference/io.rst:35
+msgid "Excel"
+msgstr ""
+
+#: ../../reference/io.rst:41:<autosummary>:1
+msgid ""
+":obj:`read_excel <pandas.read_excel>`\\ \\(io\\[\\, sheet\\_name\\, "
+"header\\, names\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:41:<autosummary>:1
+msgid "Read an Excel file into a pandas DataFrame."
+msgstr ""
+
+#: ../../reference/io.rst:41:<autosummary>:1
+msgid ""
+":obj:`ExcelFile.parse <pandas.ExcelFile.parse>`\\ \\(\\[sheet\\_name\\, "
+"header\\, names\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:41:<autosummary>:1
+msgid "Parse specified sheet(s) into a DataFrame"
+msgstr ""
+
+#: ../../reference/io.rst:47:<autosummary>:1
+msgid ""
+":obj:`ExcelWriter <pandas.ExcelWriter>`\\ \\(path\\[\\, engine\\, "
+"date\\_format\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:47:<autosummary>:1
+msgid ""
+"Class for writing DataFrame objects into excel sheets, default is to use "
+"xlwt for xls, openpyxl for xlsx."
+msgstr ""
+
+#: ../../reference/io.rst:49
+msgid "JSON"
+msgstr ""
+
+#: ../../reference/io.rst:54:<autosummary>:1
+msgid ""
+":obj:`read_json <pandas.read_json>`\\ \\(\\[path\\_or\\_buf\\, orient\\, "
+"typ\\, dtype\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:54:<autosummary>:1
+msgid "Convert a JSON string to pandas object."
+msgstr ""
+
+#: ../../reference/io.rst:62:<autosummary>:1
+msgid ""
+":obj:`json_normalize <pandas.io.json.json_normalize>`\\ \\(data\\[\\, "
+"record\\_path\\, meta\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:62:<autosummary>:1
+msgid "Normalize semi-structured JSON data into a flat table."
+msgstr ""
+
+#: ../../reference/io.rst:62:<autosummary>:1
+msgid ""
+":obj:`build_table_schema <pandas.io.json.build_table_schema>`\\ "
+"\\(data\\[\\, index\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:62:<autosummary>:1
+msgid "Create a Table schema from ``data``."
+msgstr ""
+
+#: ../../reference/io.rst:66
+msgid "HTML"
+msgstr ""
+
+#: ../../reference/io.rst:71:<autosummary>:1
+msgid ""
+":obj:`read_html <pandas.read_html>`\\ \\(io\\[\\, match\\, flavor\\, "
+"header\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:71:<autosummary>:1
+msgid "Read HTML tables into a ``list`` of ``DataFrame`` objects."
+msgstr ""
+
+#: ../../reference/io.rst:73
+msgid "HDFStore: PyTables (HDF5)"
+msgstr ""
+
+#: ../../reference/io.rst:86:<autosummary>:1
+msgid ""
+":obj:`read_hdf <pandas.read_hdf>`\\ \\(path\\_or\\_buf\\[\\, key\\, "
+"mode\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:86:<autosummary>:1
+msgid "Read from the store, close it if we opened it."
+msgstr ""
+
+#: ../../reference/io.rst:86:<autosummary>:1
+msgid ""
+":obj:`HDFStore.put <pandas.HDFStore.put>`\\ \\(key\\, value\\[\\, "
+"format\\, append\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:86:<autosummary>:1
+msgid "Store object in HDFStore"
+msgstr ""
+
+#: ../../reference/io.rst:86:<autosummary>:1
+msgid ""
+":obj:`HDFStore.append <pandas.HDFStore.append>`\\ \\(key\\, value\\[\\, "
+"format\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:86:<autosummary>:1
+msgid "Append to Table in file."
+msgstr ""
+
+#: ../../reference/io.rst:86:<autosummary>:1
+msgid ":obj:`HDFStore.get <pandas.HDFStore.get>`\\ \\(key\\)"
+msgstr ""
+
+#: ../../reference/io.rst:86:<autosummary>:1
+msgid "Retrieve pandas object stored in file"
+msgstr ""
+
+#: ../../reference/io.rst:86:<autosummary>:1
+msgid ""
+":obj:`HDFStore.select <pandas.HDFStore.select>`\\ \\(key\\[\\, where\\, "
+"start\\, stop\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:86:<autosummary>:1
+msgid "Retrieve pandas object stored in file, optionally based on where criteria"
+msgstr ""
+
+#: ../../reference/io.rst:86:<autosummary>:1
+msgid ":obj:`HDFStore.info <pandas.HDFStore.info>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/io.rst:86:<autosummary>:1
+msgid "Print detailed information on the store."
+msgstr ""
+
+#: ../../reference/io.rst:86:<autosummary>:1
+msgid ":obj:`HDFStore.keys <pandas.HDFStore.keys>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/io.rst:86:<autosummary>:1
+msgid ""
+"Return a (potentially unordered) list of the keys corresponding to the "
+"objects stored in the HDFStore."
+msgstr ""
+
+#: ../../reference/io.rst:86:<autosummary>:1
+msgid ":obj:`HDFStore.groups <pandas.HDFStore.groups>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/io.rst:86:<autosummary>:1
+msgid ""
+"return a list of all the top-level nodes (that are not themselves a "
+"pandas storage object)"
+msgstr ""
+
+#: ../../reference/io.rst:86:<autosummary>:1
+msgid ":obj:`HDFStore.walk <pandas.HDFStore.walk>`\\ \\(\\[where\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:86:<autosummary>:1
+msgid "Walk the pytables group hierarchy for pandas objects"
+msgstr ""
+
+#: ../../reference/io.rst:88
+msgid "Feather"
+msgstr ""
+
+#: ../../reference/io.rst:93:<autosummary>:1
+msgid ""
+":obj:`read_feather <pandas.read_feather>`\\ \\(path\\[\\, columns\\, "
+"use\\_threads\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:93:<autosummary>:1
+msgid "Load a feather-format object from the file path"
+msgstr ""
+
+#: ../../reference/io.rst:95
+msgid "Parquet"
+msgstr ""
+
+#: ../../reference/io.rst:100:<autosummary>:1
+msgid ""
+":obj:`read_parquet <pandas.read_parquet>`\\ \\(path\\[\\, engine\\, "
+"columns\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:100:<autosummary>:1
+msgid "Load a parquet object from the file path, returning a DataFrame."
+msgstr ""
+
+#: ../../reference/io.rst:102
+msgid "SAS"
+msgstr ""
+
+#: ../../reference/io.rst:107:<autosummary>:1
+msgid ""
+":obj:`read_sas <pandas.read_sas>`\\ \\(filepath\\_or\\_buffer\\[\\, "
+"format\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:107:<autosummary>:1
+msgid "Read SAS files stored as either XPORT or SAS7BDAT format files."
+msgstr ""
+
+#: ../../reference/io.rst:109
+msgid "SQL"
+msgstr ""
+
+#: ../../reference/io.rst:116:<autosummary>:1
+msgid ""
+":obj:`read_sql_table <pandas.read_sql_table>`\\ \\(table\\_name\\, "
+"con\\[\\, schema\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:116:<autosummary>:1
+msgid "Read SQL database table into a DataFrame."
+msgstr ""
+
+#: ../../reference/io.rst:116:<autosummary>:1
+msgid ""
+":obj:`read_sql_query <pandas.read_sql_query>`\\ \\(sql\\, con\\[\\, "
+"index\\_col\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:116:<autosummary>:1
+msgid "Read SQL query into a DataFrame."
+msgstr ""
+
+#: ../../reference/io.rst:116:<autosummary>:1
+msgid ""
+":obj:`read_sql <pandas.read_sql>`\\ \\(sql\\, con\\[\\, index\\_col\\, "
+"...\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:116:<autosummary>:1
+msgid "Read SQL query or database table into a DataFrame."
+msgstr ""
+
+#: ../../reference/io.rst:118
+msgid "Google BigQuery"
+msgstr ""
+
+#: ../../reference/io.rst:123:<autosummary>:1
+msgid ""
+":obj:`read_gbq <pandas.read_gbq>`\\ \\(query\\[\\, project\\_id\\, "
+"index\\_col\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:123:<autosummary>:1
+msgid "Load data from Google BigQuery."
+msgstr ""
+
+#: ../../reference/io.rst:125
+msgid "STATA"
+msgstr ""
+
+#: ../../reference/io.rst:130:<autosummary>:1
+msgid ""
+":obj:`read_stata <pandas.read_stata>`\\ \\(filepath\\_or\\_buffer\\[\\, "
+"...\\]\\)"
+msgstr ""
+
+#: ../../reference/io.rst:130:<autosummary>:1
+msgid "Read Stata file into DataFrame."
+msgstr ""
+
+#: ../../reference/io.rst:140:<autosummary>:1
+msgid ""
+":obj:`StataReader.data <pandas.io.stata.StataReader.data>`\\ "
+"\\(\\*\\*kwargs\\)"
+msgstr ""
+
+#: ../../reference/io.rst:140:<autosummary>:1
+msgid ""
+"(DEPRECATED) Reads observations from Stata file, converting them into a "
+"dataframe"
+msgstr ""
+
+#: ../../reference/io.rst:140:<autosummary>:1
+msgid ""
+":obj:`StataReader.data_label <pandas.io.stata.StataReader.data_label>`\\ "
+"\\(\\)"
+msgstr ""
+
+#: ../../reference/io.rst:140:<autosummary>:1
+msgid "Returns data label of Stata file"
+msgstr ""
+
+#: ../../reference/io.rst:140:<autosummary>:1
+msgid ""
+":obj:`StataReader.value_labels "
+"<pandas.io.stata.StataReader.value_labels>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/io.rst:140:<autosummary>:1
+msgid ""
+"Returns a dict, associating each variable name a dict, associating each "
+"value its corresponding label"
+msgstr ""
+
+#: ../../reference/io.rst:140:<autosummary>:1
+msgid ""
+":obj:`StataReader.variable_labels "
+"<pandas.io.stata.StataReader.variable_labels>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/io.rst:140:<autosummary>:1
+msgid ""
+"Returns variable labels as a dict, associating each variable name with "
+"corresponding label"
+msgstr ""
+
+#: ../../reference/io.rst:140:<autosummary>:1
+msgid ""
+":obj:`StataWriter.write_file <pandas.io.stata.StataWriter.write_file>`\\ "
+"\\(\\)"
+msgstr ""
+

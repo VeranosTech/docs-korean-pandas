@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.pct_change.rst:2
+msgid "pandas.DataFrame.pct\\_change"
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:2
+msgid "Percentage change between the current and a prior element."
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:4
+msgid ""
+"Computes the percentage change from the immediately previous row by "
+"default. This is useful in comparing the percentage of change in a time "
+"series of elements."
+msgstr ""
+
+#: of pandas.DataFrame.pct_change
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:11
+msgid "**periods**"
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:10
+msgid "int, default 1"
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:11
+msgid "Periods to shift for forming percent change."
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:14
+msgid "**fill_method**"
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:13
+msgid "str, default 'pad'"
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:14
+msgid "How to handle NAs before computing percent changes."
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:17
+msgid "**limit**"
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:16
+msgid "int, default None"
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:17
+msgid "The number of consecutive NAs to fill before stopping."
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:20
+msgid "**freq**"
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:19
+msgid "DateOffset, timedelta, or offset alias string, optional"
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:20
+msgid "Increment to use from time series API (e.g. 'M' or BDay())."
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:24
+msgid "**\\*\\*kwargs**"
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:23
+msgid ""
+"Additional keyword arguments are passed into `DataFrame.shift` or "
+"`Series.shift`."
+msgstr ""
+
+#: of pandas.DataFrame.pct_change
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:34
+msgid "**chg**"
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:33
+msgid "Series or DataFrame"
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:29
+msgid "The same type as the calling object."
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:40
+msgid ":obj:`Series.diff`"
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:40
+msgid "Compute the difference of two elements in a Series."
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:43
+msgid ":obj:`DataFrame.diff`"
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:43
+msgid "Compute the difference of two elements in a DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:46
+msgid ":obj:`Series.shift`"
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:46 pandas.DataFrame.pct_change:49
+msgid "Shift the index by some number of periods."
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:48
+msgid ":obj:`DataFrame.shift`"
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:54
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:55
+msgid "**Series**"
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:76
+msgid ""
+"See the percentage change in a Series where filling NAs with last valid "
+"observation forward to next valid."
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:94
+msgid "**DataFrame**"
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:96
+msgid ""
+"Percentage change in French franc, Deutsche Mark, and Italian lira from "
+"1980-01-01 to 1980-03-01."
+msgstr ""
+
+#: of pandas.DataFrame.pct_change:116
+msgid ""
+"Percentage of change in GOOG and APPL stock volume. Shows computing the "
+"percentage change between columns."
+msgstr ""
+

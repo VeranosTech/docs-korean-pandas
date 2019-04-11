@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.head.rst:2
+msgid "pandas.DataFrame.head"
+msgstr ""
+
+#: of pandas.DataFrame.head:2
+msgid "Return the first `n` rows."
+msgstr ""
+
+#: of pandas.DataFrame.head:4
+msgid ""
+"This function returns the first `n` rows for the object based on "
+"position. It is useful for quickly testing if your object has the right "
+"type of data in it."
+msgstr ""
+
+#: of pandas.DataFrame.head
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.head:11
+msgid "**n**"
+msgstr ""
+
+#: of pandas.DataFrame.head:10
+msgid "int, default 5"
+msgstr ""
+
+#: of pandas.DataFrame.head:11
+msgid "Number of rows to select."
+msgstr ""
+
+#: of pandas.DataFrame.head
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.head:21
+msgid "**obj_head**"
+msgstr ""
+
+#: of pandas.DataFrame.head:20
+msgid "same type as caller"
+msgstr ""
+
+#: of pandas.DataFrame.head:16
+msgid "The first `n` rows of the caller object."
+msgstr ""
+
+#: of pandas.DataFrame.head:26
+msgid ":obj:`DataFrame.tail`"
+msgstr ""
+
+#: of pandas.DataFrame.head:27
+msgid "Returns the last `n` rows."
+msgstr ""
+
+#: of pandas.DataFrame.head:32
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.head:47
+msgid "Viewing the first 5 lines"
+msgstr ""
+
+#: of pandas.DataFrame.head:57
+msgid "Viewing the first `n` lines (three in this case)"
+msgstr ""
+

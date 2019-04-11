@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.values.rst:2
+msgid "pandas.Index.values"
+msgstr ""
+
+#: of pandas.Index.values:2
+msgid "Return an array representing the data in the Index."
+msgstr ""
+
+#: of pandas.Index.values:6
+msgid ""
+"We recommend using :attr:`Index.array` or :meth:`Index.to_numpy`, "
+"depending on whether you need a reference to the underlying data or a "
+"NumPy array."
+msgstr ""
+
+#: of pandas.Index.values
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.values:19
+msgid "**array: numpy.ndarray or ExtensionArray**"
+msgstr ""
+
+#: of pandas.Index.values:25
+msgid ":obj:`Index.array`"
+msgstr ""
+
+#: of pandas.Index.values:25
+msgid "Reference to the underlying data."
+msgstr ""
+
+#: of pandas.Index.values:28
+msgid ":obj:`Index.to_numpy`"
+msgstr ""
+
+#: of pandas.Index.values:28
+msgid "A NumPy array representing the underlying data."
+msgstr ""
+
+#: of pandas.Index.values:30
+msgid ":obj:`Return`"
+msgstr ""
+

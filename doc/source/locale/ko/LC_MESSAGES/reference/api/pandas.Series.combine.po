@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.combine.rst:2
+msgid "pandas.Series.combine"
+msgstr ""
+
+#: of pandas.Series.combine:2
+msgid "Combine the Series with a Series or scalar according to `func`."
+msgstr ""
+
+#: of pandas.Series.combine:4
+msgid ""
+"Combine the Series and `other` using `func` to perform elementwise "
+"selection for combined Series. `fill_value` is assumed when value is "
+"missing at some index from one of the two objects being combined."
+msgstr ""
+
+#: of pandas.Series.combine
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.combine:12
+msgid "**other**"
+msgstr ""
+
+#: of pandas.Series.combine:11
+msgid "Series or scalar"
+msgstr ""
+
+#: of pandas.Series.combine:12
+msgid "The value(s) to be combined with the `Series`."
+msgstr ""
+
+#: of pandas.Series.combine:15
+msgid "**func**"
+msgstr ""
+
+#: of pandas.Series.combine:14
+msgid "function"
+msgstr ""
+
+#: of pandas.Series.combine:15
+msgid "Function that takes two scalars as inputs and returns an element."
+msgstr ""
+
+#: of pandas.Series.combine:20
+msgid "**fill_value**"
+msgstr ""
+
+#: of pandas.Series.combine:19
+msgid "scalar, optional"
+msgstr ""
+
+#: of pandas.Series.combine:18
+msgid ""
+"The value to assume when an index is missing from one Series or the "
+"other. The default specifies to use the appropriate NaN value for the "
+"underlying dtype of the Series."
+msgstr ""
+
+#: of pandas.Series.combine
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.combine:30
+msgid "**Series**"
+msgstr ""
+
+#: of pandas.Series.combine:25
+msgid "The result of combining the Series with the other object."
+msgstr ""
+
+#: of pandas.Series.combine:35
+msgid ":obj:`Series.combine_first`"
+msgstr ""
+
+#: of pandas.Series.combine:36
+msgid "Combine Series values, choosing the calling Series' values first."
+msgstr ""
+
+#: of pandas.Series.combine:41
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.combine:42
+msgid ""
+"Consider 2 Datasets ``s1`` and ``s2`` containing highest clocked speeds "
+"of different birds."
+msgstr ""
+
+#: of pandas.Series.combine:57
+msgid ""
+"Now, to combine the two datasets and view the highest speeds of the birds"
+" across the two datasets"
+msgstr ""
+
+#: of pandas.Series.combine:66
+msgid ""
+"In the previous example, the resulting value for duck is missing, because"
+" the maximum of a NaN and a float is a NaN. So, in the example, we set "
+"``fill_value=0``, so the maximum value returned will be the value from "
+"some dataset."
+msgstr ""
+

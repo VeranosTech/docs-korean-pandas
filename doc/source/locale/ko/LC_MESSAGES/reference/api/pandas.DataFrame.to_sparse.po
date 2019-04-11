@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.to_sparse.rst:2
+msgid "pandas.DataFrame.to\\_sparse"
+msgstr ""
+
+#: of pandas.DataFrame.to_sparse:2
+msgid "Convert to SparseDataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.to_sparse:4
+msgid ""
+"Implement the sparse version of the DataFrame meaning that any data "
+"matching a specific value it's omitted in the representation. The sparse "
+"DataFrame allows for a more efficient storage."
+msgstr ""
+
+#: of pandas.DataFrame.to_sparse
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.to_sparse:11
+msgid "**fill_value**"
+msgstr ""
+
+#: of pandas.DataFrame.to_sparse:10
+msgid "float, default None"
+msgstr ""
+
+#: of pandas.DataFrame.to_sparse:11
+msgid "The specific value that should be omitted in the representation."
+msgstr ""
+
+#: of pandas.DataFrame.to_sparse:21
+msgid "**kind**"
+msgstr ""
+
+#: of pandas.DataFrame.to_sparse:20
+msgid "{'block', 'integer'}, default 'block'"
+msgstr ""
+
+#: of pandas.DataFrame.to_sparse:14
+msgid ""
+"The kind of the SparseIndex tracking where data is not equal to the fill "
+"value:"
+msgstr ""
+
+#: of pandas.DataFrame.to_sparse:17
+msgid "'block' tracks only the locations and sizes of blocks of data."
+msgstr ""
+
+#: of pandas.DataFrame.to_sparse:18
+msgid "'integer' keeps an array with all the locations of the data."
+msgstr ""
+
+#: of pandas.DataFrame.to_sparse:20
+msgid "In most cases 'block' is recommended, since it's more memory efficient."
+msgstr ""
+
+#: of pandas.DataFrame.to_sparse
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.to_sparse:31
+msgid "**SparseDataFrame**"
+msgstr ""
+
+#: of pandas.DataFrame.to_sparse:26
+msgid "The sparse representation of the DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.to_sparse:36
+msgid ":obj:`DataFrame.to_dense`"
+msgstr ""
+
+#: of pandas.DataFrame.to_sparse:37
+msgid "Converts the DataFrame back to the its dense form."
+msgstr ""
+
+#: of pandas.DataFrame.to_sparse:42
+msgid "Examples"
+msgstr ""
+

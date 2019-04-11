@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.qcut.rst:2
+msgid "pandas.qcut"
+msgstr ""
+
+#: of pandas.qcut:2
+msgid ""
+"Quantile-based discretization function. Discretize variable into equal-"
+"sized buckets based on rank or based on sample quantiles. For example "
+"1000 values for 10 quantiles would produce a Categorical object "
+"indicating quantile membership for each data point."
+msgstr ""
+
+#: of pandas.qcut
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.qcut:11
+msgid "**x**"
+msgstr ""
+
+#: of pandas.qcut:10
+msgid "1d ndarray or Series"
+msgstr ""
+
+#: of pandas.qcut:15
+msgid "**q**"
+msgstr ""
+
+#: of pandas.qcut:14
+msgid "integer or array of quantiles"
+msgstr ""
+
+#: of pandas.qcut:14
+msgid ""
+"Number of quantiles. 10 for deciles, 4 for quartiles, etc. Alternately "
+"array of quantiles, e.g. [0, .25, .5, .75, 1.] for quartiles"
+msgstr ""
+
+#: of pandas.qcut:20
+msgid "**labels**"
+msgstr ""
+
+#: of pandas.qcut:19
+msgid "array or boolean, default None"
+msgstr ""
+
+#: of pandas.qcut:18
+msgid ""
+"Used as labels for the resulting bins. Must be of the same length as the "
+"resulting bins. If False, return only integer indicators of the bins."
+msgstr ""
+
+#: of pandas.qcut:24
+msgid "**retbins**"
+msgstr ""
+
+#: of pandas.qcut:23
+msgid "bool, optional"
+msgstr ""
+
+#: of pandas.qcut:23
+msgid ""
+"Whether to return the (bins, labels) or not. Can be useful if bins is "
+"given as a scalar."
+msgstr ""
+
+#: of pandas.qcut:27
+msgid "**precision**"
+msgstr ""
+
+#: of pandas.qcut:26
+msgid "int, optional"
+msgstr ""
+
+#: of pandas.qcut:27
+msgid "The precision at which to store and display the bins labels"
+msgstr ""
+
+#: of pandas.qcut:32
+msgid "**duplicates**"
+msgstr ""
+
+#: of pandas.qcut:31
+msgid "{default 'raise', 'drop'}, optional"
+msgstr ""
+
+#: of pandas.qcut:30
+msgid "If bin edges are not unique, raise ValueError or drop non-uniques."
+msgstr ""
+
+#: of pandas.qcut
+msgid "Returns"
+msgstr ""
+
+#: of pandas.qcut:39
+msgid "**out**"
+msgstr ""
+
+#: of pandas.qcut:38
+msgid "Categorical or Series or array of integers if labels is False"
+msgstr ""
+
+#: of pandas.qcut:37
+msgid ""
+"The return type (Categorical or Series) depends on the input: a Series of"
+" type category if input is a Series else Categorical. Bins are "
+"represented as categories when categorical data is returned."
+msgstr ""
+
+#: of pandas.qcut:48
+msgid "**bins**"
+msgstr ""
+
+#: of pandas.qcut:47
+msgid "ndarray of floats"
+msgstr ""
+
+#: of pandas.qcut:42
+msgid "Returned only if `retbins` is True."
+msgstr ""
+
+#: of pandas.qcut:51
+msgid "Notes"
+msgstr ""
+
+#: of pandas.qcut:52
+msgid "Out of bounds values will be NA in the resulting Categorical object"
+msgstr ""
+
+#: of pandas.qcut:56
+msgid "Examples"
+msgstr ""
+

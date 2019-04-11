@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.plot.hexbin.rst:2
+msgid "pandas.DataFrame.plot.hexbin"
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:2
+msgid "Generate a hexagonal binning plot."
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:4
+msgid ""
+"Generate a hexagonal binning plot of `x` versus `y`. If `C` is `None` "
+"(the default), this is a histogram of the number of occurrences of the "
+"observations at ``(x[i], y[i])``."
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:8
+msgid ""
+"If `C` is specified, specifies values at given coordinates ``(x[i], "
+"y[i])``. These values are accumulated for each hexagonal bin and then "
+"reduced according to `reduce_C_function`, having as default the NumPy's "
+"mean function (:meth:`numpy.mean`). (If `C` is specified, it must also be"
+" a 1-D sequence of the same length as `x` and `y`, or a column label.)"
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:18
+msgid "**x**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:17 pandas.DataFrame.plot.hexbin:20
+msgid "int or str"
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:18
+msgid "The column label or position for x points."
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:21
+msgid "**y**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:21
+msgid "The column label or position for y points."
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:24
+msgid "**C**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:23
+msgid "int or str, optional"
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:24
+msgid "The column label or position for the value of `(x, y)` point."
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:28
+msgid "**reduce_C_function** : callable, default `np.mean`"
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:27
+msgid "callable, default np.mean"
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:27
+msgid ""
+"Function of one argument that reduces all the values in a bin to a single"
+" number (e.g. `np.mean`, `np.max`, `np.sum`, `np.std`)."
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:36
+msgid "**gridsize**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:35
+msgid "int or tuple of (int, int), default 100"
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:31
+msgid ""
+"The number of hexagons in the x-direction. The corresponding number of "
+"hexagons in the y-direction is chosen in a way that the hexagons are "
+"approximately regular. Alternatively, gridsize can be a tuple with two "
+"elements specifying the number of hexagons in the x-direction and the "
+"y-direction."
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:40
+msgid "**\\*\\*kwds**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:39
+msgid ""
+"Additional keyword arguments are documented in "
+":meth:`pandas.DataFrame.plot`."
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:50
+msgid "**matplotlib.AxesSubplot**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:45
+msgid "The matplotlib ``Axes`` on which the hexbin is plotted."
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:56
+msgid ":obj:`DataFrame.plot`"
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:56
+msgid "Make plots of a DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:58
+msgid ":obj:`matplotlib.pyplot.hexbin`"
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:59
+msgid ""
+"Hexagonal binning plot using matplotlib, the matplotlib function that is "
+"used under the hood."
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:64
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:65
+msgid ""
+"The following examples are generated with random data from a normal "
+"distribution."
+msgstr ""
+
+#: of pandas.DataFrame.plot.hexbin:76
+msgid ""
+"The next example uses `C` and `np.sum` as `reduce_C_function`. Note that "
+"`'observations'` values ranges from 1 to 5 but the result plot shows "
+"values up to more than 25. This is because of the `reduce_C_function`."
+msgstr ""
+

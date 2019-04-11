@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.plotting.radviz.rst:2
+msgid "pandas.plotting.radviz"
+msgstr ""
+
+#: of pandas.plotting.radviz:2
+msgid "Plot a multidimensional dataset in 2D."
+msgstr ""
+
+#: of pandas.plotting.radviz:4
+msgid ""
+"Each Series in the DataFrame is represented as a evenly distributed slice"
+" on a circle. Each data point is rendered in the circle according to the "
+"value on each Series. Highly correlated `Series` in the `DataFrame` are "
+"placed closer on the unit circle."
+msgstr ""
+
+#: of pandas.plotting.radviz:9
+msgid ""
+"RadViz allow to project a N-dimensional data set into a 2D space where "
+"the influence of each dimension can be interpreted as a balance between "
+"the influence of all dimensions."
+msgstr ""
+
+#: of pandas.plotting.radviz:13
+msgid ""
+"More info available at the `original article "
+"<http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.135.889>`_ "
+"describing RadViz."
+msgstr ""
+
+#: of pandas.plotting.radviz
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.plotting.radviz:20
+msgid "**frame** : `DataFrame`"
+msgstr ""
+
+#: of pandas.plotting.radviz:19
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.plotting.radviz:20
+msgid "Pandas object holding the data."
+msgstr ""
+
+#: of pandas.plotting.radviz:23
+msgid "**class_column**"
+msgstr ""
+
+#: of pandas.plotting.radviz:22
+msgid "str"
+msgstr ""
+
+#: of pandas.plotting.radviz:23
+msgid "Column name containing the name of the data point category."
+msgstr ""
+
+#: of pandas.plotting.radviz:26
+msgid "**ax** : :class:`matplotlib.axes.Axes`, optional"
+msgstr ""
+
+#: of pandas.plotting.radviz:25
+msgid "matplotlib.axes.Axes, optional"
+msgstr ""
+
+#: of pandas.plotting.radviz:26
+msgid "A plot instance to which to add the information."
+msgstr ""
+
+#: of pandas.plotting.radviz:29
+msgid "**color**"
+msgstr ""
+
+#: of pandas.plotting.radviz:28
+msgid "list[str] or tuple[str], optional"
+msgstr ""
+
+#: of pandas.plotting.radviz:29
+msgid "Assign a color to each category. Example: ['blue', 'green']."
+msgstr ""
+
+#: of pandas.plotting.radviz:33
+msgid "**colormap** : str or :class:`matplotlib.colors.Colormap`, default None"
+msgstr ""
+
+#: of pandas.plotting.radviz:32
+msgid "str or matplotlib.colors.Colormap, default None"
+msgstr ""
+
+#: of pandas.plotting.radviz:32
+msgid ""
+"Colormap to select colors from. If string, load colormap with that name "
+"from matplotlib."
+msgstr ""
+
+#: of pandas.plotting.radviz:36
+msgid "**kwds**"
+msgstr ""
+
+#: of pandas.plotting.radviz:35
+msgid "optional"
+msgstr ""
+
+#: of pandas.plotting.radviz:36
+msgid "Options to pass to matplotlib scatter plotting method."
+msgstr ""
+
+#: of pandas.plotting.radviz
+msgid "Returns"
+msgstr ""
+
+#: of pandas.plotting.radviz:46
+msgid "**axes** : :class:`matplotlib.axes.Axes`"
+msgstr ""
+
+#: of pandas.plotting.radviz:45
+msgid "matplotlib.axes.Axes"
+msgstr ""
+
+#: of pandas.plotting.radviz:51
+msgid ":obj:`pandas.plotting.andrews_curves`"
+msgstr ""
+
+#: of pandas.plotting.radviz:52
+msgid "Plot clustering visualization."
+msgstr ""
+
+#: of pandas.plotting.radviz:57
+msgid "Examples"
+msgstr ""
+

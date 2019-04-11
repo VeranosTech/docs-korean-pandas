@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.duplicated.rst:2
+msgid "pandas.Series.duplicated"
+msgstr ""
+
+#: of pandas.Series.duplicated:2
+msgid "Indicate duplicate Series values."
+msgstr ""
+
+#: of pandas.Series.duplicated:4
+msgid ""
+"Duplicated values are indicated as ``True`` values in the resulting "
+"Series. Either all duplicates, all except the first or all except the "
+"last occurrence of duplicates can be indicated."
+msgstr ""
+
+#: of pandas.Series.duplicated
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.duplicated:15
+msgid "**keep**"
+msgstr ""
+
+#: of pandas.Series.duplicated:14
+msgid "{'first', 'last', False}, default 'first'"
+msgstr ""
+
+#: of pandas.Series.duplicated:11
+msgid "'first' : Mark duplicates as ``True`` except for the first occurrence."
+msgstr ""
+
+#: of pandas.Series.duplicated:13
+msgid "'last' : Mark duplicates as ``True`` except for the last occurrence."
+msgstr ""
+
+#: of pandas.Series.duplicated:15
+msgid "``False`` : Mark all duplicates as ``True``."
+msgstr ""
+
+#: of pandas.Series.duplicated
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.duplicated:25
+msgid "**pandas.core.series.Series**"
+msgstr ""
+
+#: of pandas.Series.duplicated:31
+msgid ":obj:`Index.duplicated`"
+msgstr ""
+
+#: of pandas.Series.duplicated:31
+msgid "Equivalent method on pandas.Index."
+msgstr ""
+
+#: of pandas.Series.duplicated:34
+msgid ":obj:`DataFrame.duplicated`"
+msgstr ""
+
+#: of pandas.Series.duplicated:34
+msgid "Equivalent method on pandas.DataFrame."
+msgstr ""
+
+#: of pandas.Series.duplicated:36
+msgid ":obj:`Series.drop_duplicates`"
+msgstr ""
+
+#: of pandas.Series.duplicated:37
+msgid "Remove duplicate values from Series."
+msgstr ""
+
+#: of pandas.Series.duplicated:42
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.duplicated:43
+msgid ""
+"By default, for each set of duplicated values, the first occurrence is "
+"set on False and all others on True:"
+msgstr ""
+
+#: of pandas.Series.duplicated:55
+msgid "which is equivalent to"
+msgstr ""
+
+#: of pandas.Series.duplicated:65
+msgid ""
+"By using 'last', the last occurrence of each set of duplicated values is "
+"set on False and all others on True:"
+msgstr ""
+
+#: of pandas.Series.duplicated:76
+msgid "By setting keep on ``False``, all duplicates are True:"
+msgstr ""
+

@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Categorical.categories.rst:2
+msgid "pandas.Categorical.categories"
+msgstr ""
+
+#: of pandas.Categorical.categories:2
+msgid "The categories of this categorical."
+msgstr ""
+
+#: of pandas.Categorical.categories:4
+msgid ""
+"Setting assigns new values to each category (effectively a rename of each"
+" individual category)."
+msgstr ""
+
+#: of pandas.Categorical.categories:7
+msgid ""
+"The assigned value has to be a list-like object. All items must be unique"
+" and the number of items in the new categories must be the same as the "
+"number of items in the old categories."
+msgstr ""
+
+#: of pandas.Categorical.categories:11
+msgid "Assigning to `categories` is a inplace operation!"
+msgstr ""
+
+#: of pandas.Categorical.categories
+msgid "Raises"
+msgstr ""
+
+#: of pandas.Categorical.categories:23
+msgid "**ValueError**"
+msgstr ""
+
+#: of pandas.Categorical.categories:20
+msgid ""
+"If the new categories do not validate as categories or if the number of "
+"new categories is unequal the number of old categories"
+msgstr ""
+
+#: of pandas.Categorical.categories:28
+msgid ""
+":obj:`rename_categories`, :obj:`reorder_categories`, "
+":obj:`add_categories`, :obj:`remove_categories`, "
+":obj:`remove_unused_categories`, :obj:`set_categories`"
+msgstr ""
+

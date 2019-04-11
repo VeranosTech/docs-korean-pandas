@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.isna.rst:2
+msgid "pandas.Series.isna"
+msgstr ""
+
+#: of pandas.Series.isna:2
+msgid "Detect missing values."
+msgstr ""
+
+#: of pandas.Series.isna:4
+msgid ""
+"Return a boolean same-sized object indicating if the values are NA. NA "
+"values, such as None or :attr:`numpy.NaN`, gets mapped to True values. "
+"Everything else gets mapped to False values. Characters such as empty "
+"strings ``''`` or :attr:`numpy.inf` are not considered NA values (unless "
+"you set ``pandas.options.mode.use_inf_as_na = True``)."
+msgstr ""
+
+#: of pandas.Series.isna
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.isna:21
+msgid "**Series**"
+msgstr ""
+
+#: of pandas.Series.isna:15
+msgid ""
+"Mask of bool values for each element in Series that indicates whether an "
+"element is not an NA value."
+msgstr ""
+
+#: of pandas.Series.isna:27
+msgid ":obj:`Series.isnull`"
+msgstr ""
+
+#: of pandas.Series.isna:27
+msgid "Alias of isna."
+msgstr ""
+
+#: of pandas.Series.isna:30
+msgid ":obj:`Series.notna`"
+msgstr ""
+
+#: of pandas.Series.isna:30
+msgid "Boolean inverse of isna."
+msgstr ""
+
+#: of pandas.Series.isna:33
+msgid ":obj:`Series.dropna`"
+msgstr ""
+
+#: of pandas.Series.isna:33
+msgid "Omit axes labels with missing values."
+msgstr ""
+
+#: of pandas.Series.isna:35
+msgid ":obj:`isna`"
+msgstr ""
+
+#: of pandas.Series.isna:36
+msgid "Top-level isna."
+msgstr ""
+
+#: of pandas.Series.isna:41
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.isna:42
+msgid "Show which entries in a DataFrame are NA."
+msgstr ""
+
+#: of pandas.Series.isna:61
+msgid "Show which entries in a Series are NA."
+msgstr ""
+

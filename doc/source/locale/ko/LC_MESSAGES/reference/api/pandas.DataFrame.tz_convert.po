@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.tz_convert.rst:2
+msgid "pandas.DataFrame.tz\\_convert"
+msgstr ""
+
+#: of pandas.DataFrame.tz_convert:2
+msgid "Convert tz-aware axis to target time zone."
+msgstr ""
+
+#: of pandas.DataFrame.tz_convert
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.tz_convert:8
+msgid "**tz**"
+msgstr ""
+
+#: of pandas.DataFrame.tz_convert:7
+msgid "string or pytz.timezone object"
+msgstr ""
+
+#: of pandas.DataFrame.tz_convert:11
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.DataFrame.tz_convert:10
+msgid "the axis to convert"
+msgstr ""
+
+#: of pandas.DataFrame.tz_convert:15
+msgid "**level**"
+msgstr ""
+
+#: of pandas.DataFrame.tz_convert:14
+msgid "int, str, default None"
+msgstr ""
+
+#: of pandas.DataFrame.tz_convert:14
+msgid "If axis ia a MultiIndex, convert a specific level. Otherwise must be None"
+msgstr ""
+
+#: of pandas.DataFrame.tz_convert:21
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.DataFrame.tz_convert:20
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.DataFrame.tz_convert:18
+msgid "Also make a copy of the underlying data"
+msgstr ""
+
+#: of pandas.DataFrame.tz_convert
+msgid "Raises"
+msgstr ""
+
+#: of pandas.DataFrame.tz_convert:34
+msgid "**TypeError**"
+msgstr ""
+
+#: of pandas.DataFrame.tz_convert:26
+msgid "If the axis is tz-naive."
+msgstr ""
+

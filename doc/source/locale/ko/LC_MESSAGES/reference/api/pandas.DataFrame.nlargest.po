@@ -1,0 +1,171 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.nlargest.rst:2
+msgid "pandas.DataFrame.nlargest"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:2
+msgid "Return the first `n` rows ordered by `columns` in descending order."
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:4
+msgid ""
+"Return the first `n` rows with the largest values in `columns`, in "
+"descending order. The columns that are not specified are returned as "
+"well, but not used for ordering."
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:8
+msgid ""
+"This method is equivalent to ``df.sort_values(columns, "
+"ascending=False).head(n)``, but more performant."
+msgstr ""
+
+#: of pandas.DataFrame.nlargest
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:15
+msgid "**n**"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:14
+msgid "int"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:15
+msgid "Number of rows to return."
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:18
+msgid "**columns**"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:17
+msgid "label or list of labels"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:18
+msgid "Column label(s) to order by."
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:28
+msgid "**keep**"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:27
+msgid "{'first', 'last', 'all'}, default 'first'"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:21
+msgid "Where there are duplicate values:"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:23
+msgid "`first` : prioritize the first occurrence(s)"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:24
+msgid "`last` : prioritize the last occurrence(s)"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:26
+msgid "``all``"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:25
+msgid "do not drop any duplicates, even it means"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:26
+msgid "selecting more than `n` items."
+msgstr ""
+
+#: of pandas.DataFrame.nlargest
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:39
+msgid "**DataFrame**"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:33
+msgid "The first `n` rows ordered by the given columns in descending order."
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:45
+msgid ":obj:`DataFrame.nsmallest`"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:45
+msgid "Return the first `n` rows ordered by `columns` in ascending order."
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:48
+msgid ":obj:`DataFrame.sort_values`"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:48
+msgid "Sort DataFrame by the values."
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:50
+msgid ":obj:`DataFrame.head`"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:51
+msgid "Return the first `n` rows without re-ordering."
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:54
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:55
+msgid ""
+"This function cannot be used with all column types. For example, when "
+"specifying columns with `object` or `category` dtypes, ``TypeError`` is "
+"raised."
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:61
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:84
+msgid ""
+"In the following example, we will use ``nlargest`` to select the three "
+"rows having the largest values in column \"population\"."
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:93
+msgid "When using ``keep='last'``, ties are resolved in reverse order:"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:101
+msgid "When using ``keep='all'``, all duplicate items are maintained:"
+msgstr ""
+
+#: of pandas.DataFrame.nlargest:111
+msgid ""
+"To order by the largest values in column \"population\" and then \"GDP\","
+" we can specify multiple columns like in the next example."
+msgstr ""
+

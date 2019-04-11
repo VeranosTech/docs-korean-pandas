@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.to_pickle.rst:2
+msgid "pandas.Series.to\\_pickle"
+msgstr ""
+
+#: of pandas.Series.to_pickle:2
+msgid "Pickle (serialize) object to file."
+msgstr ""
+
+#: of pandas.Series.to_pickle
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.to_pickle:8
+msgid "**path**"
+msgstr ""
+
+#: of pandas.Series.to_pickle:7
+msgid "str"
+msgstr ""
+
+#: of pandas.Series.to_pickle:8
+msgid "File path where the pickled object will be stored."
+msgstr ""
+
+#: of pandas.Series.to_pickle:14
+msgid "**compression**"
+msgstr ""
+
+#: of pandas.Series.to_pickle:13
+msgid "{'infer', 'gzip', 'bz2', 'zip', 'xz', None},         default 'infer'"
+msgstr ""
+
+#: of pandas.Series.to_pickle:11
+msgid ""
+"A string representing the compression to use in the output file. By "
+"default, infers from the file extension in specified path."
+msgstr ""
+
+#: of pandas.Series.to_pickle:32
+msgid "**protocol**"
+msgstr ""
+
+#: of pandas.Series.to_pickle:31
+msgid "int"
+msgstr ""
+
+#: of pandas.Series.to_pickle:17
+msgid ""
+"Int which indicates which protocol should be used by the pickler, default"
+" HIGHEST_PROTOCOL (see [R9a0a8647c05c-1]_ paragraph 12.1.2). The possible"
+" values for this parameter depend on the version of Python. For Python "
+"2.x, possible values are 0, 1, 2. For Python>=3.0, 3 is a valid value. "
+"For Python >= 3.4, 4 is a valid value. A negative value for the protocol "
+"parameter is equivalent to setting its value to HIGHEST_PROTOCOL."
+msgstr ""
+
+#: of pandas.Series.to_pickle:25
+msgid "https://docs.python.org/3/library/pickle.html"
+msgstr ""
+
+#: of pandas.Series.to_pickle:38
+msgid ":obj:`read_pickle`"
+msgstr ""
+
+#: of pandas.Series.to_pickle:38
+msgid "Load pickled pandas object (or any object) from file."
+msgstr ""
+
+#: of pandas.Series.to_pickle:41
+msgid ":obj:`DataFrame.to_hdf`"
+msgstr ""
+
+#: of pandas.Series.to_pickle:41
+msgid "Write DataFrame to an HDF5 file."
+msgstr ""
+
+#: of pandas.Series.to_pickle:44
+msgid ":obj:`DataFrame.to_sql`"
+msgstr ""
+
+#: of pandas.Series.to_pickle:44
+msgid "Write DataFrame to a SQL database."
+msgstr ""
+
+#: of pandas.Series.to_pickle:46
+msgid ":obj:`DataFrame.to_parquet`"
+msgstr ""
+
+#: of pandas.Series.to_pickle:47
+msgid "Write a DataFrame to the binary parquet format."
+msgstr ""
+
+#: of pandas.Series.to_pickle:52
+msgid "Examples"
+msgstr ""
+

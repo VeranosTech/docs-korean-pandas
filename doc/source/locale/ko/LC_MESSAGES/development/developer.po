@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../development/developer.rst:3
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../development/developer.rst:9
+msgid "Developer"
+msgstr ""
+
+#: ../../development/developer.rst:11
+msgid "This section will focus on downstream applications of pandas."
+msgstr ""
+
+#: ../../development/developer.rst:16
+msgid "Storing pandas DataFrame objects in Apache Parquet format"
+msgstr ""
+
+#: ../../development/developer.rst:18
+msgid ""
+"The `Apache Parquet <https://github.com/apache/parquet-format>`__ format "
+"provides key-value metadata at the file and column level, stored in the "
+"footer of the Parquet file:"
+msgstr ""
+
+#: ../../development/developer.rst:26
+msgid "where ``KeyValue`` is"
+msgstr ""
+
+#: ../../development/developer.rst:35
+msgid ""
+"So that a ``pandas.DataFrame`` can be faithfully reconstructed, we store "
+"a ``pandas`` metadata key in the ``FileMetaData`` with the value stored "
+"as :"
+msgstr ""
+
+#: ../../development/developer.rst:45
+msgid ""
+"Here, ``<c0>``/``<ci0>`` and so forth are dictionaries containing the "
+"metadata for each column, *including the index columns*. This has JSON "
+"form:"
+msgstr ""
+
+#: ../../development/developer.rst:58
+msgid ""
+"Every index column is stored with a name matching the pattern "
+"``__index_level_\\d+__`` and its corresponding column information is can "
+"be found with the following code snippet."
+msgstr ""
+
+#: ../../development/developer.rst:62
+msgid ""
+"Following this naming convention isn't strictly necessary, but strongly "
+"suggested for compatibility with Arrow."
+msgstr ""
+
+#: ../../development/developer.rst:65
+msgid "Here's an example of how the index metadata is structured in pyarrow:"
+msgstr ""
+
+#: ../../development/developer.rst:77
+msgid "``pandas_type`` is the logical type of the column, and is one of:"
+msgstr ""
+
+#: ../../development/developer.rst:79
+msgid "Boolean: ``'bool'``"
+msgstr ""
+
+#: ../../development/developer.rst:80
+msgid ""
+"Integers: ``'int8', 'int16', 'int32', 'int64', 'uint8', 'uint16', "
+"'uint32', 'uint64'``"
+msgstr ""
+
+#: ../../development/developer.rst:81
+msgid "Floats: ``'float16', 'float32', 'float64'``"
+msgstr ""
+
+#: ../../development/developer.rst:82
+msgid "Date and Time Types: ``'datetime', 'datetimetz'``, ``'timedelta'``"
+msgstr ""
+
+#: ../../development/developer.rst:83
+msgid "String: ``'unicode', 'bytes'``"
+msgstr ""
+
+#: ../../development/developer.rst:84
+msgid "Categorical: ``'categorical'``"
+msgstr ""
+
+#: ../../development/developer.rst:85
+msgid "Other Python objects: ``'object'``"
+msgstr ""
+
+#: ../../development/developer.rst:87
+msgid ""
+"The ``numpy_type`` is the physical storage type of the column, which is "
+"the result of ``str(dtype)`` for the underlying NumPy array that holds "
+"the data. So for ``datetimetz`` this is ``datetime64[ns]`` and for "
+"categorical, it may be any of the supported integer categorical types."
+msgstr ""
+
+#: ../../development/developer.rst:92
+msgid "The ``metadata`` field is ``None`` except for:"
+msgstr ""
+
+#: ../../development/developer.rst:94
+msgid ""
+"``datetimetz``: ``{'timezone': zone, 'unit': 'ns'}``, e.g. ``{'timezone',"
+" 'America/New_York', 'unit': 'ns'}``. The ``'unit'`` is optional, and if "
+"omitted it is assumed to be nanoseconds."
+msgstr ""
+
+#: ../../development/developer.rst:97
+msgid ""
+"``categorical``: ``{'num_categories': K, 'ordered': is_ordered, 'type': "
+"$TYPE}``"
+msgstr ""
+
+#: ../../development/developer.rst:99
+msgid ""
+"Here ``'type'`` is optional, and can be a nested pandas type "
+"specification here (but not categorical)"
+msgstr ""
+
+#: ../../development/developer.rst:102
+msgid "``unicode``: ``{'encoding': encoding}``"
+msgstr ""
+
+#: ../../development/developer.rst:104
+msgid "The encoding is optional, and if not present is UTF-8"
+msgstr ""
+
+#: ../../development/developer.rst:106
+msgid ""
+"``object``: ``{'encoding': encoding}``. Objects can be serialized and "
+"stored in ``BYTE_ARRAY`` Parquet columns. The encoding can be one of:"
+msgstr ""
+
+#: ../../development/developer.rst:109
+msgid "``'pickle'``"
+msgstr ""
+
+#: ../../development/developer.rst:110
+msgid "``'msgpack'``"
+msgstr ""
+
+#: ../../development/developer.rst:111
+msgid "``'bson'``"
+msgstr ""
+
+#: ../../development/developer.rst:112
+msgid "``'json'``"
+msgstr ""
+
+#: ../../development/developer.rst:114
+msgid ""
+"``timedelta``: ``{'unit': 'ns'}``. The ``'unit'`` is optional, and if "
+"omitted it is assumed to be nanoseconds. This metadata is optional "
+"altogether"
+msgstr ""
+
+#: ../../development/developer.rst:117
+msgid ""
+"For types other than these, the ``'metadata'`` key can be omitted. "
+"Implementations can assume ``None`` if the key is not present."
+msgstr ""
+
+#: ../../development/developer.rst:120
+msgid "As an example of fully-formed metadata:"
+msgstr ""
+

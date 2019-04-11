@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.values.rst:2
+msgid "pandas.Series.values"
+msgstr ""
+
+#: of pandas.Series.values:2
+msgid "Return Series as ndarray or ndarray-like depending on the dtype."
+msgstr ""
+
+#: of pandas.Series.values:6
+msgid ""
+"We recommend using :attr:`Series.array` or :meth:`Series.to_numpy`, "
+"depending on whether you need a reference to the underlying data or a "
+"NumPy array."
+msgstr ""
+
+#: of pandas.Series.values
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.values:19
+msgid "**arr**"
+msgstr ""
+
+#: of pandas.Series.values:18
+msgid "numpy.ndarray or ndarray-like"
+msgstr ""
+
+#: of pandas.Series.values:25
+msgid ":obj:`Series.array`"
+msgstr ""
+
+#: of pandas.Series.values:25
+msgid "Reference to the underlying data."
+msgstr ""
+
+#: of pandas.Series.values:27
+msgid ":obj:`Series.to_numpy`"
+msgstr ""
+
+#: of pandas.Series.values:28
+msgid "A NumPy array representing the underlying data."
+msgstr ""
+
+#: of pandas.Series.values:33
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.values:44
+msgid "Timezone aware datetime data is converted to UTC:"
+msgstr ""
+

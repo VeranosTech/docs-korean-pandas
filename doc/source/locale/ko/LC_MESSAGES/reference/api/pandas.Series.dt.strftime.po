@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.dt.strftime.rst:2
+msgid "pandas.Series.dt.strftime"
+msgstr ""
+
+#: of pandas.Series.dt.strftime:2
+msgid "Convert to Index using specified date_format."
+msgstr ""
+
+#: of pandas.Series.dt.strftime:4
+msgid ""
+"Return an Index of formatted strings specified by date_format, which "
+"supports the same string format as the python standard library. Details "
+"of the string format can be found in `python string format doc "
+"<https://docs.python.org/3/library/datetime.html#strftime-and-strptime-"
+"behavior>`__"
+msgstr ""
+
+#: of pandas.Series.dt.strftime
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.dt.strftime:12
+msgid "**date_format**"
+msgstr ""
+
+#: of pandas.Series.dt.strftime:11
+msgid "str"
+msgstr ""
+
+#: of pandas.Series.dt.strftime:12
+#, python-format
+msgid "Date format string (e.g. \"%Y-%m-%d\")."
+msgstr ""
+
+#: of pandas.Series.dt.strftime
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.dt.strftime:22
+msgid "**Index**"
+msgstr ""
+
+#: of pandas.Series.dt.strftime:17
+msgid "Index of formatted strings"
+msgstr ""
+
+#: of pandas.Series.dt.strftime:28
+msgid ":obj:`to_datetime`"
+msgstr ""
+
+#: of pandas.Series.dt.strftime:28
+msgid "Convert the given argument to datetime."
+msgstr ""
+
+#: of pandas.Series.dt.strftime:31
+msgid ":obj:`DatetimeIndex.normalize`"
+msgstr ""
+
+#: of pandas.Series.dt.strftime:31
+msgid "Return DatetimeIndex with times to midnight."
+msgstr ""
+
+#: of pandas.Series.dt.strftime:34
+msgid ":obj:`DatetimeIndex.round`"
+msgstr ""
+
+#: of pandas.Series.dt.strftime:34
+msgid "Round the DatetimeIndex to the specified freq."
+msgstr ""
+
+#: of pandas.Series.dt.strftime:36
+msgid ":obj:`DatetimeIndex.floor`"
+msgstr ""
+
+#: of pandas.Series.dt.strftime:37
+msgid "Floor the DatetimeIndex to the specified freq."
+msgstr ""
+
+#: of pandas.Series.dt.strftime:42
+msgid "Examples"
+msgstr ""
+

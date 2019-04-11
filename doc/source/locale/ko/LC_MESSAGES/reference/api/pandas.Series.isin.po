@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.isin.rst:2
+msgid "pandas.Series.isin"
+msgstr ""
+
+#: of pandas.Series.isin:2
+msgid "Check whether `values` are contained in Series."
+msgstr ""
+
+#: of pandas.Series.isin:4
+msgid ""
+"Return a boolean Series showing whether each element in the Series "
+"matches an element in the passed sequence of `values` exactly."
+msgstr ""
+
+#: of pandas.Series.isin
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.isin:16
+msgid "**values**"
+msgstr ""
+
+#: of pandas.Series.isin:15
+msgid "set or list-like"
+msgstr ""
+
+#: of pandas.Series.isin:10
+msgid ""
+"The sequence of values to test. Passing in a single string will raise a "
+"``TypeError``. Instead, turn a single string into a list of one element."
+msgstr ""
+
+#: of pandas.Series.isin:16
+msgid "Support for values as a set."
+msgstr ""
+
+#: of pandas.Series.isin
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.isin:23
+msgid "**isin**"
+msgstr ""
+
+#: of pandas.Series.isin:22
+msgid "Series (bool dtype)"
+msgstr ""
+
+#: of pandas.Series.isin
+msgid "Raises"
+msgstr ""
+
+#: of pandas.Series.isin:30
+msgid "**TypeError**"
+msgstr ""
+
+#: of pandas.Series.isin:28
+msgid "If `values` is a string"
+msgstr ""
+
+#: of pandas.Series.isin:35
+msgid ":obj:`DataFrame.isin`"
+msgstr ""
+
+#: of pandas.Series.isin:36
+msgid "Equivalent method on DataFrame."
+msgstr ""
+
+#: of pandas.Series.isin:41
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.isin:53
+msgid ""
+"Passing a single string as ``s.isin('lama')`` will raise an error. Use a "
+"list of one element instead:"
+msgstr ""
+

@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.get_values.rst:2
+msgid "pandas.DataFrame.get\\_values"
+msgstr ""
+
+#: of pandas.DataFrame.get_values:2
+msgid "Return an ndarray after converting sparse values to dense."
+msgstr ""
+
+#: of pandas.DataFrame.get_values:4
+msgid ""
+"This is the same as ``.values`` for non-sparse data. For sparse data "
+"contained in a `pandas.SparseArray`, the data are first converted to a "
+"dense representation."
+msgstr ""
+
+#: of pandas.DataFrame.get_values
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.get_values:17
+msgid "**numpy.ndarray**"
+msgstr ""
+
+#: of pandas.DataFrame.get_values:12
+msgid "Numpy representation of DataFrame"
+msgstr ""
+
+#: of pandas.DataFrame.get_values:23
+msgid ":obj:`values`"
+msgstr ""
+
+#: of pandas.DataFrame.get_values:23
+msgid "Numpy representation of DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.get_values:25
+msgid ":obj:`pandas.SparseArray`"
+msgstr ""
+
+#: of pandas.DataFrame.get_values:26
+msgid "Container for sparse data."
+msgstr ""
+
+#: of pandas.DataFrame.get_values:31
+msgid "Examples"
+msgstr ""
+

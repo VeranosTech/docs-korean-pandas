@@ -1,0 +1,631 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DatetimeIndex.rst:2
+msgid "pandas.DatetimeIndex"
+msgstr ""
+
+#: of pandas.DatetimeIndex:2
+msgid ""
+"Immutable ndarray of datetime64 data, represented internally as int64, "
+"and which can be boxed to Timestamp objects that are subclasses of "
+"datetime and carry metadata such as frequency information."
+msgstr ""
+
+#: of pandas.DatetimeIndex
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DatetimeIndex:10
+msgid "**data**"
+msgstr ""
+
+#: of pandas.DatetimeIndex:9
+msgid "array-like (1-dimensional), optional"
+msgstr ""
+
+#: of pandas.DatetimeIndex:10
+msgid "Optional datetime-like data to construct index with"
+msgstr ""
+
+#: of pandas.DatetimeIndex:13
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.DatetimeIndex:12
+msgid "bool"
+msgstr ""
+
+#: of pandas.DatetimeIndex:13
+msgid "Make a copy of input ndarray"
+msgstr ""
+
+#: of pandas.DatetimeIndex:18
+msgid "**freq**"
+msgstr ""
+
+#: of pandas.DatetimeIndex:17
+msgid "string or pandas offset object, optional"
+msgstr ""
+
+#: of pandas.DatetimeIndex:16
+msgid ""
+"One of pandas date offset strings or corresponding objects. The string "
+"'infer' can be passed in order to set the frequency of the index as the "
+"inferred frequency upon creation"
+msgstr ""
+
+#: of pandas.DatetimeIndex:24
+msgid "**start**"
+msgstr ""
+
+#: of pandas.DatetimeIndex:23
+msgid "starting value, datetime-like, optional"
+msgstr ""
+
+#: of pandas.DatetimeIndex:21
+msgid ""
+"If data is None, start is used as the start point in generating regular "
+"timestamp data."
+msgstr ""
+
+#: of pandas.DatetimeIndex:30
+msgid "**periods**"
+msgstr ""
+
+#: of pandas.DatetimeIndex:29
+msgid "int, optional, > 0"
+msgstr ""
+
+#: of pandas.DatetimeIndex:27
+msgid ""
+"Number of periods to generate, if generating index. Takes precedence over"
+" end argument"
+msgstr ""
+
+#: of pandas.DatetimeIndex:36
+msgid "**end**"
+msgstr ""
+
+#: of pandas.DatetimeIndex:35
+msgid "end time, datetime-like, optional"
+msgstr ""
+
+#: of pandas.DatetimeIndex:33
+msgid ""
+"If periods is none, generated index will extend to first conforming time "
+"on or just past end argument"
+msgstr ""
+
+#: of pandas.DatetimeIndex:42
+msgid "**closed**"
+msgstr ""
+
+#: of pandas.DatetimeIndex:41
+msgid "string or None, default None"
+msgstr ""
+
+#: of pandas.DatetimeIndex:39
+msgid ""
+"Make the interval closed with respect to the given frequency to the "
+"'left', 'right', or both sides (None)"
+msgstr ""
+
+#: of pandas.DatetimeIndex:42
+msgid "0"
+msgstr ""
+
+#: of pandas.DatetimeIndex:45 pandas.DatetimeIndex:140
+msgid "**tz**"
+msgstr ""
+
+#: of pandas.DatetimeIndex:44
+msgid "pytz.timezone or dateutil.tz.tzfile"
+msgstr ""
+
+#: of pandas.DatetimeIndex:60
+msgid "**ambiguous**"
+msgstr ""
+
+#: of pandas.DatetimeIndex:59
+msgid "'infer', bool-ndarray, 'NaT', default 'raise'"
+msgstr ""
+
+#: of pandas.DatetimeIndex:48
+msgid ""
+"When clocks moved backward due to DST, ambiguous times may arise. For "
+"example in Central European Time (UTC+01), when going from 03:00 DST to "
+"02:00 non-DST, 02:30:00 local time occurs both at 00:30:00 UTC and at "
+"01:30:00 UTC. In such a situation, the `ambiguous` parameter dictates how"
+" ambiguous times should be handled."
+msgstr ""
+
+#: of pandas.DatetimeIndex:54
+msgid "'infer' will attempt to infer fall dst-transition hours based on order"
+msgstr ""
+
+#: of pandas.DatetimeIndex:56
+msgid ""
+"bool-ndarray where True signifies a DST time, False signifies a non-DST "
+"time (note that this flag is only applicable for ambiguous times)"
+msgstr ""
+
+#: of pandas.DatetimeIndex:59
+msgid "'NaT' will return NaT where there are ambiguous times"
+msgstr ""
+
+#: of pandas.DatetimeIndex:60
+msgid "'raise' will raise an AmbiguousTimeError if there are ambiguous times"
+msgstr ""
+
+#: of pandas.DatetimeIndex:63
+msgid "**name**"
+msgstr ""
+
+#: of pandas.DatetimeIndex:62
+msgid "object"
+msgstr ""
+
+#: of pandas.DatetimeIndex:63
+msgid "Name to be stored in the index"
+msgstr ""
+
+#: of pandas.DatetimeIndex:66
+msgid "**dayfirst**"
+msgstr ""
+
+#: of pandas.DatetimeIndex:65 pandas.DatetimeIndex:74
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.DatetimeIndex:66
+msgid "If True, parse dates in `data` with the day first order"
+msgstr ""
+
+#: of pandas.DatetimeIndex:75
+msgid "**yearfirst**"
+msgstr ""
+
+#: of pandas.DatetimeIndex:69
+msgid "If True parse dates in `data` with the year first order"
+msgstr ""
+
+#: of pandas.DatetimeIndex:81
+msgid ":obj:`Index`"
+msgstr ""
+
+#: of pandas.DatetimeIndex:81
+msgid "The base pandas Index type."
+msgstr ""
+
+#: of pandas.DatetimeIndex:84
+msgid ":obj:`TimedeltaIndex`"
+msgstr ""
+
+#: of pandas.DatetimeIndex:84
+msgid "Index of timedelta64 data."
+msgstr ""
+
+#: of pandas.DatetimeIndex:87
+msgid ":obj:`PeriodIndex`"
+msgstr ""
+
+#: of pandas.DatetimeIndex:87
+msgid "Index of Period data."
+msgstr ""
+
+#: of pandas.DatetimeIndex:90
+msgid ":obj:`to_datetime`"
+msgstr ""
+
+#: of pandas.DatetimeIndex:90
+msgid "Convert argument to datetime."
+msgstr ""
+
+#: of pandas.DatetimeIndex:92
+msgid ":obj:`date_range`"
+msgstr ""
+
+#: of pandas.DatetimeIndex:93
+msgid "Create a fixed-frequency DatetimeIndex."
+msgstr ""
+
+#: of pandas.DatetimeIndex:96
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DatetimeIndex:97
+msgid ""
+"To learn more about the frequency strings, please see `this link "
+"<http://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-"
+"aliases>`__."
+msgstr ""
+
+#: of pandas.DatetimeIndex:100
+msgid ""
+"Creating a DatetimeIndex based on `start`, `periods`, and `end` has been "
+"deprecated in favor of :func:`date_range`."
+msgstr ""
+
+#: of pandas.DatetimeIndex:106
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`year <pandas.DatetimeIndex.year>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "The year of the datetime."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`month <pandas.DatetimeIndex.month>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "The month as January=1, December=12."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`day <pandas.DatetimeIndex.day>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "The days of the datetime."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`hour <pandas.DatetimeIndex.hour>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "The hours of the datetime."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`minute <pandas.DatetimeIndex.minute>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "The minutes of the datetime."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`second <pandas.DatetimeIndex.second>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "The seconds of the datetime."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`microsecond <pandas.DatetimeIndex.microsecond>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "The microseconds of the datetime."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`nanosecond <pandas.DatetimeIndex.nanosecond>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "The nanoseconds of the datetime."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`date <pandas.DatetimeIndex.date>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ""
+"Returns numpy array of python datetime.date objects (namely, the date "
+"part of Timestamps without timezone information)."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`time <pandas.DatetimeIndex.time>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "Returns numpy array of datetime.time."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`timetz <pandas.DatetimeIndex.timetz>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "Returns numpy array of datetime.time also containing timezone information."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`dayofyear <pandas.DatetimeIndex.dayofyear>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "The ordinal day of the year."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`weekofyear <pandas.DatetimeIndex.weekofyear>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "The week ordinal of the year."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`week <pandas.DatetimeIndex.week>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`dayofweek <pandas.DatetimeIndex.dayofweek>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "The day of the week with Monday=0, Sunday=6."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`weekday <pandas.DatetimeIndex.weekday>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`quarter <pandas.DatetimeIndex.quarter>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "The quarter of the date."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`freq <pandas.DatetimeIndex.freq>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "Return the frequency object if it is set, otherwise None."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`freqstr <pandas.DatetimeIndex.freqstr>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "Return the frequency object as a string if it is set, otherwise None."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`is_month_start <pandas.DatetimeIndex.is_month_start>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "Indicates whether the date is the first day of the month."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`is_month_end <pandas.DatetimeIndex.is_month_end>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "Indicates whether the date is the last day of the month."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`is_quarter_start <pandas.DatetimeIndex.is_quarter_start>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "Indicator for whether the date is the first day of a quarter."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`is_quarter_end <pandas.DatetimeIndex.is_quarter_end>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "Indicator for whether the date is the last day of a quarter."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`is_year_start <pandas.DatetimeIndex.is_year_start>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "Indicate whether the date is the first day of a year."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`is_year_end <pandas.DatetimeIndex.is_year_end>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "Indicate whether the date is the last day of the year."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`is_leap_year <pandas.DatetimeIndex.is_leap_year>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid "Boolean indicator if the date belongs to a leap year."
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ":obj:`inferred_freq <pandas.DatetimeIndex.inferred_freq>`\\"
+msgstr ""
+
+#: of pandas.DatetimeIndex:138:<autosummary>:1
+msgid ""
+"Tryies to return a string representing a frequency guess, generated by "
+"infer_freq."
+msgstr ""
+
+#: of pandas.DatetimeIndex:144
+msgid "Methods"
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid ""
+":obj:`normalize <pandas.DatetimeIndex.normalize>`\\ \\(\\*args\\, "
+"\\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid "Convert times to midnight."
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid ""
+":obj:`strftime <pandas.DatetimeIndex.strftime>`\\ \\(\\*args\\, "
+"\\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid "Convert to Index using specified date_format."
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid ":obj:`snap <pandas.DatetimeIndex.snap>`\\ \\(\\[freq\\]\\)"
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid "Snap time stamps to nearest occurring frequency"
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid ""
+":obj:`tz_convert <pandas.DatetimeIndex.tz_convert>`\\ \\(\\*args\\, "
+"\\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid "Convert tz-aware Datetime Array/Index from one time zone to another."
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid ""
+":obj:`tz_localize <pandas.DatetimeIndex.tz_localize>`\\ \\(\\*args\\, "
+"\\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid "Localize tz-naive Datetime Array/Index to tz-aware Datetime Array/Index."
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid ":obj:`round <pandas.DatetimeIndex.round>`\\ \\(\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid "Perform round operation on the data to the specified `freq`."
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid ":obj:`floor <pandas.DatetimeIndex.floor>`\\ \\(\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid "Perform floor operation on the data to the specified `freq`."
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid ":obj:`ceil <pandas.DatetimeIndex.ceil>`\\ \\(\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid "Perform ceil operation on the data to the specified `freq`."
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid ""
+":obj:`to_period <pandas.DatetimeIndex.to_period>`\\ \\(\\*args\\, "
+"\\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid "Cast to PeriodArray/Index at a particular frequency."
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid ""
+":obj:`to_perioddelta <pandas.DatetimeIndex.to_perioddelta>`\\ "
+"\\(\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid ""
+"Calculate TimedeltaArray of difference between index values and index "
+"converted to PeriodArray at specified freq."
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid ""
+":obj:`to_pydatetime <pandas.DatetimeIndex.to_pydatetime>`\\ \\(\\*args\\,"
+" \\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid "Return Datetime Array/Index as object ndarray of datetime.datetime objects"
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid ""
+":obj:`to_series <pandas.DatetimeIndex.to_series>`\\ \\(\\[keep\\_tz\\, "
+"index\\, name\\]\\)"
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid ""
+"Create a Series with both index and values equal to the index keys useful"
+" with map for returning an indexer based on an index"
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid ""
+":obj:`to_frame <pandas.DatetimeIndex.to_frame>`\\ \\(\\[index\\, "
+"name\\]\\)"
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid "Create a DataFrame with a column containing the Index."
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid ""
+":obj:`month_name <pandas.DatetimeIndex.month_name>`\\ \\(\\*args\\, "
+"\\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid "Return the month names of the DateTimeIndex with specified locale."
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid ""
+":obj:`day_name <pandas.DatetimeIndex.day_name>`\\ \\(\\*args\\, "
+"\\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.DatetimeIndex:163:<autosummary>:1
+msgid "Return the day names of the DateTimeIndex with specified locale."
+msgstr ""
+

@@ -1,0 +1,320 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.merge.rst:2
+msgid "pandas.merge"
+msgstr ""
+
+#: of pandas.merge:2
+msgid "Merge DataFrame or named Series objects with a database-style join."
+msgstr ""
+
+#: of pandas.merge:4
+msgid ""
+"The join is done on columns or indexes. If joining columns on columns, "
+"the DataFrame indexes *will be ignored*. Otherwise if joining indexes on "
+"indexes or indexes on a column or columns, the index will be passed on."
+msgstr ""
+
+#: of pandas.merge
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.merge:11
+msgid "**left**"
+msgstr ""
+
+#: of pandas.merge:10
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.merge:14
+msgid "**right**"
+msgstr ""
+
+#: of pandas.merge:13
+msgid "DataFrame or named Series"
+msgstr ""
+
+#: of pandas.merge:14
+msgid "Object to merge with."
+msgstr ""
+
+#: of pandas.merge:26
+msgid "**how**"
+msgstr ""
+
+#: of pandas.merge:25
+msgid "{'left', 'right', 'outer', 'inner'}, default 'inner'"
+msgstr ""
+
+#: of pandas.merge:17
+msgid "Type of merge to be performed."
+msgstr ""
+
+#: of pandas.merge:19
+msgid ""
+"left: use only keys from left frame, similar to a SQL left outer join; "
+"preserve key order."
+msgstr ""
+
+#: of pandas.merge:21
+msgid ""
+"right: use only keys from right frame, similar to a SQL right outer join;"
+" preserve key order."
+msgstr ""
+
+#: of pandas.merge:23
+msgid ""
+"outer: use union of keys from both frames, similar to a SQL full outer "
+"join; sort keys lexicographically."
+msgstr ""
+
+#: of pandas.merge:25
+msgid ""
+"inner: use intersection of keys from both frames, similar to a SQL inner "
+"join; preserve the order of the left keys."
+msgstr ""
+
+#: of pandas.merge:31
+msgid "**on**"
+msgstr ""
+
+#: of pandas.merge:30
+msgid "label or list"
+msgstr ""
+
+#: of pandas.merge:29
+msgid ""
+"Column or index level names to join on. These must be found in both "
+"DataFrames. If `on` is None and not merging on indexes then this defaults"
+" to the intersection of the columns in both DataFrames."
+msgstr ""
+
+#: of pandas.merge:36
+msgid "**left_on**"
+msgstr ""
+
+#: of pandas.merge:35 pandas.merge:40
+msgid "label or list, or array-like"
+msgstr ""
+
+#: of pandas.merge:34
+msgid ""
+"Column or index level names to join on in the left DataFrame. Can also be"
+" an array or list of arrays of the length of the left DataFrame. These "
+"arrays are treated as if they are columns."
+msgstr ""
+
+#: of pandas.merge:41
+msgid "**right_on**"
+msgstr ""
+
+#: of pandas.merge:39
+msgid ""
+"Column or index level names to join on in the right DataFrame. Can also "
+"be an array or list of arrays of the length of the right DataFrame. These"
+" arrays are treated as if they are columns."
+msgstr ""
+
+#: of pandas.merge:46
+msgid "**left_index**"
+msgstr ""
+
+#: of pandas.merge:45 pandas.merge:49 pandas.merge:53
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.merge:44
+msgid ""
+"Use the index from the left DataFrame as the join key(s). If it is a "
+"MultiIndex, the number of keys in the other DataFrame (either the index "
+"or a number of columns) must match the number of levels."
+msgstr ""
+
+#: of pandas.merge:50
+msgid "**right_index**"
+msgstr ""
+
+#: of pandas.merge:49
+msgid ""
+"Use the index from the right DataFrame as the join key. Same caveats as "
+"left_index."
+msgstr ""
+
+#: of pandas.merge:54
+msgid "**sort**"
+msgstr ""
+
+#: of pandas.merge:53
+msgid ""
+"Sort the join keys lexicographically in the result DataFrame. If False, "
+"the order of the join keys depends on the join type (how keyword)."
+msgstr ""
+
+#: of pandas.merge:59
+msgid "**suffixes**"
+msgstr ""
+
+#: of pandas.merge:58
+msgid "tuple of (str, str), default ('_x', '_y')"
+msgstr ""
+
+#: of pandas.merge:57
+msgid ""
+"Suffix to apply to overlapping column names in the left and right side, "
+"respectively. To raise an exception on overlapping columns use (False, "
+"False)."
+msgstr ""
+
+#: of pandas.merge:62
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.merge:61
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.merge:62
+msgid "If False, avoid copy if possible."
+msgstr ""
+
+#: of pandas.merge:72
+msgid "**indicator**"
+msgstr ""
+
+#: of pandas.merge:71
+msgid "bool or str, default False"
+msgstr ""
+
+#: of pandas.merge:65
+msgid ""
+"If True, adds a column to output DataFrame called \"_merge\" with "
+"information on the source of each row. If string, column with information"
+" on source of each row will be added to output DataFrame, and column will"
+" be named value of string. Information column is Categorical-type and "
+"takes on a value of \"left_only\" for observations whose merge key only "
+"appears in 'left' DataFrame, \"right_only\" for observations whose merge "
+"key only appears in 'right' DataFrame, and \"both\" if the observation's "
+"merge key is found in both."
+msgstr ""
+
+#: of pandas.merge:85
+msgid "**validate**"
+msgstr ""
+
+#: of pandas.merge:84
+msgid "str, optional"
+msgstr ""
+
+#: of pandas.merge:75
+msgid "If specified, checks if merge is of specified type."
+msgstr ""
+
+#: of pandas.merge:77
+msgid ""
+"\"one_to_one\" or \"1:1\": check if merge keys are unique in both left "
+"and right datasets."
+msgstr ""
+
+#: of pandas.merge:79
+msgid ""
+"\"one_to_many\" or \"1:m\": check if merge keys are unique in left "
+"dataset."
+msgstr ""
+
+#: of pandas.merge:81
+msgid ""
+"\"many_to_one\" or \"m:1\": check if merge keys are unique in right "
+"dataset."
+msgstr ""
+
+#: of pandas.merge:83
+msgid "\"many_to_many\" or \"m:m\": allowed, but does not result in checks."
+msgstr ""
+
+#: of pandas.merge
+msgid "Returns"
+msgstr ""
+
+#: of pandas.merge:95
+msgid "**DataFrame**"
+msgstr ""
+
+#: of pandas.merge:90
+msgid "A DataFrame of the two merged objects."
+msgstr ""
+
+#: of pandas.merge:101
+msgid ":obj:`merge_ordered`"
+msgstr ""
+
+#: of pandas.merge:101
+msgid "Merge with optional filling/interpolation."
+msgstr ""
+
+#: of pandas.merge:104
+msgid ":obj:`merge_asof`"
+msgstr ""
+
+#: of pandas.merge:104
+msgid "Merge on nearest keys."
+msgstr ""
+
+#: of pandas.merge:106
+msgid ":obj:`DataFrame.join`"
+msgstr ""
+
+#: of pandas.merge:107
+msgid "Similar method using indices."
+msgstr ""
+
+#: of pandas.merge:110
+msgid "Notes"
+msgstr ""
+
+#: of pandas.merge:111
+msgid ""
+"Support for specifying index levels as the `on`, `left_on`, and "
+"`right_on` parameters was added in version 0.23.0 Support for merging "
+"named Series objects was added in version 0.24.0"
+msgstr ""
+
+#: of pandas.merge:117
+msgid "Examples"
+msgstr ""
+
+#: of pandas.merge:135
+msgid ""
+"Merge df1 and df2 on the lkey and rkey columns. The value columns have "
+"the default suffixes, _x and _y, appended."
+msgstr ""
+
+#: of pandas.merge:147
+msgid ""
+"Merge DataFrames df1 and df2 with specified left and right suffixes "
+"appended to any overlapping columns."
+msgstr ""
+
+#: of pandas.merge:160
+msgid ""
+"Merge DataFrames df1 and df2, but raise an exception if the DataFrames "
+"have any overlapping columns."
+msgstr ""
+

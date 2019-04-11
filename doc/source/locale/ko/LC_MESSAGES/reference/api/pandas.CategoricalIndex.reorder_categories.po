@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.CategoricalIndex.reorder_categories.rst:2
+msgid "pandas.CategoricalIndex.reorder\\_categories"
+msgstr ""
+
+#: of pandas.CategoricalIndex.reorder_categories:2
+msgid "Reorders categories as specified in new_categories."
+msgstr ""
+
+#: of pandas.CategoricalIndex.reorder_categories:4
+msgid ""
+"`new_categories` need to include all old categories and no new category "
+"items."
+msgstr ""
+
+#: of pandas.CategoricalIndex.reorder_categories
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.CategoricalIndex.reorder_categories:10
+msgid "**new_categories**"
+msgstr ""
+
+#: of pandas.CategoricalIndex.reorder_categories:9
+msgid "Index-like"
+msgstr ""
+
+#: of pandas.CategoricalIndex.reorder_categories:10
+msgid "The categories in new order."
+msgstr ""
+
+#: of pandas.CategoricalIndex.reorder_categories:14
+msgid "**ordered**"
+msgstr ""
+
+#: of pandas.CategoricalIndex.reorder_categories:13
+msgid "boolean, optional"
+msgstr ""
+
+#: of pandas.CategoricalIndex.reorder_categories:13
+msgid ""
+"Whether or not the categorical is treated as a ordered categorical. If "
+"not given, do not change the ordered information."
+msgstr ""
+
+#: of pandas.CategoricalIndex.reorder_categories:18
+msgid "**inplace**"
+msgstr ""
+
+#: of pandas.CategoricalIndex.reorder_categories:17
+msgid "boolean (default: False)"
+msgstr ""
+
+#: of pandas.CategoricalIndex.reorder_categories:17
+msgid ""
+"Whether or not to reorder the categories inplace or return a copy of this"
+" categorical with reordered categories."
+msgstr ""
+
+#: of pandas.CategoricalIndex.reorder_categories
+msgid "Returns"
+msgstr ""
+
+#: of pandas.CategoricalIndex.reorder_categories:25
+msgid "**cat**"
+msgstr ""
+
+#: of pandas.CategoricalIndex.reorder_categories:24
+msgid "Categorical with reordered categories or None if inplace."
+msgstr ""
+
+#: of pandas.CategoricalIndex.reorder_categories
+msgid "Raises"
+msgstr ""
+
+#: of pandas.CategoricalIndex.reorder_categories:33
+msgid "**ValueError**"
+msgstr ""
+
+#: of pandas.CategoricalIndex.reorder_categories:30
+msgid ""
+"If the new categories do not contain all old category items or any new "
+"ones"
+msgstr ""
+
+#: of pandas.CategoricalIndex.reorder_categories:38
+msgid ""
+":obj:`rename_categories`, :obj:`add_categories`, "
+":obj:`remove_categories`, :obj:`remove_unused_categories`, "
+":obj:`set_categories`"
+msgstr ""
+

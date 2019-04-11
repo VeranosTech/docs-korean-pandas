@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.iterrows.rst:2
+msgid "pandas.DataFrame.iterrows"
+msgstr ""
+
+#: of pandas.DataFrame.iterrows:2
+msgid "Iterate over DataFrame rows as (index, Series) pairs."
+msgstr ""
+
+#: of pandas.DataFrame.iterrows
+msgid "Yields"
+msgstr ""
+
+#: of pandas.DataFrame.iterrows:10
+msgid "**index**"
+msgstr ""
+
+#: of pandas.DataFrame.iterrows:9
+msgid "label or tuple of label"
+msgstr ""
+
+#: of pandas.DataFrame.iterrows:10
+msgid "The index of the row. A tuple for a `MultiIndex`."
+msgstr ""
+
+#: of pandas.DataFrame.iterrows:13
+msgid "**data**"
+msgstr ""
+
+#: of pandas.DataFrame.iterrows:12
+msgid "Series"
+msgstr ""
+
+#: of pandas.DataFrame.iterrows:13
+msgid "The data of the row as a Series."
+msgstr ""
+
+#: of pandas.DataFrame.iterrows:20
+msgid "**it**"
+msgstr ""
+
+#: of pandas.DataFrame.iterrows:19
+msgid "generator"
+msgstr ""
+
+#: of pandas.DataFrame.iterrows:16
+msgid "A generator that iterates over the rows of the frame."
+msgstr ""
+
+#: of pandas.DataFrame.iterrows:26
+msgid ":obj:`itertuples`"
+msgstr ""
+
+#: of pandas.DataFrame.iterrows:26
+msgid "Iterate over DataFrame rows as namedtuples of the values."
+msgstr ""
+
+#: of pandas.DataFrame.iterrows:28
+msgid ":obj:`iteritems`"
+msgstr ""
+
+#: of pandas.DataFrame.iterrows:29
+msgid "Iterate over (column name, Series) pairs."
+msgstr ""
+
+#: of pandas.DataFrame.iterrows:32
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.iterrows:33
+msgid ""
+"Because ``iterrows`` returns a Series for each row, it does **not** "
+"preserve dtypes across the rows (dtypes are preserved across columns for "
+"DataFrames). For example,"
+msgstr ""
+
+#: of pandas.DataFrame.iterrows:48
+msgid ""
+"To preserve dtypes while iterating over the rows, it is better to use "
+":meth:`itertuples` which returns namedtuples of the values and which is "
+"generally faster than ``iterrows``."
+msgstr ""
+
+#: of pandas.DataFrame.iterrows:52
+msgid ""
+"You should **never modify** something you are iterating over. This is not"
+" guaranteed to work in all cases. Depending on the data types, the "
+"iterator returns a copy and not a view, and writing to it will have no "
+"effect."
+msgstr ""
+

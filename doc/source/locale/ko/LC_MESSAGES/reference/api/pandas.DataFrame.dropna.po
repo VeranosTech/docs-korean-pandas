@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.dropna.rst:2
+msgid "pandas.DataFrame.dropna"
+msgstr ""
+
+#: of pandas.DataFrame.dropna:2
+msgid "Remove missing values."
+msgstr ""
+
+#: of pandas.DataFrame.dropna:4
+msgid ""
+"See the :ref:`User Guide <missing_data>` for more on which values are "
+"considered missing, and how to work with missing data."
+msgstr ""
+
+#: of pandas.DataFrame.dropna
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.dropna:19
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.DataFrame.dropna:18
+msgid "{0 or 'index', 1 or 'columns'}, default 0"
+msgstr ""
+
+#: of pandas.DataFrame.dropna:10
+msgid "Determine if rows or columns which contain missing values are removed."
+msgstr ""
+
+#: of pandas.DataFrame.dropna:13
+msgid "0, or 'index' : Drop rows which contain missing values."
+msgstr ""
+
+#: of pandas.DataFrame.dropna:14
+msgid "1, or 'columns' : Drop columns which contain missing value."
+msgstr ""
+
+#: of pandas.DataFrame.dropna:18
+msgid ""
+"Pass tuple or list to drop on multiple axes. Only a single axis is "
+"allowed."
+msgstr ""
+
+#: of pandas.DataFrame.dropna:26
+msgid "**how**"
+msgstr ""
+
+#: of pandas.DataFrame.dropna:25
+msgid "{'any', 'all'}, default 'any'"
+msgstr ""
+
+#: of pandas.DataFrame.dropna:22
+msgid ""
+"Determine if row or column is removed from DataFrame, when we have at "
+"least one NA or all NA."
+msgstr ""
+
+#: of pandas.DataFrame.dropna:25
+msgid "'any' : If any NA values are present, drop that row or column."
+msgstr ""
+
+#: of pandas.DataFrame.dropna:26
+msgid "'all' : If all values are NA, drop that row or column."
+msgstr ""
+
+#: of pandas.DataFrame.dropna:29
+msgid "**thresh**"
+msgstr ""
+
+#: of pandas.DataFrame.dropna:28
+msgid "int, optional"
+msgstr ""
+
+#: of pandas.DataFrame.dropna:29
+msgid "Require that many non-NA values."
+msgstr ""
+
+#: of pandas.DataFrame.dropna:33
+msgid "**subset**"
+msgstr ""
+
+#: of pandas.DataFrame.dropna:32
+msgid "array-like, optional"
+msgstr ""
+
+#: of pandas.DataFrame.dropna:32
+msgid ""
+"Labels along other axis to consider, e.g. if you are dropping rows these "
+"would be a list of columns to include."
+msgstr ""
+
+#: of pandas.DataFrame.dropna:36
+msgid "**inplace**"
+msgstr ""
+
+#: of pandas.DataFrame.dropna:35
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.DataFrame.dropna:36
+msgid "If True, do operation inplace and return None."
+msgstr ""
+
+#: of pandas.DataFrame.dropna
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.dropna:46
+msgid "**DataFrame**"
+msgstr ""
+
+#: of pandas.DataFrame.dropna:41
+msgid "DataFrame with NA entries dropped from it."
+msgstr ""
+
+#: of pandas.DataFrame.dropna:52
+msgid ":obj:`DataFrame.isna`"
+msgstr ""
+
+#: of pandas.DataFrame.dropna:52
+msgid "Indicate missing values."
+msgstr ""
+
+#: of pandas.DataFrame.dropna:55
+msgid ":obj:`DataFrame.notna`"
+msgstr ""
+
+#: of pandas.DataFrame.dropna:55
+msgid "Indicate existing (non-missing) values."
+msgstr ""
+
+#: of pandas.DataFrame.dropna:58
+msgid ":obj:`DataFrame.fillna`"
+msgstr ""
+
+#: of pandas.DataFrame.dropna:58
+msgid "Replace missing values."
+msgstr ""
+
+#: of pandas.DataFrame.dropna:61
+msgid ":obj:`Series.dropna`"
+msgstr ""
+
+#: of pandas.DataFrame.dropna:61
+msgid "Drop missing values."
+msgstr ""
+
+#: of pandas.DataFrame.dropna:63
+msgid ":obj:`Index.dropna`"
+msgstr ""
+
+#: of pandas.DataFrame.dropna:64
+msgid "Drop missing indices."
+msgstr ""
+
+#: of pandas.DataFrame.dropna:69
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.dropna:80
+msgid "Drop the rows where at least one element is missing."
+msgstr ""
+
+#: of pandas.DataFrame.dropna:86
+msgid "Drop the columns where at least one element is missing."
+msgstr ""
+
+#: of pandas.DataFrame.dropna:94
+msgid "Drop the rows where all elements are missing."
+msgstr ""
+
+#: of pandas.DataFrame.dropna:102
+msgid "Keep only the rows with at least 2 non-NA values."
+msgstr ""
+
+#: of pandas.DataFrame.dropna:109
+msgid "Define in which columns to look for missing values."
+msgstr ""
+
+#: of pandas.DataFrame.dropna:115
+msgid "Keep the DataFrame with valid entries in the same variable."
+msgstr ""
+

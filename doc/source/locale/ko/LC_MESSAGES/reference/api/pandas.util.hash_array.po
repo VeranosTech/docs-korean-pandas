@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.util.hash_array.rst:2
+msgid "pandas.util.hash\\_array"
+msgstr ""
+
+#: of pandas.util.hash_array:2
+msgid "Given a 1d array, return an array of deterministic integers."
+msgstr ""
+
+#: of pandas.util.hash_array
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.util.hash_array:9
+msgid "**vals**"
+msgstr ""
+
+#: of pandas.util.hash_array:8
+msgid "ndarray, Categorical"
+msgstr ""
+
+#: of pandas.util.hash_array:12
+msgid "**encoding**"
+msgstr ""
+
+#: of pandas.util.hash_array:11
+msgid "string, default 'utf8'"
+msgstr ""
+
+#: of pandas.util.hash_array:12
+msgid "encoding for data & key when strings"
+msgstr ""
+
+#: of pandas.util.hash_array:15
+msgid "**hash_key**"
+msgstr ""
+
+#: of pandas.util.hash_array:14
+msgid "string key to encode, default to _default_hash_key"
+msgstr ""
+
+#: of pandas.util.hash_array:21
+msgid "**categorize**"
+msgstr ""
+
+#: of pandas.util.hash_array:20
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.util.hash_array:18
+msgid ""
+"Whether to first categorize object arrays before hashing. This is more "
+"efficient when the array contains duplicate values."
+msgstr ""
+
+#: of pandas.util.hash_array
+msgid "Returns"
+msgstr ""
+
+#: of pandas.util.hash_array:37
+msgid "**1d uint64 numpy array of hash values, same length as the vals**"
+msgstr ""
+

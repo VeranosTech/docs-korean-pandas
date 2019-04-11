@@ -1,0 +1,354 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.read_json.rst:2
+msgid "pandas.read\\_json"
+msgstr ""
+
+#: of pandas.read_json:2
+msgid "Convert a JSON string to pandas object."
+msgstr ""
+
+#: of pandas.read_json
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.read_json:10
+msgid "**path_or_buf**"
+msgstr ""
+
+#: of pandas.read_json:9
+msgid "a valid JSON string or file-like, default: None"
+msgstr ""
+
+#: of pandas.read_json:8
+msgid ""
+"The string could be a URL. Valid URL schemes include http, ftp, s3, gcs, "
+"and file. For file URLs, a host is expected. For instance, a local file "
+"could be ``file://localhost/path/to/table.json``"
+msgstr ""
+
+#: of pandas.read_json:46
+msgid "**orient**"
+msgstr ""
+
+#: of pandas.read_json:45
+msgid "string,"
+msgstr ""
+
+#: of pandas.read_json:13
+msgid ""
+"Indication of expected JSON string format. Compatible JSON strings can be"
+" produced by ``to_json()`` with a corresponding orient value. The set of "
+"possible orients is:"
+msgstr ""
+
+#: of pandas.read_json:18
+msgid ""
+"``'split'`` : dict like ``{index -> [index], columns -> [columns], data "
+"-> [values]}``"
+msgstr ""
+
+#: of pandas.read_json:20
+msgid "``'records'`` : list like ``[{column -> value}, ... , {column -> value}]``"
+msgstr ""
+
+#: of pandas.read_json:22
+msgid "``'index'`` : dict like ``{index -> {column -> value}}``"
+msgstr ""
+
+#: of pandas.read_json:23
+msgid "``'columns'`` : dict like ``{column -> {index -> value}}``"
+msgstr ""
+
+#: of pandas.read_json:24
+msgid "``'values'`` : just the values array"
+msgstr ""
+
+#: of pandas.read_json:26
+msgid "The allowed and default values depend on the value of the `typ` parameter."
+msgstr ""
+
+#: of pandas.read_json:29
+msgid "when ``typ == 'series'``,"
+msgstr ""
+
+#: of pandas.read_json:31
+msgid "allowed orients are ``{'split','records','index'}``"
+msgstr ""
+
+#: of pandas.read_json:32
+msgid "default is ``'index'``"
+msgstr ""
+
+#: of pandas.read_json:33
+msgid "The Series index must be unique for orient ``'index'``."
+msgstr ""
+
+#: of pandas.read_json:35
+msgid "when ``typ == 'frame'``,"
+msgstr ""
+
+#: of pandas.read_json:37
+msgid ""
+"allowed orients are ``{'split','records','index', 'columns','values', "
+"'table'}``"
+msgstr ""
+
+#: of pandas.read_json:39
+msgid "default is ``'columns'``"
+msgstr ""
+
+#: of pandas.read_json:40
+msgid ""
+"The DataFrame index must be unique for orients ``'index'`` and "
+"``'columns'``."
+msgstr ""
+
+#: of pandas.read_json:42
+msgid ""
+"The DataFrame columns must be unique for orients ``'index'``, "
+"``'columns'``, and ``'records'``."
+msgstr ""
+
+#: of pandas.read_json:45
+msgid "'table' as an allowed value for the ``orient`` argument"
+msgstr ""
+
+#: of pandas.read_json:49
+msgid "**typ**"
+msgstr ""
+
+#: of pandas.read_json:48
+msgid "type of object to recover (series or frame), default 'frame'"
+msgstr ""
+
+#: of pandas.read_json:53
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.read_json:52
+msgid "boolean or dict, default True"
+msgstr ""
+
+#: of pandas.read_json:52
+msgid ""
+"If True, infer dtypes, if a dict of column to dtype, then use those, if "
+"False, then don't infer dtypes at all, applies only to the data."
+msgstr ""
+
+#: of pandas.read_json:56
+msgid "**convert_axes**"
+msgstr ""
+
+#: of pandas.read_json:55 pandas.read_json:69 pandas.read_json:72
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.read_json:56
+msgid "Try to convert the axes to the proper dtypes."
+msgstr ""
+
+#: of pandas.read_json:70
+msgid "**convert_dates**"
+msgstr ""
+
+#: of pandas.read_json:59
+msgid ""
+"List of columns to parse for dates; If True, then try to parse datelike "
+"columns default is True; a column label is datelike if"
+msgstr ""
+
+#: of pandas.read_json:62
+msgid "it ends with ``'_at'``,"
+msgstr ""
+
+#: of pandas.read_json:64
+msgid "it ends with ``'_time'``,"
+msgstr ""
+
+#: of pandas.read_json:66
+msgid "it begins with ``'timestamp'``,"
+msgstr ""
+
+#: of pandas.read_json:68
+msgid "it is ``'modified'``, or"
+msgstr ""
+
+#: of pandas.read_json:70
+msgid "it is ``'date'``"
+msgstr ""
+
+#: of pandas.read_json:73
+msgid "**keep_default_dates**"
+msgstr ""
+
+#: of pandas.read_json:73
+msgid "If parsing dates, then parse the default datelike columns"
+msgstr ""
+
+#: of pandas.read_json:78
+msgid "**numpy**"
+msgstr ""
+
+#: of pandas.read_json:77 pandas.read_json:82 pandas.read_json:98
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.read_json:76
+msgid ""
+"Direct decoding to numpy arrays. Supports numeric data only, but non-"
+"numeric column and index labels are supported. Note also that the JSON "
+"ordering MUST be the same for each term if numpy=True."
+msgstr ""
+
+#: of pandas.read_json:83
+msgid "**precise_float**"
+msgstr ""
+
+#: of pandas.read_json:81
+msgid ""
+"Set to enable usage of higher precision (strtod) function when decoding "
+"string to double values. Default (False) is to use fast but less precise "
+"builtin functionality"
+msgstr ""
+
+#: of pandas.read_json:89
+msgid "**date_unit**"
+msgstr ""
+
+#: of pandas.read_json:88
+msgid "string, default None"
+msgstr ""
+
+#: of pandas.read_json:86
+msgid ""
+"The timestamp unit to detect if converting dates. The default behaviour "
+"is to try and detect the correct precision, but if this is not desired "
+"then pass one of 's', 'ms', 'us' or 'ns' to force parsing only seconds, "
+"milliseconds, microseconds or nanoseconds respectively."
+msgstr ""
+
+#: of pandas.read_json:94
+msgid "**encoding**"
+msgstr ""
+
+#: of pandas.read_json:93
+msgid "str, default is 'utf-8'"
+msgstr ""
+
+#: of pandas.read_json:92
+msgid "The encoding to use to decode py3 bytes."
+msgstr ""
+
+#: of pandas.read_json:99
+msgid "**lines**"
+msgstr ""
+
+#: of pandas.read_json:97
+msgid "Read the file as a json object per line."
+msgstr ""
+
+#: of pandas.read_json:109
+msgid "**chunksize**"
+msgstr ""
+
+#: of pandas.read_json:108
+msgid "integer, default None"
+msgstr ""
+
+#: of pandas.read_json:102
+msgid ""
+"Return JsonReader object for iteration. See the `line-delimted json docs "
+"<http://pandas.pydata.org/pandas-docs/stable/io.html#io-jsonl>`_ for more"
+" information on ``chunksize``. This can only be passed if `lines=True`. "
+"If this is None, the file will be read into memory all at once."
+msgstr ""
+
+#: of pandas.read_json:118
+msgid "**compression**"
+msgstr ""
+
+#: of pandas.read_json:117
+msgid "{'infer', 'gzip', 'bz2', 'zip', 'xz', None}, default 'infer'"
+msgstr ""
+
+#: of pandas.read_json:112
+msgid ""
+"For on-the-fly decompression of on-disk data. If 'infer', then use gzip, "
+"bz2, zip or xz if path_or_buf is a string ending in '.gz', '.bz2', "
+"'.zip', or 'xz', respectively, and no decompression otherwise. If using "
+"'zip', the ZIP file must contain only one data file to be read in. Set to"
+" None for no decompression."
+msgstr ""
+
+#: of pandas.read_json
+msgid "Returns"
+msgstr ""
+
+#: of pandas.read_json:128
+msgid "**result** : Series or DataFrame, depending on the value of `typ`."
+msgstr ""
+
+#: of pandas.read_json:127
+msgid "Series or DataFrame, depending on the value of typ."
+msgstr ""
+
+#: of pandas.read_json:133
+msgid ":obj:`DataFrame.to_json`"
+msgstr ""
+
+#: of pandas.read_json:136
+msgid "Notes"
+msgstr ""
+
+#: of pandas.read_json:137
+msgid ""
+"Specific to ``orient='table'``, if a :class:`DataFrame` with a literal "
+":class:`Index` name of `index` gets written with :func:`to_json`, the "
+"subsequent read operation will incorrectly set the :class:`Index` name to"
+" ``None``. This is because `index` is also used by "
+":func:`DataFrame.to_json` to denote a missing :class:`Index` name, and "
+"the subsequent :func:`read_json` operation cannot distinguish between the"
+" two. The same limitation is encountered with a :class:`MultiIndex` and "
+"any names beginning with ``'level_'``."
+msgstr ""
+
+#: of pandas.read_json:148
+msgid "Examples"
+msgstr ""
+
+#: of pandas.read_json:153
+msgid "Encoding/decoding a Dataframe using ``'split'`` formatted JSON:"
+msgstr ""
+
+#: of pandas.read_json:164
+msgid "Encoding/decoding a Dataframe using ``'index'`` formatted JSON:"
+msgstr ""
+
+#: of pandas.read_json:173
+msgid ""
+"Encoding/decoding a Dataframe using ``'records'`` formatted JSON. Note "
+"that index labels are not preserved with this encoding."
+msgstr ""
+
+#: of pandas.read_json:183
+msgid "Encoding with Table Schema"
+msgstr ""
+

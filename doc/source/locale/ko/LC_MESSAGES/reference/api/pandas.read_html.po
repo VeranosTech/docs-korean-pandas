@@ -1,0 +1,336 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.read_html.rst:2
+msgid "pandas.read\\_html"
+msgstr ""
+
+#: of pandas.read_html:2
+msgid "Read HTML tables into a ``list`` of ``DataFrame`` objects."
+msgstr ""
+
+#: of pandas.read_html
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.read_html:10
+msgid "**io**"
+msgstr ""
+
+#: of pandas.read_html:9
+msgid "str or file-like"
+msgstr ""
+
+#: of pandas.read_html:8
+msgid ""
+"A URL, a file-like object, or a raw string containing HTML. Note that "
+"lxml only accepts the http, ftp and file url protocols. If you have a URL"
+" that starts with ``'https'`` you might try removing the ``'s'``."
+msgstr ""
+
+#: of pandas.read_html:18
+msgid "**match**"
+msgstr ""
+
+#: of pandas.read_html:17
+msgid "str or compiled regular expression, optional"
+msgstr ""
+
+#: of pandas.read_html:13
+msgid ""
+"The set of tables containing text matching this regex or string will be "
+"returned. Unless the HTML is extremely simple you will probably need to "
+"pass a non-empty string here. Defaults to '.+' (match any non-empty "
+"string). The default value will return all tables contained on a page. "
+"This value is converted to a regular expression so that there is "
+"consistent behavior between Beautiful Soup and lxml."
+msgstr ""
+
+#: of pandas.read_html:24
+msgid "**flavor**"
+msgstr ""
+
+#: of pandas.read_html:23
+msgid "str or None, container of strings"
+msgstr ""
+
+#: of pandas.read_html:21
+msgid ""
+"The parsing engine to use. 'bs4' and 'html5lib' are synonymous with each "
+"other, they are both there for backwards compatibility. The default of "
+"``None`` tries to use ``lxml`` to parse and if that fails it falls back "
+"on ``bs4`` + ``html5lib``."
+msgstr ""
+
+#: of pandas.read_html:28
+msgid "**header**"
+msgstr ""
+
+#: of pandas.read_html:27 pandas.read_html:30
+msgid "int or list-like or None, optional"
+msgstr ""
+
+#: of pandas.read_html:27
+msgid ""
+"The row (or list of rows for a :class:`~pandas.MultiIndex`) to use to "
+"make the columns headers."
+msgstr ""
+
+#: of pandas.read_html:31
+msgid "**index_col**"
+msgstr ""
+
+#: of pandas.read_html:31
+msgid "The column (or list of columns) to use to create the index."
+msgstr ""
+
+#: of pandas.read_html:37
+msgid "**skiprows**"
+msgstr ""
+
+#: of pandas.read_html:36
+msgid "int or list-like or slice or None, optional"
+msgstr ""
+
+#: of pandas.read_html:34
+msgid ""
+"0-based. Number of rows to skip after parsing the column integer. If a "
+"sequence of integers or a slice is given, will skip the rows indexed by "
+"that sequence.  Note that a single element sequence means 'skip the nth "
+"row' whereas an integer means 'skip n rows'."
+msgstr ""
+
+#: of pandas.read_html:59
+msgid "**attrs**"
+msgstr ""
+
+#: of pandas.read_html:58
+msgid "dict or None, optional"
+msgstr ""
+
+#: of pandas.read_html:40
+msgid ""
+"This is a dictionary of attributes that you can pass to use to identify "
+"the table in the HTML. These are not checked for validity before being "
+"passed to lxml or Beautiful Soup. However, these attributes must be valid"
+" HTML table attributes to work correctly. For example, ::"
+msgstr ""
+
+#: of pandas.read_html:47
+msgid ""
+"is a valid attribute dictionary because the 'id' HTML tag attribute is a "
+"valid HTML attribute for *any* HTML tag as per `this document "
+"<http://www.w3.org/TR/html-markup/global-attributes.html>`__. ::"
+msgstr ""
+
+#: of pandas.read_html:53
+msgid ""
+"is *not* a valid attribute dictionary because 'asdf' is not a valid HTML "
+"attribute even if it is a valid XML attribute.  Valid HTML 4.01 table "
+"attributes can be found `here <http://www.w3.org/TR/REC-"
+"html40/struct/tables.html#h-11.2>`__. A working draft of the HTML 5 spec "
+"can be found `here <http://www.w3.org/TR/html-markup/table.html>`__. It "
+"contains the latest information on table attributes for the modern web."
+msgstr ""
+
+#: of pandas.read_html:62
+msgid "**parse_dates**"
+msgstr ""
+
+#: of pandas.read_html:61 pandas.read_html:69
+msgid "bool, optional"
+msgstr ""
+
+#: of pandas.read_html:62
+msgid "See :func:`~pandas.read_csv` for more details."
+msgstr ""
+
+#: of pandas.read_html:70
+msgid "**tupleize_cols**"
+msgstr ""
+
+#: of pandas.read_html:65
+msgid ""
+"If ``False`` try to parse multiple header rows into a "
+":class:`~pandas.MultiIndex`, otherwise return raw tuples. Defaults to "
+"``False``."
+msgstr ""
+
+#: of pandas.read_html:69
+msgid "This argument will be removed and will always convert to MultiIndex"
+msgstr ""
+
+#: of pandas.read_html:73
+msgid "**thousands**"
+msgstr ""
+
+#: of pandas.read_html:72
+msgid "str, optional"
+msgstr ""
+
+#: of pandas.read_html:73
+msgid "Separator to use to parse thousands. Defaults to ``','``."
+msgstr ""
+
+#: of pandas.read_html:79
+msgid "**encoding**"
+msgstr ""
+
+#: of pandas.read_html:78
+msgid "str or None, optional"
+msgstr ""
+
+#: of pandas.read_html:76
+msgid ""
+"The encoding used to decode the web page. Defaults to ``None``.``None`` "
+"preserves the previous encoding behavior, which depends on the underlying"
+" parser library (e.g., the parser library will try to use the encoding "
+"provided by the document)."
+msgstr ""
+
+#: of pandas.read_html:85
+msgid "**decimal**"
+msgstr ""
+
+#: of pandas.read_html:84
+msgid "str, default '.'"
+msgstr ""
+
+#: of pandas.read_html:82
+msgid "Character to recognize as decimal point (e.g. use ',' for European data)."
+msgstr ""
+
+#: of pandas.read_html:93
+msgid "**converters**"
+msgstr ""
+
+#: of pandas.read_html:92
+msgid "dict, default None"
+msgstr ""
+
+#: of pandas.read_html:88
+msgid ""
+"Dict of functions for converting values in certain columns. Keys can "
+"either be integers or column labels, values are functions that take one "
+"input argument, the cell (not column) content, and return the transformed"
+" content."
+msgstr ""
+
+#: of pandas.read_html:98
+msgid "**na_values**"
+msgstr ""
+
+#: of pandas.read_html:97
+msgid "iterable, default None"
+msgstr ""
+
+#: of pandas.read_html:96
+msgid "Custom NA values"
+msgstr ""
+
+#: of pandas.read_html:104
+msgid "**keep_default_na**"
+msgstr ""
+
+#: of pandas.read_html:103 pandas.read_html:108
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.read_html:101
+msgid ""
+"If na_values are specified and keep_default_na is False the default NaN "
+"values are overridden, otherwise they're appended to"
+msgstr ""
+
+#: of pandas.read_html:109
+msgid "**displayed_only**"
+msgstr ""
+
+#: of pandas.read_html:107
+msgid "Whether elements with \"display: none\" should be parsed"
+msgstr ""
+
+#: of pandas.read_html
+msgid "Returns"
+msgstr ""
+
+#: of pandas.read_html:119
+msgid "**dfs**"
+msgstr ""
+
+#: of pandas.read_html:118
+msgid "list of DataFrames"
+msgstr ""
+
+#: of pandas.read_html:124
+msgid ":obj:`pandas.read_csv`"
+msgstr ""
+
+#: of pandas.read_html:127
+msgid "Notes"
+msgstr ""
+
+#: of pandas.read_html:128
+msgid ""
+"Before using this function you should read the :ref:`gotchas about the "
+"HTML parsing libraries <io.html.gotchas>`."
+msgstr ""
+
+#: of pandas.read_html:131
+msgid ""
+"Expect to do some cleanup after you call this function. For example, you "
+"might need to manually assign column names if the column names are "
+"converted to NaN when you pass the `header=0` argument. We try to assume "
+"as little as possible about the structure of the table and push the "
+"idiosyncrasies of the HTML contained in the table to the user."
+msgstr ""
+
+#: of pandas.read_html:137
+msgid ""
+"This function searches for ``<table>`` elements and only for ``<tr>`` and"
+" ``<th>`` rows and ``<td>`` elements within each ``<tr>`` or ``<th>`` "
+"element in the table. ``<td>`` stands for \"table data\". This function "
+"attempts to properly handle ``colspan`` and ``rowspan`` attributes. If "
+"the function has a ``<thead>`` argument, it is used to construct the "
+"header, otherwise the function attempts to find the header within the "
+"body (by putting rows with only ``<th>`` elements into the header)."
+msgstr ""
+
+#: of pandas.read_html:147
+msgid ""
+"Similar to :func:`~pandas.read_csv` the `header` argument is applied "
+"**after** `skiprows` is applied."
+msgstr ""
+
+#: of pandas.read_html:150
+msgid ""
+"This function will *always* return a list of :class:`DataFrame` *or* it "
+"will fail, e.g., it will *not* return an empty list."
+msgstr ""
+
+#: of pandas.read_html:155
+msgid "Examples"
+msgstr ""
+
+#: of pandas.read_html:156
+msgid ""
+"See the :ref:`read_html documentation in the IO section of the docs "
+"<io.read_html>` for some examples of reading in HTML tables."
+msgstr ""
+

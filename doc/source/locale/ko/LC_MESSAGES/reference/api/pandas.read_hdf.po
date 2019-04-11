@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.read_hdf.rst:2
+msgid "pandas.read\\_hdf"
+msgstr ""
+
+#: of pandas.read_hdf:2
+msgid "Read from the store, close it if we opened it."
+msgstr ""
+
+#: of pandas.read_hdf:4
+msgid "Retrieve pandas object stored in file, optionally based on where criteria"
+msgstr ""
+
+#: of pandas.read_hdf
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.read_hdf:16
+msgid "**path_or_buf**"
+msgstr ""
+
+#: of pandas.read_hdf:15
+msgid "string, buffer or path object"
+msgstr ""
+
+#: of pandas.read_hdf:10
+msgid ""
+"Path to the file to open, or an open :class:`pandas.HDFStore` object. "
+"Supports any object implementing the ``__fspath__`` protocol. This "
+"includes :class:`pathlib.Path` and py._path.local.LocalPath objects."
+msgstr ""
+
+#: of pandas.read_hdf:15
+msgid "support for pathlib, py.path."
+msgstr ""
+
+#: of pandas.read_hdf:16
+msgid "support for __fspath__ protocol."
+msgstr ""
+
+#: of pandas.read_hdf:20
+msgid "**key**"
+msgstr ""
+
+#: of pandas.read_hdf:19
+msgid "object, optional"
+msgstr ""
+
+#: of pandas.read_hdf:19
+msgid ""
+"The group identifier in the store. Can be omitted if the HDF file "
+"contains a single pandas object."
+msgstr ""
+
+#: of pandas.read_hdf:24
+msgid "**mode**"
+msgstr ""
+
+#: of pandas.read_hdf:23
+msgid "{'r', 'r+', 'a'}, optional"
+msgstr ""
+
+#: of pandas.read_hdf:23
+msgid ""
+"Mode to use when opening the file. Ignored if path_or_buf is a "
+":class:`pandas.HDFStore`. Default is 'r'."
+msgstr ""
+
+#: of pandas.read_hdf:27
+msgid "**where**"
+msgstr ""
+
+#: of pandas.read_hdf:26 pandas.read_hdf:35
+msgid "list, optional"
+msgstr ""
+
+#: of pandas.read_hdf:27
+msgid "A list of Term (or convertible) objects."
+msgstr ""
+
+#: of pandas.read_hdf:30
+msgid "**start**"
+msgstr ""
+
+#: of pandas.read_hdf:29 pandas.read_hdf:32 pandas.read_hdf:41
+msgid "int, optional"
+msgstr ""
+
+#: of pandas.read_hdf:30
+msgid "Row number to start selection."
+msgstr ""
+
+#: of pandas.read_hdf:33
+msgid "**stop**"
+msgstr ""
+
+#: of pandas.read_hdf:33
+msgid "Row number to stop selection."
+msgstr ""
+
+#: of pandas.read_hdf:36
+msgid "**columns**"
+msgstr ""
+
+#: of pandas.read_hdf:36
+msgid "A list of columns names to return."
+msgstr ""
+
+#: of pandas.read_hdf:39
+msgid "**iterator**"
+msgstr ""
+
+#: of pandas.read_hdf:38
+msgid "bool, optional"
+msgstr ""
+
+#: of pandas.read_hdf:39
+msgid "Return an iterator object."
+msgstr ""
+
+#: of pandas.read_hdf:42
+msgid "**chunksize**"
+msgstr ""
+
+#: of pandas.read_hdf:42
+msgid "Number of rows to include in an iteration when using an iterator."
+msgstr ""
+
+#: of pandas.read_hdf:47
+msgid "**errors**"
+msgstr ""
+
+#: of pandas.read_hdf:46
+msgid "str, default 'strict'"
+msgstr ""
+
+#: of pandas.read_hdf:45
+msgid ""
+"Specifies how encoding and decoding errors are to be handled. See the "
+"errors argument for :func:`open` for a full list of options."
+msgstr ""
+
+#: of pandas.read_hdf:50
+msgid "**\\*\\*kwargs**"
+msgstr ""
+
+#: of pandas.read_hdf:50
+msgid "Additional keyword arguments passed to HDFStore."
+msgstr ""
+
+#: of pandas.read_hdf
+msgid "Returns"
+msgstr ""
+
+#: of pandas.read_hdf:60
+msgid "**item**"
+msgstr ""
+
+#: of pandas.read_hdf:59
+msgid "object"
+msgstr ""
+
+#: of pandas.read_hdf:55
+msgid "The selected object. Return type depends on the object stored."
+msgstr ""
+
+#: of pandas.read_hdf:66
+msgid ":obj:`pandas.DataFrame.to_hdf`"
+msgstr ""
+
+#: of pandas.read_hdf:66
+msgid "Write a HDF file from a DataFrame."
+msgstr ""
+
+#: of pandas.read_hdf:68
+msgid ":obj:`pandas.HDFStore`"
+msgstr ""
+
+#: of pandas.read_hdf:69
+msgid "Low-level access to HDF files."
+msgstr ""
+
+#: of pandas.read_hdf:74
+msgid "Examples"
+msgstr ""
+

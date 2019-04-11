@@ -1,0 +1,1246 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../user_guide/computation.rst:3
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../user_guide/computation.rst:6
+msgid "Computational tools"
+msgstr ""
+
+#: ../../user_guide/computation.rst:9
+msgid "Statistical Functions"
+msgstr ""
+
+#: ../../user_guide/computation.rst:14
+msgid "Percent Change"
+msgstr ""
+
+#: ../../user_guide/computation.rst:16
+msgid ""
+"``Series`` and ``DataFrame`` have a method :meth:`~DataFrame.pct_change` "
+"to compute the percent change over a given number of periods (using "
+"``fill_method`` to fill NA/null values *before* computing the percent "
+"change)."
+msgstr ""
+
+#: ../../user_guide/computation.rst:36
+msgid "Covariance"
+msgstr ""
+
+#: ../../user_guide/computation.rst:38
+msgid ""
+":meth:`Series.cov` can be used to compute covariance between series "
+"(excluding missing values)."
+msgstr ""
+
+#: ../../user_guide/computation.rst:47
+msgid ""
+"Analogously, :meth:`DataFrame.cov` to compute pairwise covariances among "
+"the series in the DataFrame, also excluding NA/null values."
+msgstr ""
+
+#: ../../user_guide/computation.rst:54
+msgid ""
+"Assuming the missing data are missing at random this results in an "
+"estimate for the covariance matrix which is unbiased. However, for many "
+"applications this estimate may not be acceptable because the estimated "
+"covariance matrix is not guaranteed to be positive semi-definite. This "
+"could lead to estimated correlations having absolute values which are "
+"greater than one, and/or a non-invertible covariance matrix. See "
+"`Estimation of covariance matrices "
+"<http://en.wikipedia.org/w/index.php?title=Estimation_of_covariance_matrices>`_"
+" for more details."
+msgstr ""
+
+#: ../../user_guide/computation.rst:69
+msgid ""
+"``DataFrame.cov`` also supports an optional ``min_periods`` keyword that "
+"specifies the required minimum number of observations for each column "
+"pair in order to have a valid result."
+msgstr ""
+
+#: ../../user_guide/computation.rst:87
+msgid "Correlation"
+msgstr ""
+
+#: ../../user_guide/computation.rst:89
+msgid ""
+"Correlation may be computed using the :meth:`~DataFrame.corr` method. "
+"Using the ``method`` parameter, several methods for computing "
+"correlations are provided:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Method name"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "``pearson (default)``"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Standard correlation coefficient"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "``kendall``"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Kendall Tau correlation coefficient"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "``spearman``"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Spearman rank correlation coefficient"
+msgstr ""
+
+#: ../../user_guide/computation.rst:103
+msgid ""
+"All of these are currently computed using pairwise complete observations."
+" Wikipedia has articles covering the above correlation coefficients:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:106
+msgid ""
+"`Pearson correlation coefficient "
+"<https://en.wikipedia.org/wiki/Pearson_correlation_coefficient>`_"
+msgstr ""
+
+#: ../../user_guide/computation.rst:107
+msgid ""
+"`Kendall rank correlation coefficient "
+"<https://en.wikipedia.org/wiki/Kendall_rank_correlation_coefficient>`_"
+msgstr ""
+
+#: ../../user_guide/computation.rst:108
+#, python-format
+msgid ""
+"`Spearman's rank correlation coefficient "
+"<https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient>`_"
+msgstr ""
+
+#: ../../user_guide/computation.rst:112
+msgid ""
+"Please see the :ref:`caveats <computation.covariance.caveats>` associated"
+" with this method of calculating correlation matrices in the "
+":ref:`covariance section <computation.covariance>`."
+msgstr ""
+
+#: ../../user_guide/computation.rst:129
+msgid ""
+"Note that non-numeric columns will be automatically excluded from the "
+"correlation calculation."
+msgstr ""
+
+#: ../../user_guide/computation.rst:132
+msgid "Like ``cov``, ``corr`` also supports the optional ``min_periods`` keyword:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:147
+msgid ""
+"The ``method`` argument can also be a callable for a generic correlation "
+"calculation. In this case, it should be a single function that produces a"
+" single value from two ndarray inputs. Suppose we wanted to compute the "
+"correlation based on histogram intersection:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:161
+msgid ""
+"A related method :meth:`~DataFrame.corrwith` is implemented on DataFrame "
+"to compute the correlation between like-labeled Series contained in "
+"different DataFrame objects."
+msgstr ""
+
+#: ../../user_guide/computation.rst:177
+msgid "Data ranking"
+msgstr ""
+
+#: ../../user_guide/computation.rst:179
+msgid ""
+"The :meth:`~Series.rank` method produces a data ranking with ties being "
+"assigned the mean of the ranks (by default) for the group:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:188
+msgid ""
+":meth:`~DataFrame.rank` is also a DataFrame method and can rank either "
+"the rows (``axis=0``) or the columns (``axis=1``). ``NaN`` values are "
+"excluded from the ranking."
+msgstr ""
+
+#: ../../user_guide/computation.rst:199
+msgid ""
+"``rank`` optionally takes a parameter ``ascending`` which by default is "
+"true; when false, data is reverse-ranked, with larger values assigned a "
+"smaller rank."
+msgstr ""
+
+#: ../../user_guide/computation.rst:202
+msgid ""
+"``rank`` supports different tie-breaking methods, specified with the "
+"``method`` parameter:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:205
+msgid "``average`` : average rank of tied group"
+msgstr ""
+
+#: ../../user_guide/computation.rst:206
+msgid "``min`` : lowest rank in the group"
+msgstr ""
+
+#: ../../user_guide/computation.rst:207
+msgid "``max`` : highest rank in the group"
+msgstr ""
+
+#: ../../user_guide/computation.rst:208
+msgid "``first`` : ranks assigned in the order they appear in the array"
+msgstr ""
+
+#: ../../user_guide/computation.rst:213
+msgid "Window Functions"
+msgstr ""
+
+#: ../../user_guide/computation.rst:217
+msgid ""
+"For working with data, a number of window functions are provided for "
+"computing common *window* or *rolling* statistics. Among these are count,"
+" sum, mean, median, correlation, variance, covariance, standard "
+"deviation, skewness, and kurtosis."
+msgstr ""
+
+#: ../../user_guide/computation.rst:222
+msgid ""
+"The ``rolling()`` and ``expanding()`` functions can be used directly from"
+" DataFrameGroupBy objects, see the :ref:`groupby docs "
+"<groupby.transform.window_resample>`."
+msgstr ""
+
+#: ../../user_guide/computation.rst:229
+msgid ""
+"The API for window statistics is quite similar to the way one works with "
+"``GroupBy`` objects, see the documentation :ref:`here <groupby>`."
+msgstr ""
+
+#: ../../user_guide/computation.rst:231
+msgid ""
+"We work with ``rolling``, ``expanding`` and ``exponentially weighted`` "
+"data through the corresponding objects, "
+":class:`~pandas.core.window.Rolling`, "
+":class:`~pandas.core.window.Expanding` and "
+":class:`~pandas.core.window.EWM`."
+msgstr ""
+
+#: ../../user_guide/computation.rst:241
+msgid "These are created from methods on ``Series`` and ``DataFrame``."
+msgstr ""
+
+#: ../../user_guide/computation.rst:248
+msgid ""
+"These object provide tab-completion of the available methods and "
+"properties."
+msgstr ""
+
+#: ../../user_guide/computation.rst:256
+msgid ""
+"Generally these methods all have the same interface. They all accept the "
+"following arguments:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:259
+msgid "``window``: size of moving window"
+msgstr ""
+
+#: ../../user_guide/computation.rst:260
+msgid ""
+"``min_periods``: threshold of non-null data points to require (otherwise "
+"result is NA)"
+msgstr ""
+
+#: ../../user_guide/computation.rst:262
+msgid ""
+"``center``: boolean, whether to set the labels at the center (default is "
+"False)"
+msgstr ""
+
+#: ../../user_guide/computation.rst:264
+msgid ""
+"We can then call methods on these ``rolling`` objects. These return like-"
+"indexed objects:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:282
+msgid ""
+"They can also be applied to DataFrame objects. This is really just "
+"syntactic sugar for applying the moving window operator to all of the "
+"DataFrame's columns:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:298 ../../user_guide/computation.rst:719
+msgid "Method Summary"
+msgstr ""
+
+#: ../../user_guide/computation.rst:300
+msgid "We provide a number of common statistical functions:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Method"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Rolling.count`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Number of non-null observations"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Rolling.sum`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Sum of values"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Rolling.mean`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Mean of values"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Rolling.median`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Arithmetic median of values"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Rolling.min`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Minimum"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Rolling.max`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Maximum"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Rolling.std`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Bessel-corrected sample standard deviation"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Rolling.var`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Unbiased variance"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Rolling.skew`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Sample skewness (3rd moment)"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Rolling.kurt`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Sample kurtosis (4th moment)"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Rolling.quantile`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Sample quantile (value at %)"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Rolling.apply`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Generic apply"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Rolling.cov`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Unbiased covariance (binary)"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Rolling.corr`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Correlation (binary)"
+msgstr ""
+
+#: ../../user_guide/computation.rst:323
+msgid ""
+"The :meth:`~Rolling.apply` function takes an extra ``func`` argument and "
+"performs generic rolling computations. The ``func`` argument should be a "
+"single function that produces a single value from an ndarray input. "
+"Suppose we wanted to compute the mean absolute deviation on a rolling "
+"basis:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:339
+msgid "Rolling Windows"
+msgstr ""
+
+#: ../../user_guide/computation.rst:341
+msgid ""
+"Passing ``win_type`` to ``.rolling`` generates a generic rolling window "
+"computation, that is weighted according the ``win_type``. The following "
+"methods are available:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Window.sum`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Window.mean`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:351
+msgid ""
+"The weights used in the window are specified by the ``win_type`` keyword."
+" The list of recognized types are the `scipy.signal window functions "
+"<https://docs.scipy.org/doc/scipy/reference/signal.html#window-"
+"functions>`__:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:355
+msgid "``boxcar``"
+msgstr ""
+
+#: ../../user_guide/computation.rst:356
+msgid "``triang``"
+msgstr ""
+
+#: ../../user_guide/computation.rst:357
+msgid "``blackman``"
+msgstr ""
+
+#: ../../user_guide/computation.rst:358
+msgid "``hamming``"
+msgstr ""
+
+#: ../../user_guide/computation.rst:359
+msgid "``bartlett``"
+msgstr ""
+
+#: ../../user_guide/computation.rst:360
+msgid "``parzen``"
+msgstr ""
+
+#: ../../user_guide/computation.rst:361
+msgid "``bohman``"
+msgstr ""
+
+#: ../../user_guide/computation.rst:362
+msgid "``blackmanharris``"
+msgstr ""
+
+#: ../../user_guide/computation.rst:363
+msgid "``nuttall``"
+msgstr ""
+
+#: ../../user_guide/computation.rst:364
+msgid "``barthann``"
+msgstr ""
+
+#: ../../user_guide/computation.rst:365
+msgid "``kaiser`` (needs beta)"
+msgstr ""
+
+#: ../../user_guide/computation.rst:366
+msgid "``gaussian`` (needs std)"
+msgstr ""
+
+#: ../../user_guide/computation.rst:367
+msgid "``general_gaussian`` (needs power, width)"
+msgstr ""
+
+#: ../../user_guide/computation.rst:368
+msgid "``slepian`` (needs width)."
+msgstr ""
+
+#: ../../user_guide/computation.rst:377
+msgid "Note that the ``boxcar`` window is equivalent to :meth:`~Rolling.mean`."
+msgstr ""
+
+#: ../../user_guide/computation.rst:384
+msgid "For some windowing functions, additional parameters must be specified:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:394
+msgid ""
+"For ``.sum()`` with a ``win_type``, there is no normalization done to the"
+" weights for the window. Passing custom weights of ``[1, 1, 1]`` will "
+"yield a different result than passing weights of ``[2, 2, 2]``, for "
+"example. When passing a ``win_type`` instead of explicitly specifying the"
+" weights, the weights are already normalized so that the largest weight "
+"is 1."
+msgstr ""
+
+#: ../../user_guide/computation.rst:400
+msgid ""
+"In contrast, the nature of the ``.mean()`` calculation is such that the "
+"weights are normalized with respect to each other. Weights of ``[1, 1, "
+"1]`` and ``[2, 2, 2]`` yield the same result."
+msgstr ""
+
+#: ../../user_guide/computation.rst:407
+msgid "Time-aware Rolling"
+msgstr ""
+
+#: ../../user_guide/computation.rst:411
+msgid ""
+"New in version 0.19.0 are the ability to pass an offset (or convertible) "
+"to a ``.rolling()`` method and have it produce variable sized windows "
+"based on the passed time window. For each time point, this includes all "
+"preceding values occurring within the indicated time delta."
+msgstr ""
+
+#: ../../user_guide/computation.rst:415
+msgid "This can be particularly useful for a non-regular time frequency index."
+msgstr ""
+
+#: ../../user_guide/computation.rst:425
+msgid ""
+"This is a regular frequency index. Using an integer window parameter "
+"works to roll along the window frequency."
+msgstr ""
+
+#: ../../user_guide/computation.rst:432
+msgid ""
+"Specifying an offset allows a more intuitive specification of the rolling"
+" frequency."
+msgstr ""
+
+#: ../../user_guide/computation.rst:438
+msgid ""
+"Using a non-regular, but still monotonic index, rolling with an integer "
+"window does not impart any special calculation."
+msgstr ""
+
+#: ../../user_guide/computation.rst:454
+msgid ""
+"Using the time-specification generates variable windows for this sparse "
+"data."
+msgstr ""
+
+#: ../../user_guide/computation.rst:460
+msgid ""
+"Furthermore, we now allow an optional ``on`` parameter to specify a "
+"column (rather than the default of the index) in a DataFrame."
+msgstr ""
+
+#: ../../user_guide/computation.rst:472
+msgid "Rolling Window Endpoints"
+msgstr ""
+
+#: ../../user_guide/computation.rst:476
+msgid ""
+"The inclusion of the interval endpoints in rolling window calculations "
+"can be specified with the ``closed`` parameter:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "``closed``"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Default for"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "``right``"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "close right endpoint"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "time-based windows"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "``left``"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "close left endpoint"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "``both``"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "close both endpoints"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "fixed windows"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "``neither``"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "open endpoints"
+msgstr ""
+
+#: ../../user_guide/computation.rst:488
+msgid ""
+"For example, having the right endpoint open is useful in many problems "
+"that require that there is no contamination from present information back"
+" to past information. This allows the rolling window to compute "
+"statistics \"up to that point in time\", but not including that point in "
+"time."
+msgstr ""
+
+#: ../../user_guide/computation.rst:508
+msgid ""
+"Currently, this feature is only implemented for time-based windows. For "
+"fixed windows, the closed parameter cannot be set and the rolling window "
+"will always have both endpoints closed."
+msgstr ""
+
+#: ../../user_guide/computation.rst:514
+msgid "Time-aware Rolling vs. Resampling"
+msgstr ""
+
+#: ../../user_guide/computation.rst:516
+msgid ""
+"Using ``.rolling()`` with a time-based index is quite similar to "
+":ref:`resampling <timeseries.resampling>`. They both operate and perform "
+"reductive operations on time-indexed pandas objects."
+msgstr ""
+
+#: ../../user_guide/computation.rst:519
+msgid ""
+"When using ``.rolling()`` with an offset. The offset is a time-delta. "
+"Take a backwards-in-time looking window, and aggregate all of the values "
+"in that window (including the end-point, but not the start-point). This "
+"is the new value at that point in the result. These are variable sized "
+"windows in time-space for each point of the input. You will get a same "
+"sized result as the input."
+msgstr ""
+
+#: ../../user_guide/computation.rst:524
+msgid ""
+"When using ``.resample()`` with an offset. Construct a new index that is "
+"the frequency of the offset. For each frequency bin, aggregate points "
+"from the input within a backwards-in-time looking window that fall in "
+"that bin. The result of this aggregation is the output for that frequency"
+" point. The windows are fixed size in the frequency space. Your result "
+"will have the shape of a regular frequency between the min and the max of"
+" the original input object."
+msgstr ""
+
+#: ../../user_guide/computation.rst:529
+msgid ""
+"To summarize, ``.rolling()`` is a time-based window operation, while "
+"``.resample()`` is a frequency-based window operation."
+msgstr ""
+
+#: ../../user_guide/computation.rst:532
+msgid "Centering Windows"
+msgstr ""
+
+#: ../../user_guide/computation.rst:534
+msgid ""
+"By default the labels are set to the right edge of the window, but a "
+"``center`` keyword is available so the labels can be set at the center."
+msgstr ""
+
+#: ../../user_guide/computation.rst:545
+msgid "Binary Window Functions"
+msgstr ""
+
+#: ../../user_guide/computation.rst:547
+msgid ""
+":meth:`~Rolling.cov` and :meth:`~Rolling.corr` can compute moving window "
+"statistics about two ``Series`` or any combination of "
+"``DataFrame/Series`` or ``DataFrame/DataFrame``. Here is the behavior in "
+"each case:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:551
+msgid "two ``Series``: compute the statistic for the pairing."
+msgstr ""
+
+#: ../../user_guide/computation.rst:552
+msgid ""
+"``DataFrame/Series``: compute the statistics for each column of the "
+"DataFrame with the passed Series, thus returning a DataFrame."
+msgstr ""
+
+#: ../../user_guide/computation.rst:554
+msgid ""
+"``DataFrame/DataFrame``: by default compute the statistic for matching "
+"column names, returning a DataFrame. If the keyword argument "
+"``pairwise=True`` is passed then computes the statistic for each pair of "
+"columns, returning a ``MultiIndexed DataFrame`` whose ``index`` are the "
+"dates in question (see :ref:`the next section "
+"<stats.moments.corr_pairwise>`)."
+msgstr ""
+
+#: ../../user_guide/computation.rst:560
+msgid "For example:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:575
+msgid "Computing rolling pairwise covariances and correlations"
+msgstr ""
+
+#: ../../user_guide/computation.rst:577
+msgid ""
+"In financial data analysis and other fields it's common to compute "
+"covariance and correlation matrices for a collection of time series. "
+"Often one is also interested in moving-window covariance and correlation "
+"matrices. This can be done by passing the ``pairwise`` keyword argument, "
+"which in the case of ``DataFrame`` inputs will yield a MultiIndexed "
+"``DataFrame`` whose ``index`` are the dates in question. In the case of a"
+" single DataFrame argument the ``pairwise`` argument can even be omitted:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:587
+msgid ""
+"Missing values are ignored and each entry is computed using the pairwise "
+"complete observations.  Please see the :ref:`covariance section "
+"<computation.covariance>` for :ref:`caveats "
+"<computation.covariance.caveats>` associated with this method of "
+"calculating covariance and correlation matrices."
+msgstr ""
+
+#: ../../user_guide/computation.rst:604
+msgid ""
+"You can efficiently retrieve the time series of correlations between two "
+"columns by reshaping and indexing:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:620
+msgid "Aggregation"
+msgstr ""
+
+#: ../../user_guide/computation.rst:622
+msgid ""
+"Once the ``Rolling``, ``Expanding`` or ``EWM`` objects have been created,"
+" several methods are available to perform multiple computations on the "
+"data. These operations are similar to the :ref:`aggregating API "
+"<basics.aggregate>`, :ref:`groupby API <groupby.aggregate>`, and "
+":ref:`resample API <timeseries.aggregate>`."
+msgstr ""
+
+#: ../../user_guide/computation.rst:635
+msgid ""
+"We can aggregate by passing a function to the entire DataFrame, or select"
+" a Series (or multiple Series) via standard ``__getitem__``."
+msgstr ""
+
+#: ../../user_guide/computation.rst:646
+msgid ""
+"As you can see, the result of the aggregation will have the selected "
+"columns, or all columns if none are selected."
+msgstr ""
+
+#: ../../user_guide/computation.rst:652
+msgid "Applying multiple functions"
+msgstr ""
+
+#: ../../user_guide/computation.rst:654
+msgid ""
+"With windowed ``Series`` you can also pass a list of functions to do "
+"aggregation with, outputting a DataFrame:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:661
+msgid ""
+"On a windowed DataFrame, you can pass a list of functions to apply to "
+"each column, which produces an aggregated result with a hierarchical "
+"index:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:668
+msgid ""
+"Passing a dict of functions has different behavior by default, see the "
+"next section."
+msgstr ""
+
+#: ../../user_guide/computation.rst:672
+msgid "Applying different functions to DataFrame columns"
+msgstr ""
+
+#: ../../user_guide/computation.rst:674
+msgid ""
+"By passing a dict to ``aggregate`` you can apply a different aggregation "
+"to the columns of a ``DataFrame``:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:681
+msgid ""
+"The function names can also be strings. In order for a string to be valid"
+" it must be implemented on the windowed object"
+msgstr ""
+
+#: ../../user_guide/computation.rst:688
+msgid ""
+"Furthermore you can pass a nested dict to indicate different aggregations"
+" on different columns."
+msgstr ""
+
+#: ../../user_guide/computation.rst:698
+msgid "Expanding Windows"
+msgstr ""
+
+#: ../../user_guide/computation.rst:700
+msgid ""
+"A common alternative to rolling statistics is to use an *expanding* "
+"window, which yields the value of the statistic with all the data "
+"available up to that point in time."
+msgstr ""
+
+#: ../../user_guide/computation.rst:704
+msgid ""
+"These follow a similar interface to ``.rolling``, with the ``.expanding``"
+" method returning an :class:`~pandas.core.window.Expanding` object."
+msgstr ""
+
+#: ../../user_guide/computation.rst:707
+msgid ""
+"As these calculations are a special case of rolling statistics, they are "
+"implemented in pandas such that the following two calls are equivalent:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:716
+msgid "These have a similar set of methods to ``.rolling`` methods."
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Function"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Expanding.count`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Expanding.sum`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Expanding.mean`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Expanding.median`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Expanding.min`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Expanding.max`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Expanding.std`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Unbiased standard deviation"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Expanding.var`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Expanding.skew`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Unbiased skewness (3rd moment)"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Expanding.kurt`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "Unbiased kurtosis (4th moment)"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Expanding.quantile`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Expanding.apply`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Expanding.cov`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~Expanding.corr`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:744
+msgid ""
+"Aside from not having a ``window`` parameter, these functions have the "
+"same interfaces as their ``.rolling`` counterparts. Like above, the "
+"parameters they all accept are:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:748
+msgid ""
+"``min_periods``: threshold of non-null data points to require. Defaults "
+"to minimum needed to compute statistic. No ``NaNs`` will be output once "
+"``min_periods`` non-null data points have been seen."
+msgstr ""
+
+#: ../../user_guide/computation.rst:751
+msgid ""
+"``center``: boolean, whether to set the labels at the center (default is "
+"False)."
+msgstr ""
+
+#: ../../user_guide/computation.rst:756
+msgid ""
+"The output of the ``.rolling`` and ``.expanding`` methods do not return a"
+" ``NaN`` if there are at least ``min_periods`` non-null values in the "
+"current window. For example:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:767
+msgid ""
+"In case of expanding functions, this differs from "
+":meth:`~DataFrame.cumsum`, :meth:`~DataFrame.cumprod`, "
+":meth:`~DataFrame.cummax`, and :meth:`~DataFrame.cummin`, which return "
+"``NaN`` in the output wherever a ``NaN`` is encountered in the input. In "
+"order to match the output of ``cumsum`` with ``expanding``, use "
+":meth:`~DataFrame.fillna`:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:780
+msgid ""
+"An expanding window statistic will be more stable (and less responsive) "
+"than its rolling window counterpart as the increasing window size "
+"decreases the relative impact of an individual data point. As an example,"
+" here is the :meth:`~core.window.Expanding.mean` output for the previous "
+"time series dataset:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:801
+msgid "Exponentially Weighted Windows"
+msgstr ""
+
+#: ../../user_guide/computation.rst:805
+msgid ""
+"A related set of functions are exponentially weighted versions of several"
+" of the above statistics. A similar interface to ``.rolling`` and "
+"``.expanding`` is accessed through the ``.ewm`` method to receive an "
+":class:`~EWM` object. A number of expanding EW (exponentially weighted) "
+"methods are provided:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~EWM.mean`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "EW moving average"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~EWM.var`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "EW moving variance"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~EWM.std`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "EW moving standard deviation"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~EWM.corr`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "EW moving correlation"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid ":meth:`~EWM.cov`"
+msgstr ""
+
+#: ../../user_guide/computation.rst:1
+msgid "EW moving covariance"
+msgstr ""
+
+#: ../../user_guide/computation.rst:822
+msgid "In general, a weighted moving average is calculated as"
+msgstr ""
+
+#: ../../user_guide/computation.rst:824
+msgid "y_t = \\frac{\\sum_{i=0}^t w_i x_{t-i}}{\\sum_{i=0}^t w_i},"
+msgstr ""
+
+#: ../../user_guide/computation.rst:828
+msgid ""
+"where :math:`x_t` is the input, :math:`y_t` is the result and the "
+":math:`w_i` are the weights."
+msgstr ""
+
+#: ../../user_guide/computation.rst:831
+msgid ""
+"The EW functions support two variants of exponential weights. The "
+"default, ``adjust=True``, uses the weights :math:`w_i = (1 - \\alpha)^i` "
+"which gives"
+msgstr ""
+
+#: ../../user_guide/computation.rst:835
+msgid ""
+"y_t = \\frac{x_t + (1 - \\alpha)x_{t-1} + (1 - \\alpha)^2 x_{t-2} + ... +"
+" (1 - \\alpha)^t x_{0}}{1 + (1 - \\alpha) + (1 - \\alpha)^2 + ... + (1 - "
+"\\alpha)^t}"
+msgstr ""
+
+#: ../../user_guide/computation.rst:841
+msgid "When ``adjust=False`` is specified, moving averages are calculated as"
+msgstr ""
+
+#: ../../user_guide/computation.rst:843
+msgid "y_0 &= x_0 \\\\ y_t &= (1 - \\alpha) y_{t-1} + \\alpha x_t,"
+msgstr ""
+
+#: ../../user_guide/computation.rst:848
+msgid "which is equivalent to using weights"
+msgstr ""
+
+#: ../../user_guide/computation.rst:850
+msgid ""
+"w_i = \\begin{cases}     \\alpha (1 - \\alpha)^i & \\text{if } i < t \\\\"
+"     (1 - \\alpha)^i        & \\text{if } i = t. \\end{cases}"
+msgstr ""
+
+#: ../../user_guide/computation.rst:859
+msgid ""
+"These equations are sometimes written in terms of :math:`\\alpha' = 1 - "
+"\\alpha`, e.g."
+msgstr ""
+
+#: ../../user_guide/computation.rst:861
+msgid "y_t = \\alpha' y_{t-1} + (1 - \\alpha') x_t."
+msgstr ""
+
+#: ../../user_guide/computation.rst:865
+msgid ""
+"The difference between the above two variants arises because we are "
+"dealing with series which have finite history. Consider a series of "
+"infinite history:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:869
+msgid ""
+"y_t = \\frac{x_t + (1 - \\alpha)x_{t-1} + (1 - \\alpha)^2 x_{t-2} + ...} "
+"{1 + (1 - \\alpha) + (1 - \\alpha)^2 + ...}"
+msgstr ""
+
+#: ../../user_guide/computation.rst:874
+msgid ""
+"Noting that the denominator is a geometric series with initial term equal"
+" to 1 and a ratio of :math:`1 - \\alpha` we have"
+msgstr ""
+
+#: ../../user_guide/computation.rst:877
+msgid ""
+"y_t &= \\frac{x_t + (1 - \\alpha)x_{t-1} + (1 - \\alpha)^2 x_{t-2} + ...}"
+" {\\frac{1}{1 - (1 - \\alpha)}}\\\\ &= [x_t + (1 - \\alpha)x_{t-1} + (1 -"
+" \\alpha)^2 x_{t-2} + ...] \\alpha \\\\ &= \\alpha x_t + "
+"[(1-\\alpha)x_{t-1} + (1 - \\alpha)^2 x_{t-2} + ...]\\alpha \\\\ &= "
+"\\alpha x_t + (1 - \\alpha)[x_{t-1} + (1 - \\alpha) x_{t-2} + "
+"...]\\alpha\\\\ &= \\alpha x_t + (1 - \\alpha) y_{t-1}"
+msgstr ""
+
+#: ../../user_guide/computation.rst:886
+msgid ""
+"which shows the equivalence of the above two variants for infinite "
+"series. When ``adjust=True`` we have :math:`y_0 = x_0` and from the last "
+"representation above we have :math:`y_t = \\alpha x_t + (1 - \\alpha) "
+"y_{t-1}`, therefore there is an assumption that :math:`x_0` is not an "
+"ordinary value but rather an exponentially weighted moment of the "
+"infinite series up to that point."
+msgstr ""
+
+#: ../../user_guide/computation.rst:893
+msgid ""
+"One must have :math:`0 < \\alpha \\leq 1`, and while since version 0.18.0"
+" it has been possible to pass :math:`\\alpha` directly, it's often easier"
+" to think about either the **span**, **center of mass (com)** or **half-"
+"life** of an EW moment:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:898
+msgid ""
+"\\alpha =  \\begin{cases}      \\frac{2}{s + 1},               & "
+"\\text{for span}\\ s \\geq 1\\\\      \\frac{1}{1 + c},               & "
+"\\text{for center of mass}\\ c \\geq 0\\\\      1 - \\exp^{\\frac{\\log "
+"0.5}{h}}, & \\text{for half-life}\\ h > 0  \\end{cases}"
+msgstr ""
+
+#: ../../user_guide/computation.rst:907
+msgid ""
+"One must specify precisely one of **span**, **center of mass**, **half-"
+"life** and **alpha** to the EW functions:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:910
+msgid ""
+"**Span** corresponds to what is commonly called an \"N-day EW moving "
+"average\"."
+msgstr ""
+
+#: ../../user_guide/computation.rst:911
+msgid ""
+"**Center of mass** has a more physical interpretation and can be thought "
+"of in terms of span: :math:`c = (s - 1) / 2`."
+msgstr ""
+
+#: ../../user_guide/computation.rst:913
+msgid ""
+"**Half-life** is the period of time for the exponential weight to reduce "
+"to one half."
+msgstr ""
+
+#: ../../user_guide/computation.rst:915
+msgid "**Alpha** specifies the smoothing factor directly."
+msgstr ""
+
+#: ../../user_guide/computation.rst:917
+msgid "Here is an example for a univariate time series:"
+msgstr ""
+
+#: ../../user_guide/computation.rst:926
+msgid ""
+"EWM has a ``min_periods`` argument, which has the same meaning it does "
+"for all the ``.expanding`` and ``.rolling`` methods: no output values "
+"will be set until at least ``min_periods`` non-null values are "
+"encountered in the (expanding) window."
+msgstr ""
+
+#: ../../user_guide/computation.rst:931
+msgid ""
+"EWM also has an ``ignore_na`` argument, which determines how intermediate"
+" null values affect the calculation of the weights. When "
+"``ignore_na=False`` (the default), weights are calculated based on "
+"absolute positions, so that intermediate null values affect the result. "
+"When ``ignore_na=True``, weights are calculated by ignoring intermediate "
+"null values. For example, assuming ``adjust=True``, if "
+"``ignore_na=False``, the weighted average of ``3, NaN, 5`` would be "
+"calculated as"
+msgstr ""
+
+#: ../../user_guide/computation.rst:940
+msgid "\\frac{(1-\\alpha)^2 \\cdot 3 + 1 \\cdot 5}{(1-\\alpha)^2 + 1}."
+msgstr ""
+
+#: ../../user_guide/computation.rst:944
+msgid "Whereas if ``ignore_na=True``, the weighted average would be calculated as"
+msgstr ""
+
+#: ../../user_guide/computation.rst:946
+msgid "\\frac{(1-\\alpha) \\cdot 3 + 1 \\cdot 5}{(1-\\alpha) + 1}."
+msgstr ""
+
+#: ../../user_guide/computation.rst:950
+msgid ""
+"The :meth:`~Ewm.var`, :meth:`~Ewm.std`, and :meth:`~Ewm.cov` functions "
+"have a ``bias`` argument, specifying whether the result should contain "
+"biased or unbiased statistics. For example, if ``bias=True``, "
+"``ewmvar(x)`` is calculated as ``ewmvar(x) = ewma(x**2) - ewma(x)**2``; "
+"whereas if ``bias=False`` (the default), the biased variance statistics "
+"are scaled by debiasing factors"
+msgstr ""
+
+#: ../../user_guide/computation.rst:957
+msgid ""
+"\\frac{\\left(\\sum_{i=0}^t w_i\\right)^2}{\\left(\\sum_{i=0}^t "
+"w_i\\right)^2 - \\sum_{i=0}^t w_i^2}."
+msgstr ""
+
+#: ../../user_guide/computation.rst:961
+msgid ""
+"(For :math:`w_i = 1`, this reduces to the usual :math:`N / (N - 1)` "
+"factor, with :math:`N = t + 1`.) See `Weighted Sample Variance "
+"<http://en.wikipedia.org/wiki/Weighted_arithmetic_mean#Weighted_sample_variance>`__"
+" on Wikipedia for further details."
+msgstr ""
+

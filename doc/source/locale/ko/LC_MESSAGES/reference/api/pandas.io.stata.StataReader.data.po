@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.io.stata.StataReader.data.rst:2
+msgid "pandas.io.stata.StataReader.data"
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data:2
+msgid "Reads observations from Stata file, converting them into a dataframe"
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data:4
+msgid "is a legacy method.  Use `read` in new code."
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data:10
+msgid "**convert_dates**"
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data:9 pandas.io.stata.StataReader.data:12
+#: pandas.io.stata.StataReader.data:26 pandas.io.stata.StataReader.data:33
+msgid "boolean, defaults to True"
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data:10
+msgid "Convert date variables to DataFrame time values."
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data:13
+msgid "**convert_categoricals**"
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data:13
+msgid "Read value labels and convert columns to Categorical/Factor variables."
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data:16
+msgid "**index_col**"
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data:15
+msgid "string, optional, default: None"
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data:16
+msgid "Column to set as index."
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data:23
+msgid "**convert_missing**"
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data:22
+msgid "boolean, defaults to False"
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data:19
+msgid ""
+"Flag indicating whether to convert missing values to their Stata "
+"representations.  If False, missing values are replaced with nan. If "
+"True, columns containing missing values are returned with object data "
+"types and missing values are represented by StataMissingValue objects."
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data:27
+msgid "**preserve_dtypes**"
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data:26
+msgid ""
+"Preserve Stata datatypes. If False, numeric data are upcast to pandas "
+"default types for foreign data (float64 or int64)."
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data:31
+msgid "**columns**"
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data:30
+msgid "list or None"
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data:30
+msgid ""
+"Columns to retain.  Columns will be returned in the given order.  None "
+"returns all columns."
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data:34
+msgid "**order_categoricals**"
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data:34
+msgid "Flag indicating whether converted categorical data are ordered."
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data
+msgid "Returns"
+msgstr ""
+
+#: of pandas.io.stata.StataReader.data:50
+msgid "**DataFrame**"
+msgstr ""
+

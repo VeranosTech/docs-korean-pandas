@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.rename.rst:2
+msgid "pandas.Series.rename"
+msgstr ""
+
+#: of pandas.Series.rename:2
+msgid "Alter Series index labels or name."
+msgstr ""
+
+#: of pandas.Series.rename:4
+msgid ""
+"Function / dict values must be unique (1-to-1). Labels not contained in a"
+" dict / Series will be left as-is. Extra labels listed don't throw an "
+"error."
+msgstr ""
+
+#: of pandas.Series.rename:8
+msgid "Alternatively, change ``Series.name`` with a scalar value."
+msgstr ""
+
+#: of pandas.Series.rename:10
+msgid "See the :ref:`user guide <basics.rename>` for more."
+msgstr ""
+
+#: of pandas.Series.rename
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.rename:18
+msgid "**index**"
+msgstr ""
+
+#: of pandas.Series.rename:17
+msgid "scalar, hashable sequence, dict-like or function, optional"
+msgstr ""
+
+#: of pandas.Series.rename:15
+msgid ""
+"dict-like or functions are transformations to apply to the index. Scalar "
+"or hashable sequence-like will alter the ``Series.name`` attribute."
+msgstr ""
+
+#: of pandas.Series.rename:21
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.Series.rename:20
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.Series.rename:21
+msgid "Also copy underlying data"
+msgstr ""
+
+#: of pandas.Series.rename:25
+msgid "**inplace**"
+msgstr ""
+
+#: of pandas.Series.rename:24
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.Series.rename:24
+msgid "Whether to return a new Series. If True then value of copy is ignored."
+msgstr ""
+
+#: of pandas.Series.rename:29
+msgid "**level**"
+msgstr ""
+
+#: of pandas.Series.rename:28
+msgid "int or level name, default None"
+msgstr ""
+
+#: of pandas.Series.rename:28
+msgid "In case of a MultiIndex, only rename labels in the specified level."
+msgstr ""
+
+#: of pandas.Series.rename
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.rename:39
+msgid "**renamed**"
+msgstr ""
+
+#: of pandas.Series.rename:38
+msgid "Series (new object)"
+msgstr ""
+
+#: of pandas.Series.rename:44
+msgid ":obj:`Series.rename_axis`"
+msgstr ""
+
+#: of pandas.Series.rename:49
+msgid "Examples"
+msgstr ""
+

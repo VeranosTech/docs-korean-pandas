@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.read_sas.rst:2
+msgid "pandas.read\\_sas"
+msgstr ""
+
+#: of pandas.read_sas:2
+msgid "Read SAS files stored as either XPORT or SAS7BDAT format files."
+msgstr ""
+
+#: of pandas.read_sas
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.read_sas:8
+msgid "**filepath_or_buffer**"
+msgstr ""
+
+#: of pandas.read_sas:7
+msgid "string or file-like object"
+msgstr ""
+
+#: of pandas.read_sas:8
+msgid "Path to the SAS file."
+msgstr ""
+
+#: of pandas.read_sas:12
+msgid "**format**"
+msgstr ""
+
+#: of pandas.read_sas:11
+msgid "string {'xport', 'sas7bdat'} or None"
+msgstr ""
+
+#: of pandas.read_sas:11
+msgid ""
+"If None, file format is inferred from file extension. If 'xport' or "
+"'sas7bdat', uses the corresponding format."
+msgstr ""
+
+#: of pandas.read_sas:15
+msgid "**index**"
+msgstr ""
+
+#: of pandas.read_sas:14
+msgid "identifier of index column, defaults to None"
+msgstr ""
+
+#: of pandas.read_sas:15
+msgid "Identifier of column that should be used as index of the DataFrame."
+msgstr ""
+
+#: of pandas.read_sas:18
+msgid "**encoding**"
+msgstr ""
+
+#: of pandas.read_sas:17
+msgid "string, default is None"
+msgstr ""
+
+#: of pandas.read_sas:18
+msgid "Encoding for text data.  If None, text data are stored as raw bytes."
+msgstr ""
+
+#: of pandas.read_sas:21
+msgid "**chunksize**"
+msgstr ""
+
+#: of pandas.read_sas:20
+msgid "int"
+msgstr ""
+
+#: of pandas.read_sas:21
+msgid "Read file `chunksize` lines at a time, returns iterator."
+msgstr ""
+
+#: of pandas.read_sas:24
+msgid "**iterator**"
+msgstr ""
+
+#: of pandas.read_sas:23
+msgid "bool, defaults to False"
+msgstr ""
+
+#: of pandas.read_sas:24
+msgid "If True, returns an iterator for reading the file incrementally."
+msgstr ""
+
+#: of pandas.read_sas
+msgid "Returns"
+msgstr ""
+
+#: of pandas.read_sas:29
+msgid "**DataFrame if iterator=False and chunksize=None, else SAS7BDATReader**"
+msgstr ""
+
+#: of pandas.read_sas:43
+msgid "**or XportReader**"
+msgstr ""
+

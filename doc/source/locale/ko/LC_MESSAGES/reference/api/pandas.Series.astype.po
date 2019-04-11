@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.astype.rst:2
+msgid "pandas.Series.astype"
+msgstr ""
+
+#: of pandas.Series.astype:2
+msgid "Cast a pandas object to a specified dtype ``dtype``."
+msgstr ""
+
+#: of pandas.Series.astype
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.astype:11
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.Series.astype:10
+msgid "data type, or dict of column name -> data type"
+msgstr ""
+
+#: of pandas.Series.astype:8
+msgid ""
+"Use a numpy.dtype or Python type to cast entire pandas object to the same"
+" type. Alternatively, use {col: dtype, ...}, where col is a column label "
+"and dtype is a numpy.dtype or Python type to cast one or more of the "
+"DataFrame's columns to column-specific types."
+msgstr ""
+
+#: of pandas.Series.astype:16
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.Series.astype:15
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.Series.astype:14
+msgid ""
+"Return a copy when ``copy=True`` (be very careful setting ``copy=False`` "
+"as changes to values then may propagate to other pandas objects)."
+msgstr ""
+
+#: of pandas.Series.astype:24
+msgid "**errors**"
+msgstr ""
+
+#: of pandas.Series.astype:23
+msgid "{'raise', 'ignore'}, default 'raise'"
+msgstr ""
+
+#: of pandas.Series.astype:19
+msgid "Control raising of exceptions on invalid data for provided dtype."
+msgstr ""
+
+#: of pandas.Series.astype:21
+msgid "``raise`` : allow exceptions to be raised"
+msgstr ""
+
+#: of pandas.Series.astype:22
+msgid "``ignore`` : suppress exceptions. On error return original object"
+msgstr ""
+
+#: of pandas.Series.astype:27
+msgid "**kwargs**"
+msgstr ""
+
+#: of pandas.Series.astype:26
+msgid "keyword arguments to pass on to the constructor"
+msgstr ""
+
+#: of pandas.Series.astype
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.astype:37
+msgid "**casted**"
+msgstr ""
+
+#: of pandas.Series.astype:36
+msgid "same type as caller"
+msgstr ""
+
+#: of pandas.Series.astype:43
+msgid ":obj:`to_datetime`"
+msgstr ""
+
+#: of pandas.Series.astype:43
+msgid "Convert argument to datetime."
+msgstr ""
+
+#: of pandas.Series.astype:46
+msgid ":obj:`to_timedelta`"
+msgstr ""
+
+#: of pandas.Series.astype:46
+msgid "Convert argument to timedelta."
+msgstr ""
+
+#: of pandas.Series.astype:49
+msgid ":obj:`to_numeric`"
+msgstr ""
+
+#: of pandas.Series.astype:49
+msgid "Convert argument to a numeric type."
+msgstr ""
+
+#: of pandas.Series.astype:51
+msgid ":obj:`numpy.ndarray.astype`"
+msgstr ""
+
+#: of pandas.Series.astype:52
+msgid "Cast a numpy array to a specified type."
+msgstr ""
+
+#: of pandas.Series.astype:57
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.astype:68
+msgid "Convert to categorical type:"
+msgstr ""
+
+#: of pandas.Series.astype:76
+msgid "Convert to ordered categorical type with custom ordering:"
+msgstr ""
+
+#: of pandas.Series.astype:86
+msgid ""
+"Note that using ``copy=False`` and changing data on a new pandas object "
+"may propagate changes:"
+msgstr ""
+

@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.core.window.Rolling.var.rst:2
+msgid "pandas.core.window.Rolling.var"
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:2
+msgid "Calculate unbiased rolling variance."
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:4
+msgid ""
+"Normalized by N-1 by default. This can be changed using the `ddof` "
+"argument."
+msgstr ""
+
+#: of pandas.core.window.Rolling.var
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:11
+msgid "**ddof**"
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:10
+msgid "int, default 1"
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:10
+msgid ""
+"Delta Degrees of Freedom.  The divisor used in calculations is ``N - "
+"ddof``, where ``N`` represents the number of elements."
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:14
+msgid "**\\*args, **kwargs**"
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:14
+msgid "For NumPy compatibility. No additional arguments are used."
+msgstr ""
+
+#: of pandas.core.window.Rolling.var
+msgid "Returns"
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:24
+msgid "**Series or DataFrame**"
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:19
+msgid "Returns the same object type as the caller of the rolling calculation."
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:30
+msgid ":obj:`Series.rolling`"
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:30
+msgid "Calling object with Series data."
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:33
+msgid ":obj:`DataFrame.rolling`"
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:33
+msgid "Calling object with DataFrames."
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:36
+msgid ":obj:`Series.var`"
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:36
+msgid "Equivalent method for Series."
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:39
+msgid ":obj:`DataFrame.var`"
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:39
+msgid "Equivalent method for DataFrame."
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:41
+msgid ":obj:`numpy.var`"
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:42
+msgid "Equivalent method for Numpy array."
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:45
+msgid "Notes"
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:46
+msgid ""
+"The default `ddof` of 1 used in :meth:`Series.var` is different than the "
+"default `ddof` of 0 in :func:`numpy.var`."
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:49
+msgid "A minimum of 1 period is required for the rolling calculation."
+msgstr ""
+
+#: of pandas.core.window.Rolling.var:53
+msgid "Examples"
+msgstr ""
+

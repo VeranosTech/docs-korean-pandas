@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.io.formats.style.Styler.where.rst:2
+msgid "pandas.io.formats.style.Styler.where"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.where:2
+msgid ""
+"Apply a function elementwise, updating the HTML representation with a "
+"style which is selected in accordance with the return value of a "
+"function."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.where
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.where:11
+msgid "**cond**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.where:10
+msgid "callable"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.where:11
+msgid "``cond`` should take a scalar and return a boolean"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.where:14
+msgid "**value**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.where:13
+#: pandas.io.formats.style.Styler.where:16
+msgid "str"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.where:14
+msgid "applied when ``cond`` returns true"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.where:17
+msgid "**other**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.where:17
+msgid "applied when ``cond`` returns false"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.where:21
+msgid "**subset**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.where:20
+msgid "IndexSlice"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.where:20
+msgid ""
+"a valid indexer to limit ``data`` to *before* applying the function. "
+"Consider using a pandas.IndexSlice"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.where:24
+msgid "**kwargs**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.where:23
+msgid "dict"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.where:24
+msgid "pass along to ``cond``"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.where
+msgid "Returns"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.where:34
+msgid "**self**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.where:33
+msgid "Styler"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.where:39
+msgid ":obj:`Styler.applymap`"
+msgstr ""
+

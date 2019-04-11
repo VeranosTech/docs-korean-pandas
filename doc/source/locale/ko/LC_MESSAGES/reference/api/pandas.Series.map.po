@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.map.rst:2
+msgid "pandas.Series.map"
+msgstr ""
+
+#: of pandas.Series.map:2
+msgid "Map values of Series according to input correspondence."
+msgstr ""
+
+#: of pandas.Series.map:4
+msgid ""
+"Used for substituting each value in a Series with another value, that may"
+" be derived from a function, a ``dict`` or a :class:`Series`."
+msgstr ""
+
+#: of pandas.Series.map
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.map:11
+msgid "**arg**"
+msgstr ""
+
+#: of pandas.Series.map:10
+msgid "function, dict, or Series"
+msgstr ""
+
+#: of pandas.Series.map:11
+msgid "Mapping correspondence."
+msgstr ""
+
+#: of pandas.Series.map:15
+msgid "**na_action**"
+msgstr ""
+
+#: of pandas.Series.map:14
+msgid "{None, 'ignore'}, default None"
+msgstr ""
+
+#: of pandas.Series.map:14
+msgid ""
+"If 'ignore', propagate NaN values, without passing them to the mapping "
+"correspondence."
+msgstr ""
+
+#: of pandas.Series.map
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.map:25
+msgid "**Series**"
+msgstr ""
+
+#: of pandas.Series.map:20
+msgid "Same index as caller."
+msgstr ""
+
+#: of pandas.Series.map:31
+msgid ":obj:`Series.apply`"
+msgstr ""
+
+#: of pandas.Series.map:31
+msgid "For applying more complex functions on a Series."
+msgstr ""
+
+#: of pandas.Series.map:34
+msgid ":obj:`DataFrame.apply`"
+msgstr ""
+
+#: of pandas.Series.map:34
+msgid "Apply a function row-/column-wise."
+msgstr ""
+
+#: of pandas.Series.map:36
+msgid ":obj:`DataFrame.applymap`"
+msgstr ""
+
+#: of pandas.Series.map:37
+msgid "Apply a function elementwise on a whole DataFrame."
+msgstr ""
+
+#: of pandas.Series.map:40
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Series.map:41
+msgid ""
+"When ``arg`` is a dictionary, values in Series that are not in the "
+"dictionary (as keys) are converted to ``NaN``. However, if the dictionary"
+" is a ``dict`` subclass that defines ``__missing__`` (i.e. provides a "
+"method for default values), then this default is used rather than "
+"``NaN``."
+msgstr ""
+
+#: of pandas.Series.map:49
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.map:58
+msgid ""
+"``map`` accepts a ``dict`` or a ``Series``. Values that are not found in "
+"the ``dict`` are converted to ``NaN``, unless the dict has a default "
+"value (e.g. ``defaultdict``):"
+msgstr ""
+
+#: of pandas.Series.map:69
+msgid "It also accepts a function:"
+msgstr ""
+
+#: of pandas.Series.map:78
+msgid ""
+"To avoid applying the function to missing values (and keep them as "
+"``NaN``) ``na_action='ignore'`` can be used:"
+msgstr ""
+

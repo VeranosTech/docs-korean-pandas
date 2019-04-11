@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.errors.DtypeWarning.rst:2
+msgid "pandas.errors.DtypeWarning"
+msgstr ""
+
+#: of pandas.errors.DtypeWarning:2
+msgid "Warning raised when reading different dtypes in a column from a file."
+msgstr ""
+
+#: of pandas.errors.DtypeWarning:4
+msgid ""
+"Raised for a dtype incompatibility. This can happen whenever `read_csv` "
+"or `read_table` encounter non-uniform dtypes in a column(s) of a given "
+"CSV file."
+msgstr ""
+
+#: of pandas.errors.DtypeWarning:19
+msgid ":obj:`pandas.read_csv`"
+msgstr ""
+
+#: of pandas.errors.DtypeWarning:19
+msgid "Read CSV (comma-separated) file into a DataFrame."
+msgstr ""
+
+#: of pandas.errors.DtypeWarning:21
+msgid ":obj:`pandas.read_table`"
+msgstr ""
+
+#: of pandas.errors.DtypeWarning:22
+msgid "Read general delimited file into a DataFrame."
+msgstr ""
+
+#: of pandas.errors.DtypeWarning:25
+msgid "Notes"
+msgstr ""
+
+#: of pandas.errors.DtypeWarning:26
+msgid ""
+"This warning is issued when dealing with larger files because the dtype "
+"checking happens per chunk read."
+msgstr ""
+
+#: of pandas.errors.DtypeWarning:29
+msgid ""
+"Despite the warning, the CSV file is read with mixed types in a single "
+"column which will be an object type. See the examples below to better "
+"understand this issue."
+msgstr ""
+
+#: of pandas.errors.DtypeWarning:35
+msgid "Examples"
+msgstr ""
+
+#: of pandas.errors.DtypeWarning:36
+msgid ""
+"This example creates and reads a large CSV file with a column that "
+"contains `int` and `str`."
+msgstr ""
+
+#: of pandas.errors.DtypeWarning:46
+msgid ""
+"Important to notice that ``df2`` will contain both `str` and `int` for "
+"the same input, '1'."
+msgstr ""
+
+#: of pandas.errors.DtypeWarning:58
+msgid ""
+"One way to solve this issue is using the `dtype` parameter in the "
+"`read_csv` and `read_table` functions to explicit the conversion:"
+msgstr ""
+
+#: of pandas.errors.DtypeWarning:63
+msgid "No warning was issued."
+msgstr ""
+

@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.core.groupby.GroupBy.ngroup.rst:2
+msgid "pandas.core.groupby.GroupBy.ngroup"
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.ngroup:2
+msgid "Number each group from 0 to the number of groups - 1."
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.ngroup:4
+msgid ""
+"This is the enumerative complement of cumcount.  Note that the numbers "
+"given to the groups match the order in which the groups would be seen "
+"when iterating over the groupby object, not the order they are first "
+"observed."
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.ngroup
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.ngroup:20
+msgid "**ascending**"
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.ngroup:19
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.ngroup:14
+msgid "If False, number in reverse, from number of group - 1 to 0."
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.ngroup:25
+msgid ":obj:`.cumcount`"
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.ngroup:26
+msgid "Number the rows in each group."
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.ngroup:31
+msgid "Examples"
+msgstr ""
+

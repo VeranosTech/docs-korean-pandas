@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DatetimeIndex.dayofweek.rst:2
+msgid "pandas.DatetimeIndex.dayofweek"
+msgstr ""
+
+#: of pandas.DatetimeIndex.dayofweek:2
+msgid "The day of the week with Monday=0, Sunday=6."
+msgstr ""
+
+#: of pandas.DatetimeIndex.dayofweek:4
+msgid ""
+"Return the day of the week. It is assumed the week starts on Monday, "
+"which is denoted by 0 and ends on Sunday which is denoted by 6. This "
+"method is available on both Series with datetime values (using the `dt` "
+"accessor) or DatetimeIndex."
+msgstr ""
+
+#: of pandas.DatetimeIndex.dayofweek
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DatetimeIndex.dayofweek:18
+msgid "**Series or Index**"
+msgstr ""
+
+#: of pandas.DatetimeIndex.dayofweek:13
+msgid "Containing integers indicating the day number."
+msgstr ""
+
+#: of pandas.DatetimeIndex.dayofweek:24
+msgid ":obj:`Series.dt.dayofweek`"
+msgstr ""
+
+#: of pandas.DatetimeIndex.dayofweek:24 pandas.DatetimeIndex.dayofweek:27
+msgid "Alias."
+msgstr ""
+
+#: of pandas.DatetimeIndex.dayofweek:27
+msgid ":obj:`Series.dt.weekday`"
+msgstr ""
+
+#: of pandas.DatetimeIndex.dayofweek:29
+msgid ":obj:`Series.dt.day_name`"
+msgstr ""
+
+#: of pandas.DatetimeIndex.dayofweek:30
+msgid "Returns the name of the day of the week."
+msgstr ""
+
+#: of pandas.DatetimeIndex.dayofweek:35
+msgid "Examples"
+msgstr ""
+

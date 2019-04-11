@@ -1,0 +1,335 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.api.extensions.ExtensionArray.rst:2
+msgid "pandas.api.extensions.ExtensionArray"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:2
+msgid "Abstract base class for custom 1-D array types."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:4
+msgid ""
+"pandas will recognize instances of this class as proper arrays with a "
+"custom type and will not attempt to coerce them to objects. They may be "
+"stored directly inside a :class:`DataFrame` or :class:`Series`."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:19
+msgid "Notes"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:20
+msgid ""
+"The interface includes the following abstract methods that must be "
+"implemented by subclasses:"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:23
+msgid "_from_sequence"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:24
+msgid "_from_factorized"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:25
+msgid "__getitem__"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:26
+msgid "__len__"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:27
+msgid "dtype"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:28
+msgid "nbytes"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:29
+msgid "isna"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:30
+msgid "take"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:31
+msgid "copy"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:32
+msgid "_concat_same_type"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:34
+msgid ""
+"A default repr displaying the type, (truncated) data, length, and dtype "
+"is provided. It can be customized or replaced by by overriding:"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:38
+msgid "__repr__ : A default repr for the ExtensionArray."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:39
+msgid "_formatter : Print scalars inside a Series or DataFrame."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:41
+msgid ""
+"Some methods require casting the ExtensionArray to an ndarray of Python "
+"objects with ``self.astype(object)``, which may be expensive. When "
+"performance is a concern, we highly recommend overriding the following "
+"methods:"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:46
+msgid "fillna"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:47
+msgid "dropna"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:48
+msgid "unique"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:49
+msgid "factorize / _values_for_factorize"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:50
+msgid "argsort / _values_for_argsort"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:51
+msgid "searchsorted"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:53
+msgid ""
+"The remaining methods implemented on this class should be performant, as "
+"they only compose abstract methods. Still, a more efficient "
+"implementation may be available, and these methods can be overridden."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:57
+msgid "One can implement methods to handle array reductions."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:59
+msgid "_reduce"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:61
+msgid ""
+"One can implement methods to handle parsing from strings that will be "
+"used in methods such as ``pandas.io.parsers.read_csv``."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:64
+msgid "_from_sequence_of_strings"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:66
+msgid ""
+"This class does not inherit from 'abc.ABCMeta' for performance reasons. "
+"Methods and properties required by the interface raise "
+"``pandas.errors.AbstractMethodError`` and no ``register`` method is "
+"provided for registering virtual subclasses."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:71
+msgid "ExtensionArrays are limited to 1 dimension."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:73
+msgid ""
+"They may be backed by none, one, or many NumPy arrays. For example, "
+"``pandas.Categorical`` is an extension array backed by two arrays, one "
+"for codes and one for categories. An array of IPv6 address may be backed "
+"by a NumPy structured array with two fields, one for the lower 64 bits "
+"and one for the upper 64 bits. Or they may be backed by some other "
+"storage type, like Python lists. Pandas makes no assumptions on how the "
+"data are stored, just that it can be converted to a NumPy array. The "
+"ExtensionArray interface does not impose any rules on how this data is "
+"stored. However, currently, the backing data cannot be stored in "
+"attributes called ``.values`` or ``._values`` to ensure full "
+"compatibility with pandas internals. But other names as ``.data``, "
+"``._data``, ``._items``, ... can be freely used."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:90
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:98:<autosummary>:1
+msgid ":obj:`dtype <pandas.api.extensions.ExtensionArray.dtype>`\\"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:98:<autosummary>:1
+msgid "An instance of 'ExtensionDtype'."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:98:<autosummary>:1
+msgid ":obj:`nbytes <pandas.api.extensions.ExtensionArray.nbytes>`\\"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:98:<autosummary>:1
+msgid "The number of bytes needed to store this object in memory."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:98:<autosummary>:1
+msgid ":obj:`ndim <pandas.api.extensions.ExtensionArray.ndim>`\\"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:98:<autosummary>:1
+msgid "Extension Arrays are only allowed to be 1-dimensional."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:98:<autosummary>:1
+msgid ":obj:`shape <pandas.api.extensions.ExtensionArray.shape>`\\"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:98:<autosummary>:1
+msgid "Return a tuple of the array dimensions."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:100
+msgid "Methods"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid ""
+":obj:`argsort <pandas.api.extensions.ExtensionArray.argsort>`\\ "
+"\\(\\[ascending\\, kind\\]\\)"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid "Return the indices that would sort this array."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid ""
+":obj:`astype <pandas.api.extensions.ExtensionArray.astype>`\\ "
+"\\(dtype\\[\\, copy\\]\\)"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid "Cast to a NumPy array with 'dtype'."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid ":obj:`copy <pandas.api.extensions.ExtensionArray.copy>`\\ \\(\\[deep\\]\\)"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid "Return a copy of the array."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid ":obj:`dropna <pandas.api.extensions.ExtensionArray.dropna>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid "Return ExtensionArray without NA values"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid ""
+":obj:`factorize <pandas.api.extensions.ExtensionArray.factorize>`\\ "
+"\\(\\[na\\_sentinel\\]\\)"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid "Encode the extension array as an enumerated type."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid ""
+":obj:`fillna <pandas.api.extensions.ExtensionArray.fillna>`\\ "
+"\\(\\[value\\, method\\, limit\\]\\)"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid "Fill NA/NaN values using the specified method."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid ":obj:`isna <pandas.api.extensions.ExtensionArray.isna>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid "A 1-D array indicating if each value is missing."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid ""
+":obj:`repeat <pandas.api.extensions.ExtensionArray.repeat>`\\ "
+"\\(repeats\\[\\, axis\\]\\)"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid "Repeat elements of a ExtensionArray."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid ""
+":obj:`searchsorted <pandas.api.extensions.ExtensionArray.searchsorted>`\\"
+" \\(value\\[\\, side\\, sorter\\]\\)"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid "Find indices where elements should be inserted to maintain order."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid ""
+":obj:`shift <pandas.api.extensions.ExtensionArray.shift>`\\ "
+"\\(\\[periods\\, fill\\_value\\]\\)"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid "Shift values by desired number."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid ""
+":obj:`take <pandas.api.extensions.ExtensionArray.take>`\\ "
+"\\(indices\\[\\, allow\\_fill\\, fill\\_value\\]\\)"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid "Take elements from an array."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid ":obj:`unique <pandas.api.extensions.ExtensionArray.unique>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray:116:<autosummary>:1
+msgid "Compute the ExtensionArray of unique values."
+msgstr ""
+

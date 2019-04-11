@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.cumprod.rst:2
+msgid "pandas.DataFrame.cumprod"
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:2
+msgid "Return cumulative product over a DataFrame or Series axis."
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:4
+msgid ""
+"Returns a DataFrame or Series of the same size containing the cumulative "
+"product."
+msgstr ""
+
+#: of pandas.DataFrame.cumprod
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:10
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:9
+msgid "{0 or 'index', 1 or 'columns'}, default 0"
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:10
+msgid "The index or the name of the axis. 0 is equivalent to None or 'index'."
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:14
+msgid "**skipna**"
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:13
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:13
+msgid ""
+"Exclude NA/null values. If an entire row/column is NA, the result will be"
+" NA."
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:18
+msgid "**\\*args, **kwargs :**"
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:17
+msgid ""
+"Additional keywords have no effect but might be accepted for "
+"compatibility with NumPy."
+msgstr ""
+
+#: of pandas.DataFrame.cumprod
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:28
+msgid "**cumprod**"
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:27
+msgid "Series or DataFrame"
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:34
+msgid ":obj:`core.window.Expanding.prod`"
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:34
+msgid "Similar functionality but ignores ``NaN`` values."
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:37
+msgid ":obj:`DataFrame.prod`"
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:37
+msgid "Return the product over DataFrame axis."
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:40
+msgid ":obj:`DataFrame.cummax`"
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:40
+msgid "Return cumulative maximum over DataFrame axis."
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:43
+msgid ":obj:`DataFrame.cummin`"
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:43
+msgid "Return cumulative minimum over DataFrame axis."
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:46
+msgid ":obj:`DataFrame.cumsum`"
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:46
+msgid "Return cumulative sum over DataFrame axis."
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:48
+msgid ":obj:`DataFrame.cumprod`"
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:49
+msgid "Return cumulative product over DataFrame axis."
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:54
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:55
+msgid "**Series**"
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:66
+msgid "By default, NA values are ignored."
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:76
+msgid "To include NA values in the operation, use ``skipna=False``"
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:86
+msgid "**DataFrame**"
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:98
+msgid ""
+"By default, iterates over rows and finds the product in each column. This"
+" is equivalent to ``axis=None`` or ``axis='index'``."
+msgstr ""
+
+#: of pandas.DataFrame.cumprod:107
+msgid "To iterate over columns and find the product in each row, use ``axis=1``"
+msgstr ""
+

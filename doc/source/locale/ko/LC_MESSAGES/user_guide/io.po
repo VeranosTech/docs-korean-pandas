@@ -1,0 +1,5853 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../user_guide/io.rst:6
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../user_guide/io.rst:17
+msgid "IO Tools (Text, CSV, HDF5, ...)"
+msgstr ""
+
+#: ../../user_guide/io.rst:19
+msgid ""
+"The pandas I/O API is a set of top level ``reader`` functions accessed "
+"like :func:`pandas.read_csv` that generally return a pandas object. The "
+"corresponding ``writer`` functions are object methods that are accessed "
+"like :meth:`DataFrame.to_csv`. Below is a table containing available "
+"``readers`` and ``writers``."
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "Format Type"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "Data Description"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "Reader"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "Writer"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "text"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "`CSV <https://en.wikipedia.org/wiki/Comma-separated_values>`__"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`read_csv<io.read_csv_table>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`to_csv<io.store_in_csv>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "`JSON <https://www.json.org/>`__"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`read_json<io.json_reader>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`to_json<io.json_writer>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "`HTML <https://en.wikipedia.org/wiki/HTML>`__"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`read_html<io.read_html>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`to_html<io.html>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "Local clipboard"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`read_clipboard<io.clipboard>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`to_clipboard<io.clipboard>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "binary"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "`MS Excel <https://en.wikipedia.org/wiki/Microsoft_Excel>`__"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`read_excel<io.excel_reader>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`to_excel<io.excel_writer>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "`HDF5 Format <https://support.hdfgroup.org/HDF5/whatishdf5.html>`__"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`read_hdf<io.hdf5>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`to_hdf<io.hdf5>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "`Feather Format <https://github.com/wesm/feather>`__"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`read_feather<io.feather>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`to_feather<io.feather>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "`Parquet Format <https://parquet.apache.org/>`__"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`read_parquet<io.parquet>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`to_parquet<io.parquet>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "`Msgpack <https://msgpack.org/index.html>`__"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`read_msgpack<io.msgpack>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`to_msgpack<io.msgpack>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "`Stata <https://en.wikipedia.org/wiki/Stata>`__"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`read_stata<io.stata_reader>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`to_stata<io.stata_writer>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "`SAS <https://en.wikipedia.org/wiki/SAS_(software)>`__"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`read_sas<io.sas_reader>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "`Python Pickle Format <https://docs.python.org/3/library/pickle.html>`__"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`read_pickle<io.pickle>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`to_pickle<io.pickle>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "SQL"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "`SQL <https://en.wikipedia.org/wiki/SQL>`__"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`read_sql<io.sql>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`to_sql<io.sql>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "`Google Big Query <https://en.wikipedia.org/wiki/BigQuery>`__"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`read_gbq<io.bigquery>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid ":ref:`to_gbq<io.bigquery>`"
+msgstr ""
+
+#: ../../user_guide/io.rst:45
+msgid ""
+":ref:`Here <io.perf>` is an informal performance comparison for some of "
+"these IO methods."
+msgstr ""
+
+#: ../../user_guide/io.rst:48
+msgid ""
+"For examples that use the ``StringIO`` class, make sure you import it "
+"according to your Python version, i.e. ``from StringIO import StringIO`` "
+"for Python 2 and ``from io import StringIO`` for Python 3."
+msgstr ""
+
+#: ../../user_guide/io.rst:55
+msgid "CSV & Text files"
+msgstr ""
+
+#: ../../user_guide/io.rst:57
+msgid ""
+"The workhorse function for reading text files (a.k.a. flat files) is "
+":func:`read_csv`. See the :ref:`cookbook<cookbook.csv>` for some advanced"
+" strategies."
+msgstr ""
+
+#: ../../user_guide/io.rst:61
+msgid "Parsing options"
+msgstr ""
+
+#: ../../user_guide/io.rst:63
+msgid ":func:`read_csv` accepts the following common arguments:"
+msgstr ""
+
+#: ../../user_guide/io.rst:66
+msgid "Basic"
+msgstr ""
+
+#: ../../user_guide/io.rst:71
+msgid "filepath_or_buffer"
+msgstr ""
+
+#: ../../user_guide/io.rst:70
+msgid "various"
+msgstr ""
+
+#: ../../user_guide/io.rst:69
+msgid ""
+"Either a path to a file (a :class:`python:str`, "
+":class:`python:pathlib.Path`, or :class:`py:py._path.local.LocalPath`), "
+"URL (including http, ftp, and S3 locations), or any object with a "
+"``read()`` method (such as an open file or :class:`~python:io.StringIO`)."
+msgstr ""
+
+#: ../../user_guide/io.rst:79
+msgid ""
+"sep : str, defaults to ``','`` for :func:`read_csv`, ``\\t`` for "
+":func:`read_table`"
+msgstr ""
+
+#: ../../user_guide/io.rst:78
+msgid "str, defaults to ',' for read_csv(), \\t for read_table()"
+msgstr ""
+
+#: ../../user_guide/io.rst:74
+msgid ""
+"Delimiter to use. If sep is ``None``, the C engine cannot automatically "
+"detect the separator, but the Python parsing engine can, meaning the "
+"latter will be used and automatically detect the separator by Python's "
+"builtin sniffer tool, :class:`python:csv.Sniffer`. In addition, "
+"separators longer than 1 character and different from ``'\\s+'`` will be "
+"interpreted as regular expressions and will also force the use of the "
+"Python parsing engine. Note that regex delimiters are prone to ignoring "
+"quoted data. Regex example: ``'\\\\r\\\\t'``."
+msgstr ""
+
+#: ../../user_guide/io.rst:81
+msgid "delimiter : str, default ``None``"
+msgstr ""
+
+#: ../../user_guide/io.rst:80 ../../user_guide/io.rst:150
+#: ../../user_guide/io.rst:296 ../../user_guide/io.rst:324
+#: ../../user_guide/io.rst:328
+msgid "str, default None"
+msgstr ""
+
+#: ../../user_guide/io.rst:82
+msgid "Alternative argument name for sep."
+msgstr ""
+
+#: ../../user_guide/io.rst:89
+msgid "delim_whitespace"
+msgstr ""
+
+#: ../../user_guide/io.rst:88 ../../user_guide/io.rst:148
+#: ../../user_guide/io.rst:178 ../../user_guide/io.rst:211
+#: ../../user_guide/io.rst:240 ../../user_guide/io.rst:257
+#: ../../user_guide/io.rst:260 ../../user_guide/io.rst:272
+#: ../../user_guide/io.rst:278 ../../user_guide/io.rst:342
+msgid "boolean, default False"
+msgstr ""
+
+#: ../../user_guide/io.rst:84
+msgid ""
+"Specifies whether or not whitespace (e.g. ``' '`` or ``'\\t'``) will be "
+"used as the delimiter. Equivalent to setting ``sep='\\s+'``. If this "
+"option is set to ``True``, nothing should be passed in for the "
+"``delimiter`` parameter."
+msgstr ""
+
+#: ../../user_guide/io.rst:89 ../../user_guide/io.rst:167
+#: ../../user_guide/io.rst:422
+msgid "support for the Python parser."
+msgstr ""
+
+#: ../../user_guide/io.rst:92
+msgid "Column and Index Locations and Names"
+msgstr ""
+
+#: ../../user_guide/io.rst:107
+msgid "header : int or list of ints, default ``'infer'``"
+msgstr ""
+
+#: ../../user_guide/io.rst:106
+msgid "int or list of ints, default 'infer'"
+msgstr ""
+
+#: ../../user_guide/io.rst:95
+msgid ""
+"Row number(s) to use as the column names, and the start of the data. "
+"Default behavior is to infer the column names: if no names are passed the"
+" behavior is identical to ``header=0`` and column names are inferred from"
+" the first line of the file, if column names are passed explicitly then "
+"the behavior is identical to ``header=None``. Explicitly pass "
+"``header=0`` to be able to replace existing names."
+msgstr ""
+
+#: ../../user_guide/io.rst:103
+msgid ""
+"The header can be a list of ints that specify row locations for a "
+"MultiIndex on the columns e.g. ``[0,1,3]``. Intervening rows that are not"
+" specified will be skipped (e.g. 2 in this example is skipped). Note that"
+" this parameter ignores commented lines and empty lines if "
+"``skip_blank_lines=True``, so header=0 denotes the first line of data "
+"rather than the first line of the file."
+msgstr ""
+
+#: ../../user_guide/io.rst:111
+msgid "names : array-like, default ``None``"
+msgstr ""
+
+#: ../../user_guide/io.rst:110
+msgid "array-like, default None"
+msgstr ""
+
+#: ../../user_guide/io.rst:110
+msgid ""
+"List of column names to use. If file contains no header row, then you "
+"should explicitly pass ``header=None``. Duplicates in this list will "
+"cause a ``UserWarning`` to be issued."
+msgstr ""
+
+#: ../../user_guide/io.rst:119
+msgid "index_col : int, str, sequence of int / str, or False, default ``None``"
+msgstr ""
+
+#: ../../user_guide/io.rst:118
+msgid "int, str, sequence of int / str, or False, default None"
+msgstr ""
+
+#: ../../user_guide/io.rst:114
+msgid ""
+"Column(s) to use as the row labels of the ``DataFrame``, either given as "
+"string name or column index. If a sequence of int / str is given, a "
+"MultiIndex is used."
+msgstr ""
+
+#: ../../user_guide/io.rst:118
+msgid ""
+"Note: ``index_col=False`` can be used to force pandas to *not* use the "
+"first column as the index, e.g. when you have a malformed file with "
+"delimiters at the end of each line."
+msgstr ""
+
+#: ../../user_guide/io.rst:147
+msgid "usecols : list-like or callable, default ``None``"
+msgstr ""
+
+#: ../../user_guide/io.rst:146
+msgid "list-like or callable, default None"
+msgstr ""
+
+#: ../../user_guide/io.rst:122
+msgid ""
+"Return a subset of the columns. If list-like, all elements must either be"
+" positional (i.e. integer indices into the document columns) or strings "
+"that correspond to column names provided either by the user in `names` or"
+" inferred from the document header row(s). For example, a valid list-like"
+" `usecols` parameter would be ``[0, 1, 2]`` or ``['foo', 'bar', 'baz']``."
+msgstr ""
+
+#: ../../user_guide/io.rst:128
+msgid ""
+"Element order is ignored, so ``usecols=[0, 1]`` is the same as ``[1, "
+"0]``. To instantiate a DataFrame from ``data`` with element order "
+"preserved use ``pd.read_csv(data, usecols=['foo', 'bar'])[['foo', "
+"'bar']]`` for columns in ``['foo', 'bar']`` order or ``pd.read_csv(data, "
+"usecols=['foo', 'bar'])[['bar', 'foo']]`` for ``['bar', 'foo']`` order."
+msgstr ""
+
+#: ../../user_guide/io.rst:135
+msgid ""
+"If callable, the callable function will be evaluated against the column "
+"names, returning names where the callable function evaluates to True:"
+msgstr ""
+
+#: ../../user_guide/io.rst:148
+msgid ""
+"Using this parameter results in much faster parsing time and lower memory"
+" usage."
+msgstr ""
+
+#: ../../user_guide/io.rst:149
+msgid "squeeze : boolean, default ``False``"
+msgstr ""
+
+#: ../../user_guide/io.rst:150
+msgid "If the parsed data only contains one column then return a ``Series``."
+msgstr ""
+
+#: ../../user_guide/io.rst:151
+msgid "prefix : str, default ``None``"
+msgstr ""
+
+#: ../../user_guide/io.rst:152
+msgid "Prefix to add to column numbers when no header, e.g. 'X' for X0, X1, ..."
+msgstr ""
+
+#: ../../user_guide/io.rst:156
+msgid "mangle_dupe_cols : boolean, default ``True``"
+msgstr ""
+
+#: ../../user_guide/io.rst:155 ../../user_guide/io.rst:206
+#: ../../user_guide/io.rst:234 ../../user_guide/io.rst:238
+#: ../../user_guide/io.rst:243 ../../user_guide/io.rst:315
+#: ../../user_guide/io.rst:351 ../../user_guide/io.rst:355
+msgid "boolean, default True"
+msgstr ""
+
+#: ../../user_guide/io.rst:154
+msgid ""
+"Duplicate columns will be specified as 'X', 'X.1'...'X.N', rather than "
+"'X'...'X'. Passing in ``False`` will cause data to be overwritten if "
+"there are duplicate names in the columns."
+msgstr ""
+
+#: ../../user_guide/io.rst:159
+msgid "General Parsing Configuration"
+msgstr ""
+
+#: ../../user_guide/io.rst:167
+msgid "dtype : Type name or dict of column -> type, default ``None``"
+msgstr ""
+
+#: ../../user_guide/io.rst:166
+msgid "Type name or dict of column -> type, default None"
+msgstr ""
+
+#: ../../user_guide/io.rst:162
+msgid ""
+"Data type for data or columns. E.g. ``{'a': np.float64, 'b': np.int32}`` "
+"(unsupported with ``engine='python'``). Use `str` or `object` together "
+"with suitable ``na_values`` settings to preserve and not interpret dtype."
+msgstr ""
+
+#: ../../user_guide/io.rst:170
+msgid "engine : {``'c'``, ``'python'``}"
+msgstr ""
+
+#: ../../user_guide/io.rst:169
+msgid "{'c', 'python'}"
+msgstr ""
+
+#: ../../user_guide/io.rst:170
+msgid ""
+"Parser engine to use. The C engine is faster while the Python engine is "
+"currently more feature-complete."
+msgstr ""
+
+#: ../../user_guide/io.rst:173
+msgid "converters : dict, default ``None``"
+msgstr ""
+
+#: ../../user_guide/io.rst:172
+msgid "dict, default None"
+msgstr ""
+
+#: ../../user_guide/io.rst:173
+msgid ""
+"Dict of functions for converting values in certain columns. Keys can "
+"either be integers or column labels."
+msgstr ""
+
+#: ../../user_guide/io.rst:175
+msgid "true_values : list, default ``None``"
+msgstr ""
+
+#: ../../user_guide/io.rst:174 ../../user_guide/io.rst:176
+msgid "list, default None"
+msgstr ""
+
+#: ../../user_guide/io.rst:176
+msgid "Values to consider as ``True``."
+msgstr ""
+
+#: ../../user_guide/io.rst:177
+msgid "false_values : list, default ``None``"
+msgstr ""
+
+#: ../../user_guide/io.rst:178
+msgid "Values to consider as ``False``."
+msgstr ""
+
+#: ../../user_guide/io.rst:179
+msgid "skipinitialspace : boolean, default ``False``"
+msgstr ""
+
+#: ../../user_guide/io.rst:180
+msgid "Skip spaces after delimiter."
+msgstr ""
+
+#: ../../user_guide/io.rst:195
+msgid "skiprows : list-like or integer, default ``None``"
+msgstr ""
+
+#: ../../user_guide/io.rst:194
+msgid "list-like or integer, default None"
+msgstr ""
+
+#: ../../user_guide/io.rst:182
+msgid ""
+"Line numbers to skip (0-indexed) or number of lines to skip (int) at the "
+"start of the file."
+msgstr ""
+
+#: ../../user_guide/io.rst:185
+msgid ""
+"If callable, the callable function will be evaluated against the row "
+"indices, returning True if the row should be skipped and False otherwise:"
+msgstr ""
+
+#: ../../user_guide/io.rst:198
+msgid "skipfooter : int, default ``0``"
+msgstr ""
+
+#: ../../user_guide/io.rst:197
+msgid "int, default 0"
+msgstr ""
+
+#: ../../user_guide/io.rst:198
+msgid "Number of lines at bottom of file to skip (unsupported with engine='c')."
+msgstr ""
+
+#: ../../user_guide/io.rst:200
+msgid "nrows : int, default ``None``"
+msgstr ""
+
+#: ../../user_guide/io.rst:199 ../../user_guide/io.rst:282
+msgid "int, default None"
+msgstr ""
+
+#: ../../user_guide/io.rst:201
+msgid "Number of rows of file to read. Useful for reading pieces of large files."
+msgstr ""
+
+#: ../../user_guide/io.rst:207
+msgid "low_memory : boolean, default ``True``"
+msgstr ""
+
+#: ../../user_guide/io.rst:203
+msgid ""
+"Internally process the file in chunks, resulting in lower memory use "
+"while parsing, but possibly mixed type inference.  To ensure no mixed "
+"types either set ``False``, or specify the type with the ``dtype`` "
+"parameter. Note that the entire file is read into a single ``DataFrame`` "
+"regardless, use the ``chunksize`` or ``iterator`` parameter to return the"
+" data in chunks. (Only valid with C parser)"
+msgstr ""
+
+#: ../../user_guide/io.rst:212
+msgid "memory_map"
+msgstr ""
+
+#: ../../user_guide/io.rst:210
+msgid ""
+"If a filepath is provided for ``filepath_or_buffer``, map the file object"
+" directly onto memory and access the data directly from there. Using this"
+" option can improve performance because there is no longer any I/O "
+"overhead."
+msgstr ""
+
+#: ../../user_guide/io.rst:215
+msgid "NA and Missing Data Handling"
+msgstr ""
+
+#: ../../user_guide/io.rst:220
+msgid "na_values : scalar, str, list-like, or dict, default ``None``"
+msgstr ""
+
+#: ../../user_guide/io.rst:219
+msgid "scalar, str, list-like, or dict, default None"
+msgstr ""
+
+#: ../../user_guide/io.rst:218
+msgid ""
+"Additional strings to recognize as NA/NaN. If dict passed, specific per-"
+"column NA values. See :ref:`na values const <io.navaluesconst>` below for"
+" a list of the values interpreted as NaN by default."
+msgstr ""
+
+#: ../../user_guide/io.rst:235
+msgid "keep_default_na : boolean, default ``True``"
+msgstr ""
+
+#: ../../user_guide/io.rst:223
+msgid ""
+"Whether or not to include the default NaN values when parsing the data. "
+"Depending on whether `na_values` is passed in, the behavior is as "
+"follows:"
+msgstr ""
+
+#: ../../user_guide/io.rst:226
+msgid ""
+"If `keep_default_na` is ``True``, and `na_values` are specified, "
+"`na_values` is appended to the default NaN values used for parsing."
+msgstr ""
+
+#: ../../user_guide/io.rst:228
+msgid ""
+"If `keep_default_na` is ``True``, and `na_values` are not specified, only"
+" the default NaN values are used for parsing."
+msgstr ""
+
+#: ../../user_guide/io.rst:230
+msgid ""
+"If `keep_default_na` is ``False``, and `na_values` are specified, only "
+"the NaN values specified `na_values` are used for parsing."
+msgstr ""
+
+#: ../../user_guide/io.rst:232
+msgid ""
+"If `keep_default_na` is ``False``, and `na_values` are not specified, no "
+"strings will be parsed as NaN."
+msgstr ""
+
+#: ../../user_guide/io.rst:235
+msgid ""
+"Note that if `na_filter` is passed in as ``False``, the `keep_default_na`"
+" and `na_values` parameters will be ignored."
+msgstr ""
+
+#: ../../user_guide/io.rst:239
+msgid "na_filter : boolean, default ``True``"
+msgstr ""
+
+#: ../../user_guide/io.rst:238
+msgid ""
+"Detect missing value markers (empty strings and the value of na_values). "
+"In data without any NAs, passing ``na_filter=False`` can improve the "
+"performance of reading a large file."
+msgstr ""
+
+#: ../../user_guide/io.rst:241
+msgid "verbose : boolean, default ``False``"
+msgstr ""
+
+#: ../../user_guide/io.rst:242
+msgid "Indicate number of NA values placed in non-numeric columns."
+msgstr ""
+
+#: ../../user_guide/io.rst:244
+msgid "skip_blank_lines : boolean, default ``True``"
+msgstr ""
+
+#: ../../user_guide/io.rst:244
+msgid "If ``True``, skip over blank lines rather than interpreting as NaN values."
+msgstr ""
+
+#: ../../user_guide/io.rst:247
+msgid "Datetime Handling"
+msgstr ""
+
+#: ../../user_guide/io.rst:255
+msgid ""
+"parse_dates : boolean or list of ints or names or list of lists or dict, "
+"default ``False``."
+msgstr ""
+
+#: ../../user_guide/io.rst:254
+msgid "boolean or list of ints or names or list of lists or dict, default False."
+msgstr ""
+
+#: ../../user_guide/io.rst:250
+msgid "If ``True`` -> try parsing the index."
+msgstr ""
+
+#: ../../user_guide/io.rst:251
+msgid ""
+"If ``[1, 2, 3]`` ->  try parsing columns 1, 2, 3 each as a separate date "
+"column."
+msgstr ""
+
+#: ../../user_guide/io.rst:253
+msgid ""
+"If ``[[1, 3]]`` -> combine columns 1 and 3 and parse as a single date "
+"column."
+msgstr ""
+
+#: ../../user_guide/io.rst:255
+msgid ""
+"If ``{'foo': [1, 3]}`` -> parse columns 1, 3 as date and call result "
+"'foo'. A fast-path exists for iso8601-formatted dates."
+msgstr ""
+
+#: ../../user_guide/io.rst:258
+msgid "infer_datetime_format : boolean, default ``False``"
+msgstr ""
+
+#: ../../user_guide/io.rst:258
+msgid ""
+"If ``True`` and parse_dates is enabled for a column, attempt to infer the"
+" datetime format to speed up the processing."
+msgstr ""
+
+#: ../../user_guide/io.rst:261
+msgid "keep_date_col : boolean, default ``False``"
+msgstr ""
+
+#: ../../user_guide/io.rst:261
+msgid ""
+"If ``True`` and parse_dates specifies combining multiple columns then "
+"keep the original columns."
+msgstr ""
+
+#: ../../user_guide/io.rst:270
+msgid "date_parser : function, default ``None``"
+msgstr ""
+
+#: ../../user_guide/io.rst:269
+msgid "function, default None"
+msgstr ""
+
+#: ../../user_guide/io.rst:264
+msgid ""
+"Function to use for converting a sequence of string columns to an array "
+"of datetime instances. The default uses ``dateutil.parser.parser`` to do "
+"the conversion. Pandas will try to call date_parser in three different "
+"ways, advancing to the next if an exception occurs: 1) Pass one or more "
+"arrays (as defined by parse_dates) as arguments; 2) concatenate (row-"
+"wise) the string values from the columns defined by parse_dates into a "
+"single array and pass that; and 3) call date_parser once for each row "
+"using one or more strings (corresponding to the columns defined by "
+"parse_dates) as arguments."
+msgstr ""
+
+#: ../../user_guide/io.rst:273
+msgid "dayfirst : boolean, default ``False``"
+msgstr ""
+
+#: ../../user_guide/io.rst:273
+msgid "DD/MM format dates, international and European format."
+msgstr ""
+
+#: ../../user_guide/io.rst:276
+msgid "Iteration"
+msgstr ""
+
+#: ../../user_guide/io.rst:279
+msgid "iterator : boolean, default ``False``"
+msgstr ""
+
+#: ../../user_guide/io.rst:279
+msgid ""
+"Return `TextFileReader` object for iteration or getting chunks with "
+"``get_chunk()``."
+msgstr ""
+
+#: ../../user_guide/io.rst:283
+msgid "chunksize : int, default ``None``"
+msgstr ""
+
+#: ../../user_guide/io.rst:282
+msgid ""
+"Return `TextFileReader` object for iteration. See :ref:`iterating and "
+"chunking <io.chunking>` below."
+msgstr ""
+
+#: ../../user_guide/io.rst:286
+msgid "Quoting, Compression, and File Format"
+msgstr ""
+
+#: ../../user_guide/io.rst:295
+msgid ""
+"compression : {``'infer'``, ``'gzip'``, ``'bz2'``, ``'zip'``, ``'xz'``, "
+"``None``}, default ``'infer'``"
+msgstr ""
+
+#: ../../user_guide/io.rst:294
+msgid "{'infer', 'gzip', 'bz2', 'zip', 'xz', None}, default 'infer'"
+msgstr ""
+
+#: ../../user_guide/io.rst:289
+msgid ""
+"For on-the-fly decompression of on-disk data. If 'infer', then use gzip, "
+"bz2, zip, or xz if filepath_or_buffer is a string ending in '.gz', "
+"'.bz2', '.zip', or '.xz', respectively, and no decompression otherwise. "
+"If using 'zip', the ZIP file must contain only one data file to be read "
+"in. Set to ``None`` for no decompression."
+msgstr ""
+
+#: ../../user_guide/io.rst:295
+msgid "support for 'zip' and 'xz' compression."
+msgstr ""
+
+#: ../../user_guide/io.rst:296
+msgid "'infer' option added and set to default."
+msgstr ""
+
+#: ../../user_guide/io.rst:297
+msgid "thousands : str, default ``None``"
+msgstr ""
+
+#: ../../user_guide/io.rst:298
+msgid "Thousands separator."
+msgstr ""
+
+#: ../../user_guide/io.rst:299
+msgid "decimal : str, default ``'.'``"
+msgstr ""
+
+#: ../../user_guide/io.rst:298
+msgid "str, default '.'"
+msgstr ""
+
+#: ../../user_guide/io.rst:300
+msgid ""
+"Character to recognize as decimal point. E.g. use ``','`` for European "
+"data."
+msgstr ""
+
+#: ../../user_guide/io.rst:303
+msgid "float_precision"
+msgstr ""
+
+#: ../../user_guide/io.rst:302
+msgid "string, default None"
+msgstr ""
+
+#: ../../user_guide/io.rst:302
+msgid ""
+"Specifies which converter the C engine should use for floating-point "
+"values. The options are ``None`` for the ordinary converter, ``high`` for"
+" the high-precision converter, and ``round_trip`` for the round-trip "
+"converter."
+msgstr ""
+
+#: ../../user_guide/io.rst:305
+msgid "lineterminator : str (length 1), default ``None``"
+msgstr ""
+
+#: ../../user_guide/io.rst:304 ../../user_guide/io.rst:317
+msgid "str (length 1), default None"
+msgstr ""
+
+#: ../../user_guide/io.rst:306
+msgid "Character to break file into lines. Only valid with C parser."
+msgstr ""
+
+#: ../../user_guide/io.rst:308
+msgid "quotechar"
+msgstr ""
+
+#: ../../user_guide/io.rst:307
+msgid "str (length 1)"
+msgstr ""
+
+#: ../../user_guide/io.rst:308
+msgid ""
+"The character used to denote the start and end of a quoted item. Quoted "
+"items can include the delimiter and it will be ignored."
+msgstr ""
+
+#: ../../user_guide/io.rst:312
+msgid "quoting : int or ``csv.QUOTE_*`` instance, default ``0``"
+msgstr ""
+
+#: ../../user_guide/io.rst:311
+msgid "int or csv.QUOTE_* instance, default 0"
+msgstr ""
+
+#: ../../user_guide/io.rst:311
+msgid ""
+"Control field quoting behavior per ``csv.QUOTE_*`` constants. Use one of "
+"``QUOTE_MINIMAL`` (0), ``QUOTE_ALL`` (1), ``QUOTE_NONNUMERIC`` (2) or "
+"``QUOTE_NONE`` (3)."
+msgstr ""
+
+#: ../../user_guide/io.rst:316
+msgid "doublequote : boolean, default ``True``"
+msgstr ""
+
+#: ../../user_guide/io.rst:315
+msgid ""
+"When ``quotechar`` is specified and ``quoting`` is not ``QUOTE_NONE``, "
+"indicate whether or not to interpret two consecutive ``quotechar`` "
+"elements **inside** a field as a single ``quotechar`` element."
+msgstr ""
+
+#: ../../user_guide/io.rst:318
+msgid "escapechar : str (length 1), default ``None``"
+msgstr ""
+
+#: ../../user_guide/io.rst:319
+msgid ""
+"One-character string used to escape delimiter when quoting is "
+"``QUOTE_NONE``."
+msgstr ""
+
+#: ../../user_guide/io.rst:325
+msgid "comment : str, default ``None``"
+msgstr ""
+
+#: ../../user_guide/io.rst:321
+msgid ""
+"Indicates remainder of line should not be parsed. If found at the "
+"beginning of a line, the line will be ignored altogether. This parameter "
+"must be a single character. Like empty lines (as long as "
+"``skip_blank_lines=True``), fully commented lines are ignored by the "
+"parameter `header` but not by `skiprows`. For example, if "
+"``comment='#'``, parsing '#empty\\\\na,b,c\\\\n1,2,3' with `header=0` "
+"will result in 'a,b,c' being treated as the header."
+msgstr ""
+
+#: ../../user_guide/io.rst:329
+msgid "encoding : str, default ``None``"
+msgstr ""
+
+#: ../../user_guide/io.rst:328
+msgid ""
+"Encoding to use for UTF when reading/writing (e.g. ``'utf-8'``). `List of"
+" Python standard encodings <https://docs.python.org/3/library/codecs.html"
+"#standard-encodings>`_."
+msgstr ""
+
+#: ../../user_guide/io.rst:335
+msgid "dialect : str or :class:`python:csv.Dialect` instance, default ``None``"
+msgstr ""
+
+#: ../../user_guide/io.rst:334
+msgid "str or python:csv.Dialect instance, default None"
+msgstr ""
+
+#: ../../user_guide/io.rst:332
+msgid ""
+"If provided, this parameter will override values (default or not) for the"
+" following parameters: `delimiter`, `doublequote`, `escapechar`, "
+"`skipinitialspace`, `quotechar`, and `quoting`. If it is necessary to "
+"override values, a ParserWarning will be issued. See "
+":class:`python:csv.Dialect` documentation for more details."
+msgstr ""
+
+#: ../../user_guide/io.rst:343
+msgid "tupleize_cols : boolean, default ``False``"
+msgstr ""
+
+#: ../../user_guide/io.rst:340
+msgid "This argument will be removed and will always convert to MultiIndex"
+msgstr ""
+
+#: ../../user_guide/io.rst:342
+msgid ""
+"Leave a list of tuples on columns as is (default is to convert to a "
+"MultiIndex on the columns)."
+msgstr ""
+
+#: ../../user_guide/io.rst:346
+msgid "Error Handling"
+msgstr ""
+
+#: ../../user_guide/io.rst:352
+msgid "error_bad_lines : boolean, default ``True``"
+msgstr ""
+
+#: ../../user_guide/io.rst:349
+msgid ""
+"Lines with too many fields (e.g. a csv line with too many commas) will by"
+" default cause an exception to be raised, and no ``DataFrame`` will be "
+"returned. If ``False``, then these \"bad lines\" will dropped from the "
+"``DataFrame`` that is returned. See :ref:`bad lines <io.bad_lines>` "
+"below."
+msgstr ""
+
+#: ../../user_guide/io.rst:356
+msgid "warn_bad_lines : boolean, default ``True``"
+msgstr ""
+
+#: ../../user_guide/io.rst:355
+msgid ""
+"If error_bad_lines is ``False``, and warn_bad_lines is ``True``, a "
+"warning for each \"bad line\" will be output."
+msgstr ""
+
+#: ../../user_guide/io.rst:361
+msgid "Specifying column data types"
+msgstr ""
+
+#: ../../user_guide/io.rst:363
+msgid ""
+"You can indicate the data type for the whole ``DataFrame`` or individual "
+"columns:"
+msgstr ""
+
+#: ../../user_guide/io.rst:381
+msgid ""
+"Fortunately, pandas offers more than one way to ensure that your "
+"column(s) contain only one ``dtype``. If you're unfamiliar with these "
+"concepts, you can see :ref:`here<basics.dtypes>` to learn more about "
+"dtypes, and :ref:`here<basics.object_conversion>` to learn more about "
+"``object`` conversion in pandas."
+msgstr ""
+
+#: ../../user_guide/io.rst:388
+msgid ""
+"For instance, you can use the ``converters`` argument of "
+":func:`~pandas.read_csv`:"
+msgstr ""
+
+#: ../../user_guide/io.rst:402
+msgid ""
+"Or you can use the :func:`~pandas.to_numeric` function to coerce the "
+"dtypes after reading in the data,"
+msgstr ""
+
+#: ../../user_guide/io.rst:412
+msgid ""
+"which will convert all valid parsing to floats, leaving the invalid "
+"parsing as ``NaN``."
+msgstr ""
+
+#: ../../user_guide/io.rst:415
+msgid ""
+"Ultimately, how you deal with reading in columns containing mixed dtypes "
+"depends on your specific needs. In the case above, if you wanted to "
+"``NaN`` out the data anomalies, then :func:`~pandas.to_numeric` is "
+"probably your best option. However, if you wanted for all the data to be "
+"coerced, no matter the type, then using the ``converters`` argument of "
+":func:`~pandas.read_csv` would certainly be worth trying."
+msgstr ""
+
+#: ../../user_guide/io.rst:424
+msgid "The ``dtype`` option is supported by the 'python' engine."
+msgstr ""
+
+#: ../../user_guide/io.rst:427
+msgid ""
+"In some cases, reading in abnormal data with columns containing mixed "
+"dtypes will result in an inconsistent dataset. If you rely on pandas to "
+"infer the dtypes of your columns, the parsing engine will go and infer "
+"the dtypes for different chunks of the data, rather than the whole "
+"dataset at once. Consequently, you can end up with column(s) with mixed "
+"dtypes. For example,"
+msgstr ""
+
+#: ../../user_guide/io.rst:443
+msgid ""
+"will result with `mixed_df` containing an ``int`` dtype for certain "
+"chunks of the column, and ``str`` for others due to the mixed dtypes from"
+" the data that was read in. It is important to note that the overall "
+"column will be marked with a ``dtype`` of ``object``, which is used for "
+"columns with mixed dtypes."
+msgstr ""
+
+#: ../../user_guide/io.rst:458
+msgid "Specifying Categorical dtype"
+msgstr ""
+
+#: ../../user_guide/io.rst:462
+msgid ""
+"``Categorical`` columns can be parsed directly by specifying "
+"``dtype='category'`` or ``dtype=CategoricalDtype(categories, ordered)``."
+msgstr ""
+
+#: ../../user_guide/io.rst:476
+msgid ""
+"Individual columns can be parsed as a ``Categorical`` using a dict "
+"specification:"
+msgstr ""
+
+#: ../../user_guide/io.rst:485
+msgid ""
+"Specifying ``dtype='cateogry'`` will result in an unordered "
+"``Categorical`` whose ``categories`` are the unique values observed in "
+"the data. For more control on the categories and order, create a "
+":class:`~pandas.api.types.CategoricalDtype` ahead of time, and pass that "
+"for that column's ``dtype``."
+msgstr ""
+
+#: ../../user_guide/io.rst:497
+msgid ""
+"When using ``dtype=CategoricalDtype``, \"unexpected\" values outside of "
+"``dtype.categories`` are treated as missing values."
+msgstr ""
+
+#: ../../user_guide/io.rst:505
+msgid "This matches the behavior of :meth:`Categorical.set_categories`."
+msgstr ""
+
+#: ../../user_guide/io.rst:509
+msgid ""
+"With ``dtype='category'``, the resulting categories will always be parsed"
+" as strings (object dtype). If the categories are numeric they can be "
+"converted using the :func:`to_numeric` function, or as appropriate, "
+"another converter such as :func:`to_datetime`."
+msgstr ""
+
+#: ../../user_guide/io.rst:514
+msgid ""
+"When ``dtype`` is a ``CategoricalDtype`` with homogeneous ``categories`` "
+"( all numeric, all datetimes, etc.), the conversion is done "
+"automatically."
+msgstr ""
+
+#: ../../user_guide/io.rst:527
+msgid "Naming and Using Columns"
+msgstr ""
+
+#: ../../user_guide/io.rst:532
+msgid "Handling column names"
+msgstr ""
+
+#: ../../user_guide/io.rst:534
+msgid ""
+"A file may or may not have a header row. pandas assumes the first row "
+"should be used as the column names:"
+msgstr ""
+
+#: ../../user_guide/io.rst:546
+msgid ""
+"By specifying the ``names`` argument in conjunction with ``header`` you "
+"can indicate other names to use and whether or not to throw away the "
+"header row (if any):"
+msgstr ""
+
+#: ../../user_guide/io.rst:556
+msgid ""
+"If the header is in a row other than the first, pass the row number to "
+"``header``. This will skip the preceding rows:"
+msgstr ""
+
+#: ../../user_guide/io.rst:570
+msgid ""
+"Default behavior is to infer the column names: if no names are passed the"
+" behavior is identical to ``header=0`` and column names are inferred from"
+" the first non-blank line of the file, if column names are passed "
+"explicitly then the behavior is identical to ``header=None``."
+msgstr ""
+
+#: ../../user_guide/io.rst:579
+msgid "Duplicate names parsing"
+msgstr ""
+
+#: ../../user_guide/io.rst:581
+msgid ""
+"If the file or header contains duplicate names, pandas will by default "
+"distinguish between them so as to prevent overwriting data:"
+msgstr ""
+
+#: ../../user_guide/io.rst:591
+msgid ""
+"There is no more duplicate data because ``mangle_dupe_cols=True`` by "
+"default, which modifies a series of duplicate columns 'X', ..., 'X' to "
+"become 'X', 'X.1', ..., 'X.N'.  If ``mangle_dupe_cols=False``, duplicate "
+"data can arise:"
+msgstr ""
+
+#: ../../user_guide/io.rst:605
+msgid ""
+"To prevent users from encountering this problem with duplicate data, a "
+"``ValueError`` exception is raised if ``mangle_dupe_cols != True``:"
+msgstr ""
+
+#: ../../user_guide/io.rst:618
+msgid "Filtering columns (``usecols``)"
+msgstr ""
+
+#: ../../user_guide/io.rst:620
+msgid ""
+"The ``usecols`` argument allows you to select any subset of the columns "
+"in a file, either using the column names, position numbers or a callable:"
+msgstr ""
+
+#: ../../user_guide/io.rst:623
+msgid "support for callable `usecols` arguments"
+msgstr ""
+
+#: ../../user_guide/io.rst:633
+msgid ""
+"The ``usecols`` argument can also be used to specify which columns not to"
+" use in the final result:"
+msgstr ""
+
+#: ../../user_guide/io.rst:640
+msgid ""
+"In this case, the callable is specifying that we exclude the \"a\" and "
+"\"c\" columns from the output."
+msgstr ""
+
+#: ../../user_guide/io.rst:644
+msgid "Comments and Empty Lines"
+msgstr ""
+
+#: ../../user_guide/io.rst:649
+msgid "Ignoring line comments and empty lines"
+msgstr ""
+
+#: ../../user_guide/io.rst:651
+msgid ""
+"If the ``comment`` parameter is specified, then completely commented "
+"lines will be ignored. By default, completely blank lines will be ignored"
+" as well."
+msgstr ""
+
+#: ../../user_guide/io.rst:666
+msgid ""
+"If ``skip_blank_lines=False``, then ``read_csv`` will not ignore blank "
+"lines:"
+msgstr ""
+
+#: ../../user_guide/io.rst:680
+msgid ""
+"The presence of ignored lines might create ambiguities involving line "
+"numbers; the parameter ``header`` uses row numbers (ignoring "
+"commented/empty lines), while ``skiprows`` uses line numbers (including "
+"commented/empty lines):"
+msgstr ""
+
+#: ../../user_guide/io.rst:697
+msgid ""
+"If both ``header`` and ``skiprows`` are specified, ``header`` will be "
+"relative to the end of ``skiprows``. For example:"
+msgstr ""
+
+#: ../../user_guide/io.rst:716
+msgid "Comments"
+msgstr ""
+
+#: ../../user_guide/io.rst:718
+msgid "Sometimes comments or meta data may be included in a file:"
+msgstr ""
+
+#: ../../user_guide/io.rst:735
+msgid "By default, the parser includes the comments in the output:"
+msgstr ""
+
+#: ../../user_guide/io.rst:742
+msgid "We can suppress the comments using the ``comment`` keyword:"
+msgstr ""
+
+#: ../../user_guide/io.rst:757
+msgid "Dealing with Unicode Data"
+msgstr ""
+
+#: ../../user_guide/io.rst:759
+msgid ""
+"The ``encoding`` argument should be used for encoded unicode data, which "
+"will result in byte strings being decoded to unicode in the result:"
+msgstr ""
+
+#: ../../user_guide/io.rst:772
+msgid ""
+"Some formats which encode all characters as multiple bytes, like UTF-16, "
+"won't parse correctly at all without specifying the encoding. `Full list "
+"of Python standard encodings "
+"<https://docs.python.org/3/library/codecs.html#standard-encodings>`_."
+msgstr ""
+
+#: ../../user_guide/io.rst:780
+msgid "Index columns and trailing delimiters"
+msgstr ""
+
+#: ../../user_guide/io.rst:782
+msgid ""
+"If a file has one more column of data than the number of column names, "
+"the first column will be used as the ``DataFrame``'s row names:"
+msgstr ""
+
+#: ../../user_guide/io.rst:799
+msgid "Ordinarily, you can achieve this behavior using the ``index_col`` option."
+msgstr ""
+
+#: ../../user_guide/io.rst:801
+msgid ""
+"There are some exception cases when a file has been prepared with "
+"delimiters at the end of each data line, confusing the parser. To "
+"explicitly disable the index column inference and discard the last "
+"column, pass ``index_col=False``:"
+msgstr ""
+
+#: ../../user_guide/io.rst:814
+msgid ""
+"If a subset of data is being parsed using the ``usecols`` option, the "
+"``index_col`` specification is based on that subset, not the original "
+"data."
+msgstr ""
+
+#: ../../user_guide/io.rst:829 ../../user_guide/io.rst:1867
+msgid "Date Handling"
+msgstr ""
+
+#: ../../user_guide/io.rst:832
+msgid "Specifying Date Columns"
+msgstr ""
+
+#: ../../user_guide/io.rst:834
+msgid ""
+"To better facilitate working with datetime data, :func:`read_csv` uses "
+"the keyword arguments ``parse_dates`` and ``date_parser`` to allow users "
+"to specify a variety of columns and date/time formats to turn the input "
+"text data into ``datetime`` objects."
+msgstr ""
+
+#: ../../user_guide/io.rst:839
+msgid "The simplest case is to just pass in ``parse_dates=True``:"
+msgstr ""
+
+#: ../../user_guide/io.rst:857
+msgid ""
+"It is often the case that we may want to store date and time data "
+"separately, or store various date fields separately. the ``parse_dates`` "
+"keyword can be used to specify a combination of columns to parse the "
+"dates and/or times from."
+msgstr ""
+
+#: ../../user_guide/io.rst:861
+msgid ""
+"You can specify a list of column lists to ``parse_dates``, the resulting "
+"date columns will be prepended to the output (so as to not affect the "
+"existing column order) and the new column names will be the concatenation"
+" of the component column names:"
+msgstr ""
+
+#: ../../user_guide/io.rst:885
+msgid ""
+"By default the parser removes the component date columns, but you can "
+"choose to retain them via the ``keep_date_col`` keyword:"
+msgstr ""
+
+#: ../../user_guide/io.rst:894
+msgid ""
+"Note that if you wish to combine multiple columns into a single date "
+"column, a nested list must be used. In other words, ``parse_dates=[1, "
+"2]`` indicates that the second and third columns should each be parsed as"
+" separate date columns while ``parse_dates=[[1, 2]]`` means the two "
+"columns should be parsed into a single column."
+msgstr ""
+
+#: ../../user_guide/io.rst:900
+msgid "You can also use a dict to specify custom name columns:"
+msgstr ""
+
+#: ../../user_guide/io.rst:908
+msgid ""
+"It is important to remember that if multiple text columns are to be "
+"parsed into a single date column, then a new column is prepended to the "
+"data. The `index_col` specification is based off of this new set of "
+"columns rather than the original data columns:"
+msgstr ""
+
+#: ../../user_guide/io.rst:922
+msgid ""
+"If a column or index contains an unparsable date, the entire column or "
+"index will be returned unaltered as an object data type. For non-standard"
+" datetime parsing, use :func:`to_datetime` after ``pd.read_csv``."
+msgstr ""
+
+#: ../../user_guide/io.rst:928
+msgid ""
+"read_csv has a fast_path for parsing datetime strings in iso8601 format, "
+"e.g \"2000-01-01T00:01:02+00:00\" and similar variations. If you can "
+"arrange for your data to store datetimes in this format, load times will "
+"be significantly faster, ~20x has been observed."
+msgstr ""
+
+#: ../../user_guide/io.rst:936
+msgid ""
+"When passing a dict as the `parse_dates` argument, the order of the "
+"columns prepended is not guaranteed, because `dict` objects do not impose"
+" an ordering on their keys. On Python 2.7+ you may use "
+"`collections.OrderedDict` instead of a regular `dict` if this matters to "
+"you. Because of this, when using a dict for 'parse_dates' in conjunction "
+"with the `index_col` argument, it's best to specify `index_col` as a "
+"column label rather then as an index on the resulting frame."
+msgstr ""
+
+#: ../../user_guide/io.rst:945
+msgid "Date Parsing Functions"
+msgstr ""
+
+#: ../../user_guide/io.rst:947
+msgid ""
+"Finally, the parser allows you to specify a custom ``date_parser`` "
+"function to take full advantage of the flexibility of the date parsing "
+"API:"
+msgstr ""
+
+#: ../../user_guide/io.rst:956
+msgid ""
+"Pandas will try to call the ``date_parser`` function in three different "
+"ways. If an exception is raised, the next one is tried:"
+msgstr ""
+
+#: ../../user_guide/io.rst:959
+msgid ""
+"``date_parser`` is first called with one or more arrays as arguments, as "
+"defined using `parse_dates` (e.g., ``date_parser(['2013', '2013'], ['1', "
+"'2'])``)."
+msgstr ""
+
+#: ../../user_guide/io.rst:962
+msgid ""
+"If #1 fails, ``date_parser`` is called with all the columns concatenated "
+"row-wise into a single array (e.g., ``date_parser(['2013 1', '2013 "
+"2'])``)."
+msgstr ""
+
+#: ../../user_guide/io.rst:965
+msgid ""
+"If #2 fails, ``date_parser`` is called once for every row with one or "
+"more string arguments from the columns indicated with `parse_dates` "
+"(e.g., ``date_parser('2013', '1')`` for the first row, "
+"``date_parser('2013', '2')`` for the second, etc.)."
+msgstr ""
+
+#: ../../user_guide/io.rst:970
+msgid ""
+"Note that performance-wise, you should try these methods of parsing dates"
+" in order:"
+msgstr ""
+
+#: ../../user_guide/io.rst:972
+msgid ""
+"Try to infer the format using ``infer_datetime_format=True`` (see section"
+" below)."
+msgstr ""
+
+#: ../../user_guide/io.rst:974
+msgid ""
+"If you know the format, use ``pd.to_datetime()``: ``date_parser=lambda x:"
+" pd.to_datetime(x, format=...)``."
+msgstr ""
+
+#: ../../user_guide/io.rst:977
+msgid ""
+"If you have a really non-standard format, use a custom ``date_parser`` "
+"function. For optimal performance, this should be vectorized, i.e., it "
+"should accept arrays as arguments."
+msgstr ""
+
+#: ../../user_guide/io.rst:981
+msgid ""
+"You can explore the date parsing functionality in `date_converters.py "
+"<https://github.com/pandas-"
+"dev/pandas/blob/master/pandas/io/date_converters.py>`__ and add your own."
+" We would love to turn this module into a community supported set of "
+"date/time parsers. To get you started, ``date_converters.py`` contains "
+"functions to parse dual date and time columns, year/month/day columns, "
+"and year/month/day/hour/minute/second columns. It also contains a "
+"``generic_parser`` function so you can curry it with a function that "
+"deals with a single date rather than the entire array."
+msgstr ""
+
+#: ../../user_guide/io.rst:999
+msgid "Parsing a CSV with mixed Timezones"
+msgstr ""
+
+#: ../../user_guide/io.rst:1001
+msgid ""
+"Pandas cannot natively represent a column or index with mixed timezones. "
+"If your CSV file contains columns with a mixture of timezones, the "
+"default result will be an object-dtype column with strings, even with "
+"``parse_dates``."
+msgstr ""
+
+#: ../../user_guide/io.rst:1015
+msgid ""
+"To parse the mixed-timezone values as a datetime column, pass a "
+"partially-applied :func:`to_datetime` with ``utc=True`` as the "
+"``date_parser``."
+msgstr ""
+
+#: ../../user_guide/io.rst:1029
+msgid "Inferring Datetime Format"
+msgstr ""
+
+#: ../../user_guide/io.rst:1031
+msgid ""
+"If you have ``parse_dates`` enabled for some or all of your columns, and "
+"your datetime strings are all formatted the same way, you may get a large"
+" speed up by setting ``infer_datetime_format=True``.  If set, pandas will"
+" attempt to guess the format of your datetime strings, and then use a "
+"faster means of parsing the strings.  5-10x parsing speeds have been "
+"observed.  pandas will fallback to the usual parsing if either the format"
+" cannot be guessed or the format that was guessed cannot properly parse "
+"the entire column of strings.  So in general, ``infer_datetime_format`` "
+"should not have any negative consequences if enabled."
+msgstr ""
+
+#: ../../user_guide/io.rst:1041
+msgid ""
+"Here are some examples of datetime strings that can be guessed (All "
+"representing December 30th, 2011 at 00:00:00):"
+msgstr ""
+
+#: ../../user_guide/io.rst:1044
+msgid "\"20111230\""
+msgstr ""
+
+#: ../../user_guide/io.rst:1045
+msgid "\"2011/12/30\""
+msgstr ""
+
+#: ../../user_guide/io.rst:1046
+msgid "\"20111230 00:00:00\""
+msgstr ""
+
+#: ../../user_guide/io.rst:1047
+msgid "\"12/30/2011 00:00:00\""
+msgstr ""
+
+#: ../../user_guide/io.rst:1048
+msgid "\"30/Dec/2011 00:00:00\""
+msgstr ""
+
+#: ../../user_guide/io.rst:1049
+msgid "\"30/December/2011 00:00:00\""
+msgstr ""
+
+#: ../../user_guide/io.rst:1051
+msgid ""
+"Note that ``infer_datetime_format`` is sensitive to ``dayfirst``.  With "
+"``dayfirst=True``, it will guess \"01/12/2011\" to be December 1st. With "
+"``dayfirst=False`` (default) it will guess \"01/12/2011\" to be January "
+"12th."
+msgstr ""
+
+#: ../../user_guide/io.rst:1068
+msgid "International Date Formats"
+msgstr ""
+
+#: ../../user_guide/io.rst:1070
+msgid ""
+"While US date formats tend to be MM/DD/YYYY, many international formats "
+"use DD/MM/YYYY instead. For convenience, a ``dayfirst`` keyword is "
+"provided:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1093
+msgid "Specifying method for floating-point conversion"
+msgstr ""
+
+#: ../../user_guide/io.rst:1095
+msgid ""
+"The parameter ``float_precision`` can be specified in order to use a "
+"specific floating-point converter during parsing with the C engine. The "
+"options are the ordinary converter, the high-precision converter, and the"
+" round-trip converter (which is guaranteed to round-trip values after "
+"writing to a file). For example:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1116
+msgid "Thousand Separators"
+msgstr ""
+
+#: ../../user_guide/io.rst:1118
+msgid ""
+"For large numbers that have been written with a thousands separator, you "
+"can set the ``thousands`` keyword to a string of length 1 so that "
+"integers will be parsed correctly:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1133
+msgid "By default, numbers with a thousands separator will be parsed as strings:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1143
+msgid "The ``thousands`` keyword allows integers to be parsed correctly:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1161
+msgid "NA Values"
+msgstr ""
+
+#: ../../user_guide/io.rst:1163
+msgid ""
+"To control which values are parsed as missing values (which are signified"
+" by ``NaN``), specify a string in ``na_values``. If you specify a list of"
+" strings, then all values in it are considered to be missing values. If "
+"you specify a number (a ``float``, like ``5.0`` or an ``integer`` like "
+"``5``), the corresponding equivalent values will also imply a missing "
+"value (in this case effectively ``[5.0, 5]`` are recognized as ``NaN``)."
+msgstr ""
+
+#: ../../user_guide/io.rst:1170
+msgid ""
+"To completely override the default values that are recognized as missing,"
+" specify ``keep_default_na=False``."
+msgstr ""
+
+#: ../../user_guide/io.rst:1174
+msgid ""
+"The default ``NaN`` recognized values are ``['-1.#IND', '1.#QNAN', "
+"'1.#IND', '-1.#QNAN', '#N/A N/A', '#N/A', 'N/A', 'n/a', 'NA', '#NA', "
+"'NULL', 'null', 'NaN', '-NaN', 'nan', '-nan', '']``."
+msgstr ""
+
+#: ../../user_guide/io.rst:1177
+msgid "Let us consider some examples:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1183
+msgid ""
+"In the example above ``5`` and ``5.0`` will be recognized as ``NaN``, in "
+"addition to the defaults. A string will first be interpreted as a "
+"numerical ``5``, then as a ``NaN``."
+msgstr ""
+
+#: ../../user_guide/io.rst:1191
+msgid "Above, only an empty field will be recognized as ``NaN``."
+msgstr ""
+
+#: ../../user_guide/io.rst:1197
+msgid "Above, both ``NA`` and ``0`` as strings are ``NaN``."
+msgstr ""
+
+#: ../../user_guide/io.rst:1203
+msgid ""
+"The default values, in addition to the string ``\"Nope\"`` are recognized"
+" as ``NaN``."
+msgstr ""
+
+#: ../../user_guide/io.rst:1209
+msgid "Infinity"
+msgstr ""
+
+#: ../../user_guide/io.rst:1211
+msgid ""
+"``inf`` like values will be parsed as ``np.inf`` (positive infinity), and"
+" ``-inf`` as ``-np.inf`` (negative infinity). These will ignore the case "
+"of the value, meaning ``Inf``, will also be parsed as ``np.inf``."
+msgstr ""
+
+#: ../../user_guide/io.rst:1216
+msgid "Returning Series"
+msgstr ""
+
+#: ../../user_guide/io.rst:1218
+msgid ""
+"Using the ``squeeze`` keyword, the parser will return output with a "
+"single column as a ``Series``:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1249
+msgid "Boolean values"
+msgstr ""
+
+#: ../../user_guide/io.rst:1251
+msgid ""
+"The common values ``True``, ``False``, ``TRUE``, and ``FALSE`` are all "
+"recognized as boolean. Occasionally you might want to recognize other "
+"values as being boolean. To do this, use the ``true_values`` and "
+"``false_values`` options as follows:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1268
+msgid "Handling \"bad\" lines"
+msgstr ""
+
+#: ../../user_guide/io.rst:1270
+msgid ""
+"Some files may have malformed lines with too few fields or too many. "
+"Lines with too few fields will have NA values filled in the trailing "
+"fields. Lines with too many fields will raise an error by default:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1283
+msgid "You can elect to skip bad lines:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1295
+msgid ""
+"You can also use the ``usecols`` parameter to eliminate extraneous column"
+" data that appear in some lines but not others:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1311
+msgid "Dialect"
+msgstr ""
+
+#: ../../user_guide/io.rst:1313
+msgid ""
+"The ``dialect`` keyword gives greater flexibility in specifying the file "
+"format. By default it uses the Excel dialect but you can specify either "
+"the dialect name or a :class:`python:csv.Dialect` instance."
+msgstr ""
+
+#: ../../user_guide/io.rst:1324
+msgid "Suppose you had data with unenclosed quotes:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1330
+msgid ""
+"By default, ``read_csv`` uses the Excel dialect and treats the double "
+"quote as the quote character, which causes it to fail when it finds a "
+"newline before it finds the closing double quote."
+msgstr ""
+
+#: ../../user_guide/io.rst:1334
+msgid "We can get around this using ``dialect``:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1344
+msgid ""
+"All of the dialect options can be specified separately by keyword "
+"arguments:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1351
+msgid ""
+"Another common dialect option is ``skipinitialspace``, to skip any "
+"whitespace after a delimiter:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1360
+msgid ""
+"The parsers make every attempt to \"do the right thing\" and not be "
+"fragile. Type inference is a pretty big deal. If a column can be coerced "
+"to integer dtype without altering the contents, the parser will do so. "
+"Any non-numeric columns will come through as object dtype as with the "
+"rest of pandas objects."
+msgstr ""
+
+#: ../../user_guide/io.rst:1368
+msgid "Quoting and Escape Characters"
+msgstr ""
+
+#: ../../user_guide/io.rst:1370
+msgid ""
+"Quotes (and other escape characters) in embedded fields can be handled in"
+" any number of ways. One way is to use backslashes; to properly parse "
+"this data, you should pass the ``escapechar`` option:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1383
+msgid "Files with Fixed Width Columns"
+msgstr ""
+
+#: ../../user_guide/io.rst:1385
+msgid ""
+"While :func:`read_csv` reads delimited data, the :func:`read_fwf` "
+"function works with data files that have known and fixed column widths. "
+"The function parameters to ``read_fwf`` are largely the same as "
+"`read_csv` with two extra parameters, and a different usage of the "
+"``delimiter`` parameter:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1390
+msgid ""
+"``colspecs``: A list of pairs (tuples) giving the extents of the fixed-"
+"width fields of each line as half-open intervals (i.e.,  [from, to[ ). "
+"String value 'infer' can be used to instruct the parser to try detecting "
+"the column specifications from the first 100 rows of the data. Default "
+"behavior, if not specified, is to infer."
+msgstr ""
+
+#: ../../user_guide/io.rst:1395
+msgid ""
+"``widths``: A list of field widths which can be used instead of "
+"'colspecs' if the intervals are contiguous."
+msgstr ""
+
+#: ../../user_guide/io.rst:1397
+msgid ""
+"``delimiter``: Characters to consider as filler characters in the fixed-"
+"width file. Can be used to specify the filler character of the fields if "
+"it is not spaces (e.g., '~')."
+msgstr ""
+
+#: ../../user_guide/io.rst:1413
+msgid "Consider a typical fixed-width data file:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1419
+msgid ""
+"In order to parse this file into a ``DataFrame``, we simply need to "
+"supply the column specifications to the `read_fwf` function along with "
+"the file name:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1429
+msgid ""
+"Note how the parser automatically picks column names X.<column number> "
+"when ``header=None`` argument is specified. Alternatively, you can supply"
+" just the column widths for contiguous columns:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1440
+msgid ""
+"The parser will take care of extra white spaces around the columns so "
+"it's ok to have extra separation between the columns in the file."
+msgstr ""
+
+#: ../../user_guide/io.rst:1443
+msgid ""
+"By default, ``read_fwf`` will try to infer the file's ``colspecs`` by "
+"using the first 100 rows of the file. It can do it only in cases when the"
+" columns are aligned and correctly separated by the provided "
+"``delimiter`` (default delimiter is whitespace)."
+msgstr ""
+
+#: ../../user_guide/io.rst:1455
+msgid ""
+"``read_fwf`` supports the ``dtype`` parameter for specifying the types of"
+" parsed columns to be different from the inferred type."
+msgstr ""
+
+#: ../../user_guide/io.rst:1470
+msgid "Indexes"
+msgstr ""
+
+#: ../../user_guide/io.rst:1473
+msgid "Files with an \"implicit\" index column"
+msgstr ""
+
+#: ../../user_guide/io.rst:1482
+msgid ""
+"Consider a file with one less entry in the header than the number of data"
+" column:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1489
+msgid ""
+"In this special case, ``read_csv`` assumes that the first column is to be"
+" used as the index of the ``DataFrame``:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1496
+msgid ""
+"Note that the dates weren't automatically parsed. In that case you would "
+"need to do as before:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1511
+msgid "Reading an index with a ``MultiIndex``"
+msgstr ""
+
+#: ../../user_guide/io.rst:1515
+msgid "Suppose you have data indexed by two columns:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1521
+msgid ""
+"The ``index_col`` argument to ``read_csv`` can take a list of column "
+"numbers to turn multiple columns into a ``MultiIndex`` for the index of "
+"the returned object:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1534
+msgid "Reading columns with a ``MultiIndex``"
+msgstr ""
+
+#: ../../user_guide/io.rst:1536
+msgid ""
+"By specifying list of row locations for the ``header`` argument, you can "
+"read in a ``MultiIndex`` for the columns. Specifying non-consecutive rows"
+" will skip the intervening rows."
+msgstr ""
+
+#: ../../user_guide/io.rst:1548
+msgid ""
+"``read_csv`` is also able to interpret a more common format of multi-"
+"columns indices."
+msgstr ""
+
+#: ../../user_guide/io.rst:1564
+msgid ""
+"Note: If an ``index_col`` is not specified (e.g. you don't have an index,"
+" or wrote it with ``df.to_csv(..., index=False)``, then any ``names`` on "
+"the columns index will be *lost*."
+msgstr ""
+
+#: ../../user_guide/io.rst:1576
+msgid "Automatically \"sniffing\" the delimiter"
+msgstr ""
+
+#: ../../user_guide/io.rst:1578
+msgid ""
+"``read_csv`` is capable of inferring delimited (not necessarily comma-"
+"separated) files, as pandas uses the :class:`python:csv.Sniffer` class of"
+" the csv module. For this, you have to specify ``sep=None``."
+msgstr ""
+
+#: ../../user_guide/io.rst:1597
+msgid "Reading multiple files to create a single DataFrame"
+msgstr ""
+
+#: ../../user_guide/io.rst:1599
+msgid ""
+"It's best to use :func:`~pandas.concat` to combine multiple files. See "
+"the :ref:`cookbook<cookbook.csv.multiple_files>` for an example."
+msgstr ""
+
+#: ../../user_guide/io.rst:1605
+msgid "Iterating through files chunk by chunk"
+msgstr ""
+
+#: ../../user_guide/io.rst:1607
+msgid ""
+"Suppose you wish to iterate through a (potentially very large) file "
+"lazily rather than reading the entire file into memory, such as the "
+"following:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1618
+msgid ""
+"By specifying a ``chunksize`` to ``read_csv``, the return value will be "
+"an iterable object of type ``TextFileReader``:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1630
+msgid ""
+"Specifying ``iterator=True`` will also return the ``TextFileReader`` "
+"object:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1644
+msgid "Specifying the parser engine"
+msgstr ""
+
+#: ../../user_guide/io.rst:1646
+msgid ""
+"Under the hood pandas uses a fast and efficient parser implemented in C "
+"as well as a Python implementation which is currently more feature-"
+"complete. Where possible pandas uses the C parser (specified as "
+"``engine='c'``), but may fall back to Python if C-unsupported options are"
+" specified. Currently, C-unsupported options include:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1652
+msgid "``sep`` other than a single character (e.g. regex separators)"
+msgstr ""
+
+#: ../../user_guide/io.rst:1653
+msgid "``skipfooter``"
+msgstr ""
+
+#: ../../user_guide/io.rst:1654
+msgid "``sep=None`` with ``delim_whitespace=False``"
+msgstr ""
+
+#: ../../user_guide/io.rst:1656
+msgid ""
+"Specifying any of the above options will produce a ``ParserWarning`` "
+"unless the python engine is selected explicitly using "
+"``engine='python'``."
+msgstr ""
+
+#: ../../user_guide/io.rst:1660
+msgid "Reading remote files"
+msgstr ""
+
+#: ../../user_guide/io.rst:1662
+msgid "You can pass in a URL to a CSV file:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1669
+msgid ""
+"S3 URLs are handled as well but require installing the `S3Fs "
+"<https://pypi.org/project/s3fs/>`_ library:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1676
+msgid ""
+"If your S3 bucket requires cedentials you will need to set them as "
+"environment variables or in the ``~/.aws/credentials`` config file, refer"
+" to the `S3Fs documentation on credentials "
+"<https://s3fs.readthedocs.io/en/latest/#credentials>`_."
+msgstr ""
+
+#: ../../user_guide/io.rst:1684
+msgid "Writing out Data"
+msgstr ""
+
+#: ../../user_guide/io.rst:1689
+msgid "Writing to CSV format"
+msgstr ""
+
+#: ../../user_guide/io.rst:1691
+msgid ""
+"The ``Series`` and ``DataFrame`` objects have an instance method "
+"``to_csv`` which allows storing the contents of the object as a comma-"
+"separated-values file. The function takes a number of arguments. Only the"
+" first is required."
+msgstr ""
+
+#: ../../user_guide/io.rst:1695
+msgid ""
+"``path_or_buf``: A string path to the file to write or a file object.  If"
+" a file object it must be opened with `newline=''`"
+msgstr ""
+
+#: ../../user_guide/io.rst:1696
+msgid "``sep`` : Field delimiter for the output file (default \",\")"
+msgstr ""
+
+#: ../../user_guide/io.rst:1697
+msgid "``na_rep``: A string representation of a missing value (default '')"
+msgstr ""
+
+#: ../../user_guide/io.rst:1698
+msgid "``float_format``: Format string for floating point numbers"
+msgstr ""
+
+#: ../../user_guide/io.rst:1699
+msgid "``columns``: Columns to write (default None)"
+msgstr ""
+
+#: ../../user_guide/io.rst:1700
+msgid "``header``: Whether to write out the column names (default True)"
+msgstr ""
+
+#: ../../user_guide/io.rst:1701
+msgid "``index``: whether to write row (index) names (default True)"
+msgstr ""
+
+#: ../../user_guide/io.rst:1702
+msgid ""
+"``index_label``: Column label(s) for index column(s) if desired. If None "
+"(default), and `header` and `index` are True, then the index names are "
+"used. (A sequence should be given if the ``DataFrame`` uses MultiIndex)."
+msgstr ""
+
+#: ../../user_guide/io.rst:1705
+msgid "``mode`` : Python write mode, default 'w'"
+msgstr ""
+
+#: ../../user_guide/io.rst:1706
+msgid ""
+"``encoding``: a string representing the encoding to use if the contents "
+"are non-ASCII, for Python versions prior to 3"
+msgstr ""
+
+#: ../../user_guide/io.rst:1708
+msgid ""
+"``line_terminator``: Character sequence denoting line end (default "
+"`os.linesep`)"
+msgstr ""
+
+#: ../../user_guide/io.rst:1709
+msgid ""
+"``quoting``: Set quoting rules as in csv module (default "
+"csv.QUOTE_MINIMAL). Note that if you have set a `float_format` then "
+"floats are converted to strings and csv.QUOTE_NONNUMERIC will treat them "
+"as non-numeric"
+msgstr ""
+
+#: ../../user_guide/io.rst:1710
+msgid "``quotechar``: Character used to quote fields (default '\"')"
+msgstr ""
+
+#: ../../user_guide/io.rst:1711
+msgid "``doublequote``: Control quoting of ``quotechar`` in fields (default True)"
+msgstr ""
+
+#: ../../user_guide/io.rst:1712
+msgid ""
+"``escapechar``: Character used to escape ``sep`` and ``quotechar`` when "
+"appropriate (default None)"
+msgstr ""
+
+#: ../../user_guide/io.rst:1714
+msgid "``chunksize``: Number of rows to write at a time"
+msgstr ""
+
+#: ../../user_guide/io.rst:1715
+msgid ""
+"``tupleize_cols``: If False (default), write as a list of tuples, "
+"otherwise write in an expanded line format suitable for ``read_csv``"
+msgstr ""
+
+#: ../../user_guide/io.rst:1717
+msgid "``date_format``: Format string for datetime objects"
+msgstr ""
+
+#: ../../user_guide/io.rst:1720
+msgid "Writing a formatted string"
+msgstr ""
+
+#: ../../user_guide/io.rst:1724
+msgid ""
+"The ``DataFrame`` object has an instance method ``to_string`` which "
+"allows control over the string representation of the object. All "
+"arguments are optional:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1727
+msgid "``buf`` default None, for example a StringIO object"
+msgstr ""
+
+#: ../../user_guide/io.rst:1728
+msgid "``columns`` default None, which columns to write"
+msgstr ""
+
+#: ../../user_guide/io.rst:1729
+msgid "``col_space`` default None, minimum width of each column."
+msgstr ""
+
+#: ../../user_guide/io.rst:1730
+msgid "``na_rep`` default ``NaN``, representation of NA value"
+msgstr ""
+
+#: ../../user_guide/io.rst:1731
+msgid ""
+"``formatters`` default None, a dictionary (by column) of functions each "
+"of which takes a single argument and returns a formatted string"
+msgstr ""
+
+#: ../../user_guide/io.rst:1733
+msgid ""
+"``float_format`` default None, a function which takes a single (float) "
+"argument and returns a formatted string; to be applied to floats in the "
+"``DataFrame``."
+msgstr ""
+
+#: ../../user_guide/io.rst:1736
+msgid ""
+"``sparsify`` default True, set to False for a ``DataFrame`` with a "
+"hierarchical index to print every MultiIndex key at each row."
+msgstr ""
+
+#: ../../user_guide/io.rst:1738
+msgid "``index_names`` default True, will print the names of the indices"
+msgstr ""
+
+#: ../../user_guide/io.rst:1739
+msgid "``index`` default True, will print the index (ie, row labels)"
+msgstr ""
+
+#: ../../user_guide/io.rst:1740
+msgid "``header`` default True, will print the column labels"
+msgstr ""
+
+#: ../../user_guide/io.rst:1741
+msgid ""
+"``justify`` default ``left``, will print column headers left- or right-"
+"justified"
+msgstr ""
+
+#: ../../user_guide/io.rst:1744
+msgid ""
+"The ``Series`` object also has a ``to_string`` method, but with only the "
+"``buf``, ``na_rep``, ``float_format`` arguments. There is also a "
+"``length`` argument which, if set to ``True``, will additionally output "
+"the length of the Series."
+msgstr ""
+
+#: ../../user_guide/io.rst:1751
+msgid "JSON"
+msgstr ""
+
+#: ../../user_guide/io.rst:1753
+msgid "Read and write ``JSON`` format files and strings."
+msgstr ""
+
+#: ../../user_guide/io.rst:1758
+msgid "Writing JSON"
+msgstr ""
+
+#: ../../user_guide/io.rst:1760
+msgid ""
+"A ``Series`` or ``DataFrame`` can be converted to a valid JSON string. "
+"Use ``to_json`` with optional parameters:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1763
+msgid ""
+"``path_or_buf`` : the pathname or buffer to write the output This can be "
+"``None`` in which case a JSON string is returned"
+msgstr ""
+
+#: ../../user_guide/io.rst:1765 ../../user_guide/io.rst:1955
+msgid "``orient`` :"
+msgstr ""
+
+#: ../../user_guide/io.rst:1769
+msgid "``Series``:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1768 ../../user_guide/io.rst:1958
+msgid "default is ``index``"
+msgstr ""
+
+#: ../../user_guide/io.rst:1769 ../../user_guide/io.rst:1959
+msgid "allowed values are {``split``, ``records``, ``index``}"
+msgstr ""
+
+#: ../../user_guide/io.rst:1773
+msgid "``DataFrame``:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1772 ../../user_guide/io.rst:1962
+msgid "default is ``columns``"
+msgstr ""
+
+#: ../../user_guide/io.rst:1773 ../../user_guide/io.rst:1963
+msgid ""
+"allowed values are {``split``, ``records``, ``index``, ``columns``, "
+"``values``, ``table``}"
+msgstr ""
+
+#: ../../user_guide/io.rst:1775 ../../user_guide/io.rst:1965
+msgid "The format of the JSON string"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "``split``"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "dict like {index -> [index], columns -> [columns], data -> [values]}"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "``records``"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "list like [{column -> value}, ... , {column -> value}]"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "``index``"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "dict like {index -> {column -> value}}"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "``columns``"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "dict like {column -> {index -> value}}"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "``values``"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "just the values array"
+msgstr ""
+
+#: ../../user_guide/io.rst:1787
+msgid ""
+"``date_format`` : string, type of date conversion, 'epoch' for timestamp,"
+" 'iso' for ISO8601."
+msgstr ""
+
+#: ../../user_guide/io.rst:1788
+msgid ""
+"``double_precision`` : The number of decimal places to use when encoding "
+"floating point values, default 10."
+msgstr ""
+
+#: ../../user_guide/io.rst:1789
+msgid "``force_ascii`` : force encoded string to be ASCII, default True."
+msgstr ""
+
+#: ../../user_guide/io.rst:1790
+msgid ""
+"``date_unit`` : The time unit to encode to, governs timestamp and ISO8601"
+" precision. One of 's', 'ms', 'us' or 'ns' for seconds, milliseconds, "
+"microseconds and nanoseconds respectively. Default 'ms'."
+msgstr ""
+
+#: ../../user_guide/io.rst:1791
+msgid ""
+"``default_handler`` : The handler to call if an object cannot otherwise "
+"be converted to a suitable format for JSON. Takes a single argument, "
+"which is the object to convert, and returns a serializable object."
+msgstr ""
+
+#: ../../user_guide/io.rst:1792
+msgid ""
+"``lines`` : If ``records`` orient, then will write each record per line "
+"as json."
+msgstr ""
+
+#: ../../user_guide/io.rst:1794
+msgid ""
+"Note ``NaN``'s, ``NaT``'s and ``None`` will be converted to ``null`` and "
+"``datetime`` objects will be converted based on the ``date_format`` and "
+"``date_unit`` parameters."
+msgstr ""
+
+#: ../../user_guide/io.rst:1803
+msgid "Orient Options"
+msgstr ""
+
+#: ../../user_guide/io.rst:1805
+msgid ""
+"There are a number of different options for the format of the resulting "
+"JSON file / string. Consider the following ``DataFrame`` and ``Series``:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1816
+msgid ""
+"**Column oriented** (the default for ``DataFrame``) serializes the data "
+"as nested JSON objects with column labels acting as the primary index:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1824
+msgid ""
+"**Index oriented** (the default for ``Series``) similar to column "
+"oriented but the index labels are now primary:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1832
+msgid ""
+"**Record oriented** serializes the data to a JSON array of column -> "
+"value records, index labels are not included. This is useful for passing "
+"``DataFrame`` data to plotting libraries, for example the JavaScript "
+"library ``d3.js``:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1841
+msgid ""
+"**Value oriented** is a bare-bones option which serializes to nested JSON"
+" arrays of values only, column and index labels are not included:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1849
+msgid ""
+"**Split oriented** serializes to a JSON object containing separate "
+"entries for values, index and columns. Name is also included for "
+"``Series``:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1857
+msgid ""
+"**Table oriented** serializes to the JSON `Table Schema`_, allowing for "
+"the preservation of metadata including but not limited to dtypes and "
+"index names."
+msgstr ""
+
+#: ../../user_guide/io.rst:1862
+msgid ""
+"Any orient option that encodes to a JSON object will not preserve the "
+"ordering of index and column labels during round-trip serialization. If "
+"you wish to preserve label ordering use the `split` option as it uses "
+"ordered containers."
+msgstr ""
+
+#: ../../user_guide/io.rst:1869
+msgid "Writing in ISO date format:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1879
+msgid "Writing in ISO date format, with microseconds:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1886
+msgid "Epoch timestamps, in seconds:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1893
+msgid "Writing to a file, with a date index and a date column:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1908
+msgid "Fallback Behavior"
+msgstr ""
+
+#: ../../user_guide/io.rst:1910
+msgid ""
+"If the JSON serializer cannot handle the container contents directly it "
+"will fall back in the following manner:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1913
+msgid ""
+"if the dtype is unsupported (e.g. ``np.complex``) then the "
+"``default_handler``, if provided, will be called for each value, "
+"otherwise an exception is raised."
+msgstr ""
+
+#: ../../user_guide/io.rst:1916
+msgid "if an object is unsupported it will attempt the following:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1919
+msgid ""
+"check if the object has defined a ``toDict`` method and call it. A "
+"``toDict`` method should return a ``dict`` which will then be JSON "
+"serialized."
+msgstr ""
+
+#: ../../user_guide/io.rst:1922
+msgid "invoke the ``default_handler`` if one was provided."
+msgstr ""
+
+#: ../../user_guide/io.rst:1924
+msgid ""
+"convert the object to a ``dict`` by traversing its contents. However this"
+" will often fail with an ``OverflowError`` or give unexpected results."
+msgstr ""
+
+#: ../../user_guide/io.rst:1927
+msgid ""
+"In general the best approach for unsupported objects or dtypes is to "
+"provide a ``default_handler``. For example:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1935
+msgid "can be dealt with by specifying a simple ``default_handler``:"
+msgstr ""
+
+#: ../../user_guide/io.rst:1944
+msgid "Reading JSON"
+msgstr ""
+
+#: ../../user_guide/io.rst:1946
+msgid ""
+"Reading a JSON string to pandas object can take a number of parameters. "
+"The parser will try to parse a ``DataFrame`` if ``typ`` is not supplied "
+"or is ``None``. To explicitly force ``Series`` parsing, pass "
+"``typ=series``"
+msgstr ""
+
+#: ../../user_guide/io.rst:1950
+msgid ""
+"``filepath_or_buffer`` : a **VALID** JSON string or file handle / "
+"StringIO. The string could be a URL. Valid URL schemes include http, ftp,"
+" S3, and file. For file URLs, a host is expected. For instance, a local "
+"file could be file ://localhost/path/to/table.json"
+msgstr ""
+
+#: ../../user_guide/io.rst:1954
+msgid "``typ``    : type of object to recover (series or frame), default 'frame'"
+msgstr ""
+
+#: ../../user_guide/io.rst:1959
+msgid "Series :"
+msgstr ""
+
+#: ../../user_guide/io.rst:1963
+msgid "DataFrame"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "``table``"
+msgstr ""
+
+#: ../../user_guide/io.rst:1
+msgid "adhering to the JSON `Table Schema`_"
+msgstr ""
+
+#: ../../user_guide/io.rst:1979
+msgid ""
+"``dtype`` : if True, infer dtypes, if a dict of column to dtype, then use"
+" those, if ``False``, then don't infer dtypes at all, default is True, "
+"apply only to the data."
+msgstr ""
+
+#: ../../user_guide/io.rst:1980
+msgid ""
+"``convert_axes`` : boolean, try to convert the axes to the proper dtypes,"
+" default is ``True``"
+msgstr ""
+
+#: ../../user_guide/io.rst:1981
+msgid ""
+"``convert_dates`` : a list of columns to parse for dates; If ``True``, "
+"then try to parse date-like columns, default is ``True``."
+msgstr ""
+
+#: ../../user_guide/io.rst:1982
+msgid ""
+"``keep_default_dates`` : boolean, default ``True``. If parsing dates, "
+"then parse the default date-like columns."
+msgstr ""
+
+#: ../../user_guide/io.rst:1983
+msgid ""
+"``numpy`` : direct decoding to NumPy arrays. default is ``False``; "
+"Supports numeric data only, although labels may be non-numeric. Also note"
+" that the JSON ordering **MUST** be the same for each term if "
+"``numpy=True``."
+msgstr ""
+
+#: ../../user_guide/io.rst:1985
+msgid ""
+"``precise_float`` : boolean, default ``False``. Set to enable usage of "
+"higher precision (strtod) function when decoding string to double values."
+" Default (``False``) is to use fast but less precise builtin "
+"functionality."
+msgstr ""
+
+#: ../../user_guide/io.rst:1986
+msgid ""
+"``date_unit`` : string, the timestamp unit to detect if converting dates."
+" Default None. By default the timestamp precision will be detected, if "
+"this is not desired then pass one of 's', 'ms', 'us' or 'ns' to force "
+"timestamp precision to seconds, milliseconds, microseconds or nanoseconds"
+" respectively."
+msgstr ""
+
+#: ../../user_guide/io.rst:1990
+msgid "``lines`` : reads file as one json object per line."
+msgstr ""
+
+#: ../../user_guide/io.rst:1991
+msgid "``encoding`` : The encoding to use to decode py3 bytes."
+msgstr ""
+
+#: ../../user_guide/io.rst:1992
+msgid ""
+"``chunksize`` : when used in combination with ``lines=True``, return a "
+"JsonReader which reads in ``chunksize`` lines per iteration."
+msgstr ""
+
+#: ../../user_guide/io.rst:1994
+msgid ""
+"The parser will raise one of ``ValueError/TypeError/AssertionError`` if "
+"the JSON is not parseable."
+msgstr ""
+
+#: ../../user_guide/io.rst:1996
+msgid ""
+"If a non-default ``orient`` was used when encoding to JSON be sure to "
+"pass the same option here so that decoding produces sensible results, see"
+" `Orient Options`_ for an overview."
+msgstr ""
+
+#: ../../user_guide/io.rst:2001
+msgid "Data Conversion"
+msgstr ""
+
+#: ../../user_guide/io.rst:2003
+msgid ""
+"The default of ``convert_axes=True``, ``dtype=True``, and "
+"``convert_dates=True`` will try to parse the axes, and all of the data "
+"into appropriate types, including dates. If you need to override specific"
+" dtypes, pass a dict to ``dtype``. ``convert_axes`` should only be set to"
+" ``False`` if you need to preserve string-like numbers (e.g. '1', '2') in"
+" an axes."
+msgstr ""
+
+#: ../../user_guide/io.rst:2011
+msgid ""
+"Large integer values may be converted to dates if ``convert_dates=True`` "
+"and the data and / or column labels appear 'date-like'. The exact "
+"threshold depends on the ``date_unit`` specified. 'date-like' means that "
+"the column label meets one of the following criteria:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2013
+msgid "it ends with ``'_at'``"
+msgstr ""
+
+#: ../../user_guide/io.rst:2014
+msgid "it ends with ``'_time'``"
+msgstr ""
+
+#: ../../user_guide/io.rst:2015
+msgid "it begins with ``'timestamp'``"
+msgstr ""
+
+#: ../../user_guide/io.rst:2016
+msgid "it is ``'modified'``"
+msgstr ""
+
+#: ../../user_guide/io.rst:2017
+msgid "it is ``'date'``"
+msgstr ""
+
+#: ../../user_guide/io.rst:2021
+msgid "When reading JSON data, automatic coercing into dtypes has some quirks:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2023
+msgid ""
+"an index can be reconstructed in a different order from serialization, "
+"that is, the returned order is not guaranteed to be the same as before "
+"serialization"
+msgstr ""
+
+#: ../../user_guide/io.rst:2024
+msgid ""
+"a column that was ``float`` data will be converted to ``integer`` if it "
+"can be done safely, e.g. a column of ``1.``"
+msgstr ""
+
+#: ../../user_guide/io.rst:2025
+msgid "bool columns will be converted to ``integer`` on reconstruction"
+msgstr ""
+
+#: ../../user_guide/io.rst:2027
+msgid ""
+"Thus there are times where you may want to specify specific dtypes via "
+"the ``dtype`` keyword argument."
+msgstr ""
+
+#: ../../user_guide/io.rst:2029
+msgid "Reading from a JSON string:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2035
+msgid "Reading from a file:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2041
+msgid "Don't convert any data (but still convert axes and dates):"
+msgstr ""
+
+#: ../../user_guide/io.rst:2047
+msgid "Specify dtypes for conversion:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2053
+msgid "Preserve string indices:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2069
+msgid "Dates written in nanoseconds need to be read back in nanoseconds:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2088
+msgid "The Numpy Parameter"
+msgstr ""
+
+#: ../../user_guide/io.rst:2091
+msgid ""
+"This supports numeric data only. Index and columns labels may be non-"
+"numeric, e.g. strings, dates etc."
+msgstr ""
+
+#: ../../user_guide/io.rst:2093
+msgid ""
+"If ``numpy=True`` is passed to ``read_json`` an attempt will be made to "
+"sniff an appropriate dtype during deserialization and to subsequently "
+"decode directly to NumPy arrays, bypassing the need for intermediate "
+"Python objects."
+msgstr ""
+
+#: ../../user_guide/io.rst:2097
+msgid ""
+"This can provide speedups if you are deserialising a large amount of "
+"numeric data:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2116
+msgid "The speedup is less noticeable for smaller datasets:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2132
+msgid ""
+"Direct NumPy decoding makes a number of assumptions and may fail or "
+"produce unexpected output if these assumptions are not satisfied:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2135
+msgid "data is numeric."
+msgstr ""
+
+#: ../../user_guide/io.rst:2137
+msgid ""
+"data is uniform. The dtype is sniffed from the first value decoded. A "
+"``ValueError`` may be raised, or incorrect output may be produced if this"
+" condition is not satisfied."
+msgstr ""
+
+#: ../../user_guide/io.rst:2141
+msgid ""
+"labels are ordered. Labels are only read from the first container, it is "
+"assumed that each subsequent row / column has been encoded in the same "
+"order. This should be satisfied if the data was encoded using ``to_json``"
+" but may not be the case if the JSON is from another source."
+msgstr ""
+
+#: ../../user_guide/io.rst:2154
+msgid "Normalization"
+msgstr ""
+
+#: ../../user_guide/io.rst:2156
+msgid ""
+"pandas provides a utility function to take a dict or list of dicts and "
+"*normalize* this semi-structured data into a flat table."
+msgstr ""
+
+#: ../../user_guide/io.rst:2186
+msgid "Line delimited json"
+msgstr ""
+
+#: ../../user_guide/io.rst:2190
+msgid ""
+"pandas is able to read and write line-delimited json files that are "
+"common in data processing pipelines using Hadoop or Spark."
+msgstr ""
+
+#: ../../user_guide/io.rst:2195
+msgid ""
+"For line-delimited json files, pandas can also return an iterator which "
+"reads in ``chunksize`` lines at a time. This can be useful for large "
+"files or to read from a stream."
+msgstr ""
+
+#: ../../user_guide/io.rst:2216
+msgid "Table Schema"
+msgstr ""
+
+#: ../../user_guide/io.rst:2220
+msgid ""
+"`Table Schema`_ is a spec for describing tabular datasets as a JSON "
+"object. The JSON includes information on the field names, types, and "
+"other attributes. You can use the orient ``table`` to build a JSON string"
+" with two fields, ``schema`` and ``data``."
+msgstr ""
+
+#: ../../user_guide/io.rst:2234
+msgid ""
+"The ``schema`` field contains the ``fields`` key, which itself contains a"
+" list of column name to type pairs, including the ``Index`` or "
+"``MultiIndex`` (see below for a list of types). The ``schema`` field also"
+" contains a ``primaryKey`` field if the (Multi)index is unique."
+msgstr ""
+
+#: ../../user_guide/io.rst:2240
+msgid ""
+"The second field, ``data``, contains the serialized data with the "
+"``records`` orient. The index is included, and any datetimes are ISO 8601"
+" formatted, as required by the Table Schema spec."
+msgstr ""
+
+#: ../../user_guide/io.rst:2245
+msgid ""
+"The full list of types supported are described in the Table Schema spec. "
+"This table shows the mapping from pandas types:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2249
+msgid "Pandas type"
+msgstr ""
+
+#: ../../user_guide/io.rst:2249
+msgid "Table Schema type"
+msgstr ""
+
+#: ../../user_guide/io.rst:2251
+msgid "int64"
+msgstr ""
+
+#: ../../user_guide/io.rst:2251
+msgid "integer"
+msgstr ""
+
+#: ../../user_guide/io.rst:2252
+msgid "float64"
+msgstr ""
+
+#: ../../user_guide/io.rst:2252
+msgid "number"
+msgstr ""
+
+#: ../../user_guide/io.rst:2253
+msgid "bool"
+msgstr ""
+
+#: ../../user_guide/io.rst:2253 ../../user_guide/io.rst:4362
+msgid "boolean"
+msgstr ""
+
+#: ../../user_guide/io.rst:2254
+msgid "datetime64[ns]"
+msgstr ""
+
+#: ../../user_guide/io.rst:2254
+msgid "datetime"
+msgstr ""
+
+#: ../../user_guide/io.rst:2255
+msgid "timedelta64[ns]"
+msgstr ""
+
+#: ../../user_guide/io.rst:2255
+msgid "duration"
+msgstr ""
+
+#: ../../user_guide/io.rst:2256
+msgid "categorical"
+msgstr ""
+
+#: ../../user_guide/io.rst:2256
+msgid "any"
+msgstr ""
+
+#: ../../user_guide/io.rst:2257
+msgid "object"
+msgstr ""
+
+#: ../../user_guide/io.rst:2257
+msgid "str"
+msgstr ""
+
+#: ../../user_guide/io.rst:2260
+msgid "A few notes on the generated table schema:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2262
+msgid ""
+"The ``schema`` object contains a ``pandas_version`` field. This contains "
+"the version of pandas' dialect of the schema, and will be incremented "
+"with each revision."
+msgstr ""
+
+#: ../../user_guide/io.rst:2265
+msgid ""
+"All dates are converted to UTC when serializing. Even timezone naive "
+"values, which are treated as UTC with an offset of 0."
+msgstr ""
+
+#: ../../user_guide/io.rst:2274
+msgid ""
+"datetimes with a timezone (before serializing), include an additional "
+"field ``tz`` with the time zone name (e.g. ``'US/Central'``)."
+msgstr ""
+
+#: ../../user_guide/io.rst:2283
+msgid ""
+"Periods are converted to timestamps before serialization, and so have the"
+" same behavior of being converted to UTC. In addition, periods will "
+"contain and additional field ``freq`` with the period's frequency, e.g. "
+"``'A-DEC'``."
+msgstr ""
+
+#: ../../user_guide/io.rst:2293
+msgid ""
+"Categoricals use the ``any`` type and an ``enum`` constraint listing the "
+"set of possible values. Additionally, an ``ordered`` field is included:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2301
+msgid ""
+"A ``primaryKey`` field, containing an array of labels, is included *if "
+"the index is unique*:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2309
+msgid ""
+"The ``primaryKey`` behavior is the same with MultiIndexes, but in this "
+"case the ``primaryKey`` is an array:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2318
+msgid "The default naming roughly follows these rules:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2320
+msgid ""
+"For series, the ``object.name`` is used. If that's none, then the name is"
+" ``values``"
+msgstr ""
+
+#: ../../user_guide/io.rst:2322
+msgid "For ``DataFrames``, the stringified version of the column name is used"
+msgstr ""
+
+#: ../../user_guide/io.rst:2323
+msgid ""
+"For ``Index`` (not ``MultiIndex``), ``index.name`` is used, with a "
+"fallback to ``index`` if that is None."
+msgstr ""
+
+#: ../../user_guide/io.rst:2325
+msgid ""
+"For ``MultiIndex``, ``mi.names`` is used. If any level has no name, then "
+"``level_<i>`` is used."
+msgstr ""
+
+#: ../../user_guide/io.rst:2331
+msgid ""
+"``read_json`` also accepts ``orient='table'`` as an argument. This allows"
+" for the preservation of metadata such as dtypes and index names in a "
+"round-trippable manner."
+msgstr ""
+
+#: ../../user_guide/io.rst:2350
+msgid ""
+"Please note that the literal string 'index' as the name of an "
+":class:`Index` is not round-trippable, nor are any names beginning with "
+"``'level_'`` within a :class:`MultiIndex`. These are used by default in "
+":func:`DataFrame.to_json` to indicate missing values and the subsequent "
+"read cannot distinguish the intent."
+msgstr ""
+
+#: ../../user_guide/io.rst:2371
+msgid "HTML"
+msgstr ""
+
+#: ../../user_guide/io.rst:2376
+msgid "Reading HTML Content"
+msgstr ""
+
+#: ../../user_guide/io.rst:2380
+msgid ""
+"We **highly encourage** you to read the :ref:`HTML Table Parsing gotchas "
+"<io.html.gotchas>` below regarding the issues surrounding the "
+"BeautifulSoup4/html5lib/lxml parsers."
+msgstr ""
+
+#: ../../user_guide/io.rst:2383
+msgid ""
+"The top-level :func:`~pandas.io.html.read_html` function can accept an "
+"HTML string/file/URL and will parse HTML tables into list of pandas "
+"``DataFrames``. Let's look at a few examples."
+msgstr ""
+
+#: ../../user_guide/io.rst:2389
+msgid ""
+"``read_html`` returns a ``list`` of ``DataFrame`` objects, even if there "
+"is only a single table contained in the HTML content."
+msgstr ""
+
+#: ../../user_guide/io.rst:2392
+msgid "Read a URL with no options:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2402
+msgid ""
+"The data from the above URL changes every Monday so the resulting data "
+"above and the data below may be slightly different."
+msgstr ""
+
+#: ../../user_guide/io.rst:2405
+msgid ""
+"Read in the content of the file from the above URL and pass it to "
+"``read_html`` as a string:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2419
+msgid "You can even pass in an instance of ``StringIO`` if you so desire:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2431
+msgid ""
+"The following examples are not run by the IPython evaluator due to the "
+"fact that having so many network-accessing functions slows down the "
+"documentation build. If you spot an error or an example that doesn't run,"
+" please do not hesitate to report it over on `pandas GitHub issues page "
+"<https://www.github.com/pandas-dev/pandas/issues>`__."
+msgstr ""
+
+#: ../../user_guide/io.rst:2438
+msgid "Read a URL and match a table that contains specific text:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2445
+msgid ""
+"Specify a header row (by default ``<th>`` or ``<td>`` elements located "
+"within a ``<thead>`` are used to form the column index, if multiple rows "
+"are contained within ``<thead>`` then a MultiIndex is created); if "
+"specified, the header row is taken from the data minus the parsed header "
+"elements (``<th>`` elements)."
+msgstr ""
+
+#: ../../user_guide/io.rst:2454
+msgid "Specify an index column:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2460
+msgid "Specify a number of rows to skip:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2466
+msgid ""
+"Specify a number of rows to skip using a list (``xrange`` (Python 2 only)"
+" works as well):"
+msgstr ""
+
+#: ../../user_guide/io.rst:2473
+msgid "Specify an HTML attribute:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2481
+msgid "Specify values that should be converted to NaN:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2489
+msgid "Specify whether to keep the default set of NaN values:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2497
+msgid ""
+"Specify converters for columns. This is useful for numerical text data "
+"that has leading zeros.  By default columns that are numerical are cast "
+"to numeric types and the leading zeros are lost. To avoid this, we can "
+"convert these columns to strings."
+msgstr ""
+
+#: ../../user_guide/io.rst:2510
+msgid "Use some combination of the above:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2516
+msgid ""
+"Read in pandas ``to_html`` output (with some loss of floating point "
+"precision):"
+msgstr ""
+
+#: ../../user_guide/io.rst:2524
+msgid ""
+"The ``lxml`` backend will raise an error on a failed parse if that is the"
+" only parser you provide. If you only have a single parser you can "
+"provide just a string, but it is considered good practice to pass a list "
+"with one string if, for example, the function expects a sequence of "
+"strings. You may use:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2533
+msgid "Or you could pass ``flavor='lxml'`` without a list:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2539
+msgid ""
+"However, if you have bs4 and html5lib installed and pass ``None`` or "
+"``['lxml', 'bs4']`` then the parse will most likely succeed. Note that "
+"*as soon as a parse succeeds, the function will return*."
+msgstr ""
+
+#: ../../user_guide/io.rst:2551
+msgid "Writing to HTML files"
+msgstr ""
+
+#: ../../user_guide/io.rst:2553
+msgid ""
+"``DataFrame`` objects have an instance method ``to_html`` which renders "
+"the contents of the ``DataFrame`` as an HTML table. The function "
+"arguments are as in the method ``to_string`` described above."
+msgstr ""
+
+#: ../../user_guide/io.rst:2559
+msgid ""
+"Not all of the possible options for ``DataFrame.to_html`` are shown here "
+"for brevity's sake. See :func:`~pandas.core.frame.DataFrame.to_html` for "
+"the full set of options."
+msgstr ""
+
+#: ../../user_guide/io.rst:2582 ../../user_guide/io.rst:2598
+#: ../../user_guide/io.rst:2615 ../../user_guide/io.rst:2660
+msgid "HTML:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2587
+msgid "The ``columns`` argument will limit the columns shown:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2603
+msgid ""
+"``float_format`` takes a Python callable to control the precision of "
+"floating point values:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2620
+msgid ""
+"``bold_rows`` will make the row labels bold by default, but you can turn "
+"that off:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2635
+msgid ""
+"The ``classes`` argument provides the ability to give the resulting HTML "
+"table CSS classes. Note that these classes are *appended* to the existing"
+" ``'dataframe'`` class."
+msgstr ""
+
+#: ../../user_guide/io.rst:2643
+msgid ""
+"The ``render_links`` argument provides the ability to add hyperlinks to "
+"cells that contain URLs."
+msgstr ""
+
+#: ../../user_guide/io.rst:2665
+msgid ""
+"Finally, the ``escape`` argument allows you to control whether the \"<\","
+" \">\" and \"&\" characters escaped in the resulting HTML (by default it "
+"is ``True``). So to get the HTML without escaped characters pass "
+"``escape=False``"
+msgstr ""
+
+#: ../../user_guide/io.rst:2680
+msgid "Escaped:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2689
+msgid "Not escaped:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2700
+msgid ""
+"Some browsers may not show a difference in the rendering of the previous "
+"two HTML tables."
+msgstr ""
+
+#: ../../user_guide/io.rst:2707
+msgid "HTML Table Parsing Gotchas"
+msgstr ""
+
+#: ../../user_guide/io.rst:2709
+msgid ""
+"There are some versioning issues surrounding the libraries that are used "
+"to parse HTML tables in the top-level pandas io function ``read_html``."
+msgstr ""
+
+#: ../../user_guide/io.rst:2712
+msgid "**Issues with** |lxml|_"
+msgstr ""
+
+#: ../../user_guide/io.rst:2714 ../../user_guide/io.rst:2740
+msgid "Benefits"
+msgstr ""
+
+#: ../../user_guide/io.rst:2716
+msgid "|lxml|_ is very fast."
+msgstr ""
+
+#: ../../user_guide/io.rst:2718
+msgid "|lxml|_ requires Cython to install correctly."
+msgstr ""
+
+#: ../../user_guide/io.rst:2720 ../../user_guide/io.rst:2755
+msgid "Drawbacks"
+msgstr ""
+
+#: ../../user_guide/io.rst:2722
+msgid ""
+"|lxml|_ does *not* make any guarantees about the results of its parse "
+"*unless* it is given |svm|_."
+msgstr ""
+
+#: ../../user_guide/io.rst:2725
+msgid ""
+"In light of the above, we have chosen to allow you, the user, to use the "
+"|lxml|_ backend, but **this backend will use** |html5lib|_ if |lxml|_ "
+"fails to parse"
+msgstr ""
+
+#: ../../user_guide/io.rst:2729
+msgid ""
+"It is therefore *highly recommended* that you install both "
+"|BeautifulSoup4|_ and |html5lib|_, so that you will still get a valid "
+"result (provided everything else is valid) even if |lxml|_ fails."
+msgstr ""
+
+#: ../../user_guide/io.rst:2733
+msgid "**Issues with** |BeautifulSoup4|_ **using** |lxml|_ **as a backend**"
+msgstr ""
+
+#: ../../user_guide/io.rst:2735
+msgid ""
+"The above issues hold here as well since |BeautifulSoup4|_ is essentially"
+" just a wrapper around a parser backend."
+msgstr ""
+
+#: ../../user_guide/io.rst:2738
+msgid "**Issues with** |BeautifulSoup4|_ **using** |html5lib|_ **as a backend**"
+msgstr ""
+
+#: ../../user_guide/io.rst:2742
+msgid ""
+"|html5lib|_ is far more lenient than |lxml|_ and consequently deals with "
+"*real-life markup* in a much saner way rather than just, e.g., dropping "
+"an element without notifying you."
+msgstr ""
+
+#: ../../user_guide/io.rst:2746
+msgid ""
+"|html5lib|_ *generates valid HTML5 markup from invalid markup "
+"automatically*. This is extremely important for parsing HTML tables, "
+"since it guarantees a valid document. However, that does NOT mean that it"
+" is \"correct\", since the process of fixing markup does not have a "
+"single definition."
+msgstr ""
+
+#: ../../user_guide/io.rst:2752
+msgid ""
+"|html5lib|_ is pure Python and requires no additional build steps beyond "
+"its own installation."
+msgstr ""
+
+#: ../../user_guide/io.rst:2757
+msgid ""
+"The biggest drawback to using |html5lib|_ is that it is slow as molasses."
+"  However consider the fact that many tables on the web are not big "
+"enough for the parsing algorithm runtime to matter. It is more likely "
+"that the bottleneck will be in the process of reading the raw text from "
+"the URL over the web, i.e., IO (input-output). For very large tables, "
+"this might not be true."
+msgstr ""
+
+#: ../../user_guide/io.rst:2783
+msgid "Excel files"
+msgstr ""
+
+#: ../../user_guide/io.rst:2785
+msgid ""
+"The :func:`~pandas.read_excel` method can read Excel 2003 (``.xls``) and "
+"Excel 2007+ (``.xlsx``) files using the ``xlrd`` Python module.  The "
+":meth:`~DataFrame.to_excel` instance method is used for saving a "
+"``DataFrame`` to Excel.  Generally the semantics are similar to working "
+"with :ref:`csv<io.read_csv_table>` data. See the "
+":ref:`cookbook<cookbook.excel>` for some advanced strategies."
+msgstr ""
+
+#: ../../user_guide/io.rst:2795
+msgid "Reading Excel Files"
+msgstr ""
+
+#: ../../user_guide/io.rst:2797
+msgid ""
+"In the most basic use-case, ``read_excel`` takes a path to an Excel file,"
+" and the ``sheet_name`` indicating which sheet to parse."
+msgstr ""
+
+#: ../../user_guide/io.rst:2809
+msgid "``ExcelFile`` class"
+msgstr ""
+
+#: ../../user_guide/io.rst:2811
+msgid ""
+"To facilitate working with multiple sheets from the same file, the "
+"``ExcelFile`` class can be used to wrap the file and can be passed into "
+"``read_excel`` There will be a performance benefit for reading multiple "
+"sheets as the file is read into memory only once."
+msgstr ""
+
+#: ../../user_guide/io.rst:2821
+msgid "The ``ExcelFile`` class can also be used as a context manager."
+msgstr ""
+
+#: ../../user_guide/io.rst:2829
+msgid ""
+"The ``sheet_names`` property will generate a list of the sheet names in "
+"the file."
+msgstr ""
+
+#: ../../user_guide/io.rst:2832
+msgid ""
+"The primary use-case for an ``ExcelFile`` is parsing multiple sheets with"
+" different parameters:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2844
+msgid ""
+"Note that if the same parsing parameters are used for all sheets, a list "
+"of sheet names can simply be passed to ``read_excel`` with no loss in "
+"performance."
+msgstr ""
+
+#: ../../user_guide/io.rst:2864
+msgid "Specifying Sheets"
+msgstr ""
+
+#: ../../user_guide/io.rst:2866
+msgid ""
+"The second argument is ``sheet_name``, not to be confused with "
+"``ExcelFile.sheet_names``."
+msgstr ""
+
+#: ../../user_guide/io.rst:2868
+msgid ""
+"An ExcelFile's attribute ``sheet_names`` provides access to a list of "
+"sheets."
+msgstr ""
+
+#: ../../user_guide/io.rst:2870
+msgid ""
+"The arguments ``sheet_name`` allows specifying the sheet or sheets to "
+"read."
+msgstr ""
+
+#: ../../user_guide/io.rst:2871
+msgid ""
+"The default value for ``sheet_name`` is 0, indicating to read the first "
+"sheet"
+msgstr ""
+
+#: ../../user_guide/io.rst:2872
+msgid "Pass a string to refer to the name of a particular sheet in the workbook."
+msgstr ""
+
+#: ../../user_guide/io.rst:2873
+msgid ""
+"Pass an integer to refer to the index of a sheet. Indices follow Python "
+"convention, beginning at 0."
+msgstr ""
+
+#: ../../user_guide/io.rst:2875
+msgid ""
+"Pass a list of either strings or integers, to return a dictionary of "
+"specified sheets."
+msgstr ""
+
+#: ../../user_guide/io.rst:2876
+msgid "Pass a ``None`` to return a dictionary of all available sheets."
+msgstr ""
+
+#: ../../user_guide/io.rst:2883
+msgid "Using the sheet index:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2890
+msgid "Using all default values:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2897
+msgid "Using None to get all sheets:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2904
+msgid "Using a list to get multiple sheets:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2911
+msgid ""
+"``read_excel`` can read more than one sheet, by setting ``sheet_name`` to"
+" either a list of sheet names, a list of sheet positions, or ``None`` to "
+"read all sheets. Sheets can be specified by sheet index or sheet name, "
+"using an integer or string, respectively."
+msgstr ""
+
+#: ../../user_guide/io.rst:2919
+msgid "Reading a ``MultiIndex``"
+msgstr ""
+
+#: ../../user_guide/io.rst:2921
+msgid ""
+"``read_excel`` can read a ``MultiIndex`` index, by passing a list of "
+"columns to ``index_col`` and a ``MultiIndex`` column by passing a list of"
+" rows to ``header``.  If either the ``index`` or ``columns`` have "
+"serialized level names those will be read in as well by specifying the "
+"rows/columns that make up the levels."
+msgstr ""
+
+#: ../../user_guide/io.rst:2926
+msgid "For example, to read in a ``MultiIndex`` index without names:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2936
+msgid ""
+"If the index has level names, they will parsed as well, using the same "
+"parameters."
+msgstr ""
+
+#: ../../user_guide/io.rst:2947
+msgid ""
+"If the source file has both ``MultiIndex`` index and columns, lists "
+"specifying each should be passed to ``index_col`` and ``header``:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2965
+msgid "Parsing Specific Columns"
+msgstr ""
+
+#: ../../user_guide/io.rst:2967
+msgid ""
+"It is often the case that users will insert columns to do temporary "
+"computations in Excel and you may not want to read in those columns. "
+"``read_excel`` takes a ``usecols`` keyword to allow you to specify a "
+"subset of columns to parse."
+msgstr ""
+
+#: ../../user_guide/io.rst:2973
+msgid ""
+"Passing in an integer for ``usecols`` has been deprecated. Please pass in"
+" a list of ints from 0 to ``usecols`` inclusive instead."
+msgstr ""
+
+#: ../../user_guide/io.rst:2976
+msgid ""
+"If ``usecols`` is an integer, then it is assumed to indicate the last "
+"column to be parsed."
+msgstr ""
+
+#: ../../user_guide/io.rst:2983
+msgid ""
+"You can also specify a comma-delimited set of Excel columns and ranges as"
+" a string:"
+msgstr ""
+
+#: ../../user_guide/io.rst:2989
+msgid ""
+"If ``usecols`` is a list of integers, then it is assumed to be the file "
+"column indices to be parsed."
+msgstr ""
+
+#: ../../user_guide/io.rst:2996
+msgid "Element order is ignored, so ``usecols=[0, 1]`` is the same as ``[1, 0]``."
+msgstr ""
+
+#: ../../user_guide/io.rst:3000
+msgid ""
+"If ``usecols`` is a list of strings, it is assumed that each string "
+"corresponds to a column name provided either by the user in ``names`` or "
+"inferred from the document header row(s). Those strings define which "
+"columns will be parsed:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3008
+msgid ""
+"Element order is ignored, so ``usecols=['baz', 'joe']`` is the same as "
+"``['joe', 'baz']``."
+msgstr ""
+
+#: ../../user_guide/io.rst:3012
+msgid ""
+"If ``usecols`` is callable, the callable function will be evaluated "
+"against the column names, returning names where the callable function "
+"evaluates to ``True``."
+msgstr ""
+
+#: ../../user_guide/io.rst:3020
+msgid "Parsing Dates"
+msgstr ""
+
+#: ../../user_guide/io.rst:3022
+msgid ""
+"Datetime-like values are normally automatically converted to the "
+"appropriate dtype when reading the excel file. But if you have a column "
+"of strings that *look* like dates (but are not actually formatted as "
+"dates in excel), you can use the ``parse_dates`` keyword to parse those "
+"strings to datetimes:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3033
+msgid "Cell Converters"
+msgstr ""
+
+#: ../../user_guide/io.rst:3035
+msgid ""
+"It is possible to transform the contents of Excel cells via the "
+"``converters`` option. For instance, to convert a column to boolean:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3042
+msgid ""
+"This options handles missing values and treats exceptions in the "
+"converters as missing data. Transformations are applied cell by cell "
+"rather than to the column as a whole, so the array dtype is not "
+"guaranteed. For instance, a column of integers with missing values cannot"
+" be transformed to an array with integer dtype, because NaN is strictly a"
+" float. You can manually mask missing data to recover integer dtype:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3058
+msgid "dtype Specifications"
+msgstr ""
+
+#: ../../user_guide/io.rst:3062
+msgid ""
+"As an alternative to converters, the type for an entire column can be "
+"specified using the `dtype` keyword, which takes a dictionary mapping "
+"column names to types.  To interpret data with no type inference, use the"
+" type ``str`` or ``object``."
+msgstr ""
+
+#: ../../user_guide/io.rst:3074
+msgid "Writing Excel Files"
+msgstr ""
+
+#: ../../user_guide/io.rst:3077
+msgid "Writing Excel Files to Disk"
+msgstr ""
+
+#: ../../user_guide/io.rst:3079
+msgid ""
+"To write a ``DataFrame`` object to a sheet of an Excel file, you can use "
+"the ``to_excel`` instance method.  The arguments are largely the same as "
+"``to_csv`` described above, the first argument being the name of the "
+"excel file, and the optional second argument the name of the sheet to "
+"which the ``DataFrame`` should be written. For example:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3089
+msgid ""
+"Files with a ``.xls`` extension will be written using ``xlwt`` and those "
+"with a ``.xlsx`` extension will be written using ``xlsxwriter`` (if "
+"available) or ``openpyxl``."
+msgstr ""
+
+#: ../../user_guide/io.rst:3093
+msgid ""
+"The ``DataFrame`` will be written in a way that tries to mimic the REPL "
+"output. The ``index_label`` will be placed in the second row instead of "
+"the first. You can place it in the first row by setting the "
+"``merge_cells`` option in ``to_excel()`` to ``False``:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3102
+msgid ""
+"In order to write separate ``DataFrames`` to separate sheets in a single "
+"Excel file, one can pass an :class:`~pandas.io.excel.ExcelWriter`."
+msgstr ""
+
+#: ../../user_guide/io.rst:3113
+msgid ""
+"Wringing a little more performance out of ``read_excel`` Internally, "
+"Excel stores all numeric data as floats. Because this can produce "
+"unexpected behavior when reading in data, pandas defaults to trying to "
+"convert integers to floats if it doesn't lose information (``1.0 --> "
+"1``).  You can pass ``convert_float=False`` to disable this behavior, "
+"which may give a slight performance improvement."
+msgstr ""
+
+#: ../../user_guide/io.rst:3123
+msgid "Writing Excel Files to Memory"
+msgstr ""
+
+#: ../../user_guide/io.rst:3125
+msgid ""
+"Pandas supports writing Excel files to buffer-like objects such as "
+"``StringIO`` or ``BytesIO`` using :class:`~pandas.io.excel.ExcelWriter`."
+msgstr ""
+
+#: ../../user_guide/io.rst:3151
+msgid ""
+"``engine`` is optional but recommended.  Setting the engine determines "
+"the version of workbook produced. Setting ``engine='xlrd'`` will produce "
+"an Excel 2003-format workbook (xls).  Using either ``'openpyxl'`` or "
+"``'xlsxwriter'`` will produce an Excel 2007-format workbook (xlsx). If "
+"omitted, an Excel 2007-formatted workbook is produced."
+msgstr ""
+
+#: ../../user_guide/io.rst:3161
+msgid "Excel writer engines"
+msgstr ""
+
+#: ../../user_guide/io.rst:3163
+msgid "Pandas chooses an Excel writer via two methods:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3165
+msgid "the ``engine`` keyword argument"
+msgstr ""
+
+#: ../../user_guide/io.rst:3166
+msgid "the filename extension (via the default specified in config options)"
+msgstr ""
+
+#: ../../user_guide/io.rst:3168
+msgid ""
+"By default, pandas uses the `XlsxWriter`_  for ``.xlsx``, `openpyxl`_ for"
+" ``.xlsm``, and `xlwt`_ for ``.xls`` files. If you have multiple engines "
+"installed, you can set the default engine through :ref:`setting the "
+"config options <options>` ``io.excel.xlsx.writer`` and "
+"``io.excel.xls.writer``. pandas will fall back on `openpyxl`_ for "
+"``.xlsx`` files if `Xlsxwriter`_ is not available."
+msgstr ""
+
+#: ../../user_guide/io.rst:3179
+msgid ""
+"To specify which writer you want to use, you can pass an engine keyword "
+"argument to ``to_excel`` and to ``ExcelWriter``. The built-in engines "
+"are:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3182
+msgid "``openpyxl``: version 2.4 or higher is required"
+msgstr ""
+
+#: ../../user_guide/io.rst:3183
+msgid "``xlsxwriter``"
+msgstr ""
+
+#: ../../user_guide/io.rst:3184
+msgid "``xlwt``"
+msgstr ""
+
+#: ../../user_guide/io.rst:3203
+msgid "Style and Formatting"
+msgstr ""
+
+#: ../../user_guide/io.rst:3205
+msgid ""
+"The look and feel of Excel worksheets created from pandas can be modified"
+" using the following parameters on the ``DataFrame``'s ``to_excel`` "
+"method."
+msgstr ""
+
+#: ../../user_guide/io.rst:3207
+msgid ""
+"``float_format`` : Format string for floating point numbers (default "
+"``None``)."
+msgstr ""
+
+#: ../../user_guide/io.rst:3208
+msgid ""
+"``freeze_panes`` : A tuple of two integers representing the bottommost "
+"row and rightmost column to freeze. Each of these parameters is one-"
+"based, so (1, 1) will freeze the first row and first column (default "
+"``None``)."
+msgstr ""
+
+#: ../../user_guide/io.rst:3215
+msgid "Clipboard"
+msgstr ""
+
+#: ../../user_guide/io.rst:3217
+msgid ""
+"A handy way to grab data is to use the :meth:`~DataFrame.read_clipboard` "
+"method, which takes the contents of the clipboard buffer and passes them "
+"to the ``read_csv`` method. For instance, you can copy the following text"
+" to the clipboard (CTRL-C on many operating systems):"
+msgstr ""
+
+#: ../../user_guide/io.rst:3229
+msgid "And then import the data directly to a ``DataFrame`` by calling:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3240
+msgid ""
+"The ``to_clipboard`` method can be used to write the contents of a "
+"``DataFrame`` to the clipboard. Following which you can paste the "
+"clipboard contents into other applications (CTRL-V on many operating "
+"systems). Here we illustrate writing a ``DataFrame`` into clipboard and "
+"reading it back."
+msgstr ""
+
+#: ../../user_guide/io.rst:3252
+msgid ""
+"We can see that we got the same content back, which we had earlier "
+"written to the clipboard."
+msgstr ""
+
+#: ../../user_guide/io.rst:3256
+msgid ""
+"You may need to install xclip or xsel (with gtk, PyQt5, PyQt4 or qtpy) on"
+" Linux to use these methods."
+msgstr ""
+
+#: ../../user_guide/io.rst:3261
+msgid "Pickling"
+msgstr ""
+
+#: ../../user_guide/io.rst:3263
+msgid ""
+"All pandas objects are equipped with ``to_pickle`` methods which use "
+"Python's ``cPickle`` module to save data structures to disk using the "
+"pickle format."
+msgstr ""
+
+#: ../../user_guide/io.rst:3271
+msgid ""
+"The ``read_pickle`` function in the ``pandas`` namespace can be used to "
+"load any pickled pandas object (or any other pickled object) from file:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3286
+msgid "Loading pickled data received from untrusted sources can be unsafe."
+msgstr ""
+
+#: ../../user_guide/io.rst:3288
+msgid "See: https://docs.python.org/3/library/pickle.html"
+msgstr ""
+
+#: ../../user_guide/io.rst:3292
+msgid ""
+"Several internal refactoring have been done while still preserving "
+"compatibility with pickles created with older versions of pandas. "
+"However, for such cases, pickled ``DataFrames``, ``Series`` etc, must be "
+"read with ``pd.read_pickle``, rather than ``pickle.load``."
+msgstr ""
+
+#: ../../user_guide/io.rst:3297
+msgid ""
+"See `here <https://pandas.pydata.org/pandas-"
+"docs/stable/whatsnew.html#whatsnew-0130-refactoring>`__ and `here "
+"<https://pandas.pydata.org/pandas-"
+"docs/stable/whatsnew.html#whatsnew-0150-refactoring>`__ for some examples"
+" of compatibility-breaking changes. See `this question "
+"<https://stackoverflow.com/questions/20444593/pandas-compiled-from-"
+"source-default-pickle-behavior-changed>`__ for a detailed explanation."
+msgstr ""
+
+#: ../../user_guide/io.rst:3306
+msgid "Compressed pickle files"
+msgstr ""
+
+#: ../../user_guide/io.rst:3310
+msgid ""
+":func:`read_pickle`, :meth:`DataFrame.to_pickle` and "
+":meth:`Series.to_pickle` can read and write compressed pickle files. The "
+"compression types of ``gzip``, ``bz2``, ``xz`` are supported for reading "
+"and writing. The ``zip`` file format only supports reading and must "
+"contain only one data file to be read."
+msgstr ""
+
+#: ../../user_guide/io.rst:3315
+msgid ""
+"The compression type can be an explicit parameter or be inferred from the"
+" file extension. If 'infer', then use ``gzip``, ``bz2``, ``zip``, or "
+"``xz`` if filename ends in ``'.gz'``, ``'.bz2'``, ``'.zip'``, or "
+"``'.xz'``, respectively."
+msgstr ""
+
+#: ../../user_guide/io.rst:3327
+msgid "Using an explicit compression type:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3335
+msgid "Inferring compression type from the extension:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3343
+msgid "The default is to 'infer':"
+msgstr ""
+
+#: ../../user_guide/io.rst:3366
+msgid "msgpack"
+msgstr ""
+
+#: ../../user_guide/io.rst:3368
+msgid ""
+"pandas supports the ``msgpack`` format for object serialization. This is "
+"a lightweight portable binary format, similar to binary JSON, that is "
+"highly space efficient, and provides good performance both on the writing"
+" (serialization), and reading (deserialization)."
+msgstr ""
+
+#: ../../user_guide/io.rst:3375
+msgid ""
+"This is a very new feature of pandas. We intend to provide certain "
+"optimizations in the io of the ``msgpack`` data. Since this is marked as "
+"an EXPERIMENTAL LIBRARY, the storage format may not be stable until a "
+"future release."
+msgstr ""
+
+#: ../../user_guide/io.rst:3386
+msgid ""
+"You can pass a list of objects and you will receive them back on "
+"deserialization."
+msgstr ""
+
+#: ../../user_guide/io.rst:3393
+msgid "You can pass ``iterator=True`` to iterate over the unpacked results:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3400
+msgid "You can pass ``append=True`` to the writer to append to an existing pack:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3407
+msgid ""
+"Unlike other io methods, ``to_msgpack`` is available on both a per-object"
+" basis, ``df.to_msgpack()`` and using the top-level "
+"``pd.to_msgpack(...)`` where you can pack arbitrary collections of Python"
+" lists, dicts, scalars, while intermixing pandas objects."
+msgstr ""
+
+#: ../../user_guide/io.rst:3426 ../../user_guide/io.rst:3525
+msgid "Read/Write API"
+msgstr ""
+
+#: ../../user_guide/io.rst:3428
+msgid "Msgpacks can also be read from and written to strings."
+msgstr ""
+
+#: ../../user_guide/io.rst:3434
+msgid ""
+"Furthermore you can concatenate the strings to produce a list of the "
+"original objects."
+msgstr ""
+
+#: ../../user_guide/io.rst:3443
+msgid "HDF5 (PyTables)"
+msgstr ""
+
+#: ../../user_guide/io.rst:3445
+msgid ""
+"``HDFStore`` is a dict-like object which reads and writes pandas using "
+"the high performance HDF5 format using the excellent `PyTables "
+"<https://www.pytables.org/>`__ library. See the :ref:`cookbook "
+"<cookbook.hdf>` for some advanced strategies"
+msgstr ""
+
+#: ../../user_guide/io.rst:3452
+msgid ""
+"pandas requires ``PyTables`` >= 3.0.0. There is a indexing bug in "
+"``PyTables`` < 3.2 which may appear when querying stores using an index. "
+"If you see a subset of results being returned, upgrade to ``PyTables`` >="
+" 3.2. Stores created previously will need to be rewritten using the "
+"updated version."
+msgstr ""
+
+#: ../../user_guide/io.rst:3468
+msgid ""
+"Objects can be written to the file just like adding key-value pairs to a "
+"dict:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3485
+msgid "In a current or later Python session, you can retrieve stored objects:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3495
+msgid "Deletion of the object specified by the key:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3504
+msgid "Closing a Store and using a context manager:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3527
+msgid ""
+"``HDFStore`` supports an top-level API using  ``read_hdf`` for reading "
+"and ``to_hdf`` for writing, similar to how ``read_csv`` and ``to_csv`` "
+"work."
+msgstr ""
+
+#: ../../user_guide/io.rst:3543
+msgid ""
+"HDFStore will by default not drop rows that are all missing. This "
+"behavior can be changed by setting ``dropna=True``."
+msgstr ""
+
+#: ../../user_guide/io.rst:3578
+msgid "Fixed Format"
+msgstr ""
+
+#: ../../user_guide/io.rst:3580
+msgid ""
+"The examples above show storing using ``put``, which write the HDF5 to "
+"``PyTables`` in a fixed array format, called the ``fixed`` format. These "
+"types of stores are **not** appendable once written (though you can "
+"simply remove them and rewrite). Nor are they **queryable**; they must be"
+" retrieved in their entirety. They also do not support dataframes with "
+"non-unique column names. The ``fixed`` format stores offer very fast "
+"writing and slightly faster reading than ``table`` stores. This format is"
+" specified by default when using ``put`` or ``to_hdf`` or by "
+"``format='fixed'`` or ``format='f'``."
+msgstr ""
+
+#: ../../user_guide/io.rst:3589
+msgid ""
+"A ``fixed`` format will raise a ``TypeError`` if you try to retrieve "
+"using a ``where``:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3602
+msgid "Table Format"
+msgstr ""
+
+#: ../../user_guide/io.rst:3604
+msgid ""
+"``HDFStore`` supports another ``PyTables`` format on disk, the ``table`` "
+"format. Conceptually a ``table`` is shaped very much like a DataFrame, "
+"with rows and columns. A ``table`` may be appended to in the same or "
+"other sessions.  In addition, delete and query type operations are "
+"supported. This format is specified by ``format='table'`` or "
+"``format='t'`` to ``append`` or ``put`` or ``to_hdf``."
+msgstr ""
+
+#: ../../user_guide/io.rst:3611
+msgid ""
+"This format can be set as an option as well "
+"``pd.set_option('io.hdf.default_format','table')`` to enable "
+"``put/append/to_hdf`` to by default store in the ``table`` format."
+msgstr ""
+
+#: ../../user_guide/io.rst:3639
+msgid ""
+"You can also create a ``table`` by passing ``format='table'`` or "
+"``format='t'`` to a ``put`` operation."
+msgstr ""
+
+#: ../../user_guide/io.rst:3644
+msgid "Hierarchical Keys"
+msgstr ""
+
+#: ../../user_guide/io.rst:3646
+msgid ""
+"Keys to a store can be specified as a string. These can be in a "
+"hierarchical path-name like format (e.g. ``foo/bar/bah``), which will "
+"generate a hierarchy of sub-stores (or ``Groups`` in PyTables parlance). "
+"Keys can be specified with out the leading '/' and are **always** "
+"absolute (e.g. 'foo' refers to '/foo'). Removal operations can remove "
+"everything in the sub-store and **below**, so be *careful*."
+msgstr ""
+
+#: ../../user_guide/io.rst:3668
+msgid ""
+"You can walk through the group hierarchy using the ``walk`` method which "
+"will yield a tuple for each group key along with the relative keys of its"
+" contents."
+msgstr ""
+
+#: ../../user_guide/io.rst:3688
+msgid ""
+"Hierarchical keys cannot be retrieved as dotted (attribute) access as "
+"described above for items stored under the root node."
+msgstr ""
+
+#: ../../user_guide/io.rst:3701
+msgid "Instead, use explicit string based keys:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3711
+msgid "Storing Types"
+msgstr ""
+
+#: ../../user_guide/io.rst:3714
+msgid "Storing Mixed Types in a Table"
+msgstr ""
+
+#: ../../user_guide/io.rst:3716
+msgid ""
+"Storing mixed-dtype data is supported. Strings are stored as a fixed-"
+"width using the maximum size of the appended column. Subsequent attempts "
+"at appending longer strings will raise a ``ValueError``."
+msgstr ""
+
+#: ../../user_guide/io.rst:3720
+msgid ""
+"Passing ``min_itemsize={`values`: size}`` as a parameter to append will "
+"set a larger minimum for the string columns. Storing ``floats, strings, "
+"ints, bools, datetime64`` are currently supported. For string columns, "
+"passing ``nan_rep = 'nan'`` to append will change the default nan "
+"representation on disk (which converts to/from `np.nan`), this defaults "
+"to `nan`."
+msgstr ""
+
+#: ../../user_guide/io.rst:3749
+msgid "Storing MultiIndex DataFrames"
+msgstr ""
+
+#: ../../user_guide/io.rst:3751
+msgid ""
+"Storing MultiIndex ``DataFrames`` as tables is very similar to "
+"storing/selecting from homogeneous index ``DataFrames``."
+msgstr ""
+
+#: ../../user_guide/io.rst:3775 ../../user_guide/io.rst:5075
+msgid "Querying"
+msgstr ""
+
+#: ../../user_guide/io.rst:3778
+msgid "Querying a Table"
+msgstr ""
+
+#: ../../user_guide/io.rst:3780
+msgid ""
+"``select`` and ``delete`` operations have an optional criterion that can "
+"be specified to select/delete only a subset of the data. This allows one "
+"to have a very large on-disk table and retrieve only a portion of the "
+"data."
+msgstr ""
+
+#: ../../user_guide/io.rst:3785
+msgid ""
+"A query is specified using the ``Term`` class under the hood, as a "
+"boolean expression."
+msgstr ""
+
+#: ../../user_guide/io.rst:3787
+msgid "``index`` and ``columns`` are supported indexers of a ``DataFrames``."
+msgstr ""
+
+#: ../../user_guide/io.rst:3788
+msgid ""
+"if ``data_columns`` are specified, these can be used as additional "
+"indexers."
+msgstr ""
+
+#: ../../user_guide/io.rst:3790
+msgid "Valid comparison operators are:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3792
+msgid "``=, ==, !=, >, >=, <, <=``"
+msgstr ""
+
+#: ../../user_guide/io.rst:3794
+msgid "Valid boolean expressions are combined with:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3796
+msgid "``|`` : or"
+msgstr ""
+
+#: ../../user_guide/io.rst:3797
+msgid "``&`` : and"
+msgstr ""
+
+#: ../../user_guide/io.rst:3798
+msgid "``(`` and ``)`` : for grouping"
+msgstr ""
+
+#: ../../user_guide/io.rst:3800
+msgid ""
+"These rules are similar to how boolean expressions are used in pandas for"
+" indexing."
+msgstr ""
+
+#: ../../user_guide/io.rst:3804
+msgid "``=`` will be automatically expanded to the comparison operator ``==``"
+msgstr ""
+
+#: ../../user_guide/io.rst:3805
+msgid ""
+"``~`` is the not operator, but can only be used in very limited "
+"circumstances"
+msgstr ""
+
+#: ../../user_guide/io.rst:3807
+msgid "If a list/tuple of expressions is passed they will be combined via ``&``"
+msgstr ""
+
+#: ../../user_guide/io.rst:3809
+msgid "The following are valid expressions:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3811
+msgid "``'index >= date'``"
+msgstr ""
+
+#: ../../user_guide/io.rst:3812
+msgid "``\"columns = ['A', 'D']\"``"
+msgstr ""
+
+#: ../../user_guide/io.rst:3813
+msgid "``\"columns in ['A', 'D']\"``"
+msgstr ""
+
+#: ../../user_guide/io.rst:3814
+msgid "``'columns = A'``"
+msgstr ""
+
+#: ../../user_guide/io.rst:3815
+msgid "``'columns == A'``"
+msgstr ""
+
+#: ../../user_guide/io.rst:3816
+msgid "``\"~(columns = ['A', 'B'])\"``"
+msgstr ""
+
+#: ../../user_guide/io.rst:3817
+msgid "``'index > df.index[3] & string = \"bar\"'``"
+msgstr ""
+
+#: ../../user_guide/io.rst:3818
+msgid "``'(index > df.index[3] & index <= df.index[6]) | string = \"bar\"'``"
+msgstr ""
+
+#: ../../user_guide/io.rst:3819
+msgid "``\"ts >= Timestamp('2012-02-01')\"``"
+msgstr ""
+
+#: ../../user_guide/io.rst:3820
+msgid "``\"major_axis>=20130101\"``"
+msgstr ""
+
+#: ../../user_guide/io.rst:3822
+msgid "The ``indexers`` are on the left-hand side of the sub-expression:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3824
+msgid "``columns``, ``major_axis``, ``ts``"
+msgstr ""
+
+#: ../../user_guide/io.rst:3826
+msgid ""
+"The right-hand side of the sub-expression (after a comparison operator) "
+"can be:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3828
+msgid "functions that will be evaluated, e.g. ``Timestamp('2012-02-01')``"
+msgstr ""
+
+#: ../../user_guide/io.rst:3829
+msgid "strings, e.g. ``\"bar\"``"
+msgstr ""
+
+#: ../../user_guide/io.rst:3830
+msgid "date-like, e.g. ``20130101``, or ``\"20130101\"``"
+msgstr ""
+
+#: ../../user_guide/io.rst:3831
+msgid "lists, e.g. ``\"['A', 'B']\"``"
+msgstr ""
+
+#: ../../user_guide/io.rst:3832
+msgid "variables that are defined in the local names space, e.g. ``date``"
+msgstr ""
+
+#: ../../user_guide/io.rst:3836
+msgid ""
+"Passing a string to a query by interpolating it into the query expression"
+" is not recommended. Simply assign the string of interest to a variable "
+"and use that variable in an expression. For example, do this"
+msgstr ""
+
+#: ../../user_guide/io.rst:3845
+msgid "instead of this"
+msgstr ""
+
+#: ../../user_guide/io.rst:3852
+msgid ""
+"The latter will **not** work and will raise a ``SyntaxError``.Note that "
+"there's a single quote followed by a double quote in the ``string`` "
+"variable."
+msgstr ""
+
+#: ../../user_guide/io.rst:3856
+#, python-format
+msgid "If you *must* interpolate, use the ``'%r'`` format specifier"
+msgstr ""
+
+#: ../../user_guide/io.rst:3862
+msgid "which will quote ``string``."
+msgstr ""
+
+#: ../../user_guide/io.rst:3865
+msgid "Here are some examples:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3873
+msgid "Use boolean expressions, with in-line function evaluation."
+msgstr ""
+
+#: ../../user_guide/io.rst:3879
+msgid "Use and inline column reference"
+msgstr ""
+
+#: ../../user_guide/io.rst:3885
+msgid ""
+"The ``columns`` keyword can be supplied to select a list of columns to be"
+" returned, this is equivalent to passing a "
+"``'columns=list_of_columns_to_filter'``:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3893
+msgid ""
+"``start`` and ``stop`` parameters can be specified to limit the total "
+"search space. These are in terms of the total number of rows in a table."
+msgstr ""
+
+#: ../../user_guide/io.rst:3898
+msgid ""
+"``select`` will raise a ``ValueError`` if the query expression has an "
+"unknown variable reference. Usually this means that you are trying to "
+"select on a column that is **not** a data_column."
+msgstr ""
+
+#: ../../user_guide/io.rst:3902
+msgid ""
+"``select`` will raise a ``SyntaxError`` if the query expression is not "
+"valid."
+msgstr ""
+
+#: ../../user_guide/io.rst:3908
+msgid "Using timedelta64[ns]"
+msgstr ""
+
+#: ../../user_guide/io.rst:3910
+msgid ""
+"You can store and query using the ``timedelta64[ns]`` type. Terms can be "
+"specified in the format: ``<float>(<unit>)``, where float may be signed "
+"(and fractional), and unit can be ``D,s,ms,us,ns`` for the timedelta. "
+"Here's an example:"
+msgstr ""
+
+#: ../../user_guide/io.rst:3927
+msgid "Indexing"
+msgstr ""
+
+#: ../../user_guide/io.rst:3929
+msgid ""
+"You can create/modify an index for a table with ``create_table_index`` "
+"after data is already in the table (after and ``append/put`` operation). "
+"Creating a table index is **highly** encouraged. This will speed your "
+"queries a great deal when you use a ``select`` with the indexed dimension"
+" as the ``where``."
+msgstr ""
+
+#: ../../user_guide/io.rst:3937
+msgid ""
+"Indexes are automagically created on the indexables and any data columns "
+"you specify. This behavior can be turned off by passing ``index=False`` "
+"to ``append``."
+msgstr ""
+
+#: ../../user_guide/io.rst:3952
+msgid ""
+"Oftentimes when appending large amounts of data to a store, it is useful "
+"to turn off index creation for each append, then recreate at the end."
+msgstr ""
+
+#: ../../user_guide/io.rst:3964
+msgid "Then create the index when finished appending."
+msgstr ""
+
+#: ../../user_guide/io.rst:3979
+msgid ""
+"See `here <https://stackoverflow.com/questions/17893370/ptrepack-sortby-"
+"needs-full-index>`__ for how to create a completely-sorted-index (CSI) on"
+" an existing store."
+msgstr ""
+
+#: ../../user_guide/io.rst:3984
+msgid "Query via Data Columns"
+msgstr ""
+
+#: ../../user_guide/io.rst:3986
+msgid ""
+"You can designate (and index) certain columns that you want to be able to"
+" perform queries (other than the `indexable` columns, which you can "
+"always query). For instance say you want to perform this common "
+"operation, on-disk, and return just the frame that matches this query. "
+"You can specify ``data_columns = True`` to force all columns to be "
+"``data_columns``."
+msgstr ""
+
+#: ../../user_guide/io.rst:4017
+msgid ""
+"There is some performance degradation by making lots of columns into "
+"`data columns`, so it is up to the user to designate these. In addition, "
+"you cannot change data columns (nor indexables) after the first "
+"append/put operation (Of course you can simply read in the data and "
+"create a new table!)."
+msgstr ""
+
+#: ../../user_guide/io.rst:4024
+msgid "Iterator"
+msgstr ""
+
+#: ../../user_guide/io.rst:4026
+msgid ""
+"You can pass ``iterator=True`` or ``chunksize=number_in_a_chunk`` to "
+"``select`` and ``select_as_multiple`` to return an iterator on the "
+"results. The default is 50,000 rows returned in a chunk."
+msgstr ""
+
+#: ../../user_guide/io.rst:4037
+msgid ""
+"You can also use the iterator with ``read_hdf`` which will open, then "
+"automatically close the store when finished iterating."
+msgstr ""
+
+#: ../../user_guide/io.rst:4045
+msgid ""
+"Note, that the chunksize keyword applies to the **source** rows. So if "
+"you are doing a query, then the chunksize will subdivide the total rows "
+"in the table and the query applied, returning an iterator on potentially "
+"unequal sized chunks."
+msgstr ""
+
+#: ../../user_guide/io.rst:4049
+msgid ""
+"Here is a recipe for generating a query and using it to create equal "
+"sized return chunks."
+msgstr ""
+
+#: ../../user_guide/io.rst:4068
+msgid "Advanced Queries"
+msgstr ""
+
+#: ../../user_guide/io.rst:4071
+msgid "Select a Single Column"
+msgstr ""
+
+#: ../../user_guide/io.rst:4073
+msgid ""
+"To retrieve a single indexable or data column, use the method "
+"``select_column``. This will, for example, enable you to get the index "
+"very quickly. These return a ``Series`` of the result, indexed by the row"
+" number. These do not currently accept the ``where`` selector."
+msgstr ""
+
+#: ../../user_guide/io.rst:4086
+msgid "Selecting coordinates"
+msgstr ""
+
+#: ../../user_guide/io.rst:4088
+msgid ""
+"Sometimes you want to get the coordinates (a.k.a the index locations) of "
+"your query. This returns an ``Int64Index`` of the resulting locations. "
+"These coordinates can also be passed to subsequent ``where`` operations."
+msgstr ""
+
+#: ../../user_guide/io.rst:4104
+msgid "Selecting using a where mask"
+msgstr ""
+
+#: ../../user_guide/io.rst:4106
+msgid ""
+"Sometime your query can involve creating a list of rows to select. "
+"Usually this ``mask`` would be a resulting ``index`` from an indexing "
+"operation. This example selects the months of a datetimeindex which are "
+"5."
+msgstr ""
+
+#: ../../user_guide/io.rst:4120
+msgid "Storer Object"
+msgstr ""
+
+#: ../../user_guide/io.rst:4122
+msgid ""
+"If you want to inspect the stored object, retrieve via ``get_storer``. "
+"You could use this programmatically to say get the number of rows in an "
+"object."
+msgstr ""
+
+#: ../../user_guide/io.rst:4132
+msgid "Multiple Table Queries"
+msgstr ""
+
+#: ../../user_guide/io.rst:4134
+msgid ""
+"The methods ``append_to_multiple`` and ``select_as_multiple`` can perform"
+" appending/selecting from multiple tables at once. The idea is to have "
+"one table (call it the selector table) that you index most/all of the "
+"columns, and perform your queries. The other table(s) are data tables "
+"with an index matching the selector table's index. You can then perform a"
+" very fast query on the selector table, yet get lots of data back. This "
+"method is similar to having a very wide table, but enables more efficient"
+" queries."
+msgstr ""
+
+#: ../../user_guide/io.rst:4143
+msgid ""
+"The ``append_to_multiple`` method splits a given single DataFrame into "
+"multiple tables according to ``d``, a dictionary that maps the table "
+"names to a list of 'columns' you want in that table. If `None` is used in"
+" place of a list, that table will have the remaining unspecified columns "
+"of the given DataFrame. The argument ``selector`` defines which table is "
+"the selector table (which you can make queries from). The argument "
+"``dropna`` will drop rows from the input ``DataFrame`` to ensure tables "
+"are synchronized.  This means that if a row for one of the tables being "
+"written to is entirely ``np.NaN``, that row will be dropped from all "
+"tables."
+msgstr ""
+
+#: ../../user_guide/io.rst:4153
+msgid ""
+"If ``dropna`` is False, **THE USER IS RESPONSIBLE FOR SYNCHRONIZING THE "
+"TABLES**. Remember that entirely ``np.Nan`` rows are not written to the "
+"HDFStore, so if you choose to call ``dropna=False``, some tables may have"
+" more rows than others, and therefore ``select_as_multiple`` may not work"
+" or it may return unexpected results."
+msgstr ""
+
+#: ../../user_guide/io.rst:4182
+msgid "Delete from a Table"
+msgstr ""
+
+#: ../../user_guide/io.rst:4184
+msgid ""
+"You can delete from a table selectively by specifying a ``where``. In "
+"deleting rows, it is important to understand the ``PyTables`` deletes "
+"rows by erasing the rows, then **moving** the following data. Thus "
+"deleting can potentially be a very expensive operation depending on the "
+"orientation of your data. To get optimal performance, it's worthwhile to "
+"have the dimension you are deleting be the first of the ``indexables``."
+msgstr ""
+
+#: ../../user_guide/io.rst:4192
+msgid ""
+"Data is ordered (on the disk) in terms of the ``indexables``. Here's a "
+"simple use case. You store panel-type data, with dates in the "
+"``major_axis`` and ids in the ``minor_axis``. The data is then "
+"interleaved like this:"
+msgstr ""
+
+#: ../../user_guide/io.rst:4200
+msgid "date_1"
+msgstr ""
+
+#: ../../user_guide/io.rst:4198 ../../user_guide/io.rst:4203
+msgid "id_1"
+msgstr ""
+
+#: ../../user_guide/io.rst:4199
+msgid "id_2"
+msgstr ""
+
+#: ../../user_guide/io.rst:4200 ../../user_guide/io.rst:4204
+msgid "."
+msgstr ""
+
+#: ../../user_guide/io.rst:4201 ../../user_guide/io.rst:4205
+msgid "id_n"
+msgstr ""
+
+#: ../../user_guide/io.rst:4205
+msgid "date_2"
+msgstr ""
+
+#: ../../user_guide/io.rst:4207
+msgid ""
+"It should be clear that a delete operation on the ``major_axis`` will be "
+"fairly quick, as one chunk is removed, then the following data moved. On "
+"the other hand a delete operation on the ``minor_axis`` will be very "
+"expensive. In this case it would almost certainly be faster to rewrite "
+"the table using a ``where`` that selects all but the missing data."
+msgstr ""
+
+#: ../../user_guide/io.rst:4215
+msgid ""
+"Please note that HDF5 **DOES NOT RECLAIM SPACE** in the h5 files "
+"automatically. Thus, repeatedly deleting (or removing nodes) and adding "
+"again, **WILL TEND TO INCREASE THE FILE SIZE**."
+msgstr ""
+
+#: ../../user_guide/io.rst:4219
+msgid "To *repack and clean* the file, use :ref:`ptrepack <io.hdf5-ptrepack>`."
+msgstr ""
+
+#: ../../user_guide/io.rst:4224
+msgid "Notes & Caveats"
+msgstr ""
+
+#: ../../user_guide/io.rst:4228
+msgid "Compression"
+msgstr ""
+
+#: ../../user_guide/io.rst:4230
+msgid ""
+"``PyTables`` allows the stored data to be compressed. This applies to all"
+" kinds of stores, not just tables. Two parameters are used to control "
+"compression: ``complevel`` and ``complib``."
+msgstr ""
+
+#: ../../user_guide/io.rst:4236
+msgid "``complevel`` specifies if and how hard data is to be compressed."
+msgstr ""
+
+#: ../../user_guide/io.rst:4235
+msgid ""
+"``complevel=0`` and ``complevel=None`` disables compression and "
+"``0<complevel<10`` enables compression."
+msgstr ""
+
+#: ../../user_guide/io.rst:4275
+msgid "``complib`` specifies which compression library to use. If nothing is"
+msgstr ""
+
+#: ../../user_guide/io.rst:4239
+msgid ""
+"specified the default library ``zlib`` is used. A compression library "
+"usually optimizes for either good compression rates or speed and the "
+"results will depend on the type of data. Which type of compression to "
+"choose depends on your specific needs and data. The list of supported "
+"compression libraries:"
+msgstr ""
+
+#: ../../user_guide/io.rst:4246
+msgid ""
+"`zlib <https://zlib.net/>`_: The default compression library. A classic "
+"in terms of compression, achieves good compression rates but is somewhat "
+"slow."
+msgstr ""
+
+#: ../../user_guide/io.rst:4247
+msgid ""
+"`lzo <https://www.oberhumer.com/opensource/lzo/>`_: Fast compression and "
+"decompression."
+msgstr ""
+
+#: ../../user_guide/io.rst:4248
+msgid "`bzip2 <http://bzip.org/>`_: Good compression rates."
+msgstr ""
+
+#: ../../user_guide/io.rst:4249
+msgid "`blosc <http://www.blosc.org/>`_: Fast compression and decompression."
+msgstr ""
+
+#: ../../user_guide/io.rst:4253
+msgid "Support for alternative blosc compressors:"
+msgstr ""
+
+#: ../../user_guide/io.rst:4255
+msgid ""
+"`blosc:blosclz <http://www.blosc.org/>`_ This is the default compressor "
+"for ``blosc``"
+msgstr ""
+
+#: ../../user_guide/io.rst:4257
+msgid ""
+"`blosc:lz4 <https://fastcompression.blogspot.dk/p/lz4.html>`_: A compact,"
+" very popular and fast compressor."
+msgstr ""
+
+#: ../../user_guide/io.rst:4260
+msgid ""
+"`blosc:lz4hc <https://fastcompression.blogspot.dk/p/lz4.html>`_: A "
+"tweaked version of LZ4, produces better compression ratios at the expense"
+" of speed."
+msgstr ""
+
+#: ../../user_guide/io.rst:4264
+msgid ""
+"`blosc:snappy <https://google.github.io/snappy/>`_: A popular compressor "
+"used in many places."
+msgstr ""
+
+#: ../../user_guide/io.rst:4266
+msgid ""
+"`blosc:zlib <https://zlib.net/>`_: A classic; somewhat slower than the "
+"previous ones, but achieving better compression ratios."
+msgstr ""
+
+#: ../../user_guide/io.rst:4269
+msgid ""
+"`blosc:zstd <https://facebook.github.io/zstd/>`_: An extremely well "
+"balanced codec; it provides the best compression ratios among the others "
+"above, and at reasonably fast speed."
+msgstr ""
+
+#: ../../user_guide/io.rst:4274
+msgid ""
+"If ``complib`` is defined as something other than the listed libraries a "
+"``ValueError`` exception is issued."
+msgstr ""
+
+#: ../../user_guide/io.rst:4279
+msgid ""
+"If the library specified with the ``complib`` option is missing on your "
+"platform, compression defaults to ``zlib`` without further ado."
+msgstr ""
+
+#: ../../user_guide/io.rst:4282
+msgid "Enable compression for all objects within the file:"
+msgstr ""
+
+#: ../../user_guide/io.rst:4289
+msgid ""
+"Or on-the-fly compression (this only applies to tables) in stores where "
+"compression is not enabled:"
+msgstr ""
+
+#: ../../user_guide/io.rst:4298
+msgid "ptrepack"
+msgstr ""
+
+#: ../../user_guide/io.rst:4300
+msgid ""
+"``PyTables`` offers better write performance when tables are compressed "
+"after they are written, as opposed to turning on compression at the very "
+"beginning. You can use the supplied ``PyTables`` utility ``ptrepack``. In"
+" addition, ``ptrepack`` can change compression levels after the fact."
+msgstr ""
+
+#: ../../user_guide/io.rst:4310
+msgid ""
+"Furthermore ``ptrepack in.h5 out.h5`` will *repack* the file to allow you"
+" to reuse previously deleted space. Alternatively, one can simply remove "
+"the file and write again, or use the ``copy`` method."
+msgstr ""
+
+#: ../../user_guide/io.rst:4317
+msgid "Caveats"
+msgstr ""
+
+#: ../../user_guide/io.rst:4321
+msgid ""
+"``HDFStore`` is **not-threadsafe for writing**. The underlying "
+"``PyTables`` only supports concurrent reads (via threading or processes)."
+" If you need reading and writing *at the same time*, you need to "
+"serialize these operations in a single thread in a single process. You "
+"will corrupt your data otherwise. See the (:issue:`2397`) for more "
+"information."
+msgstr ""
+
+#: ../../user_guide/io.rst:4327
+msgid ""
+"If you use locks to manage write access between multiple processes, you "
+"may want to use :py:func:`~os.fsync` before releasing write locks. For "
+"convenience you can use ``store.flush(fsync=True)`` to do this for you."
+msgstr ""
+
+#: ../../user_guide/io.rst:4330
+msgid ""
+"Once a ``table`` is created columns (DataFrame) are fixed; only exactly "
+"the same columns can be appended"
+msgstr ""
+
+#: ../../user_guide/io.rst:4332
+msgid ""
+"Be aware that timezones (e.g., ``pytz.timezone('US/Eastern')``) are not "
+"necessarily equal across timezone versions.  So if data is localized to a"
+" specific timezone in the HDFStore using one version of a timezone "
+"library and that data is updated with another version, the data will be "
+"converted to UTC since these timezones are not considered equal.  Either "
+"use the same version of timezone library or use ``tz_convert`` with the "
+"updated timezone definition."
+msgstr ""
+
+#: ../../user_guide/io.rst:4342
+msgid ""
+"``PyTables`` will show a ``NaturalNameWarning`` if a column name cannot "
+"be used as an attribute selector. *Natural* identifiers contain only "
+"letters, numbers, and underscores, and may not begin with a number. Other"
+" identifiers cannot be used in a ``where`` clause and are generally a bad"
+" idea."
+msgstr ""
+
+#: ../../user_guide/io.rst:4352
+msgid "DataTypes"
+msgstr ""
+
+#: ../../user_guide/io.rst:4354
+msgid ""
+"``HDFStore`` will map an object dtype to the ``PyTables`` underlying "
+"dtype. This means the following types are known to work:"
+msgstr ""
+
+#: ../../user_guide/io.rst:4358
+msgid "Type"
+msgstr ""
+
+#: ../../user_guide/io.rst:4358
+msgid "Represents missing values"
+msgstr ""
+
+#: ../../user_guide/io.rst:4360
+msgid "floating : ``float64, float32, float16``"
+msgstr ""
+
+#: ../../user_guide/io.rst:4360 ../../user_guide/io.rst:4366
+msgid "``np.nan``"
+msgstr ""
+
+#: ../../user_guide/io.rst:4361
+msgid "integer : ``int64, int32, int8, uint64,uint32, uint8``"
+msgstr ""
+
+#: ../../user_guide/io.rst:4363
+msgid "``datetime64[ns]``"
+msgstr ""
+
+#: ../../user_guide/io.rst:4363 ../../user_guide/io.rst:4364
+msgid "``NaT``"
+msgstr ""
+
+#: ../../user_guide/io.rst:4364
+msgid "``timedelta64[ns]``"
+msgstr ""
+
+#: ../../user_guide/io.rst:4365
+msgid "categorical : see the section below"
+msgstr ""
+
+#: ../../user_guide/io.rst:4366
+msgid "object : ``strings``"
+msgstr ""
+
+#: ../../user_guide/io.rst:4369
+msgid "``unicode`` columns are not supported, and **WILL FAIL**."
+msgstr ""
+
+#: ../../user_guide/io.rst:4374 ../../user_guide/io.rst:5348
+msgid "Categorical Data"
+msgstr ""
+
+#: ../../user_guide/io.rst:4376
+msgid ""
+"You can write data that contains ``category`` dtypes to a ``HDFStore``. "
+"Queries work the same as if it was an object array. However, the "
+"``category`` dtyped data is stored in a more efficient manner."
+msgstr ""
+
+#: ../../user_guide/io.rst:4401
+msgid "String Columns"
+msgstr ""
+
+#: ../../user_guide/io.rst:4403
+msgid "**min_itemsize**"
+msgstr ""
+
+#: ../../user_guide/io.rst:4405
+msgid ""
+"The underlying implementation of ``HDFStore`` uses a fixed column width "
+"(itemsize) for string columns. A string column itemsize is calculated as "
+"the maximum of the length of data (for that column) that is passed to the"
+" ``HDFStore``, **in the first append**. Subsequent appends, may introduce"
+" a string for a column **larger** than the column can hold, an Exception "
+"will be raised (otherwise you could have a silent truncation of these "
+"columns, leading to loss of information). In the future we may relax this"
+" and allow a user-specified truncation to occur."
+msgstr ""
+
+#: ../../user_guide/io.rst:4412
+msgid ""
+"Pass ``min_itemsize`` on the first table creation to a-priori specify the"
+" minimum length of a particular string column. ``min_itemsize`` can be an"
+" integer, or a dict mapping a column name to an integer. You can pass "
+"``values`` as a key to allow all *indexables* or *data_columns* to have "
+"this min_itemsize."
+msgstr ""
+
+#: ../../user_guide/io.rst:4416
+msgid ""
+"Passing a ``min_itemsize`` dict will cause all passed columns to be "
+"created as *data_columns* automatically."
+msgstr ""
+
+#: ../../user_guide/io.rst:4420
+msgid ""
+"If you are not passing any ``data_columns``, then the ``min_itemsize`` "
+"will be the maximum of the length of any string passed"
+msgstr ""
+
+#: ../../user_guide/io.rst:4436
+msgid "**nan_rep**"
+msgstr ""
+
+#: ../../user_guide/io.rst:4438
+msgid ""
+"String columns will serialize a ``np.nan`` (a missing value) with the "
+"``nan_rep`` string representation. This defaults to the string value "
+"``nan``. You could inadvertently turn an actual ``nan`` value into a "
+"missing value."
+msgstr ""
+
+#: ../../user_guide/io.rst:4456
+msgid "External Compatibility"
+msgstr ""
+
+#: ../../user_guide/io.rst:4458
+msgid ""
+"``HDFStore`` writes ``table`` format objects in specific formats suitable"
+" for producing loss-less round trips to pandas objects. For external "
+"compatibility, ``HDFStore`` can read native ``PyTables`` format tables."
+msgstr ""
+
+#: ../../user_guide/io.rst:4463
+msgid ""
+"It is possible to write an ``HDFStore`` object that can easily be "
+"imported into ``R`` using the ``rhdf5`` library (`Package website`_). "
+"Create a table format store like this:"
+msgstr ""
+
+#: ../../user_guide/io.rst:4486
+msgid ""
+"In R this file can be read into a ``data.frame`` object using the "
+"``rhdf5`` library. The following example function reads the corresponding"
+" column names and data values from the values and assembles them into a "
+"``data.frame``:"
+msgstr ""
+
+#: ../../user_guide/io.rst:4522
+msgid "Now you can import the ``DataFrame`` into R:"
+msgstr ""
+
+#: ../../user_guide/io.rst:4537
+msgid ""
+"The R function lists the entire HDF5 file's contents and assembles the "
+"``data.frame`` object from all matching nodes, so use this only as a "
+"starting point if you have stored multiple ``DataFrame`` objects to a "
+"single HDF5 file."
+msgstr ""
+
+#: ../../user_guide/io.rst:4544
+msgid "Performance"
+msgstr ""
+
+#: ../../user_guide/io.rst:4546
+msgid ""
+"``tables`` format come with a writing performance penalty as compared to "
+"``fixed`` stores. The benefit is the ability to append/delete and query "
+"(potentially very large amounts of data).  Write times are generally "
+"longer as compared with regular stores. Query times can be quite fast, "
+"especially on an indexed axis."
+msgstr ""
+
+#: ../../user_guide/io.rst:4551
+msgid ""
+"You can pass ``chunksize=<int>`` to ``append``, specifying the write "
+"chunksize (default is 50000). This will significantly lower your memory "
+"usage on writing."
+msgstr ""
+
+#: ../../user_guide/io.rst:4554
+msgid ""
+"You can pass ``expectedrows=<int>`` to the first ``append``, to set the "
+"TOTAL number of expected rows that ``PyTables`` will expected. This will "
+"optimize read/write performance."
+msgstr ""
+
+#: ../../user_guide/io.rst:4557
+msgid ""
+"Duplicate rows can be written to tables, but are filtered out in "
+"selection (with the last items being selected; thus a table is unique on "
+"major, minor pairs)"
+msgstr ""
+
+#: ../../user_guide/io.rst:4560
+msgid ""
+"A ``PerformanceWarning`` will be raised if you are attempting to store "
+"types that will be pickled by PyTables (rather than stored as endemic "
+"types). See `Here <https://stackoverflow.com/questions/14355151/how-to-"
+"make-pandas-hdfstore-put-operation-faster/14370190#14370190>`__ for more "
+"information and some solutions."
+msgstr ""
+
+#: ../../user_guide/io.rst:4577
+msgid "Feather"
+msgstr ""
+
+#: ../../user_guide/io.rst:4581
+msgid ""
+"Feather provides binary columnar serialization for data frames. It is "
+"designed to make reading and writing data frames efficient, and to make "
+"sharing data across data analysis languages easy."
+msgstr ""
+
+#: ../../user_guide/io.rst:4584
+msgid ""
+"Feather is designed to faithfully serialize and de-serialize DataFrames, "
+"supporting all of the pandas dtypes, including extension dtypes such as "
+"categorical and datetime with tz."
+msgstr ""
+
+#: ../../user_guide/io.rst:4587 ../../user_guide/io.rst:4655
+msgid "Several caveats."
+msgstr ""
+
+#: ../../user_guide/io.rst:4589
+msgid ""
+"This is a newer library, and the format, though stable, is not guaranteed"
+" to be backward compatible to the earlier versions."
+msgstr ""
+
+#: ../../user_guide/io.rst:4591
+msgid ""
+"The format will NOT write an ``Index``, or ``MultiIndex`` for the "
+"``DataFrame`` and will raise an error if a non-default one is provided. "
+"You can ``.reset_index()`` to store the index or "
+"``.reset_index(drop=True)`` to ignore it."
+msgstr ""
+
+#: ../../user_guide/io.rst:4595
+msgid "Duplicate column names and non-string columns names are not supported"
+msgstr ""
+
+#: ../../user_guide/io.rst:4596 ../../user_guide/io.rst:4663
+msgid ""
+"Non supported types include ``Period`` and actual Python object types. "
+"These will raise a helpful error message on an attempt at serialization."
+msgstr ""
+
+#: ../../user_guide/io.rst:4599
+msgid "See the `Full Documentation <https://github.com/wesm/feather>`__."
+msgstr ""
+
+#: ../../user_guide/io.rst:4616
+msgid "Write to a feather file."
+msgstr ""
+
+#: ../../user_guide/io.rst:4623
+msgid "Read from a feather file."
+msgstr ""
+
+#: ../../user_guide/io.rst:4643
+msgid "Parquet"
+msgstr ""
+
+#: ../../user_guide/io.rst:4647
+msgid ""
+"`Apache Parquet <https://parquet.apache.org/>`__ provides a partitioned "
+"binary columnar serialization for data frames. It is designed to make "
+"reading and writing data frames efficient, and to make sharing data "
+"across data analysis languages easy. Parquet can use a variety of "
+"compression techniques to shrink the file size as much as possible while "
+"still maintaining good read performance."
+msgstr ""
+
+#: ../../user_guide/io.rst:4652
+msgid ""
+"Parquet is designed to faithfully serialize and de-serialize "
+"``DataFrame`` s, supporting all of the pandas dtypes, including extension"
+" dtypes such as datetime with tz."
+msgstr ""
+
+#: ../../user_guide/io.rst:4657
+msgid "Duplicate column names and non-string columns names are not supported."
+msgstr ""
+
+#: ../../user_guide/io.rst:4658
+msgid ""
+"The ``pyarrow`` engine always writes the index to the output, but "
+"``fastparquet`` only writes non-default indexes. This extra column can "
+"cause problems for non-Pandas consumers that are not expecting it. You "
+"can force including or omitting indexes with the ``index`` argument, "
+"regardless of the underlying engine."
+msgstr ""
+
+#: ../../user_guide/io.rst:4661
+msgid "Index level names, if specified, must be strings."
+msgstr ""
+
+#: ../../user_guide/io.rst:4662
+msgid ""
+"Categorical dtypes can be serialized to parquet, but will de-serialize as"
+" ``object`` dtype."
+msgstr ""
+
+#: ../../user_guide/io.rst:4666
+msgid ""
+"You can specify an ``engine`` to direct the serialization. This can be "
+"one of ``pyarrow``, or ``fastparquet``, or ``auto``. If the engine is NOT"
+" specified, then the ``pd.options.io.parquet.engine`` option is checked; "
+"if this is also ``auto``, then ``pyarrow`` is tried, and falling back to "
+"``fastparquet``."
+msgstr ""
+
+#: ../../user_guide/io.rst:4670
+msgid ""
+"See the documentation for `pyarrow "
+"<https://arrow.apache.org/docs/python/>`__ and `fastparquet "
+"<https://fastparquet.readthedocs.io/en/latest/>`__."
+msgstr ""
+
+#: ../../user_guide/io.rst:4674
+msgid ""
+"These engines are very similar and should read/write nearly identical "
+"parquet format files. Currently ``pyarrow`` does not support timedelta "
+"data, ``fastparquet>=0.1.4`` supports timezone aware datetimes. These "
+"libraries differ by having different underlying dependencies "
+"(``fastparquet`` by using ``numba``, while ``pyarrow`` uses a c-library)."
+msgstr ""
+
+#: ../../user_guide/io.rst:4691
+msgid "Write to a parquet file."
+msgstr ""
+
+#: ../../user_guide/io.rst:4698
+msgid "Read from a parquet file."
+msgstr ""
+
+#: ../../user_guide/io.rst:4708
+msgid "Read only certain columns of a parquet file."
+msgstr ""
+
+#: ../../user_guide/io.rst:4726
+msgid "Handling Indexes"
+msgstr ""
+
+#: ../../user_guide/io.rst:4728
+msgid ""
+"Serializing a ``DataFrame`` to parquet may include the implicit index as "
+"one or more columns in the output file. Thus, this code:"
+msgstr ""
+
+#: ../../user_guide/io.rst:4736
+msgid ""
+"creates a parquet file with *three* columns if you use ``pyarrow`` for "
+"serialization: ``a``, ``b``, and ``__index_level_0__``. If you're using "
+"``fastparquet``, the index `may or may not "
+"<https://fastparquet.readthedocs.io/en/latest/api.html#fastparquet.write>`_"
+" be written to the file."
+msgstr ""
+
+#: ../../user_guide/io.rst:4741
+msgid ""
+"This unexpected extra column causes some databases like Amazon Redshift "
+"to reject the file, because that column doesn't exist in the target "
+"table."
+msgstr ""
+
+#: ../../user_guide/io.rst:4744
+msgid ""
+"If you want to omit a dataframe's indexes when writing, pass "
+"``index=False`` to :func:`~pandas.DataFrame.to_parquet`:"
+msgstr ""
+
+#: ../../user_guide/io.rst:4751
+msgid ""
+"This creates a parquet file with just the two expected columns, ``a`` and"
+" ``b``. If your ``DataFrame`` has a custom index, you won't get it back "
+"when you load this file into a ``DataFrame``."
+msgstr ""
+
+#: ../../user_guide/io.rst:4755
+msgid ""
+"Passing ``index=True`` will *always* write the index, even if that's not "
+"the underlying engine's default behavior."
+msgstr ""
+
+#: ../../user_guide/io.rst:4765
+msgid "Partitioning Parquet files"
+msgstr ""
+
+#: ../../user_guide/io.rst:4769
+msgid ""
+"Parquet supports partitioning of data based on the values of one or more "
+"columns."
+msgstr ""
+
+#: ../../user_guide/io.rst:4778
+msgid ""
+"The `fname` specifies the parent directory to which data will be saved. "
+"The `partition_cols` are the column names by which the dataset will be "
+"partitioned. Columns are partitioned in the order they are given. The "
+"partition splits are determined by the unique values in the partition "
+"columns. The above example creates a partitioned dataset that may look "
+"like:"
+msgstr ""
+
+#: ../../user_guide/io.rst:4806
+msgid "SQL Queries"
+msgstr ""
+
+#: ../../user_guide/io.rst:4808
+msgid ""
+"The :mod:`pandas.io.sql` module provides a collection of query wrappers "
+"to both facilitate data retrieval and to reduce dependency on DB-specific"
+" API. Database abstraction is provided by SQLAlchemy if installed. In "
+"addition you will need a driver library for your database. Examples of "
+"such drivers are `psycopg2 <http://initd.org/psycopg/>`__ for PostgreSQL "
+"or `pymysql <https://github.com/PyMySQL/PyMySQL>`__ for MySQL. For "
+"`SQLite <https://docs.python.org/3/library/sqlite3.html>`__ this is "
+"included in Python's standard library by default. You can find an "
+"overview of supported drivers for each SQL dialect in the `SQLAlchemy "
+"docs <https://docs.sqlalchemy.org/en/latest/dialects/index.html>`__."
+msgstr ""
+
+#: ../../user_guide/io.rst:4818
+msgid ""
+"If SQLAlchemy is not installed, a fallback is only provided for sqlite "
+"(and for mysql for backwards compatibility, but this is deprecated and "
+"will be removed in a future version). This mode requires a Python "
+"database adapter which respect the `Python DB-API "
+"<https://www.python.org/dev/peps/pep-0249/>`__."
+msgstr ""
+
+#: ../../user_guide/io.rst:4824
+msgid ""
+"See also some :ref:`cookbook examples <cookbook.sql>` for some advanced "
+"strategies."
+msgstr ""
+
+#: ../../user_guide/io.rst:4826
+msgid "The key functions are:"
+msgstr ""
+
+#: ../../user_guide/io.rst:4835:<autosummary>:1
+msgid ""
+":obj:`read_sql_table <pandas.read_sql_table>`\\ \\(table\\_name\\, "
+"con\\[\\, schema\\, ...\\]\\)"
+msgstr ""
+
+#: ../../user_guide/io.rst:4835:<autosummary>:1
+msgid "Read SQL database table into a DataFrame."
+msgstr ""
+
+#: ../../user_guide/io.rst:4835:<autosummary>:1
+msgid ""
+":obj:`read_sql_query <pandas.read_sql_query>`\\ \\(sql\\, con\\[\\, "
+"index\\_col\\, ...\\]\\)"
+msgstr ""
+
+#: ../../user_guide/io.rst:4835:<autosummary>:1
+msgid "Read SQL query into a DataFrame."
+msgstr ""
+
+#: ../../user_guide/io.rst:4835:<autosummary>:1
+msgid ""
+":obj:`read_sql <pandas.read_sql>`\\ \\(sql\\, con\\[\\, index\\_col\\, "
+"...\\]\\)"
+msgstr ""
+
+#: ../../user_guide/io.rst:4835:<autosummary>:1
+msgid "Read SQL query or database table into a DataFrame."
+msgstr ""
+
+#: ../../user_guide/io.rst:4835:<autosummary>:1
+msgid ""
+":obj:`DataFrame.to_sql <pandas.DataFrame.to_sql>`\\ \\(name\\, con\\[\\, "
+"schema\\, ...\\]\\)"
+msgstr ""
+
+#: ../../user_guide/io.rst:4835:<autosummary>:1
+msgid "Write records stored in a DataFrame to a SQL database."
+msgstr ""
+
+#: ../../user_guide/io.rst:4838
+msgid ""
+"The function :func:`~pandas.read_sql` is a convenience wrapper around "
+":func:`~pandas.read_sql_table` and :func:`~pandas.read_sql_query` (and "
+"for backward compatibility) and will delegate to specific function "
+"depending on the provided input (database table name or sql query). Table"
+" names do not need to be quoted if they have special characters."
+msgstr ""
+
+#: ../../user_guide/io.rst:4844
+msgid ""
+"In the following example, we use the `SQlite <https://www.sqlite.org/>`__"
+" SQL database engine. You can use a temporary SQLite database where data "
+"are stored in \"memory\"."
+msgstr ""
+
+#: ../../user_guide/io.rst:4848
+msgid ""
+"To connect with SQLAlchemy you use the :func:`create_engine` function to "
+"create an engine object from database URI. You only need to create the "
+"engine once per database you are connecting to. For more information on "
+":func:`create_engine` and the URI formatting, see the examples below and "
+"the SQLAlchemy `documentation "
+"<https://docs.sqlalchemy.org/en/latest/core/engines.html>`__"
+msgstr ""
+
+#: ../../user_guide/io.rst:4860
+msgid ""
+"If you want to manage your own connections you can pass one of those "
+"instead:"
+msgstr ""
+
+#: ../../user_guide/io.rst:4868
+msgid "Writing DataFrames"
+msgstr ""
+
+#: ../../user_guide/io.rst:4870
+msgid ""
+"Assuming the following data is in a ``DataFrame`` ``data``, we can insert"
+" it into the database using :func:`~pandas.DataFrame.to_sql`."
+msgstr ""
+
+#: ../../user_guide/io.rst:4874
+msgid "id"
+msgstr ""
+
+#: ../../user_guide/io.rst:4874
+msgid "Date"
+msgstr ""
+
+#: ../../user_guide/io.rst:4874
+msgid "Col_1"
+msgstr ""
+
+#: ../../user_guide/io.rst:4874
+msgid "Col_2"
+msgstr ""
+
+#: ../../user_guide/io.rst:4874
+msgid "Col_3"
+msgstr ""
+
+#: ../../user_guide/io.rst:4876
+msgid "26"
+msgstr ""
+
+#: ../../user_guide/io.rst:4876
+msgid "2012-10-18"
+msgstr ""
+
+#: ../../user_guide/io.rst:4876
+msgid "X"
+msgstr ""
+
+#: ../../user_guide/io.rst:4876
+msgid "25.7"
+msgstr ""
+
+#: ../../user_guide/io.rst:4876 ../../user_guide/io.rst:4880
+msgid "True"
+msgstr ""
+
+#: ../../user_guide/io.rst:4878
+msgid "42"
+msgstr ""
+
+#: ../../user_guide/io.rst:4878
+msgid "2012-10-19"
+msgstr ""
+
+#: ../../user_guide/io.rst:4878
+msgid "Y"
+msgstr ""
+
+#: ../../user_guide/io.rst:4878
+msgid "-12.4"
+msgstr ""
+
+#: ../../user_guide/io.rst:4878
+msgid "False"
+msgstr ""
+
+#: ../../user_guide/io.rst:4880
+msgid "63"
+msgstr ""
+
+#: ../../user_guide/io.rst:4880
+msgid "2012-10-20"
+msgstr ""
+
+#: ../../user_guide/io.rst:4880
+msgid "Z"
+msgstr ""
+
+#: ../../user_guide/io.rst:4880
+msgid "5.73"
+msgstr ""
+
+#: ../../user_guide/io.rst:4900
+msgid ""
+"With some databases, writing large DataFrames can result in errors due to"
+" packet size limitations being exceeded. This can be avoided by setting "
+"the ``chunksize`` parameter when calling ``to_sql``.  For example, the "
+"following writes ``data`` to the database in batches of 1000 rows at a "
+"time:"
+msgstr ""
+
+#: ../../user_guide/io.rst:4910
+msgid "SQL data types"
+msgstr ""
+
+#: ../../user_guide/io.rst:4912
+msgid ""
+":func:`~pandas.DataFrame.to_sql` will try to map your data to an "
+"appropriate SQL data type based on the dtype of the data. When you have "
+"columns of dtype ``object``, pandas will try to infer the data type."
+msgstr ""
+
+#: ../../user_guide/io.rst:4916
+msgid ""
+"You can always override the default type by specifying the desired SQL "
+"type of any of the columns by using the ``dtype`` argument. This argument"
+" needs a dictionary mapping column names to SQLAlchemy types (or strings "
+"for the sqlite3 fallback mode). For example, specifying to use the "
+"sqlalchemy ``String`` type instead of the default ``Text`` type for "
+"string columns:"
+msgstr ""
+
+#: ../../user_guide/io.rst:4930
+msgid ""
+"Due to the limited support for timedelta's in the different database "
+"flavors, columns with type ``timedelta64`` will be written as integer "
+"values as nanoseconds to the database and a warning will be raised."
+msgstr ""
+
+#: ../../user_guide/io.rst:4936
+msgid ""
+"Columns of ``category`` dtype will be converted to the dense "
+"representation as you would get with ``np.asarray(categorical)`` (e.g. "
+"for string categories this gives an array of strings). Because of this, "
+"reading the database table back in does **not** generate a categorical."
+msgstr ""
+
+#: ../../user_guide/io.rst:4945
+msgid "Datetime data types"
+msgstr ""
+
+#: ../../user_guide/io.rst:4947
+msgid ""
+"Using SQLAlchemy, :func:`~pandas.DataFrame.to_sql` is capable of writing "
+"datetime data that is timezone naive or timezone aware. However, the "
+"resulting data stored in the database ultimately depends on the supported"
+" data type for datetime data of the database system being used."
+msgstr ""
+
+#: ../../user_guide/io.rst:4952
+msgid ""
+"The following table lists supported data types for datetime data for some"
+" common databases. Other database dialects may have different data types "
+"for datetime data."
+msgstr ""
+
+#: ../../user_guide/io.rst:4957
+msgid "Database"
+msgstr ""
+
+#: ../../user_guide/io.rst:4957
+msgid "SQL Datetime Types"
+msgstr ""
+
+#: ../../user_guide/io.rst:4957
+msgid "Timezone Support"
+msgstr ""
+
+#: ../../user_guide/io.rst:4959
+msgid "SQLite"
+msgstr ""
+
+#: ../../user_guide/io.rst:4959
+msgid "``TEXT``"
+msgstr ""
+
+#: ../../user_guide/io.rst:4959 ../../user_guide/io.rst:4960
+msgid "No"
+msgstr ""
+
+#: ../../user_guide/io.rst:4960
+msgid "MySQL"
+msgstr ""
+
+#: ../../user_guide/io.rst:4960
+msgid "``TIMESTAMP`` or ``DATETIME``"
+msgstr ""
+
+#: ../../user_guide/io.rst:4961
+msgid "PostgreSQL"
+msgstr ""
+
+#: ../../user_guide/io.rst:4961
+msgid "``TIMESTAMP`` or ``TIMESTAMP WITH TIME ZONE``"
+msgstr ""
+
+#: ../../user_guide/io.rst:4961
+msgid "Yes"
+msgstr ""
+
+#: ../../user_guide/io.rst:4964
+msgid ""
+"When writing timezone aware data to databases that do not support "
+"timezones, the data will be written as timezone naive timestamps that are"
+" in local time with respect to the timezone."
+msgstr ""
+
+#: ../../user_guide/io.rst:4968
+msgid ""
+":func:`~pandas.read_sql_table` is also capable of reading datetime data "
+"that is timezone aware or naive. When reading ``TIMESTAMP WITH TIME "
+"ZONE`` types, pandas will convert the data to UTC."
+msgstr ""
+
+#: ../../user_guide/io.rst:4975
+msgid "Insertion Method"
+msgstr ""
+
+#: ../../user_guide/io.rst:4979
+msgid ""
+"The parameter ``method`` controls the SQL insertion clause used. Possible"
+" values are:"
+msgstr ""
+
+#: ../../user_guide/io.rst:4982
+msgid "``None``: Uses standard SQL ``INSERT`` clause (one per row)."
+msgstr ""
+
+#: ../../user_guide/io.rst:4983
+msgid ""
+"``'multi'``: Pass multiple values in a single ``INSERT`` clause. It uses "
+"a *special* SQL syntax not supported by all backends. This usually "
+"provides better performance for analytic databases like *Presto* and "
+"*Redshift*, but has worse performance for traditional SQL backend if the "
+"table contains many columns. For more information check the SQLAlchemy "
+"`documention "
+"<http://docs.sqlalchemy.org/en/latest/core/dml.html#sqlalchemy.sql.expression.Insert.values.params.*args>`__."
+msgstr ""
+
+#: ../../user_guide/io.rst:4990
+msgid ""
+"callable with signature ``(pd_table, conn, keys, data_iter)``: This can "
+"be used to implement a more performant insertion method based on specific"
+" backend dialect features."
+msgstr ""
+
+#: ../../user_guide/io.rst:4994
+msgid ""
+"Example of a callable using PostgreSQL `COPY clause "
+"<https://www.postgresql.org/docs/current/static/sql-copy.html>`__::"
+msgstr ""
+
+#: ../../user_guide/io.rst:5021
+msgid "Reading Tables"
+msgstr ""
+
+#: ../../user_guide/io.rst:5023
+msgid ""
+":func:`~pandas.read_sql_table` will read a database table given the table"
+" name and optionally a subset of columns to read."
+msgstr ""
+
+#: ../../user_guide/io.rst:5028
+msgid ""
+"In order to use :func:`~pandas.read_sql_table`, you **must** have the "
+"SQLAlchemy optional dependency installed."
+msgstr ""
+
+#: ../../user_guide/io.rst:5035
+msgid ""
+"You can also specify the name of the column as the ``DataFrame`` index, "
+"and specify a subset of columns to be read."
+msgstr ""
+
+#: ../../user_guide/io.rst:5043
+msgid "And you can explicitly force columns to be parsed as dates:"
+msgstr ""
+
+#: ../../user_guide/io.rst:5049
+msgid ""
+"If needed you can explicitly specify a format string, or a dict of "
+"arguments to pass to :func:`pandas.to_datetime`:"
+msgstr ""
+
+#: ../../user_guide/io.rst:5059
+msgid "You can check if a table exists using :func:`~pandas.io.sql.has_table`"
+msgstr ""
+
+#: ../../user_guide/io.rst:5062
+msgid "Schema support"
+msgstr ""
+
+#: ../../user_guide/io.rst:5064
+msgid ""
+"Reading from and writing to different schema's is supported through the "
+"``schema`` keyword in the :func:`~pandas.read_sql_table` and "
+":func:`~pandas.DataFrame.to_sql` functions. Note however that this "
+"depends on the database flavor (sqlite does not have schema's). For "
+"example:"
+msgstr ""
+
+#: ../../user_guide/io.rst:5077
+msgid ""
+"You can query using raw SQL in the :func:`~pandas.read_sql_query` "
+"function. In this case you must use the SQL variant appropriate for your "
+"database. When using SQLAlchemy, you can also pass SQLAlchemy Expression "
+"language constructs, which are database-agnostic."
+msgstr ""
+
+#: ../../user_guide/io.rst:5086
+msgid "Of course, you can specify a more \"complex\" query."
+msgstr ""
+
+#: ../../user_guide/io.rst:5092
+msgid ""
+"The :func:`~pandas.read_sql_query` function supports a ``chunksize`` "
+"argument. Specifying this will return an iterator through chunks of the "
+"query result:"
+msgstr ""
+
+#: ../../user_guide/io.rst:5106
+msgid ""
+"You can also run a plain query without creating a ``DataFrame`` with "
+":func:`~pandas.io.sql.execute`. This is useful for queries that don't "
+"return values, such as INSERT. This is functionally equivalent to calling"
+" ``execute`` on the SQLAlchemy engine or db connection object. Again, you"
+" must use the SQL syntax variant appropriate for your database."
+msgstr ""
+
+#: ../../user_guide/io.rst:5121
+msgid "Engine connection examples"
+msgstr ""
+
+#: ../../user_guide/io.rst:5123
+msgid ""
+"To connect with SQLAlchemy you use the :func:`create_engine` function to "
+"create an engine object from database URI. You only need to create the "
+"engine once per database you are connecting to."
+msgstr ""
+
+#: ../../user_guide/io.rst:5146
+msgid ""
+"For more information see the examples the SQLAlchemy `documentation "
+"<https://docs.sqlalchemy.org/en/latest/core/engines.html>`__"
+msgstr ""
+
+#: ../../user_guide/io.rst:5150
+msgid "Advanced SQLAlchemy queries"
+msgstr ""
+
+#: ../../user_guide/io.rst:5152
+msgid "You can use SQLAlchemy constructs to describe your query."
+msgstr ""
+
+#: ../../user_guide/io.rst:5154
+msgid ""
+"Use :func:`sqlalchemy.text` to specify query parameters in a backend-"
+"neutral way"
+msgstr ""
+
+#: ../../user_guide/io.rst:5162
+msgid ""
+"If you have an SQLAlchemy description of your database you can express "
+"where conditions using SQLAlchemy expressions"
+msgstr ""
+
+#: ../../user_guide/io.rst:5177
+msgid ""
+"You can combine SQLAlchemy expressions with parameters passed to "
+":func:`read_sql` using :func:`sqlalchemy.bindparam`"
+msgstr ""
+
+#: ../../user_guide/io.rst:5187
+msgid "Sqlite fallback"
+msgstr ""
+
+#: ../../user_guide/io.rst:5189
+msgid ""
+"The use of sqlite is supported without using SQLAlchemy. This mode "
+"requires a Python database adapter which respect the `Python DB-API "
+"<https://www.python.org/dev/peps/pep-0249/>`__."
+msgstr ""
+
+#: ../../user_guide/io.rst:5193
+msgid "You can create connections like so:"
+msgstr ""
+
+#: ../../user_guide/io.rst:5200
+msgid "And then issue the following queries:"
+msgstr ""
+
+#: ../../user_guide/io.rst:5211
+msgid "Google BigQuery"
+msgstr ""
+
+#: ../../user_guide/io.rst:5215
+msgid ""
+"Starting in 0.20.0, pandas has split off Google BigQuery support into the"
+" separate package ``pandas-gbq``. You can ``pip install pandas-gbq`` to "
+"get it."
+msgstr ""
+
+#: ../../user_guide/io.rst:5218
+msgid ""
+"The ``pandas-gbq`` package provides functionality to read/write from "
+"Google BigQuery."
+msgstr ""
+
+#: ../../user_guide/io.rst:5220
+msgid ""
+"pandas integrates with this external package. if ``pandas-gbq`` is "
+"installed, you can use the pandas methods ``pd.read_gbq`` and "
+"``DataFrame.to_gbq``, which will call the respective functions from "
+"``pandas-gbq``."
+msgstr ""
+
+#: ../../user_guide/io.rst:5224
+msgid ""
+"Full documentation can be found `here <https://pandas-"
+"gbq.readthedocs.io/>`__."
+msgstr ""
+
+#: ../../user_guide/io.rst:5229
+msgid "Stata Format"
+msgstr ""
+
+#: ../../user_guide/io.rst:5234
+msgid "Writing to Stata format"
+msgstr ""
+
+#: ../../user_guide/io.rst:5236
+msgid ""
+"The method :func:`~pandas.core.frame.DataFrame.to_stata` will write a "
+"DataFrame into a .dta file. The format version of this file is always 115"
+" (Stata 12)."
+msgstr ""
+
+#: ../../user_guide/io.rst:5244
+msgid ""
+"*Stata* data files have limited data type support; only strings with 244 "
+"or fewer characters, ``int8``, ``int16``, ``int32``, ``float32`` and "
+"``float64`` can be stored in ``.dta`` files.  Additionally, *Stata* "
+"reserves certain values to represent missing data. Exporting a non-"
+"missing value that is outside of the permitted range in Stata for a "
+"particular data type will retype the variable to the next larger size.  "
+"For example, ``int8`` values are restricted to lie between -127 and 100 "
+"in Stata, and so variables with values above 100 will trigger a "
+"conversion to ``int16``. ``nan`` values in floating points data types are"
+" stored as the basic missing data type (``.`` in *Stata*)."
+msgstr ""
+
+#: ../../user_guide/io.rst:5257
+msgid "It is not possible to export missing data values for integer data types."
+msgstr ""
+
+#: ../../user_guide/io.rst:5260
+msgid ""
+"The *Stata* writer gracefully handles other data types including "
+"``int64``, ``bool``, ``uint8``, ``uint16``, ``uint32`` by casting to the "
+"smallest supported type that can represent the data.  For example, data "
+"with a type of ``uint8`` will be cast to ``int8`` if all values are less "
+"than 100 (the upper bound for non-missing ``int8`` data in *Stata*), or, "
+"if values are outside of this range, the variable is cast to ``int16``."
+msgstr ""
+
+#: ../../user_guide/io.rst:5270
+msgid ""
+"Conversion from ``int64`` to ``float64`` may result in a loss of "
+"precision if ``int64`` values are larger than 2**53."
+msgstr ""
+
+#: ../../user_guide/io.rst:5275
+msgid ""
+":class:`~pandas.io.stata.StataWriter` and "
+":func:`~pandas.core.frame.DataFrame.to_stata` only support fixed width "
+"strings containing up to 244 characters, a limitation imposed by the "
+"version 115 dta file format. Attempting to write *Stata* dta files with "
+"strings longer than 244 characters raises a ``ValueError``."
+msgstr ""
+
+#: ../../user_guide/io.rst:5284
+msgid "Reading from Stata format"
+msgstr ""
+
+#: ../../user_guide/io.rst:5286
+msgid ""
+"The top-level function ``read_stata`` will read a dta file and return "
+"either a ``DataFrame`` or a :class:`~pandas.io.stata.StataReader` that "
+"can be used to read the file incrementally."
+msgstr ""
+
+#: ../../user_guide/io.rst:5294
+msgid ""
+"Specifying a ``chunksize`` yields a :class:`~pandas.io.stata.StataReader`"
+" instance that can be used to read ``chunksize`` lines from the file at a"
+" time.  The ``StataReader`` object can be used as an iterator."
+msgstr ""
+
+#: ../../user_guide/io.rst:5305
+msgid ""
+"For more fine-grained control, use ``iterator=True`` and specify "
+"``chunksize`` with each call to "
+":func:`~pandas.io.stata.StataReader.read`."
+msgstr ""
+
+#: ../../user_guide/io.rst:5315
+msgid "Currently the ``index`` is retrieved as a column."
+msgstr ""
+
+#: ../../user_guide/io.rst:5317
+msgid ""
+"The parameter ``convert_categoricals`` indicates whether value labels "
+"should be read and used to create a ``Categorical`` variable from them. "
+"Value labels can also be retrieved by the function ``value_labels``, "
+"which requires :func:`~pandas.io.stata.StataReader.read` to be called "
+"before use."
+msgstr ""
+
+#: ../../user_guide/io.rst:5322
+msgid ""
+"The parameter ``convert_missing`` indicates whether missing value "
+"representations in Stata should be preserved.  If ``False`` (the "
+"default), missing values are represented as ``np.nan``.  If ``True``, "
+"missing values are represented using ``StataMissingValue`` objects, and "
+"columns containing missing values will have ``object`` data type."
+msgstr ""
+
+#: ../../user_guide/io.rst:5330
+msgid ""
+":func:`~pandas.read_stata` and :class:`~pandas.io.stata.StataReader` "
+"support .dta formats 113-115 (Stata 10-12), 117 (Stata 13), and 118 "
+"(Stata 14)."
+msgstr ""
+
+#: ../../user_guide/io.rst:5336
+msgid ""
+"Setting ``preserve_dtypes=False`` will upcast to the standard pandas data"
+" types: ``int64`` for all integer types and ``float64`` for floating "
+"point data.  By default, the Stata data types are preserved when "
+"importing."
+msgstr ""
+
+#: ../../user_guide/io.rst:5350
+msgid ""
+"``Categorical`` data can be exported to *Stata* data files as value "
+"labeled data. The exported data consists of the underlying category codes"
+" as integer data values and the categories as value labels.  *Stata* does"
+" not have an explicit equivalent to a ``Categorical`` and information "
+"about *whether* the variable is ordered is lost when exporting."
+msgstr ""
+
+#: ../../user_guide/io.rst:5358
+msgid ""
+"*Stata* only supports string value labels, and so ``str`` is called on "
+"the categories when exporting data.  Exporting ``Categorical`` variables "
+"with non-string categories produces a warning, and can result a loss of "
+"information if the ``str`` representations of the categories are not "
+"unique."
+msgstr ""
+
+#: ../../user_guide/io.rst:5363
+msgid ""
+"Labeled data can similarly be imported from *Stata* data files as "
+"``Categorical`` variables using the keyword argument "
+"``convert_categoricals`` (``True`` by default). The keyword argument "
+"``order_categoricals`` (``True`` by default) determines whether imported "
+"``Categorical`` variables are ordered."
+msgstr ""
+
+#: ../../user_guide/io.rst:5370
+msgid ""
+"When importing categorical data, the values of the variables in the "
+"*Stata* data file are not preserved since ``Categorical`` variables "
+"always use integer data types between ``-1`` and ``n-1`` where ``n`` is "
+"the number of categories. If the original values in the *Stata* data file"
+" are required, these can be imported by setting "
+"``convert_categoricals=False``, which will import original data (but not "
+"the variable labels). The original values can be matched to the imported "
+"categorical data since there is a simple mapping between the original "
+"*Stata* data values and the category codes of imported Categorical "
+"variables: missing values are assigned code ``-1``, and the smallest "
+"original value is assigned ``0``, the second smallest is assigned ``1`` "
+"and so on until the largest original value is assigned the code ``n-1``."
+msgstr ""
+
+#: ../../user_guide/io.rst:5384
+msgid ""
+"*Stata* supports partially labeled series. These series have value labels"
+" for some but not all data values. Importing a partially labeled series "
+"will produce a ``Categorical`` with string categories for the values that"
+" are labeled and numeric categories for values with no label."
+msgstr ""
+
+#: ../../user_guide/io.rst:5394
+msgid "SAS Formats"
+msgstr ""
+
+#: ../../user_guide/io.rst:5396
+msgid ""
+"The top-level function :func:`read_sas` can read (but not write) SAS "
+"`xport` (.XPT) and (since *v0.18.0*) `SAS7BDAT` (.sas7bdat) format files."
+msgstr ""
+
+#: ../../user_guide/io.rst:5399
+msgid ""
+"SAS files only contain two value types: ASCII text and floating point "
+"values (usually 8 bytes but sometimes truncated).  For xport files, there"
+" is no automatic type conversion to integers, dates, or categoricals.  "
+"For SAS7BDAT files, the format codes may allow date variables to be "
+"automatically converted to dates.  By default the whole file is read and "
+"returned as a ``DataFrame``."
+msgstr ""
+
+#: ../../user_guide/io.rst:5406
+msgid ""
+"Specify a ``chunksize`` or use ``iterator=True`` to obtain reader objects"
+" (``XportReader`` or ``SAS7BDATReader``) for incrementally reading the "
+"file.  The reader objects also have attributes that contain additional "
+"information about the file and its variables."
+msgstr ""
+
+#: ../../user_guide/io.rst:5411
+msgid "Read a SAS7BDAT file:"
+msgstr ""
+
+#: ../../user_guide/io.rst:5417
+msgid "Obtain an iterator and read an XPORT file 100,000 lines at a time:"
+msgstr ""
+
+#: ../../user_guide/io.rst:5428
+msgid ""
+"The specification_ for the xport file format is available from the SAS "
+"web site."
+msgstr ""
+
+#: ../../user_guide/io.rst:5433
+msgid "No official documentation is available for the SAS7BDAT format."
+msgstr ""
+
+#: ../../user_guide/io.rst:5438
+msgid "Other file formats"
+msgstr ""
+
+#: ../../user_guide/io.rst:5440
+msgid ""
+"pandas itself only supports IO with a limited set of file formats that "
+"map cleanly to its tabular data model. For reading and writing other file"
+" formats into and from pandas, we recommend these packages from the "
+"broader community."
+msgstr ""
+
+#: ../../user_guide/io.rst:5445
+msgid "netCDF"
+msgstr ""
+
+#: ../../user_guide/io.rst:5447
+msgid ""
+"xarray_ provides data structures inspired by the pandas ``DataFrame`` for"
+" working with multi-dimensional datasets, with a focus on the netCDF file"
+" format and easy conversion to and from pandas."
+msgstr ""
+
+#: ../../user_guide/io.rst:5456
+msgid "Performance Considerations"
+msgstr ""
+
+#: ../../user_guide/io.rst:5458
+msgid ""
+"This is an informal comparison of various IO methods, using pandas "
+"0.20.3. Timings are machine dependent and small differences should be "
+"ignored."
+msgstr ""
+
+#: ../../user_guide/io.rst:5476
+msgid "Given the next test set:"
+msgstr ""
+
+#: ../../user_guide/io.rst:5564
+msgid ""
+"When writing, the top-three functions in terms of speed are are "
+"``test_pickle_write``, ``test_feather_write`` and "
+"``test_hdf_fixed_write_compress``."
+msgstr ""
+
+#: ../../user_guide/io.rst:5596
+msgid ""
+"When reading, the top three are ``test_feather_read``, "
+"``test_pickle_read`` and ``test_hdf_fixed_read``."
+msgstr ""
+
+#: ../../user_guide/io.rst:5628
+msgid "Space on disk (in bytes)"
+msgstr ""
+

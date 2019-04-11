@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.filter.rst:2
+msgid "pandas.Series.filter"
+msgstr ""
+
+#: of pandas.Series.filter:2
+msgid ""
+"Subset rows or columns of dataframe according to labels in the specified "
+"index."
+msgstr ""
+
+#: of pandas.Series.filter:5
+msgid ""
+"Note that this routine does not filter a dataframe on its contents. The "
+"filter is applied to the labels of the index."
+msgstr ""
+
+#: of pandas.Series.filter
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.filter:11
+msgid "**items**"
+msgstr ""
+
+#: of pandas.Series.filter:10
+msgid "list-like"
+msgstr ""
+
+#: of pandas.Series.filter:11
+msgid "List of axis to restrict to (must not all be present)."
+msgstr ""
+
+#: of pandas.Series.filter:14
+msgid "**like**"
+msgstr ""
+
+#: of pandas.Series.filter:13
+msgid "string"
+msgstr ""
+
+#: of pandas.Series.filter:14
+msgid "Keep axis where \"arg in col == True\"."
+msgstr ""
+
+#: of pandas.Series.filter:17
+msgid "**regex**"
+msgstr ""
+
+#: of pandas.Series.filter:16
+msgid "string (regular expression)"
+msgstr ""
+
+#: of pandas.Series.filter:17
+msgid "Keep axis with re.search(regex, col) == True."
+msgstr ""
+
+#: of pandas.Series.filter:21
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.Series.filter:20
+msgid "int or string axis name"
+msgstr ""
+
+#: of pandas.Series.filter:20
+msgid ""
+"The axis to filter on.  By default this is the info axis, 'index' for "
+"Series, 'columns' for DataFrame."
+msgstr ""
+
+#: of pandas.Series.filter
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.filter:31
+msgid "**same type as input object**"
+msgstr ""
+
+#: of pandas.Series.filter:36
+msgid ":obj:`DataFrame.loc`"
+msgstr ""
+
+#: of pandas.Series.filter:39
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Series.filter:40
+msgid ""
+"The ``items``, ``like``, and ``regex`` parameters are enforced to be "
+"mutually exclusive."
+msgstr ""
+
+#: of pandas.Series.filter:43
+msgid "``axis`` defaults to the info axis that is used when indexing with ``[]``."
+msgstr ""
+
+#: of pandas.Series.filter:48
+msgid "Examples"
+msgstr ""
+

@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.memory_usage.rst:2
+msgid "pandas.Series.memory\\_usage"
+msgstr ""
+
+#: of pandas.Series.memory_usage:2
+msgid "Return the memory usage of the Series."
+msgstr ""
+
+#: of pandas.Series.memory_usage:4
+msgid ""
+"The memory usage can optionally include the contribution of the index and"
+" of elements of `object` dtype."
+msgstr ""
+
+#: of pandas.Series.memory_usage
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.memory_usage:10
+msgid "**index**"
+msgstr ""
+
+#: of pandas.Series.memory_usage:9
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.Series.memory_usage:10
+msgid "Specifies whether to include the memory usage of the Series index."
+msgstr ""
+
+#: of pandas.Series.memory_usage:15
+msgid "**deep**"
+msgstr ""
+
+#: of pandas.Series.memory_usage:14
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.Series.memory_usage:13
+msgid ""
+"If True, introspect the data deeply by interrogating `object` dtypes for "
+"system-level memory consumption, and include it in the returned value."
+msgstr ""
+
+#: of pandas.Series.memory_usage
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.memory_usage:25
+msgid "**int**"
+msgstr ""
+
+#: of pandas.Series.memory_usage:20
+msgid "Bytes of memory consumed."
+msgstr ""
+
+#: of pandas.Series.memory_usage:31
+msgid ":obj:`numpy.ndarray.nbytes`"
+msgstr ""
+
+#: of pandas.Series.memory_usage:31
+msgid "Total bytes consumed by the elements of the array."
+msgstr ""
+
+#: of pandas.Series.memory_usage:33
+msgid ":obj:`DataFrame.memory_usage`"
+msgstr ""
+
+#: of pandas.Series.memory_usage:34
+msgid "Bytes consumed by a DataFrame."
+msgstr ""
+
+#: of pandas.Series.memory_usage:39
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.memory_usage:44
+msgid ""
+"Not including the index gives the size of the rest of the data, which is "
+"necessarily smaller:"
+msgstr ""
+
+#: of pandas.Series.memory_usage:50
+msgid "The memory footprint of `object` values is ignored by default:"
+msgstr ""
+

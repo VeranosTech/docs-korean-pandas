@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.CategoricalIndex.add_categories.rst:2
+msgid "pandas.CategoricalIndex.add\\_categories"
+msgstr ""
+
+#: of pandas.CategoricalIndex.add_categories:2
+msgid "Add new categories."
+msgstr ""
+
+#: of pandas.CategoricalIndex.add_categories:4
+msgid ""
+"`new_categories` will be included at the last/highest place in the "
+"categories and will be unused directly after this call."
+msgstr ""
+
+#: of pandas.CategoricalIndex.add_categories
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.CategoricalIndex.add_categories:10
+msgid "**new_categories**"
+msgstr ""
+
+#: of pandas.CategoricalIndex.add_categories:9
+msgid "category or list-like of category"
+msgstr ""
+
+#: of pandas.CategoricalIndex.add_categories:10
+msgid "The new categories to be included."
+msgstr ""
+
+#: of pandas.CategoricalIndex.add_categories:14
+msgid "**inplace**"
+msgstr ""
+
+#: of pandas.CategoricalIndex.add_categories:13
+msgid "boolean (default: False)"
+msgstr ""
+
+#: of pandas.CategoricalIndex.add_categories:13
+msgid ""
+"Whether or not to add the categories inplace or return a copy of this "
+"categorical with added categories."
+msgstr ""
+
+#: of pandas.CategoricalIndex.add_categories
+msgid "Returns"
+msgstr ""
+
+#: of pandas.CategoricalIndex.add_categories:21
+msgid "**cat**"
+msgstr ""
+
+#: of pandas.CategoricalIndex.add_categories:20
+msgid "Categorical with new categories added or None if inplace."
+msgstr ""
+
+#: of pandas.CategoricalIndex.add_categories
+msgid "Raises"
+msgstr ""
+
+#: of pandas.CategoricalIndex.add_categories:29
+msgid "**ValueError**"
+msgstr ""
+
+#: of pandas.CategoricalIndex.add_categories:26
+msgid ""
+"If the new categories include old categories or do not validate as "
+"categories"
+msgstr ""
+
+#: of pandas.CategoricalIndex.add_categories:34
+msgid ""
+":obj:`rename_categories`, :obj:`reorder_categories`, "
+":obj:`remove_categories`, :obj:`remove_unused_categories`, "
+":obj:`set_categories`"
+msgstr ""
+

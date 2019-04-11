@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.asof.rst:2
+msgid "pandas.DataFrame.asof"
+msgstr ""
+
+#: of pandas.DataFrame.asof:2
+msgid "Return the last row(s) without any NaNs before `where`."
+msgstr ""
+
+#: of pandas.DataFrame.asof:4
+msgid ""
+"The last row (for each element in `where`, if list) without any NaN is "
+"taken. In case of a :class:`~pandas.DataFrame`, the last row without NaN "
+"considering only the subset of columns (if not `None`)"
+msgstr ""
+
+#: of pandas.DataFrame.asof:9
+msgid "For DataFrame"
+msgstr ""
+
+#: of pandas.DataFrame.asof:11
+msgid ""
+"If there is no good value, NaN is returned for a Series or a Series of "
+"NaN values for a DataFrame"
+msgstr ""
+
+#: of pandas.DataFrame.asof
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.asof:17
+msgid "**where**"
+msgstr ""
+
+#: of pandas.DataFrame.asof:16
+msgid "date or array-like of dates"
+msgstr ""
+
+#: of pandas.DataFrame.asof:17
+msgid "Date(s) before which the last row(s) are returned."
+msgstr ""
+
+#: of pandas.DataFrame.asof:21
+msgid "**subset** : str or array-like of str, default `None`"
+msgstr ""
+
+#: of pandas.DataFrame.asof:20
+msgid "str or array-like of str, default None"
+msgstr ""
+
+#: of pandas.DataFrame.asof:20
+msgid "For DataFrame, if not `None`, only use these columns to check for NaNs."
+msgstr ""
+
+#: of pandas.DataFrame.asof
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.asof:35
+msgid "**scalar, Series, or DataFrame**"
+msgstr ""
+
+#: of pandas.DataFrame.asof:26
+msgid "scalar : when `self` is a Series and `where` is a scalar"
+msgstr ""
+
+#: of pandas.DataFrame.asof:27
+msgid ""
+"Series: when `self` is a Series and `where` is an array-like, or when "
+"`self` is a DataFrame and `where` is a scalar"
+msgstr ""
+
+#: of pandas.DataFrame.asof:29
+msgid "DataFrame : when `self` is a DataFrame and `where` is an array-like"
+msgstr ""
+
+#: of pandas.DataFrame.asof:40
+msgid ":obj:`merge_asof`"
+msgstr ""
+
+#: of pandas.DataFrame.asof:41
+msgid "Perform an asof merge. Similar to left join."
+msgstr ""
+
+#: of pandas.DataFrame.asof:44
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.asof:45
+msgid "Dates are assumed to be sorted. Raises if this is not the case."
+msgstr ""
+
+#: of pandas.DataFrame.asof:49
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.asof:50
+msgid "A Series and a scalar `where`."
+msgstr ""
+
+#: of pandas.DataFrame.asof:63
+msgid ""
+"For a sequence `where`, a Series is returned. The first value is NaN, "
+"because the first element of `where` is before the first index value."
+msgstr ""
+
+#: of pandas.DataFrame.asof:72
+msgid ""
+"Missing values are not considered. The following is ``2.0``, not NaN, "
+"even though NaN is at the index location for ``30``."
+msgstr ""
+
+#: of pandas.DataFrame.asof:78
+msgid "Take all columns into consideration"
+msgstr ""
+
+#: of pandas.DataFrame.asof:93
+msgid "Take a single column into consideration"
+msgstr ""
+

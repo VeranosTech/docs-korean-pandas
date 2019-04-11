@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.str.lstrip.rst:2
+msgid "pandas.Series.str.lstrip"
+msgstr ""
+
+#: of pandas.Series.str.lstrip:2
+msgid "Remove leading and trailing characters."
+msgstr ""
+
+#: of pandas.Series.str.lstrip:4
+msgid ""
+"Strip whitespaces (including newlines) or a set of specified characters "
+"from each string in the Series/Index from left side. Equivalent to "
+":meth:`str.lstrip`."
+msgstr ""
+
+#: of pandas.Series.str.lstrip
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.str.lstrip:13
+msgid "**to_strip**"
+msgstr ""
+
+#: of pandas.Series.str.lstrip:12
+msgid "str or None, default None"
+msgstr ""
+
+#: of pandas.Series.str.lstrip:11
+msgid ""
+"Specifying the set of characters to be removed. All combinations of this "
+"set of characters will be stripped. If None then whitespaces are removed."
+msgstr ""
+
+#: of pandas.Series.str.lstrip
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.str.lstrip:23
+msgid "**Series/Index of objects**"
+msgstr ""
+
+#: of pandas.Series.str.lstrip:29
+msgid ":obj:`Series.str.strip`"
+msgstr ""
+
+#: of pandas.Series.str.lstrip:29
+msgid "Remove leading and trailing characters in Series/Index."
+msgstr ""
+
+#: of pandas.Series.str.lstrip:32
+msgid ":obj:`Series.str.lstrip`"
+msgstr ""
+
+#: of pandas.Series.str.lstrip:32
+msgid "Remove leading characters in Series/Index."
+msgstr ""
+
+#: of pandas.Series.str.lstrip:34
+msgid ":obj:`Series.str.rstrip`"
+msgstr ""
+
+#: of pandas.Series.str.lstrip:35
+msgid "Remove trailing characters in Series/Index."
+msgstr ""
+
+#: of pandas.Series.str.lstrip:40
+msgid "Examples"
+msgstr ""
+

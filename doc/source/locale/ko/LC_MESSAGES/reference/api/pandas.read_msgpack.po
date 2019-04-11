@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.read_msgpack.rst:2
+msgid "pandas.read\\_msgpack"
+msgstr ""
+
+#: of pandas.read_msgpack:2
+msgid "Load msgpack pandas object from the specified file path"
+msgstr ""
+
+#: of pandas.read_msgpack:5
+msgid ""
+"THIS IS AN EXPERIMENTAL LIBRARY and the storage format may not be stable "
+"until a future release."
+msgstr ""
+
+#: of pandas.read_msgpack
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.read_msgpack:11
+msgid "**path_or_buf**"
+msgstr ""
+
+#: of pandas.read_msgpack:10
+msgid "string File path, BytesIO like or string"
+msgstr ""
+
+#: of pandas.read_msgpack:14
+msgid "**encoding**"
+msgstr ""
+
+#: of pandas.read_msgpack:13
+msgid "Encoding for decoding msgpack str type"
+msgstr ""
+
+#: of pandas.read_msgpack:17
+msgid "**iterator**"
+msgstr ""
+
+#: of pandas.read_msgpack:16
+msgid "boolean, if True, return an iterator to the unpacker"
+msgstr ""
+
+#: of pandas.read_msgpack:17
+msgid "(default is False)"
+msgstr ""
+
+#: of pandas.read_msgpack
+msgid "Returns"
+msgstr ""
+
+#: of pandas.read_msgpack:33
+msgid "**obj**"
+msgstr ""
+
+#: of pandas.read_msgpack:32
+msgid "same type as object stored in file"
+msgstr ""
+

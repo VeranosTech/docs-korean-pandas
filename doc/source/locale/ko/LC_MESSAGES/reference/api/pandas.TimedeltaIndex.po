@@ -1,0 +1,337 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.TimedeltaIndex.rst:2
+msgid "pandas.TimedeltaIndex"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:2
+msgid ""
+"Immutable ndarray of timedelta64 data, represented internally as int64, "
+"and which can be boxed to timedelta objects"
+msgstr ""
+
+#: of pandas.TimedeltaIndex
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:9
+msgid "**data**"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:8
+msgid "array-like (1-dimensional), optional"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:9
+msgid "Optional timedelta-like data to construct index with"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:12
+msgid "**unit**"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:11
+msgid "unit of the arg (D,h,m,s,ms,us,ns) denote the unit, optional"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:12
+msgid "which is an integer/float number"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:17
+msgid "**freq**"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:16
+msgid "string or pandas offset object, optional"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:15
+msgid ""
+"One of pandas date offset strings or corresponding objects. The string "
+"'infer' can be passed in order to set the frequency of the index as the "
+"inferred frequency upon creation"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:20
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:19
+msgid "bool"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:20
+msgid "Make a copy of input ndarray"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:26
+msgid "**start**"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:25
+msgid "starting value, timedelta-like, optional"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:23
+msgid ""
+"If data is None, start is used as the start point in generating regular "
+"timedelta data."
+msgstr ""
+
+#: of pandas.TimedeltaIndex:32
+msgid "**periods**"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:31
+msgid "int, optional, > 0"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:29
+msgid ""
+"Number of periods to generate, if generating index. Takes precedence over"
+" end argument"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:38
+msgid "**end**"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:37
+msgid "end time, timedelta-like, optional"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:35
+msgid ""
+"If periods is none, generated index will extend to first conforming time "
+"on or just past end argument"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:38 pandas.TimedeltaIndex:44
+msgid "0"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:44
+msgid "**closed**"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:43
+msgid "string or None, default None"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:41
+msgid ""
+"Make the interval closed with respect to the given frequency to the "
+"'left', 'right', or both sides (None)"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:53
+msgid "**name**"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:52
+msgid "object"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:47
+msgid "Name to be stored in the index"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:59
+msgid ":obj:`Index`"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:59
+msgid "The base pandas Index type."
+msgstr ""
+
+#: of pandas.TimedeltaIndex:62
+msgid ":obj:`Timedelta`"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:62
+msgid "Represents a duration between two dates or times."
+msgstr ""
+
+#: of pandas.TimedeltaIndex:65
+msgid ":obj:`DatetimeIndex`"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:65
+msgid "Index of datetime64 data."
+msgstr ""
+
+#: of pandas.TimedeltaIndex:68
+msgid ":obj:`PeriodIndex`"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:68
+msgid "Index of Period data."
+msgstr ""
+
+#: of pandas.TimedeltaIndex:70
+msgid ":obj:`timedelta_range`"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:71
+msgid "Create a fixed-frequency TimedeltaIndex."
+msgstr ""
+
+#: of pandas.TimedeltaIndex:74
+msgid "Notes"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:75
+msgid ""
+"To learn more about the frequency strings, please see `this link "
+"<http://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-"
+"aliases>`__."
+msgstr ""
+
+#: of pandas.TimedeltaIndex:78
+msgid ""
+"Creating a TimedeltaIndex based on `start`, `periods`, and `end` has been"
+" deprecated in favor of :func:`timedelta_range`."
+msgstr ""
+
+#: of pandas.TimedeltaIndex:84
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:94:<autosummary>:1
+msgid ":obj:`days <pandas.TimedeltaIndex.days>`\\"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:94:<autosummary>:1
+msgid "Number of days for each element."
+msgstr ""
+
+#: of pandas.TimedeltaIndex:94:<autosummary>:1
+msgid ":obj:`seconds <pandas.TimedeltaIndex.seconds>`\\"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:94:<autosummary>:1
+msgid "Number of seconds (>= 0 and less than 1 day) for each element."
+msgstr ""
+
+#: of pandas.TimedeltaIndex:94:<autosummary>:1
+msgid ":obj:`microseconds <pandas.TimedeltaIndex.microseconds>`\\"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:94:<autosummary>:1
+msgid "Number of microseconds (>= 0 and less than 1 second) for each element."
+msgstr ""
+
+#: of pandas.TimedeltaIndex:94:<autosummary>:1
+msgid ":obj:`nanoseconds <pandas.TimedeltaIndex.nanoseconds>`\\"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:94:<autosummary>:1
+msgid "Number of nanoseconds (>= 0 and less than 1 microsecond) for each element."
+msgstr ""
+
+#: of pandas.TimedeltaIndex:94:<autosummary>:1
+msgid ":obj:`components <pandas.TimedeltaIndex.components>`\\"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:94:<autosummary>:1
+msgid ""
+"Return a dataframe of the components (days, hours, minutes, seconds, "
+"milliseconds, microseconds, nanoseconds) of the Timedeltas."
+msgstr ""
+
+#: of pandas.TimedeltaIndex:94:<autosummary>:1
+msgid ":obj:`inferred_freq <pandas.TimedeltaIndex.inferred_freq>`\\"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:94:<autosummary>:1
+msgid ""
+"Tryies to return a string representing a frequency guess, generated by "
+"infer_freq."
+msgstr ""
+
+#: of pandas.TimedeltaIndex:96
+msgid "Methods"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:106:<autosummary>:1
+msgid ""
+":obj:`to_pytimedelta <pandas.TimedeltaIndex.to_pytimedelta>`\\ "
+"\\(\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:106:<autosummary>:1
+msgid ""
+"Return Timedelta Array/Index as object ndarray of datetime.timedelta "
+"objects."
+msgstr ""
+
+#: of pandas.TimedeltaIndex:106:<autosummary>:1
+msgid ""
+":obj:`to_series <pandas.TimedeltaIndex.to_series>`\\ \\(\\[index\\, "
+"name\\]\\)"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:106:<autosummary>:1
+msgid ""
+"Create a Series with both index and values equal to the index keys useful"
+" with map for returning an indexer based on an index."
+msgstr ""
+
+#: of pandas.TimedeltaIndex:106:<autosummary>:1
+msgid ""
+":obj:`round <pandas.TimedeltaIndex.round>`\\ \\(freq\\[\\, ambiguous\\, "
+"nonexistent\\]\\)"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:106:<autosummary>:1
+msgid "Perform round operation on the data to the specified `freq`."
+msgstr ""
+
+#: of pandas.TimedeltaIndex:106:<autosummary>:1
+msgid ""
+":obj:`floor <pandas.TimedeltaIndex.floor>`\\ \\(freq\\[\\, ambiguous\\, "
+"nonexistent\\]\\)"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:106:<autosummary>:1
+msgid "Perform floor operation on the data to the specified `freq`."
+msgstr ""
+
+#: of pandas.TimedeltaIndex:106:<autosummary>:1
+msgid ""
+":obj:`ceil <pandas.TimedeltaIndex.ceil>`\\ \\(freq\\[\\, ambiguous\\, "
+"nonexistent\\]\\)"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:106:<autosummary>:1
+msgid "Perform ceil operation on the data to the specified `freq`."
+msgstr ""
+
+#: of pandas.TimedeltaIndex:106:<autosummary>:1
+msgid ""
+":obj:`to_frame <pandas.TimedeltaIndex.to_frame>`\\ \\(\\[index\\, "
+"name\\]\\)"
+msgstr ""
+
+#: of pandas.TimedeltaIndex:106:<autosummary>:1
+msgid "Create a DataFrame with a column containing the Index."
+msgstr ""
+

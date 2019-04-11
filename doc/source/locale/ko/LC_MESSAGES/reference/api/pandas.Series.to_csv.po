@@ -1,0 +1,341 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.to_csv.rst:2
+msgid "pandas.Series.to\\_csv"
+msgstr ""
+
+#: of pandas.Series.to_csv:2
+msgid "Write object to a comma-separated values (csv) file."
+msgstr ""
+
+#: of pandas.Series.to_csv:4
+msgid "The order of arguments for Series was changed."
+msgstr ""
+
+#: of pandas.Series.to_csv
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.to_csv:16
+msgid "**path_or_buf**"
+msgstr ""
+
+#: of pandas.Series.to_csv:15
+msgid "str or file handle, default None"
+msgstr ""
+
+#: of pandas.Series.to_csv:10
+msgid ""
+"File path or object, if None is provided the result is returned as a "
+"string.  If a file object is passed it should be opened with "
+"`newline=''`, disabling universal newlines."
+msgstr ""
+
+#: of pandas.Series.to_csv:16
+msgid "Was previously named \"path\" for Series."
+msgstr ""
+
+#: of pandas.Series.to_csv:19
+msgid "**sep**"
+msgstr ""
+
+#: of pandas.Series.to_csv:18
+msgid "str, default ','"
+msgstr ""
+
+#: of pandas.Series.to_csv:19
+msgid "String of length 1. Field delimiter for the output file."
+msgstr ""
+
+#: of pandas.Series.to_csv:22
+msgid "**na_rep**"
+msgstr ""
+
+#: of pandas.Series.to_csv:21
+msgid "str, default ''"
+msgstr ""
+
+#: of pandas.Series.to_csv:22
+msgid "Missing data representation."
+msgstr ""
+
+#: of pandas.Series.to_csv:25
+msgid "**float_format**"
+msgstr ""
+
+#: of pandas.Series.to_csv:24 pandas.Series.to_csv:93 pandas.Series.to_csv:100
+msgid "str, default None"
+msgstr ""
+
+#: of pandas.Series.to_csv:25
+msgid "Format string for floating point numbers."
+msgstr ""
+
+#: of pandas.Series.to_csv:28
+msgid "**columns**"
+msgstr ""
+
+#: of pandas.Series.to_csv:27
+msgid "sequence, optional"
+msgstr ""
+
+#: of pandas.Series.to_csv:28
+msgid "Columns to write."
+msgstr ""
+
+#: of pandas.Series.to_csv:36
+msgid "**header**"
+msgstr ""
+
+#: of pandas.Series.to_csv:35
+msgid "bool or list of str, default True"
+msgstr ""
+
+#: of pandas.Series.to_csv:31
+msgid ""
+"Write out the column names. If a list of strings is given it is assumed "
+"to be aliases for the column names."
+msgstr ""
+
+#: of pandas.Series.to_csv:36
+msgid "Previously defaulted to False for Series."
+msgstr ""
+
+#: of pandas.Series.to_csv:39
+msgid "**index**"
+msgstr ""
+
+#: of pandas.Series.to_csv:38 pandas.Series.to_csv:96
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.Series.to_csv:39
+msgid "Write row names (index)."
+msgstr ""
+
+#: of pandas.Series.to_csv:46
+msgid "**index_label**"
+msgstr ""
+
+#: of pandas.Series.to_csv:45
+msgid "str or sequence, or False, default None"
+msgstr ""
+
+#: of pandas.Series.to_csv:42
+msgid ""
+"Column label for index column(s) if desired. If None is given, and "
+"`header` and `index` are True, then the index names are used. A sequence "
+"should be given if the object uses MultiIndex. If False do not print "
+"fields for index names. Use index_label=False for easier importing in R."
+msgstr ""
+
+#: of pandas.Series.to_csv:49
+msgid "**mode**"
+msgstr ""
+
+#: of pandas.Series.to_csv:48
+msgid "str"
+msgstr ""
+
+#: of pandas.Series.to_csv:49
+msgid "Python write mode, default 'w'."
+msgstr ""
+
+#: of pandas.Series.to_csv:53
+msgid "**encoding**"
+msgstr ""
+
+#: of pandas.Series.to_csv:52
+msgid "str, optional"
+msgstr ""
+
+#: of pandas.Series.to_csv:52
+msgid ""
+"A string representing the encoding to use in the output file, defaults to"
+" 'ascii' on Python 2 and 'utf-8' on Python 3."
+msgstr ""
+
+#: of pandas.Series.to_csv:64
+msgid "**compression**"
+msgstr ""
+
+#: of pandas.Series.to_csv:63
+msgid "str, default 'infer'"
+msgstr ""
+
+#: of pandas.Series.to_csv:56
+msgid ""
+"Compression mode among the following possible values: {'infer', 'gzip', "
+"'bz2', 'zip', 'xz', None}. If 'infer' and `path_or_buf` is path-like, "
+"then detect compression from the following extensions: '.gz', '.bz2', "
+"'.zip' or '.xz'. (otherwise no compression)."
+msgstr ""
+
+#: of pandas.Series.to_csv:64
+msgid "'infer' option added and set to default."
+msgstr ""
+
+#: of pandas.Series.to_csv:69
+msgid "**quoting**"
+msgstr ""
+
+#: of pandas.Series.to_csv:68
+msgid "optional constant from csv module"
+msgstr ""
+
+#: of pandas.Series.to_csv:67
+msgid ""
+"Defaults to csv.QUOTE_MINIMAL. If you have set a `float_format` then "
+"floats are converted to strings and thus csv.QUOTE_NONNUMERIC will treat "
+"them as non-numeric."
+msgstr ""
+
+#: of pandas.Series.to_csv:72
+msgid "**quotechar**"
+msgstr ""
+
+#: of pandas.Series.to_csv:71
+msgid "str, default '\\\"'"
+msgstr ""
+
+#: of pandas.Series.to_csv:72
+msgid "String of length 1. Character used to quote fields."
+msgstr ""
+
+#: of pandas.Series.to_csv:79
+msgid "**line_terminator**"
+msgstr ""
+
+#: of pandas.Series.to_csv:78
+msgid "string, optional"
+msgstr ""
+
+#: of pandas.Series.to_csv:75
+msgid ""
+"The newline character or character sequence to use in the output file. "
+"Defaults to `os.linesep`, which depends on the OS in which this method is"
+" called ('\\n' for linux, '\\r\\n' for Windows, i.e.)."
+msgstr ""
+
+#: of pandas.Series.to_csv:82
+msgid "**chunksize**"
+msgstr ""
+
+#: of pandas.Series.to_csv:81
+msgid "int or None"
+msgstr ""
+
+#: of pandas.Series.to_csv:82
+msgid "Rows to write at a time."
+msgstr ""
+
+#: of pandas.Series.to_csv:91
+msgid "**tupleize_cols**"
+msgstr ""
+
+#: of pandas.Series.to_csv:90
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.Series.to_csv:85
+msgid ""
+"Write MultiIndex columns as a list of tuples (if True) or in the new, "
+"expanded format, where each MultiIndex column is a row in the CSV (if "
+"False)."
+msgstr ""
+
+#: of pandas.Series.to_csv:89
+msgid ""
+"This argument will be removed and will always write each row of the "
+"multi-index as a separate row in the CSV file."
+msgstr ""
+
+#: of pandas.Series.to_csv:94
+msgid "**date_format**"
+msgstr ""
+
+#: of pandas.Series.to_csv:94
+msgid "Format string for datetime objects."
+msgstr ""
+
+#: of pandas.Series.to_csv:97
+msgid "**doublequote**"
+msgstr ""
+
+#: of pandas.Series.to_csv:97
+msgid "Control quoting of `quotechar` inside a field."
+msgstr ""
+
+#: of pandas.Series.to_csv:101
+msgid "**escapechar**"
+msgstr ""
+
+#: of pandas.Series.to_csv:100
+msgid ""
+"String of length 1. Character used to escape `sep` and `quotechar` when "
+"appropriate."
+msgstr ""
+
+#: of pandas.Series.to_csv:105
+msgid "**decimal**"
+msgstr ""
+
+#: of pandas.Series.to_csv:104
+msgid "str, default '.'"
+msgstr ""
+
+#: of pandas.Series.to_csv:104
+msgid "Character recognized as decimal separator. E.g. use ',' for European data."
+msgstr ""
+
+#: of pandas.Series.to_csv
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.to_csv:116
+msgid "**None or str**"
+msgstr ""
+
+#: of pandas.Series.to_csv:110
+msgid ""
+"If path_or_buf is None, returns the resulting csv format as a string. "
+"Otherwise returns None."
+msgstr ""
+
+#: of pandas.Series.to_csv:122
+msgid ":obj:`read_csv`"
+msgstr ""
+
+#: of pandas.Series.to_csv:122
+msgid "Load a CSV file into a DataFrame."
+msgstr ""
+
+#: of pandas.Series.to_csv:124
+msgid ":obj:`to_excel`"
+msgstr ""
+
+#: of pandas.Series.to_csv:125
+msgid "Load an Excel file into a DataFrame."
+msgstr ""
+
+#: of pandas.Series.to_csv:130
+msgid "Examples"
+msgstr ""
+

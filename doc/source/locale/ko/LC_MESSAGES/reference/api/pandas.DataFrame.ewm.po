@@ -1,0 +1,196 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.ewm.rst:2
+msgid "pandas.DataFrame.ewm"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:2
+msgid "Provides exponential weighted functions."
+msgstr ""
+
+#: of pandas.DataFrame.ewm
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:10
+msgid "**com**"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:9 pandas.DataFrame.ewm:13 pandas.DataFrame.ewm:17
+#: pandas.DataFrame.ewm:23
+msgid "float, optional"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:9
+msgid ""
+"Specify decay in terms of center of mass, :math:`\\alpha = 1 / (1 + "
+"com),\\text{ for } com \\geq 0`"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:14
+msgid "**span**"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:13
+msgid ""
+"Specify decay in terms of span, :math:`\\alpha = 2 / (span + 1),\\text{ "
+"for } span \\geq 1`"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:18
+msgid "**halflife**"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:17
+msgid ""
+"Specify decay in terms of half-life, :math:`\\alpha = 1 - exp(log(0.5) / "
+"halflife),\\text{ for } halflife > 0`"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:24
+msgid "**alpha**"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:21
+msgid ""
+"Specify smoothing factor :math:`\\alpha` directly, :math:`0 < \\alpha "
+"\\leq 1`"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:28
+msgid "**min_periods**"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:27
+msgid "int, default 0"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:27
+msgid ""
+"Minimum number of observations in window required to have a value "
+"(otherwise result is NA)."
+msgstr ""
+
+#: of pandas.DataFrame.ewm:32
+msgid "**adjust**"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:31
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:31
+msgid ""
+"Divide by decaying adjustment factor in beginning periods to account for "
+"imbalance in relative weightings (viewing EWMA as a moving average)"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:36
+msgid "**ignore_na**"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:35
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:35
+msgid ""
+"Ignore missing values when calculating weights; specify True to reproduce"
+" pre-0.15.0 behavior"
+msgstr ""
+
+#: of pandas.DataFrame.ewm
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:46
+msgid "**a Window sub-classed for the particular operation**"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:52
+msgid ":obj:`rolling`"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:52
+msgid "Provides rolling window calculations."
+msgstr ""
+
+#: of pandas.DataFrame.ewm:54
+msgid ":obj:`expanding`"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:55
+msgid "Provides expanding transformations."
+msgstr ""
+
+#: of pandas.DataFrame.ewm:58
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:59
+msgid ""
+"Exactly one of center of mass, span, half-life, and alpha must be "
+"provided. Allowed values and relationship between the parameters are "
+"specified in the parameter descriptions above; see the link at the end of"
+" this section for a detailed explanation."
+msgstr ""
+
+#: of pandas.DataFrame.ewm:64
+msgid ""
+"When adjust is True (default), weighted averages are calculated using "
+"weights (1-alpha)**(n-1), (1-alpha)**(n-2), ..., 1-alpha, 1."
+msgstr ""
+
+#: of pandas.DataFrame.ewm:69
+msgid "When adjust is False, weighted averages are calculated recursively as:"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:68
+msgid ""
+"weighted_average[0] = arg[0]; weighted_average[i] = "
+"(1-alpha)*weighted_average[i-1] + alpha*arg[i]."
+msgstr ""
+
+#: of pandas.DataFrame.ewm:71
+msgid ""
+"When ignore_na is False (default), weights are based on absolute "
+"positions. For example, the weights of x and y used in calculating the "
+"final weighted average of [x, None, y] are (1-alpha)**2 and 1 (if adjust "
+"is True), and (1-alpha)**2 and alpha (if adjust is False)."
+msgstr ""
+
+#: of pandas.DataFrame.ewm:76
+msgid ""
+"When ignore_na is True (reproducing pre-0.15.0 behavior), weights are "
+"based on relative positions. For example, the weights of x and y used in "
+"calculating the final weighted average of [x, None, y] are 1-alpha and 1 "
+"(if adjust is True), and 1-alpha and alpha (if adjust is False)."
+msgstr ""
+
+#: of pandas.DataFrame.ewm:81
+msgid ""
+"More details can be found at http://pandas.pydata.org/pandas-"
+"docs/stable/computation.html#exponentially-weighted-windows"
+msgstr ""
+
+#: of pandas.DataFrame.ewm:86
+msgid "Examples"
+msgstr ""
+

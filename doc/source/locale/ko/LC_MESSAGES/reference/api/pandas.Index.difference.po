@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.difference.rst:2
+msgid "pandas.Index.difference"
+msgstr ""
+
+#: of pandas.Index.difference:2
+msgid "Return a new Index with elements from the index that are not in `other`."
+msgstr ""
+
+#: of pandas.Index.difference:5
+msgid "This is the set difference of two Index objects."
+msgstr ""
+
+#: of pandas.Index.difference
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.difference:10
+msgid "**other**"
+msgstr ""
+
+#: of pandas.Index.difference:9
+msgid "Index or array-like"
+msgstr ""
+
+#: of pandas.Index.difference:26
+msgid "**sort**"
+msgstr ""
+
+#: of pandas.Index.difference:25
+msgid "False or None, default None"
+msgstr ""
+
+#: of pandas.Index.difference:13
+msgid ""
+"Whether to sort the resulting index. By default, the values are attempted"
+" to be sorted, but any TypeError from incomparable elements is caught by "
+"pandas."
+msgstr ""
+
+#: of pandas.Index.difference:17
+msgid ""
+"None : Attempt to sort the result, but catch any TypeErrors from "
+"comparing incomparable elements."
+msgstr ""
+
+#: of pandas.Index.difference:19
+msgid "False : Do not sort the result."
+msgstr ""
+
+#: of pandas.Index.difference:25
+msgid ""
+"Changed the default value from ``True`` to ``None`` (without change in "
+"behaviour)."
+msgstr ""
+
+#: of pandas.Index.difference
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.difference:39
+msgid "**difference**"
+msgstr ""
+
+#: of pandas.Index.difference:38
+msgid "Index"
+msgstr ""
+
+#: of pandas.Index.difference:42
+msgid "Examples"
+msgstr ""
+

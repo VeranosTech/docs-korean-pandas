@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.melt.rst:2
+msgid "pandas.melt"
+msgstr ""
+
+#: of pandas.melt:2
+msgid ""
+"Unpivots a DataFrame from wide format to long format, optionally leaving "
+"identifier variables set."
+msgstr ""
+
+#: of pandas.melt:5
+msgid ""
+"This function is useful to massage a DataFrame into a format where one or"
+" more columns are identifier variables (`id_vars`), while all other "
+"columns, considered measured variables (`value_vars`), are \"unpivoted\" "
+"to the row axis, leaving just two non-identifier columns, 'variable' and "
+"'value'."
+msgstr ""
+
+#: of pandas.melt
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.melt:14
+msgid "**frame**"
+msgstr ""
+
+#: of pandas.melt:13
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.melt:17
+msgid "**id_vars**"
+msgstr ""
+
+#: of pandas.melt:16 pandas.melt:20
+msgid "tuple, list, or ndarray, optional"
+msgstr ""
+
+#: of pandas.melt:17
+msgid "Column(s) to use as identifier variables."
+msgstr ""
+
+#: of pandas.melt:21
+msgid "**value_vars**"
+msgstr ""
+
+#: of pandas.melt:20
+msgid ""
+"Column(s) to unpivot. If not specified, uses all columns that are not set"
+" as `id_vars`."
+msgstr ""
+
+#: of pandas.melt:25
+msgid "**var_name**"
+msgstr ""
+
+#: of pandas.melt:24
+msgid "scalar"
+msgstr ""
+
+#: of pandas.melt:24
+msgid ""
+"Name to use for the 'variable' column. If None it uses "
+"``frame.columns.name`` or 'variable'."
+msgstr ""
+
+#: of pandas.melt:28
+msgid "**value_name**"
+msgstr ""
+
+#: of pandas.melt:27
+msgid "scalar, default 'value'"
+msgstr ""
+
+#: of pandas.melt:28
+msgid "Name to use for the 'value' column."
+msgstr ""
+
+#: of pandas.melt:37
+msgid "**col_level**"
+msgstr ""
+
+#: of pandas.melt:36
+msgid "int or string, optional"
+msgstr ""
+
+#: of pandas.melt:31
+msgid "If columns are a MultiIndex then use this level to melt."
+msgstr ""
+
+#: of pandas.melt:42
+msgid ":obj:`DataFrame.melt`, :obj:`pivot_table`, :obj:`DataFrame.pivot`"
+msgstr ""
+
+#: of pandas.melt:47
+msgid "Examples"
+msgstr ""
+
+#: of pandas.melt:72
+msgid "The names of 'variable' and 'value' columns can be customized:"
+msgstr ""
+
+#: of pandas.melt:81
+msgid "If you have multi-index columns:"
+msgstr ""
+

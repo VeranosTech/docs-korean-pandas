@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.to_json.rst:2
+msgid "pandas.Series.to\\_json"
+msgstr ""
+
+#: of pandas.Series.to_json:2
+msgid "Convert the object to a JSON string."
+msgstr ""
+
+#: of pandas.Series.to_json:4
+msgid ""
+"Note NaN's and None will be converted to null and datetime objects will "
+"be converted to UNIX timestamps."
+msgstr ""
+
+#: of pandas.Series.to_json
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.to_json:11
+msgid "**path_or_buf**"
+msgstr ""
+
+#: of pandas.Series.to_json:10
+msgid "string or file handle, optional"
+msgstr ""
+
+#: of pandas.Series.to_json:10
+msgid "File path or object. If not specified, the result is returned as a string."
+msgstr ""
+
+#: of pandas.Series.to_json:40
+msgid "**orient**"
+msgstr ""
+
+#: of pandas.Series.to_json:39
+msgid "string"
+msgstr ""
+
+#: of pandas.Series.to_json:14
+msgid "Indication of expected JSON string format."
+msgstr ""
+
+#: of pandas.Series.to_json:16
+msgid "Series"
+msgstr ""
+
+#: of pandas.Series.to_json:18
+msgid "default is 'index'"
+msgstr ""
+
+#: of pandas.Series.to_json:19
+msgid "allowed values are: {'split','records','index','table'}"
+msgstr ""
+
+#: of pandas.Series.to_json:21
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.Series.to_json:23
+msgid "default is 'columns'"
+msgstr ""
+
+#: of pandas.Series.to_json:24
+msgid "allowed values are: {'split','records','index','columns','values','table'}"
+msgstr ""
+
+#: of pandas.Series.to_json:27
+msgid "The format of the JSON string"
+msgstr ""
+
+#: of pandas.Series.to_json:29
+msgid ""
+"'split' : dict like {'index' -> [index], 'columns' -> [columns], 'data' "
+"-> [values]}"
+msgstr ""
+
+#: of pandas.Series.to_json:31
+msgid "'records' : list like [{column -> value}, ... , {column -> value}]"
+msgstr ""
+
+#: of pandas.Series.to_json:33
+msgid "'index' : dict like {index -> {column -> value}}"
+msgstr ""
+
+#: of pandas.Series.to_json:34
+msgid "'columns' : dict like {column -> {index -> value}}"
+msgstr ""
+
+#: of pandas.Series.to_json:35
+msgid "'values' : just the values array"
+msgstr ""
+
+#: of pandas.Series.to_json:36
+msgid ""
+"'table' : dict like {'schema': {schema}, 'data': {data}} describing the "
+"data, and the data component is like ``orient='records'``."
+msgstr ""
+
+#: of pandas.Series.to_json:46
+msgid "**date_format**"
+msgstr ""
+
+#: of pandas.Series.to_json:45
+msgid "{None, 'epoch', 'iso'}"
+msgstr ""
+
+#: of pandas.Series.to_json:43
+msgid ""
+"Type of date conversion. 'epoch' = epoch milliseconds, 'iso' = ISO8601. "
+"The default depends on the `orient`. For ``orient='table'``, the default "
+"is 'iso'. For all other orients, the default is 'epoch'."
+msgstr ""
+
+#: of pandas.Series.to_json:50
+msgid "**double_precision**"
+msgstr ""
+
+#: of pandas.Series.to_json:49
+msgid "int, default 10"
+msgstr ""
+
+#: of pandas.Series.to_json:49
+msgid "The number of decimal places to use when encoding floating point values."
+msgstr ""
+
+#: of pandas.Series.to_json:53
+msgid "**force_ascii**"
+msgstr ""
+
+#: of pandas.Series.to_json:52 pandas.Series.to_json:91
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.Series.to_json:53
+msgid "Force encoded string to be ASCII."
+msgstr ""
+
+#: of pandas.Series.to_json:58
+msgid "**date_unit**"
+msgstr ""
+
+#: of pandas.Series.to_json:57
+msgid "string, default 'ms' (milliseconds)"
+msgstr ""
+
+#: of pandas.Series.to_json:56
+msgid ""
+"The time unit to encode to, governs timestamp and ISO8601 precision.  One"
+" of 's', 'ms', 'us', 'ns' for second, millisecond, microsecond, and "
+"nanosecond respectively."
+msgstr ""
+
+#: of pandas.Series.to_json:63
+msgid "**default_handler**"
+msgstr ""
+
+#: of pandas.Series.to_json:62
+msgid "callable, default None"
+msgstr ""
+
+#: of pandas.Series.to_json:61
+msgid ""
+"Handler to call if object cannot otherwise be converted to a suitable "
+"format for JSON. Should receive a single argument which is the object to "
+"convert and return a serialisable object."
+msgstr ""
+
+#: of pandas.Series.to_json:70
+msgid "**lines**"
+msgstr ""
+
+#: of pandas.Series.to_json:69
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.Series.to_json:66
+msgid ""
+"If 'orient' is 'records' write out line delimited json format. Will throw"
+" ValueError if incorrect 'orient' since others are not list like."
+msgstr ""
+
+#: of pandas.Series.to_json:79
+msgid "**compression**"
+msgstr ""
+
+#: of pandas.Series.to_json:78
+msgid "{'infer', 'gzip', 'bz2', 'zip', 'xz', None}"
+msgstr ""
+
+#: of pandas.Series.to_json:73
+msgid ""
+"A string representing the compression to use in the output file, only "
+"used when the first argument is a filename. By default, the compression "
+"is inferred from the filename."
+msgstr ""
+
+#: of pandas.Series.to_json:78
+msgid "'infer' option added and set to default"
+msgstr ""
+
+#: of pandas.Series.to_json:92
+msgid "**index**"
+msgstr ""
+
+#: of pandas.Series.to_json:82
+msgid ""
+"Whether to include the index values in the JSON string. Not including the"
+" index (``index=False``) is only supported when orient is 'split' or "
+"'table'."
+msgstr ""
+
+#: of pandas.Series.to_json:97
+msgid ":obj:`read_json`"
+msgstr ""
+
+#: of pandas.Series.to_json:102
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.to_json:111
+msgid ""
+"Encoding/decoding a Dataframe using ``'records'`` formatted JSON. Note "
+"that index labels are not preserved with this encoding."
+msgstr ""
+
+#: of pandas.Series.to_json:117
+msgid "Encoding/decoding a Dataframe using ``'index'`` formatted JSON:"
+msgstr ""
+
+#: of pandas.Series.to_json:122
+msgid "Encoding/decoding a Dataframe using ``'columns'`` formatted JSON:"
+msgstr ""
+
+#: of pandas.Series.to_json:127
+msgid "Encoding/decoding a Dataframe using ``'values'`` formatted JSON:"
+msgstr ""
+
+#: of pandas.Series.to_json:132
+msgid "Encoding with Table Schema"
+msgstr ""
+

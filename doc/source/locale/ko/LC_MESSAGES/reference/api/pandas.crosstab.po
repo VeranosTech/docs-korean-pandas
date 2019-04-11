@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.crosstab.rst:2
+msgid "pandas.crosstab"
+msgstr ""
+
+#: of pandas.crosstab:2
+msgid ""
+"Compute a simple cross-tabulation of two (or more) factors. By default "
+"computes a frequency table of the factors unless an array of values and "
+"an aggregation function are passed"
+msgstr ""
+
+#: of pandas.crosstab
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.crosstab:10
+msgid "**index**"
+msgstr ""
+
+#: of pandas.crosstab:9 pandas.crosstab:12
+msgid "array-like, Series, or list of arrays/Series"
+msgstr ""
+
+#: of pandas.crosstab:10
+msgid "Values to group by in the rows"
+msgstr ""
+
+#: of pandas.crosstab:13
+msgid "**columns**"
+msgstr ""
+
+#: of pandas.crosstab:13
+msgid "Values to group by in the columns"
+msgstr ""
+
+#: of pandas.crosstab:17
+msgid "**values**"
+msgstr ""
+
+#: of pandas.crosstab:16
+msgid "array-like, optional"
+msgstr ""
+
+#: of pandas.crosstab:16
+msgid ""
+"Array of values to aggregate according to the factors. Requires `aggfunc`"
+" be specified."
+msgstr ""
+
+#: of pandas.crosstab:20
+msgid "**rownames**"
+msgstr ""
+
+#: of pandas.crosstab:19 pandas.crosstab:22
+msgid "sequence, default None"
+msgstr ""
+
+#: of pandas.crosstab:20
+msgid "If passed, must match number of row arrays passed"
+msgstr ""
+
+#: of pandas.crosstab:23
+msgid "**colnames**"
+msgstr ""
+
+#: of pandas.crosstab:23
+msgid "If passed, must match number of column arrays passed"
+msgstr ""
+
+#: of pandas.crosstab:26
+msgid "**aggfunc**"
+msgstr ""
+
+#: of pandas.crosstab:25
+msgid "function, optional"
+msgstr ""
+
+#: of pandas.crosstab:26
+msgid "If specified, requires `values` be specified as well"
+msgstr ""
+
+#: of pandas.crosstab:29
+msgid "**margins**"
+msgstr ""
+
+#: of pandas.crosstab:28
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.crosstab:29
+msgid "Add row/column margins (subtotals)"
+msgstr ""
+
+#: of pandas.crosstab:35
+msgid "**margins_name**"
+msgstr ""
+
+#: of pandas.crosstab:34
+msgid "string, default 'All'"
+msgstr ""
+
+#: of pandas.crosstab:32
+msgid ""
+"Name of the row / column that will contain the totals when margins is "
+"True."
+msgstr ""
+
+#: of pandas.crosstab:38
+msgid "**dropna**"
+msgstr ""
+
+#: of pandas.crosstab:37
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.crosstab:38
+msgid "Do not include columns whose entries are all NaN"
+msgstr ""
+
+#: of pandas.crosstab:48
+msgid "**normalize**"
+msgstr ""
+
+#: of pandas.crosstab:47
+msgid "boolean, {'all', 'index', 'columns'}, or {0,1}, default False"
+msgstr ""
+
+#: of pandas.crosstab:41
+msgid "Normalize by dividing all values by the sum of values."
+msgstr ""
+
+#: of pandas.crosstab:43
+msgid "If passed 'all' or `True`, will normalize over all values."
+msgstr ""
+
+#: of pandas.crosstab:44
+msgid "If passed 'index' will normalize over each row."
+msgstr ""
+
+#: of pandas.crosstab:45
+msgid "If passed 'columns' will normalize over each column."
+msgstr ""
+
+#: of pandas.crosstab:46
+msgid "If margins is `True`, will also normalize margin values."
+msgstr ""
+
+#: of pandas.crosstab
+msgid "Returns"
+msgstr ""
+
+#: of pandas.crosstab:59
+msgid "**crosstab**"
+msgstr ""
+
+#: of pandas.crosstab:58
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.crosstab:62
+msgid "Notes"
+msgstr ""
+
+#: of pandas.crosstab:63
+msgid ""
+"Any Series passed will have their name attributes used unless row or "
+"column names for the cross-tabulation are specified."
+msgstr ""
+
+#: of pandas.crosstab:66
+msgid ""
+"Any input passed containing Categorical data will have **all** of its "
+"categories included in the cross-tabulation, even if the actual data does"
+" not contain any instances of a particular category."
+msgstr ""
+
+#: of pandas.crosstab:70
+msgid ""
+"In the event that there aren't overlapping indexes an empty DataFrame "
+"will be returned."
+msgstr ""
+
+#: of pandas.crosstab:75
+msgid "Examples"
+msgstr ""
+

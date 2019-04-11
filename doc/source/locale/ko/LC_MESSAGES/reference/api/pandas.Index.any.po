@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.any.rst:2
+msgid "pandas.Index.any"
+msgstr ""
+
+#: of pandas.Index.any:2
+msgid "Return whether any element is True."
+msgstr ""
+
+#: of pandas.Index.any
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.any:8
+msgid "**\\*args**"
+msgstr ""
+
+#: of pandas.Index.any:8 pandas.Index.any:11
+msgid "These parameters will be passed to numpy.any."
+msgstr ""
+
+#: of pandas.Index.any:11
+msgid "**\\*\\*kwargs**"
+msgstr ""
+
+#: of pandas.Index.any
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.any:21
+msgid "**any**"
+msgstr ""
+
+#: of pandas.Index.any:20
+msgid "bool or array_like (if axis is specified)"
+msgstr ""
+
+#: of pandas.Index.any:16
+msgid "A single element array_like may be converted to bool."
+msgstr ""
+
+#: of pandas.Index.any:27
+msgid ":obj:`pandas.Index.all`"
+msgstr ""
+
+#: of pandas.Index.any:27 pandas.Index.any:30
+msgid "Return whether all elements are True."
+msgstr ""
+
+#: of pandas.Index.any:29
+msgid ":obj:`pandas.Series.all`"
+msgstr ""
+
+#: of pandas.Index.any:33
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Index.any:34
+msgid ""
+"Not a Number (NaN), positive infinity and negative infinity evaluate to "
+"True because these are not equal to zero."
+msgstr ""
+
+#: of pandas.Index.any:39
+msgid "Examples"
+msgstr ""
+

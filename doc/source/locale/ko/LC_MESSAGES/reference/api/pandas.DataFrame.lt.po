@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.lt.rst:2
+msgid "pandas.DataFrame.lt"
+msgstr ""
+
+#: of pandas.DataFrame.lt:2
+msgid "Less than of dataframe and other, element-wise (binary operator `lt`)."
+msgstr ""
+
+#: of pandas.DataFrame.lt:4
+msgid ""
+"Among flexible wrappers (`eq`, `ne`, `le`, `lt`, `ge`, `gt`) to "
+"comparison operators."
+msgstr ""
+
+#: of pandas.DataFrame.lt:7
+msgid ""
+"Equivalent to `==`, `=!`, `<=`, `<`, `>=`, `>` with support to choose "
+"axis (rows or columns) and level for comparison."
+msgstr ""
+
+#: of pandas.DataFrame.lt
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.lt:13
+msgid "**other**"
+msgstr ""
+
+#: of pandas.DataFrame.lt:12
+msgid "scalar, sequence, Series, or DataFrame"
+msgstr ""
+
+#: of pandas.DataFrame.lt:13
+msgid "Any single or multiple element data structure, or list-like object."
+msgstr ""
+
+#: of pandas.DataFrame.lt:17
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.DataFrame.lt:16
+msgid "{0 or 'index', 1 or 'columns'}, default 'columns'"
+msgstr ""
+
+#: of pandas.DataFrame.lt:16
+msgid ""
+"Whether to compare by the index (0 or 'index') or columns (1 or "
+"'columns')."
+msgstr ""
+
+#: of pandas.DataFrame.lt:21
+msgid "**level**"
+msgstr ""
+
+#: of pandas.DataFrame.lt:20
+msgid "int or label"
+msgstr ""
+
+#: of pandas.DataFrame.lt:20
+msgid ""
+"Broadcast across a level, matching Index values on the passed MultiIndex "
+"level."
+msgstr ""
+
+#: of pandas.DataFrame.lt
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.lt:31
+msgid "**DataFrame of bool**"
+msgstr ""
+
+#: of pandas.DataFrame.lt:26
+msgid "Result of the comparison."
+msgstr ""
+
+#: of pandas.DataFrame.lt:37
+msgid ":obj:`DataFrame.eq`"
+msgstr ""
+
+#: of pandas.DataFrame.lt:37
+msgid "Compare DataFrames for equality elementwise."
+msgstr ""
+
+#: of pandas.DataFrame.lt:40
+msgid ":obj:`DataFrame.ne`"
+msgstr ""
+
+#: of pandas.DataFrame.lt:40
+msgid "Compare DataFrames for inequality elementwise."
+msgstr ""
+
+#: of pandas.DataFrame.lt:43
+msgid ":obj:`DataFrame.le`"
+msgstr ""
+
+#: of pandas.DataFrame.lt:43
+msgid "Compare DataFrames for less than inequality or equality elementwise."
+msgstr ""
+
+#: of pandas.DataFrame.lt:46
+msgid ":obj:`DataFrame.lt`"
+msgstr ""
+
+#: of pandas.DataFrame.lt:46
+msgid "Compare DataFrames for strictly less than inequality elementwise."
+msgstr ""
+
+#: of pandas.DataFrame.lt:49
+msgid ":obj:`DataFrame.ge`"
+msgstr ""
+
+#: of pandas.DataFrame.lt:49
+msgid "Compare DataFrames for greater than inequality or equality elementwise."
+msgstr ""
+
+#: of pandas.DataFrame.lt:51
+msgid ":obj:`DataFrame.gt`"
+msgstr ""
+
+#: of pandas.DataFrame.lt:52
+msgid "Compare DataFrames for strictly greater than inequality elementwise."
+msgstr ""
+
+#: of pandas.DataFrame.lt:55
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.lt:56
+msgid ""
+"Mismatched indices will be unioned together. `NaN` values are considered "
+"different (i.e. `NaN` != `NaN`)."
+msgstr ""
+
+#: of pandas.DataFrame.lt:61
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.lt:71
+msgid "Comparison with a scalar, using either the operator or method:"
+msgstr ""
+
+#: of pandas.DataFrame.lt:85
+msgid ""
+"When `other` is a :class:`Series`, the columns of a DataFrame are aligned"
+" with the index of `other` and broadcast:"
+msgstr ""
+
+#: of pandas.DataFrame.lt:94
+msgid "Use the method to control the broadcast axis:"
+msgstr ""
+
+#: of pandas.DataFrame.lt:103
+msgid ""
+"When comparing to an arbitrary sequence, the number of columns must match"
+" the number elements in `other`:"
+msgstr ""
+
+#: of pandas.DataFrame.lt:112
+msgid "Use the method to control the axis:"
+msgstr ""
+
+#: of pandas.DataFrame.lt:120
+msgid "Compare to a DataFrame of different shape."
+msgstr ""
+
+#: of pandas.DataFrame.lt:138
+msgid "Compare to a MultiIndex by level."
+msgstr ""
+

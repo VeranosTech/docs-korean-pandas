@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.abs.rst:2
+msgid "pandas.DataFrame.abs"
+msgstr ""
+
+#: of pandas.DataFrame.abs:2
+msgid "Return a Series/DataFrame with absolute numeric value of each element."
+msgstr ""
+
+#: of pandas.DataFrame.abs:4
+msgid "This function only applies to elements that are all numeric."
+msgstr ""
+
+#: of pandas.DataFrame.abs
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.abs:15
+msgid "**abs**"
+msgstr ""
+
+#: of pandas.DataFrame.abs:10
+msgid "Series/DataFrame containing the absolute value of each element."
+msgstr ""
+
+#: of pandas.DataFrame.abs:20
+msgid ":obj:`numpy.absolute`"
+msgstr ""
+
+#: of pandas.DataFrame.abs:21
+msgid "Calculate the absolute value element-wise."
+msgstr ""
+
+#: of pandas.DataFrame.abs:24
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.abs:25
+msgid ""
+"For ``complex`` inputs, ``1.2 + 1j``, the absolute value is "
+":math:`\\sqrt{ a^2 + b^2 }`."
+msgstr ""
+
+#: of pandas.DataFrame.abs:30
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.abs:31
+msgid "Absolute numeric values in a Series."
+msgstr ""
+
+#: of pandas.DataFrame.abs:41
+msgid "Absolute numeric values in a Series with complex numbers."
+msgstr ""
+
+#: of pandas.DataFrame.abs:48
+msgid "Absolute numeric values in a Series with a Timedelta element."
+msgstr ""
+
+#: of pandas.DataFrame.abs:55
+msgid ""
+"Select rows with data closest to certain value using argsort (from "
+"`StackOverflow <https://stackoverflow.com/a/17758115>`__)."
+msgstr ""
+

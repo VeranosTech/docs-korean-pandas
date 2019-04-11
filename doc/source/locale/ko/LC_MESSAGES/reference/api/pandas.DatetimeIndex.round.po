@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DatetimeIndex.round.rst:2
+msgid "pandas.DatetimeIndex.round"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:2
+msgid "Perform round operation on the data to the specified `freq`."
+msgstr ""
+
+#: of pandas.DatetimeIndex.round
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:11
+msgid "**freq**"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:10
+msgid "str or Offset"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:8
+msgid ""
+"The frequency level to round the index to. Must be a fixed frequency like"
+" 'S' (second) not 'ME' (month end). See :ref:`frequency aliases "
+"<timeseries.offset_aliases>` for a list of possible `freq` values."
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:25
+msgid "**ambiguous**"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:24
+msgid "'infer', bool-ndarray, 'NaT', default 'raise'"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:14
+msgid "Only relevant for DatetimeIndex:"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:16
+msgid "'infer' will attempt to infer fall dst-transition hours based on order"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:18
+msgid ""
+"bool-ndarray where True signifies a DST time, False designates a non-DST "
+"time (note that this flag is only applicable for ambiguous times)"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:21
+msgid "'NaT' will return NaT where there are ambiguous times"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:22
+msgid "'raise' will raise an AmbiguousTimeError if there are ambiguous times"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:41
+msgid "**nonexistent**"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:40
+msgid "'shift_forward', 'shift_backward, 'NaT', timedelta,"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:28
+msgid "default 'raise'"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:29
+msgid ""
+"A nonexistent time does not exist in a particular timezone where clocks "
+"moved forward due to DST."
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:32
+msgid ""
+"'shift_forward' will shift the nonexistent time forward to the closest "
+"existing time"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:34
+msgid ""
+"'shift_backward' will shift the nonexistent time backward to the closest "
+"existing time"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:36
+msgid "'NaT' will return NaT where there are nonexistent times"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:37
+msgid "timedelta objects will shift nonexistent times by the timedelta"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:38
+msgid "'raise' will raise an NonExistentTimeError if there are nonexistent times"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:49
+msgid "**DatetimeIndex, TimedeltaIndex, or Series**"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:46
+msgid ""
+"Index of the same type for a DatetimeIndex or TimedeltaIndex, or a Series"
+" with the same index for a Series."
+msgstr ""
+
+#: of pandas.DatetimeIndex.round
+msgid "Raises"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:59
+msgid "**ValueError if the `freq` cannot be converted.**"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:62
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:63
+msgid "**DatetimeIndex**"
+msgstr ""
+
+#: of pandas.DatetimeIndex.round:75
+msgid "**Series**"
+msgstr ""
+

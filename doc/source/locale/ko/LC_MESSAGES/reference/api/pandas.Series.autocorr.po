@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.autocorr.rst:2
+msgid "pandas.Series.autocorr"
+msgstr ""
+
+#: of pandas.Series.autocorr:2
+msgid "Compute the lag-N autocorrelation."
+msgstr ""
+
+#: of pandas.Series.autocorr:4
+msgid ""
+"This method computes the Pearson correlation between the Series and its "
+"shifted self."
+msgstr ""
+
+#: of pandas.Series.autocorr
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.autocorr:10
+msgid "**lag**"
+msgstr ""
+
+#: of pandas.Series.autocorr:9
+msgid "int, default 1"
+msgstr ""
+
+#: of pandas.Series.autocorr:10
+msgid "Number of lags to apply before performing autocorrelation."
+msgstr ""
+
+#: of pandas.Series.autocorr
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.autocorr:20
+msgid "**float**"
+msgstr ""
+
+#: of pandas.Series.autocorr:15
+msgid "The Pearson correlation between self and self.shift(lag)."
+msgstr ""
+
+#: of pandas.Series.autocorr:26
+msgid ":obj:`Series.corr`"
+msgstr ""
+
+#: of pandas.Series.autocorr:26
+msgid "Compute the correlation between two Series."
+msgstr ""
+
+#: of pandas.Series.autocorr:29
+msgid ":obj:`Series.shift`"
+msgstr ""
+
+#: of pandas.Series.autocorr:29
+msgid "Shift index by desired number of periods."
+msgstr ""
+
+#: of pandas.Series.autocorr:32
+msgid ":obj:`DataFrame.corr`"
+msgstr ""
+
+#: of pandas.Series.autocorr:32
+msgid "Compute pairwise correlation of columns."
+msgstr ""
+
+#: of pandas.Series.autocorr:34
+msgid ":obj:`DataFrame.corrwith`"
+msgstr ""
+
+#: of pandas.Series.autocorr:35
+msgid ""
+"Compute pairwise correlation between rows or columns of two DataFrame "
+"objects."
+msgstr ""
+
+#: of pandas.Series.autocorr:38
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Series.autocorr:39
+msgid "If the Pearson correlation is not well defined return 'NaN'."
+msgstr ""
+
+#: of pandas.Series.autocorr:43
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.autocorr:50
+msgid "If the Pearson correlation is not well defined, then 'NaN' is returned."
+msgstr ""
+

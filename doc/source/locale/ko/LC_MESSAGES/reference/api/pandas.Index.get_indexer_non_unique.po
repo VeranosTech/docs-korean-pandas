@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.get_indexer_non_unique.rst:2
+msgid "pandas.Index.get\\_indexer\\_non\\_unique"
+msgstr ""
+
+#: of pandas.Index.get_indexer_non_unique:2
+msgid ""
+"Compute indexer and mask for new index given the current index. The "
+"indexer should be then used as an input to ndarray.take to align the "
+"current data to the new index."
+msgstr ""
+
+#: of pandas.Index.get_indexer_non_unique
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.get_indexer_non_unique:10
+msgid "**target**"
+msgstr ""
+
+#: of pandas.Index.get_indexer_non_unique:9
+msgid "Index"
+msgstr ""
+
+#: of pandas.Index.get_indexer_non_unique
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.get_indexer_non_unique:17
+msgid "**indexer**"
+msgstr ""
+
+#: of pandas.Index.get_indexer_non_unique:16
+#: pandas.Index.get_indexer_non_unique:31
+msgid "ndarray of int"
+msgstr ""
+
+#: of pandas.Index.get_indexer_non_unique:15
+msgid ""
+"Integers from 0 to n - 1 indicating that the index at these positions "
+"matches the corresponding target values. Missing values in the target are"
+" marked by -1."
+msgstr ""
+
+#: of pandas.Index.get_indexer_non_unique:32
+msgid "**missing**"
+msgstr ""
+
+#: of pandas.Index.get_indexer_non_unique:20
+msgid ""
+"An indexer into the target of the values not found. These correspond to "
+"the -1 in the indexer array"
+msgstr ""
+

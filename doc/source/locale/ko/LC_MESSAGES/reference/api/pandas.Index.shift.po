@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.shift.rst:2
+msgid "pandas.Index.shift"
+msgstr ""
+
+#: of pandas.Index.shift:2
+msgid "Shift index by desired number of time frequency increments."
+msgstr ""
+
+#: of pandas.Index.shift:4
+msgid ""
+"This method is for shifting the values of datetime-like indexes by a "
+"specified time increment a given number of times."
+msgstr ""
+
+#: of pandas.Index.shift
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.shift:11
+msgid "**periods**"
+msgstr ""
+
+#: of pandas.Index.shift:10
+msgid "int, default 1"
+msgstr ""
+
+#: of pandas.Index.shift:10
+msgid ""
+"Number of periods (or increments) to shift by, can be positive or "
+"negative."
+msgstr ""
+
+#: of pandas.Index.shift:16
+msgid "**freq**"
+msgstr ""
+
+#: of pandas.Index.shift:15
+msgid "pandas.DateOffset, pandas.Timedelta or string, optional"
+msgstr ""
+
+#: of pandas.Index.shift:14
+msgid ""
+"Frequency increment to shift by. If None, the index is shifted by its own"
+" `freq` attribute. Offset aliases are valid strings, e.g., 'D', 'W', 'M' "
+"etc."
+msgstr ""
+
+#: of pandas.Index.shift
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.shift:26
+msgid "**pandas.Index**"
+msgstr ""
+
+#: of pandas.Index.shift:21
+msgid "shifted index"
+msgstr ""
+
+#: of pandas.Index.shift:31
+msgid ":obj:`Series.shift`"
+msgstr ""
+
+#: of pandas.Index.shift:32
+msgid "Shift values of Series."
+msgstr ""
+
+#: of pandas.Index.shift:35
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Index.shift:36
+msgid ""
+"This method is only implemented for datetime-like index classes, i.e., "
+"DatetimeIndex, PeriodIndex and TimedeltaIndex."
+msgstr ""
+
+#: of pandas.Index.shift:41
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Index.shift:42
+msgid "Put the first 5 month starts of 2011 into an index."
+msgstr ""
+
+#: of pandas.Index.shift:50
+msgid "Shift the index by 10 days."
+msgstr ""
+
+#: of pandas.Index.shift:57
+msgid ""
+"The default value of `freq` is the `freq` attribute of the index, which "
+"is 'MS' (month start) in this example."
+msgstr ""
+

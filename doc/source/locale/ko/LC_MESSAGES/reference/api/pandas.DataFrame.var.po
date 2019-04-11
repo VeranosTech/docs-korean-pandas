@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.var.rst:2
+msgid "pandas.DataFrame.var"
+msgstr ""
+
+#: of pandas.DataFrame.var:2
+msgid "Return unbiased variance over requested axis."
+msgstr ""
+
+#: of pandas.DataFrame.var:4
+msgid "Normalized by N-1 by default. This can be changed using the ddof argument"
+msgstr ""
+
+#: of pandas.DataFrame.var
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.var:9
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.DataFrame.var:8
+msgid "{index (0), columns (1)}"
+msgstr ""
+
+#: of pandas.DataFrame.var:13
+msgid "**skipna**"
+msgstr ""
+
+#: of pandas.DataFrame.var:12
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.DataFrame.var:12
+msgid ""
+"Exclude NA/null values. If an entire row/column is NA, the result will be"
+" NA"
+msgstr ""
+
+#: of pandas.DataFrame.var:17
+msgid "**level**"
+msgstr ""
+
+#: of pandas.DataFrame.var:16
+msgid "int or level name, default None"
+msgstr ""
+
+#: of pandas.DataFrame.var:16
+msgid ""
+"If the axis is a MultiIndex (hierarchical), count along a particular "
+"level, collapsing into a Series"
+msgstr ""
+
+#: of pandas.DataFrame.var:21
+msgid "**ddof**"
+msgstr ""
+
+#: of pandas.DataFrame.var:20
+msgid "int, default 1"
+msgstr ""
+
+#: of pandas.DataFrame.var:20
+msgid ""
+"Delta Degrees of Freedom. The divisor used in calculations is N - ddof, "
+"where N represents the number of elements."
+msgstr ""
+
+#: of pandas.DataFrame.var:25
+msgid "**numeric_only**"
+msgstr ""
+
+#: of pandas.DataFrame.var:24
+msgid "boolean, default None"
+msgstr ""
+
+#: of pandas.DataFrame.var:24
+msgid ""
+"Include only float, int, boolean columns. If None, will attempt to use "
+"everything, then use only numeric data. Not implemented for Series."
+msgstr ""
+
+#: of pandas.DataFrame.var
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.var:41
+msgid "**var**"
+msgstr ""
+
+#: of pandas.DataFrame.var:40
+msgid "Series or DataFrame (if level specified)"
+msgstr ""
+

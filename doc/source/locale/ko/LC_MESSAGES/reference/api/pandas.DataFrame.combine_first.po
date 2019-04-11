@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.combine_first.rst:2
+msgid "pandas.DataFrame.combine\\_first"
+msgstr ""
+
+#: of pandas.DataFrame.combine_first:2
+msgid "Update null elements with value in the same location in `other`."
+msgstr ""
+
+#: of pandas.DataFrame.combine_first:4
+msgid ""
+"Combine two DataFrame objects by filling null values in one DataFrame "
+"with non-null values from other DataFrame. The row and column indexes of "
+"the resulting DataFrame will be the union of the two."
+msgstr ""
+
+#: of pandas.DataFrame.combine_first
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.combine_first:11
+msgid "**other**"
+msgstr ""
+
+#: of pandas.DataFrame.combine_first:10 pandas.DataFrame.combine_first:20
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.DataFrame.combine_first:11
+msgid "Provided DataFrame to use to fill null values."
+msgstr ""
+
+#: of pandas.DataFrame.combine_first
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.combine_first:21
+msgid "**combined**"
+msgstr ""
+
+#: of pandas.DataFrame.combine_first:26
+msgid ":obj:`DataFrame.combine`"
+msgstr ""
+
+#: of pandas.DataFrame.combine_first:27
+msgid "Perform series-wise operation on two DataFrames using a given function."
+msgstr ""
+
+#: of pandas.DataFrame.combine_first:32
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.combine_first:40
+msgid ""
+"Null values still persist if the location of that null value does not "
+"exist in `other`"
+msgstr ""
+

@@ -1,0 +1,196 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.join.rst:2
+msgid "pandas.DataFrame.join"
+msgstr ""
+
+#: of pandas.DataFrame.join:2
+msgid "Join columns of another DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.join:4
+msgid ""
+"Join columns with `other` DataFrame either on index or on a key column. "
+"Efficiently join multiple DataFrame objects by index at once by passing a"
+" list."
+msgstr ""
+
+#: of pandas.DataFrame.join
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.join:13
+msgid "**other**"
+msgstr ""
+
+#: of pandas.DataFrame.join:12
+msgid "DataFrame, Series, or list of DataFrame"
+msgstr ""
+
+#: of pandas.DataFrame.join:11
+msgid ""
+"Index should be similar to one of the columns in this one. If a Series is"
+" passed, its name attribute must be set, and that will be used as the "
+"column name in the resulting joined DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.join:20
+msgid "**on**"
+msgstr ""
+
+#: of pandas.DataFrame.join:19
+msgid "str, list of str, or array-like, optional"
+msgstr ""
+
+#: of pandas.DataFrame.join:16
+msgid ""
+"Column or index level name(s) in the caller to join on the index in "
+"`other`, otherwise joins index-on-index. If multiple values given, the "
+"`other` DataFrame must have a MultiIndex. Can pass an array as the join "
+"key if it is not already contained in the calling DataFrame. Like an "
+"Excel VLOOKUP operation."
+msgstr ""
+
+#: of pandas.DataFrame.join:32
+msgid "**how**"
+msgstr ""
+
+#: of pandas.DataFrame.join:31
+msgid "{'left', 'right', 'outer', 'inner'}, default 'left'"
+msgstr ""
+
+#: of pandas.DataFrame.join:23
+msgid "How to handle the operation of the two objects."
+msgstr ""
+
+#: of pandas.DataFrame.join:25
+msgid "left: use calling frame's index (or column if on is specified)"
+msgstr ""
+
+#: of pandas.DataFrame.join:26
+msgid "right: use `other`'s index."
+msgstr ""
+
+#: of pandas.DataFrame.join:27
+msgid ""
+"outer: form union of calling frame's index (or column if on is specified)"
+" with `other`'s index, and sort it. lexicographically."
+msgstr ""
+
+#: of pandas.DataFrame.join:30
+msgid ""
+"inner: form intersection of calling frame's index (or column if on is "
+"specified) with `other`'s index, preserving the order of the calling's "
+"one."
+msgstr ""
+
+#: of pandas.DataFrame.join:35
+msgid "**lsuffix**"
+msgstr ""
+
+#: of pandas.DataFrame.join:34 pandas.DataFrame.join:37
+msgid "str, default ''"
+msgstr ""
+
+#: of pandas.DataFrame.join:35
+msgid "Suffix to use from left frame's overlapping columns."
+msgstr ""
+
+#: of pandas.DataFrame.join:38
+msgid "**rsuffix**"
+msgstr ""
+
+#: of pandas.DataFrame.join:38
+msgid "Suffix to use from right frame's overlapping columns."
+msgstr ""
+
+#: of pandas.DataFrame.join:42
+msgid "**sort**"
+msgstr ""
+
+#: of pandas.DataFrame.join:41
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.DataFrame.join:41
+msgid ""
+"Order result DataFrame lexicographically by the join key. If False, the "
+"order of the join key depends on the join type (how keyword)."
+msgstr ""
+
+#: of pandas.DataFrame.join
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.join:52
+msgid "**DataFrame**"
+msgstr ""
+
+#: of pandas.DataFrame.join:47
+msgid "A dataframe containing columns from both the caller and `other`."
+msgstr ""
+
+#: of pandas.DataFrame.join:57
+msgid ":obj:`DataFrame.merge`"
+msgstr ""
+
+#: of pandas.DataFrame.join:58
+msgid "For column(s)-on-columns(s) operations."
+msgstr ""
+
+#: of pandas.DataFrame.join:61
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.join:62
+msgid ""
+"Parameters `on`, `lsuffix`, and `rsuffix` are not supported when passing "
+"a list of `DataFrame` objects."
+msgstr ""
+
+#: of pandas.DataFrame.join:65
+msgid ""
+"Support for specifying index levels as the `on` parameter was added in "
+"version 0.23.0."
+msgstr ""
+
+#: of pandas.DataFrame.join:70
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.join:92
+msgid "Join DataFrames using their indexes."
+msgstr ""
+
+#: of pandas.DataFrame.join:103
+msgid ""
+"If we want to join using the key columns, we need to set key to be the "
+"index in both `df` and `other`. The joined DataFrame will have key as its"
+" index."
+msgstr ""
+
+#: of pandas.DataFrame.join:117
+msgid ""
+"Another option to join using the key columns is to use the `on` "
+"parameter. DataFrame.join always uses `other`'s index but we can use any "
+"column in `df`. This method preserves the original DataFrame's index in "
+"the result."
+msgstr ""
+

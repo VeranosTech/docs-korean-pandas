@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.intersection.rst:2
+msgid "pandas.Index.intersection"
+msgstr ""
+
+#: of pandas.Index.intersection:2
+msgid "Form the intersection of two Index objects."
+msgstr ""
+
+#: of pandas.Index.intersection:4
+msgid "This returns a new Index with elements common to the index and `other`."
+msgstr ""
+
+#: of pandas.Index.intersection
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.intersection:9
+msgid "**other**"
+msgstr ""
+
+#: of pandas.Index.intersection:8
+msgid "Index or array-like"
+msgstr ""
+
+#: of pandas.Index.intersection:23
+msgid "**sort**"
+msgstr ""
+
+#: of pandas.Index.intersection:22
+msgid "False or None, default False"
+msgstr ""
+
+#: of pandas.Index.intersection:12
+msgid "Whether to sort the resulting index."
+msgstr ""
+
+#: of pandas.Index.intersection:14
+msgid "False : do not sort the result."
+msgstr ""
+
+#: of pandas.Index.intersection:15
+msgid ""
+"None : sort the result, except when `self` and `other` are equal or when "
+"the values cannot be compared."
+msgstr ""
+
+#: of pandas.Index.intersection:22
+msgid ""
+"Changed the default from ``True`` to ``False``, to match the behaviour of"
+" 0.23.4 and earlier."
+msgstr ""
+
+#: of pandas.Index.intersection
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.intersection:36
+msgid "**intersection**"
+msgstr ""
+
+#: of pandas.Index.intersection:35
+msgid "Index"
+msgstr ""
+
+#: of pandas.Index.intersection:39
+msgid "Examples"
+msgstr ""
+

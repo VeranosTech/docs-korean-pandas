@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.str.isdigit.rst:2
+msgid "pandas.Series.str.isdigit"
+msgstr ""
+
+#: of pandas.Series.str.isdigit:2
+msgid "Check whether all characters in each string are digits."
+msgstr ""
+
+#: of pandas.Series.str.isdigit:4
+msgid ""
+"This is equivalent to running the Python string method "
+":meth:`str.isdigit` for each element of the Series/Index. If a string has"
+" zero characters, ``False`` is returned for that check."
+msgstr ""
+
+#: of pandas.Series.str.isdigit
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.str.isdigit:18
+msgid "**Series or Index of bool**"
+msgstr ""
+
+#: of pandas.Series.str.isdigit:12
+msgid ""
+"Series or Index of boolean values with the same length as the original "
+"Series/Index."
+msgstr ""
+
+#: of pandas.Series.str.isdigit:24
+msgid ":obj:`Series.str.isalpha`"
+msgstr ""
+
+#: of pandas.Series.str.isdigit:24
+msgid "Check whether all characters are alphabetic."
+msgstr ""
+
+#: of pandas.Series.str.isdigit:27
+msgid ":obj:`Series.str.isnumeric`"
+msgstr ""
+
+#: of pandas.Series.str.isdigit:27
+msgid "Check whether all characters are numeric."
+msgstr ""
+
+#: of pandas.Series.str.isdigit:30
+msgid ":obj:`Series.str.isalnum`"
+msgstr ""
+
+#: of pandas.Series.str.isdigit:30
+msgid "Check whether all characters are alphanumeric."
+msgstr ""
+
+#: of pandas.Series.str.isdigit:33
+msgid ":obj:`Series.str.isdigit`"
+msgstr ""
+
+#: of pandas.Series.str.isdigit:33
+msgid "Check whether all characters are digits."
+msgstr ""
+
+#: of pandas.Series.str.isdigit:36
+msgid ":obj:`Series.str.isdecimal`"
+msgstr ""
+
+#: of pandas.Series.str.isdigit:36
+msgid "Check whether all characters are decimal."
+msgstr ""
+
+#: of pandas.Series.str.isdigit:39
+msgid ":obj:`Series.str.isspace`"
+msgstr ""
+
+#: of pandas.Series.str.isdigit:39
+msgid "Check whether all characters are whitespace."
+msgstr ""
+
+#: of pandas.Series.str.isdigit:42
+msgid ":obj:`Series.str.islower`"
+msgstr ""
+
+#: of pandas.Series.str.isdigit:42
+msgid "Check whether all characters are lowercase."
+msgstr ""
+
+#: of pandas.Series.str.isdigit:45
+msgid ":obj:`Series.str.isupper`"
+msgstr ""
+
+#: of pandas.Series.str.isdigit:45
+msgid "Check whether all characters are uppercase."
+msgstr ""
+
+#: of pandas.Series.str.isdigit:47
+msgid ":obj:`Series.str.istitle`"
+msgstr ""
+
+#: of pandas.Series.str.isdigit:48
+msgid "Check whether all characters are titlecase."
+msgstr ""
+
+#: of pandas.Series.str.isdigit:53
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.str.isdigit:54
+msgid "**Checks for Alphabetic and Numeric Characters**"
+msgstr ""
+
+#: of pandas.Series.str.isdigit:79
+msgid ""
+"Note that checks against characters mixed with any additional punctuation"
+" or whitespace will evaluate to false for an alphanumeric check."
+msgstr ""
+
+#: of pandas.Series.str.isdigit:89
+msgid "**More Detailed Checks for Numeric Characters**"
+msgstr ""
+
+#: of pandas.Series.str.isdigit:91
+msgid ""
+"There are several different but overlapping sets of numeric characters "
+"that can be checked for."
+msgstr ""
+
+#: of pandas.Series.str.isdigit:96
+msgid ""
+"The ``s3.str.isdecimal`` method checks for characters used to form "
+"numbers in base 10."
+msgstr ""
+
+#: of pandas.Series.str.isdigit:106
+msgid ""
+"The ``s.str.isdigit`` method is the same as ``s3.str.isdecimal`` but also"
+" includes special digits, like superscripted and subscripted digits in "
+"unicode."
+msgstr ""
+
+#: of pandas.Series.str.isdigit:117
+msgid ""
+"The ``s.str.isnumeric`` method is the same as ``s3.str.isdigit`` but also"
+" includes other characters that can represent quantities such as unicode "
+"fractions."
+msgstr ""
+
+#: of pandas.Series.str.isdigit:128
+msgid "**Checks for Whitespace**"
+msgstr ""
+
+#: of pandas.Series.str.isdigit:137
+msgid "**Checks for Character Case**"
+msgstr ""
+
+#: of pandas.Series.str.isdigit:155
+msgid ""
+"The ``s5.str.istitle`` method checks for whether all words are in title "
+"case (whether only the first letter of each word is capitalized). Words "
+"are assumed to be as any sequence of non-numeric characters seperated by "
+"whitespace characters."
+msgstr ""
+

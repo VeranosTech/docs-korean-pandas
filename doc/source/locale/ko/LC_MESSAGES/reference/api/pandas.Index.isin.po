@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.isin.rst:2
+msgid "pandas.Index.isin"
+msgstr ""
+
+#: of pandas.Index.isin:2
+msgid "Return a boolean array where the index values are in `values`."
+msgstr ""
+
+#: of pandas.Index.isin:4
+msgid ""
+"Compute boolean array of whether each index value is found in the passed "
+"set of values. The length of the returned boolean array matches the "
+"length of the index."
+msgstr ""
+
+#: of pandas.Index.isin
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.isin:15
+msgid "**values**"
+msgstr ""
+
+#: of pandas.Index.isin:14
+msgid "set or list-like"
+msgstr ""
+
+#: of pandas.Index.isin:11
+msgid "Sought values."
+msgstr ""
+
+#: of pandas.Index.isin:15
+msgid "Support for values as a set."
+msgstr ""
+
+#: of pandas.Index.isin:19
+msgid "**level**"
+msgstr ""
+
+#: of pandas.Index.isin:18
+msgid "str or int, optional"
+msgstr ""
+
+#: of pandas.Index.isin:18
+msgid ""
+"Name or position of the index level to use (if the index is a "
+"`MultiIndex`)."
+msgstr ""
+
+#: of pandas.Index.isin
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.isin:29
+msgid "**is_contained**"
+msgstr ""
+
+#: of pandas.Index.isin:28
+msgid "ndarray"
+msgstr ""
+
+#: of pandas.Index.isin:24
+msgid "NumPy array of boolean values."
+msgstr ""
+
+#: of pandas.Index.isin:35
+msgid ":obj:`Series.isin`"
+msgstr ""
+
+#: of pandas.Index.isin:35
+msgid "Same for Series."
+msgstr ""
+
+#: of pandas.Index.isin:37
+msgid ":obj:`DataFrame.isin`"
+msgstr ""
+
+#: of pandas.Index.isin:38
+msgid "Same method for DataFrames."
+msgstr ""
+
+#: of pandas.Index.isin:41
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Index.isin:42
+msgid ""
+"In the case of `MultiIndex` you must either specify `values` as a list-"
+"like object containing tuples that are the same length as the number of "
+"levels, or specify `level`. Otherwise it will raise a ``ValueError``."
+msgstr ""
+
+#: of pandas.Index.isin:47
+msgid "If `level` is specified:"
+msgstr ""
+
+#: of pandas.Index.isin:49
+msgid "if it is the name of one *and only one* index level, use that level;"
+msgstr ""
+
+#: of pandas.Index.isin:50
+msgid "otherwise it should be a number indicating level position."
+msgstr ""
+
+#: of pandas.Index.isin:54
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Index.isin:59
+msgid ""
+"Check whether each index value in a list of values. >>> idx.isin([1, 4]) "
+"array([ True, False, False])"
+msgstr ""
+
+#: of pandas.Index.isin:71
+msgid ""
+"Check whether the strings in the 'color' level of the MultiIndex are in a"
+" list of colors."
+msgstr ""
+
+#: of pandas.Index.isin:77
+msgid "To check across the levels of a MultiIndex, pass a list of tuples:"
+msgstr ""
+
+#: of pandas.Index.isin:82
+msgid ""
+"For a DatetimeIndex, string values in `values` are converted to "
+"Timestamps."
+msgstr ""
+

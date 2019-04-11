@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.str.slice_replace.rst:2
+msgid "pandas.Series.str.slice_replace"
+msgstr ""
+
+#: of pandas.Series.str.slice_replace:2
+msgid "Replace a positional slice of a string with another value."
+msgstr ""
+
+#: of pandas.Series.str.slice_replace
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.str.slice_replace:10
+msgid "**start**"
+msgstr ""
+
+#: of pandas.Series.str.slice_replace:9 pandas.Series.str.slice_replace:14
+msgid "int, optional"
+msgstr ""
+
+#: of pandas.Series.str.slice_replace:8
+msgid ""
+"Left index position to use for the slice. If not specified (None), the "
+"slice is unbounded on the left, i.e. slice from the start of the string."
+msgstr ""
+
+#: of pandas.Series.str.slice_replace:15
+msgid "**stop**"
+msgstr ""
+
+#: of pandas.Series.str.slice_replace:13
+msgid ""
+"Right index position to use for the slice. If not specified (None), the "
+"slice is unbounded on the right, i.e. slice until the end of the string."
+msgstr ""
+
+#: of pandas.Series.str.slice_replace:19
+msgid "**repl**"
+msgstr ""
+
+#: of pandas.Series.str.slice_replace:18
+msgid "str, optional"
+msgstr ""
+
+#: of pandas.Series.str.slice_replace:18
+msgid ""
+"String for replacement. If not specified (None), the sliced region is "
+"replaced with an empty string."
+msgstr ""
+
+#: of pandas.Series.str.slice_replace
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.str.slice_replace:29
+msgid "**replaced**"
+msgstr ""
+
+#: of pandas.Series.str.slice_replace:28
+msgid "Series or Index"
+msgstr ""
+
+#: of pandas.Series.str.slice_replace:24
+msgid "Same type as the original object."
+msgstr ""
+
+#: of pandas.Series.str.slice_replace:34
+msgid ":obj:`Series.str.slice`"
+msgstr ""
+
+#: of pandas.Series.str.slice_replace:35
+msgid "Just slicing without replacement."
+msgstr ""
+
+#: of pandas.Series.str.slice_replace:40
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.str.slice_replace:50
+msgid ""
+"Specify just `start`, meaning replace `start` until the end of the string"
+" with `repl`."
+msgstr ""
+
+#: of pandas.Series.str.slice_replace:61
+msgid ""
+"Specify just `stop`, meaning the start of the string to `stop` is "
+"replaced with `repl`, and the rest of the string is included."
+msgstr ""
+
+#: of pandas.Series.str.slice_replace:72
+msgid ""
+"Specify `start` and `stop`, meaning the slice from `start` to `stop` is "
+"replaced with `repl`. Everything before or after `start` and `stop` is "
+"included as is."
+msgstr ""
+

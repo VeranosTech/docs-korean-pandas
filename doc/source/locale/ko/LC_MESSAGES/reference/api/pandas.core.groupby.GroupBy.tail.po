@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.core.groupby.GroupBy.tail.rst:2
+msgid "pandas.core.groupby.GroupBy.tail"
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.tail:2
+msgid "Returns last n rows of each group."
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.tail:4
+msgid ""
+"Essentially equivalent to ``.apply(lambda x: x.tail(n))``, except ignores"
+" as_index flag."
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.tail:17
+msgid ":obj:`pandas.Series.`, :obj:`pandas.DataFrame.`, :obj:`pandas.Panel.`"
+msgstr ""
+
+#: of pandas.core.groupby.GroupBy.tail:22
+msgid "Examples"
+msgstr ""
+

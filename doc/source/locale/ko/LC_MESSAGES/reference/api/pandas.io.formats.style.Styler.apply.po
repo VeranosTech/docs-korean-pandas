@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.io.formats.style.Styler.apply.rst:2
+msgid "pandas.io.formats.style.Styler.apply"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.apply:2
+msgid ""
+"Apply a function column-wise, row-wise, or table-wise, updating the HTML "
+"representation with the result."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.apply
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.apply:12
+msgid "**func**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.apply:11
+msgid "function"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.apply:9
+msgid ""
+"``func`` should take a Series or DataFrame (depending on ``axis``), and "
+"return an object with the same shape. Must return a DataFrame with "
+"identical index and column labels when ``axis=None``"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.apply:17
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.apply:16
+msgid "int, str or None"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.apply:15
+msgid ""
+"apply to each column (``axis=0`` or ``'index'``) or to each row "
+"(``axis=1`` or ``'columns'``) or to the entire DataFrame at once with "
+"``axis=None``"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.apply:21
+msgid "**subset**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.apply:20
+msgid "IndexSlice"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.apply:20
+msgid ""
+"a valid indexer to limit ``data`` to *before* applying the function. "
+"Consider using a pandas.IndexSlice"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.apply:24
+msgid "**kwargs**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.apply:23
+msgid "dict"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.apply:24
+msgid "pass along to ``func``"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.apply
+msgid "Returns"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.apply:35
+msgid "**self**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.apply:34
+msgid "Styler"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.apply:38
+msgid "Notes"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.apply:39
+msgid ""
+"The output shape of ``func`` should match the input, i.e. if ``x`` is the"
+" input row, column, or table (depending on ``axis``), then "
+"``func(x).shape == x.shape`` should be true."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.apply:43
+msgid ""
+"This is similar to ``DataFrame.apply``, except that ``axis=None`` applies"
+" the function to the entire DataFrame at once, rather than column-wise or"
+" row-wise."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.apply:49
+msgid "Examples"
+msgstr ""
+

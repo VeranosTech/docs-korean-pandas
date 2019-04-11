@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.value_counts.rst:2
+msgid "pandas.Index.value\\_counts"
+msgstr ""
+
+#: of pandas.Index.value_counts:2
+msgid "Return a Series containing counts of unique values."
+msgstr ""
+
+#: of pandas.Index.value_counts:4
+msgid ""
+"The resulting object will be in descending order so that the first "
+"element is the most frequently-occurring element. Excludes NA values by "
+"default."
+msgstr ""
+
+#: of pandas.Index.value_counts
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.value_counts:12
+msgid "**normalize**"
+msgstr ""
+
+#: of pandas.Index.value_counts:11 pandas.Index.value_counts:17
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.Index.value_counts:11
+msgid ""
+"If True then the object returned will contain the relative frequencies of"
+" the unique values."
+msgstr ""
+
+#: of pandas.Index.value_counts:15
+msgid "**sort**"
+msgstr ""
+
+#: of pandas.Index.value_counts:14 pandas.Index.value_counts:24
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.Index.value_counts:15
+msgid "Sort by values."
+msgstr ""
+
+#: of pandas.Index.value_counts:18
+msgid "**ascending**"
+msgstr ""
+
+#: of pandas.Index.value_counts:18
+msgid "Sort in ascending order."
+msgstr ""
+
+#: of pandas.Index.value_counts:22 pandas.Index.value_counts:69
+msgid "**bins**"
+msgstr ""
+
+#: of pandas.Index.value_counts:21
+msgid "integer, optional"
+msgstr ""
+
+#: of pandas.Index.value_counts:21
+msgid ""
+"Rather than count values, group them into half-open bins, a convenience "
+"for ``pd.cut``, only works with numeric data."
+msgstr ""
+
+#: of pandas.Index.value_counts:25 pandas.Index.value_counts:82
+msgid "**dropna**"
+msgstr ""
+
+#: of pandas.Index.value_counts:25
+msgid "Don't include counts of NaN."
+msgstr ""
+
+#: of pandas.Index.value_counts
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.value_counts:35
+msgid "**counts**"
+msgstr ""
+
+#: of pandas.Index.value_counts:34
+msgid "Series"
+msgstr ""
+
+#: of pandas.Index.value_counts:41
+msgid ":obj:`Series.count`"
+msgstr ""
+
+#: of pandas.Index.value_counts:41
+msgid "Number of non-NA elements in a Series."
+msgstr ""
+
+#: of pandas.Index.value_counts:43
+msgid ":obj:`DataFrame.count`"
+msgstr ""
+
+#: of pandas.Index.value_counts:44
+msgid "Number of non-NA elements in a DataFrame."
+msgstr ""
+
+#: of pandas.Index.value_counts:49
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Index.value_counts:58
+msgid ""
+"With `normalize` set to `True`, returns the relative frequency by "
+"dividing all values by the sum of values."
+msgstr ""
+
+#: of pandas.Index.value_counts:71
+msgid ""
+"Bins can be useful for going from a continuous variable to a categorical "
+"variable; instead of counting unique apparitions of values, divide the "
+"index in the specified number of half-open bins."
+msgstr ""
+
+#: of pandas.Index.value_counts:84
+msgid "With `dropna` set to `False` we can also see NaN index values."
+msgstr ""
+

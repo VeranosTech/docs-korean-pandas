@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.tseries.offsets.FY5253Quarter.rst:2
+msgid "pandas.tseries.offsets.FY5253Quarter"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:2
+msgid ""
+"DateOffset increments between business quarter dates for 52-53 week "
+"fiscal year (also known as a 4-4-5 calendar)."
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:5
+msgid ""
+"It is used by companies that desire that their fiscal year always end on "
+"the same day of the week."
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:8
+msgid ""
+"It is a method of managing accounting periods. It is a common calendar "
+"structure for some industries, such as retail, manufacturing and parking "
+"industry."
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:12
+msgid "For more information see: http://en.wikipedia.org/wiki/4-4-5_calendar"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:15
+msgid ""
+"The year may either: - end on the last X day of the Y month. - end on the"
+" last X day closest to the last day of the Y month."
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:19
+msgid "X is a specific day of the week. Y is a certain month of the year"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:22
+msgid ""
+"startingMonth = 1 corresponds to dates like 1/31/2007, 4/30/2007, ... "
+"startingMonth = 2 corresponds to dates like 2/28/2007, 5/31/2007, ... "
+"startingMonth = 3 corresponds to dates like 3/30/2007, 6/29/2007, ..."
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:29
+msgid "**n**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:28
+msgid "int"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:38
+msgid "**weekday**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:37
+msgid "{0, 1, ..., 6}"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:32
+msgid ""
+"0: Mondays 1: Tuesdays 2: Wednesdays 3: Thursdays 4: Fridays 5: Saturdays"
+" 6: Sundays"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:41
+msgid "**startingMonth**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:40
+msgid "The month in which fiscal years end. {1, 2, ... 12}"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:44
+msgid "**qtr_with_extra_week**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:43
+msgid "The quarter number that has the leap"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:44
+msgid "or 14 week when needed. {1,2,3,4}"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:57
+msgid "**variation**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:56
+msgid "str"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:47
+msgid "{\"nearest\", \"last\"} for \"LastOfMonth\" or \"NearestEndMonth\""
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:60
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:66:<autosummary>:1
+msgid ":obj:`base <pandas.tseries.offsets.FY5253Quarter.base>`\\"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:66:<autosummary>:1
+msgid ""
+"Returns a copy of the calling offset object with n=1 and all other "
+"attributes equal."
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:68
+msgid "**freqstr**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:69
+msgid "**kwds**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:70
+msgid "**name**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:71
+msgid "**nanos**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:72
+msgid "**rule_code**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:76
+msgid "Methods"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:84:<autosummary>:1
+msgid ":obj:`apply_index <pandas.tseries.offsets.FY5253Quarter.apply_index>`\\"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:84:<autosummary>:1
+msgid ""
+"Vectorized apply of DateOffset to DatetimeIndex, raises NotImplentedError"
+" for offsets without a vectorized implementation."
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:84:<autosummary>:1
+msgid ":obj:`rollback <pandas.tseries.offsets.FY5253Quarter.rollback>`\\ \\(dt\\)"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:84:<autosummary>:1
+msgid "Roll provided date backward to next offset only if not on offset."
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:84:<autosummary>:1
+msgid ""
+":obj:`rollforward <pandas.tseries.offsets.FY5253Quarter.rollforward>`\\ "
+"\\(dt\\)"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:84:<autosummary>:1
+msgid "Roll provided date forward to next offset only if not on offset."
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:86
+msgid "**__call__**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:87
+msgid "**apply**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:88
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:89
+msgid "**get_weeks**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:90
+msgid "**isAnchored**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:91
+msgid "**onOffset**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253Quarter:92
+msgid "**year_has_extra_week**"
+msgstr ""
+

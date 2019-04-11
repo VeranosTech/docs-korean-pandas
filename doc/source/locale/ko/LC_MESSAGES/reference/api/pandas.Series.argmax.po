@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.argmax.rst:2
+msgid "pandas.Series.argmax"
+msgstr ""
+
+#: of pandas.Series.argmax:2
+msgid "Return the row label of the maximum value."
+msgstr ""
+
+#: of pandas.Series.argmax:6
+msgid ""
+"The current behaviour of 'Series.argmax' is deprecated, use 'idxmax' "
+"instead. The behavior of 'argmax' will be corrected to return the "
+"positional maximum in the future. For now, use 'series.values.argmax' or "
+"'np.argmax(np.array(values))' to get the position of the maximum row."
+msgstr ""
+
+#: of pandas.Series.argmax:13
+msgid ""
+"If multiple values equal the maximum, the first row label with that value"
+" is returned."
+msgstr ""
+
+#: of pandas.Series.argmax
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.argmax:20
+msgid "**skipna**"
+msgstr ""
+
+#: of pandas.Series.argmax:19
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.Series.argmax:19
+msgid "Exclude NA/null values. If the entire Series is NA, the result will be NA."
+msgstr ""
+
+#: of pandas.Series.argmax:24
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.Series.argmax:23
+msgid "int, default 0"
+msgstr ""
+
+#: of pandas.Series.argmax:23
+msgid ""
+"For compatibility with DataFrame.idxmax. Redundant for application on "
+"Series."
+msgstr ""
+
+#: of pandas.Series.argmax:28
+msgid "**\\*args, **kwargs**"
+msgstr ""
+
+#: of pandas.Series.argmax:27
+msgid ""
+"Additional keywords have no effect but might be accepted for "
+"compatibility with NumPy."
+msgstr ""
+
+#: of pandas.Series.argmax
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.argmax:35
+msgid "**idxmax**"
+msgstr ""
+
+#: of pandas.Series.argmax:34
+msgid "Index of maximum of values."
+msgstr ""
+
+#: of pandas.Series.argmax
+msgid "Raises"
+msgstr ""
+
+#: of pandas.Series.argmax:42
+msgid "**ValueError**"
+msgstr ""
+
+#: of pandas.Series.argmax:40
+msgid "If the Series is empty."
+msgstr ""
+
+#: of pandas.Series.argmax:48
+msgid ":obj:`numpy.argmax`"
+msgstr ""
+
+#: of pandas.Series.argmax:48
+msgid "Return indices of the maximum values along the given axis."
+msgstr ""
+
+#: of pandas.Series.argmax:51
+msgid ":obj:`DataFrame.idxmax`"
+msgstr ""
+
+#: of pandas.Series.argmax:51
+msgid "Return index of first occurrence of maximum over requested axis."
+msgstr ""
+
+#: of pandas.Series.argmax:53
+msgid ":obj:`Series.idxmin`"
+msgstr ""
+
+#: of pandas.Series.argmax:54
+msgid "Return index *label* of the first occurrence of minimum of values."
+msgstr ""
+
+#: of pandas.Series.argmax:57
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Series.argmax:58
+msgid ""
+"This method is the Series version of ``ndarray.argmax``. This method "
+"returns the label of the maximum, while ``ndarray.argmax`` returns the "
+"position. To get the position, use ``series.values.argmax()``."
+msgstr ""
+
+#: of pandas.Series.argmax:64
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.argmax:78
+msgid ""
+"If `skipna` is False and there is an NA value in the data, the function "
+"returns ``nan``."
+msgstr ""
+

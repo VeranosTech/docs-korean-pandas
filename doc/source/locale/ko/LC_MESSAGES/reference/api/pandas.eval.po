@@ -1,0 +1,284 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.eval.rst:2
+msgid "pandas.eval"
+msgstr ""
+
+#: of pandas.eval:2
+msgid "Evaluate a Python expression as a string using various backends."
+msgstr ""
+
+#: of pandas.eval:4
+msgid ""
+"The following arithmetic operations are supported: ``+``, ``-``, ``*``, "
+"``/``, ``**``, ``%``, ``//`` (python engine only) along with the "
+"following boolean operations: ``|`` (or), ``&`` (and), and ``~`` (not). "
+"Additionally, the ``'pandas'`` parser allows the use of :keyword:`and`, "
+":keyword:`or`, and :keyword:`not` with the same semantics as the "
+"corresponding bitwise operators.  :class:`~pandas.Series` and "
+":class:`~pandas.DataFrame` objects are supported and behave as they would"
+" with plain ol' Python evaluation."
+msgstr ""
+
+#: of pandas.eval
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.eval:20
+msgid "**expr**"
+msgstr ""
+
+#: of pandas.eval:19
+msgid "str or unicode"
+msgstr ""
+
+#: of pandas.eval:16
+msgid ""
+"The expression to evaluate. This string cannot contain any Python "
+"`statements <https://docs.python.org/3/reference/simple_stmts.html"
+"#simple-statements>`__, only Python `expressions "
+"<https://docs.python.org/3/reference/simple_stmts.html#expression-"
+"statements>`__."
+msgstr ""
+
+#: of pandas.eval:28
+msgid "**parser**"
+msgstr ""
+
+#: of pandas.eval:27
+msgid "string, default 'pandas', {'pandas', 'python'}"
+msgstr ""
+
+#: of pandas.eval:23
+msgid ""
+"The parser to use to construct the syntax tree from the expression. The "
+"default of ``'pandas'`` parses code slightly different than standard "
+"Python. Alternatively, you can parse an expression using the ``'python'``"
+" parser to retain strict Python semantics.  See the :ref:`enhancing "
+"performance <enhancingperf.eval>` documentation for more details."
+msgstr ""
+
+#: of pandas.eval:40
+msgid "**engine**"
+msgstr ""
+
+#: of pandas.eval:39
+msgid "string or None, default 'numexpr', {'python', 'numexpr'}"
+msgstr ""
+
+#: of pandas.eval:31
+msgid "The engine used to evaluate the expression. Supported engines are"
+msgstr ""
+
+#: of pandas.eval:33
+msgid "None         : tries to use ``numexpr``, falls back to ``python``"
+msgstr ""
+
+#: of pandas.eval:35
+msgid "``'numexpr'``: This default engine evaluates pandas objects using"
+msgstr ""
+
+#: of pandas.eval:35
+msgid "numexpr for large speed ups in complex expressions with large frames."
+msgstr ""
+
+#: of pandas.eval:38
+msgid "``'python'``: Performs operations as if you had ``eval``'d in top"
+msgstr ""
+
+#: of pandas.eval:38
+msgid "level python. This engine is generally not that useful."
+msgstr ""
+
+#: of pandas.eval:40
+msgid "More backends may be available in the future."
+msgstr ""
+
+#: of pandas.eval:43
+msgid "**truediv**"
+msgstr ""
+
+#: of pandas.eval:42
+msgid "bool, optional"
+msgstr ""
+
+#: of pandas.eval:43
+msgid "Whether to use true division, like in Python >= 3"
+msgstr ""
+
+#: of pandas.eval:46
+msgid "**local_dict**"
+msgstr ""
+
+#: of pandas.eval:45 pandas.eval:48
+msgid "dict or None, optional"
+msgstr ""
+
+#: of pandas.eval:46
+msgid "A dictionary of local variables, taken from locals() by default."
+msgstr ""
+
+#: of pandas.eval:49
+msgid "**global_dict**"
+msgstr ""
+
+#: of pandas.eval:49
+msgid "A dictionary of global variables, taken from globals() by default."
+msgstr ""
+
+#: of pandas.eval:58
+msgid "**resolvers**"
+msgstr ""
+
+#: of pandas.eval:57
+msgid "list of dict-like or None, optional"
+msgstr ""
+
+#: of pandas.eval:52
+msgid ""
+"A list of objects implementing the ``__getitem__`` special method that "
+"you can use to inject an additional collection of namespaces to use for "
+"variable lookup. For example, this is used in the "
+":meth:`~pandas.DataFrame.query` method to inject the ``DataFrame.index`` "
+"and ``DataFrame.columns`` variables that refer to their respective "
+":class:`~pandas.DataFrame` instance attributes."
+msgstr ""
+
+#: of pandas.eval:62
+msgid "**level**"
+msgstr ""
+
+#: of pandas.eval:61
+msgid "int, optional"
+msgstr ""
+
+#: of pandas.eval:61
+msgid ""
+"The number of prior stack frames to traverse and add to the current "
+"scope. Most users will **not** need to change this parameter."
+msgstr ""
+
+#: of pandas.eval:68
+msgid "**target**"
+msgstr ""
+
+#: of pandas.eval:67
+msgid "object, optional, default None"
+msgstr ""
+
+#: of pandas.eval:65
+msgid ""
+"This is the target object for assignment. It is used when there is "
+"variable assignment in the expression. If so, then `target` must support "
+"item assignment with string keys, and if a copy is being returned, it "
+"must also support `.copy()`."
+msgstr ""
+
+#: of pandas.eval:73
+msgid "**inplace**"
+msgstr ""
+
+#: of pandas.eval:72
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.eval:71
+msgid ""
+"If `target` is provided, and the expression mutates `target`, whether to "
+"modify `target` inplace. Otherwise, return a copy of `target` with the "
+"mutation."
+msgstr ""
+
+#: of pandas.eval
+msgid "Returns"
+msgstr ""
+
+#: of pandas.eval:80
+msgid "**ndarray, numeric scalar, DataFrame, Series**"
+msgstr ""
+
+#: of pandas.eval
+msgid "Raises"
+msgstr ""
+
+#: of pandas.eval:102
+msgid "**ValueError**"
+msgstr ""
+
+#: of pandas.eval:85
+msgid "There are many instances where such an error can be raised:"
+msgstr ""
+
+#: of pandas.eval:87
+msgid "`target=None`, but the expression is multiline."
+msgstr ""
+
+#: of pandas.eval:88
+msgid ""
+"The expression is multiline, but not all them have item assignment. An "
+"example of such an arrangement is this:"
+msgstr ""
+
+#: of pandas.eval:91
+msgid "a = b + 1 a + 2"
+msgstr ""
+
+#: of pandas.eval:94
+msgid ""
+"Here, there are expressions on different lines, making it multiline, but "
+"the last line has no variable assigned to the output of `a + 2`."
+msgstr ""
+
+#: of pandas.eval:96
+msgid "`inplace=True`, but the expression is missing item assignment."
+msgstr ""
+
+#: of pandas.eval:97
+msgid ""
+"Item assignment is provided, but the `target` does not support string "
+"item assignment."
+msgstr ""
+
+#: of pandas.eval:99
+msgid ""
+"Item assignment is provided and `inplace=False`, but the `target` does "
+"not support the `.copy()` method"
+msgstr ""
+
+#: of pandas.eval:107
+msgid ":obj:`pandas.DataFrame.query`, :obj:`pandas.DataFrame.eval`"
+msgstr ""
+
+#: of pandas.eval:110
+msgid "Notes"
+msgstr ""
+
+#: of pandas.eval:111
+msgid ""
+"The ``dtype`` of any objects involved in an arithmetic ``%`` operation "
+"are recursively cast to ``float64``."
+msgstr ""
+
+#: of pandas.eval:114
+msgid ""
+"See the :ref:`enhancing performance <enhancingperf.eval>` documentation "
+"for more details."
+msgstr ""
+

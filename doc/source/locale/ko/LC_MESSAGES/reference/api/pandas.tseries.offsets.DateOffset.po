@@ -1,0 +1,307 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.tseries.offsets.DateOffset.rst:2
+msgid "pandas.tseries.offsets.DateOffset"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:2
+msgid "Standard kind of date increment used for a date range."
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:4
+msgid ""
+"Works exactly like relativedelta in terms of the keyword args you pass "
+"in, use of the keyword n is discouraged-- you would be better off "
+"specifying n in the keywords you use, but regardless it is there for you."
+" n is needed for DateOffset subclasses."
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:9
+msgid ""
+"DateOffets work as follows.  Each offset specify a set of dates that "
+"conform to the DateOffset.  For example, Bday defines this set to be the "
+"set of dates that are weekdays (M-F).  To test if a date is in the set of"
+" a DateOffset dateOffset we can use the onOffset method: "
+"dateOffset.onOffset(date)."
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:15
+msgid ""
+"If a date is not on a valid date, the rollback and rollforward methods "
+"can be used to roll the date to the nearest valid date before/after the "
+"date."
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:19
+msgid ""
+"DateOffsets can be created to move dates forward a given number of valid "
+"dates.  For example, Bday(2) can be added to a date to move it two "
+"business days forward.  If the date does not start on a valid date, first"
+" it is moved to a valid date.  Thus pseudo code is:"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:27 pandas.tseries.offsets.DateOffset:34
+msgid "def __add__(date):"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:26
+msgid ""
+"date = rollback(date) # does nothing if date is valid return date + <n "
+"number of periods>"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:29
+msgid ""
+"When a date offset is created for a negative number of periods, the date "
+"is first rolled forward.  The pseudo code is:"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:33
+msgid ""
+"date = rollforward(date) # does nothing is date is valid return date + <n"
+" number of periods>"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:36
+msgid ""
+"Zero presents a problem.  Should it roll forward or back?  We arbitrarily"
+" have it rollforward:"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:39
+msgid "date + BDay(0) == BDay.rollforward(date)"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:41
+msgid "Since 0 is a bit weird, we suggest avoiding its use."
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:46
+msgid "**n**"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:45
+msgid "int, default 1"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:46
+msgid "The number of time periods the offset represents."
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:50
+msgid "**normalize**"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:49
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:49
+msgid ""
+"Whether to round the result of a DateOffset addition down to the previous"
+" midnight."
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:83
+msgid "**\\*\\*kwds**"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:53
+msgid "Temporal parameter that add to or replace the offset value."
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:55
+msgid "Parameters that **add** to the offset (like Timedelta):"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:57
+msgid "years"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:58
+msgid "months"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:59
+msgid "weeks"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:60
+msgid "days"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:61
+msgid "hours"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:62
+msgid "minutes"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:63
+msgid "seconds"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:64
+msgid "microseconds"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:65
+msgid "nanoseconds"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:67
+msgid "Parameters that **replace** the offset value:"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:69
+msgid "year"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:70
+msgid "month"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:71
+msgid "day"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:72
+msgid "weekday"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:73
+msgid "hour"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:74
+msgid "minute"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:75
+msgid "second"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:76
+msgid "microsecond"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:77
+msgid "nanosecond"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:88
+msgid ":obj:`dateutil.relativedelta.relativedelta`"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:93
+msgid "Examples"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:103
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:109:<autosummary>:1
+msgid ":obj:`base <pandas.tseries.offsets.DateOffset.base>`\\"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:109:<autosummary>:1
+msgid ""
+"Returns a copy of the calling offset object with n=1 and all other "
+"attributes equal."
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:111
+msgid "**freqstr**"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:112
+msgid "**kwds**"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:113
+msgid "**name**"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:114
+msgid "**nanos**"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:115
+msgid "**rule_code**"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:119
+msgid "Methods"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:127:<autosummary>:1
+msgid ":obj:`apply_index <pandas.tseries.offsets.DateOffset.apply_index>`\\"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:127:<autosummary>:1
+msgid ""
+"Vectorized apply of DateOffset to DatetimeIndex, raises NotImplentedError"
+" for offsets without a vectorized implementation."
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:127:<autosummary>:1
+msgid ":obj:`rollback <pandas.tseries.offsets.DateOffset.rollback>`\\ \\(dt\\)"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:127:<autosummary>:1
+msgid "Roll provided date backward to next offset only if not on offset."
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:127:<autosummary>:1
+msgid ""
+":obj:`rollforward <pandas.tseries.offsets.DateOffset.rollforward>`\\ "
+"\\(dt\\)"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:127:<autosummary>:1
+msgid "Roll provided date forward to next offset only if not on offset."
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:129
+msgid "**__call__**"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:130
+msgid "**apply**"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:131
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:132
+msgid "**isAnchored**"
+msgstr ""
+
+#: of pandas.tseries.offsets.DateOffset:133
+msgid "**onOffset**"
+msgstr ""
+

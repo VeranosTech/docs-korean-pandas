@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.CategoricalIndex.rst:2
+msgid "pandas.CategoricalIndex"
+msgstr ""
+
+#: of pandas.CategoricalIndex:2
+msgid ""
+"Immutable Index implementing an ordered, sliceable set. CategoricalIndex "
+"represents a sparsely populated Index with an underlying Categorical."
+msgstr ""
+
+#: of pandas.CategoricalIndex
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.CategoricalIndex:9
+msgid "**data**"
+msgstr ""
+
+#: of pandas.CategoricalIndex:8
+msgid "array-like or Categorical, (1-dimensional)"
+msgstr ""
+
+#: of pandas.CategoricalIndex:12 pandas.CategoricalIndex:43
+msgid "**categories**"
+msgstr ""
+
+#: of pandas.CategoricalIndex:11
+msgid "optional, array-like"
+msgstr ""
+
+#: of pandas.CategoricalIndex:12
+msgid "categories for the CategoricalIndex"
+msgstr ""
+
+#: of pandas.CategoricalIndex:15 pandas.CategoricalIndex:44
+msgid "**ordered**"
+msgstr ""
+
+#: of pandas.CategoricalIndex:14
+msgid "boolean,"
+msgstr ""
+
+#: of pandas.CategoricalIndex:15
+msgid "designating if the categories are ordered"
+msgstr ""
+
+#: of pandas.CategoricalIndex:18
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.CategoricalIndex:17
+msgid "bool"
+msgstr ""
+
+#: of pandas.CategoricalIndex:18
+msgid "Make a copy of input ndarray"
+msgstr ""
+
+#: of pandas.CategoricalIndex:27
+msgid "**name**"
+msgstr ""
+
+#: of pandas.CategoricalIndex:26
+msgid "object"
+msgstr ""
+
+#: of pandas.CategoricalIndex:21
+msgid "Name to be stored in the index"
+msgstr ""
+
+#: of pandas.CategoricalIndex:32
+msgid ":obj:`Categorical`, :obj:`Index`"
+msgstr ""
+
+#: of pandas.CategoricalIndex:40
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.CategoricalIndex:42
+msgid "**codes**"
+msgstr ""
+
+#: of pandas.CategoricalIndex:48
+msgid "Methods"
+msgstr ""
+
+#: of pandas.CategoricalIndex:61:<autosummary>:1
+msgid ""
+":obj:`rename_categories <pandas.CategoricalIndex.rename_categories>`\\ "
+"\\(\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.CategoricalIndex:61:<autosummary>:1
+msgid "Renames categories."
+msgstr ""
+
+#: of pandas.CategoricalIndex:61:<autosummary>:1
+msgid ""
+":obj:`reorder_categories <pandas.CategoricalIndex.reorder_categories>`\\ "
+"\\(\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.CategoricalIndex:61:<autosummary>:1
+msgid "Reorders categories as specified in new_categories."
+msgstr ""
+
+#: of pandas.CategoricalIndex:61:<autosummary>:1
+msgid ""
+":obj:`add_categories <pandas.CategoricalIndex.add_categories>`\\ "
+"\\(\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.CategoricalIndex:61:<autosummary>:1
+msgid "Add new categories."
+msgstr ""
+
+#: of pandas.CategoricalIndex:61:<autosummary>:1
+msgid ""
+":obj:`remove_categories <pandas.CategoricalIndex.remove_categories>`\\ "
+"\\(\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.CategoricalIndex:61:<autosummary>:1
+msgid "Removes the specified categories."
+msgstr ""
+
+#: of pandas.CategoricalIndex:61:<autosummary>:1
+msgid ""
+":obj:`remove_unused_categories "
+"<pandas.CategoricalIndex.remove_unused_categories>`\\ \\(\\*args\\, "
+"\\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.CategoricalIndex:61:<autosummary>:1
+msgid "Removes categories which are not used."
+msgstr ""
+
+#: of pandas.CategoricalIndex:61:<autosummary>:1
+msgid ""
+":obj:`set_categories <pandas.CategoricalIndex.set_categories>`\\ "
+"\\(\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.CategoricalIndex:61:<autosummary>:1
+msgid "Sets the categories to the specified new_categories."
+msgstr ""
+
+#: of pandas.CategoricalIndex:61:<autosummary>:1
+msgid ""
+":obj:`as_ordered <pandas.CategoricalIndex.as_ordered>`\\ \\(\\*args\\, "
+"\\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.CategoricalIndex:61:<autosummary>:1
+msgid "Set the Categorical to be ordered."
+msgstr ""
+
+#: of pandas.CategoricalIndex:61:<autosummary>:1
+msgid ""
+":obj:`as_unordered <pandas.CategoricalIndex.as_unordered>`\\ "
+"\\(\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.CategoricalIndex:61:<autosummary>:1
+msgid "Set the Categorical to be unordered."
+msgstr ""
+
+#: of pandas.CategoricalIndex:61:<autosummary>:1
+msgid ":obj:`map <pandas.CategoricalIndex.map>`\\ \\(mapper\\)"
+msgstr ""
+
+#: of pandas.CategoricalIndex:61:<autosummary>:1
+msgid "Map values using input correspondence (a dict, Series, or function)."
+msgstr ""
+

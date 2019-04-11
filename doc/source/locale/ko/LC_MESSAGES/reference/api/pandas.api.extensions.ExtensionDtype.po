@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.api.extensions.ExtensionDtype.rst:2
+msgid "pandas.api.extensions.ExtensionDtype"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:2
+msgid "A custom data type, to be paired with an ExtensionArray."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:16
+msgid ""
+":obj:`pandas.api.extensions.register_extension_dtype`, "
+":obj:`pandas.api.extensions.ExtensionArray`"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:19
+msgid "Notes"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:20
+msgid ""
+"The interface includes the following abstract methods that must be "
+"implemented by subclasses:"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:23
+msgid "type"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:24
+msgid "name"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:25
+msgid "construct_from_string"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:27
+msgid ""
+"The following attributes influence the behavior of the dtype in pandas "
+"operations"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:30
+msgid "_is_numeric"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:31
+msgid "_is_boolean"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:33
+msgid ""
+"Optionally one can override construct_array_type for construction with "
+"the name of this dtype via the Registry. See "
+":meth:`pandas.api.extensions.register_extension_dtype`."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:37
+msgid "construct_array_type"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:39
+msgid ""
+"The `na_value` class attribute can be used to set the default NA value "
+"for this type. :attr:`numpy.nan` is used by default."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:42
+msgid ""
+"ExtensionDtypes are required to be hashable. The base class provides a "
+"default implementation, which relies on the ``_metadata`` class "
+"attribute. ``_metadata`` should be a tuple containing the strings that "
+"define your data type. For example, with ``PeriodDtype`` that's the "
+"``freq`` attribute."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:48
+msgid ""
+"**If you have a parametrized dtype you should set the ``_metadata`` class"
+" property**."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:51
+msgid ""
+"Ideally, the attributes in ``_metadata`` will match the parameters to "
+"your ``ExtensionDtype.__init__`` (if any). If any of the attributes in "
+"``_metadata`` don't implement the standard ``__eq__`` or ``__hash__``, "
+"the default implementations here will not work."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:59
+msgid ""
+"Added ``_metadata``, ``__hash__``, and changed the default definition of "
+"``__eq__``."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:62
+msgid ""
+"This class does not inherit from 'abc.ABCMeta' for performance reasons. "
+"Methods and properties required by the interface raise "
+"``pandas.errors.AbstractMethodError`` and no ``register`` method is "
+"provided for registering virtual subclasses."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:70
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:78:<autosummary>:1
+msgid ":obj:`kind <pandas.api.extensions.ExtensionDtype.kind>`\\"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:78:<autosummary>:1
+msgid "A character code (one of 'biufcmMOSUV'), default 'O'"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:78:<autosummary>:1
+msgid ":obj:`name <pandas.api.extensions.ExtensionDtype.name>`\\"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:78:<autosummary>:1
+msgid "A string identifying the data type."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:78:<autosummary>:1
+msgid ":obj:`names <pandas.api.extensions.ExtensionDtype.names>`\\"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:78:<autosummary>:1
+msgid "Ordered list of field names, or None if there are no fields."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:78:<autosummary>:1
+msgid ":obj:`type <pandas.api.extensions.ExtensionDtype.type>`\\"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:78:<autosummary>:1
+msgid "The scalar type for the array, e.g."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:80
+msgid "Methods"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:87:<autosummary>:1
+msgid ""
+":obj:`construct_array_type "
+"<pandas.api.extensions.ExtensionDtype.construct_array_type>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:87:<autosummary>:1
+msgid "Return the array type associated with this dtype"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:87:<autosummary>:1
+msgid ""
+":obj:`construct_from_string "
+"<pandas.api.extensions.ExtensionDtype.construct_from_string>`\\ "
+"\\(string\\)"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:87:<autosummary>:1
+msgid "Attempt to construct this type from a string."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:87:<autosummary>:1
+msgid ""
+":obj:`is_dtype <pandas.api.extensions.ExtensionDtype.is_dtype>`\\ "
+"\\(dtype\\)"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionDtype:87:<autosummary>:1
+msgid "Check if we match 'dtype'."
+msgstr ""
+

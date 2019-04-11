@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.nunique.rst:2
+msgid "pandas.DataFrame.nunique"
+msgstr ""
+
+#: of pandas.DataFrame.nunique:2
+msgid "Count distinct observations over requested axis."
+msgstr ""
+
+#: of pandas.DataFrame.nunique:4
+msgid "Return Series with number of distinct observations. Can ignore NaN values."
+msgstr ""
+
+#: of pandas.DataFrame.nunique
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.nunique:13
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.DataFrame.nunique:12
+msgid "{0 or 'index', 1 or 'columns'}, default 0"
+msgstr ""
+
+#: of pandas.DataFrame.nunique:12
+msgid ""
+"The axis to use. 0 or 'index' for row-wise, 1 or 'columns' for column-"
+"wise."
+msgstr ""
+
+#: of pandas.DataFrame.nunique:16
+msgid "**dropna**"
+msgstr ""
+
+#: of pandas.DataFrame.nunique:15
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.DataFrame.nunique:16
+msgid "Don't include NaN in the counts."
+msgstr ""
+
+#: of pandas.DataFrame.nunique
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.nunique:26
+msgid "**nunique**"
+msgstr ""
+
+#: of pandas.DataFrame.nunique:25
+msgid "Series"
+msgstr ""
+
+#: of pandas.DataFrame.nunique:32
+msgid ":obj:`Series.nunique`"
+msgstr ""
+
+#: of pandas.DataFrame.nunique:32
+msgid "Method nunique for Series."
+msgstr ""
+
+#: of pandas.DataFrame.nunique:34
+msgid ":obj:`DataFrame.count`"
+msgstr ""
+
+#: of pandas.DataFrame.nunique:35
+msgid "Count non-NA cells for each column or row."
+msgstr ""
+
+#: of pandas.DataFrame.nunique:40
+msgid "Examples"
+msgstr ""
+

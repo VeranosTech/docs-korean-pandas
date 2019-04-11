@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.timedelta_range.rst:2
+msgid "pandas.timedelta\\_range"
+msgstr ""
+
+#: of pandas.timedelta_range:2
+msgid "Return a fixed frequency TimedeltaIndex, with day as the default frequency"
+msgstr ""
+
+#: of pandas.timedelta_range
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.timedelta_range:9
+msgid "**start**"
+msgstr ""
+
+#: of pandas.timedelta_range:8 pandas.timedelta_range:11
+msgid "string or timedelta-like, default None"
+msgstr ""
+
+#: of pandas.timedelta_range:9
+msgid "Left bound for generating timedeltas"
+msgstr ""
+
+#: of pandas.timedelta_range:12
+msgid "**end**"
+msgstr ""
+
+#: of pandas.timedelta_range:12
+msgid "Right bound for generating timedeltas"
+msgstr ""
+
+#: of pandas.timedelta_range:15
+msgid "**periods**"
+msgstr ""
+
+#: of pandas.timedelta_range:14
+msgid "integer, default None"
+msgstr ""
+
+#: of pandas.timedelta_range:15
+msgid "Number of periods to generate"
+msgstr ""
+
+#: of pandas.timedelta_range:18
+msgid "**freq**"
+msgstr ""
+
+#: of pandas.timedelta_range:17
+msgid "string or DateOffset, default 'D'"
+msgstr ""
+
+#: of pandas.timedelta_range:18
+msgid "Frequency strings can have multiples, e.g. '5H'"
+msgstr ""
+
+#: of pandas.timedelta_range:21
+msgid "**name**"
+msgstr ""
+
+#: of pandas.timedelta_range:20 pandas.timedelta_range:24
+msgid "string, default None"
+msgstr ""
+
+#: of pandas.timedelta_range:21
+msgid "Name of the resulting TimedeltaIndex"
+msgstr ""
+
+#: of pandas.timedelta_range:25
+msgid "**closed**"
+msgstr ""
+
+#: of pandas.timedelta_range:24
+msgid ""
+"Make the interval closed with respect to the given frequency to the "
+"'left', 'right', or both sides (None)"
+msgstr ""
+
+#: of pandas.timedelta_range
+msgid "Returns"
+msgstr ""
+
+#: of pandas.timedelta_range:36
+msgid "**rng**"
+msgstr ""
+
+#: of pandas.timedelta_range:35
+msgid "TimedeltaIndex"
+msgstr ""
+
+#: of pandas.timedelta_range:39
+msgid "Notes"
+msgstr ""
+
+#: of pandas.timedelta_range:40
+msgid ""
+"Of the four parameters ``start``, ``end``, ``periods``, and ``freq``, "
+"exactly three must be specified. If ``freq`` is omitted, the resulting "
+"``TimedeltaIndex`` will have ``periods`` linearly spaced elements between"
+" ``start`` and ``end`` (closed on both sides)."
+msgstr ""
+
+#: of pandas.timedelta_range:45
+msgid ""
+"To learn more about the frequency strings, please see `this link "
+"<http://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-"
+"aliases>`__."
+msgstr ""
+
+#: of pandas.timedelta_range:50
+msgid "Examples"
+msgstr ""
+
+#: of pandas.timedelta_range:55
+msgid ""
+"The ``closed`` parameter specifies which endpoint is included.  The "
+"default behavior is to include both endpoints."
+msgstr ""
+
+#: of pandas.timedelta_range:62
+msgid ""
+"The ``freq`` parameter specifies the frequency of the TimedeltaIndex. "
+"Only fixed frequencies can be passed, non-fixed frequencies such as 'M' "
+"(month end) will raise."
+msgstr ""
+
+#: of pandas.timedelta_range:71
+msgid ""
+"Specify ``start``, ``end``, and ``periods``; the frequency is generated "
+"automatically (linearly spaced)."
+msgstr ""
+

@@ -1,0 +1,285 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.to_string.rst:2
+msgid "pandas.DataFrame.to\\_string"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:2
+msgid "Render a DataFrame to a console-friendly tabular output."
+msgstr ""
+
+#: of pandas.DataFrame.to_string
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:8
+msgid "**buf**"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:7
+msgid "StringIO-like, optional"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:8
+msgid "Buffer to write to."
+msgstr ""
+
+#: of pandas.DataFrame.to_string:11
+msgid "**columns**"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:10
+msgid "sequence, optional, default None"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:11
+msgid "The subset of columns to write. Writes all columns by default."
+msgstr ""
+
+#: of pandas.DataFrame.to_string:14
+msgid "**col_space**"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:13 pandas.DataFrame.to_string:59
+#: pandas.DataFrame.to_string:62 pandas.DataFrame.to_string:73
+msgid "int, optional"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:14
+msgid "The minimum width of each column."
+msgstr ""
+
+#: of pandas.DataFrame.to_string:17
+msgid "**header**"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:16
+msgid "bool, optional"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:17
+msgid ""
+"Write out the column names. If a list of strings is given, it is assumed "
+"to be aliases for the column names."
+msgstr ""
+
+#: of pandas.DataFrame.to_string:20
+msgid "**index**"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:19 pandas.DataFrame.to_string:36
+#: pandas.DataFrame.to_string:39
+msgid "bool, optional, default True"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:20
+msgid "Whether to print index (row) labels."
+msgstr ""
+
+#: of pandas.DataFrame.to_string:23
+msgid "**na_rep**"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:22
+msgid "str, optional, default 'NaN'"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:23
+msgid "String representation of NAN to use."
+msgstr ""
+
+#: of pandas.DataFrame.to_string:29
+msgid "**formatters**"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:28
+msgid "list or dict of one-param. functions, optional"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:26
+msgid ""
+"Formatter functions to apply to columns' elements by position or name. "
+"The result of each function must be a unicode string. List must be of "
+"length equal to the number of columns."
+msgstr ""
+
+#: of pandas.DataFrame.to_string:33
+msgid "**float_format**"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:32
+msgid "one-parameter function, optional, default None"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:32
+msgid ""
+"Formatter function to apply to columns' elements if they are floats. The "
+"result of this function must be a unicode string."
+msgstr ""
+
+#: of pandas.DataFrame.to_string:37
+msgid "**sparsify**"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:36
+msgid ""
+"Set to False for a DataFrame with a hierarchical index to print every "
+"multiindex key at each row."
+msgstr ""
+
+#: of pandas.DataFrame.to_string:40
+msgid "**index_names**"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:40
+msgid "Prints the names of the indexes."
+msgstr ""
+
+#: of pandas.DataFrame.to_string:57
+msgid "**justify**"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:56
+msgid "str, default None"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:43
+msgid ""
+"How to justify the column labels. If None uses the option from the print "
+"configuration (controlled by set_option), 'right' out of the box. Valid "
+"values are"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:47
+msgid "left"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:48
+msgid "right"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:49
+msgid "center"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:50
+msgid "justify"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:51
+msgid "justify-all"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:52
+msgid "start"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:53
+msgid "end"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:54
+msgid "inherit"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:55
+msgid "match-parent"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:56
+msgid "initial"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:57
+msgid "unset."
+msgstr ""
+
+#: of pandas.DataFrame.to_string:60
+msgid "**max_rows**"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:60
+msgid "Maximum number of rows to display in the console."
+msgstr ""
+
+#: of pandas.DataFrame.to_string:63
+msgid "**max_cols**"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:63
+msgid "Maximum number of columns to display in the console."
+msgstr ""
+
+#: of pandas.DataFrame.to_string:66
+msgid "**show_dimensions**"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:65
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:66
+msgid "Display DataFrame dimensions (number of rows by number of columns)."
+msgstr ""
+
+#: of pandas.DataFrame.to_string:71
+msgid "**decimal**"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:70
+msgid "str, default '.'"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:69
+msgid "Character recognized as decimal separator, e.g. ',' in Europe."
+msgstr ""
+
+#: of pandas.DataFrame.to_string:74
+msgid "**line_width**"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:74
+msgid "Width to wrap a line in characters."
+msgstr ""
+
+#: of pandas.DataFrame.to_string
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:84
+msgid "**str (or unicode, depending on data and options)**"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:79
+msgid "String representation of the dataframe."
+msgstr ""
+
+#: of pandas.DataFrame.to_string:89
+msgid ":obj:`to_html`"
+msgstr ""
+
+#: of pandas.DataFrame.to_string:90
+msgid "Convert DataFrame to HTML."
+msgstr ""
+
+#: of pandas.DataFrame.to_string:95
+msgid "Examples"
+msgstr ""
+

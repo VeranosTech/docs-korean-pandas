@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.core.groupby.DataFrameGroupBy.corrwith.rst:2
+msgid "pandas.core.groupby.DataFrameGroupBy.corrwith"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith:2
+msgid ""
+"Compute pairwise correlation between rows or columns of DataFrame with "
+"rows or columns of Series or DataFrame.  DataFrames are first aligned "
+"along both axes before computing the correlations."
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith:10
+msgid "**other**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith:9
+msgid "DataFrame, Series"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith:13
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith:12
+msgid "{0 or 'index', 1 or 'columns'}, default 0"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith:13
+msgid "0 or 'index' to compute column-wise, 1 or 'columns' for row-wise"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith:16
+msgid "**drop**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith:15
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith:16
+msgid "Drop missing indices from result"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith:25
+msgid "**method**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith:24
+msgid "{'pearson', 'kendall', 'spearman'} or callable"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith:19
+msgid "pearson : standard correlation coefficient"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith:20
+msgid "kendall : Kendall Tau correlation coefficient"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith:21
+msgid "spearman : Spearman rank correlation"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith:23
+msgid "callable: callable with input two 1d ndarrays"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith:23
+msgid "and returning a float"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith
+msgid "Returns"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith:30
+msgid "**correls**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith:29
+msgid "Series"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith:33
+msgid "**See Also**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith:36
+msgid "**-------**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.corrwith:50
+msgid "**DataFrame.corr**"
+msgstr ""
+

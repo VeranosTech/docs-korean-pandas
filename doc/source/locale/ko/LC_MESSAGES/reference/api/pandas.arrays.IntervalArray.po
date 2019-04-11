@@ -1,0 +1,295 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.arrays.IntervalArray.rst:2
+msgid "pandas.arrays.IntervalArray"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:2
+msgid "Pandas array for interval data that are closed on the same side."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:8
+msgid ""
+"The indexing behaviors are provisional and may change in a future version"
+" of pandas."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:15
+msgid "**data**"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:14
+msgid "array-like (1-dimensional)"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:14
+msgid ""
+"Array-like containing Interval objects from which to build the "
+"IntervalArray."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:19
+msgid "**closed**"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:18
+msgid "{'left', 'right', 'both', 'neither'}, default 'right'"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:18
+msgid ""
+"Whether the intervals are closed on the left-side, right-side, both or "
+"neither."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:24
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:23
+msgid "dtype or None, default None"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:22
+msgid "If None, dtype will be inferred."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:27
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:26
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:27
+msgid "Copy the input data."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:36
+msgid "**verify_integrity**"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:35
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:30
+msgid "Verify that the IntervalArray is valid."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:42
+msgid ":obj:`Index`"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:42
+msgid "The base pandas Index type."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:45
+msgid ":obj:`Interval`"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:45
+msgid "A bounded slice-like interval; the elements of an IntervalArray."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:48
+msgid ":obj:`interval_range`"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:48
+msgid "Function to create a fixed frequency IntervalIndex."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:51
+msgid ":obj:`cut`"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:51
+msgid "Bin values into discrete Intervals."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:53
+msgid ":obj:`qcut`"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:54
+msgid "Bin values into equal-sized Intervals based on rank or sample quantiles."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:57
+msgid "Notes"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:58
+msgid ""
+"See the `user guide <http://pandas.pydata.org/pandas-"
+"docs/stable/advanced.html#intervalindex>`_ for more."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:64
+msgid "Examples"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:65
+msgid ""
+"A new ``IntervalArray`` can be constructed directly from an array-like of"
+" ``Interval`` objects:"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:73
+msgid ""
+"It may also be constructed using one of the constructor methods: "
+":meth:`IntervalArray.from_arrays`, :meth:`IntervalArray.from_breaks`, and"
+" :meth:`IntervalArray.from_tuples`."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:78
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:88:<autosummary>:1
+msgid ":obj:`left <pandas.arrays.IntervalArray.left>`\\"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:88:<autosummary>:1
+msgid ""
+"Return the left endpoints of each Interval in the IntervalArray as an "
+"Index"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:88:<autosummary>:1
+msgid ":obj:`right <pandas.arrays.IntervalArray.right>`\\"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:88:<autosummary>:1
+msgid ""
+"Return the right endpoints of each Interval in the IntervalArray as an "
+"Index"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:88:<autosummary>:1
+msgid ":obj:`closed <pandas.arrays.IntervalArray.closed>`\\"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:88:<autosummary>:1
+msgid ""
+"Whether the intervals are closed on the left-side, right-side, both or "
+"neither"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:88:<autosummary>:1
+msgid ":obj:`mid <pandas.arrays.IntervalArray.mid>`\\"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:88:<autosummary>:1
+msgid "Return the midpoint of each Interval in the IntervalArray as an Index"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:88:<autosummary>:1
+msgid ":obj:`length <pandas.arrays.IntervalArray.length>`\\"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:88:<autosummary>:1
+msgid ""
+"Return an Index with entries denoting the length of each Interval in the "
+"IntervalArray"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:88:<autosummary>:1
+msgid ""
+":obj:`is_non_overlapping_monotonic "
+"<pandas.arrays.IntervalArray.is_non_overlapping_monotonic>`\\"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:88:<autosummary>:1
+msgid ""
+"Return True if the IntervalArray is non-overlapping (no Intervals share "
+"points) and is either monotonic increasing or monotonic decreasing, else "
+"False"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:90
+msgid "Methods"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:100:<autosummary>:1
+msgid ""
+":obj:`from_arrays <pandas.arrays.IntervalArray.from_arrays>`\\ \\(left\\,"
+" right\\[\\, closed\\, copy\\, dtype\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:100:<autosummary>:1
+msgid "Construct from two arrays defining the left and right bounds."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:100:<autosummary>:1
+msgid ""
+":obj:`from_tuples <pandas.arrays.IntervalArray.from_tuples>`\\ "
+"\\(data\\[\\, closed\\, copy\\, dtype\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:100:<autosummary>:1
+msgid "Construct an IntervalArray from an array-like of tuples"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:100:<autosummary>:1
+msgid ""
+":obj:`from_breaks <pandas.arrays.IntervalArray.from_breaks>`\\ "
+"\\(breaks\\[\\, closed\\, copy\\, dtype\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:100:<autosummary>:1
+msgid "Construct an IntervalArray from an array of splits."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:100:<autosummary>:1
+msgid ":obj:`overlaps <pandas.arrays.IntervalArray.overlaps>`\\ \\(other\\)"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:100:<autosummary>:1
+msgid "Check elementwise if an Interval overlaps the values in the IntervalArray."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:100:<autosummary>:1
+msgid ":obj:`set_closed <pandas.arrays.IntervalArray.set_closed>`\\ \\(closed\\)"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:100:<autosummary>:1
+msgid ""
+"Return an IntervalArray identical to the current one, but closed on the "
+"specified side"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:100:<autosummary>:1
+msgid ""
+":obj:`to_tuples <pandas.arrays.IntervalArray.to_tuples>`\\ "
+"\\(\\[na\\_tuple\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray:100:<autosummary>:1
+msgid "Return an ndarray of tuples of the form (left, right)"
+msgstr ""
+

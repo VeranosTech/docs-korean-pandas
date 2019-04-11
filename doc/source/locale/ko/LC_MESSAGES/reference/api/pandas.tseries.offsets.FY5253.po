@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.tseries.offsets.FY5253.rst:2
+msgid "pandas.tseries.offsets.FY5253"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:2
+msgid "Describes 52-53 week fiscal year. This is also known as a 4-4-5 calendar."
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:4
+msgid ""
+"It is used by companies that desire that their fiscal year always end on "
+"the same day of the week."
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:7
+msgid ""
+"It is a method of managing accounting periods. It is a common calendar "
+"structure for some industries, such as retail, manufacturing and parking "
+"industry."
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:11
+msgid "For more information see: http://en.wikipedia.org/wiki/4-4-5_calendar"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:14
+msgid ""
+"The year may either: - end on the last X day of the Y month. - end on the"
+" last X day closest to the last day of the Y month."
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:18
+msgid "X is a specific day of the week. Y is a certain month of the year"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:24
+msgid "**n**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:23
+msgid "int"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:33
+msgid "**weekday**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:32
+msgid "{0, 1, ..., 6}"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:27
+msgid ""
+"0: Mondays 1: Tuesdays 2: Wednesdays 3: Thursdays 4: Fridays 5: Saturdays"
+" 6: Sundays"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:36
+msgid "**startingMonth**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:35
+msgid "The month in which fiscal years end. {1, 2, ... 12}"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:49
+msgid "**variation**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:48
+msgid "str"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:39
+msgid "{\"nearest\", \"last\"} for \"LastOfMonth\" or \"NearestEndMonth\""
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:52
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:58:<autosummary>:1
+msgid ":obj:`base <pandas.tseries.offsets.FY5253.base>`\\"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:58:<autosummary>:1
+msgid ""
+"Returns a copy of the calling offset object with n=1 and all other "
+"attributes equal."
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:60
+msgid "**freqstr**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:61
+msgid "**kwds**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:62
+msgid "**name**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:63
+msgid "**nanos**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:64
+msgid "**rule_code**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:68
+msgid "Methods"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:76:<autosummary>:1
+msgid ":obj:`apply_index <pandas.tseries.offsets.FY5253.apply_index>`\\"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:76:<autosummary>:1
+msgid ""
+"Vectorized apply of DateOffset to DatetimeIndex, raises NotImplentedError"
+" for offsets without a vectorized implementation."
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:76:<autosummary>:1
+msgid ":obj:`rollback <pandas.tseries.offsets.FY5253.rollback>`\\ \\(dt\\)"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:76:<autosummary>:1
+msgid "Roll provided date backward to next offset only if not on offset."
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:76:<autosummary>:1
+msgid ":obj:`rollforward <pandas.tseries.offsets.FY5253.rollforward>`\\ \\(dt\\)"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:76:<autosummary>:1
+msgid "Roll provided date forward to next offset only if not on offset."
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:78
+msgid "**__call__**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:79
+msgid "**apply**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:80
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:81
+msgid "**get_rule_code_suffix**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:82
+msgid "**get_year_end**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:83
+msgid "**isAnchored**"
+msgstr ""
+
+#: of pandas.tseries.offsets.FY5253:84
+msgid "**onOffset**"
+msgstr ""
+

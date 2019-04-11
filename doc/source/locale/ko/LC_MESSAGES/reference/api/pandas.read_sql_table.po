@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.read_sql_table.rst:2
+msgid "pandas.read\\_sql\\_table"
+msgstr ""
+
+#: of pandas.read_sql_table:2
+msgid "Read SQL database table into a DataFrame."
+msgstr ""
+
+#: of pandas.read_sql_table:4
+msgid ""
+"Given a table name and a SQLAlchemy connectable, returns a DataFrame. "
+"This function does not support DBAPI connections."
+msgstr ""
+
+#: of pandas.read_sql_table
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.read_sql_table:10
+msgid "**table_name**"
+msgstr ""
+
+#: of pandas.read_sql_table:9
+msgid "string"
+msgstr ""
+
+#: of pandas.read_sql_table:10
+msgid "Name of SQL table in database."
+msgstr ""
+
+#: of pandas.read_sql_table:13
+msgid "**con**"
+msgstr ""
+
+#: of pandas.read_sql_table:12
+msgid "SQLAlchemy connectable (or database string URI)"
+msgstr ""
+
+#: of pandas.read_sql_table:13
+msgid "SQLite DBAPI connection mode not supported."
+msgstr ""
+
+#: of pandas.read_sql_table:17
+msgid "**schema**"
+msgstr ""
+
+#: of pandas.read_sql_table:16
+msgid "string, default None"
+msgstr ""
+
+#: of pandas.read_sql_table:16
+msgid ""
+"Name of SQL schema in database to query (if database flavor supports "
+"this). Uses default schema if None (default)."
+msgstr ""
+
+#: of pandas.read_sql_table:20
+msgid "**index_col**"
+msgstr ""
+
+#: of pandas.read_sql_table:19
+msgid "string or list of strings, optional, default: None"
+msgstr ""
+
+#: of pandas.read_sql_table:20
+msgid "Column(s) to set as index(MultiIndex)."
+msgstr ""
+
+#: of pandas.read_sql_table:24
+msgid "**coerce_float**"
+msgstr ""
+
+#: of pandas.read_sql_table:23
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.read_sql_table:23
+msgid ""
+"Attempts to convert values of non-string, non-numeric objects (like "
+"decimal.Decimal) to floating point. Can result in loss of Precision."
+msgstr ""
+
+#: of pandas.read_sql_table:34
+msgid "**parse_dates**"
+msgstr ""
+
+#: of pandas.read_sql_table:33
+msgid "list or dict, default: None"
+msgstr ""
+
+#: of pandas.read_sql_table:27
+msgid "List of column names to parse as dates."
+msgstr ""
+
+#: of pandas.read_sql_table:28
+msgid ""
+"Dict of ``{column_name: format string}`` where format string is strftime "
+"compatible in case of parsing string times or is one of (D, s, ns, ms, "
+"us) in case of parsing integer timestamps."
+msgstr ""
+
+#: of pandas.read_sql_table:31
+msgid ""
+"Dict of ``{column_name: arg dict}``, where the arg dict corresponds to "
+"the keyword arguments of :func:`pandas.to_datetime` Especially useful "
+"with databases without native Datetime support, such as SQLite."
+msgstr ""
+
+#: of pandas.read_sql_table:37
+msgid "**columns**"
+msgstr ""
+
+#: of pandas.read_sql_table:36
+msgid "list, default: None"
+msgstr ""
+
+#: of pandas.read_sql_table:37
+msgid "List of column names to select from SQL table"
+msgstr ""
+
+#: of pandas.read_sql_table:41
+msgid "**chunksize**"
+msgstr ""
+
+#: of pandas.read_sql_table:40
+msgid "int, default None"
+msgstr ""
+
+#: of pandas.read_sql_table:40
+msgid ""
+"If specified, returns an iterator where `chunksize` is the number of rows"
+" to include in each chunk."
+msgstr ""
+
+#: of pandas.read_sql_table
+msgid "Returns"
+msgstr ""
+
+#: of pandas.read_sql_table:51
+msgid "**DataFrame**"
+msgstr ""
+
+#: of pandas.read_sql_table:57
+msgid ":obj:`read_sql_query`"
+msgstr ""
+
+#: of pandas.read_sql_table:57
+msgid "Read SQL query into a DataFrame."
+msgstr ""
+
+#: of pandas.read_sql_table:59
+msgid ":obj:`read_sql`"
+msgstr ""
+
+#: of pandas.read_sql_table:62
+msgid "Notes"
+msgstr ""
+
+#: of pandas.read_sql_table:63
+msgid "Any datetime values with time zone information will be converted to UTC."
+msgstr ""
+

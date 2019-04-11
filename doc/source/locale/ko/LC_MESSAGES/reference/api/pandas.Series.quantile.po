@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.quantile.rst:2
+msgid "pandas.Series.quantile"
+msgstr ""
+
+#: of pandas.Series.quantile:2
+msgid "Return value at the given quantile."
+msgstr ""
+
+#: of pandas.Series.quantile
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.quantile:8
+msgid "**q**"
+msgstr ""
+
+#: of pandas.Series.quantile:7
+msgid "float or array-like, default 0.5 (50% quantile)"
+msgstr ""
+
+#: of pandas.Series.quantile:8
+msgid "0 <= q <= 1, the quantile(s) to compute"
+msgstr ""
+
+#: of pandas.Series.quantile:21
+msgid "**interpolation**"
+msgstr ""
+
+#: of pandas.Series.quantile:20
+msgid "{'linear', 'lower', 'higher', 'midpoint', 'nearest'}"
+msgstr ""
+
+#: of pandas.Series.quantile:13
+msgid ""
+"This optional parameter specifies the interpolation method to use, when "
+"the desired quantile lies between two data points `i` and `j`:"
+msgstr ""
+
+#: of pandas.Series.quantile:16
+msgid ""
+"linear: `i + (j - i) * fraction`, where `fraction` is the fractional part"
+" of the index surrounded by `i` and `j`."
+msgstr ""
+
+#: of pandas.Series.quantile:18
+msgid "lower: `i`."
+msgstr ""
+
+#: of pandas.Series.quantile:19
+msgid "higher: `j`."
+msgstr ""
+
+#: of pandas.Series.quantile:20
+msgid "nearest: `i` or `j` whichever is nearest."
+msgstr ""
+
+#: of pandas.Series.quantile:21
+msgid "midpoint: (`i` + `j`) / 2."
+msgstr ""
+
+#: of pandas.Series.quantile
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.quantile:32
+msgid "**quantile**"
+msgstr ""
+
+#: of pandas.Series.quantile:31
+msgid "float or Series"
+msgstr ""
+
+#: of pandas.Series.quantile:26
+msgid ""
+"if ``q`` is an array, a Series will be returned where the index is ``q`` "
+"and the values are the quantiles."
+msgstr ""
+
+#: of pandas.Series.quantile:37
+msgid ":obj:`core.window.Rolling.quantile`, :obj:`numpy.percentile`"
+msgstr ""
+
+#: of pandas.Series.quantile:42
+msgid "Examples"
+msgstr ""
+

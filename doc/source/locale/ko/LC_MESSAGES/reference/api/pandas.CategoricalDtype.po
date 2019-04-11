@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.CategoricalDtype.rst:2
+msgid "pandas.CategoricalDtype"
+msgstr ""
+
+#: of pandas.CategoricalDtype:2
+msgid "Type for categorical data with the categories and orderedness"
+msgstr ""
+
+#: of pandas.CategoricalDtype
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.CategoricalDtype:9
+msgid "**categories**"
+msgstr ""
+
+#: of pandas.CategoricalDtype:8
+msgid "sequence, optional"
+msgstr ""
+
+#: of pandas.CategoricalDtype:9
+msgid "Must be unique, and must not contain any nulls."
+msgstr ""
+
+#: of pandas.CategoricalDtype:18
+msgid "**ordered**"
+msgstr ""
+
+#: of pandas.CategoricalDtype:17
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.CategoricalDtype:23
+msgid ":obj:`pandas.Categorical`"
+msgstr ""
+
+#: of pandas.CategoricalDtype:26
+msgid "Notes"
+msgstr ""
+
+#: of pandas.CategoricalDtype:27
+msgid ""
+"This class is useful for specifying the type of a ``Categorical`` "
+"independent of the values. See :ref:`categorical.categoricaldtype` for "
+"more."
+msgstr ""
+
+#: of pandas.CategoricalDtype:33
+msgid "Examples"
+msgstr ""
+
+#: of pandas.CategoricalDtype:44
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.CategoricalDtype:50:<autosummary>:1
+msgid ":obj:`categories <pandas.CategoricalDtype.categories>`\\"
+msgstr ""
+
+#: of pandas.CategoricalDtype:50:<autosummary>:1
+msgid "An ``Index`` containing the unique categories allowed."
+msgstr ""
+
+#: of pandas.CategoricalDtype:50:<autosummary>:1
+msgid ":obj:`ordered <pandas.CategoricalDtype.ordered>`\\"
+msgstr ""
+
+#: of pandas.CategoricalDtype:50:<autosummary>:1
+msgid "Whether the categories have an ordered relationship."
+msgstr ""
+
+#: of pandas.CategoricalDtype:54
+msgid "Methods"
+msgstr ""
+
+#: of pandas.CategoricalDtype:56
+msgid "**None**"
+msgstr ""
+

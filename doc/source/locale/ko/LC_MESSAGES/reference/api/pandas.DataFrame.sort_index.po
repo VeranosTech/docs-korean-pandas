@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.sort_index.rst:2
+msgid "pandas.DataFrame.sort\\_index"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:2
+msgid "Sort object by labels (along an axis)"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:8
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:7
+msgid "index, columns to direct sorting"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:11
+msgid "**level**"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:10
+msgid "int or level name or list of ints or list of level names"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:11
+msgid "if not None, sort on values in specified index level(s)"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:14
+msgid "**ascending**"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:13
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:14
+msgid "Sort ascending vs. descending"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:17
+msgid "**inplace**"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:16
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:17
+msgid "if True, perform operation in-place"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:23
+msgid "**kind**"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:22
+msgid "{'quicksort', 'mergesort', 'heapsort'}, default 'quicksort'"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:20
+msgid ""
+"Choice of sorting algorithm. See also ndarray.np.sort for more "
+"information.  `mergesort` is the only stable algorithm. For DataFrames, "
+"this option is only applied when sorting on a single column or label."
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:27
+msgid "**na_position**"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:26
+msgid "{'first', 'last'}, default 'last'"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:26
+msgid ""
+"`first` puts NaNs at the beginning, `last` puts NaNs at the end. Not "
+"implemented for MultiIndex."
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:31
+msgid "**sort_remaining**"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:30
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:30
+msgid ""
+"if true and sorting by level and index is multilevel, sort by other "
+"levels too (in order) after sorting by specified level"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:47
+msgid "**sorted_obj**"
+msgstr ""
+
+#: of pandas.DataFrame.sort_index:46
+msgid "DataFrame"
+msgstr ""
+

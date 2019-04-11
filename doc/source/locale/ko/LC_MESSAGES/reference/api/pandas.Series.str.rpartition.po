@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.str.rpartition.rst:2
+msgid "pandas.Series.str.rpartition"
+msgstr ""
+
+#: of pandas.Series.str.rpartition:2
+msgid "Split the string at the last occurrence of `sep`."
+msgstr ""
+
+#: of pandas.Series.str.rpartition:4
+msgid ""
+"This method splits the string at the last occurrence of `sep`, and "
+"returns 3 elements containing the part before the separator, the "
+"separator itself, and the part after the separator. If the separator is "
+"not found, return 3 elements containing two empty strings, followed by "
+"the string itself."
+msgstr ""
+
+#: of pandas.Series.str.rpartition
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.str.rpartition:12
+msgid "**sep**"
+msgstr ""
+
+#: of pandas.Series.str.rpartition:11 pandas.Series.str.rpartition:15
+msgid "str, default whitespace"
+msgstr ""
+
+#: of pandas.Series.str.rpartition:12
+msgid "String to split on."
+msgstr ""
+
+#: of pandas.Series.str.rpartition:16
+msgid "**pat**"
+msgstr ""
+
+#: of pandas.Series.str.rpartition:15
+msgid "Use ``sep`` instead"
+msgstr ""
+
+#: of pandas.Series.str.rpartition:20
+msgid "**expand**"
+msgstr ""
+
+#: of pandas.Series.str.rpartition:19
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.Series.str.rpartition:19
+msgid ""
+"If True, return DataFrame/MultiIndex expanding dimensionality. If False, "
+"return Series/Index."
+msgstr ""
+
+#: of pandas.Series.str.rpartition
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.str.rpartition:30
+msgid "**DataFrame/MultiIndex or Series/Index of objects**"
+msgstr ""
+
+#: of pandas.Series.str.rpartition:36
+msgid ":obj:`partition`"
+msgstr ""
+
+#: of pandas.Series.str.rpartition:36
+msgid "Split the string at the first occurrence of `sep`."
+msgstr ""
+
+#: of pandas.Series.str.rpartition:39
+msgid ":obj:`Series.str.split`"
+msgstr ""
+
+#: of pandas.Series.str.rpartition:39
+msgid "Split strings around given separators."
+msgstr ""
+
+#: of pandas.Series.str.rpartition:41
+msgid ":obj:`str.partition`"
+msgstr ""
+
+#: of pandas.Series.str.rpartition:42
+msgid "Standard library version."
+msgstr ""
+
+#: of pandas.Series.str.rpartition:47
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.str.rpartition:59
+msgid "To partition by the last space instead of the first one:"
+msgstr ""
+
+#: of pandas.Series.str.rpartition:66
+msgid "To partition by something different than a space:"
+msgstr ""
+
+#: of pandas.Series.str.rpartition:73
+msgid "To return a Series containining tuples instead of a DataFrame:"
+msgstr ""
+
+#: of pandas.Series.str.rpartition:80
+msgid "Also available on indices:"
+msgstr ""
+
+#: of pandas.Series.str.rpartition:86
+msgid "Which will create a MultiIndex:"
+msgstr ""
+
+#: of pandas.Series.str.rpartition:92
+msgid "Or an index with tuples with ``expand=False``:"
+msgstr ""
+

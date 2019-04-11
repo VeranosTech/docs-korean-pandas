@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.unique.rst:2
+msgid "pandas.unique"
+msgstr ""
+
+#: of pandas.unique:2
+msgid ""
+"Hash table-based unique. Uniques are returned in order of appearance. "
+"This does NOT sort."
+msgstr ""
+
+#: of pandas.unique:5
+msgid "Significantly faster than numpy.unique. Includes NA values."
+msgstr ""
+
+#: of pandas.unique
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.unique:10
+msgid "**values**"
+msgstr ""
+
+#: of pandas.unique:9
+msgid "1d array-like"
+msgstr ""
+
+#: of pandas.unique
+msgid "Returns"
+msgstr ""
+
+#: of pandas.unique:22
+msgid "**unique values.**"
+msgstr ""
+
+#: of pandas.unique:15
+msgid "If the input is an Index, the return is an Index"
+msgstr ""
+
+#: of pandas.unique:16
+msgid "If the input is a Categorical dtype, the return is a Categorical"
+msgstr ""
+
+#: of pandas.unique:17
+msgid "If the input is a Series/ndarray, the return will be an ndarray"
+msgstr ""
+
+#: of pandas.unique:27
+msgid ":obj:`pandas.Index.unique`, :obj:`pandas.Series.unique`"
+msgstr ""
+
+#: of pandas.unique:32
+msgid "Examples"
+msgstr ""
+
+#: of pandas.unique:56
+msgid ""
+"An unordered Categorical will return categories in the order of "
+"appearance."
+msgstr ""
+
+#: of pandas.unique:68
+msgid "An ordered Categorical preserves the category ordering."
+msgstr ""
+
+#: of pandas.unique:76
+msgid "An array of tuples"
+msgstr ""
+

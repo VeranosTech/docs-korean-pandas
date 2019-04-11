@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.sparse.from_coo.rst:2
+msgid "pandas.Series.sparse.from\\_coo"
+msgstr ""
+
+#: of pandas.Series.sparse.from_coo:2
+msgid "Create a SparseSeries from a scipy.sparse.coo_matrix."
+msgstr ""
+
+#: of pandas.Series.sparse.from_coo
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.sparse.from_coo:8
+msgid "**A**"
+msgstr ""
+
+#: of pandas.Series.sparse.from_coo:7
+msgid "scipy.sparse.coo_matrix"
+msgstr ""
+
+#: of pandas.Series.sparse.from_coo:14
+msgid "**dense_index**"
+msgstr ""
+
+#: of pandas.Series.sparse.from_coo:13
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.Series.sparse.from_coo:11
+msgid ""
+"If False (default), the SparseSeries index consists of only the coords of"
+" the non-null entries of the original coo_matrix. If True, the "
+"SparseSeries index consists of the full sorted (row, col) coordinates of "
+"the coo_matrix."
+msgstr ""
+
+#: of pandas.Series.sparse.from_coo
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.sparse.from_coo:27
+msgid "**s**"
+msgstr ""
+
+#: of pandas.Series.sparse.from_coo:26
+msgid "SparseSeries"
+msgstr ""
+
+#: of pandas.Series.sparse.from_coo:30
+msgid "Examples"
+msgstr ""
+

@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.str.match.rst:2
+msgid "pandas.Series.str.match"
+msgstr ""
+
+#: of pandas.Series.str.match:2
+msgid "Determine if each string matches a regular expression."
+msgstr ""
+
+#: of pandas.Series.str.match
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.str.match:8
+msgid "**pat**"
+msgstr ""
+
+#: of pandas.Series.str.match:7
+msgid "string"
+msgstr ""
+
+#: of pandas.Series.str.match:8
+msgid "Character sequence or regular expression"
+msgstr ""
+
+#: of pandas.Series.str.match:11
+msgid "**case**"
+msgstr ""
+
+#: of pandas.Series.str.match:10
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.Series.str.match:11
+msgid "If True, case sensitive"
+msgstr ""
+
+#: of pandas.Series.str.match:14
+msgid "**flags**"
+msgstr ""
+
+#: of pandas.Series.str.match:13
+msgid "int, default 0 (no flags)"
+msgstr ""
+
+#: of pandas.Series.str.match:14
+msgid "re module flags, e.g. re.IGNORECASE"
+msgstr ""
+
+#: of pandas.Series.str.match:17
+msgid "**na**"
+msgstr ""
+
+#: of pandas.Series.str.match:16
+msgid "default NaN, fill value for missing values"
+msgstr ""
+
+#: of pandas.Series.str.match
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.str.match:27
+msgid "**Series/array of boolean values**"
+msgstr ""
+
+#: of pandas.Series.str.match:33
+msgid ":obj:`contains`"
+msgstr ""
+
+#: of pandas.Series.str.match:33
+msgid "Analogous, but less strict, relying on re.search instead of re.match."
+msgstr ""
+
+#: of pandas.Series.str.match:35
+msgid ":obj:`extract`"
+msgstr ""
+
+#: of pandas.Series.str.match:36
+msgid "Extract matched groups."
+msgstr ""
+

@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.plot.bar.rst:2
+msgid "pandas.DataFrame.plot.bar"
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:2
+msgid "Vertical bar plot."
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:4
+msgid ""
+"A bar plot is a plot that presents categorical data with rectangular bars"
+" with lengths proportional to the values that they represent. A bar plot "
+"shows comparisons among discrete categories. One axis of the plot shows "
+"the specific categories being compared, and the other axis represents a "
+"measured value."
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:14
+msgid "**x**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:13 pandas.DataFrame.plot.bar:17
+msgid "label or position, optional"
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:13
+msgid ""
+"Allows plotting of one column versus another. If not specified, the index"
+" of the DataFrame is used."
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:18
+msgid "**y**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:17
+msgid ""
+"Allows plotting of one column versus another. If not specified, all "
+"numerical columns are used."
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:22
+msgid "**\\*\\*kwds**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:21
+msgid ""
+"Additional keyword arguments are documented in "
+":meth:`pandas.DataFrame.plot`."
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:33
+msgid "**axes**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:32
+msgid "matplotlib.axes.Axes or np.ndarray of them"
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:27
+msgid ""
+"An ndarray is returned with one :class:`matplotlib.axes.Axes` per column "
+"when ``subplots=True``."
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:39
+msgid ":obj:`pandas.DataFrame.plot.barh`"
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:39
+msgid "Horizontal bar plot."
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:42
+msgid ":obj:`pandas.DataFrame.plot`"
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:42
+msgid "Make plots of a DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:44
+msgid ":obj:`matplotlib.pyplot.bar`"
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:45
+msgid "Make a bar plot with matplotlib."
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:50
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:51
+msgid "Basic plot."
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:59
+msgid ""
+"Plot a whole dataframe to a bar plot. Each column is assigned a distinct "
+"color, and each row is nested in a group along the horizontal axis."
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:74
+msgid ""
+"Instead of nesting, the figure can be split by column with "
+"``subplots=True``. In this case, a :class:`numpy.ndarray` of "
+":class:`matplotlib.axes.Axes` are returned."
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:84
+msgid "Plot a single column."
+msgstr ""
+
+#: of pandas.DataFrame.plot.bar:91
+msgid "Plot only selected categories for the DataFrame."
+msgstr ""
+

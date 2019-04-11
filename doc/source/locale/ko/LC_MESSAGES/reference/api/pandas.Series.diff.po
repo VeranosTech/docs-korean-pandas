@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.diff.rst:2
+msgid "pandas.Series.diff"
+msgstr ""
+
+#: of pandas.Series.diff:2
+msgid "First discrete difference of element."
+msgstr ""
+
+#: of pandas.Series.diff:4
+msgid ""
+"Calculates the difference of a Series element compared with another "
+"element in the Series (default is element in previous row)."
+msgstr ""
+
+#: of pandas.Series.diff
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.diff:11
+msgid "**periods**"
+msgstr ""
+
+#: of pandas.Series.diff:10
+msgid "int, default 1"
+msgstr ""
+
+#: of pandas.Series.diff:10
+msgid "Periods to shift for calculating difference, accepts negative values."
+msgstr ""
+
+#: of pandas.Series.diff
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.diff:21
+msgid "**diffed**"
+msgstr ""
+
+#: of pandas.Series.diff:20
+msgid "Series"
+msgstr ""
+
+#: of pandas.Series.diff:27
+msgid ":obj:`Series.pct_change`"
+msgstr ""
+
+#: of pandas.Series.diff:27
+msgid "Percent change over given number of periods."
+msgstr ""
+
+#: of pandas.Series.diff:30
+msgid ":obj:`Series.shift`"
+msgstr ""
+
+#: of pandas.Series.diff:30
+msgid "Shift index by desired number of periods with an optional time freq."
+msgstr ""
+
+#: of pandas.Series.diff:32
+msgid ":obj:`DataFrame.diff`"
+msgstr ""
+
+#: of pandas.Series.diff:33
+msgid "First discrete difference of object."
+msgstr ""
+
+#: of pandas.Series.diff:38
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.diff:39
+msgid "Difference with previous row"
+msgstr ""
+
+#: of pandas.Series.diff:51
+msgid "Difference with 3rd previous row"
+msgstr ""
+
+#: of pandas.Series.diff:62
+msgid "Difference with following row"
+msgstr ""
+

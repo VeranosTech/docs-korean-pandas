@@ -1,0 +1,199 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.groupby.rst:2
+msgid "pandas.Series.groupby"
+msgstr ""
+
+#: of pandas.Series.groupby:2
+msgid "Group DataFrame or Series using a mapper or by a Series of columns."
+msgstr ""
+
+#: of pandas.Series.groupby:4
+msgid ""
+"A groupby operation involves some combination of splitting the object, "
+"applying a function, and combining the results. This can be used to group"
+" large amounts of data and compute operations on these groups."
+msgstr ""
+
+#: of pandas.Series.groupby
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.groupby:19
+msgid "**by**"
+msgstr ""
+
+#: of pandas.Series.groupby:18
+msgid "mapping, function, label, or list of labels"
+msgstr ""
+
+#: of pandas.Series.groupby:12
+msgid ""
+"Used to determine the groups for the groupby. If ``by`` is a function, "
+"it's called on each value of the object's index. If a dict or Series is "
+"passed, the Series or dict VALUES will be used to determine the groups "
+"(the Series' values are first aligned; see ``.align()`` method). If an "
+"ndarray is passed, the values are used as-is determine the groups. A "
+"label or list of labels may be passed to group by the columns in "
+"``self``. Notice that a tuple is interpreted a (single) key."
+msgstr ""
+
+#: of pandas.Series.groupby:22
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.Series.groupby:21
+msgid "{0 or 'index', 1 or 'columns'}, default 0"
+msgstr ""
+
+#: of pandas.Series.groupby:22
+msgid "Split along rows (0) or columns (1)."
+msgstr ""
+
+#: of pandas.Series.groupby:26
+msgid "**level**"
+msgstr ""
+
+#: of pandas.Series.groupby:25
+msgid "int, level name, or sequence of such, default None"
+msgstr ""
+
+#: of pandas.Series.groupby:25
+msgid ""
+"If the axis is a MultiIndex (hierarchical), group by a particular level "
+"or levels."
+msgstr ""
+
+#: of pandas.Series.groupby:31
+msgid "**as_index**"
+msgstr ""
+
+#: of pandas.Series.groupby:30 pandas.Series.groupby:35
+#: pandas.Series.groupby:38
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.Series.groupby:29
+msgid ""
+"For aggregated output, return object with group labels as the index. Only"
+" relevant for DataFrame input. as_index=False is effectively \"SQL-"
+"style\" grouped output."
+msgstr ""
+
+#: of pandas.Series.groupby:36
+msgid "**sort**"
+msgstr ""
+
+#: of pandas.Series.groupby:34
+msgid ""
+"Sort group keys. Get better performance by turning this off. Note this "
+"does not influence the order of observations within each group. Groupby "
+"preserves the order of rows within each group."
+msgstr ""
+
+#: of pandas.Series.groupby:39
+msgid "**group_keys**"
+msgstr ""
+
+#: of pandas.Series.groupby:39
+msgid "When calling apply, add group keys to index to identify pieces."
+msgstr ""
+
+#: of pandas.Series.groupby:43
+msgid "**squeeze**"
+msgstr ""
+
+#: of pandas.Series.groupby:42 pandas.Series.groupby:49
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.Series.groupby:42
+msgid ""
+"Reduce the dimensionality of the return type if possible, otherwise "
+"return a consistent type."
+msgstr ""
+
+#: of pandas.Series.groupby:50
+msgid "**observed**"
+msgstr ""
+
+#: of pandas.Series.groupby:46
+msgid ""
+"This only applies if any of the groupers are Categoricals. If True: only "
+"show observed values for categorical groupers. If False: show all values "
+"for categorical groupers."
+msgstr ""
+
+#: of pandas.Series.groupby:54
+msgid "**\\*\\*kwargs**"
+msgstr ""
+
+#: of pandas.Series.groupby:53
+msgid ""
+"Optional, only accepts keyword argument 'mutated' and is passed to "
+"groupby."
+msgstr ""
+
+#: of pandas.Series.groupby
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.groupby:65
+msgid "**DataFrameGroupBy or SeriesGroupBy**"
+msgstr ""
+
+#: of pandas.Series.groupby:59
+msgid ""
+"Depends on the calling object and returns groupby object that contains "
+"information about the groups."
+msgstr ""
+
+#: of pandas.Series.groupby:70
+msgid ":obj:`resample`"
+msgstr ""
+
+#: of pandas.Series.groupby:71
+msgid "Convenience method for frequency conversion and resampling of time series."
+msgstr ""
+
+#: of pandas.Series.groupby:74
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Series.groupby:75
+msgid ""
+"See the `user guide <http://pandas.pydata.org/pandas-"
+"docs/stable/groupby.html>`_ for more."
+msgstr ""
+
+#: of pandas.Series.groupby:80
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.groupby:96
+msgid "**Hierarchical Indexes**"
+msgstr ""
+
+#: of pandas.Series.groupby:98
+msgid ""
+"We can groupby different levels of a hierarchical index using the `level`"
+" parameter:"
+msgstr ""
+

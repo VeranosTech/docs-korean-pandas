@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.all.rst:2
+msgid "pandas.Series.all"
+msgstr ""
+
+#: of pandas.Series.all:2
+msgid "Return whether all elements are True, potentially over an axis."
+msgstr ""
+
+#: of pandas.Series.all:4
+msgid ""
+"Returns True unless there at least one element within a series or along a"
+" Dataframe axis that is False or equivalent (e.g. zero or empty)."
+msgstr ""
+
+#: of pandas.Series.all
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.all:17
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.Series.all:16
+msgid "{0 or 'index', 1 or 'columns', None}, default 0"
+msgstr ""
+
+#: of pandas.Series.all:11
+msgid "Indicate which axis or axes should be reduced."
+msgstr ""
+
+#: of pandas.Series.all:13
+msgid ""
+"0 / 'index' : reduce the index, return a Series whose index is the "
+"original column labels."
+msgstr ""
+
+#: of pandas.Series.all:15
+msgid ""
+"1 / 'columns' : reduce the columns, return a Series whose index is the "
+"original index."
+msgstr ""
+
+#: of pandas.Series.all:17
+msgid "None : reduce all axes, return a scalar."
+msgstr ""
+
+#: of pandas.Series.all:21
+msgid "**bool_only**"
+msgstr ""
+
+#: of pandas.Series.all:20
+msgid "bool, default None"
+msgstr ""
+
+#: of pandas.Series.all:20
+msgid ""
+"Include only boolean columns. If None, will attempt to use everything, "
+"then use only boolean data. Not implemented for Series."
+msgstr ""
+
+#: of pandas.Series.all:27
+msgid "**skipna**"
+msgstr ""
+
+#: of pandas.Series.all:26
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.Series.all:24
+msgid ""
+"Exclude NA/null values. If the entire row/column is NA and skipna is "
+"True, then the result will be True, as for an empty row/column. If skipna"
+" is False, then NA are treated as True, because these are not equal to "
+"zero."
+msgstr ""
+
+#: of pandas.Series.all:31
+msgid "**level**"
+msgstr ""
+
+#: of pandas.Series.all:30
+msgid "int or level name, default None"
+msgstr ""
+
+#: of pandas.Series.all:30
+msgid ""
+"If the axis is a MultiIndex (hierarchical), count along a particular "
+"level, collapsing into a scalar."
+msgstr ""
+
+#: of pandas.Series.all:35
+msgid "**\\*\\*kwargs**"
+msgstr ""
+
+#: of pandas.Series.all:34
+msgid "any, default None"
+msgstr ""
+
+#: of pandas.Series.all:34
+msgid ""
+"Additional keywords have no effect but might be accepted for "
+"compatibility with NumPy."
+msgstr ""
+
+#: of pandas.Series.all
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.all:46
+msgid "**scalar or Series**"
+msgstr ""
+
+#: of pandas.Series.all:40
+msgid ""
+"If level is specified, then, Series is returned; otherwise, scalar is "
+"returned."
+msgstr ""
+
+#: of pandas.Series.all:52
+msgid ":obj:`Series.all`"
+msgstr ""
+
+#: of pandas.Series.all:52
+msgid "Return True if all elements are True."
+msgstr ""
+
+#: of pandas.Series.all:54
+msgid ":obj:`DataFrame.any`"
+msgstr ""
+
+#: of pandas.Series.all:55
+msgid "Return True if one (or more) elements are True."
+msgstr ""
+
+#: of pandas.Series.all:60
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.all:61
+msgid "**Series**"
+msgstr ""
+
+#: of pandas.Series.all:74
+msgid "**DataFrames**"
+msgstr ""
+
+#: of pandas.Series.all:76
+msgid "Create a dataframe from a dictionary."
+msgstr ""
+
+#: of pandas.Series.all:84
+msgid "Default behaviour checks if column-wise values all return True."
+msgstr ""
+
+#: of pandas.Series.all:91
+msgid "Specify ``axis='columns'`` to check if row-wise values all return True."
+msgstr ""
+
+#: of pandas.Series.all:98
+msgid "Or ``axis=None`` for whether every value is True."
+msgstr ""
+

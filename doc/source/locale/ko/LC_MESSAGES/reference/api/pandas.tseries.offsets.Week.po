@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.tseries.offsets.Week.rst:2
+msgid "pandas.tseries.offsets.Week"
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:2
+msgid "Weekly offset."
+msgstr ""
+
+#: of pandas.tseries.offsets.Week
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:18
+msgid "**weekday**"
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:17
+msgid "int, default None"
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:8
+msgid "Always generate specific day of week. 0 for Monday"
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:21
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:27:<autosummary>:1
+msgid ":obj:`base <pandas.tseries.offsets.Week.base>`\\"
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:27:<autosummary>:1
+msgid ""
+"Returns a copy of the calling offset object with n=1 and all other "
+"attributes equal."
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:29
+msgid "**freqstr**"
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:30
+msgid "**kwds**"
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:31
+msgid "**name**"
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:32
+msgid "**nanos**"
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:33
+msgid "**rule_code**"
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:37
+msgid "Methods"
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:44:<autosummary>:1
+msgid ":obj:`rollback <pandas.tseries.offsets.Week.rollback>`\\ \\(dt\\)"
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:44:<autosummary>:1
+msgid "Roll provided date backward to next offset only if not on offset."
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:44:<autosummary>:1
+msgid ":obj:`rollforward <pandas.tseries.offsets.Week.rollforward>`\\ \\(dt\\)"
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:44:<autosummary>:1
+msgid "Roll provided date forward to next offset only if not on offset."
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:46
+msgid "**__call__**"
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:47
+msgid "**apply**"
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:48
+msgid "**apply_index**"
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:49
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:50
+msgid "**isAnchored**"
+msgstr ""
+
+#: of pandas.tseries.offsets.Week:51
+msgid "**onOffset**"
+msgstr ""
+

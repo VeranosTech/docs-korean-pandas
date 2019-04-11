@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Timedelta.resolution.rst:2
+msgid "pandas.Timedelta.resolution"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta.resolution:2
+msgid "Return a string representing the lowest timedelta resolution."
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta.resolution:4
+msgid ""
+"Each timedelta has a defined resolution that represents the lowest OR "
+"most granular level of precision. Each level of resolution is represented"
+" by a short string as defined below:"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta.resolution:8
+msgid "Resolution:     Return value"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta.resolution:10
+msgid "Days:         'D'"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta.resolution:11
+msgid "Hours:        'H'"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta.resolution:12
+msgid "Minutes:      'T'"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta.resolution:13
+msgid "Seconds:      'S'"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta.resolution:14
+msgid "Milliseconds: 'L'"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta.resolution:15
+msgid "Microseconds: 'U'"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta.resolution:16
+msgid "Nanoseconds:  'N'"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta.resolution
+msgid "Returns"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta.resolution:30
+msgid "**str**"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta.resolution:22
+msgid "Timedelta resolution."
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta.resolution:33
+msgid "Examples"
+msgstr ""
+

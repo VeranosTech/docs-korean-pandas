@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.reset_index.rst:2
+msgid "pandas.Series.reset\\_index"
+msgstr ""
+
+#: of pandas.Series.reset_index:2
+msgid "Generate a new DataFrame or Series with the index reset."
+msgstr ""
+
+#: of pandas.Series.reset_index:4
+msgid ""
+"This is useful when the index needs to be treated as a column, or when "
+"the index is meaningless and needs to be reset to the default before "
+"another operation."
+msgstr ""
+
+#: of pandas.Series.reset_index
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.reset_index:12
+msgid "**level**"
+msgstr ""
+
+#: of pandas.Series.reset_index:11
+msgid "int, str, tuple, or list, default optional"
+msgstr ""
+
+#: of pandas.Series.reset_index:11
+msgid ""
+"For a Series with a MultiIndex, only remove the specified levels from the"
+" index. Removes all levels by default."
+msgstr ""
+
+#: of pandas.Series.reset_index:16
+msgid "**drop**"
+msgstr ""
+
+#: of pandas.Series.reset_index:15 pandas.Series.reset_index:23
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.Series.reset_index:15
+msgid ""
+"Just reset the index, without inserting it as a column in the new "
+"DataFrame."
+msgstr ""
+
+#: of pandas.Series.reset_index:21
+msgid "**name**"
+msgstr ""
+
+#: of pandas.Series.reset_index:20
+msgid "object, optional"
+msgstr ""
+
+#: of pandas.Series.reset_index:19
+msgid ""
+"The name to use for the column containing the original Series values. "
+"Uses ``self.name`` by default. This argument is ignored when `drop` is "
+"True."
+msgstr ""
+
+#: of pandas.Series.reset_index:24
+msgid "**inplace**"
+msgstr ""
+
+#: of pandas.Series.reset_index:24
+msgid "Modify the Series in place (do not create a new object)."
+msgstr ""
+
+#: of pandas.Series.reset_index
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.reset_index:38
+msgid "**Series or DataFrame**"
+msgstr ""
+
+#: of pandas.Series.reset_index:29
+msgid ""
+"When `drop` is False (the default), a DataFrame is returned. The newly "
+"created columns will come first in the DataFrame, followed by the "
+"original Series values. When `drop` is True, a `Series` is returned. In "
+"either case, if ``inplace=True``, no value is returned."
+msgstr ""
+
+#: of pandas.Series.reset_index:43
+msgid ":obj:`DataFrame.reset_index`"
+msgstr ""
+
+#: of pandas.Series.reset_index:44
+msgid "Analogous function for DataFrame."
+msgstr ""
+
+#: of pandas.Series.reset_index:49
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.reset_index:53
+msgid "Generate a DataFrame with default index."
+msgstr ""
+
+#: of pandas.Series.reset_index:62
+msgid "To specify the name of the new column use `name`."
+msgstr ""
+
+#: of pandas.Series.reset_index:71
+msgid "To generate a new Series with the default set `drop` to True."
+msgstr ""
+
+#: of pandas.Series.reset_index:80
+msgid ""
+"To update the Series in place, without generating a new one set `inplace`"
+" to True. Note that it also requires ``drop=True``."
+msgstr ""
+
+#: of pandas.Series.reset_index:91
+msgid "The `level` parameter is interesting for Series with a multi-level index."
+msgstr ""
+
+#: of pandas.Series.reset_index:101
+msgid "To remove a specific level from the Index, use `level`."
+msgstr ""
+
+#: of pandas.Series.reset_index:111
+msgid "If `level` is not set, all levels are removed from the Index."
+msgstr ""
+

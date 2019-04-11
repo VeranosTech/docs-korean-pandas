@@ -1,0 +1,680 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.arrays.DatetimeArray.rst:2
+msgid "pandas.arrays.DatetimeArray"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:2
+msgid "Pandas ExtensionArray for tz-naive or tz-aware datetime data."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:8
+msgid ""
+"DatetimeArray is currently experimental, and its API may change without "
+"warning. In particular, :attr:`DatetimeArray.dtype` is expected to change"
+" to always be an instance of an ``ExtensionDtype`` subclass."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:20
+msgid "**values**"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:19
+msgid "Series, Index, DatetimeArray, ndarray"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:16
+msgid "The datetime data."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:18
+msgid ""
+"For DatetimeArray `values` (or a Series or Index boxing one), `dtype` and"
+" `freq` will be extracted from `values`, with precedence given to"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:23
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:22
+msgid "numpy.dtype or DatetimeTZDtype"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:23
+msgid "Note that the only NumPy dtype allowed is 'datetime64[ns]'."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:26
+msgid "**freq**"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:25
+msgid "str or Offset, optional"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:39
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:38
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:29
+msgid "Whether to copy the underlying array of values."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:42
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`asi8 <pandas.arrays.DatetimeArray.asi8>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "Integer representation of the values."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`date <pandas.arrays.DatetimeArray.date>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ""
+"Returns numpy array of python datetime.date objects (namely, the date "
+"part of Timestamps without timezone information)."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`day <pandas.arrays.DatetimeArray.day>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "The days of the datetime."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`dayofweek <pandas.arrays.DatetimeArray.dayofweek>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "The day of the week with Monday=0, Sunday=6."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`dayofyear <pandas.arrays.DatetimeArray.dayofyear>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "The ordinal day of the year."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`days_in_month <pandas.arrays.DatetimeArray.days_in_month>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "The number of days in the month."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`daysinmonth <pandas.arrays.DatetimeArray.daysinmonth>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`dtype <pandas.arrays.DatetimeArray.dtype>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "The dtype for the DatetimeArray."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`freq <pandas.arrays.DatetimeArray.freq>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "Return the frequency object if it is set, otherwise None."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`freqstr <pandas.arrays.DatetimeArray.freqstr>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "Return the frequency object as a string if its set, otherwise None"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`hour <pandas.arrays.DatetimeArray.hour>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "The hours of the datetime."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`inferred_freq <pandas.arrays.DatetimeArray.inferred_freq>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ""
+"Tryies to return a string representing a frequency guess, generated by "
+"infer_freq."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`is_leap_year <pandas.arrays.DatetimeArray.is_leap_year>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "Boolean indicator if the date belongs to a leap year."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`is_month_end <pandas.arrays.DatetimeArray.is_month_end>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "Indicates whether the date is the last day of the month."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`is_month_start <pandas.arrays.DatetimeArray.is_month_start>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "Indicates whether the date is the first day of the month."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`is_normalized <pandas.arrays.DatetimeArray.is_normalized>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "Returns True if all of the dates are at midnight (\"no time\")"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`is_quarter_end <pandas.arrays.DatetimeArray.is_quarter_end>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "Indicator for whether the date is the last day of a quarter."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`is_quarter_start <pandas.arrays.DatetimeArray.is_quarter_start>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "Indicator for whether the date is the first day of a quarter."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`is_year_end <pandas.arrays.DatetimeArray.is_year_end>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "Indicate whether the date is the last day of the year."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`is_year_start <pandas.arrays.DatetimeArray.is_year_start>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "Indicate whether the date is the first day of a year."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`microsecond <pandas.arrays.DatetimeArray.microsecond>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "The microseconds of the datetime."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`minute <pandas.arrays.DatetimeArray.minute>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "The minutes of the datetime."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`month <pandas.arrays.DatetimeArray.month>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "The month as January=1, December=12."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`nanosecond <pandas.arrays.DatetimeArray.nanosecond>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "The nanoseconds of the datetime."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`nbytes <pandas.arrays.DatetimeArray.nbytes>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "The number of bytes needed to store this object in memory."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`quarter <pandas.arrays.DatetimeArray.quarter>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "The quarter of the date."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`resolution <pandas.arrays.DatetimeArray.resolution>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "Returns day, hour, minute, second, millisecond or microsecond"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`second <pandas.arrays.DatetimeArray.second>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "The seconds of the datetime."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`shape <pandas.arrays.DatetimeArray.shape>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "Return a tuple of the array dimensions."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`size <pandas.arrays.DatetimeArray.size>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "The number of elements in this array."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`time <pandas.arrays.DatetimeArray.time>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "Returns numpy array of datetime.time."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`timetz <pandas.arrays.DatetimeArray.timetz>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "Returns numpy array of datetime.time also containing timezone information."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`tz <pandas.arrays.DatetimeArray.tz>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "Return timezone, if any."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`tzinfo <pandas.arrays.DatetimeArray.tzinfo>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "Alias for tz attribute"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`week <pandas.arrays.DatetimeArray.week>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "The week ordinal of the year."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`weekday <pandas.arrays.DatetimeArray.weekday>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`weekday_name <pandas.arrays.DatetimeArray.weekday_name>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "(DEPRECATED) The name of day in a week (ex: Friday)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`weekofyear <pandas.arrays.DatetimeArray.weekofyear>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid ":obj:`year <pandas.arrays.DatetimeArray.year>`\\"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:86:<autosummary>:1
+msgid "The year of the datetime."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:88
+msgid "**timetuple**"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:92
+msgid "Methods"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ""
+":obj:`argsort <pandas.arrays.DatetimeArray.argsort>`\\ \\(\\[ascending\\,"
+" kind\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Return the indices that would sort this array."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ""
+":obj:`astype <pandas.arrays.DatetimeArray.astype>`\\ \\(dtype\\[\\, "
+"copy\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Cast to a NumPy array with 'dtype'."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ""
+":obj:`ceil <pandas.arrays.DatetimeArray.ceil>`\\ \\(freq\\[\\, "
+"ambiguous\\, nonexistent\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Perform ceil operation on the data to the specified `freq`."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ":obj:`copy <pandas.arrays.DatetimeArray.copy>`\\ \\(\\[deep\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Return a copy of the array."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ""
+":obj:`day_name <pandas.arrays.DatetimeArray.day_name>`\\ "
+"\\(\\[locale\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Return the day names of the DateTimeIndex with specified locale."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ":obj:`dropna <pandas.arrays.DatetimeArray.dropna>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Return ExtensionArray without NA values"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ""
+":obj:`factorize <pandas.arrays.DatetimeArray.factorize>`\\ "
+"\\(\\[na\\_sentinel\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Encode the extension array as an enumerated type."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ""
+":obj:`fillna <pandas.arrays.DatetimeArray.fillna>`\\ \\(\\[value\\, "
+"method\\, limit\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Fill NA/NaN values using the specified method."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ""
+":obj:`floor <pandas.arrays.DatetimeArray.floor>`\\ \\(freq\\[\\, "
+"ambiguous\\, nonexistent\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Perform floor operation on the data to the specified `freq`."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ":obj:`isna <pandas.arrays.DatetimeArray.isna>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "A 1-D array indicating if each value is missing."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ":obj:`max <pandas.arrays.DatetimeArray.max>`\\ \\(\\[axis\\, skipna\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Return the maximum value of the Array or maximum along an axis."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ":obj:`min <pandas.arrays.DatetimeArray.min>`\\ \\(\\[axis\\, skipna\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Return the minimum value of the Array or minimum along an axis."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ""
+":obj:`month_name <pandas.arrays.DatetimeArray.month_name>`\\ "
+"\\(\\[locale\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Return the month names of the DateTimeIndex with specified locale."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ":obj:`normalize <pandas.arrays.DatetimeArray.normalize>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Convert times to midnight."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ""
+":obj:`repeat <pandas.arrays.DatetimeArray.repeat>`\\ \\(repeats\\, "
+"\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Repeat elements of an array."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ""
+":obj:`round <pandas.arrays.DatetimeArray.round>`\\ \\(freq\\[\\, "
+"ambiguous\\, nonexistent\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Perform round operation on the data to the specified `freq`."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ""
+":obj:`searchsorted <pandas.arrays.DatetimeArray.searchsorted>`\\ "
+"\\(value\\[\\, side\\, sorter\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Find indices where elements should be inserted to maintain order."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ""
+":obj:`shift <pandas.arrays.DatetimeArray.shift>`\\ \\(\\[periods\\, "
+"fill\\_value\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Shift values by desired number."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ""
+":obj:`strftime <pandas.arrays.DatetimeArray.strftime>`\\ "
+"\\(date\\_format\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Convert to Index using specified date_format."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ""
+":obj:`take <pandas.arrays.DatetimeArray.take>`\\ \\(indices\\[\\, "
+"allow\\_fill\\, fill\\_value\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Take elements from an array."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ""
+":obj:`to_julian_date <pandas.arrays.DatetimeArray.to_julian_date>`\\ "
+"\\(\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Convert Datetime Array to float64 ndarray of Julian Dates."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ""
+":obj:`to_period <pandas.arrays.DatetimeArray.to_period>`\\ "
+"\\(\\[freq\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Cast to PeriodArray/Index at a particular frequency."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ""
+":obj:`to_perioddelta <pandas.arrays.DatetimeArray.to_perioddelta>`\\ "
+"\\(freq\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ""
+"Calculate TimedeltaArray of difference between index values and index "
+"converted to PeriodArray at specified freq."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ":obj:`to_pydatetime <pandas.arrays.DatetimeArray.to_pydatetime>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Return Datetime Array/Index as object ndarray of datetime.datetime objects"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ":obj:`tz_convert <pandas.arrays.DatetimeArray.tz_convert>`\\ \\(tz\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Convert tz-aware Datetime Array/Index from one time zone to another."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ""
+":obj:`tz_localize <pandas.arrays.DatetimeArray.tz_localize>`\\ "
+"\\(tz\\[\\, ambiguous\\, nonexistent\\, errors\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Localize tz-naive Datetime Array/Index to tz-aware Datetime Array/Index."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ":obj:`unique <pandas.arrays.DatetimeArray.unique>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Compute the ExtensionArray of unique values."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ""
+":obj:`value_counts <pandas.arrays.DatetimeArray.value_counts>`\\ "
+"\\(\\[dropna\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "Return a Series containing counts of unique values."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid ":obj:`view <pandas.arrays.DatetimeArray.view>`\\ \\(\\[dtype\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:126:<autosummary>:1
+msgid "New view on this array with the same data."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray:128
+msgid "**map**"
+msgstr ""
+

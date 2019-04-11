@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.apply.rst:2
+msgid "pandas.Series.apply"
+msgstr ""
+
+#: of pandas.Series.apply:2
+msgid "Invoke function on values of Series."
+msgstr ""
+
+#: of pandas.Series.apply:4
+msgid ""
+"Can be ufunc (a NumPy function that applies to the entire Series) or a "
+"Python function that only works on single values."
+msgstr ""
+
+#: of pandas.Series.apply
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.apply:10
+msgid "**func**"
+msgstr ""
+
+#: of pandas.Series.apply:9
+msgid "function"
+msgstr ""
+
+#: of pandas.Series.apply:10
+msgid "Python function or NumPy ufunc to apply."
+msgstr ""
+
+#: of pandas.Series.apply:14
+msgid "**convert_dtype**"
+msgstr ""
+
+#: of pandas.Series.apply:13
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.Series.apply:13
+msgid ""
+"Try to find better dtype for elementwise function results. If False, "
+"leave as dtype=object."
+msgstr ""
+
+#: of pandas.Series.apply:17
+msgid "**args**"
+msgstr ""
+
+#: of pandas.Series.apply:16
+msgid "tuple"
+msgstr ""
+
+#: of pandas.Series.apply:17
+msgid "Positional arguments passed to func after the series value."
+msgstr ""
+
+#: of pandas.Series.apply:20
+msgid "**\\*\\*kwds**"
+msgstr ""
+
+#: of pandas.Series.apply:20
+msgid "Additional keyword arguments passed to func."
+msgstr ""
+
+#: of pandas.Series.apply
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.apply:30
+msgid "**Series or DataFrame**"
+msgstr ""
+
+#: of pandas.Series.apply:25
+msgid "If func returns a Series object the result will be a DataFrame."
+msgstr ""
+
+#: of pandas.Series.apply:36
+msgid ":obj:`Series.map`"
+msgstr ""
+
+#: of pandas.Series.apply:36
+msgid "For element-wise operations."
+msgstr ""
+
+#: of pandas.Series.apply:39
+msgid ":obj:`Series.agg`"
+msgstr ""
+
+#: of pandas.Series.apply:39
+msgid "Only perform aggregating type operations."
+msgstr ""
+
+#: of pandas.Series.apply:41
+msgid ":obj:`Series.transform`"
+msgstr ""
+
+#: of pandas.Series.apply:42
+msgid "Only perform transforming type operations."
+msgstr ""
+
+#: of pandas.Series.apply:47
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.apply:48
+msgid "Create a series with typical summer temperatures for each city."
+msgstr ""
+
+#: of pandas.Series.apply:58
+msgid ""
+"Square the values by defining a function and passing it as an argument to"
+" ``apply()``."
+msgstr ""
+
+#: of pandas.Series.apply:69
+msgid ""
+"Square the values by passing an anonymous function as an argument to "
+"``apply()``."
+msgstr ""
+
+#: of pandas.Series.apply:78
+msgid ""
+"Define a custom function that needs additional positional arguments and "
+"pass these additional arguments using the ``args`` keyword."
+msgstr ""
+
+#: of pandas.Series.apply:91
+msgid ""
+"Define a custom function that takes keyword arguments and pass these "
+"arguments to ``apply``."
+msgstr ""
+
+#: of pandas.Series.apply:105
+msgid "Use a function from the Numpy library."
+msgstr ""
+

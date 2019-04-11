@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Period.weekday.rst:2
+msgid "pandas.Period.weekday"
+msgstr ""
+
+#: ../../docstring of pandas.Period.weekday:2
+msgid "Day of the week the period lies in, with Monday=0 and Sunday=6."
+msgstr ""
+
+#: ../../docstring of pandas.Period.weekday:4
+msgid ""
+"If the period frequency is lower than daily (e.g. hourly), and the period"
+" spans over multiple days, the day at the start of the period is used."
+msgstr ""
+
+#: ../../docstring of pandas.Period.weekday:8
+msgid ""
+"If the frequency is higher than daily (e.g. monthly), the last day of the"
+" period is used."
+msgstr ""
+
+#: ../../docstring of pandas.Period.weekday
+msgid "Returns"
+msgstr ""
+
+#: ../../docstring of pandas.Period.weekday:20
+msgid "**int**"
+msgstr ""
+
+#: ../../docstring of pandas.Period.weekday:15
+msgid "Day of the week."
+msgstr ""
+
+#: ../../docstring of pandas.Period.weekday:26
+msgid ":obj:`Period.dayofweek`"
+msgstr ""
+
+#: ../../docstring of pandas.Period.weekday:26
+msgid "Day of the week the period lies in."
+msgstr ""
+
+#: ../../docstring of pandas.Period.weekday:29
+msgid ":obj:`Period.weekday`"
+msgstr ""
+
+#: ../../docstring of pandas.Period.weekday:29
+msgid "Alias of Period.dayofweek."
+msgstr ""
+
+#: ../../docstring of pandas.Period.weekday:32
+msgid ":obj:`Period.day`"
+msgstr ""
+
+#: ../../docstring of pandas.Period.weekday:32
+msgid "Day of the month."
+msgstr ""
+
+#: ../../docstring of pandas.Period.weekday:34
+msgid ":obj:`Period.dayofyear`"
+msgstr ""
+
+#: ../../docstring of pandas.Period.weekday:35
+msgid "Day of the year."
+msgstr ""
+
+#: ../../docstring of pandas.Period.weekday:40
+msgid "Examples"
+msgstr ""
+
+#: ../../docstring of pandas.Period.weekday:45
+msgid ""
+"For periods that span over multiple days, the day at the beginning of the"
+" period is returned."
+msgstr ""
+
+#: ../../docstring of pandas.Period.weekday:54
+msgid ""
+"For periods with a frequency higher than days, the last day of the period"
+" is returned."
+msgstr ""
+

@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.get_dummies.rst:2
+msgid "pandas.get\\_dummies"
+msgstr ""
+
+#: of pandas.get_dummies:2
+msgid "Convert categorical variable into dummy/indicator variables"
+msgstr ""
+
+#: of pandas.get_dummies
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.get_dummies:8
+msgid "**data**"
+msgstr ""
+
+#: of pandas.get_dummies:7
+msgid "array-like, Series, or DataFrame"
+msgstr ""
+
+#: of pandas.get_dummies:14
+msgid "**prefix**"
+msgstr ""
+
+#: of pandas.get_dummies:13
+msgid "string, list of strings, or dict of strings, default None"
+msgstr ""
+
+#: of pandas.get_dummies:11
+msgid ""
+"String to append DataFrame column names. Pass a list with length equal to"
+" the number of columns when calling get_dummies on a DataFrame. "
+"Alternatively, `prefix` can be a dictionary mapping column names to "
+"prefixes."
+msgstr ""
+
+#: of pandas.get_dummies:18
+msgid "**prefix_sep**"
+msgstr ""
+
+#: of pandas.get_dummies:17
+msgid "string, default '_'"
+msgstr ""
+
+#: of pandas.get_dummies:17
+msgid ""
+"If appending prefix, separator/delimiter to use. Or pass a list or "
+"dictionary as with `prefix.`"
+msgstr ""
+
+#: of pandas.get_dummies:21
+msgid "**dummy_na**"
+msgstr ""
+
+#: of pandas.get_dummies:20 pandas.get_dummies:29 pandas.get_dummies:35
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.get_dummies:21
+msgid "Add a column to indicate NaNs, if False NaNs are ignored."
+msgstr ""
+
+#: of pandas.get_dummies:26
+msgid "**columns**"
+msgstr ""
+
+#: of pandas.get_dummies:25
+msgid "list-like, default None"
+msgstr ""
+
+#: of pandas.get_dummies:24
+msgid ""
+"Column names in the DataFrame to be encoded. If `columns` is None then "
+"all the columns with `object` or `category` dtype will be converted."
+msgstr ""
+
+#: of pandas.get_dummies:30
+msgid "**sparse**"
+msgstr ""
+
+#: of pandas.get_dummies:29
+msgid ""
+"Whether the dummy-encoded columns should be be backed by a "
+":class:`SparseArray` (True) or a regular NumPy array (False)."
+msgstr ""
+
+#: of pandas.get_dummies:36
+msgid "**drop_first**"
+msgstr ""
+
+#: of pandas.get_dummies:33
+msgid ""
+"Whether to get k-1 dummies out of k categorical levels by removing the "
+"first level."
+msgstr ""
+
+#: of pandas.get_dummies:41
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.get_dummies:40
+msgid "dtype, default np.uint8"
+msgstr ""
+
+#: of pandas.get_dummies:39
+msgid "Data type for new columns. Only a single dtype is allowed."
+msgstr ""
+
+#: of pandas.get_dummies
+msgid "Returns"
+msgstr ""
+
+#: of pandas.get_dummies:51
+msgid "**dummies**"
+msgstr ""
+
+#: of pandas.get_dummies:50
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.get_dummies:56
+msgid ":obj:`Series.str.get_dummies`"
+msgstr ""
+
+#: of pandas.get_dummies:61
+msgid "Examples"
+msgstr ""
+

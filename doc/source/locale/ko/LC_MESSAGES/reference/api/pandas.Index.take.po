@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.take.rst:2
+msgid "pandas.Index.take"
+msgstr ""
+
+#: of pandas.Index.take:2
+msgid "Return a new Index of the values selected by the indices."
+msgstr ""
+
+#: of pandas.Index.take:4
+msgid "For internal compatibility with numpy arrays."
+msgstr ""
+
+#: of pandas.Index.take
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.take:9
+msgid "**indices**"
+msgstr ""
+
+#: of pandas.Index.take:8
+msgid "list"
+msgstr ""
+
+#: of pandas.Index.take:9
+msgid "Indices to be taken"
+msgstr ""
+
+#: of pandas.Index.take:12
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.Index.take:11
+msgid "int, optional"
+msgstr ""
+
+#: of pandas.Index.take:12
+msgid "The axis over which to select values, always 0."
+msgstr ""
+
+#: of pandas.Index.take:15
+msgid "**allow_fill**"
+msgstr ""
+
+#: of pandas.Index.take:14
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.Index.take:25
+msgid "**fill_value**"
+msgstr ""
+
+#: of pandas.Index.take:24
+msgid "bool, default None"
+msgstr ""
+
+#: of pandas.Index.take:18
+msgid ""
+"If allow_fill=True and fill_value is not None, indices specified by -1 is"
+" regarded as NA. If Index doesn't hold NA, raise ValueError"
+msgstr ""
+
+#: of pandas.Index.take:30
+msgid ":obj:`numpy.ndarray.take`"
+msgstr ""
+

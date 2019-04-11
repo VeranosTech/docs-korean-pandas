@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.arrays.PandasArray.argsort.rst:2
+msgid "pandas.arrays.PandasArray.argsort"
+msgstr ""
+
+#: of pandas.arrays.PandasArray.argsort:2
+msgid "Return the indices that would sort this array."
+msgstr ""
+
+#: of pandas.arrays.PandasArray.argsort
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.arrays.PandasArray.argsort:9
+msgid "**ascending**"
+msgstr ""
+
+#: of pandas.arrays.PandasArray.argsort:8
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.arrays.PandasArray.argsort:8
+msgid "Whether the indices should result in an ascending or descending sort."
+msgstr ""
+
+#: of pandas.arrays.PandasArray.argsort:12
+msgid "**kind**"
+msgstr ""
+
+#: of pandas.arrays.PandasArray.argsort:11
+msgid "{'quicksort', 'mergesort', 'heapsort'}, optional"
+msgstr ""
+
+#: of pandas.arrays.PandasArray.argsort:12
+msgid "Sorting algorithm."
+msgstr ""
+
+#: of pandas.arrays.PandasArray.argsort:15
+msgid "**\\*args, **kwargs:**"
+msgstr ""
+
+#: of pandas.arrays.PandasArray.argsort:15
+msgid "passed through to :func:`numpy.argsort`."
+msgstr ""
+
+#: of pandas.arrays.PandasArray.argsort
+msgid "Returns"
+msgstr ""
+
+#: of pandas.arrays.PandasArray.argsort:25
+msgid "**index_array**"
+msgstr ""
+
+#: of pandas.arrays.PandasArray.argsort:24
+msgid "ndarray"
+msgstr ""
+
+#: of pandas.arrays.PandasArray.argsort:20
+msgid "Array of indices that sort ``self``."
+msgstr ""
+
+#: of pandas.arrays.PandasArray.argsort:30
+msgid ":obj:`numpy.argsort`"
+msgstr ""
+
+#: of pandas.arrays.PandasArray.argsort:31
+msgid "Sorting implementation used internally."
+msgstr ""
+

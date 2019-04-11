@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.read_clipboard.rst:2
+msgid "pandas.read\\_clipboard"
+msgstr ""
+
+#: of pandas.read_clipboard:2
+msgid ""
+"Read text from clipboard and pass to read_csv. See read_csv for the full "
+"argument list"
+msgstr ""
+
+#: of pandas.read_clipboard
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.read_clipboard:10
+msgid "**sep**"
+msgstr ""
+
+#: of pandas.read_clipboard:9
+msgid "str, default '\\s+'"
+msgstr ""
+
+#: of pandas.read_clipboard:9
+msgid ""
+"A string or regex delimiter. The default of '\\s+' denotes one or more "
+"whitespace characters."
+msgstr ""
+
+#: of pandas.read_clipboard
+msgid "Returns"
+msgstr ""
+
+#: of pandas.read_clipboard:26
+msgid "**parsed**"
+msgstr ""
+
+#: of pandas.read_clipboard:25
+msgid "DataFrame"
+msgstr ""
+

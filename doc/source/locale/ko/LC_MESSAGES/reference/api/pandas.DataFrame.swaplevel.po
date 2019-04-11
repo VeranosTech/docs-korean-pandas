@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.swaplevel.rst:2
+msgid "pandas.DataFrame.swaplevel"
+msgstr ""
+
+#: of pandas.DataFrame.swaplevel:2
+msgid "Swap levels i and j in a MultiIndex on a particular axis."
+msgstr ""
+
+#: of pandas.DataFrame.swaplevel
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.swaplevel:8
+msgid "**i, j**"
+msgstr ""
+
+#: of pandas.DataFrame.swaplevel:7
+msgid "int, string (can be mixed)"
+msgstr ""
+
+#: of pandas.DataFrame.swaplevel:8
+msgid "Level of index to be swapped. Can pass level name as string."
+msgstr ""
+
+#: of pandas.DataFrame.swaplevel
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.swaplevel:13
+msgid "**swapped**"
+msgstr ""
+
+#: of pandas.DataFrame.swaplevel:12
+msgid "same type as caller (new object)"
+msgstr ""
+
+#: of pandas.DataFrame.swaplevel:28
+msgid "**.. versionchanged:: 0.18.1**"
+msgstr ""
+
+#: of pandas.DataFrame.swaplevel:16
+msgid ""
+"The indexes ``i`` and ``j`` are now optional, and default to the two "
+"innermost levels of the index."
+msgstr ""
+

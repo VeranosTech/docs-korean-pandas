@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.IntervalIndex.is_overlapping.rst:2
+msgid "pandas.IntervalIndex.is\\_overlapping"
+msgstr ""
+
+#: of pandas.IntervalIndex.is_overlapping:2
+msgid "Return True if the IntervalIndex has overlapping intervals, else False."
+msgstr ""
+
+#: of pandas.IntervalIndex.is_overlapping:4
+msgid ""
+"Two intervals overlap if they share a common point, including closed "
+"endpoints. Intervals that only have an open endpoint in common do not "
+"overlap."
+msgstr ""
+
+#: of pandas.IntervalIndex.is_overlapping
+msgid "Returns"
+msgstr ""
+
+#: of pandas.IntervalIndex.is_overlapping:19
+msgid "**bool**"
+msgstr ""
+
+#: of pandas.IntervalIndex.is_overlapping:14
+msgid "Boolean indicating if the IntervalIndex has overlapping intervals."
+msgstr ""
+
+#: of pandas.IntervalIndex.is_overlapping:25
+msgid ":obj:`Interval.overlaps`"
+msgstr ""
+
+#: of pandas.IntervalIndex.is_overlapping:25
+msgid "Check whether two Interval objects overlap."
+msgstr ""
+
+#: of pandas.IntervalIndex.is_overlapping:27
+msgid ":obj:`IntervalIndex.overlaps`"
+msgstr ""
+
+#: of pandas.IntervalIndex.is_overlapping:28
+msgid "Check an IntervalIndex elementwise for overlaps."
+msgstr ""
+
+#: of pandas.IntervalIndex.is_overlapping:33
+msgid "Examples"
+msgstr ""
+
+#: of pandas.IntervalIndex.is_overlapping:42
+msgid "Intervals that share closed endpoints overlap:"
+msgstr ""
+
+#: of pandas.IntervalIndex.is_overlapping:52
+msgid "Intervals that only have an open endpoint in common do not overlap:"
+msgstr ""
+

@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.first.rst:2
+msgid "pandas.Series.first"
+msgstr ""
+
+#: of pandas.Series.first:2
+msgid ""
+"Convenience method for subsetting initial periods of time series data "
+"based on a date offset."
+msgstr ""
+
+#: of pandas.Series.first
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.first:9
+msgid "**offset**"
+msgstr ""
+
+#: of pandas.Series.first:8
+msgid "string, DateOffset, dateutil.relativedelta"
+msgstr ""
+
+#: of pandas.Series.first
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.first:16
+msgid "**subset**"
+msgstr ""
+
+#: of pandas.Series.first:15
+msgid "same type as caller"
+msgstr ""
+
+#: of pandas.Series.first
+msgid "Raises"
+msgstr ""
+
+#: of pandas.Series.first:23
+msgid "**TypeError**"
+msgstr ""
+
+#: of pandas.Series.first:21
+msgid "If the index is not  a :class:`DatetimeIndex`"
+msgstr ""
+
+#: of pandas.Series.first:29
+msgid ":obj:`last`"
+msgstr ""
+
+#: of pandas.Series.first:29
+msgid "Select final periods of time series based on a date offset."
+msgstr ""
+
+#: of pandas.Series.first:32
+msgid ":obj:`at_time`"
+msgstr ""
+
+#: of pandas.Series.first:32
+msgid "Select values at a particular time of the day."
+msgstr ""
+
+#: of pandas.Series.first:34
+msgid ":obj:`between_time`"
+msgstr ""
+
+#: of pandas.Series.first:35
+msgid "Select values between particular times of the day."
+msgstr ""
+
+#: of pandas.Series.first:40
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.first:50
+msgid "Get the rows for the first 3 days:"
+msgstr ""
+
+#: of pandas.Series.first:57
+msgid ""
+"Notice the data for 3 first calender days were returned, not the first 3 "
+"days observed in the dataset, and therefore data for 2018-04-13 was not "
+"returned."
+msgstr ""
+

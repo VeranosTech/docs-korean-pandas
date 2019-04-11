@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.core.window.Rolling.corr.rst:2
+msgid "pandas.core.window.Rolling.corr"
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:2
+msgid "Calculate rolling correlation."
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:8
+msgid "**other**"
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:7
+msgid "Series, DataFrame, or ndarray, optional"
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:8
+msgid "If not supplied then will default to self."
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:14
+msgid "**pairwise**"
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:13
+msgid "bool, default None"
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:11
+msgid ""
+"Calculate pairwise combinations of columns within a DataFrame. If `other`"
+" is not specified, defaults to `True`, otherwise defaults to `False`. Not"
+" relevant for :class:`~pandas.Series`."
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:17
+msgid "**\\*\\*kwargs**"
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:17
+msgid "Unused."
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr
+msgid "Returns"
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:28
+msgid "**Series or DataFrame**"
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:22
+msgid ""
+"Returned object type is determined by the caller of the rolling "
+"calculation."
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:34
+msgid ":obj:`Series.rolling`"
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:34
+msgid "Calling object with Series data."
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:37
+msgid ":obj:`DataFrame.rolling`"
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:37
+msgid "Calling object with DataFrames."
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:40
+msgid ":obj:`Series.corr`"
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:40
+msgid "Equivalent method for Series."
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:43
+msgid ":obj:`DataFrame.corr`"
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:43
+msgid "Equivalent method for DataFrame."
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:46
+msgid ":obj:`rolling.cov`"
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:46
+msgid "Similar method to calculate covariance."
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:48
+msgid ":obj:`numpy.corrcoef`"
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:49
+msgid "NumPy Pearson's correlation calculation."
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:52
+msgid "Notes"
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:53
+msgid ""
+"This function uses Pearson's definition of correlation "
+"(https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)."
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:56
+msgid ""
+"When `other` is not specified, the output will be self correlation (e.g. "
+"all 1's), except for :class:`~pandas.DataFrame` inputs with `pairwise` "
+"set to `True`."
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:60
+msgid ""
+"Function will return ``NaN`` for correlations of equal valued sequences; "
+"this is the result of a 0/0 division error."
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:63
+msgid ""
+"When `pairwise` is set to `False`, only matching columns between `self` "
+"and `other` will be used."
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:66
+msgid ""
+"When `pairwise` is set to `True`, the output will be a MultiIndex "
+"DataFrame with the original index on the first level, and the `other` "
+"DataFrame columns on the second level."
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:70
+msgid ""
+"In the case of missing elements, only complete pairwise observations will"
+" be used."
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:75
+msgid "Examples"
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:76
+msgid ""
+"The below example shows a rolling calculation with a window size of four "
+"matching the equivalent function call using :meth:`numpy.corrcoef`."
+msgstr ""
+
+#: of pandas.core.window.Rolling.corr:98
+msgid ""
+"The below example shows a similar rolling calculation on a DataFrame "
+"using the pairwise option."
+msgstr ""
+

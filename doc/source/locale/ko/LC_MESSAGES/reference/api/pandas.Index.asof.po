@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.asof.rst:2
+msgid "pandas.Index.asof"
+msgstr ""
+
+#: of pandas.Index.asof:2
+msgid "Return the label from the index, or, if not present, the previous one."
+msgstr ""
+
+#: of pandas.Index.asof:4
+msgid ""
+"Assuming that the index is sorted, return the passed index label if it is"
+" in the index, or return the previous index label if the passed one is "
+"not in the index."
+msgstr ""
+
+#: of pandas.Index.asof
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.asof:11
+msgid "**label**"
+msgstr ""
+
+#: of pandas.Index.asof:10
+msgid "object"
+msgstr ""
+
+#: of pandas.Index.asof:11
+msgid "The label up to which the method returns the latest index label."
+msgstr ""
+
+#: of pandas.Index.asof
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.asof:23
+msgid "**object**"
+msgstr ""
+
+#: of pandas.Index.asof:16
+msgid ""
+"The passed label if it is in the index. The previous label if the passed "
+"label is not in the sorted index or `NaN` if there is no such label."
+msgstr ""
+
+#: of pandas.Index.asof:29
+msgid ":obj:`Series.asof`"
+msgstr ""
+
+#: of pandas.Index.asof:29
+msgid "Return the latest value in a Series up to the passed index."
+msgstr ""
+
+#: of pandas.Index.asof:32
+msgid ":obj:`merge_asof`"
+msgstr ""
+
+#: of pandas.Index.asof:32
+msgid ""
+"Perform an asof merge (similar to left join but it matches on nearest key"
+" rather than equal key)."
+msgstr ""
+
+#: of pandas.Index.asof:34
+msgid ":obj:`Index.get_loc`"
+msgstr ""
+
+#: of pandas.Index.asof:35
+msgid "An `asof` is a thin wrapper around `get_loc` with method='pad'."
+msgstr ""
+
+#: of pandas.Index.asof:40
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Index.asof:41
+msgid "`Index.asof` returns the latest index label up to the passed label."
+msgstr ""
+
+#: of pandas.Index.asof:47
+msgid "If the label is in the index, the method returns the passed label."
+msgstr ""
+
+#: of pandas.Index.asof:52
+msgid ""
+"If all of the labels in the index are later than the passed label, NaN is"
+" returned."
+msgstr ""
+
+#: of pandas.Index.asof:58
+msgid "If the index is not sorted, an error is raised."
+msgstr ""
+

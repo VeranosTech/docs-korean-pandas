@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.str.find.rst:2
+msgid "pandas.Series.str.find"
+msgstr ""
+
+#: of pandas.Series.str.find:2
+msgid ""
+"Return lowest indexes in each strings in the Series/Index where the "
+"substring is fully contained between [start:end]. Return -1 on failure. "
+"Equivalent to standard :meth:`str.find`."
+msgstr ""
+
+#: of pandas.Series.str.find
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.str.find:10
+msgid "**sub**"
+msgstr ""
+
+#: of pandas.Series.str.find:9
+msgid "str"
+msgstr ""
+
+#: of pandas.Series.str.find:10
+msgid "Substring being searched"
+msgstr ""
+
+#: of pandas.Series.str.find:13
+msgid "**start**"
+msgstr ""
+
+#: of pandas.Series.str.find:12 pandas.Series.str.find:15
+msgid "int"
+msgstr ""
+
+#: of pandas.Series.str.find:13
+msgid "Left edge index"
+msgstr ""
+
+#: of pandas.Series.str.find:16
+msgid "**end**"
+msgstr ""
+
+#: of pandas.Series.str.find:16
+msgid "Right edge index"
+msgstr ""
+
+#: of pandas.Series.str.find
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.str.find:26
+msgid "**found**"
+msgstr ""
+
+#: of pandas.Series.str.find:25
+msgid "Series/Index of integer values"
+msgstr ""
+
+#: of pandas.Series.str.find:31
+msgid ":obj:`rfind`"
+msgstr ""
+
+#: of pandas.Series.str.find:32
+msgid "Return highest indexes in each strings."
+msgstr ""
+

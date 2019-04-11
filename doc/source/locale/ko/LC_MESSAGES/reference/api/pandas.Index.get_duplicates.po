@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.get_duplicates.rst:2
+msgid "pandas.Index.get\\_duplicates"
+msgstr ""
+
+#: of pandas.Index.get_duplicates:2
+msgid "Extract duplicated index elements."
+msgstr ""
+
+#: of pandas.Index.get_duplicates:4
+msgid "Use idx[idx.duplicated()].unique() instead"
+msgstr ""
+
+#: of pandas.Index.get_duplicates:7
+msgid ""
+"Returns a sorted list of index elements which appear more than once in "
+"the index."
+msgstr ""
+
+#: of pandas.Index.get_duplicates
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.get_duplicates:19
+msgid "**array-like**"
+msgstr ""
+
+#: of pandas.Index.get_duplicates:14
+msgid "List of duplicated indexes."
+msgstr ""
+
+#: of pandas.Index.get_duplicates:25
+msgid ":obj:`Index.duplicated`"
+msgstr ""
+
+#: of pandas.Index.get_duplicates:25
+msgid "Return boolean array denoting duplicates."
+msgstr ""
+
+#: of pandas.Index.get_duplicates:27
+msgid ":obj:`Index.drop_duplicates`"
+msgstr ""
+
+#: of pandas.Index.get_duplicates:28
+msgid "Return Index with duplicates removed."
+msgstr ""
+
+#: of pandas.Index.get_duplicates:33
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Index.get_duplicates:34
+msgid "Works on different Index of types."
+msgstr ""
+
+#: of pandas.Index.get_duplicates:39
+msgid ""
+"Note that for a DatetimeIndex, it does not return a list but a new "
+"DatetimeIndex:"
+msgstr ""
+
+#: of pandas.Index.get_duplicates:49
+msgid "Sorts duplicated elements even when indexes are unordered."
+msgstr ""
+
+#: of pandas.Index.get_duplicates:54
+msgid "Return empty array-like structure when all elements are unique."
+msgstr ""
+

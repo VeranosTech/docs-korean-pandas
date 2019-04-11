@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.plot.area.rst:2
+msgid "pandas.DataFrame.plot.area"
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:2
+msgid "Draw a stacked area plot."
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:4
+msgid ""
+"An area plot displays quantitative data visually. This function wraps the"
+" matplotlib area function."
+msgstr ""
+
+#: of pandas.DataFrame.plot.area
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:10
+msgid "**x**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:9 pandas.DataFrame.plot.area:12
+msgid "label or position, optional"
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:10
+msgid "Coordinates for the X axis. By default uses the index."
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:13
+msgid "**y**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:13
+msgid "Column to plot. By default uses all columns."
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:17
+msgid "**stacked**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:16
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:16
+msgid ""
+"Area plots are stacked by default. Set to False to create a unstacked "
+"plot."
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:21
+msgid "**\\*\\*kwds**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:20
+msgid "optional"
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:20
+msgid ""
+"Additional keyword arguments are documented in "
+":meth:`pandas.DataFrame.plot`."
+msgstr ""
+
+#: of pandas.DataFrame.plot.area
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:31
+msgid "**matplotlib.axes.Axes or numpy.ndarray**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:26
+msgid "Area plot, or array of area plots if subplots is True"
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:36
+msgid ":obj:`DataFrame.plot`"
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:37
+msgid "Make plots of DataFrame using matplotlib / pylab."
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:42
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:43
+msgid "Draw an area plot based on basic business metrics:"
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:56
+msgid ""
+"Area plots are stacked by default. To produce an unstacked plot, pass "
+"``stacked=False``:"
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:64
+msgid "Draw an area plot for a single column:"
+msgstr ""
+
+#: of pandas.DataFrame.plot.area:71
+msgid "Draw with a different `x`:"
+msgstr ""
+

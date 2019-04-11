@@ -1,0 +1,331 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.to_datetime.rst:2
+msgid "pandas.to\\_datetime"
+msgstr ""
+
+#: of pandas.to_datetime:2
+msgid "Convert argument to datetime."
+msgstr ""
+
+#: of pandas.to_datetime
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.to_datetime:10
+msgid "**arg**"
+msgstr ""
+
+#: of pandas.to_datetime:9
+msgid "integer, float, string, datetime, list, tuple, 1-d array, Series"
+msgstr ""
+
+#: of pandas.to_datetime:10
+msgid "or DataFrame/dict-like"
+msgstr ""
+
+#: of pandas.to_datetime:15
+msgid "**errors**"
+msgstr ""
+
+#: of pandas.to_datetime:14
+msgid "{'ignore', 'raise', 'coerce'}, default 'raise'"
+msgstr ""
+
+#: of pandas.to_datetime:13
+msgid "If 'raise', then invalid parsing will raise an exception"
+msgstr ""
+
+#: of pandas.to_datetime:14
+msgid "If 'coerce', then invalid parsing will be set as NaT"
+msgstr ""
+
+#: of pandas.to_datetime:15
+msgid "If 'ignore', then invalid parsing will return the input"
+msgstr ""
+
+#: of pandas.to_datetime:22
+msgid "**dayfirst**"
+msgstr ""
+
+#: of pandas.to_datetime:21 pandas.to_datetime:34 pandas.to_datetime:62
+#: pandas.to_datetime:82
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.to_datetime:18
+msgid ""
+"Specify a date parse order if `arg` is str or its list-likes. If True, "
+"parses dates with the day first, eg 10/11/12 is parsed as 2012-11-10. "
+"Warning: dayfirst=True is not strict, but will prefer to parse with day "
+"first (this is a known bug, based on dateutil behavior)."
+msgstr ""
+
+#: of pandas.to_datetime:35
+msgid "**yearfirst**"
+msgstr ""
+
+#: of pandas.to_datetime:25
+msgid "Specify a date parse order if `arg` is str or its list-likes."
+msgstr ""
+
+#: of pandas.to_datetime:27
+msgid ""
+"If True parses dates with the year first, eg 10/11/12 is parsed as "
+"2010-11-12."
+msgstr ""
+
+#: of pandas.to_datetime:29
+msgid ""
+"If both dayfirst and yearfirst are True, yearfirst is preceded (same as "
+"dateutil)."
+msgstr ""
+
+#: of pandas.to_datetime:32
+msgid ""
+"Warning: yearfirst=True is not strict, but will prefer to parse with year"
+" first (this is a known bug, based on dateutil behavior)."
+msgstr ""
+
+#: of pandas.to_datetime:39
+msgid "**utc**"
+msgstr ""
+
+#: of pandas.to_datetime:38
+msgid "boolean, default None"
+msgstr ""
+
+#: of pandas.to_datetime:38
+msgid ""
+"Return UTC DatetimeIndex if True (converting any tz-aware "
+"datetime.datetime objects as well)."
+msgstr ""
+
+#: of pandas.to_datetime:43
+msgid "**box**"
+msgstr ""
+
+#: of pandas.to_datetime:42
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.to_datetime:42
+msgid "If True returns a DatetimeIndex or Index-like object"
+msgstr ""
+
+#: of pandas.to_datetime:43
+msgid "If False returns ndarray of values."
+msgstr ""
+
+#: of pandas.to_datetime:47
+msgid "**format**"
+msgstr ""
+
+#: of pandas.to_datetime:46
+msgid "string, default None"
+msgstr ""
+
+#: of pandas.to_datetime:46
+#, python-format
+msgid ""
+"strftime to parse time, eg \"%d/%m/%Y\", note that \"%f\" will parse all "
+"the way up to nanoseconds."
+msgstr ""
+
+#: of pandas.to_datetime:51
+msgid "**exact**"
+msgstr ""
+
+#: of pandas.to_datetime:50
+msgid "boolean, True by default"
+msgstr ""
+
+#: of pandas.to_datetime:50
+msgid "If True, require an exact format match."
+msgstr ""
+
+#: of pandas.to_datetime:51
+msgid "If False, allow the format to match anywhere in the target string."
+msgstr ""
+
+#: of pandas.to_datetime:57
+msgid "**unit**"
+msgstr ""
+
+#: of pandas.to_datetime:56
+msgid "string, default 'ns'"
+msgstr ""
+
+#: of pandas.to_datetime:54
+msgid ""
+"unit of the arg (D,s,ms,us,ns) denote the unit, which is an integer or "
+"float number. This will be based off the origin. Example, with unit='ms' "
+"and origin='unix' (the default), this would calculate the number of "
+"milliseconds to the unix epoch start."
+msgstr ""
+
+#: of pandas.to_datetime:63
+msgid "**infer_datetime_format**"
+msgstr ""
+
+#: of pandas.to_datetime:60
+msgid ""
+"If True and no `format` is given, attempt to infer the format of the "
+"datetime strings, and if it can be inferred, switch to a faster method of"
+" parsing them. In some cases this can increase the parsing speed by "
+"~5-10x."
+msgstr ""
+
+#: of pandas.to_datetime:76
+msgid "**origin**"
+msgstr ""
+
+#: of pandas.to_datetime:75
+msgid "scalar, default is 'unix'"
+msgstr ""
+
+#: of pandas.to_datetime:66
+msgid ""
+"Define the reference date. The numeric values would be parsed as number "
+"of units (defined by `unit`) since this reference date."
+msgstr ""
+
+#: of pandas.to_datetime:69
+msgid "If 'unix' (or POSIX) time; origin is set to 1970-01-01."
+msgstr ""
+
+#: of pandas.to_datetime:70
+msgid ""
+"If 'julian', unit must be 'D', and origin is set to beginning of Julian "
+"Calendar. Julian day number 0 is assigned to the day starting at noon on "
+"January 1, 4713 BC."
+msgstr ""
+
+#: of pandas.to_datetime:73
+msgid "If Timestamp convertible, origin is set to Timestamp identified by origin."
+msgstr ""
+
+#: of pandas.to_datetime:83
+msgid "**cache**"
+msgstr ""
+
+#: of pandas.to_datetime:79
+msgid ""
+"If True, use a cache of unique, converted dates to apply the datetime "
+"conversion. May produce significant speed-up when parsing duplicate date "
+"strings, especially ones with timezone offsets."
+msgstr ""
+
+#: of pandas.to_datetime
+msgid "Returns"
+msgstr ""
+
+#: of pandas.to_datetime:102
+msgid "**ret**"
+msgstr ""
+
+#: of pandas.to_datetime:101
+msgid "datetime if parsing succeeded."
+msgstr ""
+
+#: of pandas.to_datetime:88
+msgid "Return type depends on input:"
+msgstr ""
+
+#: of pandas.to_datetime:90
+msgid "list-like: DatetimeIndex"
+msgstr ""
+
+#: of pandas.to_datetime:91
+msgid "Series: Series of datetime64 dtype"
+msgstr ""
+
+#: of pandas.to_datetime:92
+msgid "scalar: Timestamp"
+msgstr ""
+
+#: of pandas.to_datetime:94
+msgid ""
+"In case when it is not possible to return designated types (e.g. when any"
+" element of input is before Timestamp.min or after Timestamp.max) return "
+"will have datetime.datetime type (or corresponding array/Series)."
+msgstr ""
+
+#: of pandas.to_datetime:108
+msgid ":obj:`pandas.DataFrame.astype`"
+msgstr ""
+
+#: of pandas.to_datetime:108
+msgid "Cast argument to a specified dtype."
+msgstr ""
+
+#: of pandas.to_datetime:110
+msgid ":obj:`pandas.to_timedelta`"
+msgstr ""
+
+#: of pandas.to_datetime:111
+msgid "Convert argument to timedelta."
+msgstr ""
+
+#: of pandas.to_datetime:116
+msgid "Examples"
+msgstr ""
+
+#: of pandas.to_datetime:117
+msgid ""
+"Assembling a datetime from multiple columns of a DataFrame. The keys can "
+"be common abbreviations like ['year', 'month', 'day', 'minute', 'second',"
+" 'ms', 'us', 'ns']) or plurals of the same"
+msgstr ""
+
+#: of pandas.to_datetime:129
+msgid ""
+"If a date does not meet the `timestamp limitations "
+"<http://pandas.pydata.org/pandas-docs/stable/timeseries.html #timeseries-"
+"timestamp-limits>`_, passing errors='ignore' will return the original "
+"input instead of raising any exception."
+msgstr ""
+
+#: of pandas.to_datetime:134
+msgid ""
+"Passing errors='coerce' will force an out-of-bounds date to NaT, in "
+"addition to forcing non-dates (or non-parseable dates) to NaT."
+msgstr ""
+
+#: of pandas.to_datetime:142
+msgid ""
+"Passing infer_datetime_format=True can often-times speedup a parsing if "
+"its not an ISO8601 format exactly, but in a regular format."
+msgstr ""
+
+#: of pandas.to_datetime:161
+msgid "Using a unix epoch time"
+msgstr ""
+
+#: of pandas.to_datetime:168
+msgid ""
+"For float arg, precision rounding might happen. To prevent unexpected "
+"behavior use a fixed-width exact type."
+msgstr ""
+
+#: of pandas.to_datetime:171
+msgid "Using a non-unix epoch origin"
+msgstr ""
+

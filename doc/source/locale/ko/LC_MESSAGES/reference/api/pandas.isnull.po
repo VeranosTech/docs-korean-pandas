@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.isnull.rst:2
+msgid "pandas.isnull"
+msgstr ""
+
+#: of pandas.isnull:2
+msgid "Detect missing values for an array-like object."
+msgstr ""
+
+#: of pandas.isnull:4
+msgid ""
+"This function takes a scalar or array-like object and indicates whether "
+"values are missing (``NaN`` in numeric arrays, ``None`` or ``NaN`` in "
+"object arrays, ``NaT`` in datetimelike)."
+msgstr ""
+
+#: of pandas.isnull
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.isnull:11
+msgid "**obj**"
+msgstr ""
+
+#: of pandas.isnull:10
+msgid "scalar or array-like"
+msgstr ""
+
+#: of pandas.isnull:11
+msgid "Object to check for null or missing values."
+msgstr ""
+
+#: of pandas.isnull
+msgid "Returns"
+msgstr ""
+
+#: of pandas.isnull:23
+msgid "**bool or array-like of bool**"
+msgstr ""
+
+#: of pandas.isnull:16
+msgid ""
+"For scalar input, returns a scalar boolean. For array input, returns an "
+"array of boolean indicating whether each corresponding element is "
+"missing."
+msgstr ""
+
+#: of pandas.isnull:29
+msgid ":obj:`notna`"
+msgstr ""
+
+#: of pandas.isnull:29
+msgid "Boolean inverse of pandas.isna."
+msgstr ""
+
+#: of pandas.isnull:32
+msgid ":obj:`Series.isna`"
+msgstr ""
+
+#: of pandas.isnull:32
+msgid "Detect missing values in a Series."
+msgstr ""
+
+#: of pandas.isnull:35
+msgid ":obj:`DataFrame.isna`"
+msgstr ""
+
+#: of pandas.isnull:35
+msgid "Detect missing values in a DataFrame."
+msgstr ""
+
+#: of pandas.isnull:37
+msgid ":obj:`Index.isna`"
+msgstr ""
+
+#: of pandas.isnull:38
+msgid "Detect missing values in an Index."
+msgstr ""
+
+#: of pandas.isnull:43
+msgid "Examples"
+msgstr ""
+
+#: of pandas.isnull:44
+msgid "Scalar arguments (including strings) result in a scalar boolean."
+msgstr ""
+
+#: of pandas.isnull:52
+msgid "ndarrays result in an ndarray of booleans."
+msgstr ""
+
+#: of pandas.isnull:62
+msgid "For indexes, an ndarray of booleans is returned."
+msgstr ""
+
+#: of pandas.isnull:72
+msgid "For Series and DataFrame, the same type is returned, containing booleans."
+msgstr ""
+

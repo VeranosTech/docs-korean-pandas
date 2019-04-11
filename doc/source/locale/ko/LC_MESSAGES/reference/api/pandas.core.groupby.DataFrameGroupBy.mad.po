@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.core.groupby.DataFrameGroupBy.mad.rst:2
+msgid "pandas.core.groupby.DataFrameGroupBy.mad"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.mad:2
+msgid "Return the mean absolute deviation of the values for the requested axis."
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.mad
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.mad:8
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.mad:7
+msgid "{index (0), columns (1)}"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.mad:8
+msgid "Axis for the function to be applied on."
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.mad:11
+msgid "**skipna**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.mad:10
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.mad:11
+msgid "Exclude NA/null values when computing the result."
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.mad:15
+msgid "**level**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.mad:14
+msgid "int or level name, default None"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.mad:14
+msgid ""
+"If the axis is a MultiIndex (hierarchical), count along a particular "
+"level, collapsing into a Series."
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.mad:19
+msgid "**numeric_only**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.mad:18
+msgid "bool, default None"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.mad:18
+msgid ""
+"Include only float, int, boolean columns. If None, will attempt to use "
+"everything, then use only numeric data. Not implemented for Series."
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.mad:22
+msgid "**\\*\\*kwargs**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.mad:22
+msgid "Additional keyword arguments to be passed to the function."
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.mad
+msgid "Returns"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.mad:38
+msgid "**mad**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.mad:37
+msgid "Series or DataFrame (if level specified)"
+msgstr ""
+

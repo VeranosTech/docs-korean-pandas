@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.to_timedelta.rst:2
+msgid "pandas.to\\_timedelta"
+msgstr ""
+
+#: of pandas.to_timedelta:2
+msgid "Convert argument to timedelta."
+msgstr ""
+
+#: of pandas.to_timedelta:4
+msgid ""
+"Timedeltas are absolute differences in times, expressed in difference "
+"units (e.g. days, hours, minutes, seconds). This method converts an "
+"argument from a recognized timedelta format / value into a Timedelta "
+"type."
+msgstr ""
+
+#: of pandas.to_timedelta
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.to_timedelta:12
+msgid "**arg**"
+msgstr ""
+
+#: of pandas.to_timedelta:11
+msgid "str, timedelta, list-like or Series"
+msgstr ""
+
+#: of pandas.to_timedelta:12
+msgid "The data to be converted to timedelta."
+msgstr ""
+
+#: of pandas.to_timedelta:21
+msgid "**unit**"
+msgstr ""
+
+#: of pandas.to_timedelta:20
+msgid "str, default 'ns'"
+msgstr ""
+
+#: of pandas.to_timedelta:15
+msgid ""
+"Denotes the unit of the arg. Possible values: ('Y', 'M', 'W', 'D', "
+"'days', 'day', 'hours', hour', 'hr', 'h', 'm', 'minute', 'min', "
+"'minutes', 'T', 'S', 'seconds', 'sec', 'second', 'ms', 'milliseconds', "
+"'millisecond', 'milli', 'millis', 'L', 'us', 'microseconds', "
+"'microsecond', 'micro', 'micros', 'U', 'ns', 'nanoseconds', 'nano', "
+"'nanos', 'nanosecond', 'N')."
+msgstr ""
+
+#: of pandas.to_timedelta:26
+msgid "**box**"
+msgstr ""
+
+#: of pandas.to_timedelta:25
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.to_timedelta:24
+msgid "If True returns a Timedelta/TimedeltaIndex of the results."
+msgstr ""
+
+#: of pandas.to_timedelta:25
+msgid ""
+"If False returns a numpy.timedelta64 or numpy.darray of values of dtype "
+"timedelta64[ns]."
+msgstr ""
+
+#: of pandas.to_timedelta:31
+msgid "**errors**"
+msgstr ""
+
+#: of pandas.to_timedelta:30
+msgid "{'ignore', 'raise', 'coerce'}, default 'raise'"
+msgstr ""
+
+#: of pandas.to_timedelta:29
+msgid "If 'raise', then invalid parsing will raise an exception."
+msgstr ""
+
+#: of pandas.to_timedelta:30
+msgid "If 'coerce', then invalid parsing will be set as NaT."
+msgstr ""
+
+#: of pandas.to_timedelta:31
+msgid "If 'ignore', then invalid parsing will return the input."
+msgstr ""
+
+#: of pandas.to_timedelta
+msgid "Returns"
+msgstr ""
+
+#: of pandas.to_timedelta:41
+msgid "**timedelta64 or numpy.array of timedelta64**"
+msgstr ""
+
+#: of pandas.to_timedelta:36
+msgid "Output type returned if parsing succeeded."
+msgstr ""
+
+#: of pandas.to_timedelta:47
+msgid ":obj:`DataFrame.astype`"
+msgstr ""
+
+#: of pandas.to_timedelta:47
+msgid "Cast argument to a specified dtype."
+msgstr ""
+
+#: of pandas.to_timedelta:49
+msgid ":obj:`to_datetime`"
+msgstr ""
+
+#: of pandas.to_timedelta:50
+msgid "Convert argument to datetime."
+msgstr ""
+
+#: of pandas.to_timedelta:55
+msgid "Examples"
+msgstr ""
+
+#: of pandas.to_timedelta:56
+msgid "Parsing a single string to a Timedelta:"
+msgstr ""
+
+#: of pandas.to_timedelta:63
+msgid "Parsing a list or array of strings:"
+msgstr ""
+
+#: of pandas.to_timedelta:69
+msgid "Converting numbers by specifying the `unit` keyword argument:"
+msgstr ""
+
+#: of pandas.to_timedelta:79
+msgid "Returning an ndarray by using the 'box' keyword argument:"
+msgstr ""
+

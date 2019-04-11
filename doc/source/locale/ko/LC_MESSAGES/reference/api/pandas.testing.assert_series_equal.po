@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.testing.assert_series_equal.rst:2
+msgid "pandas.testing.assert\\_series\\_equal"
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:2
+msgid "Check that left and right Series are equal."
+msgstr ""
+
+#: of pandas.testing.assert_series_equal
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:8
+msgid "**left**"
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:7
+#: pandas.testing.assert_series_equal:10
+msgid "Series"
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:11
+msgid "**right**"
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:14
+msgid "**check_dtype**"
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:13
+#: pandas.testing.assert_series_equal:20 pandas.testing.assert_series_equal:28
+#: pandas.testing.assert_series_equal:37
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:14
+msgid "Whether to check the Series dtype is identical."
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:18
+msgid "**check_index_type**"
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:17
+msgid "bool / string {'equiv'}, default 'equiv'"
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:17
+msgid "Whether to check the Index class, dtype and inferred_type are identical."
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:21
+msgid "**check_series_type**"
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:21
+msgid "Whether to check the Series class is identical."
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:26
+msgid "**check_less_precise**"
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:25
+msgid "bool or int, default False"
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:24
+msgid ""
+"Specify comparison precision. Only used when check_exact is False. 5 "
+"digits (False) or 3 digits (True) after decimal points are compared. If "
+"int, then specify the digits to compare."
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:29
+msgid "**check_names**"
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:29
+msgid "Whether to check the Series and Index names attribute."
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:32
+msgid "**check_exact**"
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:31
+#: pandas.testing.assert_series_equal:34
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:32
+msgid "Whether to compare number exactly."
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:35
+msgid "**check_datetimelike_compat**"
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:35
+msgid "Compare datetime-like which is comparable ignoring dtype."
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:38
+msgid "**check_categorical**"
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:38
+msgid "Whether to compare internal Categorical exactly."
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:54
+msgid "**obj**"
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:53
+msgid "str, default 'Series'"
+msgstr ""
+
+#: of pandas.testing.assert_series_equal:41
+msgid ""
+"Specify object name being compared, internally used to show appropriate "
+"assertion message."
+msgstr ""
+

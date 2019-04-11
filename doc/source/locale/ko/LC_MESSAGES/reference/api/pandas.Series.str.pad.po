@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.str.pad.rst:2
+msgid "pandas.Series.str.pad"
+msgstr ""
+
+#: of pandas.Series.str.pad:2
+msgid "Pad strings in the Series/Index up to width."
+msgstr ""
+
+#: of pandas.Series.str.pad
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.str.pad:9
+msgid "**width**"
+msgstr ""
+
+#: of pandas.Series.str.pad:8
+msgid "int"
+msgstr ""
+
+#: of pandas.Series.str.pad:8
+msgid ""
+"Minimum width of resulting string; additional characters will be filled "
+"with character defined in `fillchar`."
+msgstr ""
+
+#: of pandas.Series.str.pad:12
+msgid "**side**"
+msgstr ""
+
+#: of pandas.Series.str.pad:11
+msgid "{'left', 'right', 'both'}, default 'left'"
+msgstr ""
+
+#: of pandas.Series.str.pad:12
+msgid "Side from which to fill resulting string."
+msgstr ""
+
+#: of pandas.Series.str.pad:15
+msgid "**fillchar**"
+msgstr ""
+
+#: of pandas.Series.str.pad:14
+msgid "str, default ' '"
+msgstr ""
+
+#: of pandas.Series.str.pad:15
+msgid "Additional character for filling, default is whitespace."
+msgstr ""
+
+#: of pandas.Series.str.pad
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.str.pad:25
+msgid "**Series or Index of object**"
+msgstr ""
+
+#: of pandas.Series.str.pad:20
+msgid "Returns Series or Index with minimum number of char in object."
+msgstr ""
+
+#: of pandas.Series.str.pad:31
+msgid ":obj:`Series.str.rjust`"
+msgstr ""
+
+#: of pandas.Series.str.pad:31
+msgid ""
+"Fills the left side of strings with an arbitrary character. Equivalent to"
+" ``Series.str.pad(side='left')``."
+msgstr ""
+
+#: of pandas.Series.str.pad:34
+msgid ":obj:`Series.str.ljust`"
+msgstr ""
+
+#: of pandas.Series.str.pad:34
+msgid ""
+"Fills the right side of strings with an arbitrary character. Equivalent "
+"to ``Series.str.pad(side='right')``."
+msgstr ""
+
+#: of pandas.Series.str.pad:37
+msgid ":obj:`Series.str.center`"
+msgstr ""
+
+#: of pandas.Series.str.pad:37
+msgid ""
+"Fills boths sides of strings with an arbitrary character. Equivalent to "
+"``Series.str.pad(side='both')``."
+msgstr ""
+
+#: of pandas.Series.str.pad:39
+msgid ":obj:`Series.str.zfill`"
+msgstr ""
+
+#: of pandas.Series.str.pad:40
+msgid ""
+"Pad strings in the Series/Index by prepending '0' character. Equivalent "
+"to ``Series.str.pad(side='left', fillchar='0')``."
+msgstr ""
+
+#: of pandas.Series.str.pad:45
+msgid "Examples"
+msgstr ""
+

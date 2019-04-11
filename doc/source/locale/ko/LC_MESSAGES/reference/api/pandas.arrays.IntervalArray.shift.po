@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.arrays.IntervalArray.shift.rst:2
+msgid "pandas.arrays.IntervalArray.shift"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.shift:2
+msgid "Shift values by desired number."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.shift:4
+msgid "Newly introduced missing values are filled with ``self.dtype.na_value``."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.shift
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.shift:13
+msgid "**periods**"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.shift:12
+msgid "int, default 1"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.shift:12
+msgid ""
+"The number of periods to shift. Negative values are allowed for shifting "
+"backwards."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.shift:19
+msgid "**fill_value**"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.shift:18
+msgid "object, optional"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.shift:16
+msgid ""
+"The scalar value to use for newly introduced missing values. The default "
+"is ``self.dtype.na_value``"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.shift
+msgid "Returns"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.shift:30
+msgid "**shifted**"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.shift:29
+msgid "ExtensionArray"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.shift:33
+msgid "Notes"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.shift:34
+msgid "If ``self`` is empty or ``periods`` is 0, a copy of ``self`` is returned."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.shift:37
+msgid ""
+"If ``periods > len(self)``, then an array of size len(self) is returned, "
+"with all values filled with ``self.dtype.na_value``."
+msgstr ""
+

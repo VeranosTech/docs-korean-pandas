@@ -1,0 +1,512 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.arrays.PeriodArray.rst:2
+msgid "pandas.arrays.PeriodArray"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:2
+msgid "Pandas ExtensionArray for storing Period data."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:4
+msgid "Users should use :func:`period_array` to create new instances."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:12
+msgid "**values**"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:11
+msgid "Union[PeriodArray, Series[period], ndarary[int], PeriodIndex]"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:9
+msgid ""
+"The data to store. These should be arrays that can be directly converted "
+"to ordinals without inference or copy (PeriodArray, ndarray[int64]), or a"
+" box around such an array (Series[period], PeriodIndex)."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:18
+msgid "**freq**"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:17
+msgid "str or DateOffset"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:15
+msgid ""
+"The `freq` to use for the array. Mostly applicable when `values` is an "
+"ndarray of integers, when `freq` is required. When `values` is a "
+"PeriodArray (or box around), it's checked that ``values.freq`` matches "
+"`freq`."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:27
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:26
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:21
+msgid "Whether to copy the ordinals before storing."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:33
+msgid ":obj:`period_array`"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:33
+msgid "Create a new PeriodArray."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:35
+msgid ":obj:`pandas.PeriodIndex`"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:36
+msgid "Immutable Index for period data."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:39
+msgid "Notes"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:40
+msgid "There are two components to a PeriodArray"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:42
+msgid "ordinals : integer ndarray"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:43
+msgid "freq : pd.tseries.offsets.Offset"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:45
+msgid ""
+"The values are physically stored as a 1-D ndarray of integers. These are "
+"called \"ordinals\" and represent some kind of offset from a base."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:48
+msgid ""
+"The `freq` indicates the span covered by each element of the array. All "
+"elements in the PeriodArray have the same `freq`."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:54
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`asi8 <pandas.arrays.PeriodArray.asi8>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid "Integer representation of the values."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`day <pandas.arrays.PeriodArray.day>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid "The days of the period"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`day_of_year <pandas.arrays.PeriodArray.day_of_year>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid "The ordinal day of the year"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`dayofweek <pandas.arrays.PeriodArray.dayofweek>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid "The day of the week with Monday=0, Sunday=6"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`dayofyear <pandas.arrays.PeriodArray.dayofyear>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`days_in_month <pandas.arrays.PeriodArray.days_in_month>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid "The number of days in the month"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`daysinmonth <pandas.arrays.PeriodArray.daysinmonth>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`freq <pandas.arrays.PeriodArray.freq>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid "Return the frequency object for this PeriodArray."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`freqstr <pandas.arrays.PeriodArray.freqstr>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid "Return the frequency object as a string if its set, otherwise None"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`hour <pandas.arrays.PeriodArray.hour>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid "The hour of the period"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`inferred_freq <pandas.arrays.PeriodArray.inferred_freq>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ""
+"Tryies to return a string representing a frequency guess, generated by "
+"infer_freq."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`is_leap_year <pandas.arrays.PeriodArray.is_leap_year>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid "Logical indicating if the date belongs to a leap year"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`minute <pandas.arrays.PeriodArray.minute>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid "The minute of the period"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`month <pandas.arrays.PeriodArray.month>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid "The month as January=1, December=12"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`nbytes <pandas.arrays.PeriodArray.nbytes>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid "The number of bytes needed to store this object in memory."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`ndim <pandas.arrays.PeriodArray.ndim>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid "Extension Arrays are only allowed to be 1-dimensional."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`quarter <pandas.arrays.PeriodArray.quarter>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid "The quarter of the date"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`resolution <pandas.arrays.PeriodArray.resolution>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid "Returns day, hour, minute, second, millisecond or microsecond"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`second <pandas.arrays.PeriodArray.second>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid "The second of the period"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`shape <pandas.arrays.PeriodArray.shape>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid "Return a tuple of the array dimensions."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`size <pandas.arrays.PeriodArray.size>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid "The number of elements in this array."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`week <pandas.arrays.PeriodArray.week>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid "The week ordinal of the year"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`weekday <pandas.arrays.PeriodArray.weekday>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`weekofyear <pandas.arrays.PeriodArray.weekofyear>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid ":obj:`year <pandas.arrays.PeriodArray.year>`\\"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:84:<autosummary>:1
+msgid "The year of the period"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:86
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:87
+msgid "**end_time**"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:88
+msgid "**flags**"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:89
+msgid "**qyear**"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:90
+msgid "**start_time**"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:94
+msgid "Methods"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid ""
+":obj:`argsort <pandas.arrays.PeriodArray.argsort>`\\ \\(\\[ascending\\, "
+"kind\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid "Return the indices that would sort this array."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid ":obj:`asfreq <pandas.arrays.PeriodArray.asfreq>`\\ \\(\\[freq\\, how\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid "Convert the Period Array/Index to the specified frequency `freq`."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid ""
+":obj:`astype <pandas.arrays.PeriodArray.astype>`\\ \\(dtype\\[\\, "
+"copy\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid "Cast to a NumPy array with 'dtype'."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid ":obj:`copy <pandas.arrays.PeriodArray.copy>`\\ \\(\\[deep\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid "Return a copy of the array."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid ":obj:`dropna <pandas.arrays.PeriodArray.dropna>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid "Return ExtensionArray without NA values"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid ""
+":obj:`factorize <pandas.arrays.PeriodArray.factorize>`\\ "
+"\\(\\[na\\_sentinel\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid "Encode the extension array as an enumerated type."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid ""
+":obj:`fillna <pandas.arrays.PeriodArray.fillna>`\\ \\(\\[value\\, "
+"method\\, limit\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid "Fill NA/NaN values using the specified method."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid ":obj:`isna <pandas.arrays.PeriodArray.isna>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid "A 1-D array indicating if each value is missing."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid ":obj:`max <pandas.arrays.PeriodArray.max>`\\ \\(\\[axis\\, skipna\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid "Return the maximum value of the Array or maximum along an axis."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid ":obj:`min <pandas.arrays.PeriodArray.min>`\\ \\(\\[axis\\, skipna\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid "Return the minimum value of the Array or minimum along an axis."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid ""
+":obj:`repeat <pandas.arrays.PeriodArray.repeat>`\\ \\(repeats\\, "
+"\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid "Repeat elements of an array."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid ""
+":obj:`searchsorted <pandas.arrays.PeriodArray.searchsorted>`\\ "
+"\\(value\\[\\, side\\, sorter\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid "Find indices where elements should be inserted to maintain order."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid ""
+":obj:`shift <pandas.arrays.PeriodArray.shift>`\\ \\(\\[periods\\, "
+"fill\\_value\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid "Shift values by desired number."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid ":obj:`strftime <pandas.arrays.PeriodArray.strftime>`\\ \\(date\\_format\\)"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid "Convert to Index using specified date_format."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid ""
+":obj:`take <pandas.arrays.PeriodArray.take>`\\ \\(indices\\[\\, "
+"allow\\_fill\\, fill\\_value\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid "Take elements from an array."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid ""
+":obj:`to_timestamp <pandas.arrays.PeriodArray.to_timestamp>`\\ "
+"\\(\\[freq\\, how\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid "Cast to DatetimeArray/Index."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid ":obj:`unique <pandas.arrays.PeriodArray.unique>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid "Compute the ExtensionArray of unique values."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid ""
+":obj:`value_counts <pandas.arrays.PeriodArray.value_counts>`\\ "
+"\\(\\[dropna\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid "Return a Series containing counts of unique values."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid ":obj:`view <pandas.arrays.PeriodArray.view>`\\ \\(\\[dtype\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:118:<autosummary>:1
+msgid "New view on this array with the same data."
+msgstr ""
+
+#: of pandas.arrays.PeriodArray:120
+msgid "**map**"
+msgstr ""
+

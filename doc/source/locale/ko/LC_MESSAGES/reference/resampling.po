@@ -1,0 +1,368 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/resampling.rst:1
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../reference/resampling.rst:7
+msgid "Resampling"
+msgstr ""
+
+#: ../../reference/resampling.rst:10
+msgid ""
+"Resampler objects are returned by resample calls: "
+":func:`pandas.DataFrame.resample`, :func:`pandas.Series.resample`."
+msgstr ""
+
+#: ../../reference/resampling.rst:13
+msgid "Indexing, iteration"
+msgstr ""
+
+#: ../../reference/resampling.rst:21:<autosummary>:1
+msgid ""
+":obj:`Resampler.__iter__ <pandas.core.resample.Resampler.__iter__>`\\ "
+"\\(\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:21:<autosummary>:1
+msgid "Resampler iterator."
+msgstr ""
+
+#: ../../reference/resampling.rst:21:<autosummary>:1
+msgid ":obj:`Resampler.groups <pandas.core.resample.Resampler.groups>`\\"
+msgstr ""
+
+#: ../../reference/resampling.rst:21:<autosummary>:1
+msgid "Dict {group name -> group labels}."
+msgstr ""
+
+#: ../../reference/resampling.rst:21:<autosummary>:1
+msgid ":obj:`Resampler.indices <pandas.core.resample.Resampler.indices>`\\"
+msgstr ""
+
+#: ../../reference/resampling.rst:21:<autosummary>:1
+msgid "Dict {group name -> group indices}."
+msgstr ""
+
+#: ../../reference/resampling.rst:21:<autosummary>:1
+msgid ""
+":obj:`Resampler.get_group <pandas.core.resample.Resampler.get_group>`\\ "
+"\\(name\\[\\, obj\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:21:<autosummary>:1
+msgid "Constructs NDFrame from group with provided name."
+msgstr ""
+
+#: ../../reference/resampling.rst:23
+msgid "Function application"
+msgstr ""
+
+#: ../../reference/resampling.rst:31:<autosummary>:1
+msgid ""
+":obj:`Resampler.apply <pandas.core.resample.Resampler.apply>`\\ "
+"\\(func\\, \\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:31:<autosummary>:1
+msgid "Aggregate using one or more operations over the specified axis."
+msgstr ""
+
+#: ../../reference/resampling.rst:31:<autosummary>:1
+msgid ""
+":obj:`Resampler.aggregate <pandas.core.resample.Resampler.aggregate>`\\ "
+"\\(func\\, \\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:31:<autosummary>:1
+msgid ""
+":obj:`Resampler.transform <pandas.core.resample.Resampler.transform>`\\ "
+"\\(arg\\, \\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:31:<autosummary>:1
+msgid ""
+"Call function producing a like-indexed Series on each group and return a "
+"Series with the transformed values."
+msgstr ""
+
+#: ../../reference/resampling.rst:31:<autosummary>:1
+msgid ""
+":obj:`Resampler.pipe <pandas.core.resample.Resampler.pipe>`\\ \\(func\\, "
+"\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:31:<autosummary>:1
+msgid ""
+"Apply a function `func` with arguments to this Resampler object and "
+"return the function's result."
+msgstr ""
+
+#: ../../reference/resampling.rst:33
+msgid "Upsampling"
+msgstr ""
+
+#: ../../reference/resampling.rst:45:<autosummary>:1
+msgid ""
+":obj:`Resampler.ffill <pandas.core.resample.Resampler.ffill>`\\ "
+"\\(\\[limit\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:45:<autosummary>:1
+msgid "Forward fill the values."
+msgstr ""
+
+#: ../../reference/resampling.rst:45:<autosummary>:1
+msgid ""
+":obj:`Resampler.backfill <pandas.core.resample.Resampler.backfill>`\\ "
+"\\(\\[limit\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:45:<autosummary>:1
+msgid "Backward fill the new missing values in the resampled data."
+msgstr ""
+
+#: ../../reference/resampling.rst:45:<autosummary>:1
+msgid ""
+":obj:`Resampler.bfill <pandas.core.resample.Resampler.bfill>`\\ "
+"\\(\\[limit\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:45:<autosummary>:1
+msgid ""
+":obj:`Resampler.pad <pandas.core.resample.Resampler.pad>`\\ "
+"\\(\\[limit\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:45:<autosummary>:1
+msgid ""
+":obj:`Resampler.nearest <pandas.core.resample.Resampler.nearest>`\\ "
+"\\(\\[limit\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:45:<autosummary>:1
+msgid "Resample by using the nearest value."
+msgstr ""
+
+#: ../../reference/resampling.rst:45:<autosummary>:1
+msgid ""
+":obj:`Resampler.fillna <pandas.core.resample.Resampler.fillna>`\\ "
+"\\(method\\[\\, limit\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:45:<autosummary>:1
+msgid "Fill missing values introduced by upsampling."
+msgstr ""
+
+#: ../../reference/resampling.rst:45:<autosummary>:1
+msgid ""
+":obj:`Resampler.asfreq <pandas.core.resample.Resampler.asfreq>`\\ "
+"\\(\\[fill\\_value\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:45:<autosummary>:1
+msgid "Return the values at the new freq, essentially a reindex."
+msgstr ""
+
+#: ../../reference/resampling.rst:45:<autosummary>:1
+msgid ""
+":obj:`Resampler.interpolate "
+"<pandas.core.resample.Resampler.interpolate>`\\ \\(\\[method\\, axis\\, "
+"limit\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:45:<autosummary>:1
+msgid "Interpolate values according to different methods."
+msgstr ""
+
+#: ../../reference/resampling.rst:47
+msgid "Computations / Descriptive Stats"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ""
+":obj:`Resampler.count <pandas.core.resample.Resampler.count>`\\ "
+"\\(\\[\\_method\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid "Compute count of group, excluding missing values."
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ""
+":obj:`Resampler.nunique <pandas.core.resample.Resampler.nunique>`\\ "
+"\\(\\[\\_method\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid "Returns number of unique elements in the group"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ""
+":obj:`Resampler.first <pandas.core.resample.Resampler.first>`\\ "
+"\\(\\[\\_method\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ""
+"Compute first of group values See Also -------- pandas.Series.groupby "
+"pandas.DataFrame.groupby pandas.Panel.groupby"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ""
+":obj:`Resampler.last <pandas.core.resample.Resampler.last>`\\ "
+"\\(\\[\\_method\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ""
+"Compute last of group values See Also -------- pandas.Series.groupby "
+"pandas.DataFrame.groupby pandas.Panel.groupby"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ""
+":obj:`Resampler.max <pandas.core.resample.Resampler.max>`\\ "
+"\\(\\[\\_method\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ""
+"Compute max of group values See Also -------- pandas.Series.groupby "
+"pandas.DataFrame.groupby pandas.Panel.groupby"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ""
+":obj:`Resampler.mean <pandas.core.resample.Resampler.mean>`\\ "
+"\\(\\[\\_method\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid "Compute mean of groups, excluding missing values."
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ""
+":obj:`Resampler.median <pandas.core.resample.Resampler.median>`\\ "
+"\\(\\[\\_method\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid "Compute median of groups, excluding missing values."
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ""
+":obj:`Resampler.min <pandas.core.resample.Resampler.min>`\\ "
+"\\(\\[\\_method\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ""
+"Compute min of group values See Also -------- pandas.Series.groupby "
+"pandas.DataFrame.groupby pandas.Panel.groupby"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ""
+":obj:`Resampler.ohlc <pandas.core.resample.Resampler.ohlc>`\\ "
+"\\(\\[\\_method\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid "Compute sum of values, excluding missing values."
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ""
+":obj:`Resampler.prod <pandas.core.resample.Resampler.prod>`\\ "
+"\\(\\[\\_method\\, min\\_count\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ""
+"Compute prod of group values See Also -------- pandas.Series.groupby "
+"pandas.DataFrame.groupby pandas.Panel.groupby"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ":obj:`Resampler.size <pandas.core.resample.Resampler.size>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid "Compute group sizes."
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ""
+":obj:`Resampler.sem <pandas.core.resample.Resampler.sem>`\\ "
+"\\(\\[\\_method\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid "Compute standard error of the mean of groups, excluding missing values."
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ""
+":obj:`Resampler.std <pandas.core.resample.Resampler.std>`\\ "
+"\\(\\[ddof\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid "Compute standard deviation of groups, excluding missing values."
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ""
+":obj:`Resampler.sum <pandas.core.resample.Resampler.sum>`\\ "
+"\\(\\[\\_method\\, min\\_count\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ""
+"Compute sum of group values See Also -------- pandas.Series.groupby "
+"pandas.DataFrame.groupby pandas.Panel.groupby"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ""
+":obj:`Resampler.var <pandas.core.resample.Resampler.var>`\\ "
+"\\(\\[ddof\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid "Compute variance of groups, excluding missing values."
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid ""
+":obj:`Resampler.quantile <pandas.core.resample.Resampler.quantile>`\\ "
+"\\(\\[q\\]\\)"
+msgstr ""
+
+#: ../../reference/resampling.rst:66:<autosummary>:1
+msgid "Return value at the given quantile."
+msgstr ""
+

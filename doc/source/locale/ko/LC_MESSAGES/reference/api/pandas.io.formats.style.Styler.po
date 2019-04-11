@@ -1,0 +1,440 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.io.formats.style.Styler.rst:2
+msgid "pandas.io.formats.style.Styler"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:2
+msgid "Helps style a DataFrame or Series according to the data with HTML and CSS."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:8
+msgid "**data**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:7
+msgid "Series or DataFrame"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:11
+msgid "**precision**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:10
+msgid "int"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:11
+msgid "precision to round floats to, defaults to pd.options.display.precision"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:14
+msgid "**table_styles**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:13
+msgid "list-like, default None"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:14
+msgid "list of {selector: (attr, value)} dicts; see Notes"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:17
+msgid "**uuid**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:16 pandas.io.formats.style.Styler:19
+msgid "str, default None"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:17
+msgid "a unique identifier to avoid CSS collisions; generated automatically"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:20
+msgid "**caption**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:20
+msgid "caption to attach to the table"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:32
+msgid "**cell_ids**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:31
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:23
+msgid ""
+"If True, each cell will have an ``id`` attribute in their HTML tag. The "
+"``id`` takes the form ``T_<uuid>_row<num_row>_col<num_col>`` where "
+"``<uuid>`` is the unique identifier, ``<num_row>`` is the row number and "
+"``<num_col>`` is the column number."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:37
+msgid ":obj:`pandas.DataFrame.style`"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:40
+msgid "Notes"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:41
+msgid ""
+"Most styling will be done by passing style functions into "
+"``Styler.apply`` or ``Styler.applymap``. Style functions should return "
+"values with strings containing CSS ``'attr: value'`` that will be applied"
+" to the indicated cells."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:46
+msgid ""
+"If using in the Jupyter notebook, Styler has defined a ``_repr_html_`` to"
+" automatically render itself. Otherwise call Styler.render to get the "
+"generated HTML."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:50
+msgid "CSS classes are attached to the generated HTML"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:52
+msgid ""
+"Index and Column names include ``index_name`` and ``level<k>`` where `k` "
+"is its level in a MultiIndex"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:54
+msgid "Index label cells include"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:56
+msgid "``row_heading``"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:57
+msgid "``row<n>`` where `n` is the numeric position of the row"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:58
+msgid "``level<k>`` where `k` is the level in a MultiIndex"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:60
+msgid ""
+"Column label cells include * ``col_heading`` * ``col<n>`` where `n` is "
+"the numeric position of the column * ``evel<k>`` where `k` is the level "
+"in a MultiIndex"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:65
+msgid "Blank cells include ``blank``"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:66
+msgid "Data cells include ``data``"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:73
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:75
+msgid "**env**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:75
+msgid "(Jinja2 Environment)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:76
+msgid "**template**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:76
+msgid "(Jinja2 Template)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:77
+msgid "**loader**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:77
+msgid "(Jinja2 Loader)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:81
+msgid "Methods"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+":obj:`apply <pandas.io.formats.style.Styler.apply>`\\ \\(func\\[\\, "
+"axis\\, subset\\]\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+"Apply a function column-wise, row-wise, or table-wise, updating the HTML "
+"representation with the result."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+":obj:`applymap <pandas.io.formats.style.Styler.applymap>`\\ \\(func\\[\\,"
+" subset\\]\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+"Apply a function elementwise, updating the HTML representation with the "
+"result."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+":obj:`background_gradient "
+"<pandas.io.formats.style.Styler.background_gradient>`\\ \\(\\[cmap\\, "
+"low\\, high\\, axis\\, ...\\]\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+"Color the background in a gradient according to the data in each column "
+"(optionally row)."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+":obj:`bar <pandas.io.formats.style.Styler.bar>`\\ \\(\\[subset\\, axis\\,"
+" color\\, width\\, align\\, ...\\]\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid "Draw bar chart in the cell backgrounds."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ":obj:`clear <pandas.io.formats.style.Styler.clear>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid "Reset the styler, removing any previously applied styles."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ":obj:`export <pandas.io.formats.style.Styler.export>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid "Export the styles to applied to the current Styler."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+":obj:`format <pandas.io.formats.style.Styler.format>`\\ "
+"\\(formatter\\[\\, subset\\]\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid "Format the text display value of cells."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+":obj:`from_custom_template "
+"<pandas.io.formats.style.Styler.from_custom_template>`\\ \\(searchpath\\,"
+" name\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+"Factory function for creating a subclass of ``Styler`` with a custom "
+"template and Jinja environment."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+":obj:`hide_columns <pandas.io.formats.style.Styler.hide_columns>`\\ "
+"\\(subset\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid "Hide columns from rendering."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ":obj:`hide_index <pandas.io.formats.style.Styler.hide_index>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid "Hide any indices from rendering."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+":obj:`highlight_max <pandas.io.formats.style.Styler.highlight_max>`\\ "
+"\\(\\[subset\\, color\\, axis\\]\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid "Highlight the maximum by shading the background."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+":obj:`highlight_min <pandas.io.formats.style.Styler.highlight_min>`\\ "
+"\\(\\[subset\\, color\\, axis\\]\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid "Highlight the minimum by shading the background."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+":obj:`highlight_null <pandas.io.formats.style.Styler.highlight_null>`\\ "
+"\\(\\[null\\_color\\]\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid "Shade the background ``null_color`` for missing values."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+":obj:`pipe <pandas.io.formats.style.Styler.pipe>`\\ \\(func\\, \\*args\\,"
+" \\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid "Apply ``func(self, *args, **kwargs)``, and return the result."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ":obj:`render <pandas.io.formats.style.Styler.render>`\\ \\(\\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid "Render the built up styles to HTML."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+":obj:`set_caption <pandas.io.formats.style.Styler.set_caption>`\\ "
+"\\(caption\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid "Set the caption on a Styler"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+":obj:`set_precision <pandas.io.formats.style.Styler.set_precision>`\\ "
+"\\(precision\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid "Set the precision used to render."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+":obj:`set_properties <pandas.io.formats.style.Styler.set_properties>`\\ "
+"\\(\\[subset\\]\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+"Convenience method for setting one or more non-data dependent properties "
+"or each cell."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+":obj:`set_table_attributes "
+"<pandas.io.formats.style.Styler.set_table_attributes>`\\ \\(attributes\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid "Set the table attributes."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+":obj:`set_table_styles "
+"<pandas.io.formats.style.Styler.set_table_styles>`\\ \\(table\\_styles\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid "Set the table styles on a Styler."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ":obj:`set_uuid <pandas.io.formats.style.Styler.set_uuid>`\\ \\(uuid\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid "Set the uuid for a Styler."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+":obj:`to_excel <pandas.io.formats.style.Styler.to_excel>`\\ "
+"\\(excel\\_writer\\[\\, sheet\\_name\\, na\\_rep\\, ...\\]\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid "Write Styler to an Excel sheet."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ":obj:`use <pandas.io.formats.style.Styler.use>`\\ \\(styles\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+"Set the styles on the current Styler, possibly using styles from "
+"``Styler.export``."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+":obj:`where <pandas.io.formats.style.Styler.where>`\\ \\(cond\\, "
+"value\\[\\, other\\, subset\\]\\)"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler:109:<autosummary>:1
+msgid ""
+"Apply a function elementwise, updating the HTML representation with a "
+"style which is selected in accordance with the return value of a "
+"function."
+msgstr ""
+

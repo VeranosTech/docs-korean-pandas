@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.min.rst:2
+msgid "pandas.DataFrame.min"
+msgstr ""
+
+#: of pandas.DataFrame.min:2
+msgid "Return the minimum of the values for the requested axis."
+msgstr ""
+
+#: of pandas.DataFrame.min:4
+msgid ""
+"If you want the *index* of the minimum, use ``idxmin``. This is the "
+"equivalent of the ``numpy.ndarray`` method ``argmin``."
+msgstr ""
+
+#: of pandas.DataFrame.min
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.min:10
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.DataFrame.min:9
+msgid "{index (0), columns (1)}"
+msgstr ""
+
+#: of pandas.DataFrame.min:10
+msgid "Axis for the function to be applied on."
+msgstr ""
+
+#: of pandas.DataFrame.min:13
+msgid "**skipna**"
+msgstr ""
+
+#: of pandas.DataFrame.min:12
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.DataFrame.min:13
+msgid "Exclude NA/null values when computing the result."
+msgstr ""
+
+#: of pandas.DataFrame.min:17
+msgid "**level**"
+msgstr ""
+
+#: of pandas.DataFrame.min:16
+msgid "int or level name, default None"
+msgstr ""
+
+#: of pandas.DataFrame.min:16
+msgid ""
+"If the axis is a MultiIndex (hierarchical), count along a particular "
+"level, collapsing into a Series."
+msgstr ""
+
+#: of pandas.DataFrame.min:21
+msgid "**numeric_only**"
+msgstr ""
+
+#: of pandas.DataFrame.min:20
+msgid "bool, default None"
+msgstr ""
+
+#: of pandas.DataFrame.min:20
+msgid ""
+"Include only float, int, boolean columns. If None, will attempt to use "
+"everything, then use only numeric data. Not implemented for Series."
+msgstr ""
+
+#: of pandas.DataFrame.min:24
+msgid "**\\*\\*kwargs**"
+msgstr ""
+
+#: of pandas.DataFrame.min:24
+msgid "Additional keyword arguments to be passed to the function."
+msgstr ""
+
+#: of pandas.DataFrame.min
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.min:34
+msgid "**min**"
+msgstr ""
+
+#: of pandas.DataFrame.min:33
+msgid "Series or DataFrame (if level specified)"
+msgstr ""
+
+#: of pandas.DataFrame.min:40
+msgid ":obj:`Series.sum`"
+msgstr ""
+
+#: of pandas.DataFrame.min:40
+msgid "Return the sum."
+msgstr ""
+
+#: of pandas.DataFrame.min:43
+msgid ":obj:`Series.min`"
+msgstr ""
+
+#: of pandas.DataFrame.min:43
+msgid "Return the minimum."
+msgstr ""
+
+#: of pandas.DataFrame.min:46
+msgid ":obj:`Series.max`"
+msgstr ""
+
+#: of pandas.DataFrame.min:46
+msgid "Return the maximum."
+msgstr ""
+
+#: of pandas.DataFrame.min:49
+msgid ":obj:`Series.idxmin`"
+msgstr ""
+
+#: of pandas.DataFrame.min:49
+msgid "Return the index of the minimum."
+msgstr ""
+
+#: of pandas.DataFrame.min:52
+msgid ":obj:`Series.idxmax`"
+msgstr ""
+
+#: of pandas.DataFrame.min:52
+msgid "Return the index of the maximum."
+msgstr ""
+
+#: of pandas.DataFrame.min:55 pandas.DataFrame.min:58
+msgid ":obj:`DataFrame.min`"
+msgstr ""
+
+#: of pandas.DataFrame.min:55
+msgid "Return the sum over the requested axis."
+msgstr ""
+
+#: of pandas.DataFrame.min:58
+msgid "Return the minimum over the requested axis."
+msgstr ""
+
+#: of pandas.DataFrame.min:61
+msgid ":obj:`DataFrame.max`"
+msgstr ""
+
+#: of pandas.DataFrame.min:61
+msgid "Return the maximum over the requested axis."
+msgstr ""
+
+#: of pandas.DataFrame.min:64
+msgid ":obj:`DataFrame.idxmin`"
+msgstr ""
+
+#: of pandas.DataFrame.min:64
+msgid "Return the index of the minimum over the requested axis."
+msgstr ""
+
+#: of pandas.DataFrame.min:66
+msgid ":obj:`DataFrame.idxmax`"
+msgstr ""
+
+#: of pandas.DataFrame.min:67
+msgid "Return the index of the maximum over the requested axis."
+msgstr ""
+
+#: of pandas.DataFrame.min:72
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.min:89
+msgid "Min using level names, as well as indices."
+msgstr ""
+

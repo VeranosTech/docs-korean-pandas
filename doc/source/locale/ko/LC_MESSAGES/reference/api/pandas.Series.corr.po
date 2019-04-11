@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.corr.rst:2
+msgid "pandas.Series.corr"
+msgstr ""
+
+#: of pandas.Series.corr:2
+msgid "Compute correlation with `other` Series, excluding missing values."
+msgstr ""
+
+#: of pandas.Series.corr
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.corr:8
+msgid "**other**"
+msgstr ""
+
+#: of pandas.Series.corr:7
+msgid "Series"
+msgstr ""
+
+#: of pandas.Series.corr:16
+msgid "**method**"
+msgstr ""
+
+#: of pandas.Series.corr:15
+msgid "{'pearson', 'kendall', 'spearman'} or callable"
+msgstr ""
+
+#: of pandas.Series.corr:11
+msgid "pearson : standard correlation coefficient"
+msgstr ""
+
+#: of pandas.Series.corr:12
+msgid "kendall : Kendall Tau correlation coefficient"
+msgstr ""
+
+#: of pandas.Series.corr:13
+msgid "spearman : Spearman rank correlation"
+msgstr ""
+
+#: of pandas.Series.corr:16
+msgid "callable: callable with input two 1d ndarray"
+msgstr ""
+
+#: of pandas.Series.corr:15
+msgid "and returning a float .. versionadded:: 0.24.0"
+msgstr ""
+
+#: of pandas.Series.corr:19
+msgid "**min_periods**"
+msgstr ""
+
+#: of pandas.Series.corr:18
+msgid "int, optional"
+msgstr ""
+
+#: of pandas.Series.corr:19
+msgid "Minimum number of observations needed to have a valid result"
+msgstr ""
+
+#: of pandas.Series.corr
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.corr:32
+msgid "**correlation**"
+msgstr ""
+
+#: of pandas.Series.corr:31
+msgid "float"
+msgstr ""
+
+#: of pandas.Series.corr:35
+msgid "Examples"
+msgstr ""
+

@@ -1,0 +1,828 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.read_table.rst:2
+msgid "pandas.read\\_table"
+msgstr ""
+
+#: of pandas.read_table:2
+msgid "Read general delimited file into DataFrame."
+msgstr ""
+
+#: of pandas.read_table:5
+msgid "Use :func:`pandas.read_csv` instead, passing ``sep='\\t'`` if necessary."
+msgstr ""
+
+#: of pandas.read_table:7
+msgid "Also supports optionally iterating or breaking of the file into chunks."
+msgstr ""
+
+#: of pandas.read_table:10
+msgid ""
+"Additional help can be found in the online docs for `IO Tools "
+"<http://pandas.pydata.org/pandas-docs/stable/io.html>`_."
+msgstr ""
+
+#: of pandas.read_table
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.read_table:24
+msgid "**filepath_or_buffer**"
+msgstr ""
+
+#: of pandas.read_table:23
+msgid "str, path object, or file-like object"
+msgstr ""
+
+#: of pandas.read_table:16
+msgid ""
+"Any valid string path is acceptable. The string could be a URL. Valid URL"
+" schemes include http, ftp, s3, and file. For file URLs, a host is "
+"expected. A local file could be: file://localhost/path/to/table.csv."
+msgstr ""
+
+#: of pandas.read_table:20
+msgid ""
+"If you want to pass in a path object, pandas accepts either "
+"``pathlib.Path`` or ``py._path.local.LocalPath``."
+msgstr ""
+
+#: of pandas.read_table:23
+msgid ""
+"By file-like object, we refer to objects with a ``read()`` method, such "
+"as a file handler (e.g. via builtin ``open`` function) or ``StringIO``."
+msgstr ""
+
+#: of pandas.read_table:33
+msgid "**sep**"
+msgstr ""
+
+#: of pandas.read_table:32
+msgid "str, default '\\\\t' (tab-stop)"
+msgstr ""
+
+#: of pandas.read_table:27
+msgid ""
+"Delimiter to use. If sep is None, the C engine cannot automatically "
+"detect the separator, but the Python parsing engine can, meaning the "
+"latter will be used and automatically detect the separator by Python's "
+"builtin sniffer tool, ``csv.Sniffer``. In addition, separators longer "
+"than 1 character and different from ``'\\s+'`` will be interpreted as "
+"regular expressions and will also force the use of the Python parsing "
+"engine. Note that regex delimiters are prone to ignoring quoted data. "
+"Regex example: ``'\\r\\t'``."
+msgstr ""
+
+#: of pandas.read_table:36
+msgid "**delimiter** : str, default ``None``"
+msgstr ""
+
+#: of pandas.read_table:35
+msgid "str, default None"
+msgstr ""
+
+#: of pandas.read_table:36
+msgid "Alias for sep."
+msgstr ""
+
+#: of pandas.read_table:51
+msgid "**header**"
+msgstr ""
+
+#: of pandas.read_table:50
+msgid "int, list of int, default 'infer'"
+msgstr ""
+
+#: of pandas.read_table:39
+msgid ""
+"Row number(s) to use as the column names, and the start of the data.  "
+"Default behavior is to infer the column names: if no names are passed the"
+" behavior is identical to ``header=0`` and column names are inferred from"
+" the first line of the file, if column names are passed explicitly then "
+"the behavior is identical to ``header=None``. Explicitly pass "
+"``header=0`` to be able to replace existing names. The header can be a "
+"list of integers that specify row locations for a multi-index on the "
+"columns e.g. [0,1,3]. Intervening rows that are not specified will be "
+"skipped (e.g. 2 in this example is skipped). Note that this parameter "
+"ignores commented lines and empty lines if ``skip_blank_lines=True``, so "
+"``header=0`` denotes the first line of data rather than the first line of"
+" the file."
+msgstr ""
+
+#: of pandas.read_table:56
+msgid "**names**"
+msgstr ""
+
+#: of pandas.read_table:55
+msgid "array-like, optional"
+msgstr ""
+
+#: of pandas.read_table:54
+msgid ""
+"List of column names to use. If file contains no header row, then you "
+"should explicitly pass ``header=None``. Duplicates in this list will "
+"cause a ``UserWarning`` to be issued."
+msgstr ""
+
+#: of pandas.read_table:62
+msgid "**index_col**"
+msgstr ""
+
+#: of pandas.read_table:61
+msgid "int, sequence or bool, optional"
+msgstr ""
+
+#: of pandas.read_table:59
+msgid ""
+"Column to use as the row labels of the DataFrame. If a sequence is given,"
+" a MultiIndex is used. If you have a malformed file with delimiters at "
+"the end of each line, you might consider ``index_col=False`` to force "
+"pandas to not use the first column as the index (row names)."
+msgstr ""
+
+#: of pandas.read_table:81
+msgid "**usecols**"
+msgstr ""
+
+#: of pandas.read_table:80
+msgid "list-like or callable, optional"
+msgstr ""
+
+#: of pandas.read_table:65
+msgid ""
+"Return a subset of the columns. If list-like, all elements must either be"
+" positional (i.e. integer indices into the document columns) or strings "
+"that correspond to column names provided either by the user in `names` or"
+" inferred from the document header row(s). For example, a valid list-like"
+" `usecols` parameter would be ``[0, 1, 2]`` or ``['foo', 'bar', 'baz']``."
+" Element order is ignored, so ``usecols=[0, 1]`` is the same as ``[1, "
+"0]``. To instantiate a DataFrame from ``data`` with element order "
+"preserved use ``pd.read_csv(data, usecols=['foo', 'bar'])[['foo', "
+"'bar']]`` for columns in ``['foo', 'bar']`` order or ``pd.read_csv(data, "
+"usecols=['foo', 'bar'])[['bar', 'foo']]`` for ``['bar', 'foo']`` order."
+msgstr ""
+
+#: of pandas.read_table:77
+msgid ""
+"If callable, the callable function will be evaluated against the column "
+"names, returning names where the callable function evaluates to True. An "
+"example of a valid callable argument would be ``lambda x: x.upper() in "
+"['AAA', 'BBB', 'DDD']``. Using this parameter results in much faster "
+"parsing time and lower memory usage."
+msgstr ""
+
+#: of pandas.read_table:84
+msgid "**squeeze**"
+msgstr ""
+
+#: of pandas.read_table:83 pandas.read_table:116 pandas.read_table:161
+#: pandas.read_table:192 pandas.read_table:196 pandas.read_table:210
+#: pandas.read_table:214 pandas.read_table:282 pandas.read_table:300
+#: pandas.read_table:313
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.read_table:84
+msgid "If the parsed data only contains one column then return a Series."
+msgstr ""
+
+#: of pandas.read_table:87
+msgid "**prefix**"
+msgstr ""
+
+#: of pandas.read_table:86 pandas.read_table:232 pandas.read_table:263
+#: pandas.read_table:268 pandas.read_table:319
+msgid "str, optional"
+msgstr ""
+
+#: of pandas.read_table:87
+msgid "Prefix to add to column numbers when no header, e.g. 'X' for X0, X1, ..."
+msgstr ""
+
+#: of pandas.read_table:92
+msgid "**mangle_dupe_cols**"
+msgstr ""
+
+#: of pandas.read_table:91 pandas.read_table:153 pandas.read_table:158
+#: pandas.read_table:164 pandas.read_table:251 pandas.read_table:288
+#: pandas.read_table:292 pandas.read_table:308
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.read_table:90
+msgid ""
+"Duplicate columns will be specified as 'X', 'X.1', ...'X.N', rather than "
+"'X'...'X'. Passing in False will cause data to be overwritten if there "
+"are duplicate names in the columns."
+msgstr ""
+
+#: of pandas.read_table:100
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.read_table:99
+msgid "Type name or dict of column -> type, optional"
+msgstr ""
+
+#: of pandas.read_table:95
+msgid ""
+"Data type for data or columns. E.g. {'a': np.float64, 'b': np.int32, 'c':"
+" 'Int64'} Use `str` or `object` together with suitable `na_values` "
+"settings to preserve and not interpret dtype. If converters are "
+"specified, they will be applied INSTEAD of dtype conversion."
+msgstr ""
+
+#: of pandas.read_table:104
+msgid "**engine**"
+msgstr ""
+
+#: of pandas.read_table:103
+msgid "{'c', 'python'}, optional"
+msgstr ""
+
+#: of pandas.read_table:103
+msgid ""
+"Parser engine to use. The C engine is faster while the python engine is "
+"currently more feature-complete."
+msgstr ""
+
+#: of pandas.read_table:108
+msgid "**converters**"
+msgstr ""
+
+#: of pandas.read_table:107
+msgid "dict, optional"
+msgstr ""
+
+#: of pandas.read_table:107
+msgid ""
+"Dict of functions for converting values in certain columns. Keys can "
+"either be integers or column labels."
+msgstr ""
+
+#: of pandas.read_table:111
+msgid "**true_values**"
+msgstr ""
+
+#: of pandas.read_table:110 pandas.read_table:113
+msgid "list, optional"
+msgstr ""
+
+#: of pandas.read_table:111
+msgid "Values to consider as True."
+msgstr ""
+
+#: of pandas.read_table:114
+msgid "**false_values**"
+msgstr ""
+
+#: of pandas.read_table:114
+msgid "Values to consider as False."
+msgstr ""
+
+#: of pandas.read_table:117
+msgid "**skipinitialspace**"
+msgstr ""
+
+#: of pandas.read_table:117
+msgid "Skip spaces after delimiter."
+msgstr ""
+
+#: of pandas.read_table:125
+msgid "**skiprows**"
+msgstr ""
+
+#: of pandas.read_table:124
+msgid "list-like, int or callable, optional"
+msgstr ""
+
+#: of pandas.read_table:120
+msgid ""
+"Line numbers to skip (0-indexed) or number of lines to skip (int) at the "
+"start of the file."
+msgstr ""
+
+#: of pandas.read_table:123
+msgid ""
+"If callable, the callable function will be evaluated against the row "
+"indices, returning True if the row should be skipped and False otherwise."
+" An example of a valid callable argument would be ``lambda x: x in [0, "
+"2]``."
+msgstr ""
+
+#: of pandas.read_table:128
+msgid "**skipfooter**"
+msgstr ""
+
+#: of pandas.read_table:127
+msgid "int, default 0"
+msgstr ""
+
+#: of pandas.read_table:128
+msgid "Number of lines at bottom of file to skip (Unsupported with engine='c')."
+msgstr ""
+
+#: of pandas.read_table:131
+msgid "**nrows**"
+msgstr ""
+
+#: of pandas.read_table:130 pandas.read_table:220
+msgid "int, optional"
+msgstr ""
+
+#: of pandas.read_table:131
+msgid "Number of rows of file to read. Useful for reading pieces of large files."
+msgstr ""
+
+#: of pandas.read_table:138
+msgid "**na_values**"
+msgstr ""
+
+#: of pandas.read_table:137
+msgid "scalar, str, list-like, or dict, optional"
+msgstr ""
+
+#: of pandas.read_table:134
+msgid ""
+"Additional strings to recognize as NA/NaN. If dict passed, specific per-"
+"column NA values.  By default the following values are interpreted as "
+"NaN: '', '#N/A', '#N/A N/A', '#NA', '-1.#IND', '-1.#QNAN', '-NaN', "
+"'-nan', '1.#IND', '1.#QNAN', 'N/A', 'NA', 'NULL', 'NaN', 'n/a', 'nan', "
+"'null'."
+msgstr ""
+
+#: of pandas.read_table:154
+msgid "**keep_default_na**"
+msgstr ""
+
+#: of pandas.read_table:141
+msgid ""
+"Whether or not to include the default NaN values when parsing the data. "
+"Depending on whether `na_values` is passed in, the behavior is as "
+"follows:"
+msgstr ""
+
+#: of pandas.read_table:144
+msgid ""
+"If `keep_default_na` is True, and `na_values` are specified, `na_values` "
+"is appended to the default NaN values used for parsing."
+msgstr ""
+
+#: of pandas.read_table:146
+msgid ""
+"If `keep_default_na` is True, and `na_values` are not specified, only the"
+" default NaN values are used for parsing."
+msgstr ""
+
+#: of pandas.read_table:148
+msgid ""
+"If `keep_default_na` is False, and `na_values` are specified, only the "
+"NaN values specified `na_values` are used for parsing."
+msgstr ""
+
+#: of pandas.read_table:150
+msgid ""
+"If `keep_default_na` is False, and `na_values` are not specified, no "
+"strings will be parsed as NaN."
+msgstr ""
+
+#: of pandas.read_table:153
+msgid ""
+"Note that if `na_filter` is passed in as False, the `keep_default_na` and"
+" `na_values` parameters will be ignored."
+msgstr ""
+
+#: of pandas.read_table:159
+msgid "**na_filter**"
+msgstr ""
+
+#: of pandas.read_table:157
+msgid ""
+"Detect missing value markers (empty strings and the value of na_values). "
+"In data without any NAs, passing na_filter=False can improve the "
+"performance of reading a large file."
+msgstr ""
+
+#: of pandas.read_table:162
+msgid "**verbose**"
+msgstr ""
+
+#: of pandas.read_table:162
+msgid "Indicate number of NA values placed in non-numeric columns."
+msgstr ""
+
+#: of pandas.read_table:165
+msgid "**skip_blank_lines**"
+msgstr ""
+
+#: of pandas.read_table:165
+msgid "If True, skip over blank lines rather than interpreting as NaN values."
+msgstr ""
+
+#: of pandas.read_table:187
+msgid "**parse_dates**"
+msgstr ""
+
+#: of pandas.read_table:186
+msgid "bool or list of int or names or list of lists or dict, default False"
+msgstr ""
+
+#: of pandas.read_table:168
+msgid "The behavior is as follows:"
+msgstr ""
+
+#: of pandas.read_table:170
+msgid "boolean. If True -> try parsing the index."
+msgstr ""
+
+#: of pandas.read_table:171
+msgid ""
+"list of int or names. e.g. If [1, 2, 3] -> try parsing columns 1, 2, 3 "
+"each as a separate date column."
+msgstr ""
+
+#: of pandas.read_table:173
+msgid ""
+"list of lists. e.g.  If [[1, 3]] -> combine columns 1 and 3 and parse as "
+"a single date column."
+msgstr ""
+
+#: of pandas.read_table:175
+msgid ""
+"dict, e.g. {'foo' : [1, 3]} -> parse columns 1, 3 as date and call result"
+" 'foo'"
+msgstr ""
+
+#: of pandas.read_table:178
+msgid ""
+"If a column or index cannot be represented as an array of datetimes, say "
+"because of an unparseable value or a mixture of timezones, the column or "
+"index will be returned unaltered as an object data type. For non-standard"
+" datetime parsing, use ``pd.to_datetime`` after ``pd.read_csv``. To parse"
+" an index or column with a mixture of timezones, specify ``date_parser`` "
+"to be a partially-applied :func:`pandas.to_datetime` with ``utc=True``. "
+"See :ref:`io.csv.mixed_timezones` for more."
+msgstr ""
+
+#: of pandas.read_table:187
+msgid "Note: A fast-path exists for iso8601-formatted dates."
+msgstr ""
+
+#: of pandas.read_table:193
+msgid "**infer_datetime_format**"
+msgstr ""
+
+#: of pandas.read_table:190
+msgid ""
+"If True and `parse_dates` is enabled, pandas will attempt to infer the "
+"format of the datetime strings in the columns, and if it can be inferred,"
+" switch to a faster method of parsing them. In some cases this can "
+"increase the parsing speed by 5-10x."
+msgstr ""
+
+#: of pandas.read_table:197
+msgid "**keep_date_col**"
+msgstr ""
+
+#: of pandas.read_table:196
+msgid ""
+"If True and `parse_dates` specifies combining multiple columns then keep "
+"the original columns."
+msgstr ""
+
+#: of pandas.read_table:208
+msgid "**date_parser**"
+msgstr ""
+
+#: of pandas.read_table:207
+msgid "function, optional"
+msgstr ""
+
+#: of pandas.read_table:200
+msgid ""
+"Function to use for converting a sequence of string columns to an array "
+"of datetime instances. The default uses ``dateutil.parser.parser`` to do "
+"the conversion. Pandas will try to call `date_parser` in three different "
+"ways, advancing to the next if an exception occurs: 1) Pass one or more "
+"arrays (as defined by `parse_dates`) as arguments; 2) concatenate (row-"
+"wise) the string values from the columns defined by `parse_dates` into a "
+"single array and pass that; and 3) call `date_parser` once for each row "
+"using one or more strings (corresponding to the columns defined by "
+"`parse_dates`) as arguments."
+msgstr ""
+
+#: of pandas.read_table:211
+msgid "**dayfirst**"
+msgstr ""
+
+#: of pandas.read_table:211
+msgid "DD/MM format dates, international and European format."
+msgstr ""
+
+#: of pandas.read_table:215
+msgid "**iterator**"
+msgstr ""
+
+#: of pandas.read_table:214
+msgid ""
+"Return TextFileReader object for iteration or getting chunks with "
+"``get_chunk()``."
+msgstr ""
+
+#: of pandas.read_table:221
+msgid "**chunksize**"
+msgstr ""
+
+#: of pandas.read_table:218
+msgid ""
+"Return TextFileReader object for iteration. See the `IO Tools docs "
+"<http://pandas.pydata.org/pandas-docs/stable/io.html#io-chunking>`_ for "
+"more information on ``iterator`` and ``chunksize``."
+msgstr ""
+
+#: of pandas.read_table:230
+msgid "**compression**"
+msgstr ""
+
+#: of pandas.read_table:229
+msgid "{'infer', 'gzip', 'bz2', 'zip', 'xz', None}, default 'infer'"
+msgstr ""
+
+#: of pandas.read_table:224
+msgid ""
+"For on-the-fly decompression of on-disk data. If 'infer' and "
+"`filepath_or_buffer` is path-like, then detect compression from the "
+"following extensions: '.gz', '.bz2', '.zip', or '.xz' (otherwise no "
+"decompression). If using 'zip', the ZIP file must contain only one data "
+"file to be read in. Set to None for no decompression."
+msgstr ""
+
+#: of pandas.read_table:230
+msgid "support for 'zip' and 'xz' compression."
+msgstr ""
+
+#: of pandas.read_table:233
+msgid "**thousands**"
+msgstr ""
+
+#: of pandas.read_table:233
+msgid "Thousands separator."
+msgstr ""
+
+#: of pandas.read_table:236
+msgid "**decimal**"
+msgstr ""
+
+#: of pandas.read_table:235
+msgid "str, default '.'"
+msgstr ""
+
+#: of pandas.read_table:236
+msgid "Character to recognize as decimal point (e.g. use ',' for European data)."
+msgstr ""
+
+#: of pandas.read_table:239
+msgid "**lineterminator**"
+msgstr ""
+
+#: of pandas.read_table:238 pandas.read_table:242 pandas.read_table:254
+msgid "str (length 1), optional"
+msgstr ""
+
+#: of pandas.read_table:239
+msgid "Character to break file into lines. Only valid with C parser."
+msgstr ""
+
+#: of pandas.read_table:243
+msgid "**quotechar**"
+msgstr ""
+
+#: of pandas.read_table:242
+msgid ""
+"The character used to denote the start and end of a quoted item. Quoted "
+"items can include the delimiter and it will be ignored."
+msgstr ""
+
+#: of pandas.read_table:247
+msgid "**quoting**"
+msgstr ""
+
+#: of pandas.read_table:246
+msgid "int or csv.QUOTE_* instance, default 0"
+msgstr ""
+
+#: of pandas.read_table:246
+msgid ""
+"Control field quoting behavior per ``csv.QUOTE_*`` constants. Use one of "
+"QUOTE_MINIMAL (0), QUOTE_ALL (1), QUOTE_NONNUMERIC (2) or QUOTE_NONE (3)."
+msgstr ""
+
+#: of pandas.read_table:252
+msgid "**doublequote** : bool, default ``True``"
+msgstr ""
+
+#: of pandas.read_table:250
+msgid ""
+"When quotechar is specified and quoting is not ``QUOTE_NONE``, indicate "
+"whether or not to interpret two consecutive quotechar elements INSIDE a "
+"field as a single ``quotechar`` element."
+msgstr ""
+
+#: of pandas.read_table:255
+msgid "**escapechar**"
+msgstr ""
+
+#: of pandas.read_table:255
+msgid "One-character string used to escape other characters."
+msgstr ""
+
+#: of pandas.read_table:264
+msgid "**comment**"
+msgstr ""
+
+#: of pandas.read_table:258
+msgid ""
+"Indicates remainder of line should not be parsed. If found at the "
+"beginning of a line, the line will be ignored altogether. This parameter "
+"must be a single character. Like empty lines (as long as "
+"``skip_blank_lines=True``), fully commented lines are ignored by the "
+"parameter `header` but not by `skiprows`. For example, if "
+"``comment='#'``, parsing ``#empty\\na,b,c\\n1,2,3`` with ``header=0`` "
+"will result in 'a,b,c' being treated as the header."
+msgstr ""
+
+#: of pandas.read_table:269
+msgid "**encoding**"
+msgstr ""
+
+#: of pandas.read_table:267
+msgid ""
+"Encoding to use for UTF when reading/writing (ex. 'utf-8'). `List of "
+"Python standard encodings <https://docs.python.org/3/library/codecs.html"
+"#standard-encodings>`_ ."
+msgstr ""
+
+#: of pandas.read_table:276
+msgid "**dialect**"
+msgstr ""
+
+#: of pandas.read_table:275
+msgid "str or csv.Dialect, optional"
+msgstr ""
+
+#: of pandas.read_table:272
+msgid ""
+"If provided, this parameter will override values (default or not) for the"
+" following parameters: `delimiter`, `doublequote`, `escapechar`, "
+"`skipinitialspace`, `quotechar`, and `quoting`. If it is necessary to "
+"override values, a ParserWarning will be issued. See csv.Dialect "
+"documentation for more details."
+msgstr ""
+
+#: of pandas.read_table:283
+msgid "**tupleize_cols**"
+msgstr ""
+
+#: of pandas.read_table:279
+msgid ""
+"Leave a list of tuples on columns as is (default is to convert to a "
+"MultiIndex on the columns)."
+msgstr ""
+
+#: of pandas.read_table:282
+msgid "This argument will be removed and will always convert to MultiIndex"
+msgstr ""
+
+#: of pandas.read_table:289
+msgid "**error_bad_lines**"
+msgstr ""
+
+#: of pandas.read_table:286
+msgid ""
+"Lines with too many fields (e.g. a csv line with too many commas) will by"
+" default cause an exception to be raised, and no DataFrame will be "
+"returned. If False, then these \"bad lines\" will dropped from the "
+"DataFrame that is returned."
+msgstr ""
+
+#: of pandas.read_table:293
+msgid "**warn_bad_lines**"
+msgstr ""
+
+#: of pandas.read_table:292
+msgid ""
+"If error_bad_lines is False, and warn_bad_lines is True, a warning for "
+"each \"bad line\" will be output."
+msgstr ""
+
+#: of pandas.read_table:301
+msgid "**delim_whitespace**"
+msgstr ""
+
+#: of pandas.read_table:296
+msgid ""
+"Specifies whether or not whitespace (e.g. ``' '`` or ``'    '``) will be "
+"used as the sep. Equivalent to setting ``sep='\\s+'``. If this option is "
+"set to True, nothing should be passed in for the ``delimiter`` parameter."
+msgstr ""
+
+#: of pandas.read_table:301
+msgid "support for the Python parser."
+msgstr ""
+
+#: of pandas.read_table:309
+msgid "**low_memory**"
+msgstr ""
+
+#: of pandas.read_table:304
+msgid ""
+"Internally process the file in chunks, resulting in lower memory use "
+"while parsing, but possibly mixed type inference.  To ensure no mixed "
+"types either set False, or specify the type with the `dtype` parameter. "
+"Note that the entire file is read into a single DataFrame regardless, use"
+" the `chunksize` or `iterator` parameter to return the data in chunks. "
+"(Only valid with C parser)."
+msgstr ""
+
+#: of pandas.read_table:314
+msgid "**memory_map**"
+msgstr ""
+
+#: of pandas.read_table:312
+msgid ""
+"If a filepath is provided for `filepath_or_buffer`, map the file object "
+"directly onto memory and access the data directly from there. Using this "
+"option can improve performance because there is no longer any I/O "
+"overhead."
+msgstr ""
+
+#: of pandas.read_table:320
+msgid "**float_precision**"
+msgstr ""
+
+#: of pandas.read_table:317
+msgid ""
+"Specifies which converter the C engine should use for floating-point "
+"values. The options are `None` for the ordinary converter, `high` for the"
+" high-precision converter, and `round_trip` for the round-trip converter."
+msgstr ""
+
+#: of pandas.read_table
+msgid "Returns"
+msgstr ""
+
+#: of pandas.read_table:331
+msgid "**DataFrame or TextParser**"
+msgstr ""
+
+#: of pandas.read_table:325
+msgid ""
+"A comma-separated values (csv) file is returned as two-dimensional data "
+"structure with labeled axes."
+msgstr ""
+
+#: of pandas.read_table:337
+msgid ":obj:`to_csv`"
+msgstr ""
+
+#: of pandas.read_table:337
+msgid "Write DataFrame to a comma-separated values (csv) file."
+msgstr ""
+
+#: of pandas.read_table:340
+msgid ":obj:`read_csv`"
+msgstr ""
+
+#: of pandas.read_table:340
+msgid "Read a comma-separated values (csv) file into DataFrame."
+msgstr ""
+
+#: of pandas.read_table:342
+msgid ":obj:`read_fwf`"
+msgstr ""
+
+#: of pandas.read_table:343
+msgid "Read a table of fixed-width formatted lines into DataFrame."
+msgstr ""
+
+#: of pandas.read_table:348
+msgid "Examples"
+msgstr ""
+

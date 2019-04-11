@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.core.resample.Resampler.asfreq.rst:2
+msgid "pandas.core.resample.Resampler.asfreq"
+msgstr ""
+
+#: of pandas.core.resample.Resampler.asfreq:2
+msgid "Return the values at the new freq, essentially a reindex."
+msgstr ""
+
+#: of pandas.core.resample.Resampler.asfreq
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.core.resample.Resampler.asfreq:17
+msgid "**fill_value**"
+msgstr ""
+
+#: of pandas.core.resample.Resampler.asfreq:16
+msgid "scalar, optional"
+msgstr ""
+
+#: of pandas.core.resample.Resampler.asfreq:8
+msgid ""
+"Value to use for missing values, applied during upsampling (note this "
+"does not fill NaNs that already were present)."
+msgstr ""
+
+#: of pandas.core.resample.Resampler.asfreq:22
+msgid ":obj:`Series.asfreq`, :obj:`DataFrame.asfreq`"
+msgstr ""
+

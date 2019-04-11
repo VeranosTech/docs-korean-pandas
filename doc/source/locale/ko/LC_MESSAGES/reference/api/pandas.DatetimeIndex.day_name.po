@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DatetimeIndex.day_name.rst:2
+msgid "pandas.DatetimeIndex.day\\_name"
+msgstr ""
+
+#: of pandas.DatetimeIndex.day_name:2
+msgid "Return the day names of the DateTimeIndex with specified locale."
+msgstr ""
+
+#: of pandas.DatetimeIndex.day_name
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DatetimeIndex.day_name:10
+msgid "**locale**"
+msgstr ""
+
+#: of pandas.DatetimeIndex.day_name:9
+msgid "str, optional"
+msgstr ""
+
+#: of pandas.DatetimeIndex.day_name:9
+msgid ""
+"Locale determining the language in which to return the day name. Default "
+"is English locale."
+msgstr ""
+
+#: of pandas.DatetimeIndex.day_name
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DatetimeIndex.day_name:23
+msgid "**Index**"
+msgstr ""
+
+#: of pandas.DatetimeIndex.day_name:15
+msgid "Index of day names."
+msgstr ""
+
+#: of pandas.DatetimeIndex.day_name:26
+msgid "Examples"
+msgstr ""
+

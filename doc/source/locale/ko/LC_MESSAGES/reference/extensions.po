@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/extensions.rst:1
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../reference/extensions.rst:7
+msgid "Extensions"
+msgstr ""
+
+#: ../../reference/extensions.rst:10
+msgid ""
+"These are primarily intended for library authors looking to extend pandas"
+" objects."
+msgstr ""
+
+#: ../../reference/extensions.rst:22:<autosummary>:1
+msgid ""
+":obj:`api.extensions.register_extension_dtype "
+"<pandas.api.extensions.register_extension_dtype>`\\ \\(cls\\)"
+msgstr ""
+
+#: ../../reference/extensions.rst:22:<autosummary>:1
+msgid "Class decorator to register an ExtensionType with pandas."
+msgstr ""
+
+#: ../../reference/extensions.rst:22:<autosummary>:1
+msgid ""
+":obj:`api.extensions.register_dataframe_accessor "
+"<pandas.api.extensions.register_dataframe_accessor>`\\ \\(name\\)"
+msgstr ""
+
+#: ../../reference/extensions.rst:22:<autosummary>:1
+msgid "Register a custom accessor on DataFrame objects."
+msgstr ""
+
+#: ../../reference/extensions.rst:22:<autosummary>:1
+msgid ""
+":obj:`api.extensions.register_series_accessor "
+"<pandas.api.extensions.register_series_accessor>`\\ \\(name\\)"
+msgstr ""
+
+#: ../../reference/extensions.rst:22:<autosummary>:1
+msgid "Register a custom accessor on Series objects."
+msgstr ""
+
+#: ../../reference/extensions.rst:22:<autosummary>:1
+msgid ""
+":obj:`api.extensions.register_index_accessor "
+"<pandas.api.extensions.register_index_accessor>`\\ \\(name\\)"
+msgstr ""
+
+#: ../../reference/extensions.rst:22:<autosummary>:1
+msgid "Register a custom accessor on Index objects."
+msgstr ""
+
+#: ../../reference/extensions.rst:22:<autosummary>:1
+msgid ""
+":obj:`api.extensions.ExtensionDtype "
+"<pandas.api.extensions.ExtensionDtype>`\\"
+msgstr ""
+
+#: ../../reference/extensions.rst:22:<autosummary>:1
+msgid "A custom data type, to be paired with an ExtensionArray."
+msgstr ""
+
+#: ../../reference/extensions.rst:22:<autosummary>:1
+msgid ""
+":obj:`api.extensions.ExtensionArray "
+"<pandas.api.extensions.ExtensionArray>`\\"
+msgstr ""
+
+#: ../../reference/extensions.rst:22:<autosummary>:1
+msgid "Abstract base class for custom 1-D array types."
+msgstr ""
+
+#: ../../reference/extensions.rst:22:<autosummary>:1
+msgid ""
+":obj:`arrays.PandasArray <pandas.arrays.PandasArray>`\\ \\(values\\[\\, "
+"copy\\]\\)"
+msgstr ""
+
+#: ../../reference/extensions.rst:22:<autosummary>:1
+msgid "A pandas ExtensionArray for NumPy data."
+msgstr ""
+

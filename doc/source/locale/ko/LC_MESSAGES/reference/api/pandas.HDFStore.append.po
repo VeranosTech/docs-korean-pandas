@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.HDFStore.append.rst:2
+msgid "pandas.HDFStore.append"
+msgstr ""
+
+#: of pandas.HDFStore.append:2
+msgid "Append to Table in file. Node must already exist and be Table format."
+msgstr ""
+
+#: of pandas.HDFStore.append
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.HDFStore.append:9
+msgid "**key**"
+msgstr ""
+
+#: of pandas.HDFStore.append:8
+msgid "object"
+msgstr ""
+
+#: of pandas.HDFStore.append:12
+msgid "**value**"
+msgstr ""
+
+#: of pandas.HDFStore.append:11
+msgid "{Series, DataFrame, Panel}"
+msgstr ""
+
+#: of pandas.HDFStore.append:18
+msgid "**format**"
+msgstr ""
+
+#: of pandas.HDFStore.append:17
+msgid "'table' is the default"
+msgstr ""
+
+#: of pandas.HDFStore.append:18
+msgid "table(t)"
+msgstr ""
+
+#: of pandas.HDFStore.append:17
+msgid "table format"
+msgstr ""
+
+#: of pandas.HDFStore.append:16
+msgid ""
+"Write as a PyTables Table structure which may perform worse but allow "
+"more flexible operations like searching / selecting subsets of the data"
+msgstr ""
+
+#: of pandas.HDFStore.append:21
+msgid "**append**"
+msgstr ""
+
+#: of pandas.HDFStore.append:20
+msgid "boolean, default True, append the input data to the"
+msgstr ""
+
+#: of pandas.HDFStore.append:21
+msgid "existing"
+msgstr ""
+
+#: of pandas.HDFStore.append:27
+msgid "**data_columns**"
+msgstr ""
+
+#: of pandas.HDFStore.append:26
+msgid "list of columns, or True, default None"
+msgstr ""
+
+#: of pandas.HDFStore.append:24
+msgid ""
+"List of columns to create as indexed data columns for on-disk queries, or"
+" True to use all columns. By default only the axes of the object are "
+"indexed. See `here <http://pandas.pydata.org/pandas-docs/stable/io.html"
+"#query-via-data-columns>`__."
+msgstr ""
+
+#: of pandas.HDFStore.append:30
+msgid "**min_itemsize**"
+msgstr ""
+
+#: of pandas.HDFStore.append:29
+msgid "dict of columns that specify minimum string sizes"
+msgstr ""
+
+#: of pandas.HDFStore.append:33
+msgid "**nan_rep**"
+msgstr ""
+
+#: of pandas.HDFStore.append:32
+msgid "string to use as string nan represenation"
+msgstr ""
+
+#: of pandas.HDFStore.append:36
+msgid "**chunksize**"
+msgstr ""
+
+#: of pandas.HDFStore.append:35
+msgid "size to chunk the writing"
+msgstr ""
+
+#: of pandas.HDFStore.append:39
+msgid "**expectedrows**"
+msgstr ""
+
+#: of pandas.HDFStore.append:38
+msgid "expected TOTAL row size of this table"
+msgstr ""
+
+#: of pandas.HDFStore.append:42
+msgid "**encoding**"
+msgstr ""
+
+#: of pandas.HDFStore.append:41
+msgid "default None, provide an encoding for strings"
+msgstr ""
+
+#: of pandas.HDFStore.append:52
+msgid "**dropna**"
+msgstr ""
+
+#: of pandas.HDFStore.append:51
+msgid "boolean, default False, do not write an ALL nan row to"
+msgstr ""
+
+#: of pandas.HDFStore.append:45
+msgid "the store settable by the option 'io.hdf.dropna_table'"
+msgstr ""
+
+#: of pandas.HDFStore.append:55
+msgid "Notes"
+msgstr ""
+
+#: of pandas.HDFStore.append:56
+msgid ""
+"Does *not* check if data being appended overlaps with existing data in "
+"the table, so be careful"
+msgstr ""
+

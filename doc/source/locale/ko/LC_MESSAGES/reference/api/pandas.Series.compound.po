@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.compound.rst:2
+msgid "pandas.Series.compound"
+msgstr ""
+
+#: of pandas.Series.compound:2
+msgid "Return the compound percentage of the values for the requested axis."
+msgstr ""
+
+#: of pandas.Series.compound
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.compound:8
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.Series.compound:7
+msgid "{index (0)}"
+msgstr ""
+
+#: of pandas.Series.compound:8
+msgid "Axis for the function to be applied on."
+msgstr ""
+
+#: of pandas.Series.compound:11
+msgid "**skipna**"
+msgstr ""
+
+#: of pandas.Series.compound:10
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.Series.compound:11
+msgid "Exclude NA/null values when computing the result."
+msgstr ""
+
+#: of pandas.Series.compound:15
+msgid "**level**"
+msgstr ""
+
+#: of pandas.Series.compound:14
+msgid "int or level name, default None"
+msgstr ""
+
+#: of pandas.Series.compound:14
+msgid ""
+"If the axis is a MultiIndex (hierarchical), count along a particular "
+"level, collapsing into a scalar."
+msgstr ""
+
+#: of pandas.Series.compound:19
+msgid "**numeric_only**"
+msgstr ""
+
+#: of pandas.Series.compound:18
+msgid "bool, default None"
+msgstr ""
+
+#: of pandas.Series.compound:18
+msgid ""
+"Include only float, int, boolean columns. If None, will attempt to use "
+"everything, then use only numeric data. Not implemented for Series."
+msgstr ""
+
+#: of pandas.Series.compound:22
+msgid "**\\*\\*kwargs**"
+msgstr ""
+
+#: of pandas.Series.compound:22
+msgid "Additional keyword arguments to be passed to the function."
+msgstr ""
+
+#: of pandas.Series.compound
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.compound:38
+msgid "**compounded**"
+msgstr ""
+
+#: of pandas.Series.compound:37
+msgid "scalar or Series (if level specified)"
+msgstr ""
+

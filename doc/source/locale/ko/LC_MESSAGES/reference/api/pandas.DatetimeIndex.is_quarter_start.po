@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DatetimeIndex.is_quarter_start.rst:2
+msgid "pandas.DatetimeIndex.is\\_quarter\\_start"
+msgstr ""
+
+#: of pandas.DatetimeIndex.is_quarter_start:2
+msgid "Indicator for whether the date is the first day of a quarter."
+msgstr ""
+
+#: of pandas.DatetimeIndex.is_quarter_start
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DatetimeIndex.is_quarter_start:16
+msgid "**is_quarter_start**"
+msgstr ""
+
+#: of pandas.DatetimeIndex.is_quarter_start:15
+msgid "Series or DatetimeIndex"
+msgstr ""
+
+#: of pandas.DatetimeIndex.is_quarter_start:9
+msgid ""
+"The same type as the original data with boolean values. Series will have "
+"the same name and index. DatetimeIndex will have the same name."
+msgstr ""
+
+#: of pandas.DatetimeIndex.is_quarter_start:22
+msgid ":obj:`quarter`"
+msgstr ""
+
+#: of pandas.DatetimeIndex.is_quarter_start:22
+msgid "Return the quarter of the date."
+msgstr ""
+
+#: of pandas.DatetimeIndex.is_quarter_start:24
+msgid ":obj:`is_quarter_end`"
+msgstr ""
+
+#: of pandas.DatetimeIndex.is_quarter_start:25
+msgid "Similar property for indicating the quarter start."
+msgstr ""
+
+#: of pandas.DatetimeIndex.is_quarter_start:30
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DatetimeIndex.is_quarter_start:31
+msgid ""
+"This method is available on Series with datetime values under the ``.dt``"
+" accessor, and directly on DatetimeIndex."
+msgstr ""
+

@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.unique.rst:2
+msgid "pandas.Series.unique"
+msgstr ""
+
+#: of pandas.Series.unique:2
+msgid "Return unique values of Series object."
+msgstr ""
+
+#: of pandas.Series.unique:4
+msgid ""
+"Uniques are returned in order of appearance. Hash table-based unique, "
+"therefore does NOT sort."
+msgstr ""
+
+#: of pandas.Series.unique
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.unique:26
+msgid "**ndarray or ExtensionArray**"
+msgstr ""
+
+#: of pandas.Series.unique:11
+msgid ""
+"The unique values returned as a NumPy array. In case of an extension-"
+"array backed Series, a new :class:`~api.extensions.ExtensionArray` of "
+"that type with just the unique values is returned. This includes"
+msgstr ""
+
+#: of pandas.Series.unique:16
+msgid "Categorical"
+msgstr ""
+
+#: of pandas.Series.unique:17
+msgid "Period"
+msgstr ""
+
+#: of pandas.Series.unique:18
+msgid "Datetime with Timezone"
+msgstr ""
+
+#: of pandas.Series.unique:19
+msgid "Interval"
+msgstr ""
+
+#: of pandas.Series.unique:20
+msgid "Sparse"
+msgstr ""
+
+#: of pandas.Series.unique:21
+msgid "IntegerNA"
+msgstr ""
+
+#: of pandas.Series.unique:32
+msgid ":obj:`unique`"
+msgstr ""
+
+#: of pandas.Series.unique:32
+msgid "Top-level unique method for any 1-d array-like object."
+msgstr ""
+
+#: of pandas.Series.unique:34
+msgid ":obj:`Index.unique`"
+msgstr ""
+
+#: of pandas.Series.unique:35
+msgid "Return Index with unique values from an Index object."
+msgstr ""
+
+#: of pandas.Series.unique:40
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.unique:53
+msgid ""
+"An unordered Categorical will return categories in the order of "
+"appearance."
+msgstr ""
+
+#: of pandas.Series.unique:60
+msgid "An ordered Categorical preserves the category ordering."
+msgstr ""
+

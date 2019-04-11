@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.xs.rst:2
+msgid "pandas.Series.xs"
+msgstr ""
+
+#: of pandas.Series.xs:2
+msgid "Return cross-section from the Series/DataFrame."
+msgstr ""
+
+#: of pandas.Series.xs:4
+msgid ""
+"This method takes a `key` argument to select data at a particular level "
+"of a MultiIndex."
+msgstr ""
+
+#: of pandas.Series.xs
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.xs:10
+msgid "**key**"
+msgstr ""
+
+#: of pandas.Series.xs:9
+msgid "label or tuple of label"
+msgstr ""
+
+#: of pandas.Series.xs:10
+msgid "Label contained in the index, or partially in a MultiIndex."
+msgstr ""
+
+#: of pandas.Series.xs:13
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.Series.xs:12
+msgid "{0 or 'index', 1 or 'columns'}, default 0"
+msgstr ""
+
+#: of pandas.Series.xs:13
+msgid "Axis to retrieve cross-section on."
+msgstr ""
+
+#: of pandas.Series.xs:17
+msgid "**level**"
+msgstr ""
+
+#: of pandas.Series.xs:16
+msgid "object, defaults to first n levels (n=1 or len(key))"
+msgstr ""
+
+#: of pandas.Series.xs:16
+msgid ""
+"In case of a key partially contained in a MultiIndex, indicate which "
+"levels are used. Levels can be referred by label or position."
+msgstr ""
+
+#: of pandas.Series.xs:20
+msgid "**drop_level**"
+msgstr ""
+
+#: of pandas.Series.xs:19
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.Series.xs:20
+msgid "If False, returns object with same levels as self."
+msgstr ""
+
+#: of pandas.Series.xs
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.xs:31
+msgid "**Series or DataFrame**"
+msgstr ""
+
+#: of pandas.Series.xs:25
+msgid ""
+"Cross-section from the original Series or DataFrame corresponding to the "
+"selected index levels."
+msgstr ""
+
+#: of pandas.Series.xs:37
+msgid ":obj:`DataFrame.loc`"
+msgstr ""
+
+#: of pandas.Series.xs:37
+msgid "Access a group of rows and columns by label(s) or a boolean array."
+msgstr ""
+
+#: of pandas.Series.xs:39
+msgid ":obj:`DataFrame.iloc`"
+msgstr ""
+
+#: of pandas.Series.xs:40
+msgid "Purely integer-location based indexing for selection by position."
+msgstr ""
+
+#: of pandas.Series.xs:43
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Series.xs:44
+msgid "`xs` can not be used to set values."
+msgstr ""
+
+#: of pandas.Series.xs:46
+msgid ""
+"MultiIndex Slicers is a generic way to get/set values on any level or "
+"levels. It is a superset of `xs` functionality, see :ref:`MultiIndex "
+"Slicers <advanced.mi_slicers>`."
+msgstr ""
+
+#: of pandas.Series.xs:53
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.xs:69
+msgid "Get values at specified index"
+msgstr ""
+
+#: of pandas.Series.xs:78
+msgid "Get values at several indexes"
+msgstr ""
+
+#: of pandas.Series.xs:85
+msgid "Get values at specified index and level"
+msgstr ""
+
+#: of pandas.Series.xs:92
+msgid "Get values at several indexes and levels"
+msgstr ""
+
+#: of pandas.Series.xs:100
+msgid "Get values at specified column and axis"
+msgstr ""
+

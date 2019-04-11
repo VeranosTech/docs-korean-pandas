@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.get_level_values.rst:2
+msgid "pandas.Index.get\\_level\\_values"
+msgstr ""
+
+#: of pandas.Index.get_level_values:2
+msgid "Return an Index of values for requested level."
+msgstr ""
+
+#: of pandas.Index.get_level_values:4
+msgid ""
+"This is primarily useful to get an individual level of values from a "
+"MultiIndex, but is provided on Index as well for compatability."
+msgstr ""
+
+#: of pandas.Index.get_level_values
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.get_level_values:10
+msgid "**level**"
+msgstr ""
+
+#: of pandas.Index.get_level_values:9
+msgid "int or str"
+msgstr ""
+
+#: of pandas.Index.get_level_values:10
+msgid "It is either the integer position or the name of the level."
+msgstr ""
+
+#: of pandas.Index.get_level_values
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.get_level_values:20
+msgid "**values**"
+msgstr ""
+
+#: of pandas.Index.get_level_values:19
+msgid "Index"
+msgstr ""
+
+#: of pandas.Index.get_level_values:15
+msgid "Calling object, as there is only one level in the Index."
+msgstr ""
+
+#: of pandas.Index.get_level_values:25
+msgid ":obj:`MultiIndex.get_level_values`"
+msgstr ""
+
+#: of pandas.Index.get_level_values:26
+msgid "Get values for a level of a MultiIndex."
+msgstr ""
+
+#: of pandas.Index.get_level_values:29
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Index.get_level_values:30
+msgid "For Index, level should be 0, since there are no multiple levels."
+msgstr ""
+
+#: of pandas.Index.get_level_values:34
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Index.get_level_values:39
+msgid "Get level values by supplying `level` as integer:"
+msgstr ""
+

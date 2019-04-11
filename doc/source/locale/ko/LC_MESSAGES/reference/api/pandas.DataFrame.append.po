@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.append.rst:2
+msgid "pandas.DataFrame.append"
+msgstr ""
+
+#: of pandas.DataFrame.append:2
+msgid "Append rows of `other` to the end of caller, returning a new object."
+msgstr ""
+
+#: of pandas.DataFrame.append:4
+msgid "Columns in `other` that are not in the caller are added as new columns."
+msgstr ""
+
+#: of pandas.DataFrame.append
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.append:9
+msgid "**other**"
+msgstr ""
+
+#: of pandas.DataFrame.append:8
+msgid "DataFrame or Series/dict-like object, or list of these"
+msgstr ""
+
+#: of pandas.DataFrame.append:9
+msgid "The data to append."
+msgstr ""
+
+#: of pandas.DataFrame.append:12
+msgid "**ignore_index**"
+msgstr ""
+
+#: of pandas.DataFrame.append:11 pandas.DataFrame.append:14
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.DataFrame.append:12
+msgid "If True, do not use the index labels."
+msgstr ""
+
+#: of pandas.DataFrame.append:15
+msgid "**verify_integrity**"
+msgstr ""
+
+#: of pandas.DataFrame.append:15
+msgid "If True, raise ValueError on creating index with duplicates."
+msgstr ""
+
+#: of pandas.DataFrame.append:24
+msgid "**sort**"
+msgstr ""
+
+#: of pandas.DataFrame.append:23
+msgid "boolean, default None"
+msgstr ""
+
+#: of pandas.DataFrame.append:18
+msgid ""
+"Sort columns if the columns of `self` and `other` are not aligned. The "
+"default sorting is deprecated and will change to not-sorting in a future "
+"version of pandas. Explicitly pass ``sort=True`` to silence the warning "
+"and sort. Explicitly pass ``sort=False`` to silence the warning and not "
+"sort."
+msgstr ""
+
+#: of pandas.DataFrame.append
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.append:34
+msgid "**appended**"
+msgstr ""
+
+#: of pandas.DataFrame.append:33
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.DataFrame.append:39
+msgid ":obj:`pandas.concat`"
+msgstr ""
+
+#: of pandas.DataFrame.append:40
+msgid "General function to concatenate DataFrame, Series or Panel objects."
+msgstr ""
+
+#: of pandas.DataFrame.append:43
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.append:44
+msgid ""
+"If a list of dict/series is passed and the keys are all contained in the "
+"DataFrame's index, the order of the columns in the resulting DataFrame "
+"will be unchanged."
+msgstr ""
+
+#: of pandas.DataFrame.append:48
+msgid ""
+"Iteratively appending rows to a DataFrame can be more computationally "
+"intensive than a single concatenate. A better solution is to append those"
+" rows to a list and then concatenate the list with the original DataFrame"
+" all at once."
+msgstr ""
+
+#: of pandas.DataFrame.append:55
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.append:69
+msgid "With `ignore_index` set to True:"
+msgstr ""
+
+#: of pandas.DataFrame.append:78
+msgid ""
+"The following, while not recommended methods for generating DataFrames, "
+"show two ways to generate a DataFrame from multiple data sources."
+msgstr ""
+
+#: of pandas.DataFrame.append:81
+msgid "Less efficient:"
+msgstr ""
+
+#: of pandas.DataFrame.append:94
+msgid "More efficient:"
+msgstr ""
+

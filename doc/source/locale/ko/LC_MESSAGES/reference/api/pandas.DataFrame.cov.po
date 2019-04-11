@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.cov.rst:2
+msgid "pandas.DataFrame.cov"
+msgstr ""
+
+#: of pandas.DataFrame.cov:2
+msgid "Compute pairwise covariance of columns, excluding NA/null values."
+msgstr ""
+
+#: of pandas.DataFrame.cov:4
+msgid ""
+"Compute the pairwise covariance among the series of a DataFrame. The "
+"returned data frame is the `covariance matrix "
+"<https://en.wikipedia.org/wiki/Covariance_matrix>`__ of the columns of "
+"the DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.cov:9
+msgid ""
+"Both NA and null values are automatically excluded from the calculation. "
+"(See the note below about bias from missing values.) A threshold can be "
+"set for the minimum number of observations for each value created. "
+"Comparisons with observations below this threshold will be returned as "
+"``NaN``."
+msgstr ""
+
+#: of pandas.DataFrame.cov:15
+msgid ""
+"This method is generally used for the analysis of time series data to "
+"understand the relationship between different measures across time."
+msgstr ""
+
+#: of pandas.DataFrame.cov
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.cov:23
+msgid "**min_periods**"
+msgstr ""
+
+#: of pandas.DataFrame.cov:22
+msgid "int, optional"
+msgstr ""
+
+#: of pandas.DataFrame.cov:22
+msgid ""
+"Minimum number of observations required per pair of columns to have a "
+"valid result."
+msgstr ""
+
+#: of pandas.DataFrame.cov
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.cov:33
+msgid "**DataFrame**"
+msgstr ""
+
+#: of pandas.DataFrame.cov:28
+msgid "The covariance matrix of the series of the DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.cov:39
+msgid ":obj:`pandas.Series.cov`"
+msgstr ""
+
+#: of pandas.DataFrame.cov:39
+msgid "Compute covariance with another Series."
+msgstr ""
+
+#: of pandas.DataFrame.cov:42
+msgid ":obj:`pandas.core.window.EWM.cov`"
+msgstr ""
+
+#: of pandas.DataFrame.cov:42
+msgid "Exponential weighted sample covariance."
+msgstr ""
+
+#: of pandas.DataFrame.cov:45
+msgid ":obj:`pandas.core.window.Expanding.cov`"
+msgstr ""
+
+#: of pandas.DataFrame.cov:45
+msgid "Expanding sample covariance."
+msgstr ""
+
+#: of pandas.DataFrame.cov:47
+msgid ":obj:`pandas.core.window.Rolling.cov`"
+msgstr ""
+
+#: of pandas.DataFrame.cov:48
+msgid "Rolling sample covariance."
+msgstr ""
+
+#: of pandas.DataFrame.cov:51
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.cov:52
+msgid ""
+"Returns the covariance matrix of the DataFrame's time series. The "
+"covariance is normalized by N-1."
+msgstr ""
+
+#: of pandas.DataFrame.cov:55
+msgid ""
+"For DataFrames that have Series that are missing data (assuming that data"
+" is `missing at random "
+"<https://en.wikipedia.org/wiki/Missing_data#Missing_at_random>`__) the "
+"returned covariance matrix will be an unbiased estimate of the variance "
+"and covariance between the member Series."
+msgstr ""
+
+#: of pandas.DataFrame.cov:61
+msgid ""
+"However, for many applications this estimate may not be acceptable "
+"because the estimate covariance matrix is not guaranteed to be positive "
+"semi-definite. This could lead to estimate correlations having absolute "
+"values which are greater than one, and/or a non-invertible covariance "
+"matrix. See `Estimation of covariance matrices "
+"<http://en.wikipedia.org/w/index.php?title=Estimation_of_covariance_ "
+"matrices>`__ for more details."
+msgstr ""
+
+#: of pandas.DataFrame.cov:71
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.cov:90
+msgid "**Minimum number of periods**"
+msgstr ""
+
+#: of pandas.DataFrame.cov:92
+msgid ""
+"This method also supports an optional ``min_periods`` keyword that "
+"specifies the required minimum number of non-NA observations for each "
+"column pair in order to have a valid result:"
+msgstr ""
+

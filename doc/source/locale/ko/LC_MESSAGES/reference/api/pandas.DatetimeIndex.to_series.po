@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DatetimeIndex.to_series.rst:2
+msgid "pandas.DatetimeIndex.to\\_series"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_series:2
+msgid ""
+"Create a Series with both index and values equal to the index keys useful"
+" with map for returning an indexer based on an index"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_series
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_series:27
+msgid "**keep_tz**"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_series:26
+msgid "optional, defaults False"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_series:9
+msgid "Return the data keeping the timezone."
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_series:11
+msgid "If keep_tz is True:"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_series:13
+msgid ""
+"If the timezone is not set, the resulting Series will have a "
+"datetime64[ns] dtype."
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_series:16
+msgid ""
+"Otherwise the Series will have an datetime64[ns, tz] dtype; the tz will "
+"be preserved."
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_series:19
+msgid "If keep_tz is False:"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_series:21
+msgid ""
+"Series will have a datetime64[ns] dtype. TZ aware objects will have the "
+"tz removed."
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_series:24
+msgid ""
+"The default value will change to True in a future release. You can set "
+"``keep_tz=True`` to already obtain the future behaviour and silence the "
+"warning."
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_series:30
+msgid "**index**"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_series:29
+msgid "Index, optional"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_series:30
+msgid "index of resulting Series. If None, defaults to original index"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_series:34
+msgid "**name**"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_series:33
+msgid "string, optional"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_series:33
+msgid "name of resulting Series. If None, defaults to name of original index"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_series
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_series:50
+msgid "**Series**"
+msgstr ""
+

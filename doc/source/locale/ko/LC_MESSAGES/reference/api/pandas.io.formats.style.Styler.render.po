@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.io.formats.style.Styler.render.rst:2
+msgid "pandas.io.formats.style.Styler.render"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.render:2
+msgid "Render the built up styles to HTML."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.render
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.render:8
+msgid "**`**kwargs`**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.render:7
+msgid "Any additional keyword arguments are passed through"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.render:11
+msgid "**to ``self.template.render``. This is useful when you need to provide**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.render:14
+msgid "**additional variables for a custom template.**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.render
+msgid "Returns"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.render:25
+msgid "**rendered**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.render:24
+msgid "str"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.render:19
+msgid "the rendered HTML"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.render:28
+msgid "Notes"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.render:29
+msgid ""
+"``Styler`` objects have defined the ``_repr_html_`` method which "
+"automatically calls ``self.render()`` when it's the last item in a "
+"Notebook cell. When calling ``Styler.render()`` directly, wrap the result"
+" in ``IPython.display.HTML`` to view the rendered HTML in the notebook."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.render:35
+msgid ""
+"Pandas uses the following keys in render. Arguments passed in "
+"``**kwargs`` take precedence, so think carefully if you want to override "
+"them:"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.render:39
+msgid "head"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.render:40
+msgid "cellstyle"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.render:41
+msgid "body"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.render:42
+msgid "uuid"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.render:43
+msgid "precision"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.render:44
+msgid "table_styles"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.render:45
+msgid "caption"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.render:46
+msgid "table_attributes"
+msgstr ""
+

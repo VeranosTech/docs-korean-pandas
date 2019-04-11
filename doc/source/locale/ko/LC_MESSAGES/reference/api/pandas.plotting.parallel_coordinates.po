@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.plotting.parallel_coordinates.rst:2
+msgid "pandas.plotting.parallel\\_coordinates"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:2
+msgid "Parallel coordinates plotting."
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:8
+msgid "**frame**"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:7
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:11
+msgid "**class_column**"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:10
+msgid "str"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:11
+msgid "Column name containing class names"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:14
+msgid "**cols**"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:13
+msgid "list, optional"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:14
+msgid "A list of column names to use"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:17
+msgid "**ax**"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:16
+msgid "matplotlib.axis, optional"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:17
+msgid "matplotlib axis object"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:20
+msgid "**color**"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:19
+#: pandas.plotting.parallel_coordinates:25
+msgid "list or tuple, optional"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:20
+msgid "Colors to use for the different classes"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:23
+msgid "**use_columns**"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:22
+#: pandas.plotting.parallel_coordinates:31
+msgid "bool, optional"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:23
+msgid "If true, columns will be used as xticks"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:26
+msgid "**xticks**"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:26
+msgid "A list of values to use for xticks"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:29
+msgid "**colormap**"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:28
+msgid "str or matplotlib colormap, default None"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:29
+msgid "Colormap to use for line colors."
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:32
+msgid "**axvlines**"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:32
+msgid "If true, vertical lines will be added at each xtick"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:35
+msgid "**axvlines_kwds**"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:34
+msgid "keywords, optional"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:35
+msgid "Options to be passed to axvline method for vertical lines"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:40
+msgid "**sort_labels**"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:39
+msgid "bool, False"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:38
+msgid "Sort class_column labels, useful when assigning colors"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:43
+msgid "**kwds**"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:42
+msgid "keywords"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:43
+msgid "Options to pass to matplotlib plotting method"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates
+msgid "Returns"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:56
+msgid "**ax: matplotlib axis object**"
+msgstr ""
+
+#: of pandas.plotting.parallel_coordinates:59
+msgid "Examples"
+msgstr ""
+

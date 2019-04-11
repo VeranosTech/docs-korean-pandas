@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.core.groupby.DataFrameGroupBy.fillna.rst:2
+msgid "pandas.core.groupby.DataFrameGroupBy.fillna"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:2
+msgid "Fill NA/NaN values using the specified method."
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:12
+msgid "**value**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:11
+msgid "scalar, dict, Series, or DataFrame"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:8
+msgid ""
+"Value to use to fill holes (e.g. 0), alternately a dict/Series/DataFrame "
+"of values specifying which value to use for each index (for a Series) or "
+"column (for a DataFrame). (values not in the dict/Series/DataFrame will "
+"not be filled). This value cannot be a list."
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:17
+msgid "**method**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:16
+msgid "{'backfill', 'bfill', 'pad', 'ffill', None}, default None"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:15
+msgid ""
+"Method to use for filling holes in reindexed Series pad / ffill: "
+"propagate last valid observation forward to next valid backfill / bfill: "
+"use NEXT valid observation to fill gap"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:20
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:19
+msgid "{0 or 'index', 1 or 'columns'}"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:25
+msgid "**inplace**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:24
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:23
+msgid ""
+"If True, fill in place. Note: this will modify any other views on this "
+"object, (e.g. a no-copy slice for a column in a DataFrame)."
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:33
+msgid "**limit**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:32
+msgid "int, default None"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:28
+msgid ""
+"If method is specified, this is the maximum number of consecutive NaN "
+"values to forward/backward fill. In other words, if there is a gap with "
+"more than this number of consecutive NaNs, it will only be partially "
+"filled. If method is not specified, this is the maximum number of entries"
+" along the entire axis where NaNs will be filled. Must be greater than 0 "
+"if not None."
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:38
+msgid "**downcast**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:37
+msgid "dict, default is None"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:36
+msgid ""
+"a dict of item->dtype of what to downcast if possible, or the string "
+"'infer' which will try to downcast to an appropriate equal type (e.g. "
+"float64 to int64 if possible)"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna
+msgid "Returns"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:48
+msgid "**filled**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:47
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:54
+msgid ":obj:`interpolate`"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:54
+msgid "Fill NaN values using interpolation."
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:56
+msgid ":obj:`reindex`, :obj:`asfreq`"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:61
+msgid "Examples"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:74
+msgid "Replace all NaN elements with 0s."
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:83
+msgid "We can also propagate non-null values forward or backward."
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:92
+msgid ""
+"Replace all NaN elements in column 'A', 'B', 'C', and 'D', with 0, 1, 2, "
+"and 3 respectively."
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.fillna:103
+msgid "Only replace the first NaN element."
+msgstr ""
+

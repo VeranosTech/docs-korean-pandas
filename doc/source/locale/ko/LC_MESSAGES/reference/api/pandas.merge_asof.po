@@ -1,0 +1,264 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.merge_asof.rst:2
+msgid "pandas.merge\\_asof"
+msgstr ""
+
+#: of pandas.merge_asof:2
+msgid ""
+"Perform an asof merge. This is similar to a left-join except that we "
+"match on nearest key rather than equal keys."
+msgstr ""
+
+#: of pandas.merge_asof:5
+msgid "Both DataFrames must be sorted by the key."
+msgstr ""
+
+#: of pandas.merge_asof:7
+msgid "For each row in the left DataFrame:"
+msgstr ""
+
+#: of pandas.merge_asof:9
+msgid ""
+"A \"backward\" search selects the last row in the right DataFrame whose "
+"'on' key is less than or equal to the left's key."
+msgstr ""
+
+#: of pandas.merge_asof:12
+msgid ""
+"A \"forward\" search selects the first row in the right DataFrame whose "
+"'on' key is greater than or equal to the left's key."
+msgstr ""
+
+#: of pandas.merge_asof:15
+msgid ""
+"A \"nearest\" search selects the row in the right DataFrame whose 'on' "
+"key is closest in absolute distance to the left's key."
+msgstr ""
+
+#: of pandas.merge_asof:18
+msgid ""
+"The default is \"backward\" and is compatible in versions below 0.20.0. "
+"The direction parameter was added in version 0.20.0 and introduces "
+"\"forward\" and \"nearest\"."
+msgstr ""
+
+#: of pandas.merge_asof:22
+msgid "Optionally match on equivalent keys with 'by' before searching with 'on'."
+msgstr ""
+
+#: of pandas.merge_asof
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.merge_asof:29
+msgid "**left**"
+msgstr ""
+
+#: of pandas.merge_asof:28 pandas.merge_asof:31 pandas.merge_asof:95
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.merge_asof:32
+msgid "**right**"
+msgstr ""
+
+#: of pandas.merge_asof:38
+msgid "**on**"
+msgstr ""
+
+#: of pandas.merge_asof:37 pandas.merge_asof:40 pandas.merge_asof:43
+msgid "label"
+msgstr ""
+
+#: of pandas.merge_asof:35
+msgid ""
+"Field name to join on. Must be found in both DataFrames. The data MUST be"
+" ordered. Furthermore this must be a numeric column, such as "
+"datetimelike, integer, or float. On or left_on/right_on must be given."
+msgstr ""
+
+#: of pandas.merge_asof:41
+msgid "**left_on**"
+msgstr ""
+
+#: of pandas.merge_asof:41
+msgid "Field name to join on in left DataFrame."
+msgstr ""
+
+#: of pandas.merge_asof:44
+msgid "**right_on**"
+msgstr ""
+
+#: of pandas.merge_asof:44
+msgid "Field name to join on in right DataFrame."
+msgstr ""
+
+#: of pandas.merge_asof:49
+msgid "**left_index**"
+msgstr ""
+
+#: of pandas.merge_asof:48 pandas.merge_asof:53
+msgid "boolean"
+msgstr ""
+
+#: of pandas.merge_asof:47
+msgid "Use the index of the left DataFrame as the join key."
+msgstr ""
+
+#: of pandas.merge_asof:54
+msgid "**right_index**"
+msgstr ""
+
+#: of pandas.merge_asof:52
+msgid "Use the index of the right DataFrame as the join key."
+msgstr ""
+
+#: of pandas.merge_asof:57
+msgid "**by**"
+msgstr ""
+
+#: of pandas.merge_asof:56
+msgid "column name or list of column names"
+msgstr ""
+
+#: of pandas.merge_asof:57
+msgid "Match on these columns before performing merge operation."
+msgstr ""
+
+#: of pandas.merge_asof:62
+msgid "**left_by**"
+msgstr ""
+
+#: of pandas.merge_asof:61 pandas.merge_asof:66
+msgid "column name"
+msgstr ""
+
+#: of pandas.merge_asof:60
+msgid "Field names to match on in the left DataFrame."
+msgstr ""
+
+#: of pandas.merge_asof:67
+msgid "**right_by**"
+msgstr ""
+
+#: of pandas.merge_asof:65
+msgid "Field names to match on in the right DataFrame."
+msgstr ""
+
+#: of pandas.merge_asof:71
+msgid "**suffixes**"
+msgstr ""
+
+#: of pandas.merge_asof:70
+msgid "2-length sequence (tuple, list, ...)"
+msgstr ""
+
+#: of pandas.merge_asof:70
+msgid ""
+"Suffix to apply to overlapping column names in the left and right side, "
+"respectively."
+msgstr ""
+
+#: of pandas.merge_asof:75
+msgid "**tolerance**"
+msgstr ""
+
+#: of pandas.merge_asof:74
+msgid "integer or Timedelta, optional, default None"
+msgstr ""
+
+#: of pandas.merge_asof:74
+msgid ""
+"Select asof tolerance within this range; must be compatible with the "
+"merge index."
+msgstr ""
+
+#: of pandas.merge_asof:81
+msgid "**allow_exact_matches**"
+msgstr ""
+
+#: of pandas.merge_asof:80
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.merge_asof:78
+msgid ""
+"If True, allow matching with the same 'on' value (i.e. less-than-or-"
+"equal-to / greater-than-or-equal-to)"
+msgstr ""
+
+#: of pandas.merge_asof:80
+msgid ""
+"If False, don't match the same 'on' value (i.e., strictly less-than / "
+"strictly greater-than)"
+msgstr ""
+
+#: of pandas.merge_asof:86
+msgid "**direction**"
+msgstr ""
+
+#: of pandas.merge_asof:85
+msgid "'backward' (default), 'forward', or 'nearest'"
+msgstr ""
+
+#: of pandas.merge_asof:84
+msgid "Whether to search for prior, subsequent, or closest matches."
+msgstr ""
+
+#: of pandas.merge_asof
+msgid "Returns"
+msgstr ""
+
+#: of pandas.merge_asof:96
+msgid "**merged**"
+msgstr ""
+
+#: of pandas.merge_asof:101
+msgid ":obj:`merge`, :obj:`merge_ordered`"
+msgstr ""
+
+#: of pandas.merge_asof:106
+msgid "Examples"
+msgstr ""
+
+#: of pandas.merge_asof:148
+msgid "We can use indexed DataFrames as well."
+msgstr ""
+
+#: of pandas.merge_asof:173
+msgid "Here is a real-world times-series example"
+msgstr ""
+
+#: of pandas.merge_asof:194
+msgid "By default we are taking the asof of the quotes"
+msgstr ""
+
+#: of pandas.merge_asof:206
+msgid "We only asof within 2ms between the quote time and the trade time"
+msgstr ""
+
+#: of pandas.merge_asof:219
+msgid ""
+"We only asof within 10ms between the quote time and the trade time and we"
+" exclude exact matches on time. However *prior* data will propagate "
+"forward"
+msgstr ""
+

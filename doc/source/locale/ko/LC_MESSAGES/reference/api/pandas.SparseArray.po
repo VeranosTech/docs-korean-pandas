@@ -1,0 +1,486 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.SparseArray.rst:2
+msgid "pandas.SparseArray"
+msgstr ""
+
+#: of pandas.SparseArray:2
+msgid "An ExtensionArray for storing sparse data."
+msgstr ""
+
+#: of pandas.SparseArray:6
+msgid "Implements the ExtensionArray interface."
+msgstr ""
+
+#: of pandas.SparseArray
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.SparseArray:12
+msgid "**data**"
+msgstr ""
+
+#: of pandas.SparseArray:11
+msgid "array-like"
+msgstr ""
+
+#: of pandas.SparseArray:11
+msgid ""
+"A dense array of values to store in the SparseArray. This may contain "
+"`fill_value`."
+msgstr ""
+
+#: of pandas.SparseArray:15
+msgid "**sparse_index**"
+msgstr ""
+
+#: of pandas.SparseArray:14
+msgid "SparseIndex, optional"
+msgstr ""
+
+#: of pandas.SparseArray:18
+msgid "**index**"
+msgstr ""
+
+#: of pandas.SparseArray:17
+msgid "Index"
+msgstr ""
+
+#: of pandas.SparseArray:42
+msgid "**fill_value**"
+msgstr ""
+
+#: of pandas.SparseArray:41
+msgid "scalar, optional"
+msgstr ""
+
+#: of pandas.SparseArray:21
+msgid ""
+"Elements in `data` that are `fill_value` are not stored in the "
+"SparseArray. For memory savings, this should be the most common value in "
+"`data`. By default, `fill_value` depends on the dtype of `data`:"
+msgstr ""
+
+#: of pandas.SparseArray:26
+msgid "data.dtype"
+msgstr ""
+
+#: of pandas.SparseArray:26
+msgid "na_value"
+msgstr ""
+
+#: of pandas.SparseArray:28
+msgid "float"
+msgstr ""
+
+#: of pandas.SparseArray:28
+msgid "``np.nan``"
+msgstr ""
+
+#: of pandas.SparseArray:29
+msgid "int"
+msgstr ""
+
+#: of pandas.SparseArray:29
+msgid "``0``"
+msgstr ""
+
+#: of pandas.SparseArray:30
+msgid "bool"
+msgstr ""
+
+#: of pandas.SparseArray:30
+msgid "False"
+msgstr ""
+
+#: of pandas.SparseArray:31
+msgid "datetime64"
+msgstr ""
+
+#: of pandas.SparseArray:31 pandas.SparseArray:32
+msgid "``pd.NaT``"
+msgstr ""
+
+#: of pandas.SparseArray:32
+msgid "timedelta64"
+msgstr ""
+
+#: of pandas.SparseArray:35
+msgid ""
+"The fill value is potentiall specified in three ways. In order of "
+"precedence, these are"
+msgstr ""
+
+#: of pandas.SparseArray:38
+msgid "The `fill_value` argument"
+msgstr ""
+
+#: of pandas.SparseArray:39
+msgid ""
+"``dtype.fill_value`` if `fill_value` is None and `dtype` is a "
+"``SparseDtype``"
+msgstr ""
+
+#: of pandas.SparseArray:41
+msgid ""
+"``data.dtype.fill_value`` if `fill_value` is None and `dtype` is not a "
+"``SparseDtype`` and `data` is a ``SparseArray``."
+msgstr ""
+
+#: of pandas.SparseArray:52
+msgid "**kind**"
+msgstr ""
+
+#: of pandas.SparseArray:51
+msgid "{'integer', 'block'}, default 'integer'"
+msgstr ""
+
+#: of pandas.SparseArray:45
+msgid "The type of storage for sparse locations."
+msgstr ""
+
+#: of pandas.SparseArray:47
+msgid ""
+"'block': Stores a `block` and `block_length` for each contiguous *span* "
+"of sparse values. This is best when sparse data tends to be clumped "
+"together, with large regsions of ``fill-value`` values between sparse "
+"values."
+msgstr ""
+
+#: of pandas.SparseArray:51
+msgid "'integer': uses an integer to store the location of each sparse value."
+msgstr ""
+
+#: of pandas.SparseArray:57
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.SparseArray:56
+msgid "np.dtype or SparseDtype, optional"
+msgstr ""
+
+#: of pandas.SparseArray:55
+msgid ""
+"The dtype to use for the SparseArray. For numpy dtypes, this determines "
+"the dtype of ``self.sp_values``. For SparseDtype, this determines "
+"``self.sp_values`` and ``self.fill_value``."
+msgstr ""
+
+#: of pandas.SparseArray:70
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.SparseArray:69
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.SparseArray:60
+msgid "Whether to explicitly copy the incoming `data` array."
+msgstr ""
+
+#: of pandas.SparseArray:73
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid ":obj:`T <pandas.SparseArray.T>`\\"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+#: pandas.SparseArray:89:<autosummary>:1
+msgid "Returns the SparseArray."
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid ":obj:`density <pandas.SparseArray.density>`\\"
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid "The percent of non- ``fill_value`` points, as decimal."
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid ":obj:`dtype <pandas.SparseArray.dtype>`\\"
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid "An instance of 'ExtensionDtype'."
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid ":obj:`fill_value <pandas.SparseArray.fill_value>`\\"
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid "Elements in `data` that are `fill_value` are not stored."
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid ":obj:`kind <pandas.SparseArray.kind>`\\"
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid "The kind of sparse index for this array."
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid ":obj:`nbytes <pandas.SparseArray.nbytes>`\\"
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid "The number of bytes needed to store this object in memory."
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid ":obj:`ndim <pandas.SparseArray.ndim>`\\"
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid "Extension Arrays are only allowed to be 1-dimensional."
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid ":obj:`npoints <pandas.SparseArray.npoints>`\\"
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid "The number of non- ``fill_value`` points."
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid ":obj:`shape <pandas.SparseArray.shape>`\\"
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid "Return a tuple of the array dimensions."
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid ":obj:`sp_index <pandas.SparseArray.sp_index>`\\"
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid "The SparseIndex containing the location of non- ``fill_value`` points."
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid ":obj:`sp_values <pandas.SparseArray.sp_values>`\\"
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid "An ndarray containing the non- ``fill_value`` values."
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid ":obj:`values <pandas.SparseArray.values>`\\"
+msgstr ""
+
+#: of pandas.SparseArray:89:<autosummary>:1
+msgid "Dense values"
+msgstr ""
+
+#: of pandas.SparseArray:91
+msgid "Methods"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ":obj:`all <pandas.SparseArray.all>`\\ \\(\\[axis\\]\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid "Tests whether all elements evaluate True"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ":obj:`any <pandas.SparseArray.any>`\\ \\(\\[axis\\]\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid "Tests whether at least one of elements evaluate True"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ""
+":obj:`argsort <pandas.SparseArray.argsort>`\\ \\(\\[ascending\\, "
+"kind\\]\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid "Return the indices that would sort this array."
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ":obj:`astype <pandas.SparseArray.astype>`\\ \\(\\[dtype\\, copy\\]\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid "Change the dtype of a SparseArray."
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ":obj:`copy <pandas.SparseArray.copy>`\\ \\(\\[deep\\]\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid "Return a copy of the array."
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ":obj:`cumsum <pandas.SparseArray.cumsum>`\\ \\(\\[axis\\]\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid "Cumulative sum of non-NA/null values."
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ":obj:`dropna <pandas.SparseArray.dropna>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid "Return ExtensionArray without NA values"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ""
+":obj:`factorize <pandas.SparseArray.factorize>`\\ "
+"\\(\\[na\\_sentinel\\]\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid "Encode the extension array as an enumerated type."
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ""
+":obj:`fillna <pandas.SparseArray.fillna>`\\ \\(\\[value\\, method\\, "
+"limit\\]\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid "Fill missing values with `value`."
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ":obj:`get_values <pandas.SparseArray.get_values>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid "Convert SparseArray to a NumPy array."
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ":obj:`isna <pandas.SparseArray.isna>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid "A 1-D array indicating if each value is missing."
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ":obj:`map <pandas.SparseArray.map>`\\ \\(mapper\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid "Map categories using input correspondence (dict, Series, or function)."
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ":obj:`mean <pandas.SparseArray.mean>`\\ \\(\\[axis\\]\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid "Mean of non-NA/null values"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ":obj:`repeat <pandas.SparseArray.repeat>`\\ \\(repeats\\[\\, axis\\]\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid "Repeat elements of a ExtensionArray."
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ""
+":obj:`searchsorted <pandas.SparseArray.searchsorted>`\\ \\(v\\[\\, "
+"side\\, sorter\\]\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid "Find indices where elements should be inserted to maintain order."
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ""
+":obj:`shift <pandas.SparseArray.shift>`\\ \\(\\[periods\\, "
+"fill\\_value\\]\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid "Shift values by desired number."
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ":obj:`sum <pandas.SparseArray.sum>`\\ \\(\\[axis\\]\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid "Sum of non-NA/null values"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ""
+":obj:`take <pandas.SparseArray.take>`\\ \\(indices\\[\\, allow\\_fill\\, "
+"fill\\_value\\]\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid "Take elements from an array."
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ":obj:`to_dense <pandas.SparseArray.to_dense>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ":obj:`transpose <pandas.SparseArray.transpose>`\\ \\(\\*axes\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ":obj:`unique <pandas.SparseArray.unique>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid "Compute the ExtensionArray of unique values."
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid ":obj:`value_counts <pandas.SparseArray.value_counts>`\\ \\(\\[dropna\\]\\)"
+msgstr ""
+
+#: of pandas.SparseArray:118:<autosummary>:1
+msgid "Returns a Series containing counts of unique values."
+msgstr ""
+
+#: of pandas.SparseArray:120
+msgid "**nonzero**"
+msgstr ""
+

@@ -761,3 +761,8 @@ def setup(app):
     app.add_autodocumenter(AccessorMethodDocumenter)
     app.add_autodocumenter(AccessorCallableDocumenter)
     app.add_directive('autosummary', PandasAutosummary)
+
+
+
+locale_dirs = ['locale/']
+gettext_compact = False

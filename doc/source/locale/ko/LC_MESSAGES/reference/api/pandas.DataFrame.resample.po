@@ -1,0 +1,352 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.resample.rst:2
+msgid "pandas.DataFrame.resample"
+msgstr ""
+
+#: of pandas.DataFrame.resample:2
+msgid "Resample time-series data."
+msgstr ""
+
+#: of pandas.DataFrame.resample:4
+msgid ""
+"Convenience method for frequency conversion and resampling of time "
+"series. Object must have a datetime-like index (`DatetimeIndex`, "
+"`PeriodIndex`, or `TimedeltaIndex`), or pass datetime-like values to the "
+"`on` or `level` keyword."
+msgstr ""
+
+#: of pandas.DataFrame.resample
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.resample:12
+msgid "**rule**"
+msgstr ""
+
+#: of pandas.DataFrame.resample:11 pandas.DataFrame.resample:18
+msgid "str"
+msgstr ""
+
+#: of pandas.DataFrame.resample:12
+msgid "The offset string or object representing target conversion."
+msgstr ""
+
+#: of pandas.DataFrame.resample:19
+msgid "**how**"
+msgstr ""
+
+#: of pandas.DataFrame.resample:15
+msgid "Method for down/re-sampling, default to 'mean' for downsampling."
+msgstr ""
+
+#: of pandas.DataFrame.resample:17
+msgid ""
+"The new syntax is ``.resample(...).mean()``, or "
+"``.resample(...).apply(<func>)``"
+msgstr ""
+
+#: of pandas.DataFrame.resample:24
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.DataFrame.resample:23
+msgid "{0 or 'index', 1 or 'columns'}, default 0"
+msgstr ""
+
+#: of pandas.DataFrame.resample:22
+msgid ""
+"Which axis to use for up- or down-sampling. For `Series` this will "
+"default to 0, i.e. along the rows. Must be `DatetimeIndex`, "
+"`TimedeltaIndex` or `PeriodIndex`."
+msgstr ""
+
+#: of pandas.DataFrame.resample:31
+msgid "**fill_method**"
+msgstr ""
+
+#: of pandas.DataFrame.resample:30
+msgid "str, default None"
+msgstr ""
+
+#: of pandas.DataFrame.resample:27
+msgid "Filling method for upsampling."
+msgstr ""
+
+#: of pandas.DataFrame.resample:29
+msgid ""
+"The new syntax is ``.resample(...).<func>()``, e.g. "
+"``.resample(...).pad()``"
+msgstr ""
+
+#: of pandas.DataFrame.resample:36
+msgid "**closed**"
+msgstr ""
+
+#: of pandas.DataFrame.resample:35 pandas.DataFrame.resample:40
+msgid "{'right', 'left'}, default None"
+msgstr ""
+
+#: of pandas.DataFrame.resample:34
+msgid ""
+"Which side of bin interval is closed. The default is 'left' for all "
+"frequency offsets except for 'M', 'A', 'Q', 'BM', 'BA', 'BQ', and 'W' "
+"which all have a default of 'right'."
+msgstr ""
+
+#: of pandas.DataFrame.resample:41
+msgid "**label**"
+msgstr ""
+
+#: of pandas.DataFrame.resample:39
+msgid ""
+"Which bin edge label to label bucket with. The default is 'left' for all "
+"frequency offsets except for 'M', 'A', 'Q', 'BM', 'BA', 'BQ', and 'W' "
+"which all have a default of 'right'."
+msgstr ""
+
+#: of pandas.DataFrame.resample:45
+msgid "**convention**"
+msgstr ""
+
+#: of pandas.DataFrame.resample:44
+msgid "{'start', 'end', 's', 'e'}, default 'start'"
+msgstr ""
+
+#: of pandas.DataFrame.resample:44
+msgid ""
+"For `PeriodIndex` only, controls whether to use the start or end of "
+"`rule`."
+msgstr ""
+
+#: of pandas.DataFrame.resample:50
+msgid "**kind**"
+msgstr ""
+
+#: of pandas.DataFrame.resample:49
+msgid "{'timestamp', 'period'}, optional, default None"
+msgstr ""
+
+#: of pandas.DataFrame.resample:48
+msgid ""
+"Pass 'timestamp' to convert the resulting index to a `DateTimeIndex` or "
+"'period' to convert it to a `PeriodIndex`. By default the input "
+"representation is retained."
+msgstr ""
+
+#: of pandas.DataFrame.resample:53
+msgid "**loffset**"
+msgstr ""
+
+#: of pandas.DataFrame.resample:52
+msgid "timedelta, default None"
+msgstr ""
+
+#: of pandas.DataFrame.resample:53
+msgid "Adjust the resampled time labels."
+msgstr ""
+
+#: of pandas.DataFrame.resample:58
+msgid "**limit**"
+msgstr ""
+
+#: of pandas.DataFrame.resample:57
+msgid "int, default None"
+msgstr ""
+
+#: of pandas.DataFrame.resample:56
+msgid "Maximum size gap when reindexing with `fill_method`."
+msgstr ""
+
+#: of pandas.DataFrame.resample:63
+msgid "**base**"
+msgstr ""
+
+#: of pandas.DataFrame.resample:62
+msgid "int, default 0"
+msgstr ""
+
+#: of pandas.DataFrame.resample:61
+msgid ""
+"For frequencies that evenly subdivide 1 day, the \"origin\" of the "
+"aggregated intervals. For example, for '5min' frequency, base could range"
+" from 0 through 4. Defaults to 0."
+msgstr ""
+
+#: of pandas.DataFrame.resample:69
+msgid "**on**"
+msgstr ""
+
+#: of pandas.DataFrame.resample:68
+msgid "str, optional"
+msgstr ""
+
+#: of pandas.DataFrame.resample:66
+msgid ""
+"For a DataFrame, column to use instead of index for resampling. Column "
+"must be datetime-like."
+msgstr ""
+
+#: of pandas.DataFrame.resample:75
+msgid "**level**"
+msgstr ""
+
+#: of pandas.DataFrame.resample:74
+msgid "str or int, optional"
+msgstr ""
+
+#: of pandas.DataFrame.resample:72
+msgid ""
+"For a MultiIndex, level (name or number) to use for resampling. `level` "
+"must be datetime-like."
+msgstr ""
+
+#: of pandas.DataFrame.resample
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.resample:85
+msgid "**Resampler object**"
+msgstr ""
+
+#: of pandas.DataFrame.resample:91
+msgid ":obj:`groupby`"
+msgstr ""
+
+#: of pandas.DataFrame.resample:91
+msgid "Group by mapping, function, label, or list of labels."
+msgstr ""
+
+#: of pandas.DataFrame.resample:94
+msgid ":obj:`Series.resample`"
+msgstr ""
+
+#: of pandas.DataFrame.resample:94
+msgid "Resample a Series."
+msgstr ""
+
+#: of pandas.DataFrame.resample:96
+msgid ":obj:`DataFrame.resample`"
+msgstr ""
+
+#: of pandas.DataFrame.resample:97
+msgid "Resample a DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.resample:100
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.resample:101
+msgid ""
+"See the `user guide <http://pandas.pydata.org/pandas-"
+"docs/stable/timeseries.html#resampling>`_ for more."
+msgstr ""
+
+#: of pandas.DataFrame.resample:105
+msgid ""
+"To learn more about the offset strings, please see `this link "
+"<http://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-"
+"aliases>`__."
+msgstr ""
+
+#: of pandas.DataFrame.resample:110
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.resample:111
+msgid "Start by creating a series with 9 one minute timestamps."
+msgstr ""
+
+#: of pandas.DataFrame.resample:127
+msgid ""
+"Downsample the series into 3 minute bins and sum the values of the "
+"timestamps falling into a bin."
+msgstr ""
+
+#: of pandas.DataFrame.resample:136
+msgid ""
+"Downsample the series into 3 minute bins as above, but label each bin "
+"using the right edge instead of the left. Please note that the value in "
+"the bucket used as the label is not included in the bucket, which it "
+"labels. For example, in the original series the bucket ``2000-01-01 "
+"00:03:00`` contains the value 3, but the summed value in the resampled "
+"bucket with the label ``2000-01-01 00:03:00`` does not include 3 (if it "
+"did, the summed value would be 6, not 3). To include this value close the"
+" right side of the bin interval as illustrated in the example below this "
+"one."
+msgstr ""
+
+#: of pandas.DataFrame.resample:152
+msgid ""
+"Downsample the series into 3 minute bins as above, but close the right "
+"side of the bin interval."
+msgstr ""
+
+#: of pandas.DataFrame.resample:162
+msgid "Upsample the series into 30 second bins."
+msgstr ""
+
+#: of pandas.DataFrame.resample:172
+msgid ""
+"Upsample the series into 30 second bins and fill the ``NaN`` values using"
+" the ``pad`` method."
+msgstr ""
+
+#: of pandas.DataFrame.resample:183
+msgid ""
+"Upsample the series into 30 second bins and fill the ``NaN`` values using"
+" the ``bfill`` method."
+msgstr ""
+
+#: of pandas.DataFrame.resample:194
+msgid "Pass a custom function via ``apply``"
+msgstr ""
+
+#: of pandas.DataFrame.resample:205
+msgid ""
+"For a Series with a PeriodIndex, the keyword `convention` can be used to "
+"control whether to use the start or end of `rule`."
+msgstr ""
+
+#: of pandas.DataFrame.resample:208
+msgid ""
+"Resample a year by quarter using 'start' `convention`. Values are "
+"assigned to the first quarter of the period."
+msgstr ""
+
+#: of pandas.DataFrame.resample:229
+msgid ""
+"Resample quarters by month using 'end' `convention`. Values are assigned "
+"to the last month of the period."
+msgstr ""
+
+#: of pandas.DataFrame.resample:254
+msgid ""
+"For DataFrame objects, the keyword `on` can be used to specify the column"
+" instead of the index for resampling."
+msgstr ""
+
+#: of pandas.DataFrame.resample:279
+msgid ""
+"For a DataFrame with MultiIndex, the keyword `level` can be used to "
+"specify on which level the resampling needs to take place."
+msgstr ""
+

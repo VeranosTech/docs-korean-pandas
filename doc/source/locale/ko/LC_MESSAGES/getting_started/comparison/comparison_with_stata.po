@@ -1,0 +1,575 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:3
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:6
+msgid "Comparison with Stata"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:7
+msgid ""
+"For potential users coming from `Stata "
+"<https://en.wikipedia.org/wiki/Stata>`__ this page is meant to "
+"demonstrate how different Stata operations would be performed in pandas."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:11
+msgid ""
+"If you're new to pandas, you might want to first read through :ref:`10 "
+"Minutes to pandas<10min>` to familiarize yourself with the library."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:14
+msgid ""
+"As is customary, we import pandas and NumPy as follows. This means that "
+"we can refer to the libraries as ``pd`` and ``np``, respectively, for the"
+" rest of the document."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:25
+msgid ""
+"Throughout this tutorial, the pandas ``DataFrame`` will be displayed by "
+"calling ``df.head()``, which displays the first N (default 5) rows of the"
+" ``DataFrame``. This is often used in interactive work (e.g. `Jupyter "
+"notebook <https://jupyter.org/>`_ or terminal) -- the equivalent in Stata"
+" would be:"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:35
+msgid "Data Structures"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:38
+msgid "General Terminology Translation"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:1
+msgid "pandas"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:1
+msgid "Stata"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:1
+msgid "``DataFrame``"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:1
+msgid "data set"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:1
+msgid "column"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:1
+msgid "variable"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:1
+msgid "row"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:1
+msgid "observation"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:1
+msgid "groupby"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:1
+msgid "bysort"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:1
+msgid "``NaN``"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:1
+msgid "``.``"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:52
+msgid "``DataFrame`` / ``Series``"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:54
+msgid ""
+"A ``DataFrame`` in pandas is analogous to a Stata data set -- a two-"
+"dimensional data source with labeled columns that can be of different "
+"types. As will be shown in this document, almost any operation that can "
+"be applied to a data set in Stata can also be accomplished in pandas."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:59
+msgid ""
+"A ``Series`` is the data structure that represents one column of a "
+"``DataFrame``. Stata doesn't have a separate data structure for a single "
+"column, but in general, working with a ``Series`` is analogous to "
+"referencing a column of a data set in Stata."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:65
+msgid "``Index``"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:67
+msgid ""
+"Every ``DataFrame`` and ``Series`` has an ``Index`` -- labels on the "
+"*rows* of the data. Stata does not have an exactly analogous concept. In "
+"Stata, a data set's rows are essentially unlabeled, other than an "
+"implicit integer index that can be accessed with ``_n``."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:72
+msgid ""
+"In pandas, if no index is specified, an integer index is also used by "
+"default (first row = 0, second row = 1, and so on). While using a labeled"
+" ``Index`` or ``MultiIndex`` can enable sophisticated analyses and is "
+"ultimately an important part of pandas to understand, for this comparison"
+" we will essentially ignore the ``Index`` and just treat the "
+"``DataFrame`` as a collection of columns. Please see the :ref:`indexing "
+"documentation<indexing>` for much more on how to use an ``Index`` "
+"effectively."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:82
+msgid "Data Input / Output"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:85
+msgid "Constructing a DataFrame from Values"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:87
+msgid ""
+"A Stata data set can be built from specified values by placing the data "
+"after an ``input`` statement and specifying the column names."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:99
+msgid ""
+"A pandas ``DataFrame`` can be constructed in many different ways, but for"
+" a small number of values, it is often convenient to specify it as a "
+"Python dictionary, where the keys are the column names and the values are"
+" the data."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:111
+msgid "Reading External Data"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:113
+msgid ""
+"Like Stata, pandas provides utilities for reading in data from many "
+"formats.  The ``tips`` data set, found within the pandas tests (`csv "
+"<https://raw.github.com/pandas-"
+"dev/pandas/master/pandas/tests/data/tips.csv>`_) will be used in many of "
+"the following examples."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:118
+msgid ""
+"Stata provides ``import delimited`` to read csv data into a data set in "
+"memory. If the ``tips.csv`` file is in the current working directory, we "
+"can import it as follows."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:125
+msgid ""
+"The pandas method is :func:`read_csv`, which works similarly. "
+"Additionally, it will automatically download the data set if presented "
+"with a url."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:135
+msgid ""
+"Like ``import delimited``, :func:`read_csv` can take a number of "
+"parameters to specify how the data should be parsed.  For example, if the"
+" data were instead tab delimited, did not have column names, and existed "
+"in the current working directory, the pandas command would be:"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:147
+msgid ""
+"Pandas can also read Stata data sets in ``.dta`` format with the "
+":func:`read_stata` function."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:153
+msgid ""
+"In addition to text/csv and Stata files, pandas supports a variety of "
+"other data formats such as Excel, SAS, HDF5, Parquet, and SQL databases."
+"  These are all read via a ``pd.read_*`` function.  See the :ref:`IO "
+"documentation<io>` for more details."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:159
+msgid "Exporting Data"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:161
+msgid "The inverse of ``import delimited`` in Stata is ``export delimited``"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:167
+msgid ""
+"Similarly in pandas, the opposite of ``read_csv`` is "
+":meth:`DataFrame.to_csv`."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:173
+msgid ""
+"Pandas can also export to Stata file format with the "
+":meth:`DataFrame.to_stata` method."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:181
+msgid "Data Operations"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:184
+msgid "Operations on Columns"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:186
+msgid ""
+"In Stata, arbitrary math expressions can be used with the ``generate`` "
+"and ``replace`` commands on new or existing columns. The ``drop`` command"
+" drops the column from the data set."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:196
+msgid ""
+"pandas provides similar vectorized operations by specifying the "
+"individual ``Series`` in the ``DataFrame``. New columns can be assigned "
+"in the same way. The :meth:`DataFrame.drop` method drops a column from "
+"the ``DataFrame``."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:210
+msgid "Filtering"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:212
+msgid "Filtering in Stata is done with an ``if`` clause on one or more columns."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:218
+msgid ""
+"DataFrames can be filtered in multiple ways; the most intuitive of which "
+"is using :ref:`boolean indexing <indexing.boolean>`."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:226
+msgid "If/Then Logic"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:228
+msgid "In Stata, an ``if`` clause can also be used to create new columns."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:235
+msgid ""
+"The same operation in pandas can be accomplished using the ``where`` "
+"method from ``numpy``."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:249
+msgid "Date Functionality"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:251
+msgid ""
+"Stata provides a variety of functions to do operations on date/datetime "
+"columns."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:269
+msgid ""
+"The equivalent pandas operations are shown below.  In addition to these "
+"functions, pandas supports other Time Series features not available in "
+"Stata (such as time zone handling and custom offsets) -- see the "
+":ref:`timeseries documentation<timeseries>` for more details."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:294
+msgid "Selection of Columns"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:296
+msgid "Stata provides keywords to select, drop, and rename columns."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:306
+msgid ""
+"The same operations are expressed in pandas below. Note that in contrast "
+"to Stata, these operations do not happen in place. To make these changes "
+"persist, assign the operation back to a variable."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:323
+msgid "Sorting by Values"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:325
+msgid "Sorting in Stata is accomplished via ``sort``"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:331
+msgid ""
+"pandas objects have a :meth:`DataFrame.sort_values` method, which takes a"
+" list of columns to sort by."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:341
+msgid "String Processing"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:344
+msgid "Finding Length of String"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:346
+msgid ""
+"Stata determines the length of a character string with the :func:`strlen`"
+" and :func:`ustrlen` functions for ASCII and Unicode strings, "
+"respectively."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:354
+msgid ""
+"Python determines the length of a character string with the ``len`` "
+"function. In Python 3, all strings are Unicode strings. ``len`` includes "
+"trailing blanks. Use ``len`` and ``rstrip`` to exclude trailing blanks."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:365
+msgid "Finding Position of Substring"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:367
+msgid ""
+"Stata determines the position of a character in a string with the "
+":func:`strpos` function. This takes the string defined by the first "
+"argument and searches for the first position of the substring you supply "
+"as the second argument."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:375
+msgid ""
+"Python determines the position of a character in a string with the "
+":func:`find` function.  ``find`` searches for the first position of the "
+"substring.  If the substring is found, the function returns its position."
+"  Keep in mind that Python indexes are zero-based and the function will "
+"return -1 if it fails to find the substring."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:387
+msgid "Extracting Substring by Position"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:389
+msgid ""
+"Stata extracts a substring from a string based on its position with the "
+":func:`substr` function."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:395
+msgid ""
+"With pandas you can use ``[]`` notation to extract a substring from a "
+"string by position locations.  Keep in mind that Python indexes are zero-"
+"based."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:405
+msgid "Extracting nth Word"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:407
+msgid ""
+"The Stata :func:`word` function returns the nth word from a string. The "
+"first argument is the string you want to parse and the second argument "
+"specifies which word you want to extract."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:422
+msgid ""
+"Python extracts a substring from a string based on its text by using "
+"regular expressions. There are much more powerful approaches, but this "
+"just shows a simple approach."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:435
+msgid "Changing Case"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:437
+msgid ""
+"The Stata :func:`strupper`, :func:`strlower`, :func:`strproper`, "
+":func:`ustrupper`, :func:`ustrlower`, and :func:`ustrtitle` functions "
+"change the case of ASCII and Unicode strings, respectively."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:454
+msgid "The equivalent Python functions are ``upper``, ``lower``, and ``title``."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:465
+msgid "Merging"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:467
+msgid "The following tables will be used in the merge examples"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:478
+msgid ""
+"In Stata, to perform a merge, one data set must be in memory and the "
+"other must be referenced as a file name on disk. In contrast, Python must"
+" have both ``DataFrames`` already in memory."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:482
+msgid ""
+"By default, Stata performs an outer join, where all observations from "
+"both data sets are left in memory after the merge. One can keep only "
+"observations from the initial data set, the merged data set, or the "
+"intersection of the two by using the values created in the ``_merge`` "
+"variable."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:531
+msgid ""
+"pandas DataFrames have a :meth:`DataFrame.merge` method, which provides "
+"similar functionality. Note that different join types are accomplished "
+"via the ``how`` keyword."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:551
+msgid "Missing Data"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:553
+msgid ""
+"Like Stata, pandas has a representation for missing data -- the special "
+"float value ``NaN`` (not a number).  Many of the semantics are the same; "
+"for example missing data propagates through numeric operations, and is "
+"ignored by default for aggregations."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:564
+msgid ""
+"One difference is that missing data cannot be compared to its sentinel "
+"value. For example, in Stata you could do this to filter missing values."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:574
+msgid ""
+"This doesn't work in pandas.  Instead, the :func:`pd.isna` or "
+":func:`pd.notna` functions should be used for comparisons."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:582
+msgid ""
+"Pandas also provides a variety of methods to work with missing data -- "
+"some of which would be challenging to express in Stata. For example, "
+"there are methods to drop all rows with any missing values, replacing "
+"missing values with a specified value, like the mean, or forward filling "
+"from previous rows. See the :ref:`missing data "
+"documentation<missing_data>` for more."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:601
+msgid "GroupBy"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:604
+msgid "Aggregation"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:606
+msgid ""
+"Stata's ``collapse`` can be used to group by one or more key variables "
+"and compute aggregations on numeric columns."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:614
+msgid ""
+"pandas provides a flexible ``groupby`` mechanism that allows similar "
+"aggregations.  See the :ref:`groupby documentation<groupby>` for more "
+"details and examples."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:625
+msgid "Transformation"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:627
+msgid ""
+"In Stata, if the group aggregations need to be used with the original "
+"data set, one would usually use ``bysort`` with :func:`egen`. For "
+"example, to subtract the mean for each observation by smoker group."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:637
+msgid ""
+"pandas ``groubpy`` provides a ``transform`` mechanism that allows these "
+"type of operations to be succinctly expressed in one operation."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:649
+msgid "By Group Processing"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:651
+msgid ""
+"In addition to aggregation, pandas ``groupby`` can be used to replicate "
+"most other ``bysort`` processing from Stata. For example, the following "
+"example lists the first observation in the current sort order by "
+"sex/smoker group."
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:660
+msgid "In pandas this would be written as:"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:668
+msgid "Other Considerations"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:671
+msgid "Disk vs Memory"
+msgstr ""
+
+#: ../../getting_started/comparison/comparison_with_stata.rst:673
+msgid ""
+"Pandas and Stata both operate exclusively in memory. This means that the "
+"size of data able to be loaded in pandas is limited by your machine's "
+"memory. If out of core processing is needed, one possibility is the "
+"`dask.dataframe <http://dask.pydata.org/en/latest/dataframe.html>`_ "
+"library, which provides a subset of pandas functionality for an on-disk "
+"``DataFrame``."
+msgstr ""
+

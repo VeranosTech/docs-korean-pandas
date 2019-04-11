@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.from_records.rst:2
+msgid "pandas.DataFrame.from\\_records"
+msgstr ""
+
+#: of pandas.DataFrame.from_records:2
+msgid "Convert structured or record ndarray to DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.from_records
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.from_records:8
+msgid "**data**"
+msgstr ""
+
+#: of pandas.DataFrame.from_records:7
+msgid "ndarray (structured dtype), list of tuples, dict, or DataFrame"
+msgstr ""
+
+#: of pandas.DataFrame.from_records:12
+msgid "**index**"
+msgstr ""
+
+#: of pandas.DataFrame.from_records:11
+msgid "string, list of fields, array-like"
+msgstr ""
+
+#: of pandas.DataFrame.from_records:11
+msgid ""
+"Field of array to use as the index, alternately a specific set of input "
+"labels to use"
+msgstr ""
+
+#: of pandas.DataFrame.from_records:15
+msgid "**exclude**"
+msgstr ""
+
+#: of pandas.DataFrame.from_records:14 pandas.DataFrame.from_records:21
+msgid "sequence, default None"
+msgstr ""
+
+#: of pandas.DataFrame.from_records:15
+msgid "Columns or fields to exclude"
+msgstr ""
+
+#: of pandas.DataFrame.from_records:22
+msgid "**columns**"
+msgstr ""
+
+#: of pandas.DataFrame.from_records:18
+msgid ""
+"Column names to use. If the passed data do not have names associated with"
+" them, this argument provides names for the columns. Otherwise this "
+"argument indicates the order of the columns in the result (any names not "
+"found in the data will become all-NA columns)"
+msgstr ""
+
+#: of pandas.DataFrame.from_records:26
+msgid "**coerce_float**"
+msgstr ""
+
+#: of pandas.DataFrame.from_records:25
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.DataFrame.from_records:25
+msgid ""
+"Attempt to convert values of non-string, non-numeric objects (like "
+"decimal.Decimal) to floating point, useful for SQL result sets"
+msgstr ""
+
+#: of pandas.DataFrame.from_records:29
+msgid "**nrows**"
+msgstr ""
+
+#: of pandas.DataFrame.from_records:28
+msgid "int, default None"
+msgstr ""
+
+#: of pandas.DataFrame.from_records:29
+msgid "Number of rows to read if data is an iterator"
+msgstr ""
+
+#: of pandas.DataFrame.from_records
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.from_records:45
+msgid "**df**"
+msgstr ""
+
+#: of pandas.DataFrame.from_records:44
+msgid "DataFrame"
+msgstr ""
+

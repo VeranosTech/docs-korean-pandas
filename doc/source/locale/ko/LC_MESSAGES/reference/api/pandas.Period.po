@@ -1,0 +1,249 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Period.rst:2
+msgid "pandas.Period"
+msgstr ""
+
+#: ../../docstring of pandas.Period:2
+msgid "Represents a period of time"
+msgstr ""
+
+#: ../../docstring of pandas.Period
+msgid "Parameters"
+msgstr ""
+
+#: ../../docstring of pandas.Period:8
+msgid "**value**"
+msgstr ""
+
+#: ../../docstring of pandas.Period:7
+msgid "Period or compat.string_types, default None"
+msgstr ""
+
+#: ../../docstring of pandas.Period:8
+msgid "The time period represented (e.g., '4Q2005')"
+msgstr ""
+
+#: ../../docstring of pandas.Period:11 pandas.Period:65
+msgid "**freq**"
+msgstr ""
+
+#: ../../docstring of pandas.Period:10
+msgid "str, default None"
+msgstr ""
+
+#: ../../docstring of pandas.Period:11
+msgid "One of pandas period strings or corresponding objects"
+msgstr ""
+
+#: ../../docstring of pandas.Period:14 pandas.Period:72
+msgid "**year**"
+msgstr ""
+
+#: ../../docstring of pandas.Period:13 pandas.Period:19
+msgid "int, default None"
+msgstr ""
+
+#: ../../docstring of pandas.Period:17 pandas.Period:68
+msgid "**month**"
+msgstr ""
+
+#: ../../docstring of pandas.Period:16 pandas.Period:22
+msgid "int, default 1"
+msgstr ""
+
+#: ../../docstring of pandas.Period:20 pandas.Period:70
+msgid "**quarter**"
+msgstr ""
+
+#: ../../docstring of pandas.Period:23
+msgid "**day**"
+msgstr ""
+
+#: ../../docstring of pandas.Period:26
+msgid "**hour**"
+msgstr ""
+
+#: ../../docstring of pandas.Period:25 pandas.Period:28 pandas.Period:41
+msgid "int, default 0"
+msgstr ""
+
+#: ../../docstring of pandas.Period:29
+msgid "**minute**"
+msgstr ""
+
+#: ../../docstring of pandas.Period:42
+msgid "**second**"
+msgstr ""
+
+#: ../../docstring of pandas.Period:45
+msgid "Attributes"
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid ":obj:`day <pandas.Period.day>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid "Get day of the month that a Period falls on."
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid ":obj:`dayofweek <pandas.Period.dayofweek>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid "Day of the week the period lies in, with Monday=0 and Sunday=6."
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid ":obj:`dayofyear <pandas.Period.dayofyear>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid "Return the day of the year."
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid ":obj:`days_in_month <pandas.Period.days_in_month>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid "Get the total number of days in the month that this period falls on."
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid ":obj:`daysinmonth <pandas.Period.daysinmonth>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid "Get the total number of days of the month that the Period falls in."
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid ":obj:`hour <pandas.Period.hour>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid "Get the hour of the day component of the Period."
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid ":obj:`minute <pandas.Period.minute>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid "Get minute of the hour component of the Period."
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid ":obj:`qyear <pandas.Period.qyear>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid "Fiscal year the Period lies in according to its starting-quarter."
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid ":obj:`second <pandas.Period.second>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid "Get the second component of the Period."
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid ":obj:`start_time <pandas.Period.start_time>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid "Get the Timestamp for the start of the period."
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid ":obj:`week <pandas.Period.week>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid "Get the week of the year on the given Period."
+msgstr ""
+
+#: ../../docstring of pandas.Period:62:<autosummary>:1
+msgid ":obj:`weekday <pandas.Period.weekday>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Period:64
+msgid "**end_time**"
+msgstr ""
+
+#: ../../docstring of pandas.Period:66
+msgid "**freqstr**"
+msgstr ""
+
+#: ../../docstring of pandas.Period:67
+msgid "**is_leap_year**"
+msgstr ""
+
+#: ../../docstring of pandas.Period:69
+msgid "**ordinal**"
+msgstr ""
+
+#: ../../docstring of pandas.Period:71
+msgid "**weekofyear**"
+msgstr ""
+
+#: ../../docstring of pandas.Period:76
+msgid "Methods"
+msgstr ""
+
+#: ../../docstring of pandas.Period:84:<autosummary>:1
+msgid ":obj:`asfreq <pandas.Period.asfreq>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Period:84:<autosummary>:1
+msgid ""
+"Convert Period to desired frequency, either at the start or end of the "
+"interval"
+msgstr ""
+
+#: ../../docstring of pandas.Period:84:<autosummary>:1
+msgid ":obj:`strftime <pandas.Period.strftime>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Period:84:<autosummary>:1
+msgid ""
+"Returns the string representation of the :class:`Period`, depending on "
+"the selected ``fmt``."
+msgstr ""
+
+#: ../../docstring of pandas.Period:84:<autosummary>:1
+msgid ":obj:`to_timestamp <pandas.Period.to_timestamp>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Period:84:<autosummary>:1
+msgid ""
+"Return the Timestamp representation of the Period at the target frequency"
+" at the specified end (how) of the Period"
+msgstr ""
+
+#: ../../docstring of pandas.Period:86
+msgid "**now**"
+msgstr ""
+

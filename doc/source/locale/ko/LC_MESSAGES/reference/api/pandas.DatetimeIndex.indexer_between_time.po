@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DatetimeIndex.indexer_between_time.rst:2
+msgid "pandas.DatetimeIndex.indexer\\_between\\_time"
+msgstr ""
+
+#: of pandas.DatetimeIndex.indexer_between_time:2
+msgid ""
+"Return index locations of values between particular times of day (e.g., "
+"9:00-9:30AM)."
+msgstr ""
+
+#: of pandas.DatetimeIndex.indexer_between_time
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DatetimeIndex.indexer_between_time:11
+msgid "**start_time, end_time**"
+msgstr ""
+
+#: of pandas.DatetimeIndex.indexer_between_time:10
+msgid "datetime.time, str"
+msgstr ""
+
+#: of pandas.DatetimeIndex.indexer_between_time:9
+msgid ""
+"datetime.time or string in appropriate format (\"%H:%M\", \"%H%M\", "
+"\"%I:%M%p\", \"%I%M%p\", \"%H:%M:%S\", \"%H%M%S\", \"%I:%M:%S%p\", "
+"\"%I%M%S%p\")."
+msgstr ""
+
+#: of pandas.DatetimeIndex.indexer_between_time:14
+msgid "**include_start**"
+msgstr ""
+
+#: of pandas.DatetimeIndex.indexer_between_time:13
+#: pandas.DatetimeIndex.indexer_between_time:16
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.DatetimeIndex.indexer_between_time:17
+msgid "**include_end**"
+msgstr ""
+
+#: of pandas.DatetimeIndex.indexer_between_time
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DatetimeIndex.indexer_between_time:27
+msgid "**values_between_time**"
+msgstr ""
+
+#: of pandas.DatetimeIndex.indexer_between_time:26
+msgid "array of integers"
+msgstr ""
+
+#: of pandas.DatetimeIndex.indexer_between_time:32
+msgid ":obj:`indexer_at_time`, :obj:`DataFrame.between_time`"
+msgstr ""
+

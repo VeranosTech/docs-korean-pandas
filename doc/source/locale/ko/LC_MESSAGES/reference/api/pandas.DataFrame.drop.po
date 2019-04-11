@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.drop.rst:2
+msgid "pandas.DataFrame.drop"
+msgstr ""
+
+#: of pandas.DataFrame.drop:2
+msgid "Drop specified labels from rows or columns."
+msgstr ""
+
+#: of pandas.DataFrame.drop:4
+msgid ""
+"Remove rows or columns by specifying label names and corresponding axis, "
+"or by specifying directly index or column names. When using a multi-"
+"index, labels on different levels can be removed by specifying the level."
+msgstr ""
+
+#: of pandas.DataFrame.drop
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.drop:12
+msgid "**labels**"
+msgstr ""
+
+#: of pandas.DataFrame.drop:11 pandas.DataFrame.drop:21
+msgid "single label or list-like"
+msgstr ""
+
+#: of pandas.DataFrame.drop:12
+msgid "Index or column labels to drop."
+msgstr ""
+
+#: of pandas.DataFrame.drop:16
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.DataFrame.drop:15
+msgid "{0 or 'index', 1 or 'columns'}, default 0"
+msgstr ""
+
+#: of pandas.DataFrame.drop:15
+msgid ""
+"Whether to drop labels from the index (0 or 'index') or columns (1 or "
+"'columns')."
+msgstr ""
+
+#: of pandas.DataFrame.drop:22
+msgid "**index, columns**"
+msgstr ""
+
+#: of pandas.DataFrame.drop:19
+msgid ""
+"Alternative to specifying axis (``labels, axis=1`` is equivalent to "
+"``columns=labels``)."
+msgstr ""
+
+#: of pandas.DataFrame.drop:25
+msgid "**level**"
+msgstr ""
+
+#: of pandas.DataFrame.drop:24
+msgid "int or level name, optional"
+msgstr ""
+
+#: of pandas.DataFrame.drop:25
+msgid "For MultiIndex, level from which the labels will be removed."
+msgstr ""
+
+#: of pandas.DataFrame.drop:28
+msgid "**inplace**"
+msgstr ""
+
+#: of pandas.DataFrame.drop:27
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.DataFrame.drop:28
+msgid "If True, do operation inplace and return None."
+msgstr ""
+
+#: of pandas.DataFrame.drop:32
+msgid "**errors**"
+msgstr ""
+
+#: of pandas.DataFrame.drop:31
+msgid "{'ignore', 'raise'}, default 'raise'"
+msgstr ""
+
+#: of pandas.DataFrame.drop:31
+msgid "If 'ignore', suppress error and only existing labels are dropped."
+msgstr ""
+
+#: of pandas.DataFrame.drop
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.drop:39
+msgid "**dropped**"
+msgstr ""
+
+#: of pandas.DataFrame.drop:38
+msgid "pandas.DataFrame"
+msgstr ""
+
+#: of pandas.DataFrame.drop
+msgid "Raises"
+msgstr ""
+
+#: of pandas.DataFrame.drop:46
+msgid "**KeyError**"
+msgstr ""
+
+#: of pandas.DataFrame.drop:44
+msgid "If none of the labels are found in the selected axis"
+msgstr ""
+
+#: of pandas.DataFrame.drop:52
+msgid ":obj:`DataFrame.loc`"
+msgstr ""
+
+#: of pandas.DataFrame.drop:52
+msgid "Label-location based indexer for selection by label."
+msgstr ""
+
+#: of pandas.DataFrame.drop:55
+msgid ":obj:`DataFrame.dropna`"
+msgstr ""
+
+#: of pandas.DataFrame.drop:55
+msgid ""
+"Return DataFrame with labels on given axis omitted where (all or any) "
+"data are missing."
+msgstr ""
+
+#: of pandas.DataFrame.drop:58
+msgid ":obj:`DataFrame.drop_duplicates`"
+msgstr ""
+
+#: of pandas.DataFrame.drop:58
+msgid ""
+"Return DataFrame with duplicate rows removed, optionally only considering"
+" certain columns."
+msgstr ""
+
+#: of pandas.DataFrame.drop:60
+msgid ":obj:`Series.drop`"
+msgstr ""
+
+#: of pandas.DataFrame.drop:61
+msgid "Return Series with specified index labels removed."
+msgstr ""
+
+#: of pandas.DataFrame.drop:66
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.drop:75
+msgid "Drop columns"
+msgstr ""
+
+#: of pandas.DataFrame.drop:89
+msgid "Drop a row by index"
+msgstr ""
+
+#: of pandas.DataFrame.drop:95
+msgid "Drop columns and/or rows of MultiIndex DataFrame"
+msgstr ""
+

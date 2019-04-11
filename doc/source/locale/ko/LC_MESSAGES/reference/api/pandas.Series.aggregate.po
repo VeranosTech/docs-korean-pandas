@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.aggregate.rst:2
+msgid "pandas.Series.aggregate"
+msgstr ""
+
+#: of pandas.Series.aggregate:2
+msgid "Aggregate using one or more operations over the specified axis."
+msgstr ""
+
+#: of pandas.Series.aggregate
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.aggregate:17
+msgid "**func**"
+msgstr ""
+
+#: of pandas.Series.aggregate:16
+msgid "function, str, list or dict"
+msgstr ""
+
+#: of pandas.Series.aggregate:9
+msgid ""
+"Function to use for aggregating the data. If a function, must either work"
+" when passed a Series or when passed to Series.apply."
+msgstr ""
+
+#: of pandas.Series.aggregate:12
+msgid "Accepted combinations are:"
+msgstr ""
+
+#: of pandas.Series.aggregate:14
+msgid "function"
+msgstr ""
+
+#: of pandas.Series.aggregate:15
+msgid "string function name"
+msgstr ""
+
+#: of pandas.Series.aggregate:16
+msgid "list of functions and/or function names, e.g. ``[np.sum, 'mean']``"
+msgstr ""
+
+#: of pandas.Series.aggregate:17
+msgid "dict of axis labels -> functions, function names or list of such."
+msgstr ""
+
+#: of pandas.Series.aggregate:20
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.Series.aggregate:19
+msgid "{0 or 'index'}"
+msgstr ""
+
+#: of pandas.Series.aggregate:20
+msgid "Parameter needed for compatibility with DataFrame."
+msgstr ""
+
+#: of pandas.Series.aggregate:23
+msgid "**\\*args**"
+msgstr ""
+
+#: of pandas.Series.aggregate:23
+msgid "Positional arguments to pass to `func`."
+msgstr ""
+
+#: of pandas.Series.aggregate:26
+msgid "**\\*\\*kwargs**"
+msgstr ""
+
+#: of pandas.Series.aggregate:26
+msgid "Keyword arguments to pass to `func`."
+msgstr ""
+
+#: of pandas.Series.aggregate
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.aggregate:39
+msgid "**DataFrame, Series or scalar**"
+msgstr ""
+
+#: of pandas.Series.aggregate:31
+msgid ""
+"if DataFrame.agg is called with a single function, returns a Series if "
+"DataFrame.agg is called with several functions, returns a DataFrame if "
+"Series.agg is called with single function, returns a scalar if Series.agg"
+" is called with several functions, returns a Series"
+msgstr ""
+
+#: of pandas.Series.aggregate:45
+msgid ":obj:`Series.apply`"
+msgstr ""
+
+#: of pandas.Series.aggregate:45
+msgid "Invoke function on a Series."
+msgstr ""
+
+#: of pandas.Series.aggregate:47
+msgid ":obj:`Series.transform`"
+msgstr ""
+
+#: of pandas.Series.aggregate:48
+msgid "Transform function producing a Series with like indexes."
+msgstr ""
+
+#: of pandas.Series.aggregate:51
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Series.aggregate:52
+msgid "`agg` is an alias for `aggregate`. Use the alias."
+msgstr ""
+
+#: of pandas.Series.aggregate:54
+msgid "A passed user-defined-function will be passed a Series for evaluation."
+msgstr ""
+
+#: of pandas.Series.aggregate:58
+msgid "Examples"
+msgstr ""
+

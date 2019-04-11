@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.tseries.offsets.WeekOfMonth.rst:2
+msgid "pandas.tseries.offsets.WeekOfMonth"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:2
+msgid ""
+"Describes monthly dates like \"the Tuesday of the 2nd week of each "
+"month\"."
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:8
+msgid "**n**"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:7
+msgid "int"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:11
+msgid "**week**"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:10
+msgid "{0, 1, 2, 3, ...}, default 0"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:11
+msgid "0 is 1st week of month, 1 2nd week, etc."
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:30
+msgid "**weekday**"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:29
+msgid "{0, 1, ..., 6}, default 0"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:14
+msgid ""
+"0: Mondays 1: Tuesdays 2: Wednesdays 3: Thursdays 4: Fridays 5: Saturdays"
+" 6: Sundays"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:33
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:39:<autosummary>:1
+msgid ":obj:`base <pandas.tseries.offsets.WeekOfMonth.base>`\\"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:39:<autosummary>:1
+msgid ""
+"Returns a copy of the calling offset object with n=1 and all other "
+"attributes equal."
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:41
+msgid "**freqstr**"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:42
+msgid "**kwds**"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:43
+msgid "**name**"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:44
+msgid "**nanos**"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:45
+msgid "**rule_code**"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:49
+msgid "Methods"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:57:<autosummary>:1
+msgid ":obj:`apply_index <pandas.tseries.offsets.WeekOfMonth.apply_index>`\\"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:57:<autosummary>:1
+msgid ""
+"Vectorized apply of DateOffset to DatetimeIndex, raises NotImplentedError"
+" for offsets without a vectorized implementation."
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:57:<autosummary>:1
+msgid ":obj:`rollback <pandas.tseries.offsets.WeekOfMonth.rollback>`\\ \\(dt\\)"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:57:<autosummary>:1
+msgid "Roll provided date backward to next offset only if not on offset."
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:57:<autosummary>:1
+msgid ""
+":obj:`rollforward <pandas.tseries.offsets.WeekOfMonth.rollforward>`\\ "
+"\\(dt\\)"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:57:<autosummary>:1
+msgid "Roll provided date forward to next offset only if not on offset."
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:59
+msgid "**__call__**"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:60
+msgid "**apply**"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:61
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:62
+msgid "**isAnchored**"
+msgstr ""
+
+#: of pandas.tseries.offsets.WeekOfMonth:63
+msgid "**onOffset**"
+msgstr ""
+

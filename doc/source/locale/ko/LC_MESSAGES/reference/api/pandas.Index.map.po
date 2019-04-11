@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.map.rst:2
+msgid "pandas.Index.map"
+msgstr ""
+
+#: of pandas.Index.map:2
+msgid "Map values using input correspondence (a dict, Series, or function)."
+msgstr ""
+
+#: of pandas.Index.map
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.map:8
+msgid "**mapper**"
+msgstr ""
+
+#: of pandas.Index.map:7
+msgid "function, dict, or Series"
+msgstr ""
+
+#: of pandas.Index.map:8
+msgid "Mapping correspondence."
+msgstr ""
+
+#: of pandas.Index.map:12
+msgid "**na_action**"
+msgstr ""
+
+#: of pandas.Index.map:11
+msgid "{None, 'ignore'}"
+msgstr ""
+
+#: of pandas.Index.map:11
+msgid ""
+"If 'ignore', propagate NA values, without passing them to the mapping "
+"correspondence."
+msgstr ""
+
+#: of pandas.Index.map
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.map:30
+msgid "**applied**"
+msgstr ""
+
+#: of pandas.Index.map:29
+msgid "Union[Index, MultiIndex], inferred"
+msgstr ""
+
+#: of pandas.Index.map:17
+msgid ""
+"The output of the mapping function applied to the index. If the function "
+"returns a tuple with more than one element a MultiIndex will be returned."
+msgstr ""
+

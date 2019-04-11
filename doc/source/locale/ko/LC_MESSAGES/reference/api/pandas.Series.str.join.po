@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.str.join.rst:2
+msgid "pandas.Series.str.join"
+msgstr ""
+
+#: of pandas.Series.str.join:2
+msgid ""
+"Join lists contained as elements in the Series/Index with passed "
+"delimiter."
+msgstr ""
+
+#: of pandas.Series.str.join:4
+msgid ""
+"If the elements of a Series are lists themselves, join the content of "
+"these lists using the delimiter passed to the function. This function is "
+"an equivalent to :meth:`str.join`."
+msgstr ""
+
+#: of pandas.Series.str.join
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.str.join:11
+msgid "**sep**"
+msgstr ""
+
+#: of pandas.Series.str.join:10
+msgid "str"
+msgstr ""
+
+#: of pandas.Series.str.join:11
+msgid "Delimiter to use between list entries."
+msgstr ""
+
+#: of pandas.Series.str.join
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.str.join:19
+msgid "**Series/Index: object**"
+msgstr ""
+
+#: of pandas.Series.str.join:16
+msgid "The list entries concatenated by intervening occurrences of the delimiter."
+msgstr ""
+
+#: of pandas.Series.str.join
+msgid "Raises"
+msgstr ""
+
+#: of pandas.Series.str.join:26
+msgid "**AttributeError**"
+msgstr ""
+
+#: of pandas.Series.str.join:24
+msgid "If the supplied Series contains neither strings nor lists."
+msgstr ""
+
+#: of pandas.Series.str.join:32
+msgid ":obj:`str.join`"
+msgstr ""
+
+#: of pandas.Series.str.join:32
+msgid "Standard library version of this method."
+msgstr ""
+
+#: of pandas.Series.str.join:34
+msgid ":obj:`Series.str.split`"
+msgstr ""
+
+#: of pandas.Series.str.join:35
+msgid "Split strings around given separator/delimiter."
+msgstr ""
+
+#: of pandas.Series.str.join:38
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Series.str.join:39
+msgid ""
+"If any of the list items is not a string object, the result of the join "
+"will be `NaN`."
+msgstr ""
+
+#: of pandas.Series.str.join:44
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.str.join:45
+msgid "Example with a list that contains non-string elements."
+msgstr ""
+
+#: of pandas.Series.str.join:60
+msgid ""
+"Join all lists using a '-'. The lists containing object(s) of types other"
+" than str will produce a NaN."
+msgstr ""
+

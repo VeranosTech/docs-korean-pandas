@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.io.json.build_table_schema.rst:2
+msgid "pandas.io.json.build\\_table\\_schema"
+msgstr ""
+
+#: of pandas.io.json.build_table_schema:2
+msgid "Create a Table schema from ``data``."
+msgstr ""
+
+#: of pandas.io.json.build_table_schema
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.io.json.build_table_schema:8
+msgid "**data**"
+msgstr ""
+
+#: of pandas.io.json.build_table_schema:7
+msgid "Series, DataFrame"
+msgstr ""
+
+#: of pandas.io.json.build_table_schema:11
+msgid "**index**"
+msgstr ""
+
+#: of pandas.io.json.build_table_schema:10 pandas.io.json.build_table_schema:19
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.io.json.build_table_schema:11
+msgid "Whether to include ``data.index`` in the schema."
+msgstr ""
+
+#: of pandas.io.json.build_table_schema:16
+msgid "**primary_key**"
+msgstr ""
+
+#: of pandas.io.json.build_table_schema:15
+msgid "bool or None, default True"
+msgstr ""
+
+#: of pandas.io.json.build_table_schema:14
+msgid ""
+"column names to designate as the primary key. The default `None` will set"
+" `'primaryKey'` to the index level or levels if the index is unique."
+msgstr ""
+
+#: of pandas.io.json.build_table_schema:20
+msgid "**version**"
+msgstr ""
+
+#: of pandas.io.json.build_table_schema:19
+msgid ""
+"Whether to include a field `pandas_version` with the version of pandas "
+"that generated the schema."
+msgstr ""
+
+#: of pandas.io.json.build_table_schema
+msgid "Returns"
+msgstr ""
+
+#: of pandas.io.json.build_table_schema:31
+msgid "**schema**"
+msgstr ""
+
+#: of pandas.io.json.build_table_schema:30
+msgid "dict"
+msgstr ""
+
+#: of pandas.io.json.build_table_schema:34
+msgid "Notes"
+msgstr ""
+
+#: of pandas.io.json.build_table_schema:35
+msgid ""
+"See `_as_json_table_type` for conversion types. Timedeltas as converted "
+"to ISO8601 duration format with 9 decimal places after the seconds field "
+"for nanosecond precision."
+msgstr ""
+
+#: of pandas.io.json.build_table_schema:39
+msgid ""
+"Categoricals are converted to the `any` dtype, and use the `enum` field "
+"constraint to list the allowed values. The `ordered` attribute is "
+"included in an `ordered` field."
+msgstr ""
+
+#: of pandas.io.json.build_table_schema:45
+msgid "Examples"
+msgstr ""
+

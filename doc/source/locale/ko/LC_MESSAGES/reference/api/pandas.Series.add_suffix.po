@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.add_suffix.rst:2
+msgid "pandas.Series.add\\_suffix"
+msgstr ""
+
+#: of pandas.Series.add_suffix:2
+msgid "Suffix labels with string `suffix`."
+msgstr ""
+
+#: of pandas.Series.add_suffix:4
+msgid ""
+"For Series, the row labels are suffixed. For DataFrame, the column labels"
+" are suffixed."
+msgstr ""
+
+#: of pandas.Series.add_suffix
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.add_suffix:10
+msgid "**suffix**"
+msgstr ""
+
+#: of pandas.Series.add_suffix:9
+msgid "str"
+msgstr ""
+
+#: of pandas.Series.add_suffix:10
+msgid "The string to add after each label."
+msgstr ""
+
+#: of pandas.Series.add_suffix
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.add_suffix:20
+msgid "**Series or DataFrame**"
+msgstr ""
+
+#: of pandas.Series.add_suffix:15
+msgid "New Series or DataFrame with updated labels."
+msgstr ""
+
+#: of pandas.Series.add_suffix:26
+msgid ":obj:`Series.add_prefix`"
+msgstr ""
+
+#: of pandas.Series.add_suffix:26
+msgid "Prefix row labels with string `prefix`."
+msgstr ""
+
+#: of pandas.Series.add_suffix:28
+msgid ":obj:`DataFrame.add_prefix`"
+msgstr ""
+
+#: of pandas.Series.add_suffix:29
+msgid "Prefix column labels with string `prefix`."
+msgstr ""
+
+#: of pandas.Series.add_suffix:34
+msgid "Examples"
+msgstr ""
+

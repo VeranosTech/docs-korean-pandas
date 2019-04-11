@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.arrays.IntervalArray.to_tuples.rst:2
+msgid "pandas.arrays.IntervalArray.to\\_tuples"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.to_tuples:2
+msgid "Return an ndarray of tuples of the form (left, right)"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.to_tuples
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.to_tuples:11
+msgid "**na_tuple**"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.to_tuples:10
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.to_tuples:8
+msgid ""
+"Returns NA as a tuple if True, ``(nan, nan)``, or just as the NA value "
+"itself if False, ``nan``."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.to_tuples
+msgid "Returns"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.to_tuples:27
+msgid "**tuples: ndarray**"
+msgstr ""
+

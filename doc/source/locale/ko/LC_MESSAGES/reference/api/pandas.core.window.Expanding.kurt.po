@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.core.window.Expanding.kurt.rst:2
+msgid "pandas.core.window.Expanding.kurt"
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:2
+msgid "Calculate unbiased expanding kurtosis."
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:4
+msgid "This function uses Fisher's definition of kurtosis without bias."
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:9
+msgid "**\\*\\*kwargs**"
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:9
+msgid "Under Review."
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt
+msgid "Returns"
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:20
+msgid "**Series or DataFrame**"
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:14
+msgid ""
+"Returned object type is determined by the caller of the expanding "
+"calculation"
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:26
+msgid ":obj:`Series.expanding`"
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:26
+msgid "Calling object with Series data."
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:29
+msgid ":obj:`DataFrame.expanding`"
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:29
+msgid "Calling object with DataFrames."
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:32
+msgid ":obj:`Series.kurt`"
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:32
+msgid "Equivalent method for Series."
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:35
+msgid ":obj:`DataFrame.kurt`"
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:35
+msgid "Equivalent method for DataFrame."
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:38
+msgid ":obj:`scipy.stats.skew`"
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:38
+msgid "Third moment of a probability density."
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:40
+msgid ":obj:`scipy.stats.kurtosis`"
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:41
+msgid "Reference SciPy method."
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:44
+msgid "Notes"
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:45
+msgid "A minimum of 4 periods is required for the expanding calculation."
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:49
+msgid "Examples"
+msgstr ""
+
+#: of pandas.core.window.Expanding.kurt:50
+msgid ""
+"The example below will show an expanding calculation with a window size "
+"of four matching the equivalent function call using `scipy.stats`."
+msgstr ""
+

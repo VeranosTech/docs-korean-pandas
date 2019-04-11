@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.asfreq.rst:2
+msgid "pandas.Series.asfreq"
+msgstr ""
+
+#: of pandas.Series.asfreq:2
+msgid "Convert TimeSeries to specified frequency."
+msgstr ""
+
+#: of pandas.Series.asfreq:4
+msgid "Optionally provide filling method to pad/backfill missing values."
+msgstr ""
+
+#: of pandas.Series.asfreq:6
+msgid ""
+"Returns the original data conformed to a new index with the specified "
+"frequency. ``resample`` is more appropriate if an operation, such as "
+"summarization, is necessary to represent the data at the new frequency."
+msgstr ""
+
+#: of pandas.Series.asfreq
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.asfreq:13
+msgid "**freq**"
+msgstr ""
+
+#: of pandas.Series.asfreq:12
+msgid "DateOffset object, or string"
+msgstr ""
+
+#: of pandas.Series.asfreq:21
+msgid "**method**"
+msgstr ""
+
+#: of pandas.Series.asfreq:20
+msgid "{'backfill'/'bfill', 'pad'/'ffill'}, default None"
+msgstr ""
+
+#: of pandas.Series.asfreq:16
+msgid ""
+"Method to use for filling holes in reindexed Series (note this does not "
+"fill NaNs that already were present):"
+msgstr ""
+
+#: of pandas.Series.asfreq:19
+msgid "'pad' / 'ffill': propagate last valid observation forward to next valid"
+msgstr ""
+
+#: of pandas.Series.asfreq:21
+msgid "'backfill' / 'bfill': use NEXT valid observation to fill"
+msgstr ""
+
+#: of pandas.Series.asfreq:24
+msgid "**how**"
+msgstr ""
+
+#: of pandas.Series.asfreq:23
+msgid "{'start', 'end'}, default end"
+msgstr ""
+
+#: of pandas.Series.asfreq:24
+msgid "For PeriodIndex only, see PeriodIndex.asfreq"
+msgstr ""
+
+#: of pandas.Series.asfreq:27
+msgid "**normalize**"
+msgstr ""
+
+#: of pandas.Series.asfreq:26
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.Series.asfreq:27
+msgid "Whether to reset output index to midnight"
+msgstr ""
+
+#: of pandas.Series.asfreq:33
+msgid "**fill_value**"
+msgstr ""
+
+#: of pandas.Series.asfreq:32
+msgid "scalar, optional"
+msgstr ""
+
+#: of pandas.Series.asfreq:30
+msgid ""
+"Value to use for missing values, applied during upsampling (note this "
+"does not fill NaNs that already were present)."
+msgstr ""
+
+#: of pandas.Series.asfreq
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.asfreq:43
+msgid "**converted**"
+msgstr ""
+
+#: of pandas.Series.asfreq:42
+msgid "same type as caller"
+msgstr ""
+
+#: of pandas.Series.asfreq:48
+msgid ":obj:`reindex`"
+msgstr ""
+
+#: of pandas.Series.asfreq:51
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Series.asfreq:52
+msgid ""
+"To learn more about the frequency strings, please see `this link "
+"<http://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-"
+"aliases>`__."
+msgstr ""
+
+#: of pandas.Series.asfreq:57
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.asfreq:58
+msgid "Start by creating a series with 4 one minute timestamps."
+msgstr ""
+
+#: of pandas.Series.asfreq:70
+msgid "Upsample the series into 30 second bins."
+msgstr ""
+
+#: of pandas.Series.asfreq:82
+msgid "Upsample again, providing a ``fill value``."
+msgstr ""
+
+#: of pandas.Series.asfreq:94
+msgid "Upsample again, providing a ``method``."
+msgstr ""
+

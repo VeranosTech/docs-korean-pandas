@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.isnull.rst:2
+msgid "pandas.Index.isnull"
+msgstr ""
+
+#: of pandas.Index.isnull:2
+msgid "Detect missing values."
+msgstr ""
+
+#: of pandas.Index.isnull:4
+msgid ""
+"Return a boolean same-sized object indicating if the values are NA. NA "
+"values, such as ``None``, :attr:`numpy.NaN` or :attr:`pd.NaT`, get mapped"
+" to ``True`` values. Everything else get mapped to ``False`` values. "
+"Characters such as empty strings `''` or :attr:`numpy.inf` are not "
+"considered NA values (unless you set ``pandas.options.mode.use_inf_as_na "
+"= True``)."
+msgstr ""
+
+#: of pandas.Index.isnull
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.isnull:22
+msgid "**numpy.ndarray**"
+msgstr ""
+
+#: of pandas.Index.isnull:17
+msgid "A boolean array of whether my values are NA"
+msgstr ""
+
+#: of pandas.Index.isnull:28
+msgid ":obj:`pandas.Index.notna`"
+msgstr ""
+
+#: of pandas.Index.isnull:28
+msgid "Boolean inverse of isna."
+msgstr ""
+
+#: of pandas.Index.isnull:31
+msgid ":obj:`pandas.Index.dropna`"
+msgstr ""
+
+#: of pandas.Index.isnull:31
+msgid "Omit entries with missing values."
+msgstr ""
+
+#: of pandas.Index.isnull:34
+msgid ":obj:`pandas.isna`"
+msgstr ""
+
+#: of pandas.Index.isnull:34
+msgid "Top-level isna."
+msgstr ""
+
+#: of pandas.Index.isnull:36
+msgid ":obj:`Series.isna`"
+msgstr ""
+
+#: of pandas.Index.isnull:37
+msgid "Detect missing values in Series object."
+msgstr ""
+
+#: of pandas.Index.isnull:42
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Index.isnull:43
+msgid "Show which entries in a pandas.Index are NA. The result is an array."
+msgstr ""
+
+#: of pandas.Index.isnull:52
+msgid ""
+"Empty strings are not considered NA values. None is considered an NA "
+"value."
+msgstr ""
+
+#: of pandas.Index.isnull:61
+msgid "For datetimes, `NaT` (Not a Time) is considered as an NA value."
+msgstr ""
+

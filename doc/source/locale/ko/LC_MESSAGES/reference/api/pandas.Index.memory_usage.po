@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.memory_usage.rst:2
+msgid "pandas.Index.memory\\_usage"
+msgstr ""
+
+#: of pandas.Index.memory_usage:2
+msgid "Memory usage of the values"
+msgstr ""
+
+#: of pandas.Index.memory_usage
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.memory_usage:9
+msgid "**deep**"
+msgstr ""
+
+#: of pandas.Index.memory_usage:8
+msgid "bool"
+msgstr ""
+
+#: of pandas.Index.memory_usage:8
+msgid ""
+"Introspect the data deeply, interrogate `object` dtypes for system-level "
+"memory consumption"
+msgstr ""
+
+#: of pandas.Index.memory_usage
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.memory_usage:19
+msgid "**bytes used**"
+msgstr ""
+
+#: of pandas.Index.memory_usage:24
+msgid ":obj:`numpy.ndarray.nbytes`"
+msgstr ""
+
+#: of pandas.Index.memory_usage:27
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Index.memory_usage:28
+msgid ""
+"Memory usage does not include memory consumed by elements that are not "
+"components of the array if deep=False or if used on PyPy"
+msgstr ""
+

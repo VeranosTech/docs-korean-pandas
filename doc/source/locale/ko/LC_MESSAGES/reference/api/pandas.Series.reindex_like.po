@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.reindex_like.rst:2
+msgid "pandas.Series.reindex\\_like"
+msgstr ""
+
+#: of pandas.Series.reindex_like:2
+msgid "Return an object with matching indices as other object."
+msgstr ""
+
+#: of pandas.Series.reindex_like:4
+msgid ""
+"Conform the object to the same index on all axes. Optional filling logic,"
+" placing NaN in locations having no value in the previous index. A new "
+"object is produced unless the new index is equivalent to the current one "
+"and copy=False."
+msgstr ""
+
+#: of pandas.Series.reindex_like
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.reindex_like:13
+msgid "**other**"
+msgstr ""
+
+#: of pandas.Series.reindex_like:12
+msgid "Object of the same data type"
+msgstr ""
+
+#: of pandas.Series.reindex_like:12
+msgid ""
+"Its row and column indices are used to define the new indices of this "
+"object."
+msgstr ""
+
+#: of pandas.Series.reindex_like:24
+msgid "**method**"
+msgstr ""
+
+#: of pandas.Series.reindex_like:23
+msgid "{None, 'backfill'/'bfill', 'pad'/'ffill', 'nearest'}"
+msgstr ""
+
+#: of pandas.Series.reindex_like:16
+msgid ""
+"Method to use for filling holes in reindexed DataFrame. Please note: this"
+" is only applicable to DataFrames/Series with a monotonically "
+"increasing/decreasing index."
+msgstr ""
+
+#: of pandas.Series.reindex_like:20
+msgid "None (default): don't fill gaps"
+msgstr ""
+
+#: of pandas.Series.reindex_like:21
+msgid "pad / ffill: propagate last valid observation forward to next valid"
+msgstr ""
+
+#: of pandas.Series.reindex_like:23
+msgid "backfill / bfill: use next valid observation to fill gap"
+msgstr ""
+
+#: of pandas.Series.reindex_like:24
+msgid "nearest: use nearest valid observations to fill gap"
+msgstr ""
+
+#: of pandas.Series.reindex_like:27
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.Series.reindex_like:26
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.Series.reindex_like:27
+msgid "Return a new object, even if the passed indexes are the same."
+msgstr ""
+
+#: of pandas.Series.reindex_like:30
+msgid "**limit**"
+msgstr ""
+
+#: of pandas.Series.reindex_like:29
+msgid "int, default None"
+msgstr ""
+
+#: of pandas.Series.reindex_like:30
+msgid "Maximum number of consecutive labels to fill for inexact matches."
+msgstr ""
+
+#: of pandas.Series.reindex_like:43
+msgid "**tolerance**"
+msgstr ""
+
+#: of pandas.Series.reindex_like:42
+msgid "optional"
+msgstr ""
+
+#: of pandas.Series.reindex_like:33
+msgid ""
+"Maximum distance between original and new labels for inexact matches. The"
+" values of the index at the matching locations most satisfy the equation "
+"``abs(index[indexer] - target) <= tolerance``."
+msgstr ""
+
+#: of pandas.Series.reindex_like:37
+msgid ""
+"Tolerance may be a scalar value, which applies the same tolerance to all "
+"values, or list-like, which applies variable tolerance per element. List-"
+"like includes list, tuple, array, Series, and must be the same size as "
+"the index and its dtype must exactly match the index's type."
+msgstr ""
+
+#: of pandas.Series.reindex_like:43
+msgid "(list-like tolerance)"
+msgstr ""
+
+#: of pandas.Series.reindex_like
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.reindex_like:53
+msgid "**Series or DataFrame**"
+msgstr ""
+
+#: of pandas.Series.reindex_like:48
+msgid "Same type as caller, but with changed indices on each axis."
+msgstr ""
+
+#: of pandas.Series.reindex_like:59
+msgid ":obj:`DataFrame.set_index`"
+msgstr ""
+
+#: of pandas.Series.reindex_like:59
+msgid "Set row labels."
+msgstr ""
+
+#: of pandas.Series.reindex_like:62
+msgid ":obj:`DataFrame.reset_index`"
+msgstr ""
+
+#: of pandas.Series.reindex_like:62
+msgid "Remove row labels or move them to new columns."
+msgstr ""
+
+#: of pandas.Series.reindex_like:64
+msgid ":obj:`DataFrame.reindex`"
+msgstr ""
+
+#: of pandas.Series.reindex_like:65
+msgid "Change to new indices or expand indices."
+msgstr ""
+
+#: of pandas.Series.reindex_like:68
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Series.reindex_like:69
+msgid ""
+"Same as calling ``.reindex(index=other.index, "
+"columns=other.columns,...)``."
+msgstr ""
+
+#: of pandas.Series.reindex_like:74
+msgid "Examples"
+msgstr ""
+

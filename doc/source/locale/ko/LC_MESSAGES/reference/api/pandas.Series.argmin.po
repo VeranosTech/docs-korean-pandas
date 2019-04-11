@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.argmin.rst:2
+msgid "pandas.Series.argmin"
+msgstr ""
+
+#: of pandas.Series.argmin:2
+msgid "Return the row label of the minimum value."
+msgstr ""
+
+#: of pandas.Series.argmin:6
+msgid ""
+"The current behaviour of 'Series.argmin' is deprecated, use 'idxmin' "
+"instead. The behavior of 'argmin' will be corrected to return the "
+"positional minimum in the future. For now, use 'series.values.argmin' or "
+"'np.argmin(np.array(values))' to get the position of the minimum row."
+msgstr ""
+
+#: of pandas.Series.argmin:13
+msgid ""
+"If multiple values equal the minimum, the first row label with that value"
+" is returned."
+msgstr ""
+
+#: of pandas.Series.argmin
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.argmin:20
+msgid "**skipna**"
+msgstr ""
+
+#: of pandas.Series.argmin:19
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.Series.argmin:19
+msgid "Exclude NA/null values. If the entire Series is NA, the result will be NA."
+msgstr ""
+
+#: of pandas.Series.argmin:24
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.Series.argmin:23
+msgid "int, default 0"
+msgstr ""
+
+#: of pandas.Series.argmin:23
+msgid ""
+"For compatibility with DataFrame.idxmin. Redundant for application on "
+"Series."
+msgstr ""
+
+#: of pandas.Series.argmin:28
+msgid "**\\*args, **kwargs**"
+msgstr ""
+
+#: of pandas.Series.argmin:27
+msgid ""
+"Additional keywords have no effect but might be accepted for "
+"compatibility with NumPy."
+msgstr ""
+
+#: of pandas.Series.argmin
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.argmin:35
+msgid "**idxmin**"
+msgstr ""
+
+#: of pandas.Series.argmin:34
+msgid "Index of minimum of values."
+msgstr ""
+
+#: of pandas.Series.argmin
+msgid "Raises"
+msgstr ""
+
+#: of pandas.Series.argmin:42
+msgid "**ValueError**"
+msgstr ""
+
+#: of pandas.Series.argmin:40
+msgid "If the Series is empty."
+msgstr ""
+
+#: of pandas.Series.argmin:48
+msgid ":obj:`numpy.argmin`"
+msgstr ""
+
+#: of pandas.Series.argmin:48
+msgid "Return indices of the minimum values along the given axis."
+msgstr ""
+
+#: of pandas.Series.argmin:51
+msgid ":obj:`DataFrame.idxmin`"
+msgstr ""
+
+#: of pandas.Series.argmin:51
+msgid "Return index of first occurrence of minimum over requested axis."
+msgstr ""
+
+#: of pandas.Series.argmin:53
+msgid ":obj:`Series.idxmax`"
+msgstr ""
+
+#: of pandas.Series.argmin:54
+msgid "Return index *label* of the first occurrence of maximum of values."
+msgstr ""
+
+#: of pandas.Series.argmin:57
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Series.argmin:58
+msgid ""
+"This method is the Series version of ``ndarray.argmin``. This method "
+"returns the label of the minimum, while ``ndarray.argmin`` returns the "
+"position. To get the position, use ``series.values.argmin()``."
+msgstr ""
+
+#: of pandas.Series.argmin:64
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.argmin:77
+msgid ""
+"If `skipna` is False and there is an NA value in the data, the function "
+"returns ``nan``."
+msgstr ""
+

@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.rank.rst:2
+msgid "pandas.Series.rank"
+msgstr ""
+
+#: of pandas.Series.rank:2
+msgid ""
+"Compute numerical data ranks (1 through n) along axis. Equal values are "
+"assigned a rank that is the average of the ranks of those values."
+msgstr ""
+
+#: of pandas.Series.rank
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.rank:9
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.Series.rank:8
+msgid "{0 or 'index', 1 or 'columns'}, default 0"
+msgstr ""
+
+#: of pandas.Series.rank:9
+msgid "index to direct ranking"
+msgstr ""
+
+#: of pandas.Series.rank:16
+msgid "**method**"
+msgstr ""
+
+#: of pandas.Series.rank:15
+msgid "{'average', 'min', 'max', 'first', 'dense'}"
+msgstr ""
+
+#: of pandas.Series.rank:12
+msgid "average: average rank of group"
+msgstr ""
+
+#: of pandas.Series.rank:13
+msgid "min: lowest rank in group"
+msgstr ""
+
+#: of pandas.Series.rank:14
+msgid "max: highest rank in group"
+msgstr ""
+
+#: of pandas.Series.rank:15
+msgid "first: ranks assigned in order they appear in the array"
+msgstr ""
+
+#: of pandas.Series.rank:16
+msgid "dense: like 'min', but rank always increases by 1 between groups"
+msgstr ""
+
+#: of pandas.Series.rank:20
+msgid "**numeric_only**"
+msgstr ""
+
+#: of pandas.Series.rank:19
+msgid "boolean, default None"
+msgstr ""
+
+#: of pandas.Series.rank:19
+msgid ""
+"Include only float, int, boolean data. Valid only for DataFrame or Panel "
+"objects"
+msgstr ""
+
+#: of pandas.Series.rank:25
+msgid "**na_option**"
+msgstr ""
+
+#: of pandas.Series.rank:24
+msgid "{'keep', 'top', 'bottom'}"
+msgstr ""
+
+#: of pandas.Series.rank:23
+msgid "keep: leave NA values where they are"
+msgstr ""
+
+#: of pandas.Series.rank:24
+msgid "top: smallest rank if ascending"
+msgstr ""
+
+#: of pandas.Series.rank:25
+msgid "bottom: smallest rank if descending"
+msgstr ""
+
+#: of pandas.Series.rank:28
+msgid "**ascending**"
+msgstr ""
+
+#: of pandas.Series.rank:27
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.Series.rank:28
+msgid "False for ranks by high (1) to low (N)"
+msgstr ""
+
+#: of pandas.Series.rank:31
+msgid "**pct**"
+msgstr ""
+
+#: of pandas.Series.rank:30
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.Series.rank:31
+msgid "Computes percentage rank of data"
+msgstr ""
+
+#: of pandas.Series.rank
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.rank:47
+msgid "**ranks**"
+msgstr ""
+
+#: of pandas.Series.rank:46
+msgid "same type as caller"
+msgstr ""
+

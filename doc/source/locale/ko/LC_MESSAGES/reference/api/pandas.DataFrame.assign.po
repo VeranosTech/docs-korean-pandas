@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.assign.rst:2
+msgid "pandas.DataFrame.assign"
+msgstr ""
+
+#: of pandas.DataFrame.assign:2
+msgid "Assign new columns to a DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.assign:4
+msgid ""
+"Returns a new object with all original columns in addition to new ones. "
+"Existing columns that are re-assigned will be overwritten."
+msgstr ""
+
+#: of pandas.DataFrame.assign
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.assign:15
+msgid "**\\*\\*kwargs**"
+msgstr ""
+
+#: of pandas.DataFrame.assign:14
+msgid "dict of {str: callable or Series}"
+msgstr ""
+
+#: of pandas.DataFrame.assign:10
+msgid ""
+"The column names are keywords. If the values are callable, they are "
+"computed on the DataFrame and assigned to the new columns. The callable "
+"must not change input DataFrame (though pandas doesn't check it). If the "
+"values are not callable, (e.g. a Series, scalar, or array), they are "
+"simply assigned."
+msgstr ""
+
+#: of pandas.DataFrame.assign
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.assign:27
+msgid "**DataFrame**"
+msgstr ""
+
+#: of pandas.DataFrame.assign:20
+msgid ""
+"A new DataFrame with the new columns in addition to all the existing "
+"columns."
+msgstr ""
+
+#: of pandas.DataFrame.assign:30
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.assign:31
+msgid ""
+"Assigning multiple columns within the same ``assign`` is possible. For "
+"Python 3.6 and above, later items in '\\*\\*kwargs' may refer to newly "
+"created or modified columns in 'df'; items are computed and assigned into"
+" 'df' in order.  For Python 3.5 and below, the order of keyword arguments"
+" is not specified, you cannot refer to newly created or modified columns."
+" All items are computed first, and then assigned in alphabetical order."
+msgstr ""
+
+#: of pandas.DataFrame.assign:41
+msgid "Keyword argument order is maintained for Python 3.6 and later."
+msgstr ""
+
+#: of pandas.DataFrame.assign:45
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.assign:53
+msgid "Where the value is a callable, evaluated on `df`:"
+msgstr ""
+
+#: of pandas.DataFrame.assign:60
+msgid ""
+"Alternatively, the same behavior can be achieved by directly referencing "
+"an existing Series or sequence:"
+msgstr ""
+
+#: of pandas.DataFrame.assign:68
+msgid ""
+"In Python 3.6+, you can create multiple columns within the same assign "
+"where one of the columns depends on another one defined within the same "
+"assign:"
+msgstr ""
+

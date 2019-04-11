@@ -1,0 +1,283 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.arrays.PandasArray.rst:2
+msgid "pandas.arrays.PandasArray"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:2
+msgid "A pandas ExtensionArray for NumPy data."
+msgstr ""
+
+#: of pandas.arrays.PandasArray:6
+msgid ""
+"This is mostly for internal compatibility, and is not especially useful "
+"on its own."
+msgstr ""
+
+#: of pandas.arrays.PandasArray
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:12
+msgid "**values**"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:11
+msgid "ndarray"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:12
+msgid "The NumPy ndarray to wrap. Must be 1-dimensional."
+msgstr ""
+
+#: of pandas.arrays.PandasArray:22
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:21
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:15
+msgid "Whether to copy `values`."
+msgstr ""
+
+#: of pandas.arrays.PandasArray:25
+msgid "Notes"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:26
+msgid "Operations like ``+`` and applying ufuncs requires NumPy>=1.13."
+msgstr ""
+
+#: of pandas.arrays.PandasArray:31
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:39:<autosummary>:1
+msgid ":obj:`dtype <pandas.arrays.PandasArray.dtype>`\\"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:39:<autosummary>:1
+msgid "An instance of 'ExtensionDtype'."
+msgstr ""
+
+#: of pandas.arrays.PandasArray:39:<autosummary>:1
+msgid ":obj:`nbytes <pandas.arrays.PandasArray.nbytes>`\\"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:39:<autosummary>:1
+msgid "The number of bytes needed to store this object in memory."
+msgstr ""
+
+#: of pandas.arrays.PandasArray:39:<autosummary>:1
+msgid ":obj:`ndim <pandas.arrays.PandasArray.ndim>`\\"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:39:<autosummary>:1
+msgid "Extension Arrays are only allowed to be 1-dimensional."
+msgstr ""
+
+#: of pandas.arrays.PandasArray:39:<autosummary>:1
+msgid ":obj:`shape <pandas.arrays.PandasArray.shape>`\\"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:39:<autosummary>:1
+msgid "Return a tuple of the array dimensions."
+msgstr ""
+
+#: of pandas.arrays.PandasArray:41
+msgid "Methods"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid ""
+":obj:`argsort <pandas.arrays.PandasArray.argsort>`\\ \\(\\[ascending\\, "
+"kind\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid "Return the indices that would sort this array."
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid ""
+":obj:`astype <pandas.arrays.PandasArray.astype>`\\ \\(dtype\\[\\, "
+"copy\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid "Cast to a NumPy array with 'dtype'."
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid ":obj:`copy <pandas.arrays.PandasArray.copy>`\\ \\(\\[deep\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid "Return a copy of the array."
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid ":obj:`dropna <pandas.arrays.PandasArray.dropna>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid "Return ExtensionArray without NA values"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid ""
+":obj:`factorize <pandas.arrays.PandasArray.factorize>`\\ "
+"\\(\\[na\\_sentinel\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid "Encode the extension array as an enumerated type."
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid ""
+":obj:`fillna <pandas.arrays.PandasArray.fillna>`\\ \\(\\[value\\, "
+"method\\, limit\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid "Fill NA/NaN values using the specified method."
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid ":obj:`isna <pandas.arrays.PandasArray.isna>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid "A 1-D array indicating if each value is missing."
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid ""
+":obj:`repeat <pandas.arrays.PandasArray.repeat>`\\ \\(repeats\\[\\, "
+"axis\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid "Repeat elements of a ExtensionArray."
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid ""
+":obj:`searchsorted <pandas.arrays.PandasArray.searchsorted>`\\ "
+"\\(value\\[\\, side\\, sorter\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid "Find indices where elements should be inserted to maintain order."
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid ""
+":obj:`shift <pandas.arrays.PandasArray.shift>`\\ \\(\\[periods\\, "
+"fill\\_value\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid "Shift values by desired number."
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid ""
+":obj:`take <pandas.arrays.PandasArray.take>`\\ \\(indices\\[\\, "
+"allow\\_fill\\, fill\\_value\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid "Take elements from an array."
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid ""
+":obj:`to_numpy <pandas.arrays.PandasArray.to_numpy>`\\ \\(\\[dtype\\, "
+"copy\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid "Convert the PandasArray to a :class:`numpy.ndarray`."
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid ":obj:`unique <pandas.arrays.PandasArray.unique>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:59:<autosummary>:1
+msgid "Compute the ExtensionArray of unique values."
+msgstr ""
+
+#: of pandas.arrays.PandasArray:61
+msgid "**all**"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:62
+msgid "**any**"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:63
+msgid "**kurt**"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:64
+msgid "**max**"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:65
+msgid "**mean**"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:66
+msgid "**median**"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:67
+msgid "**min**"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:68
+msgid "**prod**"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:69
+msgid "**sem**"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:70
+msgid "**skew**"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:71
+msgid "**std**"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:72
+msgid "**sum**"
+msgstr ""
+
+#: of pandas.arrays.PandasArray:73
+msgid "**var**"
+msgstr ""
+

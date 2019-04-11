@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.astype.rst:2
+msgid "pandas.Index.astype"
+msgstr ""
+
+#: of pandas.Index.astype:2
+msgid ""
+"Create an Index with values cast to dtypes. The class of a new Index is "
+"determined by dtype. When conversion is impossible, a ValueError "
+"exception is raised."
+msgstr ""
+
+#: of pandas.Index.astype
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.astype:12
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.Index.astype:11
+msgid "numpy dtype or pandas type"
+msgstr ""
+
+#: of pandas.Index.astype:10
+msgid ""
+"Note that any signed integer `dtype` is treated as ``'int64'``, and any "
+"unsigned integer `dtype` is treated as ``'uint64'``, regardless of the "
+"size."
+msgstr ""
+
+#: of pandas.Index.astype:32
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.Index.astype:31
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.Index.astype:15
+msgid ""
+"By default, astype always returns a newly allocated object. If copy is "
+"set to False and internal requirements on dtype are satisfied, the "
+"original data is used to create a new Index or the original Index is "
+"returned."
+msgstr ""
+

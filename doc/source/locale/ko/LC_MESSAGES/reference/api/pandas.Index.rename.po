@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.rename.rst:2
+msgid "pandas.Index.rename"
+msgstr ""
+
+#: of pandas.Index.rename:2
+msgid "Alter Index or MultiIndex name."
+msgstr ""
+
+#: of pandas.Index.rename:4
+msgid ""
+"Able to set new names without level. Defaults to returning new index. "
+"Length of names must match number of levels in MultiIndex."
+msgstr ""
+
+#: of pandas.Index.rename
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.rename:10
+msgid "**name**"
+msgstr ""
+
+#: of pandas.Index.rename:9
+msgid "label or list of labels"
+msgstr ""
+
+#: of pandas.Index.rename:10
+msgid "Name(s) to set."
+msgstr ""
+
+#: of pandas.Index.rename:14
+msgid "**inplace**"
+msgstr ""
+
+#: of pandas.Index.rename:13
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.Index.rename:13
+msgid ""
+"Modifies the object directly, instead of creating a new Index or "
+"MultiIndex."
+msgstr ""
+
+#: of pandas.Index.rename
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.rename:24
+msgid "**Index**"
+msgstr ""
+
+#: of pandas.Index.rename:19
+msgid "The same type as the caller or None if inplace is True."
+msgstr ""
+
+#: of pandas.Index.rename:29
+msgid ":obj:`Index.set_names`"
+msgstr ""
+
+#: of pandas.Index.rename:30
+msgid "Able to set new names partially and by level."
+msgstr ""
+
+#: of pandas.Index.rename:35
+msgid "Examples"
+msgstr ""
+

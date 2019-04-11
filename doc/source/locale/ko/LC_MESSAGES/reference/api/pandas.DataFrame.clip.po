@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.clip.rst:2
+msgid "pandas.DataFrame.clip"
+msgstr ""
+
+#: of pandas.DataFrame.clip:2
+msgid "Trim values at input threshold(s)."
+msgstr ""
+
+#: of pandas.DataFrame.clip:4
+msgid ""
+"Assigns values outside boundary to boundary values. Thresholds can be "
+"singular values or array like, and in the latter case the clipping is "
+"performed element-wise in the specified axis."
+msgstr ""
+
+#: of pandas.DataFrame.clip
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.clip:12
+msgid "**lower**"
+msgstr ""
+
+#: of pandas.DataFrame.clip:11 pandas.DataFrame.clip:15
+msgid "float or array_like, default None"
+msgstr ""
+
+#: of pandas.DataFrame.clip:11
+msgid ""
+"Minimum threshold value. All values below this threshold will be set to "
+"it."
+msgstr ""
+
+#: of pandas.DataFrame.clip:16
+msgid "**upper**"
+msgstr ""
+
+#: of pandas.DataFrame.clip:15
+msgid ""
+"Maximum threshold value. All values above this threshold will be set to "
+"it."
+msgstr ""
+
+#: of pandas.DataFrame.clip:19
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.DataFrame.clip:18
+msgid "int or string axis name, optional"
+msgstr ""
+
+#: of pandas.DataFrame.clip:19
+msgid "Align object with lower and upper along the given axis."
+msgstr ""
+
+#: of pandas.DataFrame.clip:24
+msgid "**inplace**"
+msgstr ""
+
+#: of pandas.DataFrame.clip:23
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.DataFrame.clip:22
+msgid "Whether to perform the operation in place on the data."
+msgstr ""
+
+#: of pandas.DataFrame.clip:28
+msgid "**\\*args, **kwargs**"
+msgstr ""
+
+#: of pandas.DataFrame.clip:27
+msgid ""
+"Additional keywords have no effect but might be accepted for "
+"compatibility with numpy."
+msgstr ""
+
+#: of pandas.DataFrame.clip
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.clip:42
+msgid "**Series or DataFrame**"
+msgstr ""
+
+#: of pandas.DataFrame.clip:33
+msgid ""
+"Same type as calling object with the values outside the clip boundaries "
+"replaced"
+msgstr ""
+
+#: of pandas.DataFrame.clip:45
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.clip:56
+msgid "Clips per column using lower and upper thresholds:"
+msgstr ""
+
+#: of pandas.DataFrame.clip:66
+msgid "Clips using specific lower and upper thresholds per column element:"
+msgstr ""
+

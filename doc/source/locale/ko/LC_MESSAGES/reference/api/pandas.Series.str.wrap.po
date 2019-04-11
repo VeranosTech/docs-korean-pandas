@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.str.wrap.rst:2
+msgid "pandas.Series.str.wrap"
+msgstr ""
+
+#: of pandas.Series.str.wrap:2
+msgid ""
+"Wrap long strings in the Series/Index to be formatted in paragraphs with "
+"length less than a given width."
+msgstr ""
+
+#: of pandas.Series.str.wrap:5
+msgid ""
+"This method has the same keyword parameters and defaults as "
+":class:`textwrap.TextWrapper`."
+msgstr ""
+
+#: of pandas.Series.str.wrap
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.str.wrap:11
+msgid "**width**"
+msgstr ""
+
+#: of pandas.Series.str.wrap:10
+msgid "int"
+msgstr ""
+
+#: of pandas.Series.str.wrap:11
+msgid "Maximum line-width"
+msgstr ""
+
+#: of pandas.Series.str.wrap:14
+msgid "**expand_tabs**"
+msgstr ""
+
+#: of pandas.Series.str.wrap:13 pandas.Series.str.wrap:18
+#: pandas.Series.str.wrap:22 pandas.Series.str.wrap:27
+#: pandas.Series.str.wrap:34
+msgid "bool, optional"
+msgstr ""
+
+#: of pandas.Series.str.wrap:14
+msgid "If true, tab characters will be expanded to spaces (default: True)"
+msgstr ""
+
+#: of pandas.Series.str.wrap:19
+msgid "**replace_whitespace**"
+msgstr ""
+
+#: of pandas.Series.str.wrap:17
+msgid ""
+"If true, each whitespace character (as defined by string.whitespace) "
+"remaining after tab expansion will be replaced by a single space "
+"(default: True)"
+msgstr ""
+
+#: of pandas.Series.str.wrap:23
+msgid "**drop_whitespace**"
+msgstr ""
+
+#: of pandas.Series.str.wrap:22
+msgid ""
+"If true, whitespace that, after wrapping, happens to end up at the "
+"beginning or end of a line is dropped (default: True)"
+msgstr ""
+
+#: of pandas.Series.str.wrap:28
+msgid "**break_long_words**"
+msgstr ""
+
+#: of pandas.Series.str.wrap:26
+msgid ""
+"If true, then words longer than width will be broken in order to ensure "
+"that no lines are longer than width. If it is false, long words will not "
+"be broken, and some lines may be longer than width. (default: True)"
+msgstr ""
+
+#: of pandas.Series.str.wrap:35
+msgid "**break_on_hyphens**"
+msgstr ""
+
+#: of pandas.Series.str.wrap:31
+msgid ""
+"If true, wrapping will occur preferably on whitespace and right after "
+"hyphens in compound words, as it is customary in English. If false, only "
+"whitespaces will be considered as potentially good places for line "
+"breaks, but you need to set break_long_words to false if you want truly "
+"insecable words. (default: True)"
+msgstr ""
+
+#: of pandas.Series.str.wrap
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.str.wrap:46
+msgid "**wrapped**"
+msgstr ""
+
+#: of pandas.Series.str.wrap:45
+msgid "Series/Index of objects"
+msgstr ""
+
+#: of pandas.Series.str.wrap:49
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Series.str.wrap:50
+msgid ""
+"Internally, this method uses a :class:`textwrap.TextWrapper` instance "
+"with default settings. To achieve behavior matching R's stringr library "
+"str_wrap function, use the arguments:"
+msgstr ""
+
+#: of pandas.Series.str.wrap:54
+msgid "expand_tabs = False"
+msgstr ""
+
+#: of pandas.Series.str.wrap:55
+msgid "replace_whitespace = True"
+msgstr ""
+
+#: of pandas.Series.str.wrap:56
+msgid "drop_whitespace = True"
+msgstr ""
+
+#: of pandas.Series.str.wrap:57
+msgid "break_long_words = False"
+msgstr ""
+
+#: of pandas.Series.str.wrap:58
+msgid "break_on_hyphens = False"
+msgstr ""
+
+#: of pandas.Series.str.wrap:62
+msgid "Examples"
+msgstr ""
+

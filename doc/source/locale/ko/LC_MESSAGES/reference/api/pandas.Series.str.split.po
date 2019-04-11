@@ -1,0 +1,200 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.str.split.rst:2
+msgid "pandas.Series.str.split"
+msgstr ""
+
+#: of pandas.Series.str.split:2 pandas.Series.str.split:37
+msgid "Split strings around given separator/delimiter."
+msgstr ""
+
+#: of pandas.Series.str.split:4
+msgid ""
+"Splits the string in the Series/Index from the beginning, at the "
+"specified delimiter string. Equivalent to :meth:`str.split`."
+msgstr ""
+
+#: of pandas.Series.str.split
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.str.split:11
+msgid "**pat**"
+msgstr ""
+
+#: of pandas.Series.str.split:10
+msgid "str, optional"
+msgstr ""
+
+#: of pandas.Series.str.split:10
+msgid ""
+"String or regular expression to split on. If not specified, split on "
+"whitespace."
+msgstr ""
+
+#: of pandas.Series.str.split:15
+msgid "**n**"
+msgstr ""
+
+#: of pandas.Series.str.split:14
+msgid "int, default -1 (all)"
+msgstr ""
+
+#: of pandas.Series.str.split:14
+msgid ""
+"Limit number of splits in output. ``None``, 0 and -1 will be interpreted "
+"as return all splits."
+msgstr ""
+
+#: of pandas.Series.str.split:21
+msgid "**expand**"
+msgstr ""
+
+#: of pandas.Series.str.split:20
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.Series.str.split:18
+msgid "Expand the splitted strings into separate columns."
+msgstr ""
+
+#: of pandas.Series.str.split:20
+msgid "If ``True``, return DataFrame/MultiIndex expanding dimensionality."
+msgstr ""
+
+#: of pandas.Series.str.split:21
+msgid "If ``False``, return Series/Index, containing lists of strings."
+msgstr ""
+
+#: of pandas.Series.str.split
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.str.split:31
+msgid "**Series, Index, DataFrame or MultiIndex**"
+msgstr ""
+
+#: of pandas.Series.str.split:26
+msgid "Type matches caller unless ``expand=True`` (see Notes)."
+msgstr ""
+
+#: of pandas.Series.str.split:37
+msgid ":obj:`Series.str.split`"
+msgstr ""
+
+#: of pandas.Series.str.split:40
+msgid ":obj:`Series.str.rsplit`"
+msgstr ""
+
+#: of pandas.Series.str.split:40
+msgid "Splits string around given separator/delimiter, starting from the right."
+msgstr ""
+
+#: of pandas.Series.str.split:43
+msgid ":obj:`Series.str.join`"
+msgstr ""
+
+#: of pandas.Series.str.split:43
+msgid ""
+"Join lists contained as elements in the Series/Index with passed "
+"delimiter."
+msgstr ""
+
+#: of pandas.Series.str.split:46
+msgid ":obj:`str.split`"
+msgstr ""
+
+#: of pandas.Series.str.split:46
+msgid "Standard library version for split."
+msgstr ""
+
+#: of pandas.Series.str.split:48
+msgid ":obj:`str.rsplit`"
+msgstr ""
+
+#: of pandas.Series.str.split:49
+msgid "Standard library version for rsplit."
+msgstr ""
+
+#: of pandas.Series.str.split:52
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Series.str.split:53
+msgid "The handling of the `n` keyword depends on the number of found splits:"
+msgstr ""
+
+#: of pandas.Series.str.split:55
+msgid "If found splits > `n`,  make first `n` splits only"
+msgstr ""
+
+#: of pandas.Series.str.split:56
+msgid "If found splits <= `n`, make all splits"
+msgstr ""
+
+#: of pandas.Series.str.split:57
+msgid ""
+"If for a certain row the number of found splits < `n`, append `None` for "
+"padding up to `n` if ``expand=True``"
+msgstr ""
+
+#: of pandas.Series.str.split:60
+msgid ""
+"If using ``expand=True``, Series and Index callers return DataFrame and "
+"MultiIndex objects, respectively."
+msgstr ""
+
+#: of pandas.Series.str.split:65
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.str.split:69
+msgid "In the default setting, the string is split by whitespace."
+msgstr ""
+
+#: of pandas.Series.str.split:77
+msgid ""
+"Without the `n` parameter, the outputs of `rsplit` and `split` are "
+"identical."
+msgstr ""
+
+#: of pandas.Series.str.split:86
+msgid ""
+"The `n` parameter can be used to limit the number of splits on the "
+"delimiter. The outputs of `split` and `rsplit` are different."
+msgstr ""
+
+#: of pandas.Series.str.split:101
+msgid "The `pat` parameter can be used to split by other characters."
+msgstr ""
+
+#: of pandas.Series.str.split:109
+msgid ""
+"When using ``expand=True``, the split elements will expand out into "
+"separate columns. If NaN is present, it is propagated throughout the "
+"columns during the split."
+msgstr ""
+
+#: of pandas.Series.str.split:123
+msgid ""
+"For slightly more complex use cases like splitting the html document name"
+" from a url, a combination of parameter settings can be used."
+msgstr ""
+

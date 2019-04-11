@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.io.formats.style.Styler.pipe.rst:2
+msgid "pandas.io.formats.style.Styler.pipe"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.pipe:2
+msgid "Apply ``func(self, *args, **kwargs)``, and return the result."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.pipe
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.pipe:11
+msgid "**func**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.pipe:10
+msgid "function"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.pipe:9
+msgid ""
+"Function to apply to the Styler.  Alternatively, a ``(callable, "
+"keyword)`` tuple where ``keyword`` is a string indicating the keyword of "
+"``callable`` that expects the Styler."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.pipe:14
+msgid "**\\*args, **kwargs :**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.pipe:14
+msgid "Arguments passed to `func`."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.pipe
+msgid "Returns"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.pipe:24
+msgid "**object :**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.pipe:19
+msgid "The value returned by ``func``."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.pipe:30
+msgid ":obj:`DataFrame.pipe`"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.pipe:30
+msgid "Analogous method for DataFrame."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.pipe:32
+msgid ":obj:`Styler.apply`"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.pipe:33
+msgid ""
+"Apply a function row-wise, column-wise, or table-wise to modify the "
+"dataframe's styling."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.pipe:36
+msgid "Notes"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.pipe:37
+msgid ""
+"Like :meth:`DataFrame.pipe`, this method can simplify the application of "
+"several user-defined functions to a styler.  Instead of writing:"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.pipe:45
+msgid "users can write:"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.pipe:53
+msgid ""
+"In particular, this allows users to define functions that take a styler "
+"object, along with other parameters, and return the styler after making "
+"styling changes (such as calling :meth:`Styler.apply` or "
+":meth:`Styler.set_properties`).  Using ``.pipe``, these user-defined "
+"style \"transformations\" can be interleaved with calls to the built-in "
+"Styler interface."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.pipe:62
+msgid "Examples"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.pipe:67
+msgid ""
+"The user-defined ``format_conversion`` function above can be called "
+"within a sequence of other style modifications:"
+msgstr ""
+

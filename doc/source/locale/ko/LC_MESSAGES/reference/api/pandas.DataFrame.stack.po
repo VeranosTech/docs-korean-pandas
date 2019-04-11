@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.stack.rst:2
+msgid "pandas.DataFrame.stack"
+msgstr ""
+
+#: of pandas.DataFrame.stack:2
+msgid "Stack the prescribed level(s) from columns to index."
+msgstr ""
+
+#: of pandas.DataFrame.stack:4
+msgid ""
+"Return a reshaped DataFrame or Series having a multi-level index with one"
+" or more new inner-most levels compared to the current DataFrame. The new"
+" inner-most levels are created by pivoting the columns of the current "
+"dataframe:"
+msgstr ""
+
+#: of pandas.DataFrame.stack:9
+msgid "if the columns have a single level, the output is a Series;"
+msgstr ""
+
+#: of pandas.DataFrame.stack:10
+msgid ""
+"if the columns have multiple levels, the new index level(s) is (are) "
+"taken from the prescribed level(s) and the output is a DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.stack:14
+msgid "The new index levels are sorted."
+msgstr ""
+
+#: of pandas.DataFrame.stack
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.stack:21
+msgid "**level**"
+msgstr ""
+
+#: of pandas.DataFrame.stack:20
+msgid "int, str, list, default -1"
+msgstr ""
+
+#: of pandas.DataFrame.stack:19
+msgid ""
+"Level(s) to stack from the column axis onto the index axis, defined as "
+"one index or label, or a list of indices or labels."
+msgstr ""
+
+#: of pandas.DataFrame.stack:28
+msgid "**dropna**"
+msgstr ""
+
+#: of pandas.DataFrame.stack:27
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.DataFrame.stack:24
+msgid ""
+"Whether to drop rows in the resulting Frame/Series with missing values. "
+"Stacking a column level onto the index axis can create combinations of "
+"index and column values that are missing from the original dataframe. See"
+" Examples section."
+msgstr ""
+
+#: of pandas.DataFrame.stack
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.stack:38
+msgid "**DataFrame or Series**"
+msgstr ""
+
+#: of pandas.DataFrame.stack:33
+msgid "Stacked dataframe or series."
+msgstr ""
+
+#: of pandas.DataFrame.stack:44
+msgid ":obj:`DataFrame.unstack`"
+msgstr ""
+
+#: of pandas.DataFrame.stack:44
+msgid "Unstack prescribed level(s) from index axis onto column axis."
+msgstr ""
+
+#: of pandas.DataFrame.stack:47
+msgid ":obj:`DataFrame.pivot`"
+msgstr ""
+
+#: of pandas.DataFrame.stack:47
+msgid "Reshape dataframe from long format to wide format."
+msgstr ""
+
+#: of pandas.DataFrame.stack:49
+msgid ":obj:`DataFrame.pivot_table`"
+msgstr ""
+
+#: of pandas.DataFrame.stack:50
+msgid "Create a spreadsheet-style pivot table as a DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.stack:53
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.stack:54
+msgid ""
+"The function is named by analogy with a collection of books being re-"
+"organised from being side by side on a horizontal position (the columns "
+"of the dataframe) to being stacked vertically on top of of each other (in"
+" the index of the dataframe)."
+msgstr ""
+
+#: of pandas.DataFrame.stack:62
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.stack:63
+msgid "**Single level columns**"
+msgstr ""
+
+#: of pandas.DataFrame.stack:69
+msgid "Stacking a dataframe with a single level column axis returns a Series:"
+msgstr ""
+
+#: of pandas.DataFrame.stack:82
+msgid "**Multi level columns: simple case**"
+msgstr ""
+
+#: of pandas.DataFrame.stack:90
+msgid "Stacking a dataframe with a multi-level column axis:"
+msgstr ""
+
+#: of pandas.DataFrame.stack:104
+msgid "**Missing values**"
+msgstr ""
+
+#: of pandas.DataFrame.stack:112
+msgid ""
+"It is common to have missing values when stacking a dataframe with multi-"
+"level columns, as the stacked dataframe typically has more values than "
+"the original dataframe. Missing values are filled with NaNs:"
+msgstr ""
+
+#: of pandas.DataFrame.stack:129
+msgid "**Prescribing the level(s) to be stacked**"
+msgstr ""
+
+#: of pandas.DataFrame.stack:131
+msgid "The first parameter controls which level or levels are stacked:"
+msgstr ""
+
+#: of pandas.DataFrame.stack:146
+msgid "**Dropping missing values**"
+msgstr ""
+
+#: of pandas.DataFrame.stack:152
+msgid ""
+"Note that rows where all values are missing are dropped by default but "
+"this behaviour can be controlled via the dropna keyword parameter:"
+msgstr ""
+

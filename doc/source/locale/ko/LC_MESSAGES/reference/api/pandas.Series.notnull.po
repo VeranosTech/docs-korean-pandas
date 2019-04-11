@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.notnull.rst:2
+msgid "pandas.Series.notnull"
+msgstr ""
+
+#: of pandas.Series.notnull:2
+msgid "Detect existing (non-missing) values."
+msgstr ""
+
+#: of pandas.Series.notnull:4
+msgid ""
+"Return a boolean same-sized object indicating if the values are not NA. "
+"Non-missing values get mapped to True. Characters such as empty strings "
+"``''`` or :attr:`numpy.inf` are not considered NA values (unless you set "
+"``pandas.options.mode.use_inf_as_na = True``). NA values, such as None or"
+" :attr:`numpy.NaN`, get mapped to False values."
+msgstr ""
+
+#: of pandas.Series.notnull
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.notnull:21
+msgid "**Series**"
+msgstr ""
+
+#: of pandas.Series.notnull:15
+msgid ""
+"Mask of bool values for each element in Series that indicates whether an "
+"element is not an NA value."
+msgstr ""
+
+#: of pandas.Series.notnull:27
+msgid ":obj:`Series.notnull`"
+msgstr ""
+
+#: of pandas.Series.notnull:27
+msgid "Alias of notna."
+msgstr ""
+
+#: of pandas.Series.notnull:30
+msgid ":obj:`Series.isna`"
+msgstr ""
+
+#: of pandas.Series.notnull:30
+msgid "Boolean inverse of notna."
+msgstr ""
+
+#: of pandas.Series.notnull:33
+msgid ":obj:`Series.dropna`"
+msgstr ""
+
+#: of pandas.Series.notnull:33
+msgid "Omit axes labels with missing values."
+msgstr ""
+
+#: of pandas.Series.notnull:35
+msgid ":obj:`notna`"
+msgstr ""
+
+#: of pandas.Series.notnull:36
+msgid "Top-level notna."
+msgstr ""
+
+#: of pandas.Series.notnull:41
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.notnull:42
+msgid "Show which entries in a DataFrame are not NA."
+msgstr ""
+
+#: of pandas.Series.notnull:61
+msgid "Show which entries in a Series are not NA."
+msgstr ""
+

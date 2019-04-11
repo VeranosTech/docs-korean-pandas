@@ -1,0 +1,325 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.array.rst:2
+msgid "pandas.array"
+msgstr ""
+
+#: of pandas.array:2
+msgid "Create an array."
+msgstr ""
+
+#: of pandas.array
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.array:14
+msgid "**data**"
+msgstr ""
+
+#: of pandas.array:13
+msgid "Sequence of objects"
+msgstr ""
+
+#: of pandas.array:9
+msgid ""
+"The scalars inside `data` should be instances of the scalar type for "
+"`dtype`. It's expected that `data` represents a 1-dimensional array of "
+"data."
+msgstr ""
+
+#: of pandas.array:13
+msgid ""
+"When `data` is an Index or Series, the underlying array will be extracted"
+" from `data`."
+msgstr ""
+
+#: of pandas.array:45
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.array:44
+msgid "str, np.dtype, or ExtensionDtype, optional"
+msgstr ""
+
+#: of pandas.array:17
+msgid ""
+"The dtype to use for the array. This may be a NumPy dtype or an extension"
+" type registered with pandas using "
+":meth:`pandas.api.extensions.register_extension_dtype`."
+msgstr ""
+
+#: of pandas.array:21
+msgid "If not specified, there are two possibilities:"
+msgstr ""
+
+#: of pandas.array:23
+msgid ""
+"When `data` is a :class:`Series`, :class:`Index`, or "
+":class:`ExtensionArray`, the `dtype` will be taken from the data."
+msgstr ""
+
+#: of pandas.array:26
+msgid "Otherwise, pandas will attempt to infer the `dtype` from the data."
+msgstr ""
+
+#: of pandas.array:29
+msgid ""
+"Note that when `data` is a NumPy array, ``data.dtype`` is *not* used for "
+"inferring the array type. This is because NumPy cannot represent all the "
+"types of data that can be held in extension arrays."
+msgstr ""
+
+#: of pandas.array:34
+msgid "Currently, pandas will infer an extension dtype for sequences of"
+msgstr ""
+
+#: of pandas.array:37
+msgid "Scalar Type"
+msgstr ""
+
+#: of pandas.array:37
+msgid "Array Type"
+msgstr ""
+
+#: of pandas.array:39
+msgid ":class:`pandas.Interval`"
+msgstr ""
+
+#: of pandas.array:39
+msgid ":class:`pandas.arrays.IntervalArray`"
+msgstr ""
+
+#: of pandas.array:40
+msgid ":class:`pandas.Period`"
+msgstr ""
+
+#: of pandas.array:40
+msgid ":class:`pandas.arrays.PeriodArray`"
+msgstr ""
+
+#: of pandas.array:41
+msgid ":class:`datetime.datetime`"
+msgstr ""
+
+#: of pandas.array:41
+msgid ":class:`pandas.arrays.DatetimeArray`"
+msgstr ""
+
+#: of pandas.array:42
+msgid ":class:`datetime.timedelta`"
+msgstr ""
+
+#: of pandas.array:42
+msgid ":class:`pandas.arrays.TimedeltaArray`"
+msgstr ""
+
+#: of pandas.array:45
+msgid "For all other cases, NumPy's usual inference rules will be used."
+msgstr ""
+
+#: of pandas.array:50
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.array:49
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.array:48
+msgid ""
+"Whether to copy the data, even if not necessary. Depending on the type of"
+" `data`, creating the new array may require copying data, even if "
+"``copy=False``."
+msgstr ""
+
+#: of pandas.array
+msgid "Returns"
+msgstr ""
+
+#: of pandas.array:57
+msgid "**ExtensionArray**"
+msgstr ""
+
+#: of pandas.array:55
+msgid "The newly created array."
+msgstr ""
+
+#: of pandas.array
+msgid "Raises"
+msgstr ""
+
+#: of pandas.array:64
+msgid "**ValueError**"
+msgstr ""
+
+#: of pandas.array:62
+msgid "When `data` is not 1-dimensional."
+msgstr ""
+
+#: of pandas.array:70
+msgid ":obj:`numpy.array`"
+msgstr ""
+
+#: of pandas.array:70
+msgid "Construct a NumPy array."
+msgstr ""
+
+#: of pandas.array:73
+msgid ":obj:`Series`"
+msgstr ""
+
+#: of pandas.array:73
+msgid "Construct a pandas Series."
+msgstr ""
+
+#: of pandas.array:76
+msgid ":obj:`Index`"
+msgstr ""
+
+#: of pandas.array:76
+msgid "Construct a pandas Index."
+msgstr ""
+
+#: of pandas.array:79
+msgid ":obj:`arrays.PandasArray`"
+msgstr ""
+
+#: of pandas.array:79
+msgid "ExtensionArray wrapping a NumPy array."
+msgstr ""
+
+#: of pandas.array:81
+msgid ":obj:`Series.array`"
+msgstr ""
+
+#: of pandas.array:82
+msgid "Extract the array stored within a Series."
+msgstr ""
+
+#: of pandas.array:85
+msgid "Notes"
+msgstr ""
+
+#: of pandas.array:86
+msgid ""
+"Omitting the `dtype` argument means pandas will attempt to infer the best"
+" array type from the values in the data. As new array types are added by "
+"pandas and 3rd party libraries, the \"best\" array type may change. We "
+"recommend specifying `dtype` to ensure that"
+msgstr ""
+
+#: of pandas.array:91
+msgid "the correct array type for the data is returned"
+msgstr ""
+
+#: of pandas.array:92
+msgid ""
+"the returned array type doesn't change as new extension types are added "
+"by pandas and third-party libraries"
+msgstr ""
+
+#: of pandas.array:95
+msgid ""
+"Additionally, if the underlying memory representation of the returned "
+"array matters, we recommend specifying the `dtype` as a concrete object "
+"rather than a string alias or allowing it to be inferred. For example, a "
+"future version of pandas or a 3rd-party library may include a dedicated "
+"ExtensionArray for string data. In this event, the following would no "
+"longer return a :class:`arrays.PandasArray` backed by a NumPy array."
+msgstr ""
+
+#: of pandas.array:108
+msgid ""
+"This would instead return the new ExtensionArray dedicated for string "
+"data. If you really need the new array to be backed by a  NumPy array, "
+"specify that in the dtype."
+msgstr ""
+
+#: of pandas.array:117
+msgid ""
+"Or use the dedicated constructor for the array you're expecting, and wrap"
+" that in a PandasArray"
+msgstr ""
+
+#: of pandas.array:125
+msgid "Finally, Pandas has arrays that mostly overlap with NumPy"
+msgstr ""
+
+#: of pandas.array:127
+msgid ":class:`arrays.DatetimeArray`"
+msgstr ""
+
+#: of pandas.array:128
+msgid ":class:`arrays.TimedeltaArray`"
+msgstr ""
+
+#: of pandas.array:130
+msgid ""
+"When data with a ``datetime64[ns]`` or ``timedelta64[ns]`` dtype is "
+"passed, pandas will always return a ``DatetimeArray`` or "
+"``TimedeltaArray`` rather than a ``PandasArray``. This is for symmetry "
+"with the case of timezone-aware data, which NumPy does not natively "
+"support."
+msgstr ""
+
+#: of pandas.array:147
+msgid "Examples"
+msgstr ""
+
+#: of pandas.array:148
+msgid ""
+"If a dtype is not specified, `data` is passed through to "
+":meth:`numpy.array`, and a :class:`arrays.PandasArray` is returned."
+msgstr ""
+
+#: of pandas.array:156
+msgid "Or the NumPy dtype can be specified"
+msgstr ""
+
+#: of pandas.array:163
+msgid "You can use the string alias for `dtype`"
+msgstr ""
+
+#: of pandas.array:169
+msgid "Or specify the actual dtype"
+msgstr ""
+
+#: of pandas.array:176
+msgid ""
+"Because omitting the `dtype` passes the data through to NumPy, a mixture "
+"of valid integers and NA will return a floating-point NumPy array."
+msgstr ""
+
+#: of pandas.array:185
+msgid ""
+"To use pandas' nullable :class:`pandas.arrays.IntegerArray`, specify the "
+"dtype:"
+msgstr ""
+
+#: of pandas.array:193
+msgid "Pandas will infer an ExtensionArray for some types of data:"
+msgstr ""
+
+#: of pandas.array:200
+msgid ""
+"`data` must be 1-dimensional. A ValueError is raised when the input has "
+"the wrong dimensionality."
+msgstr ""
+

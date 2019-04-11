@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.to_string.rst:2
+msgid "pandas.Series.to\\_string"
+msgstr ""
+
+#: of pandas.Series.to_string:2
+msgid "Render a string representation of the Series."
+msgstr ""
+
+#: of pandas.Series.to_string
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.to_string:8
+msgid "**buf**"
+msgstr ""
+
+#: of pandas.Series.to_string:7
+msgid "StringIO-like, optional"
+msgstr ""
+
+#: of pandas.Series.to_string:8
+msgid "buffer to write to"
+msgstr ""
+
+#: of pandas.Series.to_string:11
+msgid "**na_rep**"
+msgstr ""
+
+#: of pandas.Series.to_string:10
+msgid "string, optional"
+msgstr ""
+
+#: of pandas.Series.to_string:11
+msgid "string representation of NAN to use, default 'NaN'"
+msgstr ""
+
+#: of pandas.Series.to_string:15
+msgid "**float_format**"
+msgstr ""
+
+#: of pandas.Series.to_string:14
+msgid "one-parameter function, optional"
+msgstr ""
+
+#: of pandas.Series.to_string:14
+msgid ""
+"formatter function to apply to columns' elements if they are floats "
+"default None"
+msgstr ""
+
+#: of pandas.Series.to_string:18
+msgid "**header**"
+msgstr ""
+
+#: of pandas.Series.to_string:17
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.Series.to_string:18
+msgid "Add the Series header (index name)"
+msgstr ""
+
+#: of pandas.Series.to_string:21
+msgid "**index**"
+msgstr ""
+
+#: of pandas.Series.to_string:20
+msgid "bool, optional"
+msgstr ""
+
+#: of pandas.Series.to_string:21
+msgid "Add index (row) labels, default True"
+msgstr ""
+
+#: of pandas.Series.to_string:24
+msgid "**length**"
+msgstr ""
+
+#: of pandas.Series.to_string:23 pandas.Series.to_string:26
+#: pandas.Series.to_string:29
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.Series.to_string:24
+msgid "Add the Series length"
+msgstr ""
+
+#: of pandas.Series.to_string:27
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.Series.to_string:27
+msgid "Add the Series dtype"
+msgstr ""
+
+#: of pandas.Series.to_string:30
+msgid "**name**"
+msgstr ""
+
+#: of pandas.Series.to_string:30
+msgid "Add the Series name if not None"
+msgstr ""
+
+#: of pandas.Series.to_string:34
+msgid "**max_rows**"
+msgstr ""
+
+#: of pandas.Series.to_string:33
+msgid "int, optional"
+msgstr ""
+
+#: of pandas.Series.to_string:33
+msgid "Maximum number of rows to show before truncating. If None, show all."
+msgstr ""
+
+#: of pandas.Series.to_string
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.to_string:50
+msgid "**formatted**"
+msgstr ""
+
+#: of pandas.Series.to_string:49
+msgid "string (if not buffer passed)"
+msgstr ""
+

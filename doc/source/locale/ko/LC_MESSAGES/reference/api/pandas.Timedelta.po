@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Timedelta.rst:2
+msgid "pandas.Timedelta"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:2
+msgid "Represents a duration, the difference between two dates or times."
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:4
+msgid ""
+"Timedelta is the pandas equivalent of python's ``datetime.timedelta`` and"
+" is interchangeable with it in most cases."
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta
+msgid "Parameters"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:10 pandas.Timedelta:59
+msgid "**value**"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:9
+msgid "Timedelta, timedelta, np.timedelta64, string, or integer"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:19
+msgid "**unit**"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:18
+msgid "str, optional"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:13
+msgid ""
+"Denote the unit of the input, if input is an integer. Default 'ns'. "
+"Possible values: {'Y', 'M', 'W', 'D', 'days', 'day', 'hours', hour', "
+"'hr', 'h', 'm', 'minute', 'min', 'minutes', 'T', 'S', 'seconds', 'sec', "
+"'second', 'ms', 'milliseconds', 'millisecond', 'milli', 'millis', 'L', "
+"'us', 'microseconds', 'microsecond', 'micro', 'micros', 'U', 'ns', "
+"'nanoseconds', 'nano', 'nanos', 'nanosecond', 'N'}"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:22
+msgid "**days, seconds, microseconds,**"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:33
+msgid "**milliseconds, minutes, hours, weeks**"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:32
+msgid "numeric, optional"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:25
+msgid ""
+"Values for construction in compat with datetime.timedelta. np ints and "
+"floats will be coerced to python ints and floats."
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:36
+msgid "Notes"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:37
+msgid "The ``.value`` attribute is always in ns."
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:42
+msgid "Attributes"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:55:<autosummary>:1
+msgid ":obj:`asm8 <pandas.Timedelta.asm8>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:55:<autosummary>:1
+msgid "Return a numpy timedelta64 array scalar view."
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:55:<autosummary>:1
+msgid ":obj:`components <pandas.Timedelta.components>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:55:<autosummary>:1
+msgid "Return a Components NamedTuple-like"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:55:<autosummary>:1
+msgid ":obj:`days <pandas.Timedelta.days>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:55:<autosummary>:1
+msgid "Number of days."
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:55:<autosummary>:1
+msgid ":obj:`delta <pandas.Timedelta.delta>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:55:<autosummary>:1
+msgid "Return the timedelta in nanoseconds (ns), for internal compatibility."
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:55:<autosummary>:1
+msgid ":obj:`microseconds <pandas.Timedelta.microseconds>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:55:<autosummary>:1
+msgid "Number of microseconds (>= 0 and less than 1 second)."
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:55:<autosummary>:1
+msgid ":obj:`nanoseconds <pandas.Timedelta.nanoseconds>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:55:<autosummary>:1
+msgid "Return the number of nanoseconds (n), where 0 <= n < 1 microsecond."
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:55:<autosummary>:1
+msgid ":obj:`resolution <pandas.Timedelta.resolution>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:55:<autosummary>:1
+msgid "Return a string representing the lowest timedelta resolution."
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:55:<autosummary>:1
+msgid ":obj:`seconds <pandas.Timedelta.seconds>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:55:<autosummary>:1
+msgid "Number of seconds (>= 0 and less than 1 day)."
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:57
+msgid "**freq**"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:58
+msgid "**is_populated**"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:63
+msgid "Methods"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:75:<autosummary>:1
+msgid ":obj:`ceil <pandas.Timedelta.ceil>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:75:<autosummary>:1
+msgid "return a new Timedelta ceiled to this resolution"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:75:<autosummary>:1
+msgid ":obj:`floor <pandas.Timedelta.floor>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:75:<autosummary>:1
+msgid "return a new Timedelta floored to this resolution"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:75:<autosummary>:1
+msgid ":obj:`isoformat <pandas.Timedelta.isoformat>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:75:<autosummary>:1
+msgid ""
+"Format Timedelta as ISO 8601 Duration like "
+"``P[n]Y[n]M[n]DT[n]H[n]M[n]S``, where the ``[n]`` s are replaced by the "
+"values."
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:75:<autosummary>:1
+msgid ":obj:`round <pandas.Timedelta.round>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:75:<autosummary>:1
+msgid "Round the Timedelta to the specified resolution"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:75:<autosummary>:1
+msgid ":obj:`to_pytimedelta <pandas.Timedelta.to_pytimedelta>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:75:<autosummary>:1
+msgid ""
+"return an actual datetime.timedelta object note: we lose nanosecond "
+"resolution if any"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:75:<autosummary>:1
+msgid ":obj:`to_timedelta64 <pandas.Timedelta.to_timedelta64>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:75:<autosummary>:1
+msgid "Returns a numpy.timedelta64 object with 'ns' precision"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:75:<autosummary>:1
+msgid ":obj:`total_seconds <pandas.Timedelta.total_seconds>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:75:<autosummary>:1
+msgid "Total duration of timedelta in seconds (to ns precision)"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:75:<autosummary>:1
+msgid ":obj:`view <pandas.Timedelta.view>`\\"
+msgstr ""
+
+#: ../../docstring of pandas.Timedelta:75:<autosummary>:1
+msgid "array view compat"
+msgstr ""
+

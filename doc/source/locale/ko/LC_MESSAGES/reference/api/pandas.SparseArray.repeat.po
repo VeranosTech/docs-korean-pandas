@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.SparseArray.repeat.rst:2
+msgid "pandas.SparseArray.repeat"
+msgstr ""
+
+#: of pandas.SparseArray.repeat:2
+msgid "Repeat elements of a ExtensionArray."
+msgstr ""
+
+#: of pandas.SparseArray.repeat:4
+msgid ""
+"Returns a new ExtensionArray where each element of the current "
+"ExtensionArray is repeated consecutively a given number of times."
+msgstr ""
+
+#: of pandas.SparseArray.repeat
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.SparseArray.repeat:12
+msgid "**repeats**"
+msgstr ""
+
+#: of pandas.SparseArray.repeat:11
+msgid "int or array of ints"
+msgstr ""
+
+#: of pandas.SparseArray.repeat:10
+msgid ""
+"The number of repetitions for each element. This should be a non-negative"
+" integer. Repeating 0 times will return an empty ExtensionArray."
+msgstr ""
+
+#: of pandas.SparseArray.repeat:16
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.SparseArray.repeat:15
+msgid "None"
+msgstr ""
+
+#: of pandas.SparseArray.repeat:15
+msgid ""
+"Must be ``None``. Has no effect but is accepted for compatibility with "
+"numpy."
+msgstr ""
+
+#: of pandas.SparseArray.repeat
+msgid "Returns"
+msgstr ""
+
+#: of pandas.SparseArray.repeat:26
+msgid "**repeated_array**"
+msgstr ""
+
+#: of pandas.SparseArray.repeat:25
+msgid "ExtensionArray"
+msgstr ""
+
+#: of pandas.SparseArray.repeat:21
+msgid "Newly created ExtensionArray with repeated elements."
+msgstr ""
+
+#: of pandas.SparseArray.repeat:32
+msgid ":obj:`Series.repeat`"
+msgstr ""
+
+#: of pandas.SparseArray.repeat:32
+msgid "Equivalent function for Series."
+msgstr ""
+
+#: of pandas.SparseArray.repeat:35
+msgid ":obj:`Index.repeat`"
+msgstr ""
+
+#: of pandas.SparseArray.repeat:35
+msgid "Equivalent function for Index."
+msgstr ""
+
+#: of pandas.SparseArray.repeat:38
+msgid ":obj:`numpy.repeat`"
+msgstr ""
+
+#: of pandas.SparseArray.repeat:38
+msgid "Similar method for :class:`numpy.ndarray`."
+msgstr ""
+
+#: of pandas.SparseArray.repeat:40
+msgid ":obj:`ExtensionArray.take`"
+msgstr ""
+
+#: of pandas.SparseArray.repeat:41
+msgid "Take arbitrary positions."
+msgstr ""
+
+#: of pandas.SparseArray.repeat:46
+msgid "Examples"
+msgstr ""
+

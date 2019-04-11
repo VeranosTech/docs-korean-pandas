@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.str.extractall.rst:2
+msgid "pandas.Series.str.extractall"
+msgstr ""
+
+#: of pandas.Series.str.extractall:2
+msgid ""
+"For each subject string in the Series, extract groups from all matches of"
+" regular expression pat. When each subject string in the Series has "
+"exactly one match, extractall(pat).xs(0, level='match') is the same as "
+"extract(pat)."
+msgstr ""
+
+#: of pandas.Series.str.extractall
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.str.extractall:12
+msgid "**pat**"
+msgstr ""
+
+#: of pandas.Series.str.extractall:11
+msgid "str"
+msgstr ""
+
+#: of pandas.Series.str.extractall:12
+msgid "Regular expression pattern with capturing groups."
+msgstr ""
+
+#: of pandas.Series.str.extractall:18
+msgid "**flags**"
+msgstr ""
+
+#: of pandas.Series.str.extractall:17
+msgid "int, default 0 (no flags)"
+msgstr ""
+
+#: of pandas.Series.str.extractall:15
+msgid ""
+"A ``re`` module flag, for example ``re.IGNORECASE``. These allow to "
+"modify regular expression matching for things like case, spaces, etc. "
+"Multiple flags can be combined with the bitwise OR operator, for example "
+"``re.IGNORECASE | re.MULTILINE``."
+msgstr ""
+
+#: of pandas.Series.str.extractall
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.str.extractall:33
+msgid "**DataFrame**"
+msgstr ""
+
+#: of pandas.Series.str.extractall:23
+msgid ""
+"A ``DataFrame`` with one row for each match, and one column for each "
+"group. Its rows have a ``MultiIndex`` with first levels that come from "
+"the subject ``Series``. The last level is named 'match' and indexes the "
+"matches in each item of the ``Series``. Any capture group names in "
+"regular expression pat will be used for column names; otherwise capture "
+"group numbers will be used."
+msgstr ""
+
+#: of pandas.Series.str.extractall:38
+msgid ":obj:`extract`"
+msgstr ""
+
+#: of pandas.Series.str.extractall:39
+msgid "Returns first match only (not all matches)."
+msgstr ""
+
+#: of pandas.Series.str.extractall:44
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.str.extractall:45
+msgid ""
+"A pattern with one group will return a DataFrame with one column. Indices"
+" with no matches will not appear in the result."
+msgstr ""
+
+#: of pandas.Series.str.extractall:56
+msgid "Capture group names are used for column names of the result."
+msgstr ""
+
+#: of pandas.Series.str.extractall:65
+msgid "A pattern with two groups will return a DataFrame with two columns."
+msgstr ""
+
+#: of pandas.Series.str.extractall:74
+msgid "Optional groups that do not match are NaN in the result."
+msgstr ""
+

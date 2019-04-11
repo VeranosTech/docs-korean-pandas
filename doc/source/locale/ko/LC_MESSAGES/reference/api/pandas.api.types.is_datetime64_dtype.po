@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.api.types.is_datetime64_dtype.rst:2
+msgid "pandas.api.types.is\\_datetime64\\_dtype"
+msgstr ""
+
+#: of pandas.api.types.is_datetime64_dtype:2
+msgid "Check whether an array-like or dtype is of the datetime64 dtype."
+msgstr ""
+
+#: of pandas.api.types.is_datetime64_dtype
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.api.types.is_datetime64_dtype:8
+msgid "**arr_or_dtype**"
+msgstr ""
+
+#: of pandas.api.types.is_datetime64_dtype:7
+msgid "array-like"
+msgstr ""
+
+#: of pandas.api.types.is_datetime64_dtype:8
+msgid "The array-like or dtype to check."
+msgstr ""
+
+#: of pandas.api.types.is_datetime64_dtype
+msgid "Returns"
+msgstr ""
+
+#: of pandas.api.types.is_datetime64_dtype:21
+msgid "**boolean**"
+msgstr ""
+
+#: of pandas.api.types.is_datetime64_dtype:20
+msgid "Whether or not the array-like or dtype is of"
+msgstr ""
+
+#: of pandas.api.types.is_datetime64_dtype:13
+msgid "the datetime64 dtype."
+msgstr ""
+
+#: of pandas.api.types.is_datetime64_dtype:24
+msgid "Examples"
+msgstr ""
+

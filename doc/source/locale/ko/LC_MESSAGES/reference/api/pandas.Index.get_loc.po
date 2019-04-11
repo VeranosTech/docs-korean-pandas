@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.get_loc.rst:2
+msgid "pandas.Index.get\\_loc"
+msgstr ""
+
+#: of pandas.Index.get_loc:2
+msgid "Get integer location, slice or boolean mask for requested label."
+msgstr ""
+
+#: of pandas.Index.get_loc
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.get_loc:8
+msgid "**key**"
+msgstr ""
+
+#: of pandas.Index.get_loc:7
+msgid "label"
+msgstr ""
+
+#: of pandas.Index.get_loc:15
+msgid "**method**"
+msgstr ""
+
+#: of pandas.Index.get_loc:14
+msgid "{None, 'pad'/'ffill', 'backfill'/'bfill', 'nearest'}, optional"
+msgstr ""
+
+#: of pandas.Index.get_loc:11
+msgid "default: exact matches only."
+msgstr ""
+
+#: of pandas.Index.get_loc:12
+msgid "pad / ffill: find the PREVIOUS index value if no exact match."
+msgstr ""
+
+#: of pandas.Index.get_loc:13
+msgid "backfill / bfill: use NEXT index value if no exact match"
+msgstr ""
+
+#: of pandas.Index.get_loc:14
+msgid ""
+"nearest: use the NEAREST index value if no exact match. Tied distances "
+"are broken by preferring the larger index value."
+msgstr ""
+
+#: of pandas.Index.get_loc:28
+msgid "**tolerance**"
+msgstr ""
+
+#: of pandas.Index.get_loc:27
+msgid "optional"
+msgstr ""
+
+#: of pandas.Index.get_loc:18
+msgid ""
+"Maximum distance from index value for inexact matches. The value of the "
+"index at the matching location most satisfy the equation ``abs(index[loc]"
+" - key) <= tolerance``."
+msgstr ""
+
+#: of pandas.Index.get_loc:22
+msgid ""
+"Tolerance may be a scalar value, which applies the same tolerance to all "
+"values, or list-like, which applies variable tolerance per element. List-"
+"like includes list, tuple, array, Series, and must be the same size as "
+"the index and its dtype must exactly match the index's type."
+msgstr ""
+
+#: of pandas.Index.get_loc:28
+msgid "(list-like tolerance)"
+msgstr ""
+
+#: of pandas.Index.get_loc
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.get_loc:41
+msgid "**loc**"
+msgstr ""
+
+#: of pandas.Index.get_loc:40
+msgid "int if unique index, slice if monotonic index, else mask"
+msgstr ""
+
+#: of pandas.Index.get_loc:44
+msgid "Examples"
+msgstr ""
+

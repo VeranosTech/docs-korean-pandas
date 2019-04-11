@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.pivot.rst:2
+msgid "pandas.pivot"
+msgstr ""
+
+#: of pandas.pivot:2
+msgid "Return reshaped DataFrame organized by given index / column values."
+msgstr ""
+
+#: of pandas.pivot:4
+msgid ""
+"Reshape data (produce a \"pivot\" table) based on column values. Uses "
+"unique values from specified `index` / `columns` to form axes of the "
+"resulting DataFrame. This function does not support data aggregation, "
+"multiple values will result in a MultiIndex in the columns. See the "
+":ref:`User Guide <reshaping>` for more on reshaping."
+msgstr ""
+
+#: of pandas.pivot
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.pivot:13
+msgid "**data**"
+msgstr ""
+
+#: of pandas.pivot:12
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.pivot:17
+msgid "**index**"
+msgstr ""
+
+#: of pandas.pivot:16
+msgid "string or object, optional"
+msgstr ""
+
+#: of pandas.pivot:16
+msgid "Column to use to make new frame's index. If None, uses existing index."
+msgstr ""
+
+#: of pandas.pivot:20
+msgid "**columns**"
+msgstr ""
+
+#: of pandas.pivot:19
+msgid "string or object"
+msgstr ""
+
+#: of pandas.pivot:20
+msgid "Column to use to make new frame's columns."
+msgstr ""
+
+#: of pandas.pivot:28
+msgid "**values**"
+msgstr ""
+
+#: of pandas.pivot:27
+msgid "string, object or a list of the previous, optional"
+msgstr ""
+
+#: of pandas.pivot:23
+msgid ""
+"Column(s) to use for populating new frame's values. If not specified, all"
+" remaining columns will be used and the result will have hierarchically "
+"indexed columns."
+msgstr ""
+
+#: of pandas.pivot:27
+msgid "Also accept list of column names."
+msgstr ""
+
+#: of pandas.pivot
+msgid "Returns"
+msgstr ""
+
+#: of pandas.pivot:35
+msgid "**DataFrame**"
+msgstr ""
+
+#: of pandas.pivot:33
+msgid "Returns reshaped DataFrame."
+msgstr ""
+
+#: of pandas.pivot
+msgid "Raises"
+msgstr ""
+
+#: of pandas.pivot:43
+msgid "**ValueError:**"
+msgstr ""
+
+#: of pandas.pivot:40
+msgid ""
+"When there are any `index`, `columns` combinations with multiple values. "
+"`DataFrame.pivot_table` when you need to aggregate."
+msgstr ""
+
+#: of pandas.pivot:49
+msgid ":obj:`DataFrame.pivot_table`"
+msgstr ""
+
+#: of pandas.pivot:49
+msgid ""
+"Generalization of pivot that can handle duplicate values for one "
+"index/column pair."
+msgstr ""
+
+#: of pandas.pivot:51
+msgid ":obj:`DataFrame.unstack`"
+msgstr ""
+
+#: of pandas.pivot:52
+msgid "Pivot based on the index values instead of a column."
+msgstr ""
+
+#: of pandas.pivot:55
+msgid "Notes"
+msgstr ""
+
+#: of pandas.pivot:56
+msgid ""
+"For finer-tuned control, see hierarchical indexing documentation along "
+"with the related stack/unstack methods."
+msgstr ""
+
+#: of pandas.pivot:61
+msgid "Examples"
+msgstr ""
+
+#: of pandas.pivot:95
+msgid "A ValueError is raised if there are any duplicates."
+msgstr ""
+
+#: of pandas.pivot:107
+msgid ""
+"Notice that the first two rows are the same for our `index` and `columns`"
+" arguments."
+msgstr ""
+

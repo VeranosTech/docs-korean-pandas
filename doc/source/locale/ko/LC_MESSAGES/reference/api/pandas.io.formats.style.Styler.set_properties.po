@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.io.formats.style.Styler.set_properties.rst:2
+msgid "pandas.io.formats.style.Styler.set\\_properties"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.set_properties:2
+msgid ""
+"Convenience method for setting one or more non-data dependent properties "
+"or each cell."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.set_properties
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.set_properties:9
+msgid "**subset**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.set_properties:8
+msgid "IndexSlice"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.set_properties:9
+msgid "a valid slice for ``data`` to limit the style application to"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.set_properties:12
+msgid "**kwargs**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.set_properties:11
+msgid "dict"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.set_properties:12
+msgid "property: value pairs to be set for each cell"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.set_properties
+msgid "Returns"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.set_properties:25
+msgid "**self**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.set_properties:24
+msgid "Styler"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.set_properties:28
+msgid "Examples"
+msgstr ""
+

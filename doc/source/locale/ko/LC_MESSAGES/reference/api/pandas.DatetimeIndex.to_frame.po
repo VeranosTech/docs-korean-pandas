@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DatetimeIndex.to_frame.rst:2
+msgid "pandas.DatetimeIndex.to\\_frame"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_frame:2
+msgid "Create a DataFrame with a column containing the Index."
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_frame
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_frame:9
+msgid "**index**"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_frame:8
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_frame:9
+msgid "Set the index of the returned DataFrame as the original Index."
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_frame:13
+msgid "**name**"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_frame:12
+msgid "object, default None"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_frame:12
+msgid "The passed name should substitute for the index name (if it has one)."
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_frame
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_frame:23
+msgid "**DataFrame**"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_frame:18
+msgid "DataFrame containing the original Index data."
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_frame:29
+msgid ":obj:`Index.to_series`"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_frame:29
+msgid "Convert an Index to a Series."
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_frame:31
+msgid ":obj:`Series.to_frame`"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_frame:32
+msgid "Convert Series to DataFrame."
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_frame:37
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_frame:46
+msgid "By default, the original Index is reused. To enforce a new Index:"
+msgstr ""
+
+#: of pandas.DatetimeIndex.to_frame:54
+msgid "To override the name of the resulting column, specify `name`:"
+msgstr ""
+

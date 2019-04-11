@@ -1,0 +1,295 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.concat.rst:2
+msgid "pandas.concat"
+msgstr ""
+
+#: of pandas.concat:2
+msgid ""
+"Concatenate pandas objects along a particular axis with optional set "
+"logic along the other axes."
+msgstr ""
+
+#: of pandas.concat:5
+msgid ""
+"Can also add a layer of hierarchical indexing on the concatenation axis, "
+"which may be useful if the labels are the same (or overlapping) on the "
+"passed axis number."
+msgstr ""
+
+#: of pandas.concat
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.concat:15
+msgid "**objs**"
+msgstr ""
+
+#: of pandas.concat:14
+msgid "a sequence or mapping of Series, DataFrame, or Panel objects"
+msgstr ""
+
+#: of pandas.concat:12
+msgid ""
+"If a dict is passed, the sorted keys will be used as the `keys` argument,"
+" unless it is passed, in which case the values will be selected (see "
+"below). Any None objects will be dropped silently unless they are all "
+"None in which case a ValueError will be raised"
+msgstr ""
+
+#: of pandas.concat:18
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.concat:17
+msgid "{0/'index', 1/'columns'}, default 0"
+msgstr ""
+
+#: of pandas.concat:18
+msgid "The axis to concatenate along"
+msgstr ""
+
+#: of pandas.concat:21
+msgid "**join**"
+msgstr ""
+
+#: of pandas.concat:20
+msgid "{'inner', 'outer'}, default 'outer'"
+msgstr ""
+
+#: of pandas.concat:21
+msgid "How to handle indexes on other axis(es)"
+msgstr ""
+
+#: of pandas.concat:25
+msgid "**join_axes**"
+msgstr ""
+
+#: of pandas.concat:24
+msgid "list of Index objects"
+msgstr ""
+
+#: of pandas.concat:24
+msgid ""
+"Specific indexes to use for the other n - 1 axes instead of performing "
+"inner/outer set logic"
+msgstr ""
+
+#: of pandas.concat:32
+msgid "**ignore_index**"
+msgstr ""
+
+#: of pandas.concat:31 pandas.concat:46
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.concat:28
+msgid ""
+"If True, do not use the index values along the concatenation axis. The "
+"resulting axis will be labeled 0, ..., n - 1. This is useful if you are "
+"concatenating objects where the concatenation axis does not have "
+"meaningful indexing information. Note the index values on the other axes "
+"are still respected in the join."
+msgstr ""
+
+#: of pandas.concat:36
+msgid "**keys**"
+msgstr ""
+
+#: of pandas.concat:35
+msgid "sequence, default None"
+msgstr ""
+
+#: of pandas.concat:35
+msgid ""
+"If multiple levels passed, should contain tuples. Construct hierarchical "
+"index using the passed keys as the outermost level"
+msgstr ""
+
+#: of pandas.concat:40
+msgid "**levels**"
+msgstr ""
+
+#: of pandas.concat:39
+msgid "list of sequences, default None"
+msgstr ""
+
+#: of pandas.concat:39
+msgid ""
+"Specific levels (unique values) to use for constructing a MultiIndex. "
+"Otherwise they will be inferred from the keys"
+msgstr ""
+
+#: of pandas.concat:43
+msgid "**names**"
+msgstr ""
+
+#: of pandas.concat:42
+msgid "list, default None"
+msgstr ""
+
+#: of pandas.concat:43
+msgid "Names for the levels in the resulting hierarchical index"
+msgstr ""
+
+#: of pandas.concat:47
+msgid "**verify_integrity**"
+msgstr ""
+
+#: of pandas.concat:46
+msgid ""
+"Check whether the new concatenated axis contains duplicates. This can be "
+"very expensive relative to the actual data concatenation"
+msgstr ""
+
+#: of pandas.concat:60
+msgid "**sort**"
+msgstr ""
+
+#: of pandas.concat:59
+msgid "boolean, default None"
+msgstr ""
+
+#: of pandas.concat:50
+msgid ""
+"Sort non-concatenation axis if it is not already aligned when `join` is "
+"'outer'. The current default of sorting is deprecated and will change to "
+"not-sorting in a future version of pandas."
+msgstr ""
+
+#: of pandas.concat:54
+msgid ""
+"Explicitly pass ``sort=True`` to silence the warning and sort. Explicitly"
+" pass ``sort=False`` to silence the warning and not sort."
+msgstr ""
+
+#: of pandas.concat:57
+msgid ""
+"This has no effect when ``join='inner'``, which already preserves the "
+"order of the non-concatenation axis."
+msgstr ""
+
+#: of pandas.concat:63
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.concat:62
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.concat:63
+msgid "If False, do not copy data unnecessarily"
+msgstr ""
+
+#: of pandas.concat
+msgid "Returns"
+msgstr ""
+
+#: of pandas.concat:76
+msgid "**concatenated**"
+msgstr ""
+
+#: of pandas.concat:75
+msgid "object, type of objs"
+msgstr ""
+
+#: of pandas.concat:68
+msgid ""
+"When concatenating all ``Series`` along the index (axis=0), a ``Series`` "
+"is returned. When ``objs`` contains at least one ``DataFrame``, a "
+"``DataFrame`` is returned. When concatenating along the columns (axis=1),"
+" a ``DataFrame`` is returned."
+msgstr ""
+
+#: of pandas.concat:81
+msgid ""
+":obj:`Series.append`, :obj:`DataFrame.append`, :obj:`DataFrame.join`, "
+":obj:`DataFrame.merge`"
+msgstr ""
+
+#: of pandas.concat:84
+msgid "Notes"
+msgstr ""
+
+#: of pandas.concat:85
+msgid "The keys, levels, and names arguments are all optional."
+msgstr ""
+
+#: of pandas.concat:87
+msgid ""
+"A walkthrough of how this method fits in with other tools for combining "
+"pandas objects can be found `here <http://pandas.pydata.org/pandas-"
+"docs/stable/merging.html>`__."
+msgstr ""
+
+#: of pandas.concat:93
+msgid "Examples"
+msgstr ""
+
+#: of pandas.concat:94
+msgid "Combine two ``Series``."
+msgstr ""
+
+#: of pandas.concat:105
+msgid ""
+"Clear the existing index and reset it in the result by setting the "
+"``ignore_index`` option to ``True``."
+msgstr ""
+
+#: of pandas.concat:115
+msgid ""
+"Add a hierarchical index at the outermost level of the data with the "
+"``keys`` option."
+msgstr ""
+
+#: of pandas.concat:125
+msgid "Label the index keys you create with the ``names`` option."
+msgstr ""
+
+#: of pandas.concat:136
+msgid "Combine two ``DataFrame`` objects with identical columns."
+msgstr ""
+
+#: of pandas.concat:157
+msgid ""
+"Combine ``DataFrame`` objects with overlapping columns and return "
+"everything. Columns outside the intersection will be filled with ``NaN`` "
+"values."
+msgstr ""
+
+#: of pandas.concat:174
+msgid ""
+"Combine ``DataFrame`` objects with overlapping columns and return only "
+"those that are shared by passing ``inner`` to the ``join`` keyword "
+"argument."
+msgstr ""
+
+#: of pandas.concat:185
+msgid ""
+"Combine ``DataFrame`` objects horizontally along the x axis by passing in"
+" ``axis=1``."
+msgstr ""
+
+#: of pandas.concat:195
+msgid ""
+"Prevent the result from including duplicate index values with the "
+"``verify_integrity`` option."
+msgstr ""
+

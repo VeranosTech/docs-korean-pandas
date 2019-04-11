@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.ix.rst:2
+msgid "pandas.Series.ix"
+msgstr ""
+
+#: of pandas.Series.ix:2
+msgid "A primarily label-location based indexer, with integer position fallback."
+msgstr ""
+
+#: of pandas.Series.ix:5
+msgid ""
+"Warning: Starting in 0.20.0, the .ix indexer is deprecated, in favor of "
+"the more strict .iloc and .loc indexers."
+msgstr ""
+
+#: of pandas.Series.ix:8
+msgid ""
+"``.ix[]`` supports mixed integer and label based access. It is primarily "
+"label based, but will fall back to integer positional access unless the "
+"corresponding axis is of integer type."
+msgstr ""
+
+#: of pandas.Series.ix:12
+msgid ""
+"``.ix`` is the most general indexer and will support any of the inputs in"
+" ``.loc`` and ``.iloc``. ``.ix`` also supports floating point label "
+"schemes. ``.ix`` is exceptionally useful when dealing with mixed "
+"positional and label based hierarchical indexes."
+msgstr ""
+
+#: of pandas.Series.ix:17
+msgid ""
+"However, when an axis is integer based, ONLY label based access and not "
+"positional access is supported. Thus, in such cases, it's usually better "
+"to be explicit and use ``.iloc`` or ``.loc``."
+msgstr ""
+
+#: of pandas.Series.ix:21
+msgid "See more at :ref:`Advanced Indexing <advanced>`."
+msgstr ""
+

@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.set_index.rst:2
+msgid "pandas.DataFrame.set\\_index"
+msgstr ""
+
+#: of pandas.DataFrame.set_index:2
+msgid "Set the DataFrame index using existing columns."
+msgstr ""
+
+#: of pandas.DataFrame.set_index:4
+msgid ""
+"Set the DataFrame index (row labels) using one or more existing columns "
+"or arrays (of the correct length). The index can replace the existing "
+"index or expand on it."
+msgstr ""
+
+#: of pandas.DataFrame.set_index
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.set_index:14
+msgid "**keys**"
+msgstr ""
+
+#: of pandas.DataFrame.set_index:13
+msgid "label or array-like or list of labels/arrays"
+msgstr ""
+
+#: of pandas.DataFrame.set_index:11
+msgid ""
+"This parameter can be either a single column key, a single array of the "
+"same length as the calling DataFrame, or a list containing an arbitrary "
+"combination of column keys and arrays. Here, \"array\" encompasses "
+":class:`Series`, :class:`Index` and ``np.ndarray``."
+msgstr ""
+
+#: of pandas.DataFrame.set_index:17
+msgid "**drop**"
+msgstr ""
+
+#: of pandas.DataFrame.set_index:16
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.DataFrame.set_index:17
+msgid "Delete columns to be used as the new index."
+msgstr ""
+
+#: of pandas.DataFrame.set_index:20
+msgid "**append**"
+msgstr ""
+
+#: of pandas.DataFrame.set_index:19 pandas.DataFrame.set_index:22
+#: pandas.DataFrame.set_index:27
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.DataFrame.set_index:20
+msgid "Whether to append columns to existing index."
+msgstr ""
+
+#: of pandas.DataFrame.set_index:23
+msgid "**inplace**"
+msgstr ""
+
+#: of pandas.DataFrame.set_index:23
+msgid "Modify the DataFrame in place (do not create a new object)."
+msgstr ""
+
+#: of pandas.DataFrame.set_index:28
+msgid "**verify_integrity**"
+msgstr ""
+
+#: of pandas.DataFrame.set_index:26
+msgid ""
+"Check the new index for duplicates. Otherwise defer the check until "
+"necessary. Setting to False will improve the performance of this method."
+msgstr ""
+
+#: of pandas.DataFrame.set_index
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.set_index:38
+msgid "**DataFrame**"
+msgstr ""
+
+#: of pandas.DataFrame.set_index:33
+msgid "Changed row labels."
+msgstr ""
+
+#: of pandas.DataFrame.set_index:44
+msgid ":obj:`DataFrame.reset_index`"
+msgstr ""
+
+#: of pandas.DataFrame.set_index:44
+msgid "Opposite of set_index."
+msgstr ""
+
+#: of pandas.DataFrame.set_index:47
+msgid ":obj:`DataFrame.reindex`"
+msgstr ""
+
+#: of pandas.DataFrame.set_index:47
+msgid "Change to new indices or expand indices."
+msgstr ""
+
+#: of pandas.DataFrame.set_index:49
+msgid ":obj:`DataFrame.reindex_like`"
+msgstr ""
+
+#: of pandas.DataFrame.set_index:50
+msgid "Change to same indices as other DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.set_index:55
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.set_index:66
+msgid "Set the index to become the 'month' column:"
+msgstr ""
+
+#: of pandas.DataFrame.set_index:76
+msgid "Create a MultiIndex using columns 'year' and 'month':"
+msgstr ""
+
+#: of pandas.DataFrame.set_index:86
+msgid "Create a MultiIndex using an Index and a column:"
+msgstr ""
+
+#: of pandas.DataFrame.set_index:96
+msgid "Create a MultiIndex using two Series:"
+msgstr ""
+

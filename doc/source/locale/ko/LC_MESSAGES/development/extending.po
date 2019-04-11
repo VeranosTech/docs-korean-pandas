@@ -1,0 +1,455 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../development/extending.rst:3
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../development/extending.rst:7
+msgid "Extending Pandas"
+msgstr ""
+
+#: ../../development/extending.rst:9
+msgid ""
+"While pandas provides a rich set of methods, containers, and data types, "
+"your needs may not be fully satisfied. Pandas offers a few options for "
+"extending pandas."
+msgstr ""
+
+#: ../../development/extending.rst:16
+msgid "Registering Custom Accessors"
+msgstr ""
+
+#: ../../development/extending.rst:18
+msgid ""
+"Libraries can use the decorators "
+":func:`pandas.api.extensions.register_dataframe_accessor`, "
+":func:`pandas.api.extensions.register_series_accessor`, and "
+":func:`pandas.api.extensions.register_index_accessor`, to add additional "
+"\"namespaces\" to pandas objects. All of these follow a similar "
+"convention: you decorate a class, providing the name of attribute to add."
+" The class's ``__init__`` method gets the object being decorated. For "
+"example:"
+msgstr ""
+
+#: ../../development/extending.rst:51
+msgid "Now users can access your methods using the ``geo`` namespace:"
+msgstr ""
+
+#: ../../development/extending.rst:60
+msgid ""
+"This can be a convenient way to extend pandas objects without subclassing"
+" them. If you write a custom accessor, make a pull request adding it to "
+"our :ref:`ecosystem` page."
+msgstr ""
+
+#: ../../development/extending.rst:64
+msgid ""
+"We highly recommend validating the data in your accessor's `__init__`. In"
+" our ``GeoAccessor``, we validate that the data contains the expected "
+"columns, raising an ``AttributeError`` when the validation fails. For a "
+"``Series`` accessor, you should validate the ``dtype`` if the accessor "
+"applies only to certain dtypes."
+msgstr ""
+
+#: ../../development/extending.rst:74
+msgid "Extension Types"
+msgstr ""
+
+#: ../../development/extending.rst:80
+msgid ""
+"The :class:`pandas.api.extensions.ExtensionDtype` and "
+":class:`pandas.api.extensions.ExtensionArray` APIs are new and "
+"experimental. They may change between versions without warning."
+msgstr ""
+
+#: ../../development/extending.rst:83
+msgid ""
+"Pandas defines an interface for implementing data types and arrays that "
+"*extend* NumPy's type system. Pandas itself uses the extension system for"
+" some types that aren't built into NumPy (categorical, period, interval, "
+"datetime with timezone)."
+msgstr ""
+
+#: ../../development/extending.rst:88
+msgid ""
+"Libraries can define a custom array and data type. When pandas encounters"
+" these objects, they will be handled properly (i.e. not converted to an "
+"ndarray of objects). Many methods like :func:`pandas.isna` will dispatch "
+"to the extension type's implementation."
+msgstr ""
+
+#: ../../development/extending.rst:93
+msgid ""
+"If you're building a library that implements the interface, please "
+"publicize it on :ref:`ecosystem.extensions`."
+msgstr ""
+
+#: ../../development/extending.rst:96
+msgid "The interface consists of two classes."
+msgstr ""
+
+#: ../../development/extending.rst:99
+msgid ":class:`~pandas.api.extensions.ExtensionDtype`"
+msgstr ""
+
+#: ../../development/extending.rst:101
+msgid ""
+"A :class:`pandas.api.extensions.ExtensionDtype` is similar to a "
+"``numpy.dtype`` object. It describes the data type. Implementors are "
+"responsible for a few unique items like the name."
+msgstr ""
+
+#: ../../development/extending.rst:104
+msgid ""
+"One particularly important item is the ``type`` property. This should be "
+"the class that is the scalar type for your data. For example, if you were"
+" writing an extension array for IP Address data, this might be "
+"``ipaddress.IPv4Address``."
+msgstr ""
+
+#: ../../development/extending.rst:108
+msgid "See the `extension dtype source`_ for interface definition."
+msgstr ""
+
+#: ../../development/extending.rst:112
+msgid ""
+":class:`pandas.api.extension.ExtensionDtype` can be registered to pandas "
+"to allow creation via a string dtype name. This allows one to instantiate"
+" ``Series`` and ``.astype()`` with a registered string name, for example "
+"``'category'`` is a registered string accessor for the "
+"``CategoricalDtype``."
+msgstr ""
+
+#: ../../development/extending.rst:116
+msgid "See the `extension dtype dtypes`_ for more on how to register dtypes."
+msgstr ""
+
+#: ../../development/extending.rst:119
+msgid ":class:`~pandas.api.extensions.ExtensionArray`"
+msgstr ""
+
+#: ../../development/extending.rst:121
+msgid ""
+"This class provides all the array-like functionality. ExtensionArrays are"
+" limited to 1 dimension. An ExtensionArray is linked to an ExtensionDtype"
+" via the ``dtype`` attribute."
+msgstr ""
+
+#: ../../development/extending.rst:125
+msgid ""
+"Pandas makes no restrictions on how an extension array is created via its"
+" ``__new__`` or ``__init__``, and puts no restrictions on how you store "
+"your data. We do require that your array be convertible to a NumPy array,"
+" even if this is relatively expensive (as it is for ``Categorical``)."
+msgstr ""
+
+#: ../../development/extending.rst:130
+msgid ""
+"They may be backed by none, one, or many NumPy arrays. For example, "
+"``pandas.Categorical`` is an extension array backed by two arrays, one "
+"for codes and one for categories. An array of IPv6 addresses may be "
+"backed by a NumPy structured array with two fields, one for the lower 64 "
+"bits and one for the upper 64 bits. Or they may be backed by some other "
+"storage type, like Python lists."
+msgstr ""
+
+#: ../../development/extending.rst:137
+msgid ""
+"See the `extension array source`_ for the interface definition. The "
+"docstrings and comments contain guidance for properly implementing the "
+"interface."
+msgstr ""
+
+#: ../../development/extending.rst:143
+msgid ":class:`~pandas.api.extensions.ExtensionArray` Operator Support"
+msgstr ""
+
+#: ../../development/extending.rst:147
+msgid ""
+"By default, there are no operators defined for the class "
+":class:`~pandas.api.extensions.ExtensionArray`. There are two approaches "
+"for providing operator support for your ExtensionArray:"
+msgstr ""
+
+#: ../../development/extending.rst:150
+msgid "Define each of the operators on your ``ExtensionArray`` subclass."
+msgstr ""
+
+#: ../../development/extending.rst:151
+msgid ""
+"Use an operator implementation from pandas that depends on operators that"
+" are already defined on the underlying elements (scalars) of the "
+"ExtensionArray."
+msgstr ""
+
+#: ../../development/extending.rst:156
+msgid ""
+"Regardless of the approach, you may want to set ``__array_priority__`` if"
+" you want your implementation to be called when involved in binary "
+"operations with NumPy arrays."
+msgstr ""
+
+#: ../../development/extending.rst:160
+msgid ""
+"For the first approach, you define selected operators, e.g., ``__add__``,"
+" ``__le__``, etc. that you want your ``ExtensionArray`` subclass to "
+"support."
+msgstr ""
+
+#: ../../development/extending.rst:163
+msgid ""
+"The second approach assumes that the underlying elements (i.e., scalar "
+"type) of the ``ExtensionArray`` have the individual operators already "
+"defined.  In other words, if your ``ExtensionArray`` named "
+"``MyExtensionArray`` is implemented so that each element is an instance "
+"of the class ``MyExtensionElement``, then if the operators are defined "
+"for ``MyExtensionElement``, the second approach will automatically define"
+" the operators for ``MyExtensionArray``."
+msgstr ""
+
+#: ../../development/extending.rst:170
+msgid ""
+"A mixin class, :class:`~pandas.api.extensions.ExtensionScalarOpsMixin` "
+"supports this second approach.  If developing an ``ExtensionArray`` "
+"subclass, for example ``MyExtensionArray``, can simply include "
+"``ExtensionScalarOpsMixin`` as a parent class of ``MyExtensionArray``, "
+"and then call the methods :meth:`~MyExtensionArray._add_arithmetic_ops` "
+"and/or :meth:`~MyExtensionArray._add_comparison_ops` to hook the "
+"operators into your ``MyExtensionArray`` class, as follows:"
+msgstr ""
+
+#: ../../development/extending.rst:191
+msgid ""
+"Since ``pandas`` automatically calls the underlying operator on each "
+"element one-by-one, this might not be as performant as implementing your "
+"own version of the associated operators directly on the "
+"``ExtensionArray``."
+msgstr ""
+
+#: ../../development/extending.rst:195
+msgid ""
+"For arithmetic operations, this implementation will try to reconstruct a "
+"new ``ExtensionArray`` with the result of the element-wise operation. "
+"Whether or not that succeeds depends on whether the operation returns a "
+"result that's valid for the ``ExtensionArray``. If an ``ExtensionArray`` "
+"cannot be reconstructed, an ndarray containing the scalars returned "
+"instead."
+msgstr ""
+
+#: ../../development/extending.rst:201
+msgid ""
+"For ease of implementation and consistency with operations between pandas"
+" and NumPy ndarrays, we recommend *not* handling Series and Indexes in "
+"your binary ops. Instead, you should detect these cases and return "
+"``NotImplemented``. When pandas encounters an operation like ``op(Series,"
+" ExtensionArray)``, pandas will"
+msgstr ""
+
+#: ../../development/extending.rst:207
+msgid "unbox the array from the ``Series`` (``Series.array``)"
+msgstr ""
+
+#: ../../development/extending.rst:208
+msgid "call ``result = op(values, ExtensionArray)``"
+msgstr ""
+
+#: ../../development/extending.rst:209
+msgid "re-box the result in a ``Series``"
+msgstr ""
+
+#: ../../development/extending.rst:214
+msgid "Testing Extension Arrays"
+msgstr ""
+
+#: ../../development/extending.rst:216
+msgid ""
+"We provide a test suite for ensuring that your extension arrays satisfy "
+"the expected behavior. To use the test suite, you must provide several "
+"pytest fixtures and inherit from the base test class. The required "
+"fixtures are found in https://github.com/pandas-"
+"dev/pandas/blob/master/pandas/tests/extension/conftest.py."
+msgstr ""
+
+#: ../../development/extending.rst:221
+msgid "To use a test, subclass it:"
+msgstr ""
+
+#: ../../development/extending.rst:232
+msgid ""
+"See https://github.com/pandas-"
+"dev/pandas/blob/master/pandas/tests/extension/base/__init__.py for a list"
+" of all the tests available."
+msgstr ""
+
+#: ../../development/extending.rst:242
+msgid "Subclassing pandas Data Structures"
+msgstr ""
+
+#: ../../development/extending.rst:244
+msgid ""
+"There are some easier alternatives before considering subclassing "
+"``pandas`` data structures."
+msgstr ""
+
+#: ../../development/extending.rst:246
+msgid "Extensible method chains with :ref:`pipe <basics.pipe>`"
+msgstr ""
+
+#: ../../development/extending.rst:248
+msgid ""
+"Use *composition*. See `here "
+"<http://en.wikipedia.org/wiki/Composition_over_inheritance>`_."
+msgstr ""
+
+#: ../../development/extending.rst:250
+msgid "Extending by :ref:`registering an accessor <extending.register-accessors>`"
+msgstr ""
+
+#: ../../development/extending.rst:252
+msgid "Extending by :ref:`extension type <extending.extension-types>`"
+msgstr ""
+
+#: ../../development/extending.rst:254
+msgid ""
+"This section describes how to subclass ``pandas`` data structures to meet"
+" more specific needs. There are two points that need attention:"
+msgstr ""
+
+#: ../../development/extending.rst:256
+msgid "Override constructor properties."
+msgstr ""
+
+#: ../../development/extending.rst:257
+msgid "Define original properties"
+msgstr ""
+
+#: ../../development/extending.rst:261
+msgid ""
+"You can find a nice example in `geopandas "
+"<https://github.com/geopandas/geopandas>`_ project."
+msgstr ""
+
+#: ../../development/extending.rst:264
+msgid "Override Constructor Properties"
+msgstr ""
+
+#: ../../development/extending.rst:266
+msgid ""
+"Each data structure has several *constructor properties* for returning a "
+"new data structure as the result of an operation. By overriding these "
+"properties, you can retain subclasses through ``pandas`` data "
+"manipulations."
+msgstr ""
+
+#: ../../development/extending.rst:270
+msgid "There are 3 constructor properties to be defined:"
+msgstr ""
+
+#: ../../development/extending.rst:272
+msgid ""
+"``_constructor``: Used when a manipulation result has the same dimensions"
+" as the original."
+msgstr ""
+
+#: ../../development/extending.rst:273
+msgid ""
+"``_constructor_sliced``: Used when a manipulation result has one lower "
+"dimension(s) as the original, such as ``DataFrame`` single columns "
+"slicing."
+msgstr ""
+
+#: ../../development/extending.rst:274
+msgid ""
+"``_constructor_expanddim``: Used when a manipulation result has one "
+"higher dimension as the original, such as ``Series.to_frame()``."
+msgstr ""
+
+#: ../../development/extending.rst:276
+msgid ""
+"Following table shows how ``pandas`` data structures define constructor "
+"properties by default."
+msgstr ""
+
+#: ../../development/extending.rst:279
+msgid "Property Attributes"
+msgstr ""
+
+#: ../../development/extending.rst:279 ../../development/extending.rst:281
+#: ../../development/extending.rst:282
+msgid "``Series``"
+msgstr ""
+
+#: ../../development/extending.rst:279 ../../development/extending.rst:281
+#: ../../development/extending.rst:283
+msgid "``DataFrame``"
+msgstr ""
+
+#: ../../development/extending.rst:281
+msgid "``_constructor``"
+msgstr ""
+
+#: ../../development/extending.rst:282
+msgid "``_constructor_sliced``"
+msgstr ""
+
+#: ../../development/extending.rst:282 ../../development/extending.rst:283
+msgid "``NotImplementedError``"
+msgstr ""
+
+#: ../../development/extending.rst:283
+msgid "``_constructor_expanddim``"
+msgstr ""
+
+#: ../../development/extending.rst:286
+msgid ""
+"Below example shows how to define ``SubclassedSeries`` and "
+"``SubclassedDataFrame`` overriding constructor properties."
+msgstr ""
+
+#: ../../development/extending.rst:352
+msgid "Define Original Properties"
+msgstr ""
+
+#: ../../development/extending.rst:354
+msgid ""
+"To let original data structures have additional properties, you should "
+"let ``pandas`` know what properties are added. ``pandas`` maps unknown "
+"properties to data names overriding ``__getattribute__``. Defining "
+"original properties can be done in one of 2 ways:"
+msgstr ""
+
+#: ../../development/extending.rst:356
+msgid ""
+"Define ``_internal_names`` and ``_internal_names_set`` for temporary "
+"properties which WILL NOT be passed to manipulation results."
+msgstr ""
+
+#: ../../development/extending.rst:357
+msgid ""
+"Define ``_metadata`` for normal properties which will be passed to "
+"manipulation results."
+msgstr ""
+
+#: ../../development/extending.rst:359
+msgid ""
+"Below is an example to define two original properties, \"internal_cache\""
+" as a temporary property and \"added_property\" as a normal property"
+msgstr ""
+

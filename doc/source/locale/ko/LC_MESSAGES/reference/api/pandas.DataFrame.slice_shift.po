@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.slice_shift.rst:2
+msgid "pandas.DataFrame.slice\\_shift"
+msgstr ""
+
+#: of pandas.DataFrame.slice_shift:2
+msgid ""
+"Equivalent to `shift` without copying data. The shifted data will not "
+"include the dropped periods and the shifted axis will be smaller than the"
+" original."
+msgstr ""
+
+#: of pandas.DataFrame.slice_shift
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.slice_shift:10
+msgid "**periods**"
+msgstr ""
+
+#: of pandas.DataFrame.slice_shift:9
+msgid "int"
+msgstr ""
+
+#: of pandas.DataFrame.slice_shift:10
+msgid "Number of periods to move, can be positive or negative"
+msgstr ""
+
+#: of pandas.DataFrame.slice_shift
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.slice_shift:21
+msgid "**shifted**"
+msgstr ""
+
+#: of pandas.DataFrame.slice_shift:20
+msgid "same type as caller"
+msgstr ""
+
+#: of pandas.DataFrame.slice_shift:24
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.slice_shift:25
+msgid ""
+"While the `slice_shift` is faster than `shift`, you may pay for it later "
+"during alignment."
+msgstr ""
+

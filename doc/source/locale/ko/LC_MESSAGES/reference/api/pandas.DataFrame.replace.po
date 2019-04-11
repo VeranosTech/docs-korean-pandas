@@ -1,0 +1,384 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.replace.rst:2
+msgid "pandas.DataFrame.replace"
+msgstr ""
+
+#: of pandas.DataFrame.replace:2
+msgid "Replace values given in `to_replace` with `value`."
+msgstr ""
+
+#: of pandas.DataFrame.replace:4
+msgid ""
+"Values of the DataFrame are replaced with other values dynamically. This "
+"differs from updating with ``.loc`` or ``.iloc``, which require you to "
+"specify a location to update with some value."
+msgstr ""
+
+#: of pandas.DataFrame.replace
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.replace:62
+msgid "**to_replace**"
+msgstr ""
+
+#: of pandas.DataFrame.replace:61
+msgid "str, regex, list, dict, Series, int, float, or None"
+msgstr ""
+
+#: of pandas.DataFrame.replace:11
+msgid "How to find the values that will be replaced."
+msgstr ""
+
+#: of pandas.DataFrame.replace:13
+msgid "numeric, str or regex:"
+msgstr ""
+
+#: of pandas.DataFrame.replace:15
+msgid ""
+"numeric: numeric values equal to `to_replace` will be replaced with "
+"`value`"
+msgstr ""
+
+#: of pandas.DataFrame.replace:17
+msgid "str: string exactly matching `to_replace` will be replaced with `value`"
+msgstr ""
+
+#: of pandas.DataFrame.replace:19
+msgid "regex: regexs matching `to_replace` will be replaced with `value`"
+msgstr ""
+
+#: of pandas.DataFrame.replace:22
+msgid "list of str, regex, or numeric:"
+msgstr ""
+
+#: of pandas.DataFrame.replace:24
+msgid ""
+"First, if `to_replace` and `value` are both lists, they **must** be the "
+"same length."
+msgstr ""
+
+#: of pandas.DataFrame.replace:26
+msgid ""
+"Second, if ``regex=True`` then all of the strings in **both** lists will "
+"be interpreted as regexs otherwise they will match directly. This doesn't"
+" matter much for `value` since there are only a few possible substitution"
+" regexes you can use."
+msgstr ""
+
+#: of pandas.DataFrame.replace:30
+msgid "str, regex and numeric rules apply as above."
+msgstr ""
+
+#: of pandas.DataFrame.replace:32
+msgid "dict:"
+msgstr ""
+
+#: of pandas.DataFrame.replace:34
+msgid ""
+"Dicts can be used to specify different replacement values for different "
+"existing values. For example, ``{'a': 'b', 'y': 'z'}`` replaces the value"
+" 'a' with 'b' and 'y' with 'z'. To use a dict in this way the `value` "
+"parameter should be `None`."
+msgstr ""
+
+#: of pandas.DataFrame.replace:39
+msgid ""
+"For a DataFrame a dict can specify that different values should be "
+"replaced in different columns. For example, ``{'a': 1, 'b': 'z'}`` looks "
+"for the value 1 in column 'a' and the value 'z' in column 'b' and "
+"replaces these values with whatever is specified in `value`. The `value` "
+"parameter should not be ``None`` in this case. You can treat this as a "
+"special case of passing two lists except that you are specifying the "
+"column to search in."
+msgstr ""
+
+#: of pandas.DataFrame.replace:47
+msgid ""
+"For a DataFrame nested dictionaries, e.g., ``{'a': {'b': np.nan}}``, are "
+"read as follows: look in column 'a' for the value 'b' and replace it with"
+" NaN. The `value` parameter should be ``None`` to use a nested dict in "
+"this way. You can nest regular expressions as well. Note that column "
+"names (the top-level dictionary keys in a nested dictionary) **cannot** "
+"be regular expressions."
+msgstr ""
+
+#: of pandas.DataFrame.replace:55
+msgid "None:"
+msgstr ""
+
+#: of pandas.DataFrame.replace:57
+msgid ""
+"This means that the `regex` argument must be a string, compiled regular "
+"expression, or list, dict, ndarray or Series of such elements. If `value`"
+" is also ``None`` then this **must** be a nested dictionary or Series."
+msgstr ""
+
+#: of pandas.DataFrame.replace:62
+msgid "See the examples section for examples of each of these."
+msgstr ""
+
+#: of pandas.DataFrame.replace:69
+msgid "**value**"
+msgstr ""
+
+#: of pandas.DataFrame.replace:68
+msgid "scalar, dict, list, str, regex, default None"
+msgstr ""
+
+#: of pandas.DataFrame.replace:65
+msgid ""
+"Value to replace any values matching `to_replace` with. For a DataFrame a"
+" dict of values can be used to specify which value to use for each column"
+" (columns not in the dict will not be filled). Regular expressions, "
+"strings and lists or dicts of such objects are also allowed."
+msgstr ""
+
+#: of pandas.DataFrame.replace:74
+msgid "**inplace**"
+msgstr ""
+
+#: of pandas.DataFrame.replace:73
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.DataFrame.replace:72
+msgid ""
+"If True, in place. Note: this will modify any other views on this object "
+"(e.g. a column from a DataFrame). Returns the caller if this is True."
+msgstr ""
+
+#: of pandas.DataFrame.replace:77
+msgid "**limit**"
+msgstr ""
+
+#: of pandas.DataFrame.replace:76
+msgid "int, default None"
+msgstr ""
+
+#: of pandas.DataFrame.replace:77
+msgid "Maximum size gap to forward or backward fill."
+msgstr ""
+
+#: of pandas.DataFrame.replace:84
+msgid "**regex** : bool or same types as `to_replace`, default False"
+msgstr ""
+
+#: of pandas.DataFrame.replace:83
+msgid "bool or same types as to_replace, default False"
+msgstr ""
+
+#: of pandas.DataFrame.replace:80
+msgid ""
+"Whether to interpret `to_replace` and/or `value` as regular expressions. "
+"If this is ``True`` then `to_replace` *must* be a string. Alternatively, "
+"this could be a regular expression or a list, dict, or array of regular "
+"expressions in which case `to_replace` must be ``None``."
+msgstr ""
+
+#: of pandas.DataFrame.replace:91
+msgid "**method** : {'pad', 'ffill', 'bfill', `None`}"
+msgstr ""
+
+#: of pandas.DataFrame.replace:90
+msgid "{'pad', 'ffill', 'bfill', None}"
+msgstr ""
+
+#: of pandas.DataFrame.replace:87
+msgid ""
+"The method to use when for replacement, when `to_replace` is a scalar, "
+"list or tuple and `value` is ``None``."
+msgstr ""
+
+#: of pandas.DataFrame.replace:90
+msgid "Added to DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.replace
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.replace:98
+msgid "**DataFrame**"
+msgstr ""
+
+#: of pandas.DataFrame.replace:96
+msgid "Object after replacement."
+msgstr ""
+
+#: of pandas.DataFrame.replace
+msgid "Raises"
+msgstr ""
+
+#: of pandas.DataFrame.replace:104
+msgid "**AssertionError**"
+msgstr ""
+
+#: of pandas.DataFrame.replace:103
+msgid "If `regex` is not a ``bool`` and `to_replace` is not ``None``."
+msgstr ""
+
+#: of pandas.DataFrame.replace:114
+msgid "**TypeError**"
+msgstr ""
+
+#: of pandas.DataFrame.replace:107
+msgid ""
+"If `to_replace` is a ``dict`` and `value` is not a ``list``, ``dict``, "
+"``ndarray``, or ``Series``"
+msgstr ""
+
+#: of pandas.DataFrame.replace:109
+msgid ""
+"If `to_replace` is ``None`` and `regex` is not compilable into a regular "
+"expression or is a list, dict, ndarray, or Series."
+msgstr ""
+
+#: of pandas.DataFrame.replace:112
+msgid ""
+"When replacing multiple ``bool`` or ``datetime64`` objects and the "
+"arguments to `to_replace` does not match the type of the value being "
+"replaced"
+msgstr ""
+
+#: of pandas.DataFrame.replace:120
+msgid "**ValueError**"
+msgstr ""
+
+#: of pandas.DataFrame.replace:117
+msgid ""
+"If a ``list`` or an ``ndarray`` is passed to `to_replace` and `value` but"
+" they are not the same length."
+msgstr ""
+
+#: of pandas.DataFrame.replace:126
+msgid ":obj:`DataFrame.fillna`"
+msgstr ""
+
+#: of pandas.DataFrame.replace:126
+msgid "Fill NA values."
+msgstr ""
+
+#: of pandas.DataFrame.replace:129
+msgid ":obj:`DataFrame.where`"
+msgstr ""
+
+#: of pandas.DataFrame.replace:129
+msgid "Replace values based on boolean condition."
+msgstr ""
+
+#: of pandas.DataFrame.replace:131
+msgid ":obj:`Series.str.replace`"
+msgstr ""
+
+#: of pandas.DataFrame.replace:132
+msgid "Simple string replacement."
+msgstr ""
+
+#: of pandas.DataFrame.replace:135
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.replace:136
+msgid ""
+"Regex substitution is performed under the hood with ``re.sub``. The rules"
+" for substitution for ``re.sub`` are the same."
+msgstr ""
+
+#: of pandas.DataFrame.replace:138
+msgid ""
+"Regular expressions will only substitute on strings, meaning you cannot "
+"provide, for example, a regular expression matching floating point "
+"numbers and expect the columns in your frame that have a numeric dtype to"
+" be matched. However, if those floating point numbers *are* strings, then"
+" you can do this."
+msgstr ""
+
+#: of pandas.DataFrame.replace:143
+msgid ""
+"This method has *a lot* of options. You are encouraged to experiment and "
+"play with this method to gain intuition about how it works."
+msgstr ""
+
+#: of pandas.DataFrame.replace:145
+msgid ""
+"When dict is used as the `to_replace` value, it is like key(s) in the "
+"dict are the to_replace part and value(s) in the dict are the value "
+"parameter."
+msgstr ""
+
+#: of pandas.DataFrame.replace:151
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.replace:152
+msgid "**Scalar `to_replace` and `value`**"
+msgstr ""
+
+#: of pandas.DataFrame.replace:174
+msgid "**List-like `to_replace`**"
+msgstr ""
+
+#: of pandas.DataFrame.replace:200
+msgid "**dict-like `to_replace`**"
+msgstr ""
+
+#: of pandas.DataFrame.replace:226
+msgid "**Regular expression `to_replace`**"
+msgstr ""
+
+#: of pandas.DataFrame.replace:260
+msgid ""
+"Note that when replacing multiple ``bool`` or ``datetime64`` objects, the"
+" data types in the `to_replace` parameter must match the data type of the"
+" value being replaced:"
+msgstr ""
+
+#: of pandas.DataFrame.replace:271
+msgid ""
+"This raises a ``TypeError`` because one of the ``dict`` keys is not of "
+"the correct type for replacement."
+msgstr ""
+
+#: of pandas.DataFrame.replace:274
+msgid ""
+"Compare the behavior of ``s.replace({'a': None})`` and ``s.replace('a', "
+"None)`` to understand the peculiarities of the `to_replace` parameter:"
+msgstr ""
+
+#: of pandas.DataFrame.replace:280
+msgid ""
+"When one uses a dict as the `to_replace` value, it is like the value(s) "
+"in the dict are equal to the `value` parameter. ``s.replace({'a': "
+"None})`` is equivalent to ``s.replace(to_replace={'a': None}, value=None,"
+" method=None)``:"
+msgstr ""
+
+#: of pandas.DataFrame.replace:293
+msgid ""
+"When ``value=None`` and `to_replace` is a scalar, list or tuple, "
+"`replace` uses the method parameter (default 'pad') to do the "
+"replacement. So this is why the 'a' values are being replaced by 10 in "
+"rows 1 and 2 and 'b' in row 4 in this case. The command ``s.replace('a', "
+"None)`` is actually equivalent to ``s.replace(to_replace='a', value=None,"
+" method='pad')``:"
+msgstr ""
+

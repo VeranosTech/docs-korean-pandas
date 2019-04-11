@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.applymap.rst:2
+msgid "pandas.DataFrame.applymap"
+msgstr ""
+
+#: of pandas.DataFrame.applymap:2
+msgid "Apply a function to a Dataframe elementwise."
+msgstr ""
+
+#: of pandas.DataFrame.applymap:4
+msgid ""
+"This method applies a function that accepts and returns a scalar to every"
+" element of a DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.applymap
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.applymap:10
+msgid "**func**"
+msgstr ""
+
+#: of pandas.DataFrame.applymap:9
+msgid "callable"
+msgstr ""
+
+#: of pandas.DataFrame.applymap:10
+msgid "Python function, returns a single value from a single value."
+msgstr ""
+
+#: of pandas.DataFrame.applymap
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.applymap:20
+msgid "**DataFrame**"
+msgstr ""
+
+#: of pandas.DataFrame.applymap:15
+msgid "Transformed DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.applymap:25
+msgid ":obj:`DataFrame.apply`"
+msgstr ""
+
+#: of pandas.DataFrame.applymap:26
+msgid "Apply a function along input axis of DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.applymap:29
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.applymap:30
+msgid ""
+"In the current implementation applymap calls `func` twice on the first "
+"column/row to decide whether it can take a fast or slow code path. This "
+"can lead to unexpected behavior if `func` has side-effects, as they will "
+"take effect twice for the first column/row."
+msgstr ""
+
+#: of pandas.DataFrame.applymap:38
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.applymap:50
+msgid ""
+"Note that a vectorized version of `func` often exists, which will be much"
+" faster. You could square each number elementwise."
+msgstr ""
+
+#: of pandas.DataFrame.applymap:58
+msgid "But it's better to avoid applymap in that case."
+msgstr ""
+

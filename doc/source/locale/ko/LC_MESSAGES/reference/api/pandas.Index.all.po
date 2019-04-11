@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.all.rst:2
+msgid "pandas.Index.all"
+msgstr ""
+
+#: of pandas.Index.all:2
+msgid "Return whether all elements are True."
+msgstr ""
+
+#: of pandas.Index.all
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.all:8
+msgid "**\\*args**"
+msgstr ""
+
+#: of pandas.Index.all:8 pandas.Index.all:11
+msgid "These parameters will be passed to numpy.all."
+msgstr ""
+
+#: of pandas.Index.all:11
+msgid "**\\*\\*kwargs**"
+msgstr ""
+
+#: of pandas.Index.all
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.all:21 pandas.Index.all:43
+msgid "**all**"
+msgstr ""
+
+#: of pandas.Index.all:20
+msgid "bool or array_like (if axis is specified)"
+msgstr ""
+
+#: of pandas.Index.all:16
+msgid "A single element array_like may be converted to bool."
+msgstr ""
+
+#: of pandas.Index.all:27
+msgid ":obj:`pandas.Index.any`"
+msgstr ""
+
+#: of pandas.Index.all:27
+msgid "Return whether any element in an Index is True."
+msgstr ""
+
+#: of pandas.Index.all:30
+msgid ":obj:`pandas.Series.any`"
+msgstr ""
+
+#: of pandas.Index.all:30
+msgid "Return whether any element in a Series is True."
+msgstr ""
+
+#: of pandas.Index.all:32
+msgid ":obj:`pandas.Series.all`"
+msgstr ""
+
+#: of pandas.Index.all:33
+msgid "Return whether all elements in a Series are True."
+msgstr ""
+
+#: of pandas.Index.all:36
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Index.all:37
+msgid ""
+"Not a Number (NaN), positive infinity and negative infinity evaluate to "
+"True because these are not equal to zero."
+msgstr ""
+
+#: of pandas.Index.all:42
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Index.all:45
+msgid "True, because nonzero integers are considered True."
+msgstr ""
+
+#: of pandas.Index.all:50 pandas.Index.all:62
+msgid "False, because ``0`` is considered False."
+msgstr ""
+
+#: of pandas.Index.all:55
+msgid "**any**"
+msgstr ""
+
+#: of pandas.Index.all:57
+msgid "True, because ``1`` is considered True."
+msgstr ""
+

@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.api.types.infer_dtype.rst:2
+msgid "pandas.api.types.infer\\_dtype"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:2
+msgid ""
+"Efficiently infer the type of a passed val, or list-like array of values."
+" Return a string describing the type."
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype
+msgid "Parameters"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:9
+msgid "**value**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:8
+msgid "scalar, list, ndarray, or pandas type"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:14
+msgid "**skipna**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:13
+msgid "bool, default False"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:12
+msgid "Ignore NaN values when inferring the type."
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype
+msgid "Returns"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:19
+msgid "**string describing the common type of the input data.**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:22
+msgid "**Results can include:**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:25
+msgid "**- string**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:28
+msgid "**- unicode**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:31
+msgid "**- bytes**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:34
+msgid "**- floating**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:37
+msgid "**- integer**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:40
+msgid "**- mixed-integer**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:43
+msgid "**- mixed-integer-float**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:46
+msgid "**- decimal**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:49
+msgid "**- complex**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:52
+msgid "**- categorical**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:55
+msgid "**- boolean**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:58
+msgid "**- datetime64**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:61
+msgid "**- datetime**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:64
+msgid "**- date**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:67
+msgid "**- timedelta64**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:70
+msgid "**- timedelta**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:73
+msgid "**- time**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:76
+msgid "**- period**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:81
+msgid "**- mixed**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype
+msgid "Raises"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:89
+msgid "**TypeError if ndarray-like but cannot infer the dtype**"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:92
+msgid "Notes"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:93
+msgid "'mixed' is the catchall for anything that is not otherwise specialized"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:95
+msgid "'mixed-integer-float' are floats and integers"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:96
+msgid "'mixed-integer' are integers mixed with non-integers"
+msgstr ""
+
+#: ../../docstring of pandas.api.types.infer_dtype:100
+msgid "Examples"
+msgstr ""
+

@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Timestamp.fromordinal.rst:2
+msgid "pandas.Timestamp.fromordinal"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.fromordinal:2
+msgid ""
+"passed an ordinal, translate and convert to a ts note: by definition "
+"there cannot be any tz info on the ordinal itself"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.fromordinal
+msgid "Parameters"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.fromordinal:9
+msgid "**ordinal**"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.fromordinal:8
+msgid "int"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.fromordinal:9
+msgid "date corresponding to a proleptic Gregorian ordinal"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.fromordinal:12
+msgid "**freq**"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.fromordinal:11
+msgid "str, DateOffset"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.fromordinal:12
+msgid "Offset which Timestamp will have"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.fromordinal:27
+msgid "**tz**"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.fromordinal:26
+msgid "str, pytz.timezone, dateutil.tz.tzfile or None"
+msgstr ""
+
+#: ../../docstring of pandas.Timestamp.fromordinal:15
+msgid "Time zone for time which Timestamp will have."
+msgstr ""
+

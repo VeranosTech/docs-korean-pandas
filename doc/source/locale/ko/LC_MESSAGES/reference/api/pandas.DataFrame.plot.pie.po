@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.plot.pie.rst:2
+msgid "pandas.DataFrame.plot.pie"
+msgstr ""
+
+#: of pandas.DataFrame.plot.pie:2
+msgid "Generate a pie plot."
+msgstr ""
+
+#: of pandas.DataFrame.plot.pie:4
+msgid ""
+"A pie plot is a proportional representation of the numerical data in a "
+"column. This function wraps :meth:`matplotlib.pyplot.pie` for the "
+"specified column. If no column reference is passed and ``subplots=True`` "
+"a pie plot is drawn for each numerical column independently."
+msgstr ""
+
+#: of pandas.DataFrame.plot.pie
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.plot.pie:14
+msgid "**y**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.pie:13
+msgid "int or label, optional"
+msgstr ""
+
+#: of pandas.DataFrame.plot.pie:13
+msgid ""
+"Label or position of the column to plot. If not provided, "
+"``subplots=True`` argument must be passed."
+msgstr ""
+
+#: of pandas.DataFrame.plot.pie:17
+msgid "**\\*\\*kwds**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.pie:17
+msgid "Keyword arguments to pass on to :meth:`pandas.DataFrame.plot`."
+msgstr ""
+
+#: of pandas.DataFrame.plot.pie
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.plot.pie:27
+msgid "**axes**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.pie:26
+msgid "matplotlib.axes.Axes or np.ndarray of them."
+msgstr ""
+
+#: of pandas.DataFrame.plot.pie:22
+msgid "A NumPy array is returned when `subplots` is True."
+msgstr ""
+
+#: of pandas.DataFrame.plot.pie:33
+msgid ":obj:`Series.plot.pie`"
+msgstr ""
+
+#: of pandas.DataFrame.plot.pie:33
+msgid "Generate a pie plot for a Series."
+msgstr ""
+
+#: of pandas.DataFrame.plot.pie:35
+msgid ":obj:`DataFrame.plot`"
+msgstr ""
+
+#: of pandas.DataFrame.plot.pie:36
+msgid "Make plots of a DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.plot.pie:41
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.plot.pie:42
+msgid ""
+"In the example below we have a DataFrame with the information about "
+"planet's mass and radius. We pass the the 'mass' column to the pie "
+"function to get a pie plot."
+msgstr ""
+

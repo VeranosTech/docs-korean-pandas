@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.IntervalIndex.from_breaks.rst:2
+msgid "pandas.IntervalIndex.from\\_breaks"
+msgstr ""
+
+#: of pandas.IntervalIndex.from_breaks:2
+msgid "Construct an IntervalIndex from an array of splits."
+msgstr ""
+
+#: of pandas.IntervalIndex.from_breaks
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.IntervalIndex.from_breaks:8
+msgid "**breaks**"
+msgstr ""
+
+#: of pandas.IntervalIndex.from_breaks:7
+msgid "array-like (1-dimensional)"
+msgstr ""
+
+#: of pandas.IntervalIndex.from_breaks:8
+msgid "Left and right bounds for each interval."
+msgstr ""
+
+#: of pandas.IntervalIndex.from_breaks:12
+msgid "**closed**"
+msgstr ""
+
+#: of pandas.IntervalIndex.from_breaks:11
+msgid "{'left', 'right', 'both', 'neither'}, default 'right'"
+msgstr ""
+
+#: of pandas.IntervalIndex.from_breaks:11
+msgid ""
+"Whether the intervals are closed on the left-side, right-side, both or "
+"neither."
+msgstr ""
+
+#: of pandas.IntervalIndex.from_breaks:15
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.IntervalIndex.from_breaks:14
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.IntervalIndex.from_breaks:15
+msgid "copy the data"
+msgstr ""
+
+#: of pandas.IntervalIndex.from_breaks:26
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.IntervalIndex.from_breaks:25
+msgid "dtype or None, default None"
+msgstr ""
+
+#: of pandas.IntervalIndex.from_breaks:18
+msgid "If None, dtype will be inferred"
+msgstr ""
+
+#: of pandas.IntervalIndex.from_breaks:32
+msgid ":obj:`interval_range`"
+msgstr ""
+
+#: of pandas.IntervalIndex.from_breaks:32
+msgid "Function to create a fixed frequency IntervalIndex."
+msgstr ""
+
+#: of pandas.IntervalIndex.from_breaks:35
+msgid ":obj:`IntervalIndex.from_arrays`"
+msgstr ""
+
+#: of pandas.IntervalIndex.from_breaks:35
+msgid "Construct from a left and right array."
+msgstr ""
+
+#: of pandas.IntervalIndex.from_breaks:37
+msgid ":obj:`IntervalIndex.from_tuples`"
+msgstr ""
+
+#: of pandas.IntervalIndex.from_breaks:38
+msgid "Construct from a sequence of tuples."
+msgstr ""
+
+#: of pandas.IntervalIndex.from_breaks:43
+msgid "Examples"
+msgstr ""
+

@@ -1,0 +1,1016 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../user_guide/merging.rst:3
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../user_guide/merging.rst:15
+msgid "Merge, join, and concatenate"
+msgstr ""
+
+#: ../../user_guide/merging.rst:17
+msgid ""
+"pandas provides various facilities for easily combining together Series "
+"or DataFrame with various kinds of set logic for the indexes and "
+"relational algebra functionality in the case of join / merge-type "
+"operations."
+msgstr ""
+
+#: ../../user_guide/merging.rst:25
+msgid "Concatenating objects"
+msgstr ""
+
+#: ../../user_guide/merging.rst:27
+msgid ""
+"The :func:`~pandas.concat` function (in the main pandas namespace) does "
+"all of the heavy lifting of performing concatenation operations along an "
+"axis while performing optional set logic (union or intersection) of the "
+"indexes (if any) on the other axes. Note that I say \"if any\" because "
+"there is only a single possible axis of concatenation for Series."
+msgstr ""
+
+#: ../../user_guide/merging.rst:33
+msgid ""
+"Before diving into all of the details of ``concat`` and what it can do, "
+"here is a simple example:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:67
+msgid ""
+"Like its sibling function on ndarrays, ``numpy.concatenate``, "
+"``pandas.concat`` takes a list or dict of homogeneously-typed objects and"
+" concatenates them with some configurable handling of \"what to do with "
+"the other axes\":"
+msgstr ""
+
+#: ../../user_guide/merging.rst:77
+msgid ""
+"``objs`` : a sequence or mapping of Series or DataFrame objects. If a "
+"dict is passed, the sorted keys will be used as the `keys` argument, "
+"unless it is passed, in which case the values will be selected (see "
+"below). Any None objects will be dropped silently unless they are all "
+"None in which case a ValueError will be raised."
+msgstr ""
+
+#: ../../user_guide/merging.rst:82
+msgid "``axis`` : {0, 1, ...}, default 0. The axis to concatenate along."
+msgstr ""
+
+#: ../../user_guide/merging.rst:83
+msgid ""
+"``join`` : {'inner', 'outer'}, default 'outer'. How to handle indexes on "
+"other axis(es). Outer for union and inner for intersection."
+msgstr ""
+
+#: ../../user_guide/merging.rst:85
+msgid ""
+"``ignore_index`` : boolean, default False. If True, do not use the index "
+"values on the concatenation axis. The resulting axis will be labeled 0, "
+"..., n - 1. This is useful if you are concatenating objects where the "
+"concatenation axis does not have meaningful indexing information. Note "
+"the index values on the other axes are still respected in the join."
+msgstr ""
+
+#: ../../user_guide/merging.rst:90
+msgid ""
+"``join_axes`` : list of Index objects. Specific indexes to use for the "
+"other n - 1 axes instead of performing inner/outer set logic."
+msgstr ""
+
+#: ../../user_guide/merging.rst:92
+msgid ""
+"``keys`` : sequence, default None. Construct hierarchical index using the"
+" passed keys as the outermost level. If multiple levels passed, should "
+"contain tuples."
+msgstr ""
+
+#: ../../user_guide/merging.rst:95
+msgid ""
+"``levels`` : list of sequences, default None. Specific levels (unique "
+"values) to use for constructing a MultiIndex. Otherwise they will be "
+"inferred from the keys."
+msgstr ""
+
+#: ../../user_guide/merging.rst:98
+msgid ""
+"``names`` : list, default None. Names for the levels in the resulting "
+"hierarchical index."
+msgstr ""
+
+#: ../../user_guide/merging.rst:100
+msgid ""
+"``verify_integrity`` : boolean, default False. Check whether the new "
+"concatenated axis contains duplicates. This can be very expensive "
+"relative to the actual data concatenation."
+msgstr ""
+
+#: ../../user_guide/merging.rst:103
+msgid ""
+"``copy`` : boolean, default True. If False, do not copy data "
+"unnecessarily."
+msgstr ""
+
+#: ../../user_guide/merging.rst:105
+msgid ""
+"Without a little bit of context many of these arguments don't make much "
+"sense. Let's revisit the above example. Suppose we wanted to associate "
+"specific keys with each of the pieces of the chopped up DataFrame. We can"
+" do this using the ``keys`` argument:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:122
+msgid ""
+"As you can see (if you've read the rest of the documentation), the "
+"resulting object's index has a :ref:`hierarchical index "
+"<advanced.hierarchical>`. This means that we can now select out each "
+"chunk by key:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:130
+msgid ""
+"It's not a stretch to see how this can be very useful. More detail on "
+"this functionality below."
+msgstr ""
+
+#: ../../user_guide/merging.rst:134
+msgid ""
+"It is worth noting that :func:`~pandas.concat` (and therefore "
+":func:`~pandas.append`) makes a full copy of the data, and that "
+"constantly reusing this function can create a significant performance "
+"hit. If you need to use the operation over several datasets, use a list "
+"comprehension."
+msgstr ""
+
+#: ../../user_guide/merging.rst:146
+msgid "Set logic on the other axes"
+msgstr ""
+
+#: ../../user_guide/merging.rst:148
+msgid ""
+"When gluing together multiple DataFrames, you have a choice of how to "
+"handle the other axes (other than the one being concatenated). This can "
+"be done in the following three ways:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:152
+msgid ""
+"Take the union of them all, ``join='outer'``. This is the default option "
+"as it results in zero information loss."
+msgstr ""
+
+#: ../../user_guide/merging.rst:154
+msgid "Take the intersection, ``join='inner'``."
+msgstr ""
+
+#: ../../user_guide/merging.rst:155
+msgid "Use a specific index, as passed to the ``join_axes`` argument."
+msgstr ""
+
+#: ../../user_guide/merging.rst:157
+msgid ""
+"Here is an example of each of these methods. First, the default "
+"``join='outer'`` behavior:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:181
+msgid ""
+"The default behavior with ``join='outer'`` is to sort the other axis "
+"(columns in this case). In a future version of pandas, the default will "
+"be to not sort. We specified ``sort=False`` to opt in to the new behavior"
+" now."
+msgstr ""
+
+#: ../../user_guide/merging.rst:186
+msgid "Here is the same thing with ``join='inner'``:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:200
+msgid ""
+"Lastly, suppose we just wanted to reuse the *exact index* from the "
+"original DataFrame:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:218
+msgid "Concatenating using ``append``"
+msgstr ""
+
+#: ../../user_guide/merging.rst:220
+msgid ""
+"A useful shortcut to :func:`~pandas.concat` are the "
+":meth:`~DataFrame.append` instance methods on ``Series`` and "
+"``DataFrame``. These methods actually predated ``concat``. They "
+"concatenate along ``axis=0``, namely the index:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:236
+msgid ""
+"In the case of ``DataFrame``, the indexes must be disjoint but the "
+"columns do not need to be:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:251
+msgid "``append`` may take multiple objects to concatenate:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:267
+msgid ""
+"Unlike the :py:meth:`~list.append` method, which appends to the original "
+"list and returns ``None``, :meth:`~DataFrame.append`  here **does not** "
+"modify ``df1`` and returns its copy with ``df2`` appended."
+msgstr ""
+
+#: ../../user_guide/merging.rst:274
+msgid "Ignoring indexes on the concatenation axis"
+msgstr ""
+
+#: ../../user_guide/merging.rst:275
+msgid ""
+"For ``DataFrame`` objects which don't have a meaningful index, you may "
+"wish to append them and ignore the fact that they may have overlapping "
+"indexes. To do this, use the ``ignore_index`` argument:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:291
+msgid "This is also a valid argument to :meth:`DataFrame.append`:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:308
+msgid "Concatenating with mixed ndims"
+msgstr ""
+
+#: ../../user_guide/merging.rst:310
+msgid ""
+"You can concatenate a mix of ``Series`` and ``DataFrame`` objects. The "
+"``Series`` will be transformed to ``DataFrame`` with the column name as "
+"the name of the ``Series``."
+msgstr ""
+
+#: ../../user_guide/merging.rst:329
+msgid ""
+"Since we're concatenating a ``Series`` to a ``DataFrame``, we could have "
+"achieved the same result with :meth:`DataFrame.assign`. To concatenate an"
+" arbitrary number of pandas objects (``DataFrame`` or ``Series``), use "
+"``concat``."
+msgstr ""
+
+#: ../../user_guide/merging.rst:334
+msgid "If unnamed ``Series`` are passed they will be numbered consecutively."
+msgstr ""
+
+#: ../../user_guide/merging.rst:349
+msgid "Passing ``ignore_index=True`` will drop all name references."
+msgstr ""
+
+#: ../../user_guide/merging.rst:364
+msgid "More concatenating with group keys"
+msgstr ""
+
+#: ../../user_guide/merging.rst:366
+msgid ""
+"A fairly common use of the ``keys`` argument is to override the column "
+"names when creating a new ``DataFrame`` based on existing ``Series``. "
+"Notice how the default behaviour consists on letting the resulting "
+"``DataFrame`` inherit the parent ``Series``' name, when these existed."
+msgstr ""
+
+#: ../../user_guide/merging.rst:379
+msgid "Through the ``keys`` argument we can override the existing column names."
+msgstr ""
+
+#: ../../user_guide/merging.rst:385
+msgid "Let's consider a variation of the very first example presented:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:399
+msgid ""
+"You can also pass a dict to ``concat`` in which case the dict keys will "
+"be used for the ``keys`` argument (unless other keys are specified):"
+msgstr ""
+
+#: ../../user_guide/merging.rst:427
+msgid ""
+"The MultiIndex created has levels that are constructed from the passed "
+"keys and the index of the ``DataFrame`` pieces:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:434
+msgid ""
+"If you wish to specify other levels (as will occasionally be the case), "
+"you can do so using the ``levels`` argument:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:455
+msgid ""
+"This is fairly esoteric, but it is actually necessary for implementing "
+"things like GroupBy where the order of a categorical variable is "
+"meaningful."
+msgstr ""
+
+#: ../../user_guide/merging.rst:461
+msgid "Appending rows to a DataFrame"
+msgstr ""
+
+#: ../../user_guide/merging.rst:463
+msgid ""
+"While not especially efficient (since a new object must be created), you "
+"can append a single row to a ``DataFrame`` by passing a ``Series`` or "
+"dict to ``append``, which returns a new ``DataFrame`` as above."
+msgstr ""
+
+#: ../../user_guide/merging.rst:480
+msgid ""
+"You should use ``ignore_index`` with this method to instruct DataFrame to"
+" discard its index. If you wish to preserve the index, you should "
+"construct an appropriately-indexed DataFrame and append or concatenate "
+"those objects."
+msgstr ""
+
+#: ../../user_guide/merging.rst:484
+msgid "You can also pass a list of dicts or Series:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:503
+msgid "Database-style DataFrame or named Series joining/merging"
+msgstr ""
+
+#: ../../user_guide/merging.rst:505
+msgid ""
+"pandas has full-featured, **high performance** in-memory join operations "
+"idiomatically very similar to relational databases like SQL. These "
+"methods perform significantly better (in some cases well over an order of"
+" magnitude better) than other open source implementations (like "
+"``base::merge.data.frame`` in R). The reason for this is careful "
+"algorithmic design and the internal layout of the data in ``DataFrame``."
+msgstr ""
+
+#: ../../user_guide/merging.rst:512
+msgid "See the :ref:`cookbook<cookbook.merge>` for some advanced strategies."
+msgstr ""
+
+#: ../../user_guide/merging.rst:514
+msgid ""
+"Users who are familiar with SQL but new to pandas might be interested in "
+"a :ref:`comparison with SQL<compare_with_sql.join>`."
+msgstr ""
+
+#: ../../user_guide/merging.rst:517
+msgid ""
+"pandas provides a single function, :func:`~pandas.merge`, as the entry "
+"point for all standard database join operations between ``DataFrame`` or "
+"named ``Series`` objects:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:527
+msgid "``left``: A DataFrame or named Series object."
+msgstr ""
+
+#: ../../user_guide/merging.rst:528
+msgid "``right``: Another DataFrame or named Series object."
+msgstr ""
+
+#: ../../user_guide/merging.rst:529
+msgid ""
+"``on``: Column or index level names to join on. Must be found in both the"
+" left and right DataFrame and/or Series objects. If not passed and "
+"``left_index`` and ``right_index`` are ``False``, the intersection of the"
+" columns in the DataFrames and/or Series will be inferred to be the join "
+"keys."
+msgstr ""
+
+#: ../../user_guide/merging.rst:533
+msgid ""
+"``left_on``: Columns or index levels from the left DataFrame or Series to"
+" use as keys. Can either be column names, index level names, or arrays "
+"with length equal to the length of the DataFrame or Series."
+msgstr ""
+
+#: ../../user_guide/merging.rst:536
+msgid ""
+"``right_on``: Columns or index levels from the right DataFrame or Series "
+"to use as keys. Can either be column names, index level names, or arrays "
+"with length equal to the length of the DataFrame or Series."
+msgstr ""
+
+#: ../../user_guide/merging.rst:539
+msgid ""
+"``left_index``: If ``True``, use the index (row labels) from the left "
+"DataFrame or Series as its join key(s). In the case of a DataFrame or "
+"Series with a MultiIndex (hierarchical), the number of levels must match "
+"the number of join keys from the right DataFrame or Series."
+msgstr ""
+
+#: ../../user_guide/merging.rst:543
+msgid ""
+"``right_index``: Same usage as ``left_index`` for the right DataFrame or "
+"Series"
+msgstr ""
+
+#: ../../user_guide/merging.rst:544
+msgid ""
+"``how``: One of ``'left'``, ``'right'``, ``'outer'``, ``'inner'``. "
+"Defaults to ``inner``. See below for more detailed description of each "
+"method."
+msgstr ""
+
+#: ../../user_guide/merging.rst:546
+msgid ""
+"``sort``: Sort the result DataFrame by the join keys in lexicographical "
+"order. Defaults to ``True``, setting to ``False`` will improve "
+"performance substantially in many cases."
+msgstr ""
+
+#: ../../user_guide/merging.rst:549
+msgid ""
+"``suffixes``: A tuple of string suffixes to apply to overlapping columns."
+" Defaults to ``('_x', '_y')``."
+msgstr ""
+
+#: ../../user_guide/merging.rst:551
+msgid ""
+"``copy``: Always copy data (default ``True``) from the passed DataFrame "
+"or named Series objects, even when reindexing is not necessary. Cannot be"
+" avoided in many cases but may improve performance / memory usage. The "
+"cases where copying can be avoided are somewhat pathological but this "
+"option is provided nonetheless."
+msgstr ""
+
+#: ../../user_guide/merging.rst:556
+msgid ""
+"``indicator``: Add a column to the output DataFrame called ``_merge`` "
+"with information on the source of each row. ``_merge`` is Categorical-"
+"type and takes on a value of ``left_only`` for observations whose merge "
+"key only appears in ``'left'`` DataFrame or Series, ``right_only`` for "
+"observations whose merge key only appears in ``'right'`` DataFrame or "
+"Series, and ``both`` if the observation's merge key is found in both."
+msgstr ""
+
+#: ../../user_guide/merging.rst:563
+msgid ""
+"``validate`` : string, default None. If specified, checks if merge is of "
+"specified type."
+msgstr ""
+
+#: ../../user_guide/merging.rst:566
+msgid ""
+"\"one_to_one\" or \"1:1\": checks if merge keys are unique in both left "
+"and right datasets."
+msgstr ""
+
+#: ../../user_guide/merging.rst:568
+msgid ""
+"\"one_to_many\" or \"1:m\": checks if merge keys are unique in left "
+"dataset."
+msgstr ""
+
+#: ../../user_guide/merging.rst:570
+msgid ""
+"\"many_to_one\" or \"m:1\": checks if merge keys are unique in right "
+"dataset."
+msgstr ""
+
+#: ../../user_guide/merging.rst:572
+msgid "\"many_to_many\" or \"m:m\": allowed, but does not result in checks."
+msgstr ""
+
+#: ../../user_guide/merging.rst:578
+msgid ""
+"Support for specifying index levels as the ``on``, ``left_on``, and "
+"``right_on`` parameters was added in version 0.23.0. Support for merging "
+"named ``Series`` objects was added in version 0.24.0."
+msgstr ""
+
+#: ../../user_guide/merging.rst:582
+msgid ""
+"The return type will be the same as ``left``. If ``left`` is a "
+"``DataFrame`` or named ``Series`` and ``right`` is a subclass of "
+"``DataFrame``, the return type will still be ``DataFrame``."
+msgstr ""
+
+#: ../../user_guide/merging.rst:585
+msgid ""
+"``merge`` is a function in the pandas namespace, and it is also available"
+" as a ``DataFrame`` instance method :meth:`~DataFrame.merge`, with the "
+"calling ``DataFrame`` being implicitly considered the left object in the "
+"join."
+msgstr ""
+
+#: ../../user_guide/merging.rst:589
+msgid ""
+"The related :meth:`~DataFrame.join` method, uses ``merge`` internally for"
+" the index-on-index (by default) and column(s)-on-index join. If you are "
+"joining on index only, you may wish to use ``DataFrame.join`` to save "
+"yourself some typing."
+msgstr ""
+
+#: ../../user_guide/merging.rst:594
+msgid "Brief primer on merge methods (relational algebra)"
+msgstr ""
+
+#: ../../user_guide/merging.rst:596
+msgid ""
+"Experienced users of relational databases like SQL will be familiar with "
+"the terminology used to describe join operations between two SQL-table "
+"like structures (``DataFrame`` objects). There are several cases to "
+"consider which are very important to understand:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:601
+msgid ""
+"**one-to-one** joins: for example when joining two ``DataFrame`` objects "
+"on their indexes (which must contain unique values)."
+msgstr ""
+
+#: ../../user_guide/merging.rst:603
+msgid ""
+"**many-to-one** joins: for example when joining an index (unique) to one "
+"or more columns in a different ``DataFrame``."
+msgstr ""
+
+#: ../../user_guide/merging.rst:605
+msgid "**many-to-many** joins: joining columns on columns."
+msgstr ""
+
+#: ../../user_guide/merging.rst:609
+msgid ""
+"When joining columns on columns (potentially a many-to-many join), any "
+"indexes on the passed ``DataFrame`` objects **will be discarded**."
+msgstr ""
+
+#: ../../user_guide/merging.rst:613
+msgid ""
+"It is worth spending some time understanding the result of the **many-to-"
+"many** join case. In SQL / standard relational algebra, if a key "
+"combination appears more than once in both tables, the resulting table "
+"will have the **Cartesian product** of the associated data. Here is a "
+"very basic example with one unique key combination:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:638
+msgid ""
+"Here is a more complicated example with multiple join keys. Only the keys"
+" appearing in ``left`` and ``right`` are present (the intersection), "
+"since ``how='inner'`` by default."
+msgstr ""
+
+#: ../../user_guide/merging.rst:664
+msgid ""
+"The ``how`` argument to ``merge`` specifies how to determine which keys "
+"are to be included in the resulting table. If a key combination **does "
+"not appear** in either the left or right tables, the values in the joined"
+" table will be ``NA``. Here is a summary of the ``how`` options and their"
+" SQL equivalent names:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1
+msgid "Merge method"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1
+msgid "SQL Join Name"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1
+msgid "``left``"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1
+msgid "``LEFT OUTER JOIN``"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1
+msgid "Use keys from left frame only"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1
+msgid "``right``"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1
+msgid "``RIGHT OUTER JOIN``"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1
+msgid "Use keys from right frame only"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1
+msgid "``outer``"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1
+msgid "``FULL OUTER JOIN``"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1
+msgid "Use union of keys from both frames"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1
+msgid "``inner``"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1
+msgid "``INNER JOIN``"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1
+msgid "Use intersection of keys from both frames"
+msgstr ""
+
+#: ../../user_guide/merging.rst:725
+msgid "Here is another example with duplicate join keys in DataFrames:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:746
+msgid ""
+"Joining / merging on duplicate keys can cause a returned frame that is "
+"the multiplication of the row dimensions, which may result in memory "
+"overflow. It is the user' s responsibility to manage duplicate values in "
+"keys before joining large DataFrames."
+msgstr ""
+
+#: ../../user_guide/merging.rst:751
+msgid "Checking for duplicate keys"
+msgstr ""
+
+#: ../../user_guide/merging.rst:755
+msgid ""
+"Users can use the ``validate`` argument to automatically check whether "
+"there are unexpected duplicates in their merge keys. Key uniqueness is "
+"checked before merge operations and so should protect against memory "
+"overflows. Checking key uniqueness is also a good way to ensure user data"
+" structures are as expected."
+msgstr ""
+
+#: ../../user_guide/merging.rst:760
+msgid ""
+"In the following example, there are duplicate values of ``B`` in the "
+"right ``DataFrame``. As this is not a one-to-one merge -- as specified in"
+" the ``validate`` argument -- an exception will be raised."
+msgstr ""
+
+#: ../../user_guide/merging.rst:776
+msgid ""
+"If the user is aware of the duplicates in the right ``DataFrame`` but "
+"wants to ensure there are no duplicates in the left DataFrame, one can "
+"use the ``validate='one_to_many'`` argument instead, which will not raise"
+" an exception."
+msgstr ""
+
+#: ../../user_guide/merging.rst:788
+msgid "The merge indicator"
+msgstr ""
+
+#: ../../user_guide/merging.rst:790
+msgid ""
+":func:`~pandas.merge` accepts the argument ``indicator``. If ``True``, a "
+"Categorical-type column called ``_merge`` will be added to the output "
+"object that takes on values:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:795
+msgid "Observation Origin"
+msgstr ""
+
+#: ../../user_guide/merging.rst:795
+msgid "``_merge`` value"
+msgstr ""
+
+#: ../../user_guide/merging.rst:797
+msgid "Merge key only in ``'left'`` frame"
+msgstr ""
+
+#: ../../user_guide/merging.rst:797
+msgid "``left_only``"
+msgstr ""
+
+#: ../../user_guide/merging.rst:798
+msgid "Merge key only in ``'right'`` frame"
+msgstr ""
+
+#: ../../user_guide/merging.rst:798
+msgid "``right_only``"
+msgstr ""
+
+#: ../../user_guide/merging.rst:799
+msgid "Merge key in both frames"
+msgstr ""
+
+#: ../../user_guide/merging.rst:799
+msgid "``both``"
+msgstr ""
+
+#: ../../user_guide/merging.rst:808
+msgid ""
+"The ``indicator`` argument will also accept string arguments, in which "
+"case the indicator function will use the value of the passed string as "
+"the name for the indicator column."
+msgstr ""
+
+#: ../../user_guide/merging.rst:818
+msgid "Merge Dtypes"
+msgstr ""
+
+#: ../../user_guide/merging.rst:822
+msgid "Merging will preserve the dtype of the join keys."
+msgstr ""
+
+#: ../../user_guide/merging.rst:831
+msgid "We are able to preserve the join keys:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:838
+msgid ""
+"Of course if you have missing values that are introduced, then the "
+"resulting dtype will be upcast."
+msgstr ""
+
+#: ../../user_guide/merging.rst:848
+msgid ""
+"Merging will preserve ``category`` dtypes of the mergands. See also the "
+"section on :ref:`categoricals <categorical.merge>`."
+msgstr ""
+
+#: ../../user_guide/merging.rst:850
+msgid "The left frame."
+msgstr ""
+
+#: ../../user_guide/merging.rst:865
+msgid "The right frame."
+msgstr ""
+
+#: ../../user_guide/merging.rst:875
+msgid "The merged result:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:885
+msgid ""
+"The category dtypes must be *exactly* the same, meaning the same "
+"categories and the ordered attribute. Otherwise the result will coerce to"
+" ``object`` dtype."
+msgstr ""
+
+#: ../../user_guide/merging.rst:890
+msgid ""
+"Merging on ``category`` dtypes that are the same can be quite performant "
+"compared to ``object`` dtype merging."
+msgstr ""
+
+#: ../../user_guide/merging.rst:895
+msgid "Joining on index"
+msgstr ""
+
+#: ../../user_guide/merging.rst:897
+msgid ""
+":meth:`DataFrame.join` is a convenient method for combining the columns "
+"of two potentially differently-indexed ``DataFrames`` into a single "
+"result ``DataFrame``. Here is a very basic example:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:933
+msgid "The same as above, but with ``how='inner'``."
+msgstr ""
+
+#: ../../user_guide/merging.rst:947
+msgid ""
+"The data alignment here is on the indexes (row labels). This same "
+"behavior can be achieved using ``merge`` plus additional arguments "
+"instructing it to use the indexes:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:976
+msgid "Joining key columns on an index"
+msgstr ""
+
+#: ../../user_guide/merging.rst:978
+msgid ""
+":meth:`~DataFrame.join` takes an optional ``on`` argument which may be a "
+"column or multiple column names, which specifies that the passed "
+"``DataFrame`` is to be aligned on that column in the ``DataFrame``. These"
+" two function calls are completely equivalent:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:989
+msgid ""
+"Obviously you can choose whichever form you find more convenient. For "
+"many-to-one joins (where one of the ``DataFrame``'s is already indexed by"
+" the join key), using ``join`` may be more convenient. Here is a simple "
+"example:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1028
+msgid "To join on multiple keys, the passed DataFrame must have a ``MultiIndex``:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1043
+msgid "Now this can be joined by passing the two key column names:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1059
+msgid ""
+"The default for ``DataFrame.join`` is to perform a left join (essentially"
+" a \"VLOOKUP\" operation, for Excel users), which uses only the keys "
+"found in the calling DataFrame. Other join types, for example inner join,"
+" can be just as easily performed:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1076
+msgid "As you can see, this drops any rows where there was no match."
+msgstr ""
+
+#: ../../user_guide/merging.rst:1081
+msgid "Joining a single Index to a MultiIndex"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1083
+msgid ""
+"You can join a singly-indexed ``DataFrame`` with a level of a "
+"MultiIndexed ``DataFrame``. The level will match on the name of the index"
+" of the singly-indexed frame against a level name of the MultiIndexed "
+"frame."
+msgstr ""
+
+#: ../../user_guide/merging.rst:1110
+msgid ""
+"This is equivalent but less verbose and more memory efficient / faster "
+"than this."
+msgstr ""
+
+#: ../../user_guide/merging.rst:1128
+msgid "Joining with two MultiIndexes"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1130
+msgid ""
+"This is supported in a limited way, provided that the index for the right"
+" argument is completely used in the join, and is a subset of the indices "
+"in the left argument, as in this example:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1148
+msgid ""
+"If that condition is not satisfied, a join with two multi-indexes can be "
+"done using the following code."
+msgstr ""
+
+#: ../../user_guide/merging.rst:1181
+msgid "Merging on a combination of columns and index levels"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1185
+msgid ""
+"Strings passed as the ``on``, ``left_on``, and ``right_on`` parameters "
+"may refer to either column names or index level names.  This enables "
+"merging ``DataFrame`` instances on a combination of index levels and "
+"columns without resetting indexes."
+msgstr ""
+
+#: ../../user_guide/merging.rst:1218
+msgid ""
+"When DataFrames are merged on a string that matches an index level in "
+"both frames, the index level is preserved as an index level in the "
+"resulting DataFrame."
+msgstr ""
+
+#: ../../user_guide/merging.rst:1223
+msgid ""
+"When DataFrames are merged using only some of the levels of a "
+"`MultiIndex`, the extra levels will be dropped from the resulting merge. "
+"In order to preserve those levels, use ``reset_index`` on those level "
+"names to move those levels to columns prior to doing the merge."
+msgstr ""
+
+#: ../../user_guide/merging.rst:1230
+msgid ""
+"If a string matches both a column name and an index level name, then a "
+"warning is issued and the column takes precedence. This will result in an"
+" ambiguity error in a future version."
+msgstr ""
+
+#: ../../user_guide/merging.rst:1235
+msgid "Overlapping value columns"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1237
+msgid ""
+"The merge ``suffixes`` argument takes a tuple of list of strings to "
+"append to overlapping column names in the input ``DataFrame``\\ s to "
+"disambiguate the result columns:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1268
+msgid ""
+":meth:`DataFrame.join` has ``lsuffix`` and ``rsuffix`` arguments which "
+"behave similarly."
+msgstr ""
+
+#: ../../user_guide/merging.rst:1288
+msgid "Joining multiple DataFrames"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1290
+msgid ""
+"A list or tuple of ``DataFrames`` can also be passed to "
+":meth:`~DataFrame.join` to join them together on their indexes."
+msgstr ""
+
+#: ../../user_guide/merging.rst:1309
+msgid "Merging together values within Series or DataFrame columns"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1311
+msgid ""
+"Another fairly common situation is to have two like-indexed (or similarly"
+" indexed) ``Series`` or ``DataFrame`` objects and wanting to \"patch\" "
+"values in one object from values for matching indices in the other. Here "
+"is an example:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1322
+msgid "For this, use the :meth:`~DataFrame.combine_first` method:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1336
+msgid ""
+"Note that this method only takes values from the right ``DataFrame`` if "
+"they are missing in the left ``DataFrame``. A related method, "
+":meth:`~DataFrame.update`, alters non-NA values in place:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1360
+msgid "Timeseries friendly merging"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1365
+msgid "Merging Ordered Data"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1367
+msgid ""
+"A :func:`merge_ordered` function allows combining time series and other "
+"ordered data. In particular it has an optional ``fill_method`` keyword to"
+" fill/interpolate missing data:"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1385
+msgid "Merging AsOf"
+msgstr ""
+
+#: ../../user_guide/merging.rst:1389
+msgid ""
+"A :func:`merge_asof` is similar to an ordered left-join except that we "
+"match on nearest key rather than equal keys. For each row in the ``left``"
+" ``DataFrame``, we select the last row in the ``right`` ``DataFrame`` "
+"whose ``on`` key is less than the left's key. Both DataFrames must be "
+"sorted by the key."
+msgstr ""
+
+#: ../../user_guide/merging.rst:1394
+msgid ""
+"Optionally an asof merge can perform a group-wise merge. This matches the"
+" ``by`` key equally, in addition to the nearest match on the ``on`` key."
+msgstr ""
+
+#: ../../user_guide/merging.rst:1397
+msgid ""
+"For example; we might have ``trades`` and ``quotes`` and we want to "
+"``asof`` merge them."
+msgstr ""
+
+#: ../../user_guide/merging.rst:1439
+msgid "By default we are taking the asof of the quotes."
+msgstr ""
+
+#: ../../user_guide/merging.rst:1447
+msgid "We only asof within ``2ms`` between the quote time and the trade time."
+msgstr ""
+
+#: ../../user_guide/merging.rst:1456
+msgid ""
+"We only asof within ``10ms`` between the quote time and the trade time "
+"and we exclude exact matches on time. Note that though we exclude the "
+"exact matches (of the quotes), prior quotes **do** propagate to that "
+"point in time."
+msgstr ""
+

@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.info.rst:2
+msgid "pandas.DataFrame.info"
+msgstr ""
+
+#: of pandas.DataFrame.info:2
+msgid "Print a concise summary of a DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.info:4
+msgid ""
+"This method prints information about a DataFrame including the index "
+"dtype and column dtypes, non-null values and memory usage."
+msgstr ""
+
+#: of pandas.DataFrame.info
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.info:11
+msgid "**verbose**"
+msgstr ""
+
+#: of pandas.DataFrame.info:10 pandas.DataFrame.info:42
+msgid "bool, optional"
+msgstr ""
+
+#: of pandas.DataFrame.info:10
+msgid ""
+"Whether to print the full summary. By default, the setting in "
+"``pandas.options.display.max_info_columns`` is followed."
+msgstr ""
+
+#: of pandas.DataFrame.info:16
+msgid "**buf**"
+msgstr ""
+
+#: of pandas.DataFrame.info:15
+msgid "writable buffer, defaults to sys.stdout"
+msgstr ""
+
+#: of pandas.DataFrame.info:14
+msgid ""
+"Where to send the output. By default, the output is printed to "
+"sys.stdout. Pass a writable buffer if you need to further process the "
+"output."
+msgstr ""
+
+#: of pandas.DataFrame.info:22
+msgid "**max_cols**"
+msgstr ""
+
+#: of pandas.DataFrame.info:21
+msgid "int, optional"
+msgstr ""
+
+#: of pandas.DataFrame.info:19
+msgid ""
+"When to switch from the verbose to the truncated output. If the DataFrame"
+" has more than `max_cols` columns, the truncated output is used. By "
+"default, the setting in ``pandas.options.display.max_info_columns`` is "
+"used."
+msgstr ""
+
+#: of pandas.DataFrame.info:36
+msgid "**memory_usage**"
+msgstr ""
+
+#: of pandas.DataFrame.info:35
+msgid "bool, str, optional"
+msgstr ""
+
+#: of pandas.DataFrame.info:25
+msgid ""
+"Specifies whether total memory usage of the DataFrame elements (including"
+" the index) should be displayed. By default, this follows the "
+"``pandas.options.display.memory_usage`` setting."
+msgstr ""
+
+#: of pandas.DataFrame.info:29
+msgid ""
+"True always show memory usage. False never shows memory usage. A value of"
+" 'deep' is equivalent to \"True with deep introspection\". Memory usage "
+"is shown in human-readable units (base-2 representation). Without deep "
+"introspection a memory estimation is made based in column dtype and "
+"number of rows assuming values consume the same memory amount for "
+"corresponding dtypes. With deep memory introspection, a real memory usage"
+" calculation is performed at the cost of computational resources."
+msgstr ""
+
+#: of pandas.DataFrame.info:43
+msgid "**null_counts**"
+msgstr ""
+
+#: of pandas.DataFrame.info:39
+msgid ""
+"Whether to show the non-null counts. By default, this is shown only if "
+"the frame is smaller than ``pandas.options.display.max_info_rows`` and "
+"``pandas.options.display.max_info_columns``. A value of True always shows"
+" the counts, and False never shows the counts."
+msgstr ""
+
+#: of pandas.DataFrame.info
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.info:53
+msgid "**None**"
+msgstr ""
+
+#: of pandas.DataFrame.info:48
+msgid "This method prints a summary of a DataFrame and returns None."
+msgstr ""
+
+#: of pandas.DataFrame.info:59
+msgid ":obj:`DataFrame.describe`"
+msgstr ""
+
+#: of pandas.DataFrame.info:59
+msgid "Generate descriptive statistics of DataFrame columns."
+msgstr ""
+
+#: of pandas.DataFrame.info:61
+msgid ":obj:`DataFrame.memory_usage`"
+msgstr ""
+
+#: of pandas.DataFrame.info:62
+msgid "Memory usage of DataFrame columns."
+msgstr ""
+
+#: of pandas.DataFrame.info:67
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.info:81
+msgid "Prints information of all columns:"
+msgstr ""
+
+#: of pandas.DataFrame.info:93
+msgid ""
+"Prints a summary of columns count and its dtypes but not per column "
+"information:"
+msgstr ""
+
+#: of pandas.DataFrame.info:103
+msgid ""
+"Pipe output of DataFrame.info to buffer instead of sys.stdout, get buffer"
+" content and writes to a text file:"
+msgstr ""
+
+#: of pandas.DataFrame.info:115
+msgid ""
+"The `memory_usage` parameter allows deep introspection mode, specially "
+"useful for big DataFrames and fine-tune memory optimization:"
+msgstr ""
+

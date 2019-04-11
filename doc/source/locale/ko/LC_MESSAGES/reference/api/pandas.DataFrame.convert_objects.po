@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.convert_objects.rst:2
+msgid "pandas.DataFrame.convert\\_objects"
+msgstr ""
+
+#: of pandas.DataFrame.convert_objects:2
+msgid "Attempt to infer better dtype for object columns."
+msgstr ""
+
+#: of pandas.DataFrame.convert_objects
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.convert_objects:10
+msgid "**convert_dates**"
+msgstr ""
+
+#: of pandas.DataFrame.convert_objects:9 pandas.DataFrame.convert_objects:17
+#: pandas.DataFrame.convert_objects:22
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.DataFrame.convert_objects:9
+msgid ""
+"If True, convert to date where possible. If 'coerce', force conversion, "
+"with unconvertible values becoming NaT."
+msgstr ""
+
+#: of pandas.DataFrame.convert_objects:14
+msgid "**convert_numeric**"
+msgstr ""
+
+#: of pandas.DataFrame.convert_objects:13
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.DataFrame.convert_objects:13
+msgid ""
+"If True, attempt to coerce to numbers (including strings), with "
+"unconvertible values becoming NaN."
+msgstr ""
+
+#: of pandas.DataFrame.convert_objects:18
+msgid "**convert_timedeltas**"
+msgstr ""
+
+#: of pandas.DataFrame.convert_objects:17
+msgid ""
+"If True, convert to timedelta where possible. If 'coerce', force "
+"conversion, with unconvertible values becoming NaT."
+msgstr ""
+
+#: of pandas.DataFrame.convert_objects:23
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.DataFrame.convert_objects:21
+msgid ""
+"If True, return a copy even if no copy is necessary (e.g. no conversion "
+"was done). Note: This is meant for internal use, and should not be "
+"confused with inplace."
+msgstr ""
+
+#: of pandas.DataFrame.convert_objects
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.convert_objects:33
+msgid "**converted**"
+msgstr ""
+
+#: of pandas.DataFrame.convert_objects:32
+msgid "same as input object"
+msgstr ""
+
+#: of pandas.DataFrame.convert_objects:39
+msgid ":obj:`to_datetime`"
+msgstr ""
+
+#: of pandas.DataFrame.convert_objects:39
+msgid "Convert argument to datetime."
+msgstr ""
+
+#: of pandas.DataFrame.convert_objects:42
+msgid ":obj:`to_timedelta`"
+msgstr ""
+
+#: of pandas.DataFrame.convert_objects:42
+msgid "Convert argument to timedelta."
+msgstr ""
+
+#: of pandas.DataFrame.convert_objects:44
+msgid ":obj:`to_numeric`"
+msgstr ""
+
+#: of pandas.DataFrame.convert_objects:45
+msgid "Convert argument to numeric type."
+msgstr ""
+

@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.quantile.rst:2
+msgid "pandas.DataFrame.quantile"
+msgstr ""
+
+#: of pandas.DataFrame.quantile:2
+msgid "Return values at the given quantile over requested axis."
+msgstr ""
+
+#: of pandas.DataFrame.quantile
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.quantile:8
+msgid "**q**"
+msgstr ""
+
+#: of pandas.DataFrame.quantile:7
+msgid "float or array-like, default 0.5 (50% quantile)"
+msgstr ""
+
+#: of pandas.DataFrame.quantile:8
+msgid "Value between 0 <= q <= 1, the quantile(s) to compute."
+msgstr ""
+
+#: of pandas.DataFrame.quantile:11
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.DataFrame.quantile:10
+msgid "{0, 1, 'index', 'columns'} (default 0)"
+msgstr ""
+
+#: of pandas.DataFrame.quantile:11
+msgid "Equals 0 or 'index' for row-wise, 1 or 'columns' for column-wise."
+msgstr ""
+
+#: of pandas.DataFrame.quantile:15
+msgid "**numeric_only**"
+msgstr ""
+
+#: of pandas.DataFrame.quantile:14
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.DataFrame.quantile:14
+msgid ""
+"If False, the quantile of datetime and timedelta data will be computed as"
+" well."
+msgstr ""
+
+#: of pandas.DataFrame.quantile:28
+msgid "**interpolation**"
+msgstr ""
+
+#: of pandas.DataFrame.quantile:27
+msgid "{'linear', 'lower', 'higher', 'midpoint', 'nearest'}"
+msgstr ""
+
+#: of pandas.DataFrame.quantile:18
+msgid ""
+"This optional parameter specifies the interpolation method to use, when "
+"the desired quantile lies between two data points `i` and `j`:"
+msgstr ""
+
+#: of pandas.DataFrame.quantile:21
+msgid ""
+"linear: `i + (j - i) * fraction`, where `fraction` is the fractional part"
+" of the index surrounded by `i` and `j`."
+msgstr ""
+
+#: of pandas.DataFrame.quantile:23
+msgid "lower: `i`."
+msgstr ""
+
+#: of pandas.DataFrame.quantile:24
+msgid "higher: `j`."
+msgstr ""
+
+#: of pandas.DataFrame.quantile:25
+msgid "nearest: `i` or `j` whichever is nearest."
+msgstr ""
+
+#: of pandas.DataFrame.quantile:26
+msgid "midpoint: (`i` + `j`) / 2."
+msgstr ""
+
+#: of pandas.DataFrame.quantile
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.quantile:42
+msgid "**quantiles**"
+msgstr ""
+
+#: of pandas.DataFrame.quantile:41
+msgid "Series or DataFrame"
+msgstr ""
+
+#: of pandas.DataFrame.quantile:33
+msgid ""
+"If ``q`` is an array, a DataFrame will be returned where the index is "
+"``q``, the columns are the columns of self, and the values are the "
+"quantiles."
+msgstr ""
+
+#: of pandas.DataFrame.quantile:36
+msgid ""
+"If ``q`` is a float, a Series will be returned where the index is the "
+"columns of self and the values are the quantiles."
+msgstr ""
+
+#: of pandas.DataFrame.quantile:48
+msgid ":obj:`core.window.Rolling.quantile`"
+msgstr ""
+
+#: of pandas.DataFrame.quantile:48
+msgid "Rolling quantile."
+msgstr ""
+
+#: of pandas.DataFrame.quantile:50
+msgid ":obj:`numpy.percentile`"
+msgstr ""
+
+#: of pandas.DataFrame.quantile:51
+msgid "Numpy function to compute the percentile."
+msgstr ""
+
+#: of pandas.DataFrame.quantile:56
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.quantile:68
+msgid ""
+"Specifying `numeric_only=False` will also compute the quantile of "
+"datetime and timedelta data."
+msgstr ""
+

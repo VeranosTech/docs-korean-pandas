@@ -1,0 +1,557 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.read_excel.rst:2
+msgid "pandas.read\\_excel"
+msgstr ""
+
+#: of pandas.read_excel:2
+msgid "Read an Excel file into a pandas DataFrame."
+msgstr ""
+
+#: of pandas.read_excel:4
+msgid ""
+"Support both `xls` and `xlsx` file extensions from a local filesystem or "
+"URL. Support an option to read a single sheet or a list of sheets."
+msgstr ""
+
+#: of pandas.read_excel
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.read_excel:12
+msgid "**io**"
+msgstr ""
+
+#: of pandas.read_excel:11
+msgid "str, file descriptor, pathlib.Path, ExcelFile or xlrd.Book"
+msgstr ""
+
+#: of pandas.read_excel:10
+msgid ""
+"The string could be a URL. Valid URL schemes include http, ftp, s3, gcs, "
+"and file. For file URLs, a host is expected. For instance, a local file "
+"could be /path/to/workbook.xlsx."
+msgstr ""
+
+#: of pandas.read_excel:26
+msgid "**sheet_name**"
+msgstr ""
+
+#: of pandas.read_excel:25
+msgid "str, int, list, or None, default 0"
+msgstr ""
+
+#: of pandas.read_excel:15
+msgid ""
+"Strings are used for sheet names. Integers are used in zero-indexed sheet"
+" positions. Lists of strings/integers are used to request multiple "
+"sheets. Specify None to get all sheets."
+msgstr ""
+
+#: of pandas.read_excel:19
+msgid "Available cases:"
+msgstr ""
+
+#: of pandas.read_excel:21
+msgid "Defaults to ``0``: 1st sheet as a `DataFrame`"
+msgstr ""
+
+#: of pandas.read_excel:22
+msgid "``1``: 2nd sheet as a `DataFrame`"
+msgstr ""
+
+#: of pandas.read_excel:23
+msgid "``\"Sheet1\"``: Load sheet with name \"Sheet1\""
+msgstr ""
+
+#: of pandas.read_excel:24
+msgid ""
+"``[0, 1, \"Sheet5\"]``: Load first, second and sheet named \"Sheet5\" as "
+"a dict of `DataFrame`"
+msgstr ""
+
+#: of pandas.read_excel:26
+msgid "None: All sheets."
+msgstr ""
+
+#: of pandas.read_excel:31
+msgid "**header**"
+msgstr ""
+
+#: of pandas.read_excel:30
+msgid "int, list of int, default 0"
+msgstr ""
+
+#: of pandas.read_excel:29
+msgid ""
+"Row (0-indexed) to use for the column labels of the parsed DataFrame. If "
+"a list of integers is passed those row positions will be combined into a "
+"``MultiIndex``. Use None if there is no header."
+msgstr ""
+
+#: of pandas.read_excel:35
+msgid "**names**"
+msgstr ""
+
+#: of pandas.read_excel:34
+msgid "array-like, default None"
+msgstr ""
+
+#: of pandas.read_excel:34
+msgid ""
+"List of column names to use. If file contains no header row, then you "
+"should explicitly pass header=None."
+msgstr ""
+
+#: of pandas.read_excel:42
+msgid "**index_col**"
+msgstr ""
+
+#: of pandas.read_excel:41
+msgid "int, list of int, default None"
+msgstr ""
+
+#: of pandas.read_excel:38
+msgid ""
+"Column (0-indexed) to use as the row labels of the DataFrame. Pass None "
+"if there is no such column.  If a list is passed, those columns will be "
+"combined into a ``MultiIndex``.  If a subset of data is selected with "
+"``usecols``, index_col is based on the subset."
+msgstr ""
+
+#: of pandas.read_excel:48
+msgid "**parse_cols**"
+msgstr ""
+
+#: of pandas.read_excel:47
+msgid "int or list, default None"
+msgstr ""
+
+#: of pandas.read_excel:45
+msgid "Alias of `usecols`."
+msgstr ""
+
+#: of pandas.read_excel:47
+msgid "Use `usecols` instead."
+msgstr ""
+
+#: of pandas.read_excel:69
+msgid "**usecols**"
+msgstr ""
+
+#: of pandas.read_excel:68
+msgid "int, str, list-like, or callable default None"
+msgstr ""
+
+#: of pandas.read_excel:51
+msgid ""
+"Return a subset of the columns. * If None, then parse all columns. * If "
+"int, then indicates last column to be parsed."
+msgstr ""
+
+#: of pandas.read_excel:55
+msgid "Pass in a list of int instead from 0 to `usecols` inclusive."
+msgstr ""
+
+#: of pandas.read_excel:58
+msgid ""
+"If str, then indicates comma separated list of Excel column letters and "
+"column ranges (e.g. \"A:E\" or \"A,C,E:F\"). Ranges are inclusive of both"
+" sides."
+msgstr ""
+
+#: of pandas.read_excel:61
+msgid "If list of int, then indicates list of column numbers to be parsed."
+msgstr ""
+
+#: of pandas.read_excel:62
+msgid "If list of string, then indicates list of column names to be parsed."
+msgstr ""
+
+#: of pandas.read_excel:66
+msgid ""
+"If callable, then evaluate each column name against it and parse the "
+"column if the callable returns ``True``."
+msgstr ""
+
+#: of pandas.read_excel:72
+msgid "**squeeze**"
+msgstr ""
+
+#: of pandas.read_excel:71 pandas.read_excel:121
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.read_excel:72
+msgid "If the parsed data only contains one column then return a Series."
+msgstr ""
+
+#: of pandas.read_excel:80
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.read_excel:79
+msgid "Type name or dict of column -> type, default None"
+msgstr ""
+
+#: of pandas.read_excel:75
+msgid ""
+"Data type for data or columns. E.g. {'a': np.float64, 'b': np.int32} Use "
+"`object` to preserve data as stored in Excel and not interpret dtype. If "
+"converters are specified, they will be applied INSTEAD of dtype "
+"conversion."
+msgstr ""
+
+#: of pandas.read_excel:84
+msgid "**engine**"
+msgstr ""
+
+#: of pandas.read_excel:83 pandas.read_excel:155 pandas.read_excel:160
+msgid "str, default None"
+msgstr ""
+
+#: of pandas.read_excel:83
+msgid ""
+"If io is not a buffer or path, this must be set to identify io. "
+"Acceptable values are None or xlrd."
+msgstr ""
+
+#: of pandas.read_excel:90
+msgid "**converters**"
+msgstr ""
+
+#: of pandas.read_excel:89
+msgid "dict, default None"
+msgstr ""
+
+#: of pandas.read_excel:87
+msgid ""
+"Dict of functions for converting values in certain columns. Keys can "
+"either be integers or column labels, values are functions that take one "
+"input argument, the Excel cell content, and return the transformed "
+"content."
+msgstr ""
+
+#: of pandas.read_excel:95
+msgid "**true_values**"
+msgstr ""
+
+#: of pandas.read_excel:94 pandas.read_excel:99
+msgid "list, default None"
+msgstr ""
+
+#: of pandas.read_excel:93
+msgid "Values to consider as True."
+msgstr ""
+
+#: of pandas.read_excel:100
+msgid "**false_values**"
+msgstr ""
+
+#: of pandas.read_excel:98
+msgid "Values to consider as False."
+msgstr ""
+
+#: of pandas.read_excel:103
+msgid "**skiprows**"
+msgstr ""
+
+#: of pandas.read_excel:102
+msgid "list-like"
+msgstr ""
+
+#: of pandas.read_excel:103
+msgid "Rows to skip at the beginning (0-indexed)."
+msgstr ""
+
+#: of pandas.read_excel:108
+msgid "**nrows**"
+msgstr ""
+
+#: of pandas.read_excel:107
+msgid "int, default None"
+msgstr ""
+
+#: of pandas.read_excel:106
+msgid "Number of rows to parse."
+msgstr ""
+
+#: of pandas.read_excel:115
+msgid "**na_values**"
+msgstr ""
+
+#: of pandas.read_excel:114
+msgid "scalar, str, list-like, or dict, default None"
+msgstr ""
+
+#: of pandas.read_excel:111
+msgid ""
+"Additional strings to recognize as NA/NaN. If dict passed, specific per-"
+"column NA values. By default the following values are interpreted as NaN:"
+" '', '#N/A', '#N/A N/A', '#NA', '-1.#IND', '-1.#QNAN', '-NaN', '-nan', "
+"'1.#IND', '1.#QNAN', 'N/A', 'NA', 'NULL', 'NaN', 'n/a', 'nan', 'null'."
+msgstr ""
+
+#: of pandas.read_excel:119
+msgid "**keep_default_na**"
+msgstr ""
+
+#: of pandas.read_excel:118 pandas.read_excel:174 pandas.read_excel:179
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.read_excel:118
+msgid ""
+"If na_values are specified and keep_default_na is False the default NaN "
+"values are overridden, otherwise they're appended to."
+msgstr ""
+
+#: of pandas.read_excel:122
+msgid "**verbose**"
+msgstr ""
+
+#: of pandas.read_excel:122
+msgid "Indicate number of NA values placed in non-numeric columns."
+msgstr ""
+
+#: of pandas.read_excel:139
+msgid "**parse_dates**"
+msgstr ""
+
+#: of pandas.read_excel:138
+msgid "bool, list-like, or dict, default False"
+msgstr ""
+
+#: of pandas.read_excel:125
+msgid "The behavior is as follows:"
+msgstr ""
+
+#: of pandas.read_excel:127
+msgid "bool. If True -> try parsing the index."
+msgstr ""
+
+#: of pandas.read_excel:128
+msgid ""
+"list of int or names. e.g. If [1, 2, 3] -> try parsing columns 1, 2, 3 "
+"each as a separate date column."
+msgstr ""
+
+#: of pandas.read_excel:130
+msgid ""
+"list of lists. e.g.  If [[1, 3]] -> combine columns 1 and 3 and parse as "
+"a single date column."
+msgstr ""
+
+#: of pandas.read_excel:132
+msgid ""
+"dict, e.g. {{'foo' : [1, 3]}} -> parse columns 1, 3 as date and call "
+"result 'foo'"
+msgstr ""
+
+#: of pandas.read_excel:135
+msgid ""
+"If a column or index contains an unparseable date, the entire column or "
+"index will be returned unaltered as an object data type. For non-standard"
+" datetime parsing, use ``pd.to_datetime`` after ``pd.read_csv``"
+msgstr ""
+
+#: of pandas.read_excel:139
+msgid "Note: A fast-path exists for iso8601-formatted dates."
+msgstr ""
+
+#: of pandas.read_excel:150
+msgid "**date_parser**"
+msgstr ""
+
+#: of pandas.read_excel:149
+msgid "function, optional"
+msgstr ""
+
+#: of pandas.read_excel:142
+msgid ""
+"Function to use for converting a sequence of string columns to an array "
+"of datetime instances. The default uses ``dateutil.parser.parser`` to do "
+"the conversion. Pandas will try to call `date_parser` in three different "
+"ways, advancing to the next if an exception occurs: 1) Pass one or more "
+"arrays (as defined by `parse_dates`) as arguments; 2) concatenate (row-"
+"wise) the string values from the columns defined by `parse_dates` into a "
+"single array and pass that; and 3) call `date_parser` once for each row "
+"using one or more strings (corresponding to the columns defined by "
+"`parse_dates`) as arguments."
+msgstr ""
+
+#: of pandas.read_excel:156
+msgid "**thousands**"
+msgstr ""
+
+#: of pandas.read_excel:153
+msgid ""
+"Thousands separator for parsing string columns to numeric.  Note that "
+"this parameter is only necessary for columns stored as TEXT in Excel, any"
+" numeric columns will automatically be parsed, regardless of display "
+"format."
+msgstr ""
+
+#: of pandas.read_excel:161
+msgid "**comment**"
+msgstr ""
+
+#: of pandas.read_excel:159
+msgid ""
+"Comments out remainder of line. Pass a character or characters to this "
+"argument to indicate comments in the input file. Any data between the "
+"comment string and the end of the current line is ignored."
+msgstr ""
+
+#: of pandas.read_excel:167
+msgid "**skip_footer**"
+msgstr ""
+
+#: of pandas.read_excel:166 pandas.read_excel:169
+msgid "int, default 0"
+msgstr ""
+
+#: of pandas.read_excel:164
+msgid "Alias of `skipfooter`."
+msgstr ""
+
+#: of pandas.read_excel:166
+msgid "Use `skipfooter` instead."
+msgstr ""
+
+#: of pandas.read_excel:170
+msgid "**skipfooter**"
+msgstr ""
+
+#: of pandas.read_excel:170
+msgid "Rows at the end to skip (0-indexed)."
+msgstr ""
+
+#: of pandas.read_excel:175
+msgid "**convert_float**"
+msgstr ""
+
+#: of pandas.read_excel:173
+msgid ""
+"Convert integral floats to int (i.e., 1.0 --> 1). If False, all numeric "
+"data will be read in as floats: Excel stores all numbers as floats "
+"internally."
+msgstr ""
+
+#: of pandas.read_excel:180
+msgid "**mangle_dupe_cols**"
+msgstr ""
+
+#: of pandas.read_excel:178
+msgid ""
+"Duplicate columns will be specified as 'X', 'X.1', ...'X.N', rather than "
+"'X'...'X'. Passing in False will cause data to be overwritten if there "
+"are duplicate names in the columns."
+msgstr ""
+
+#: of pandas.read_excel:183
+msgid "**\\*\\*kwds**"
+msgstr ""
+
+#: of pandas.read_excel:182
+msgid "optional"
+msgstr ""
+
+#: of pandas.read_excel:183
+msgid "Optional keyword arguments can be passed to ``TextFileReader``."
+msgstr ""
+
+#: of pandas.read_excel
+msgid "Returns"
+msgstr ""
+
+#: of pandas.read_excel:194
+msgid "**DataFrame or dict of DataFrames**"
+msgstr ""
+
+#: of pandas.read_excel:188
+msgid ""
+"DataFrame from the passed in Excel file. See notes in sheet_name argument"
+" for more information on when a dict of DataFrames is returned."
+msgstr ""
+
+#: of pandas.read_excel:200
+msgid ":obj:`to_excel`"
+msgstr ""
+
+#: of pandas.read_excel:200
+msgid "Write DataFrame to an Excel file."
+msgstr ""
+
+#: of pandas.read_excel:203
+msgid ":obj:`to_csv`"
+msgstr ""
+
+#: of pandas.read_excel:203
+msgid "Write DataFrame to a comma-separated values (csv) file."
+msgstr ""
+
+#: of pandas.read_excel:206
+msgid ":obj:`read_csv`"
+msgstr ""
+
+#: of pandas.read_excel:206
+msgid "Read a comma-separated values (csv) file into DataFrame."
+msgstr ""
+
+#: of pandas.read_excel:208
+msgid ":obj:`read_fwf`"
+msgstr ""
+
+#: of pandas.read_excel:209
+msgid "Read a table of fixed-width formatted lines into DataFrame."
+msgstr ""
+
+#: of pandas.read_excel:214
+msgid "Examples"
+msgstr ""
+
+#: of pandas.read_excel:215
+msgid "The file can be read using the file name as string or an open file object:"
+msgstr ""
+
+#: of pandas.read_excel:230
+msgid ""
+"Index and header can be specified via the `index_col` and `header` "
+"arguments"
+msgstr ""
+
+#: of pandas.read_excel:239
+msgid "Column types are inferred but can be explicitly specified"
+msgstr ""
+
+#: of pandas.read_excel:248
+msgid ""
+"True, False, and NA values, and thousands separators have defaults, but "
+"can be explicitly specified, too. Supply the values you would like as "
+"strings or lists of strings!"
+msgstr ""
+
+#: of pandas.read_excel:259
+msgid ""
+"Comment lines in the excel input file can be skipped using the `comment` "
+"kwarg"
+msgstr ""
+

@@ -1,0 +1,164 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.to_numeric.rst:2
+msgid "pandas.to\\_numeric"
+msgstr ""
+
+#: of pandas.to_numeric:2
+msgid "Convert argument to a numeric type."
+msgstr ""
+
+#: of pandas.to_numeric:4
+msgid ""
+"The default return dtype is `float64` or `int64` depending on the data "
+"supplied. Use the `downcast` parameter to obtain other dtypes."
+msgstr ""
+
+#: of pandas.to_numeric
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.to_numeric:11
+msgid "**arg**"
+msgstr ""
+
+#: of pandas.to_numeric:10
+msgid "list, tuple, 1-d array, or Series"
+msgstr ""
+
+#: of pandas.to_numeric:16
+msgid "**errors**"
+msgstr ""
+
+#: of pandas.to_numeric:15
+msgid "{'ignore', 'raise', 'coerce'}, default 'raise'"
+msgstr ""
+
+#: of pandas.to_numeric:14
+msgid "If 'raise', then invalid parsing will raise an exception"
+msgstr ""
+
+#: of pandas.to_numeric:15
+msgid "If 'coerce', then invalid parsing will be set as NaN"
+msgstr ""
+
+#: of pandas.to_numeric:16
+msgid "If 'ignore', then invalid parsing will return the input"
+msgstr ""
+
+#: of pandas.to_numeric:38
+msgid "**downcast**"
+msgstr ""
+
+#: of pandas.to_numeric:37
+msgid "{'integer', 'signed', 'unsigned', 'float'} , default None"
+msgstr ""
+
+#: of pandas.to_numeric:19
+msgid ""
+"If not None, and if the data has been successfully cast to a numerical "
+"dtype (or if the data was numeric to begin with), downcast that resulting"
+" data to the smallest numerical dtype possible according to the following"
+" rules:"
+msgstr ""
+
+#: of pandas.to_numeric:24
+msgid "'integer' or 'signed': smallest signed int dtype (min.: np.int8)"
+msgstr ""
+
+#: of pandas.to_numeric:25
+msgid "'unsigned': smallest unsigned int dtype (min.: np.uint8)"
+msgstr ""
+
+#: of pandas.to_numeric:26
+msgid "'float': smallest float dtype (min.: np.float32)"
+msgstr ""
+
+#: of pandas.to_numeric:28
+msgid ""
+"As this behaviour is separate from the core conversion to numeric values,"
+" any errors raised during the downcasting will be surfaced regardless of "
+"the value of the 'errors' input."
+msgstr ""
+
+#: of pandas.to_numeric:32
+msgid ""
+"In addition, downcasting will only occur if the size of the resulting "
+"data's dtype is strictly larger than the dtype it is to be cast to, so if"
+" none of the dtypes checked satisfy that specification, no downcasting "
+"will be performed on the data."
+msgstr ""
+
+#: of pandas.to_numeric
+msgid "Returns"
+msgstr ""
+
+#: of pandas.to_numeric:48
+msgid "**ret**"
+msgstr ""
+
+#: of pandas.to_numeric:47
+msgid "numeric if parsing succeeded."
+msgstr ""
+
+#: of pandas.to_numeric:43
+msgid "Return type depends on input.  Series if Series, otherwise ndarray"
+msgstr ""
+
+#: of pandas.to_numeric:54
+msgid ":obj:`pandas.DataFrame.astype`"
+msgstr ""
+
+#: of pandas.to_numeric:54
+msgid "Cast argument to a specified dtype."
+msgstr ""
+
+#: of pandas.to_numeric:57
+msgid ":obj:`pandas.to_datetime`"
+msgstr ""
+
+#: of pandas.to_numeric:57
+msgid "Convert argument to datetime."
+msgstr ""
+
+#: of pandas.to_numeric:60
+msgid ":obj:`pandas.to_timedelta`"
+msgstr ""
+
+#: of pandas.to_numeric:60
+msgid "Convert argument to timedelta."
+msgstr ""
+
+#: of pandas.to_numeric:62
+msgid ":obj:`numpy.ndarray.astype`"
+msgstr ""
+
+#: of pandas.to_numeric:63
+msgid "Cast a numpy array to a specified type."
+msgstr ""
+
+#: of pandas.to_numeric:68
+msgid "Examples"
+msgstr ""
+
+#: of pandas.to_numeric:69
+msgid "Take separate series and convert to numeric, coercing when told to"
+msgstr ""
+

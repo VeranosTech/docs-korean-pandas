@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.read_fwf.rst:2
+msgid "pandas.read\\_fwf"
+msgstr ""
+
+#: of pandas.read_fwf:2
+msgid "Read a table of fixed-width formatted lines into DataFrame."
+msgstr ""
+
+#: of pandas.read_fwf:4
+msgid "Also supports optionally iterating or breaking of the file into chunks."
+msgstr ""
+
+#: of pandas.read_fwf:7
+msgid ""
+"Additional help can be found in the `online docs for IO Tools "
+"<http://pandas.pydata.org/pandas-docs/stable/io.html>`_."
+msgstr ""
+
+#: of pandas.read_fwf
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.read_fwf:22
+msgid "**filepath_or_buffer**"
+msgstr ""
+
+#: of pandas.read_fwf:21
+msgid "str, path object, or file-like object"
+msgstr ""
+
+#: of pandas.read_fwf:13
+msgid ""
+"Any valid string path is acceptable. The string could be a URL. Valid URL"
+" schemes include http, ftp, s3, and file. For file URLs, a host is "
+"expected. A local file could be: file://localhost/path/to/table.csv."
+msgstr ""
+
+#: of pandas.read_fwf:17
+msgid ""
+"If you want to pass in a path object, pandas accepts either "
+"``pathlib.Path`` or ``py._path.local.LocalPath``."
+msgstr ""
+
+#: of pandas.read_fwf:20
+msgid ""
+"By file-like object, we refer to objects with a ``read()`` method, such "
+"as a file handler (e.g. via builtin ``open`` function) or ``StringIO``."
+msgstr ""
+
+#: of pandas.read_fwf:29
+msgid "**colspecs**"
+msgstr ""
+
+#: of pandas.read_fwf:28
+msgid "list of tuple (int, int) or 'infer'. optional"
+msgstr ""
+
+#: of pandas.read_fwf:25
+msgid ""
+"A list of tuples giving the extents of the fixed-width fields of each "
+"line as half-open intervals (i.e.,  [from, to[ ). String value 'infer' "
+"can be used to instruct the parser to try detecting the column "
+"specifications from the first 100 rows of the data which are not being "
+"skipped via skiprows (default='infer')."
+msgstr ""
+
+#: of pandas.read_fwf:33
+msgid "**widths**"
+msgstr ""
+
+#: of pandas.read_fwf:32
+msgid "list of int, optional"
+msgstr ""
+
+#: of pandas.read_fwf:32
+msgid ""
+"A list of field widths which can be used instead of 'colspecs' if the "
+"intervals are contiguous."
+msgstr ""
+
+#: of pandas.read_fwf:39
+msgid "**infer_nrows**"
+msgstr ""
+
+#: of pandas.read_fwf:38
+msgid "int, default 100"
+msgstr ""
+
+#: of pandas.read_fwf:36
+msgid ""
+"The number of rows to consider when letting the parser determine the "
+"`colspecs`."
+msgstr ""
+
+#: of pandas.read_fwf:42
+msgid "**\\*\\*kwds**"
+msgstr ""
+
+#: of pandas.read_fwf:41
+msgid "optional"
+msgstr ""
+
+#: of pandas.read_fwf:42
+msgid "Optional keyword arguments can be passed to ``TextFileReader``."
+msgstr ""
+
+#: of pandas.read_fwf
+msgid "Returns"
+msgstr ""
+
+#: of pandas.read_fwf:53
+msgid "**DataFrame or TextParser**"
+msgstr ""
+
+#: of pandas.read_fwf:47
+msgid ""
+"A comma-separated values (csv) file is returned as two-dimensional data "
+"structure with labeled axes."
+msgstr ""
+
+#: of pandas.read_fwf:59
+msgid ":obj:`to_csv`"
+msgstr ""
+
+#: of pandas.read_fwf:59
+msgid "Write DataFrame to a comma-separated values (csv) file."
+msgstr ""
+
+#: of pandas.read_fwf:61
+msgid ":obj:`read_csv`"
+msgstr ""
+
+#: of pandas.read_fwf:62
+msgid "Read a comma-separated values (csv) file into DataFrame."
+msgstr ""
+
+#: of pandas.read_fwf:67
+msgid "Examples"
+msgstr ""
+

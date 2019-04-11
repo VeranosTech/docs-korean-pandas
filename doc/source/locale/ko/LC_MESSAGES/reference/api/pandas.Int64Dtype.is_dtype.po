@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Int64Dtype.is_dtype.rst:2
+msgid "pandas.Int64Dtype.is\\_dtype"
+msgstr ""
+
+#: of pandas.Int64Dtype.is_dtype:2
+msgid "Check if we match 'dtype'."
+msgstr ""
+
+#: of pandas.Int64Dtype.is_dtype
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Int64Dtype.is_dtype:8
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.Int64Dtype.is_dtype:7
+msgid "object"
+msgstr ""
+
+#: of pandas.Int64Dtype.is_dtype:8
+msgid "The object to check."
+msgstr ""
+
+#: of pandas.Int64Dtype.is_dtype
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Int64Dtype.is_dtype:19
+msgid "**is_dtype**"
+msgstr ""
+
+#: of pandas.Int64Dtype.is_dtype:18
+msgid "bool"
+msgstr ""
+
+#: of pandas.Int64Dtype.is_dtype:22
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Int64Dtype.is_dtype:23
+msgid "The default implementation is True if"
+msgstr ""
+
+#: of pandas.Int64Dtype.is_dtype:25
+msgid "``cls.construct_from_string(dtype)`` is an instance of ``cls``."
+msgstr ""
+
+#: of pandas.Int64Dtype.is_dtype:27
+msgid "``dtype`` is an object and is an instance of ``cls``"
+msgstr ""
+
+#: of pandas.Int64Dtype.is_dtype:28
+msgid ""
+"``dtype`` has a ``dtype`` attribute, and any of the above conditions is "
+"true for ``dtype.dtype``."
+msgstr ""
+

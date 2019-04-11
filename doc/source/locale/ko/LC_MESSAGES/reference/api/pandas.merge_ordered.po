@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.merge_ordered.rst:2
+msgid "pandas.merge\\_ordered"
+msgstr ""
+
+#: of pandas.merge_ordered:2
+msgid ""
+"Perform merge with optional filling/interpolation designed for ordered "
+"data like time series data. Optionally perform group-wise merge (see "
+"examples)"
+msgstr ""
+
+#: of pandas.merge_ordered
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.merge_ordered:10
+msgid "**left**"
+msgstr ""
+
+#: of pandas.merge_ordered:9 pandas.merge_ordered:12 pandas.merge_ordered:58
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.merge_ordered:13
+msgid "**right**"
+msgstr ""
+
+#: of pandas.merge_ordered:16
+msgid "**on**"
+msgstr ""
+
+#: of pandas.merge_ordered:15
+msgid "label or list"
+msgstr ""
+
+#: of pandas.merge_ordered:16
+msgid "Field names to join on. Must be found in both DataFrames."
+msgstr ""
+
+#: of pandas.merge_ordered:21
+msgid "**left_on**"
+msgstr ""
+
+#: of pandas.merge_ordered:20 pandas.merge_ordered:24
+msgid "label or list, or array-like"
+msgstr ""
+
+#: of pandas.merge_ordered:19
+msgid ""
+"Field names to join on in left DataFrame. Can be a vector or list of "
+"vectors of the length of the DataFrame to use a particular vector as the "
+"join key instead of columns"
+msgstr ""
+
+#: of pandas.merge_ordered:25
+msgid "**right_on**"
+msgstr ""
+
+#: of pandas.merge_ordered:24
+msgid ""
+"Field names to join on in right DataFrame or vector/list of vectors per "
+"left_on docs"
+msgstr ""
+
+#: of pandas.merge_ordered:29
+msgid "**left_by**"
+msgstr ""
+
+#: of pandas.merge_ordered:28 pandas.merge_ordered:32
+msgid "column name or list of column names"
+msgstr ""
+
+#: of pandas.merge_ordered:28
+msgid ""
+"Group left DataFrame by group columns and merge piece by piece with right"
+" DataFrame"
+msgstr ""
+
+#: of pandas.merge_ordered:33
+msgid "**right_by**"
+msgstr ""
+
+#: of pandas.merge_ordered:32
+msgid ""
+"Group right DataFrame by group columns and merge piece by piece with left"
+" DataFrame"
+msgstr ""
+
+#: of pandas.merge_ordered:36
+msgid "**fill_method**"
+msgstr ""
+
+#: of pandas.merge_ordered:35
+msgid "{'ffill', None}, default None"
+msgstr ""
+
+#: of pandas.merge_ordered:36
+msgid "Interpolation method for data"
+msgstr ""
+
+#: of pandas.merge_ordered:40
+msgid "**suffixes**"
+msgstr ""
+
+#: of pandas.merge_ordered:39
+msgid "2-length sequence (tuple, list, ...)"
+msgstr ""
+
+#: of pandas.merge_ordered:39
+msgid ""
+"Suffix to apply to overlapping column names in the left and right side, "
+"respectively"
+msgstr ""
+
+#: of pandas.merge_ordered:48
+msgid "**how**"
+msgstr ""
+
+#: of pandas.merge_ordered:47
+msgid "{'left', 'right', 'outer', 'inner'}, default 'outer'"
+msgstr ""
+
+#: of pandas.merge_ordered:43
+msgid "left: use only keys from left frame (SQL: left outer join)"
+msgstr ""
+
+#: of pandas.merge_ordered:44
+msgid "right: use only keys from right frame (SQL: right outer join)"
+msgstr ""
+
+#: of pandas.merge_ordered:45
+msgid "outer: use union of keys from both frames (SQL: full outer join)"
+msgstr ""
+
+#: of pandas.merge_ordered:46
+msgid "inner: use intersection of keys from both frames (SQL: inner join)"
+msgstr ""
+
+#: of pandas.merge_ordered
+msgid "Returns"
+msgstr ""
+
+#: of pandas.merge_ordered:59
+msgid "**merged**"
+msgstr ""
+
+#: of pandas.merge_ordered:53
+msgid ""
+"The output type will the be same as 'left', if it is a subclass of "
+"DataFrame."
+msgstr ""
+
+#: of pandas.merge_ordered:64
+msgid ":obj:`merge`, :obj:`merge_asof`"
+msgstr ""
+
+#: of pandas.merge_ordered:69
+msgid "Examples"
+msgstr ""
+

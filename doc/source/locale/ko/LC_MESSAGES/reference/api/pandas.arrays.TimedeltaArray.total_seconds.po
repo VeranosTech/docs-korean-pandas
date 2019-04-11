@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.arrays.TimedeltaArray.total_seconds.rst:2
+msgid "pandas.arrays.TimedeltaArray.total\\_seconds"
+msgstr ""
+
+#: of pandas.arrays.TimedeltaArray.total_seconds:2
+msgid "Return total duration of each element expressed in seconds."
+msgstr ""
+
+#: of pandas.arrays.TimedeltaArray.total_seconds:4
+msgid ""
+"This method is available directly on TimedeltaArray, TimedeltaIndex and "
+"on Series containing timedelta values under the ``.dt`` namespace."
+msgstr ""
+
+#: of pandas.arrays.TimedeltaArray.total_seconds
+msgid "Returns"
+msgstr ""
+
+#: of pandas.arrays.TimedeltaArray.total_seconds:20
+msgid "**seconds**"
+msgstr ""
+
+#: of pandas.arrays.TimedeltaArray.total_seconds:19
+msgid "[ndarray, Float64Index, Series]"
+msgstr ""
+
+#: of pandas.arrays.TimedeltaArray.total_seconds:11
+msgid ""
+"When the calling object is a TimedeltaArray, the return type is ndarray."
+"  When the calling object is a TimedeltaIndex, the return type is a "
+"Float64Index. When the calling object is a Series, the return type is "
+"Series of type `float64` whose index is the same as the original."
+msgstr ""
+
+#: of pandas.arrays.TimedeltaArray.total_seconds:26
+msgid ":obj:`datetime.timedelta.total_seconds`"
+msgstr ""
+
+#: of pandas.arrays.TimedeltaArray.total_seconds:26
+msgid "Standard library version of this method."
+msgstr ""
+
+#: of pandas.arrays.TimedeltaArray.total_seconds:28
+msgid ":obj:`TimedeltaIndex.components`"
+msgstr ""
+
+#: of pandas.arrays.TimedeltaArray.total_seconds:29
+msgid "Return a DataFrame with components of each Timedelta."
+msgstr ""
+
+#: of pandas.arrays.TimedeltaArray.total_seconds:34
+msgid "Examples"
+msgstr ""
+
+#: of pandas.arrays.TimedeltaArray.total_seconds:35
+msgid "**Series**"
+msgstr ""
+
+#: of pandas.arrays.TimedeltaArray.total_seconds:54
+msgid "**TimedeltaIndex**"
+msgstr ""
+

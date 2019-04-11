@@ -1,0 +1,2255 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/frame.rst:1
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../reference/frame.rst:7
+msgid "DataFrame"
+msgstr ""
+
+#: ../../reference/frame.rst:11
+msgid "Constructor"
+msgstr ""
+
+#: ../../reference/frame.rst:16:<autosummary>:1
+msgid ""
+":obj:`DataFrame <pandas.DataFrame>`\\ \\(\\[data\\, index\\, columns\\, "
+"dtype\\, copy\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:16:<autosummary>:1
+msgid ""
+"Two-dimensional size-mutable, potentially heterogeneous tabular data "
+"structure with labeled axes (rows and columns)."
+msgstr ""
+
+#: ../../reference/frame.rst:18
+msgid "Attributes and underlying data"
+msgstr ""
+
+#: ../../reference/frame.rst:19
+msgid "**Axes**"
+msgstr ""
+
+#: ../../reference/frame.rst:26:<autosummary>:1
+msgid ":obj:`DataFrame.index <pandas.DataFrame.index>`\\"
+msgstr ""
+
+#: ../../reference/frame.rst:26:<autosummary>:1
+msgid "The index (row labels) of the DataFrame."
+msgstr ""
+
+#: ../../reference/frame.rst:26:<autosummary>:1
+msgid ":obj:`DataFrame.columns <pandas.DataFrame.columns>`\\"
+msgstr ""
+
+#: ../../reference/frame.rst:26:<autosummary>:1
+msgid "The column labels of the DataFrame."
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid ":obj:`DataFrame.dtypes <pandas.DataFrame.dtypes>`\\"
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid "Return the dtypes in the DataFrame."
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid ":obj:`DataFrame.ftypes <pandas.DataFrame.ftypes>`\\"
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid "Return the ftypes (indication of sparse/dense and dtype) in DataFrame."
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid ""
+":obj:`DataFrame.get_dtype_counts <pandas.DataFrame.get_dtype_counts>`\\ "
+"\\(\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid "Return counts of unique dtypes in this object."
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid ""
+":obj:`DataFrame.get_ftype_counts <pandas.DataFrame.get_ftype_counts>`\\ "
+"\\(\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid "(DEPRECATED) Return counts of unique ftypes in this object."
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid ""
+":obj:`DataFrame.select_dtypes <pandas.DataFrame.select_dtypes>`\\ "
+"\\(\\[include\\, exclude\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid "Return a subset of the DataFrame's columns based on the column dtypes."
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid ":obj:`DataFrame.values <pandas.DataFrame.values>`\\"
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid "Return a Numpy representation of the DataFrame."
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid ":obj:`DataFrame.get_values <pandas.DataFrame.get_values>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid "Return an ndarray after converting sparse values to dense."
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid ":obj:`DataFrame.axes <pandas.DataFrame.axes>`\\"
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid "Return a list representing the axes of the DataFrame."
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid ":obj:`DataFrame.ndim <pandas.DataFrame.ndim>`\\"
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid "Return an int representing the number of axes / array dimensions."
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid ":obj:`DataFrame.size <pandas.DataFrame.size>`\\"
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid "Return an int representing the number of elements in this object."
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid ":obj:`DataFrame.shape <pandas.DataFrame.shape>`\\"
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid "Return a tuple representing the dimensionality of the DataFrame."
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid ""
+":obj:`DataFrame.memory_usage <pandas.DataFrame.memory_usage>`\\ "
+"\\(\\[index\\, deep\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid "Return the memory usage of each column in bytes."
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid ":obj:`DataFrame.empty <pandas.DataFrame.empty>`\\"
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid "Indicator whether DataFrame is empty."
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid ":obj:`DataFrame.is_copy <pandas.DataFrame.is_copy>`\\"
+msgstr ""
+
+#: ../../reference/frame.rst:44:<autosummary>:1
+msgid "Return the copy."
+msgstr ""
+
+#: ../../reference/frame.rst:46
+msgid "Conversion"
+msgstr ""
+
+#: ../../reference/frame.rst:57:<autosummary>:1
+msgid ""
+":obj:`DataFrame.astype <pandas.DataFrame.astype>`\\ \\(dtype\\[\\, "
+"copy\\, errors\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:57:<autosummary>:1
+msgid "Cast a pandas object to a specified dtype ``dtype``."
+msgstr ""
+
+#: ../../reference/frame.rst:57:<autosummary>:1
+msgid ""
+":obj:`DataFrame.convert_objects <pandas.DataFrame.convert_objects>`\\ "
+"\\(\\[convert\\_dates\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:57:<autosummary>:1
+msgid "(DEPRECATED) Attempt to infer better dtype for object columns."
+msgstr ""
+
+#: ../../reference/frame.rst:57:<autosummary>:1
+msgid ":obj:`DataFrame.infer_objects <pandas.DataFrame.infer_objects>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:57:<autosummary>:1
+msgid "Attempt to infer better dtypes for object columns."
+msgstr ""
+
+#: ../../reference/frame.rst:57:<autosummary>:1
+msgid ":obj:`DataFrame.copy <pandas.DataFrame.copy>`\\ \\(\\[deep\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:57:<autosummary>:1
+msgid "Make a copy of this object's indices and data."
+msgstr ""
+
+#: ../../reference/frame.rst:57:<autosummary>:1
+msgid ":obj:`DataFrame.isna <pandas.DataFrame.isna>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:57:<autosummary>:1
+msgid "Detect missing values."
+msgstr ""
+
+#: ../../reference/frame.rst:57:<autosummary>:1
+msgid ":obj:`DataFrame.notna <pandas.DataFrame.notna>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:57:<autosummary>:1
+msgid "Detect existing (non-missing) values."
+msgstr ""
+
+#: ../../reference/frame.rst:57:<autosummary>:1
+msgid ":obj:`DataFrame.bool <pandas.DataFrame.bool>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:57:<autosummary>:1
+msgid "Return the bool of a single element PandasObject."
+msgstr ""
+
+#: ../../reference/frame.rst:59
+msgid "Indexing, iteration"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid ":obj:`DataFrame.head <pandas.DataFrame.head>`\\ \\(\\[n\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid "Return the first `n` rows."
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid ":obj:`DataFrame.at <pandas.DataFrame.at>`\\"
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid "Access a single value for a row/column label pair."
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid ":obj:`DataFrame.iat <pandas.DataFrame.iat>`\\"
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid "Access a single value for a row/column pair by integer position."
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid ":obj:`DataFrame.loc <pandas.DataFrame.loc>`\\"
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid "Access a group of rows and columns by label(s) or a boolean array."
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid ":obj:`DataFrame.iloc <pandas.DataFrame.iloc>`\\"
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid "Purely integer-location based indexing for selection by position."
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid ""
+":obj:`DataFrame.insert <pandas.DataFrame.insert>`\\ \\(loc\\, column\\, "
+"value\\[\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid "Insert column into DataFrame at specified location."
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid ":obj:`DataFrame.__iter__ <pandas.DataFrame.__iter__>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid "Iterate over infor axis"
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid ":obj:`DataFrame.items <pandas.DataFrame.items>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid "Iterator over (column name, Series) pairs."
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid ":obj:`DataFrame.keys <pandas.DataFrame.keys>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid "Get the 'info axis' (see Indexing for more)"
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid ":obj:`DataFrame.iteritems <pandas.DataFrame.iteritems>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid ":obj:`DataFrame.iterrows <pandas.DataFrame.iterrows>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid "Iterate over DataFrame rows as (index, Series) pairs."
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid ""
+":obj:`DataFrame.itertuples <pandas.DataFrame.itertuples>`\\ "
+"\\(\\[index\\, name\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid "Iterate over DataFrame rows as namedtuples."
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid ""
+":obj:`DataFrame.lookup <pandas.DataFrame.lookup>`\\ \\(row\\_labels\\, "
+"col\\_labels\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid "Label-based \"fancy indexing\" function for DataFrame."
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid ":obj:`DataFrame.pop <pandas.DataFrame.pop>`\\ \\(item\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid "Return item and drop from frame."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid ":obj:`DataFrame.tail <pandas.DataFrame.tail>`\\ \\(\\[n\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid "Return the last `n` rows."
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid ""
+":obj:`DataFrame.xs <pandas.DataFrame.xs>`\\ \\(key\\[\\, axis\\, level\\,"
+" drop\\_level\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid "Return cross-section from the Series/DataFrame."
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid ":obj:`DataFrame.get <pandas.DataFrame.get>`\\ \\(key\\[\\, default\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid "Get item from object for given key (DataFrame column, Panel slice, etc.)."
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid ":obj:`DataFrame.isin <pandas.DataFrame.isin>`\\ \\(values\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid "Whether each element in the DataFrame is contained in values."
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid ""
+":obj:`DataFrame.where <pandas.DataFrame.where>`\\ \\(cond\\[\\, other\\, "
+"inplace\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid "Replace values where the condition is False."
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid ""
+":obj:`DataFrame.mask <pandas.DataFrame.mask>`\\ \\(cond\\[\\, other\\, "
+"inplace\\, axis\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid "Replace values where the condition is True."
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid ""
+":obj:`DataFrame.query <pandas.DataFrame.query>`\\ \\(expr\\[\\, "
+"inplace\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:84:<autosummary>:1
+msgid "Query the columns of a DataFrame with a boolean expression."
+msgstr ""
+
+#: ../../reference/frame.rst:85
+msgid ""
+"For more information on ``.at``, ``.iat``, ``.loc``, and ``.iloc``,  see "
+"the :ref:`indexing documentation <indexing>`."
+msgstr ""
+
+#: ../../reference/frame.rst:89
+msgid "Binary operator functions"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.add <pandas.DataFrame.add>`\\ \\(other\\[\\, axis\\, "
+"level\\, fill\\_value\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid "Addition of dataframe and other, element-wise (binary operator `add`)."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.sub <pandas.DataFrame.sub>`\\ \\(other\\[\\, axis\\, "
+"level\\, fill\\_value\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid "Subtraction of dataframe and other, element-wise (binary operator `sub`)."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.mul <pandas.DataFrame.mul>`\\ \\(other\\[\\, axis\\, "
+"level\\, fill\\_value\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+"Multiplication of dataframe and other, element-wise (binary operator "
+"`mul`)."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.div <pandas.DataFrame.div>`\\ \\(other\\[\\, axis\\, "
+"level\\, fill\\_value\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+"Floating division of dataframe and other, element-wise (binary operator "
+"`truediv`)."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.truediv <pandas.DataFrame.truediv>`\\ \\(other\\[\\, "
+"axis\\, level\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.floordiv <pandas.DataFrame.floordiv>`\\ \\(other\\[\\, "
+"axis\\, level\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+"Integer division of dataframe and other, element-wise (binary operator "
+"`floordiv`)."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.mod <pandas.DataFrame.mod>`\\ \\(other\\[\\, axis\\, "
+"level\\, fill\\_value\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid "Modulo of dataframe and other, element-wise (binary operator `mod`)."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.pow <pandas.DataFrame.pow>`\\ \\(other\\[\\, axis\\, "
+"level\\, fill\\_value\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+"Exponential power of dataframe and other, element-wise (binary operator "
+"`pow`)."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ":obj:`DataFrame.dot <pandas.DataFrame.dot>`\\ \\(other\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid "Compute the matrix mutiplication between the DataFrame and other."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.radd <pandas.DataFrame.radd>`\\ \\(other\\[\\, axis\\, "
+"level\\, fill\\_value\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid "Addition of dataframe and other, element-wise (binary operator `radd`)."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.rsub <pandas.DataFrame.rsub>`\\ \\(other\\[\\, axis\\, "
+"level\\, fill\\_value\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid "Subtraction of dataframe and other, element-wise (binary operator `rsub`)."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.rmul <pandas.DataFrame.rmul>`\\ \\(other\\[\\, axis\\, "
+"level\\, fill\\_value\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+"Multiplication of dataframe and other, element-wise (binary operator "
+"`rmul`)."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.rdiv <pandas.DataFrame.rdiv>`\\ \\(other\\[\\, axis\\, "
+"level\\, fill\\_value\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+"Floating division of dataframe and other, element-wise (binary operator "
+"`rtruediv`)."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.rtruediv <pandas.DataFrame.rtruediv>`\\ \\(other\\[\\, "
+"axis\\, level\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.rfloordiv <pandas.DataFrame.rfloordiv>`\\ \\(other\\[\\, "
+"axis\\, level\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+"Integer division of dataframe and other, element-wise (binary operator "
+"`rfloordiv`)."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.rmod <pandas.DataFrame.rmod>`\\ \\(other\\[\\, axis\\, "
+"level\\, fill\\_value\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid "Modulo of dataframe and other, element-wise (binary operator `rmod`)."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.rpow <pandas.DataFrame.rpow>`\\ \\(other\\[\\, axis\\, "
+"level\\, fill\\_value\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+"Exponential power of dataframe and other, element-wise (binary operator "
+"`rpow`)."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.lt <pandas.DataFrame.lt>`\\ \\(other\\[\\, axis\\, "
+"level\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid "Less than of dataframe and other, element-wise (binary operator `lt`)."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.gt <pandas.DataFrame.gt>`\\ \\(other\\[\\, axis\\, "
+"level\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid "Greater than of dataframe and other, element-wise (binary operator `gt`)."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.le <pandas.DataFrame.le>`\\ \\(other\\[\\, axis\\, "
+"level\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+"Less than or equal to of dataframe and other, element-wise (binary "
+"operator `le`)."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.ge <pandas.DataFrame.ge>`\\ \\(other\\[\\, axis\\, "
+"level\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+"Greater than or equal to of dataframe and other, element-wise (binary "
+"operator `ge`)."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.ne <pandas.DataFrame.ne>`\\ \\(other\\[\\, axis\\, "
+"level\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid "Not equal to of dataframe and other, element-wise (binary operator `ne`)."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.eq <pandas.DataFrame.eq>`\\ \\(other\\[\\, axis\\, "
+"level\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid "Equal to of dataframe and other, element-wise (binary operator `eq`)."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.combine <pandas.DataFrame.combine>`\\ \\(other\\, "
+"func\\[\\, fill\\_value\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+"Perform column-wise combine with another DataFrame based on a passed "
+"function."
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid ""
+":obj:`DataFrame.combine_first <pandas.DataFrame.combine_first>`\\ "
+"\\(other\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:118:<autosummary>:1
+msgid "Update null elements with value in the same location in `other`."
+msgstr ""
+
+#: ../../reference/frame.rst:120
+msgid "Function application, GroupBy & Window"
+msgstr ""
+
+#: ../../reference/frame.rst:134:<autosummary>:1
+msgid ""
+":obj:`DataFrame.apply <pandas.DataFrame.apply>`\\ \\(func\\[\\, axis\\, "
+"broadcast\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:134:<autosummary>:1
+msgid "Apply a function along an axis of the DataFrame."
+msgstr ""
+
+#: ../../reference/frame.rst:134:<autosummary>:1
+msgid ":obj:`DataFrame.applymap <pandas.DataFrame.applymap>`\\ \\(func\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:134:<autosummary>:1
+msgid "Apply a function to a Dataframe elementwise."
+msgstr ""
+
+#: ../../reference/frame.rst:134:<autosummary>:1
+msgid ""
+":obj:`DataFrame.pipe <pandas.DataFrame.pipe>`\\ \\(func\\, \\*args\\, "
+"\\*\\*kwargs\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:134:<autosummary>:1
+msgid "Apply func(self, \\*args, \\*\\*kwargs)."
+msgstr ""
+
+#: ../../reference/frame.rst:134:<autosummary>:1
+msgid ":obj:`DataFrame.agg <pandas.DataFrame.agg>`\\ \\(func\\[\\, axis\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:134:<autosummary>:1
+msgid "Aggregate using one or more operations over the specified axis."
+msgstr ""
+
+#: ../../reference/frame.rst:134:<autosummary>:1
+msgid ""
+":obj:`DataFrame.aggregate <pandas.DataFrame.aggregate>`\\ \\(func\\[\\, "
+"axis\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:134:<autosummary>:1
+msgid ""
+":obj:`DataFrame.transform <pandas.DataFrame.transform>`\\ \\(func\\[\\, "
+"axis\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:134:<autosummary>:1
+msgid ""
+"Call ``func`` on self producing a DataFrame with transformed values and "
+"that has the same axis length as self."
+msgstr ""
+
+#: ../../reference/frame.rst:134:<autosummary>:1
+msgid ""
+":obj:`DataFrame.groupby <pandas.DataFrame.groupby>`\\ \\(\\[by\\, axis\\,"
+" level\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:134:<autosummary>:1
+msgid "Group DataFrame or Series using a mapper or by a Series of columns."
+msgstr ""
+
+#: ../../reference/frame.rst:134:<autosummary>:1
+msgid ""
+":obj:`DataFrame.rolling <pandas.DataFrame.rolling>`\\ \\(window\\[\\, "
+"min\\_periods\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:134:<autosummary>:1
+msgid "Provides rolling window calculations."
+msgstr ""
+
+#: ../../reference/frame.rst:134:<autosummary>:1
+msgid ""
+":obj:`DataFrame.expanding <pandas.DataFrame.expanding>`\\ "
+"\\(\\[min\\_periods\\, center\\, axis\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:134:<autosummary>:1
+msgid "Provides expanding transformations."
+msgstr ""
+
+#: ../../reference/frame.rst:134:<autosummary>:1
+msgid ""
+":obj:`DataFrame.ewm <pandas.DataFrame.ewm>`\\ \\(\\[com\\, span\\, "
+"halflife\\, alpha\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:134:<autosummary>:1
+msgid "Provides exponential weighted functions."
+msgstr ""
+
+#: ../../reference/frame.rst:138
+msgid "Computations / Descriptive Stats"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ":obj:`DataFrame.abs <pandas.DataFrame.abs>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Return a Series/DataFrame with absolute numeric value of each element."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.all <pandas.DataFrame.all>`\\ \\(\\[axis\\, "
+"bool\\_only\\, skipna\\, level\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Return whether all elements are True, potentially over an axis."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.any <pandas.DataFrame.any>`\\ \\(\\[axis\\, "
+"bool\\_only\\, skipna\\, level\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Return whether any element is True, potentially over an axis."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.clip <pandas.DataFrame.clip>`\\ \\(\\[lower\\, upper\\, "
+"axis\\, inplace\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Trim values at input threshold(s)."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.clip_lower <pandas.DataFrame.clip_lower>`\\ "
+"\\(threshold\\[\\, axis\\, inplace\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "(DEPRECATED) Trim values below a given threshold."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.clip_upper <pandas.DataFrame.clip_upper>`\\ "
+"\\(threshold\\[\\, axis\\, inplace\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "(DEPRECATED) Trim values above a given threshold."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.compound <pandas.DataFrame.compound>`\\ \\(\\[axis\\, "
+"skipna\\, level\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Return the compound percentage of the values for the requested axis."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.corr <pandas.DataFrame.corr>`\\ \\(\\[method\\, "
+"min\\_periods\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Compute pairwise correlation of columns, excluding NA/null values."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.corrwith <pandas.DataFrame.corrwith>`\\ \\(other\\[\\, "
+"axis\\, drop\\, method\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+"Compute pairwise correlation between rows or columns of DataFrame with "
+"rows or columns of Series or DataFrame."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.count <pandas.DataFrame.count>`\\ \\(\\[axis\\, level\\, "
+"numeric\\_only\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Count non-NA cells for each column or row."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ":obj:`DataFrame.cov <pandas.DataFrame.cov>`\\ \\(\\[min\\_periods\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Compute pairwise covariance of columns, excluding NA/null values."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.cummax <pandas.DataFrame.cummax>`\\ \\(\\[axis\\, "
+"skipna\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Return cumulative maximum over a DataFrame or Series axis."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.cummin <pandas.DataFrame.cummin>`\\ \\(\\[axis\\, "
+"skipna\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Return cumulative minimum over a DataFrame or Series axis."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.cumprod <pandas.DataFrame.cumprod>`\\ \\(\\[axis\\, "
+"skipna\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Return cumulative product over a DataFrame or Series axis."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.cumsum <pandas.DataFrame.cumsum>`\\ \\(\\[axis\\, "
+"skipna\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Return cumulative sum over a DataFrame or Series axis."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.describe <pandas.DataFrame.describe>`\\ "
+"\\(\\[percentiles\\, include\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+"Generate descriptive statistics that summarize the central tendency, "
+"dispersion and shape of a dataset's distribution, excluding ``NaN`` "
+"values."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.diff <pandas.DataFrame.diff>`\\ \\(\\[periods\\, "
+"axis\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "First discrete difference of element."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.eval <pandas.DataFrame.eval>`\\ \\(expr\\[\\, "
+"inplace\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Evaluate a string describing operations on DataFrame columns."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.kurt <pandas.DataFrame.kurt>`\\ \\(\\[axis\\, skipna\\, "
+"level\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+"Return unbiased kurtosis over requested axis using Fisher's definition of"
+" kurtosis (kurtosis of normal == 0.0)."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.kurtosis <pandas.DataFrame.kurtosis>`\\ \\(\\[axis\\, "
+"skipna\\, level\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.mad <pandas.DataFrame.mad>`\\ \\(\\[axis\\, skipna\\, "
+"level\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Return the mean absolute deviation of the values for the requested axis."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.max <pandas.DataFrame.max>`\\ \\(\\[axis\\, skipna\\, "
+"level\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Return the maximum of the values for the requested axis."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.mean <pandas.DataFrame.mean>`\\ \\(\\[axis\\, skipna\\, "
+"level\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Return the mean of the values for the requested axis."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.median <pandas.DataFrame.median>`\\ \\(\\[axis\\, "
+"skipna\\, level\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Return the median of the values for the requested axis."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.min <pandas.DataFrame.min>`\\ \\(\\[axis\\, skipna\\, "
+"level\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Return the minimum of the values for the requested axis."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.mode <pandas.DataFrame.mode>`\\ \\(\\[axis\\, "
+"numeric\\_only\\, dropna\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Get the mode(s) of each element along the selected axis."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.pct_change <pandas.DataFrame.pct_change>`\\ "
+"\\(\\[periods\\, fill\\_method\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Percentage change between the current and a prior element."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.prod <pandas.DataFrame.prod>`\\ \\(\\[axis\\, skipna\\, "
+"level\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Return the product of the values for the requested axis."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.product <pandas.DataFrame.product>`\\ \\(\\[axis\\, "
+"skipna\\, level\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.quantile <pandas.DataFrame.quantile>`\\ \\(\\[q\\, "
+"axis\\, numeric\\_only\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Return values at the given quantile over requested axis."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.rank <pandas.DataFrame.rank>`\\ \\(\\[axis\\, method\\, "
+"numeric\\_only\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Compute numerical data ranks (1 through n) along axis."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ":obj:`DataFrame.round <pandas.DataFrame.round>`\\ \\(\\[decimals\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Round a DataFrame to a variable number of decimal places."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.sem <pandas.DataFrame.sem>`\\ \\(\\[axis\\, skipna\\, "
+"level\\, ddof\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Return unbiased standard error of the mean over requested axis."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.skew <pandas.DataFrame.skew>`\\ \\(\\[axis\\, skipna\\, "
+"level\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Return unbiased skew over requested axis Normalized by N-1."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.sum <pandas.DataFrame.sum>`\\ \\(\\[axis\\, skipna\\, "
+"level\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Return the sum of the values for the requested axis."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.std <pandas.DataFrame.std>`\\ \\(\\[axis\\, skipna\\, "
+"level\\, ddof\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Return sample standard deviation over requested axis."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.var <pandas.DataFrame.var>`\\ \\(\\[axis\\, skipna\\, "
+"level\\, ddof\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Return unbiased variance over requested axis."
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid ""
+":obj:`DataFrame.nunique <pandas.DataFrame.nunique>`\\ \\(\\[axis\\, "
+"dropna\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:180:<autosummary>:1
+msgid "Count distinct observations over requested axis."
+msgstr ""
+
+#: ../../reference/frame.rst:182
+msgid "Reindexing / Selection / Label manipulation"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ":obj:`DataFrame.add_prefix <pandas.DataFrame.add_prefix>`\\ \\(prefix\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid "Prefix labels with string `prefix`."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ":obj:`DataFrame.add_suffix <pandas.DataFrame.add_suffix>`\\ \\(suffix\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid "Suffix labels with string `suffix`."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+":obj:`DataFrame.align <pandas.DataFrame.align>`\\ \\(other\\[\\, join\\, "
+"axis\\, level\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+"Align two objects on their axes with the specified join method for each "
+"axis Index."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+":obj:`DataFrame.at_time <pandas.DataFrame.at_time>`\\ \\(time\\[\\, "
+"asof\\, axis\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid "Select values at particular time of day (e.g."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+":obj:`DataFrame.between_time <pandas.DataFrame.between_time>`\\ "
+"\\(start\\_time\\, end\\_time\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid "Select values between particular times of the day (e.g., 9:00-9:30 AM)."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+":obj:`DataFrame.drop <pandas.DataFrame.drop>`\\ \\(\\[labels\\, axis\\, "
+"index\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid "Drop specified labels from rows or columns."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+":obj:`DataFrame.drop_duplicates <pandas.DataFrame.drop_duplicates>`\\ "
+"\\(\\[subset\\, keep\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+"Return DataFrame with duplicate rows removed, optionally only considering"
+" certain columns."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+":obj:`DataFrame.duplicated <pandas.DataFrame.duplicated>`\\ "
+"\\(\\[subset\\, keep\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+"Return boolean Series denoting duplicate rows, optionally only "
+"considering certain columns."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ":obj:`DataFrame.equals <pandas.DataFrame.equals>`\\ \\(other\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid "Test whether two objects contain the same elements."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+":obj:`DataFrame.filter <pandas.DataFrame.filter>`\\ \\(\\[items\\, "
+"like\\, regex\\, axis\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+"Subset rows or columns of dataframe according to labels in the specified "
+"index."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ":obj:`DataFrame.first <pandas.DataFrame.first>`\\ \\(offset\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+"Convenience method for subsetting initial periods of time series data "
+"based on a date offset."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+":obj:`DataFrame.idxmax <pandas.DataFrame.idxmax>`\\ \\(\\[axis\\, "
+"skipna\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid "Return index of first occurrence of maximum over requested axis."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+":obj:`DataFrame.idxmin <pandas.DataFrame.idxmin>`\\ \\(\\[axis\\, "
+"skipna\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid "Return index of first occurrence of minimum over requested axis."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ":obj:`DataFrame.last <pandas.DataFrame.last>`\\ \\(offset\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+"Convenience method for subsetting final periods of time series data based"
+" on a date offset."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+":obj:`DataFrame.reindex <pandas.DataFrame.reindex>`\\ \\(\\[labels\\, "
+"index\\, columns\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+"Conform DataFrame to new index with optional filling logic, placing "
+"NA/NaN in locations having no value in the previous index."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+":obj:`DataFrame.reindex_axis <pandas.DataFrame.reindex_axis>`\\ "
+"\\(labels\\[\\, axis\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid "(DEPRECATED) Conform input object to new index."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+":obj:`DataFrame.reindex_like <pandas.DataFrame.reindex_like>`\\ "
+"\\(other\\[\\, method\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid "Return an object with matching indices as other object."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+":obj:`DataFrame.rename <pandas.DataFrame.rename>`\\ \\(\\[mapper\\, "
+"index\\, columns\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid "Alter axes labels."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+":obj:`DataFrame.rename_axis <pandas.DataFrame.rename_axis>`\\ "
+"\\(\\[mapper\\, index\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid "Set the name of the axis for the index or columns."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+":obj:`DataFrame.reset_index <pandas.DataFrame.reset_index>`\\ "
+"\\(\\[level\\, drop\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid "Reset the index, or a level of it."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+":obj:`DataFrame.sample <pandas.DataFrame.sample>`\\ \\(\\[n\\, frac\\, "
+"replace\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid "Return a random sample of items from an axis of object."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+":obj:`DataFrame.select <pandas.DataFrame.select>`\\ \\(crit\\[\\, "
+"axis\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid "(DEPRECATED) Return data corresponding to axis labels matching criteria."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+":obj:`DataFrame.set_axis <pandas.DataFrame.set_axis>`\\ \\(labels\\[\\, "
+"axis\\, inplace\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid "Assign desired index to given axis."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+":obj:`DataFrame.set_index <pandas.DataFrame.set_index>`\\ \\(keys\\[\\, "
+"drop\\, append\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid "Set the DataFrame index using existing columns."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+":obj:`DataFrame.take <pandas.DataFrame.take>`\\ \\(indices\\[\\, axis\\, "
+"convert\\, is\\_copy\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid "Return the elements in the given *positional* indices along an axis."
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid ""
+":obj:`DataFrame.truncate <pandas.DataFrame.truncate>`\\ \\(\\[before\\, "
+"after\\, axis\\, copy\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:214:<autosummary>:1
+msgid "Truncate a Series or DataFrame before and after some index value."
+msgstr ""
+
+#: ../../reference/frame.rst:218
+msgid "Missing data handling"
+msgstr ""
+
+#: ../../reference/frame.rst:226:<autosummary>:1
+msgid ""
+":obj:`DataFrame.dropna <pandas.DataFrame.dropna>`\\ \\(\\[axis\\, how\\, "
+"thresh\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:226:<autosummary>:1
+msgid "Remove missing values."
+msgstr ""
+
+#: ../../reference/frame.rst:226:<autosummary>:1
+msgid ""
+":obj:`DataFrame.fillna <pandas.DataFrame.fillna>`\\ \\(\\[value\\, "
+"method\\, axis\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:226:<autosummary>:1
+msgid "Fill NA/NaN values using the specified method."
+msgstr ""
+
+#: ../../reference/frame.rst:226:<autosummary>:1
+msgid ""
+":obj:`DataFrame.replace <pandas.DataFrame.replace>`\\ "
+"\\(\\[to\\_replace\\, value\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:226:<autosummary>:1
+msgid "Replace values given in `to_replace` with `value`."
+msgstr ""
+
+#: ../../reference/frame.rst:226:<autosummary>:1
+msgid ""
+":obj:`DataFrame.interpolate <pandas.DataFrame.interpolate>`\\ "
+"\\(\\[method\\, axis\\, limit\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:226:<autosummary>:1
+msgid "Interpolate values according to different methods."
+msgstr ""
+
+#: ../../reference/frame.rst:228
+msgid "Reshaping, sorting, transposing"
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid ""
+":obj:`DataFrame.droplevel <pandas.DataFrame.droplevel>`\\ \\(level\\[\\, "
+"axis\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid "Return DataFrame with requested index / column level(s) removed."
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid ""
+":obj:`DataFrame.pivot <pandas.DataFrame.pivot>`\\ \\(\\[index\\, "
+"columns\\, values\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid "Return reshaped DataFrame organized by given index / column values."
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid ""
+":obj:`DataFrame.pivot_table <pandas.DataFrame.pivot_table>`\\ "
+"\\(\\[values\\, index\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid "Create a spreadsheet-style pivot table as a DataFrame."
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid ""
+":obj:`DataFrame.reorder_levels <pandas.DataFrame.reorder_levels>`\\ "
+"\\(order\\[\\, axis\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid "Rearrange index levels using input order."
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid ""
+":obj:`DataFrame.sort_values <pandas.DataFrame.sort_values>`\\ \\(by\\[\\,"
+" axis\\, ascending\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid "Sort by the values along either axis"
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid ""
+":obj:`DataFrame.sort_index <pandas.DataFrame.sort_index>`\\ \\(\\[axis\\,"
+" level\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid "Sort object by labels (along an axis)"
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid ""
+":obj:`DataFrame.nlargest <pandas.DataFrame.nlargest>`\\ \\(n\\, "
+"columns\\[\\, keep\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid "Return the first `n` rows ordered by `columns` in descending order."
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid ""
+":obj:`DataFrame.nsmallest <pandas.DataFrame.nsmallest>`\\ \\(n\\, "
+"columns\\[\\, keep\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid "Return the first `n` rows ordered by `columns` in ascending order."
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid ""
+":obj:`DataFrame.swaplevel <pandas.DataFrame.swaplevel>`\\ \\(\\[i\\, j\\,"
+" axis\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid "Swap levels i and j in a MultiIndex on a particular axis."
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid ""
+":obj:`DataFrame.stack <pandas.DataFrame.stack>`\\ \\(\\[level\\, "
+"dropna\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid "Stack the prescribed level(s) from columns to index."
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid ""
+":obj:`DataFrame.unstack <pandas.DataFrame.unstack>`\\ \\(\\[level\\, "
+"fill\\_value\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid ""
+"Pivot a level of the (necessarily hierarchical) index labels, returning a"
+" DataFrame having a new level of column labels whose inner-most level "
+"consists of the pivoted index labels."
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid ""
+":obj:`DataFrame.swapaxes <pandas.DataFrame.swapaxes>`\\ \\(axis1\\, "
+"axis2\\[\\, copy\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid "Interchange axes and swap values axes appropriately."
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid ""
+":obj:`DataFrame.melt <pandas.DataFrame.melt>`\\ \\(\\[id\\_vars\\, "
+"value\\_vars\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid ""
+"Unpivots a DataFrame from wide format to long format, optionally leaving "
+"identifier variables set."
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid ":obj:`DataFrame.squeeze <pandas.DataFrame.squeeze>`\\ \\(\\[axis\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid "Squeeze 1 dimensional axis objects into scalars."
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid ":obj:`DataFrame.to_panel <pandas.DataFrame.to_panel>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid ""
+"(DEPRECATED) Transform long (stacked) format (DataFrame) into wide (3D, "
+"Panel) format."
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid ":obj:`DataFrame.to_xarray <pandas.DataFrame.to_xarray>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid "Return an xarray object from the pandas object."
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid ":obj:`DataFrame.T <pandas.DataFrame.T>`\\"
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid "Transpose index and columns."
+msgstr ""
+
+#: ../../reference/frame.rst:250:<autosummary>:1
+msgid ""
+":obj:`DataFrame.transpose <pandas.DataFrame.transpose>`\\ \\(\\*args\\, "
+"\\*\\*kwargs\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:252
+msgid "Combining / joining / merging"
+msgstr ""
+
+#: ../../reference/frame.rst:261:<autosummary>:1
+msgid ""
+":obj:`DataFrame.append <pandas.DataFrame.append>`\\ \\(other\\[\\, "
+"ignore\\_index\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:261:<autosummary>:1
+msgid "Append rows of `other` to the end of caller, returning a new object."
+msgstr ""
+
+#: ../../reference/frame.rst:261:<autosummary>:1
+msgid ":obj:`DataFrame.assign <pandas.DataFrame.assign>`\\ \\(\\*\\*kwargs\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:261:<autosummary>:1
+msgid "Assign new columns to a DataFrame."
+msgstr ""
+
+#: ../../reference/frame.rst:261:<autosummary>:1
+msgid ""
+":obj:`DataFrame.join <pandas.DataFrame.join>`\\ \\(other\\[\\, on\\, "
+"how\\, lsuffix\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:261:<autosummary>:1
+msgid "Join columns of another DataFrame."
+msgstr ""
+
+#: ../../reference/frame.rst:261:<autosummary>:1
+msgid ""
+":obj:`DataFrame.merge <pandas.DataFrame.merge>`\\ \\(right\\[\\, how\\, "
+"on\\, left\\_on\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:261:<autosummary>:1
+msgid "Merge DataFrame or named Series objects with a database-style join."
+msgstr ""
+
+#: ../../reference/frame.rst:261:<autosummary>:1
+msgid ""
+":obj:`DataFrame.update <pandas.DataFrame.update>`\\ \\(other\\[\\, "
+"join\\, overwrite\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:261:<autosummary>:1
+msgid "Modify in place using non-NA values from another DataFrame."
+msgstr ""
+
+#: ../../reference/frame.rst:263
+msgid "Time series-related"
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid ""
+":obj:`DataFrame.asfreq <pandas.DataFrame.asfreq>`\\ \\(freq\\[\\, "
+"method\\, how\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid "Convert TimeSeries to specified frequency."
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid ""
+":obj:`DataFrame.asof <pandas.DataFrame.asof>`\\ \\(where\\[\\, "
+"subset\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid "Return the last row(s) without any NaNs before `where`."
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid ""
+":obj:`DataFrame.shift <pandas.DataFrame.shift>`\\ \\(\\[periods\\, "
+"freq\\, axis\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid "Shift index by desired number of periods with an optional time `freq`."
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid ""
+":obj:`DataFrame.slice_shift <pandas.DataFrame.slice_shift>`\\ "
+"\\(\\[periods\\, axis\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid "Equivalent to `shift` without copying data."
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid ""
+":obj:`DataFrame.tshift <pandas.DataFrame.tshift>`\\ \\(\\[periods\\, "
+"freq\\, axis\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid "Shift the time index, using the index's frequency if available."
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid ""
+":obj:`DataFrame.first_valid_index <pandas.DataFrame.first_valid_index>`\\"
+" \\(\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid "Return index for first non-NA/null value."
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid ""
+":obj:`DataFrame.last_valid_index <pandas.DataFrame.last_valid_index>`\\ "
+"\\(\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid "Return index for last non-NA/null value."
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid ""
+":obj:`DataFrame.resample <pandas.DataFrame.resample>`\\ \\(rule\\[\\, "
+"how\\, axis\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid "Resample time-series data."
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid ""
+":obj:`DataFrame.to_period <pandas.DataFrame.to_period>`\\ \\(\\[freq\\, "
+"axis\\, copy\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid ""
+"Convert DataFrame from DatetimeIndex to PeriodIndex with desired "
+"frequency (inferred from index if not passed)."
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid ""
+":obj:`DataFrame.to_timestamp <pandas.DataFrame.to_timestamp>`\\ "
+"\\(\\[freq\\, how\\, axis\\, copy\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid "Cast to DatetimeIndex of timestamps, at *beginning* of period."
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid ""
+":obj:`DataFrame.tz_convert <pandas.DataFrame.tz_convert>`\\ \\(tz\\[\\, "
+"axis\\, level\\, copy\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid "Convert tz-aware axis to target time zone."
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid ""
+":obj:`DataFrame.tz_localize <pandas.DataFrame.tz_localize>`\\ \\(tz\\[\\,"
+" axis\\, level\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:279:<autosummary>:1
+msgid "Localize tz-naive index of a Series or DataFrame to target time zone."
+msgstr ""
+
+#: ../../reference/frame.rst:283
+msgid "Plotting"
+msgstr ""
+
+#: ../../reference/frame.rst:284
+msgid ""
+"``DataFrame.plot`` is both a callable method and a namespace attribute "
+"for specific plotting methods of the form ``DataFrame.plot.<kind>``."
+msgstr ""
+
+#: ../../reference/frame.rst:292:<autosummary>:1
+msgid ""
+":obj:`DataFrame.plot <pandas.DataFrame.plot>`\\ \\(\\[x\\, y\\, kind\\, "
+"ax\\, ....\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:292:<autosummary>:1
+msgid "DataFrame plotting accessor and method"
+msgstr ""
+
+#: ../../reference/frame.rst:308:<autosummary>:1
+msgid ""
+":obj:`DataFrame.plot.area <pandas.DataFrame.plot.area>`\\ \\(\\[x\\, "
+"y\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:308:<autosummary>:1
+msgid "Draw a stacked area plot."
+msgstr ""
+
+#: ../../reference/frame.rst:308:<autosummary>:1
+msgid ":obj:`DataFrame.plot.bar <pandas.DataFrame.plot.bar>`\\ \\(\\[x\\, y\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:308:<autosummary>:1
+msgid "Vertical bar plot."
+msgstr ""
+
+#: ../../reference/frame.rst:308:<autosummary>:1
+msgid ""
+":obj:`DataFrame.plot.barh <pandas.DataFrame.plot.barh>`\\ \\(\\[x\\, "
+"y\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:308:<autosummary>:1
+msgid "Make a horizontal bar plot."
+msgstr ""
+
+#: ../../reference/frame.rst:308:<autosummary>:1
+msgid ":obj:`DataFrame.plot.box <pandas.DataFrame.plot.box>`\\ \\(\\[by\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:308:<autosummary>:1
+msgid "Make a box plot of the DataFrame columns."
+msgstr ""
+
+#: ../../reference/frame.rst:308:<autosummary>:1
+msgid ""
+":obj:`DataFrame.plot.density <pandas.DataFrame.plot.density>`\\ "
+"\\(\\[bw\\_method\\, ind\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:308:<autosummary>:1
+msgid "Generate Kernel Density Estimate plot using Gaussian kernels."
+msgstr ""
+
+#: ../../reference/frame.rst:308:<autosummary>:1
+msgid ""
+":obj:`DataFrame.plot.hexbin <pandas.DataFrame.plot.hexbin>`\\ \\(x\\, "
+"y\\[\\, C\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:308:<autosummary>:1
+msgid "Generate a hexagonal binning plot."
+msgstr ""
+
+#: ../../reference/frame.rst:308:<autosummary>:1
+msgid ""
+":obj:`DataFrame.plot.hist <pandas.DataFrame.plot.hist>`\\ \\(\\[by\\, "
+"bins\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:308:<autosummary>:1
+msgid "Draw one histogram of the DataFrame's columns."
+msgstr ""
+
+#: ../../reference/frame.rst:308:<autosummary>:1
+msgid ""
+":obj:`DataFrame.plot.kde <pandas.DataFrame.plot.kde>`\\ "
+"\\(\\[bw\\_method\\, ind\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:308:<autosummary>:1
+msgid ""
+":obj:`DataFrame.plot.line <pandas.DataFrame.plot.line>`\\ \\(\\[x\\, "
+"y\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:308:<autosummary>:1
+msgid "Plot DataFrame columns as lines."
+msgstr ""
+
+#: ../../reference/frame.rst:308:<autosummary>:1
+msgid ":obj:`DataFrame.plot.pie <pandas.DataFrame.plot.pie>`\\ \\(\\[y\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:308:<autosummary>:1
+msgid "Generate a pie plot."
+msgstr ""
+
+#: ../../reference/frame.rst:308:<autosummary>:1
+msgid ""
+":obj:`DataFrame.plot.scatter <pandas.DataFrame.plot.scatter>`\\ \\(x\\, "
+"y\\[\\, s\\, c\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:308:<autosummary>:1
+msgid "Create a scatter plot with varying marker point size and color."
+msgstr ""
+
+#: ../../reference/frame.rst:314:<autosummary>:1
+msgid ""
+":obj:`DataFrame.boxplot <pandas.DataFrame.boxplot>`\\ \\(\\[column\\, "
+"by\\, ax\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:314:<autosummary>:1
+msgid "Make a box plot from DataFrame columns."
+msgstr ""
+
+#: ../../reference/frame.rst:314:<autosummary>:1
+msgid ""
+":obj:`DataFrame.hist <pandas.DataFrame.hist>`\\ \\(\\[column\\, by\\, "
+"grid\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:314:<autosummary>:1
+msgid "Make a histogram of the DataFrame's."
+msgstr ""
+
+#: ../../reference/frame.rst:316
+msgid "Serialization / IO / Conversion"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.from_csv <pandas.DataFrame.from_csv>`\\ \\(path\\[\\, "
+"header\\, sep\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "(DEPRECATED) Read CSV file."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.from_dict <pandas.DataFrame.from_dict>`\\ \\(data\\[\\, "
+"orient\\, dtype\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Construct DataFrame from dict of array-like or dicts."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.from_items <pandas.DataFrame.from_items>`\\ "
+"\\(items\\[\\, columns\\, orient\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "(DEPRECATED) Construct a DataFrame from a list of tuples."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.from_records <pandas.DataFrame.from_records>`\\ "
+"\\(data\\[\\, index\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Convert structured or record ndarray to DataFrame."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.info <pandas.DataFrame.info>`\\ \\(\\[verbose\\, buf\\, "
+"max\\_cols\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Print a concise summary of a DataFrame."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.to_parquet <pandas.DataFrame.to_parquet>`\\ "
+"\\(fname\\[\\, engine\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Write a DataFrame to the binary parquet format."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.to_pickle <pandas.DataFrame.to_pickle>`\\ \\(path\\[\\, "
+"compression\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Pickle (serialize) object to file."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.to_csv <pandas.DataFrame.to_csv>`\\ "
+"\\(\\[path\\_or\\_buf\\, sep\\, na\\_rep\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Write object to a comma-separated values (csv) file."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.to_hdf <pandas.DataFrame.to_hdf>`\\ \\(path\\_or\\_buf\\,"
+" key\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Write the contained data to an HDF5 file using HDFStore."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.to_sql <pandas.DataFrame.to_sql>`\\ \\(name\\, con\\[\\, "
+"schema\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Write records stored in a DataFrame to a SQL database."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.to_dict <pandas.DataFrame.to_dict>`\\ \\(\\[orient\\, "
+"into\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Convert the DataFrame to a dictionary."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.to_excel <pandas.DataFrame.to_excel>`\\ "
+"\\(excel\\_writer\\[\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Write object to an Excel sheet."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.to_json <pandas.DataFrame.to_json>`\\ "
+"\\(\\[path\\_or\\_buf\\, orient\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Convert the object to a JSON string."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.to_html <pandas.DataFrame.to_html>`\\ \\(\\[buf\\, "
+"columns\\, col\\_space\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Render a DataFrame as an HTML table."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ":obj:`DataFrame.to_feather <pandas.DataFrame.to_feather>`\\ \\(fname\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Write out the binary feather-format for DataFrames."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.to_latex <pandas.DataFrame.to_latex>`\\ \\(\\[buf\\, "
+"columns\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Render an object to a LaTeX tabular environment table."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.to_stata <pandas.DataFrame.to_stata>`\\ \\(fname\\[\\, "
+"convert\\_dates\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Export DataFrame object to Stata dta format."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.to_msgpack <pandas.DataFrame.to_msgpack>`\\ "
+"\\(\\[path\\_or\\_buf\\, encoding\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Serialize object to input file path using msgpack format."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.to_gbq <pandas.DataFrame.to_gbq>`\\ "
+"\\(destination\\_table\\[\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Write a DataFrame to a Google BigQuery table."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.to_records <pandas.DataFrame.to_records>`\\ "
+"\\(\\[index\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Convert DataFrame to a NumPy record array."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.to_sparse <pandas.DataFrame.to_sparse>`\\ "
+"\\(\\[fill\\_value\\, kind\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Convert to SparseDataFrame."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ":obj:`DataFrame.to_dense <pandas.DataFrame.to_dense>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Return dense representation of NDFrame (as opposed to sparse)."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.to_string <pandas.DataFrame.to_string>`\\ \\(\\[buf\\, "
+"columns\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Render a DataFrame to a console-friendly tabular output."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+":obj:`DataFrame.to_clipboard <pandas.DataFrame.to_clipboard>`\\ "
+"\\(\\[excel\\, sep\\]\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid "Copy object to the system clipboard."
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ":obj:`DataFrame.style <pandas.DataFrame.style>`\\"
+msgstr ""
+
+#: ../../reference/frame.rst:345:<autosummary>:1
+msgid ""
+"Property returning a Styler object containing methods for building a "
+"styled HTML representation fo the DataFrame."
+msgstr ""
+
+#: ../../reference/frame.rst:347
+msgid "Sparse"
+msgstr ""
+
+#: ../../reference/frame.rst:351:<autosummary>:1
+msgid ":obj:`SparseDataFrame.to_coo <pandas.SparseDataFrame.to_coo>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/frame.rst:351:<autosummary>:1
+msgid "Return the contents of the frame as a sparse SciPy COO matrix."
+msgstr ""
+

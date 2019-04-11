@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.notnull.rst:2
+msgid "pandas.notnull"
+msgstr ""
+
+#: of pandas.notnull:2
+msgid "Detect non-missing values for an array-like object."
+msgstr ""
+
+#: of pandas.notnull:4
+msgid ""
+"This function takes a scalar or array-like object and indicates whether "
+"values are valid (not missing, which is ``NaN`` in numeric arrays, "
+"``None`` or ``NaN`` in object arrays, ``NaT`` in datetimelike)."
+msgstr ""
+
+#: of pandas.notnull
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.notnull:11
+msgid "**obj**"
+msgstr ""
+
+#: of pandas.notnull:10
+msgid "array-like or object value"
+msgstr ""
+
+#: of pandas.notnull:11
+msgid "Object to check for *not* null or *non*-missing values."
+msgstr ""
+
+#: of pandas.notnull
+msgid "Returns"
+msgstr ""
+
+#: of pandas.notnull:23
+msgid "**bool or array-like of bool**"
+msgstr ""
+
+#: of pandas.notnull:16
+msgid ""
+"For scalar input, returns a scalar boolean. For array input, returns an "
+"array of boolean indicating whether each corresponding element is valid."
+msgstr ""
+
+#: of pandas.notnull:29
+msgid ":obj:`isna`"
+msgstr ""
+
+#: of pandas.notnull:29
+msgid "Boolean inverse of pandas.notna."
+msgstr ""
+
+#: of pandas.notnull:32
+msgid ":obj:`Series.notna`"
+msgstr ""
+
+#: of pandas.notnull:32
+msgid "Detect valid values in a Series."
+msgstr ""
+
+#: of pandas.notnull:35
+msgid ":obj:`DataFrame.notna`"
+msgstr ""
+
+#: of pandas.notnull:35
+msgid "Detect valid values in a DataFrame."
+msgstr ""
+
+#: of pandas.notnull:37
+msgid ":obj:`Index.notna`"
+msgstr ""
+
+#: of pandas.notnull:38
+msgid "Detect valid values in an Index."
+msgstr ""
+
+#: of pandas.notnull:43
+msgid "Examples"
+msgstr ""
+
+#: of pandas.notnull:44
+msgid "Scalar arguments (including strings) result in a scalar boolean."
+msgstr ""
+
+#: of pandas.notnull:52
+msgid "ndarrays result in an ndarray of booleans."
+msgstr ""
+
+#: of pandas.notnull:62
+msgid "For indexes, an ndarray of booleans is returned."
+msgstr ""
+
+#: of pandas.notnull:72
+msgid "For Series and DataFrame, the same type is returned, containing booleans."
+msgstr ""
+

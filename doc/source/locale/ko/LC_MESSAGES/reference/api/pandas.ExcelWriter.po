@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.ExcelWriter.rst:2
+msgid "pandas.ExcelWriter"
+msgstr ""
+
+#: of pandas.ExcelWriter:2
+msgid ""
+"Class for writing DataFrame objects into excel sheets, default is to use "
+"xlwt for xls, openpyxl for xlsx.  See DataFrame.to_excel for typical "
+"usage."
+msgstr ""
+
+#: of pandas.ExcelWriter
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.ExcelWriter:9
+msgid "**path**"
+msgstr ""
+
+#: of pandas.ExcelWriter:8
+msgid "string"
+msgstr ""
+
+#: of pandas.ExcelWriter:9
+msgid "Path to xls or xlsx file."
+msgstr ""
+
+#: of pandas.ExcelWriter:14
+msgid "**engine**"
+msgstr ""
+
+#: of pandas.ExcelWriter:13
+msgid "string (optional)"
+msgstr ""
+
+#: of pandas.ExcelWriter:12
+msgid ""
+"Engine to use for writing. If None, defaults to "
+"``io.excel.<extension>.writer``.  NOTE: can only be passed as a keyword "
+"argument."
+msgstr ""
+
+#: of pandas.ExcelWriter:17
+msgid "**date_format**"
+msgstr ""
+
+#: of pandas.ExcelWriter:16 pandas.ExcelWriter:20
+msgid "string, default None"
+msgstr ""
+
+#: of pandas.ExcelWriter:17
+msgid "Format string for dates written into Excel files (e.g. 'YYYY-MM-DD')"
+msgstr ""
+
+#: of pandas.ExcelWriter:21
+msgid "**datetime_format**"
+msgstr ""
+
+#: of pandas.ExcelWriter:20
+msgid ""
+"Format string for datetime objects written into Excel files (e.g. 'YYYY-"
+"MM-DD HH:MM:SS')"
+msgstr ""
+
+#: of pandas.ExcelWriter:24
+msgid "**mode**"
+msgstr ""
+
+#: of pandas.ExcelWriter:23
+msgid "{'w' or 'a'}, default 'w'"
+msgstr ""
+
+#: of pandas.ExcelWriter:24
+msgid "File mode to use (write or append)."
+msgstr ""
+
+#: of pandas.ExcelWriter:34
+msgid "**.. versionadded:: 0.24.0**"
+msgstr ""
+
+#: of pandas.ExcelWriter:37
+msgid "Notes"
+msgstr ""
+
+#: of pandas.ExcelWriter:38
+msgid "None of the methods and properties are considered public."
+msgstr ""
+
+#: of pandas.ExcelWriter:40
+msgid ""
+"For compatibility with CSV writers, ExcelWriter serializes lists and "
+"dicts to strings before writing."
+msgstr ""
+
+#: of pandas.ExcelWriter:45
+msgid "Examples"
+msgstr ""
+
+#: of pandas.ExcelWriter:46
+msgid "Default usage:"
+msgstr ""
+
+#: of pandas.ExcelWriter:51
+msgid "To write to separate sheets in a single file:"
+msgstr ""
+
+#: of pandas.ExcelWriter:57
+msgid "You can set the date format or datetime format:"
+msgstr ""
+
+#: of pandas.ExcelWriter:64
+msgid "You can also append to an existing Excel file:"
+msgstr ""
+
+#: of pandas.ExcelWriter:72
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.ExcelWriter:74 pandas.ExcelWriter:82
+msgid "**None**"
+msgstr ""
+
+#: of pandas.ExcelWriter:80
+msgid "Methods"
+msgstr ""
+

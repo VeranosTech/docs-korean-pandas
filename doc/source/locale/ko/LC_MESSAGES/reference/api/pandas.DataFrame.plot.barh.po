@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.plot.barh.rst:2
+msgid "pandas.DataFrame.plot.barh"
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:2
+msgid "Make a horizontal bar plot."
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:4
+msgid ""
+"A horizontal bar plot is a plot that presents quantitative data with "
+"rectangular bars with lengths proportional to the values that they "
+"represent. A bar plot shows comparisons among discrete categories. One "
+"axis of the plot shows the specific categories being compared, and the "
+"other axis represents a measured value."
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:13
+msgid "**x**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:12
+msgid "label or position, default DataFrame.index"
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:13
+msgid "Column to be used for categories."
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:16
+msgid "**y**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:15
+msgid "label or position, default All numeric columns in dataframe"
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:16
+msgid "Columns to be plotted from the DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:19
+msgid "**\\*\\*kwds**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:19
+msgid "Keyword arguments to pass on to :meth:`pandas.DataFrame.plot`."
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:29
+msgid "**axes** : :class:`matplotlib.axes.Axes` or numpy.ndarray of them."
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:28
+msgid "matplotlib.axes.Axes or numpy.ndarray of them."
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:35
+msgid ":obj:`pandas.DataFrame.plot.bar`"
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:35
+msgid "Vertical bar plot."
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:38
+msgid ":obj:`pandas.DataFrame.plot`"
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:38
+msgid "Make plots of DataFrame using matplotlib."
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:40
+msgid ":obj:`matplotlib.axes.Axes.bar`"
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:41
+msgid "Plot a vertical bar plot using matplotlib."
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:46
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:47
+msgid "Basic example"
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:55
+msgid "Plot a whole DataFrame to a horizontal bar plot"
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:68
+msgid "Plot a column of the DataFrame to a horizontal bar plot"
+msgstr ""
+
+#: of pandas.DataFrame.plot.barh:81
+msgid "Plot DataFrame versus the desired column"
+msgstr ""
+

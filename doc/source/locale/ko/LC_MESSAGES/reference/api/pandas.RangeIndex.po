@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.RangeIndex.rst:2
+msgid "pandas.RangeIndex"
+msgstr ""
+
+#: of pandas.RangeIndex:2
+msgid "Immutable Index implementing a monotonic integer range."
+msgstr ""
+
+#: of pandas.RangeIndex:4
+msgid ""
+"RangeIndex is a memory-saving special case of Int64Index limited to "
+"representing monotonic ranges. Using RangeIndex may in some instances "
+"improve computing speed."
+msgstr ""
+
+#: of pandas.RangeIndex:8
+msgid ""
+"This is the default index type used by DataFrame and Series when no "
+"explicit index is provided by the user."
+msgstr ""
+
+#: of pandas.RangeIndex
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.RangeIndex:14
+msgid "**start**"
+msgstr ""
+
+#: of pandas.RangeIndex:13
+msgid "int (default: 0), or other RangeIndex instance"
+msgstr ""
+
+#: of pandas.RangeIndex:14
+msgid "If int and \"stop\" is not given, interpreted as \"stop\" instead."
+msgstr ""
+
+#: of pandas.RangeIndex:17
+msgid "**stop**"
+msgstr ""
+
+#: of pandas.RangeIndex:16
+msgid "int (default: 0)"
+msgstr ""
+
+#: of pandas.RangeIndex:20
+msgid "**step**"
+msgstr ""
+
+#: of pandas.RangeIndex:19
+msgid "int (default: 1)"
+msgstr ""
+
+#: of pandas.RangeIndex:23
+msgid "**name**"
+msgstr ""
+
+#: of pandas.RangeIndex:22
+msgid "object, optional"
+msgstr ""
+
+#: of pandas.RangeIndex:23
+msgid "Name to be stored in the index"
+msgstr ""
+
+#: of pandas.RangeIndex:32
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.RangeIndex:31
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.RangeIndex:26
+msgid "Unused, accepted for homogeneity with other index types."
+msgstr ""
+
+#: of pandas.RangeIndex:38
+msgid ":obj:`Index`"
+msgstr ""
+
+#: of pandas.RangeIndex:38
+msgid "The base pandas Index type."
+msgstr ""
+
+#: of pandas.RangeIndex:40
+msgid ":obj:`Int64Index`"
+msgstr ""
+
+#: of pandas.RangeIndex:41
+msgid "Index of int64 data."
+msgstr ""
+
+#: of pandas.RangeIndex:49
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.RangeIndex:51
+msgid "**None**"
+msgstr ""
+
+#: of pandas.RangeIndex:55
+msgid "Methods"
+msgstr ""
+
+#: of pandas.RangeIndex:60:<autosummary>:1
+msgid ""
+":obj:`from_range <pandas.RangeIndex.from_range>`\\ \\(data\\[\\, name\\, "
+"dtype\\]\\)"
+msgstr ""
+
+#: of pandas.RangeIndex:60:<autosummary>:1
+msgid "Create RangeIndex from a range (py3), or xrange (py2) object."
+msgstr ""
+

@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.symmetric_difference.rst:2
+msgid "pandas.Index.symmetric\\_difference"
+msgstr ""
+
+#: of pandas.Index.symmetric_difference:2
+msgid "Compute the symmetric difference of two Index objects."
+msgstr ""
+
+#: of pandas.Index.symmetric_difference
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.symmetric_difference:8
+msgid "**other**"
+msgstr ""
+
+#: of pandas.Index.symmetric_difference:7
+msgid "Index or array-like"
+msgstr ""
+
+#: of pandas.Index.symmetric_difference:11
+msgid "**result_name**"
+msgstr ""
+
+#: of pandas.Index.symmetric_difference:10
+msgid "str"
+msgstr ""
+
+#: of pandas.Index.symmetric_difference:27
+msgid "**sort**"
+msgstr ""
+
+#: of pandas.Index.symmetric_difference:26
+msgid "False or None, default None"
+msgstr ""
+
+#: of pandas.Index.symmetric_difference:14
+msgid ""
+"Whether to sort the resulting index. By default, the values are attempted"
+" to be sorted, but any TypeError from incomparable elements is caught by "
+"pandas."
+msgstr ""
+
+#: of pandas.Index.symmetric_difference:18
+msgid ""
+"None : Attempt to sort the result, but catch any TypeErrors from "
+"comparing incomparable elements."
+msgstr ""
+
+#: of pandas.Index.symmetric_difference:20
+msgid "False : Do not sort the result."
+msgstr ""
+
+#: of pandas.Index.symmetric_difference:26
+msgid ""
+"Changed the default value from ``True`` to ``None`` (without change in "
+"behaviour)."
+msgstr ""
+
+#: of pandas.Index.symmetric_difference
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.symmetric_difference:38
+msgid "**symmetric_difference**"
+msgstr ""
+
+#: of pandas.Index.symmetric_difference:37
+msgid "Index"
+msgstr ""
+
+#: of pandas.Index.symmetric_difference:41
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Index.symmetric_difference:42
+msgid ""
+"``symmetric_difference`` contains elements that appear in either ``idx1``"
+" or ``idx2`` but not both. Equivalent to the Index created by "
+"``idx1.difference(idx2) | idx2.difference(idx1)`` with duplicates "
+"dropped."
+msgstr ""
+
+#: of pandas.Index.symmetric_difference:49
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Index.symmetric_difference:55
+msgid "You can also use the ``^`` operator:"
+msgstr ""
+

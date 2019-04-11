@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.arrays.DatetimeArray.tz_convert.rst:2
+msgid "pandas.arrays.DatetimeArray.tz\\_convert"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray.tz_convert:2
+msgid "Convert tz-aware Datetime Array/Index from one time zone to another."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray.tz_convert
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray.tz_convert:10
+msgid "**tz**"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray.tz_convert:9
+msgid "string, pytz.timezone, dateutil.tz.tzfile or None"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray.tz_convert:8
+msgid ""
+"Time zone for time. Corresponding timestamps would be converted to this "
+"time zone of the Datetime Array/Index. A `tz` of None will convert to UTC"
+" and remove the timezone information."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray.tz_convert
+msgid "Returns"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray.tz_convert:17
+msgid "**normalized**"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray.tz_convert:16
+msgid "same type as self"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray.tz_convert
+msgid "Raises"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray.tz_convert:24
+msgid "**TypeError**"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray.tz_convert:22
+msgid "If Datetime Array/Index is tz-naive."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray.tz_convert:30
+msgid ":obj:`DatetimeIndex.tz`"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray.tz_convert:30
+msgid "A timezone that has a variable offset from UTC."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray.tz_convert:32
+msgid ":obj:`DatetimeIndex.tz_localize`"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray.tz_convert:33
+msgid ""
+"Localize tz-naive DatetimeIndex to a given time zone, or remove timezone "
+"from a tz-aware DatetimeIndex."
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray.tz_convert:38
+msgid "Examples"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray.tz_convert:39
+msgid ""
+"With the `tz` parameter, we can change the DatetimeIndex to other time "
+"zones:"
+msgstr ""
+
+#: of pandas.arrays.DatetimeArray.tz_convert:57
+msgid ""
+"With the ``tz=None``, we can remove the timezone (after converting to UTC"
+" if necessary):"
+msgstr ""
+

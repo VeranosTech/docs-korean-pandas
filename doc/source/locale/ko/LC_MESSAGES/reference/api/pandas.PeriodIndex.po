@@ -1,0 +1,397 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.PeriodIndex.rst:2
+msgid "pandas.PeriodIndex"
+msgstr ""
+
+#: of pandas.PeriodIndex:2
+msgid ""
+"Immutable ndarray holding ordinal values indicating regular periods in "
+"time such as particular years, quarters, months, etc."
+msgstr ""
+
+#: of pandas.PeriodIndex:5
+msgid ""
+"Index keys are boxed to Period objects which carries the metadata (eg, "
+"frequency information)."
+msgstr ""
+
+#: of pandas.PeriodIndex
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.PeriodIndex:11
+msgid "**data**"
+msgstr ""
+
+#: of pandas.PeriodIndex:10
+msgid "array-like (1-dimensional), optional"
+msgstr ""
+
+#: of pandas.PeriodIndex:11
+msgid "Optional period-like data to construct index with"
+msgstr ""
+
+#: of pandas.PeriodIndex:14
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.PeriodIndex:13
+msgid "bool"
+msgstr ""
+
+#: of pandas.PeriodIndex:14
+msgid "Make a copy of input ndarray"
+msgstr ""
+
+#: of pandas.PeriodIndex:17
+msgid "**freq**"
+msgstr ""
+
+#: of pandas.PeriodIndex:16
+msgid "string or period object, optional"
+msgstr ""
+
+#: of pandas.PeriodIndex:17
+msgid "One of pandas period strings or corresponding objects"
+msgstr ""
+
+#: of pandas.PeriodIndex:23
+msgid "**start**"
+msgstr ""
+
+#: of pandas.PeriodIndex:22
+msgid "starting value, period-like, optional"
+msgstr ""
+
+#: of pandas.PeriodIndex:20
+msgid ""
+"If data is None, used as the start point in generating regular period "
+"data."
+msgstr ""
+
+#: of pandas.PeriodIndex:29
+msgid "**periods**"
+msgstr ""
+
+#: of pandas.PeriodIndex:28
+msgid "int, optional, > 0"
+msgstr ""
+
+#: of pandas.PeriodIndex:26
+msgid ""
+"Number of periods to generate, if generating index. Takes precedence over"
+" end argument"
+msgstr ""
+
+#: of pandas.PeriodIndex:35
+msgid "**end**"
+msgstr ""
+
+#: of pandas.PeriodIndex:34
+msgid "end value, period-like, optional"
+msgstr ""
+
+#: of pandas.PeriodIndex:32
+msgid ""
+"If periods is none, generated index will extend to first conforming "
+"period on or just past end argument"
+msgstr ""
+
+#: of pandas.PeriodIndex:38
+msgid "**year**"
+msgstr ""
+
+#: of pandas.PeriodIndex:37 pandas.PeriodIndex:40 pandas.PeriodIndex:43
+#: pandas.PeriodIndex:46 pandas.PeriodIndex:49 pandas.PeriodIndex:52
+#: pandas.PeriodIndex:55
+msgid "int, array, or Series, default None"
+msgstr ""
+
+#: of pandas.PeriodIndex:41
+msgid "**month**"
+msgstr ""
+
+#: of pandas.PeriodIndex:44
+msgid "**quarter**"
+msgstr ""
+
+#: of pandas.PeriodIndex:47
+msgid "**day**"
+msgstr ""
+
+#: of pandas.PeriodIndex:50
+msgid "**hour**"
+msgstr ""
+
+#: of pandas.PeriodIndex:53
+msgid "**minute**"
+msgstr ""
+
+#: of pandas.PeriodIndex:56
+msgid "**second**"
+msgstr ""
+
+#: of pandas.PeriodIndex:59
+msgid "**tz**"
+msgstr ""
+
+#: of pandas.PeriodIndex:58
+msgid "object, default None"
+msgstr ""
+
+#: of pandas.PeriodIndex:59
+msgid "Timezone for converting datetime64 data to Periods"
+msgstr ""
+
+#: of pandas.PeriodIndex:68
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.PeriodIndex:67
+msgid "str or PeriodDtype, default None"
+msgstr ""
+
+#: of pandas.PeriodIndex:74
+msgid ":obj:`Index`"
+msgstr ""
+
+#: of pandas.PeriodIndex:74
+msgid "The base pandas Index type."
+msgstr ""
+
+#: of pandas.PeriodIndex:77
+msgid ":obj:`Period`"
+msgstr ""
+
+#: of pandas.PeriodIndex:77
+msgid "Represents a period of time."
+msgstr ""
+
+#: of pandas.PeriodIndex:80
+msgid ":obj:`DatetimeIndex`"
+msgstr ""
+
+#: of pandas.PeriodIndex:80
+msgid "Index with datetime64 data."
+msgstr ""
+
+#: of pandas.PeriodIndex:83
+msgid ":obj:`TimedeltaIndex`"
+msgstr ""
+
+#: of pandas.PeriodIndex:83
+msgid "Index of timedelta64 data."
+msgstr ""
+
+#: of pandas.PeriodIndex:85
+msgid ":obj:`period_range`"
+msgstr ""
+
+#: of pandas.PeriodIndex:86
+msgid "Create a fixed-frequency PeriodIndex."
+msgstr ""
+
+#: of pandas.PeriodIndex:89
+msgid "Notes"
+msgstr ""
+
+#: of pandas.PeriodIndex:90
+msgid ""
+"Creating a PeriodIndex based on `start`, `periods`, and `end` has been "
+"deprecated in favor of :func:`period_range`."
+msgstr ""
+
+#: of pandas.PeriodIndex:95
+msgid "Examples"
+msgstr ""
+
+#: of pandas.PeriodIndex:99
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid ":obj:`day <pandas.PeriodIndex.day>`\\"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid "The days of the period"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid ":obj:`dayofweek <pandas.PeriodIndex.dayofweek>`\\"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid "The day of the week with Monday=0, Sunday=6"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid ":obj:`dayofyear <pandas.PeriodIndex.dayofyear>`\\"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid "The ordinal day of the year"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid ":obj:`days_in_month <pandas.PeriodIndex.days_in_month>`\\"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid "The number of days in the month"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid ":obj:`daysinmonth <pandas.PeriodIndex.daysinmonth>`\\"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid ":obj:`freq <pandas.PeriodIndex.freq>`\\"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid "Return the frequency object if it is set, otherwise None."
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid ":obj:`freqstr <pandas.PeriodIndex.freqstr>`\\"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid "Return the frequency object as a string if it is set, otherwise None."
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid ":obj:`hour <pandas.PeriodIndex.hour>`\\"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid "The hour of the period"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid ":obj:`is_leap_year <pandas.PeriodIndex.is_leap_year>`\\"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid "Logical indicating if the date belongs to a leap year"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid ":obj:`minute <pandas.PeriodIndex.minute>`\\"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid "The minute of the period"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid ":obj:`month <pandas.PeriodIndex.month>`\\"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid "The month as January=1, December=12"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid ":obj:`quarter <pandas.PeriodIndex.quarter>`\\"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid "The quarter of the date"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid ":obj:`second <pandas.PeriodIndex.second>`\\"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid "The second of the period"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid ":obj:`week <pandas.PeriodIndex.week>`\\"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid "The week ordinal of the year"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid ":obj:`weekday <pandas.PeriodIndex.weekday>`\\"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid ":obj:`weekofyear <pandas.PeriodIndex.weekofyear>`\\"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid ":obj:`year <pandas.PeriodIndex.year>`\\"
+msgstr ""
+
+#: of pandas.PeriodIndex:121:<autosummary>:1
+msgid "The year of the period"
+msgstr ""
+
+#: of pandas.PeriodIndex:123
+msgid "**end_time**"
+msgstr ""
+
+#: of pandas.PeriodIndex:124
+msgid "**qyear**"
+msgstr ""
+
+#: of pandas.PeriodIndex:125
+msgid "**start_time**"
+msgstr ""
+
+#: of pandas.PeriodIndex:129
+msgid "Methods"
+msgstr ""
+
+#: of pandas.PeriodIndex:136:<autosummary>:1
+msgid ":obj:`asfreq <pandas.PeriodIndex.asfreq>`\\ \\(\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.PeriodIndex:136:<autosummary>:1
+msgid "Convert the Period Array/Index to the specified frequency `freq`."
+msgstr ""
+
+#: of pandas.PeriodIndex:136:<autosummary>:1
+msgid ""
+":obj:`strftime <pandas.PeriodIndex.strftime>`\\ \\(\\*args\\, "
+"\\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.PeriodIndex:136:<autosummary>:1
+msgid "Convert to Index using specified date_format."
+msgstr ""
+
+#: of pandas.PeriodIndex:136:<autosummary>:1
+msgid ""
+":obj:`to_timestamp <pandas.PeriodIndex.to_timestamp>`\\ \\(\\*args\\, "
+"\\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.PeriodIndex:136:<autosummary>:1
+msgid "Cast to DatetimeArray/Index."
+msgstr ""
+

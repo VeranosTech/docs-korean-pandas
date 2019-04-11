@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DatetimeTZDtype.rst:2
+msgid "pandas.DatetimeTZDtype"
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:2
+msgid ""
+"A np.dtype duck-typed class, suitable for holding a custom datetime with "
+"tz dtype."
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:5
+msgid ""
+"THIS IS NOT A REAL NUMPY DTYPE, but essentially a sub-class of "
+"np.datetime64[ns]"
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:20
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:29:<autosummary>:1
+msgid ":obj:`name <pandas.DatetimeTZDtype.name>`\\"
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:29:<autosummary>:1
+msgid "A string representation of the dtype."
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:29:<autosummary>:1
+msgid ":obj:`names <pandas.DatetimeTZDtype.names>`\\"
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:29:<autosummary>:1
+msgid "Ordered list of field names, or None if there are no fields."
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:29:<autosummary>:1
+msgid ":obj:`tz <pandas.DatetimeTZDtype.tz>`\\"
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:29:<autosummary>:1
+msgid "The timezone."
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:29:<autosummary>:1
+msgid ":obj:`unit <pandas.DatetimeTZDtype.unit>`\\"
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:29:<autosummary>:1
+msgid "The precision of the datetime data."
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:31
+msgid "**subdtype**"
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:35
+msgid "Methods"
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:44:<autosummary>:1
+msgid ""
+":obj:`construct_array_type "
+"<pandas.DatetimeTZDtype.construct_array_type>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:44:<autosummary>:1
+msgid "Return the array type associated with this dtype"
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:44:<autosummary>:1
+msgid ""
+":obj:`construct_from_string "
+"<pandas.DatetimeTZDtype.construct_from_string>`\\ \\(string\\)"
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:44:<autosummary>:1
+msgid "Construct a DatetimeTZDtype from a string."
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:44:<autosummary>:1
+msgid ":obj:`is_dtype <pandas.DatetimeTZDtype.is_dtype>`\\ \\(dtype\\)"
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:44:<autosummary>:1
+msgid "Check if we match 'dtype'."
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:44:<autosummary>:1
+msgid ":obj:`reset_cache <pandas.DatetimeTZDtype.reset_cache>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:44:<autosummary>:1
+msgid "clear the cache"
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:44:<autosummary>:1
+msgid ":obj:`type <pandas.DatetimeTZDtype.type>`\\"
+msgstr ""
+
+#: of pandas.DatetimeTZDtype:44:<autosummary>:1
+msgid "alias of :class:`pandas._libs.tslibs.timestamps.Timestamp`"
+msgstr ""
+

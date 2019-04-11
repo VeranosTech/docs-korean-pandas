@@ -1,0 +1,261 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.to_sql.rst:2
+msgid "pandas.DataFrame.to\\_sql"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:2
+msgid "Write records stored in a DataFrame to a SQL database."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:4
+msgid ""
+"Databases supported by SQLAlchemy [R689dfd12abe5-1]_ are supported. "
+"Tables can be newly created, appended to, or overwritten."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:10
+msgid "**name**"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:9
+msgid "string"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:10
+msgid "Name of SQL table."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:14
+msgid "**con**"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:13
+msgid "sqlalchemy.engine.Engine or sqlite3.Connection"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:13
+msgid ""
+"Using SQLAlchemy makes it possible to use any DB supported by that "
+"library. Legacy support is provided for sqlite3.Connection objects."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:18
+msgid "**schema**"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:17
+msgid "string, optional"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:17
+msgid ""
+"Specify the schema (if database flavor supports this). If None, use "
+"default schema."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:25
+msgid "**if_exists**"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:24
+msgid "{'fail', 'replace', 'append'}, default 'fail'"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:21
+msgid "How to behave if the table already exists."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:23
+msgid "fail: Raise a ValueError."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:24
+msgid "replace: Drop the table before inserting new values."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:25
+msgid "append: Insert new values to the existing table."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:29
+msgid "**index**"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:28
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:28
+msgid ""
+"Write DataFrame index as a column. Uses `index_label` as the column name "
+"in the table."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:34
+msgid "**index_label**"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:33
+msgid "string or sequence, default None"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:32
+msgid ""
+"Column label for index column(s). If None is given (default) and `index` "
+"is True, then the index names are used. A sequence should be given if the"
+" DataFrame uses MultiIndex."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:38
+msgid "**chunksize**"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:37
+msgid "int, optional"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:37
+msgid ""
+"Rows will be written in batches of this size at a time. By default, all "
+"rows will be written at once."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:43
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:42
+msgid "dict, optional"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:41
+msgid ""
+"Specifying the datatype for columns. The keys should be the column names "
+"and the values should be the SQLAlchemy types or strings for the sqlite3 "
+"legacy mode."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:58
+msgid "**method**"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:57
+msgid "{None, 'multi', callable}, default None"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:46
+msgid "Controls the SQL insertion clause used:"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:48
+msgid "None : Uses standard SQL ``INSERT`` clause (one per row)."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:49
+msgid "'multi': Pass multiple values in a single ``INSERT`` clause."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:50
+msgid "callable with signature ``(pd_table, conn, keys, data_iter)``."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:52
+msgid ""
+"Details and a sample callable implementation can be found in the section "
+":ref:`insert method <io.sql.method>`."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql
+msgid "Raises"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:66
+msgid "**ValueError**"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:63
+msgid "When the table already exists and `if_exists` is 'fail' (the default)."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:71
+msgid ":obj:`read_sql`"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:72
+msgid "Read a DataFrame from a table."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:75
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:76
+msgid ""
+"Timezone aware datetime columns will be written as ``Timestamp with "
+"timezone`` type with SQLAlchemy if supported by the database. Otherwise, "
+"the datetimes will be stored as timezone unaware timestamps local to the "
+"original timezone."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:84
+msgid "References"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:85
+msgid "http://docs.sqlalchemy.org"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:86
+msgid "https://www.python.org/dev/peps/pep-0249/"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:90
+msgid "[R689dfd12abe5-1]_, [R689dfd12abe5-2]_"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:93
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:94
+msgid "Create an in-memory SQLite database."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:99
+msgid "Create a table from scratch with 3 rows."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:118
+msgid "Overwrite the table with just ``df1``."
+msgstr ""
+
+#: of pandas.DataFrame.to_sql:125
+msgid ""
+"Specify the dtype (especially useful for integers with missing values). "
+"Notice that while pandas is forced to store the data as floating point, "
+"the database supports nullable integers. When fetching the data with "
+"Python, we get back integer scalars."
+msgstr ""
+

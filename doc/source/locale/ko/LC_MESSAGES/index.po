@@ -1,0 +1,265 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../index.rst:7
+msgid "pandas: powerful Python data analysis toolkit"
+msgstr ""
+
+#: ../../index.rst:9
+msgid "**Date**: |today| **Version**: |version|"
+msgstr ""
+
+#: ../../index.rst:11
+msgid ""
+"**Download documentation**: `PDF Version <pandas.pdf>`__ | `Zipped HTML "
+"<pandas.zip>`__"
+msgstr ""
+
+#: ../../index.rst:13
+msgid ""
+"**Useful links**: `Binary Installers <https://pypi.org/project/pandas>`__"
+" | `Source Repository <https://github.com/pandas-dev/pandas>`__ | `Issues"
+" & Ideas <https://github.com/pandas-dev/pandas/issues>`__ | `Q&A Support "
+"<https://stackoverflow.com/questions/tagged/pandas>`__ | `Mailing List "
+"<https://groups.google.com/forum/#!forum/pydata>`__"
+msgstr ""
+
+#: ../../index.rst:20
+msgid ""
+":mod:`pandas` is an open source, BSD-licensed library providing high-"
+"performance, easy-to-use data structures and data analysis tools for the "
+"`Python <https://www.python.org/>`__ programming language."
+msgstr ""
+
+#: ../../index.rst:24
+msgid "See the :ref:`overview` for more detail about what's in the library."
+msgstr ""
+
+#: ../../index.rst:39
+msgid ":doc:`whatsnew/v0.25.0`"
+msgstr ""
+
+#: ../../index.rst:40
+msgid ":doc:`install`"
+msgstr ""
+
+#: ../../index.rst:41
+msgid ":doc:`getting_started/index`"
+msgstr ""
+
+#: ../../index.rst:43
+msgid ":doc:`getting_started/overview`"
+msgstr ""
+
+#: ../../index.rst:44
+msgid ":doc:`getting_started/10min`"
+msgstr ""
+
+#: ../../index.rst:45
+msgid ":doc:`getting_started/basics`"
+msgstr ""
+
+#: ../../index.rst:46
+msgid ":doc:`getting_started/dsintro`"
+msgstr ""
+
+#: ../../index.rst:47
+msgid ":doc:`getting_started/comparison/index`"
+msgstr ""
+
+#: ../../index.rst:48
+msgid ":doc:`getting_started/tutorials`"
+msgstr ""
+
+#: ../../index.rst:50
+msgid ":doc:`user_guide/index`"
+msgstr ""
+
+#: ../../index.rst:52
+msgid ":doc:`user_guide/io`"
+msgstr ""
+
+#: ../../index.rst:53
+msgid ":doc:`user_guide/indexing`"
+msgstr ""
+
+#: ../../index.rst:54
+msgid ":doc:`user_guide/advanced`"
+msgstr ""
+
+#: ../../index.rst:55
+msgid ":doc:`user_guide/merging`"
+msgstr ""
+
+#: ../../index.rst:56
+msgid ":doc:`user_guide/reshaping`"
+msgstr ""
+
+#: ../../index.rst:57
+msgid ":doc:`user_guide/text`"
+msgstr ""
+
+#: ../../index.rst:58
+msgid ":doc:`user_guide/missing_data`"
+msgstr ""
+
+#: ../../index.rst:59
+msgid ":doc:`user_guide/categorical`"
+msgstr ""
+
+#: ../../index.rst:60
+msgid ":doc:`user_guide/integer_na`"
+msgstr ""
+
+#: ../../index.rst:61
+msgid ":doc:`user_guide/visualization`"
+msgstr ""
+
+#: ../../index.rst:62
+msgid ":doc:`user_guide/computation`"
+msgstr ""
+
+#: ../../index.rst:63
+msgid ":doc:`user_guide/groupby`"
+msgstr ""
+
+#: ../../index.rst:64
+msgid ":doc:`user_guide/timeseries`"
+msgstr ""
+
+#: ../../index.rst:65
+msgid ":doc:`user_guide/timedeltas`"
+msgstr ""
+
+#: ../../index.rst:66
+msgid ":doc:`user_guide/style`"
+msgstr ""
+
+#: ../../index.rst:67
+msgid ":doc:`user_guide/options`"
+msgstr ""
+
+#: ../../index.rst:68
+msgid ":doc:`user_guide/enhancingperf`"
+msgstr ""
+
+#: ../../index.rst:69
+msgid ":doc:`user_guide/sparse`"
+msgstr ""
+
+#: ../../index.rst:70
+msgid ":doc:`user_guide/gotchas`"
+msgstr ""
+
+#: ../../index.rst:71
+msgid ":doc:`user_guide/cookbook`"
+msgstr ""
+
+#: ../../index.rst:73
+msgid ":doc:`ecosystem`"
+msgstr ""
+
+#: ../../index.rst:74
+msgid ":doc:`reference/index`"
+msgstr ""
+
+#: ../../index.rst:76
+msgid ":doc:`reference/io`"
+msgstr ""
+
+#: ../../index.rst:77
+msgid ":doc:`reference/general_functions`"
+msgstr ""
+
+#: ../../index.rst:78
+msgid ":doc:`reference/series`"
+msgstr ""
+
+#: ../../index.rst:79
+msgid ":doc:`reference/frame`"
+msgstr ""
+
+#: ../../index.rst:80
+msgid ":doc:`reference/arrays`"
+msgstr ""
+
+#: ../../index.rst:81
+msgid ":doc:`reference/panel`"
+msgstr ""
+
+#: ../../index.rst:82
+msgid ":doc:`reference/indexing`"
+msgstr ""
+
+#: ../../index.rst:83
+msgid ":doc:`reference/offset_frequency`"
+msgstr ""
+
+#: ../../index.rst:84
+msgid ":doc:`reference/window`"
+msgstr ""
+
+#: ../../index.rst:85
+msgid ":doc:`reference/groupby`"
+msgstr ""
+
+#: ../../index.rst:86
+msgid ":doc:`reference/resampling`"
+msgstr ""
+
+#: ../../index.rst:87
+msgid ":doc:`reference/style`"
+msgstr ""
+
+#: ../../index.rst:88
+msgid ":doc:`reference/plotting`"
+msgstr ""
+
+#: ../../index.rst:89
+msgid ":doc:`reference/general_utility_functions`"
+msgstr ""
+
+#: ../../index.rst:90
+msgid ":doc:`reference/extensions`"
+msgstr ""
+
+#: ../../index.rst:92
+msgid ":doc:`development/index`"
+msgstr ""
+
+#: ../../index.rst:94
+msgid ":doc:`development/contributing`"
+msgstr ""
+
+#: ../../index.rst:95
+msgid ":doc:`development/internals`"
+msgstr ""
+
+#: ../../index.rst:96
+msgid ":doc:`development/extending`"
+msgstr ""
+
+#: ../../index.rst:97
+msgid ":doc:`development/developer`"
+msgstr ""
+
+#: ../../index.rst:99
+msgid ":doc:`whatsnew/index`"
+msgstr ""
+

@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.min.rst:2
+msgid "pandas.Index.min"
+msgstr ""
+
+#: of pandas.Index.min:2
+msgid "Return the minimum value of the Index."
+msgstr ""
+
+#: of pandas.Index.min
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.min:8
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.Index.min:7
+msgid "{None}"
+msgstr ""
+
+#: of pandas.Index.min:8
+msgid "Dummy argument for consistency with Series"
+msgstr ""
+
+#: of pandas.Index.min:11
+msgid "**skipna**"
+msgstr ""
+
+#: of pandas.Index.min:10
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.Index.min
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.min:21
+msgid "**scalar**"
+msgstr ""
+
+#: of pandas.Index.min:16
+msgid "Minimum value."
+msgstr ""
+
+#: of pandas.Index.min:27
+msgid ":obj:`Index.max`"
+msgstr ""
+
+#: of pandas.Index.min:27
+msgid "Return the maximum value of the object."
+msgstr ""
+
+#: of pandas.Index.min:30
+msgid ":obj:`Series.min`"
+msgstr ""
+
+#: of pandas.Index.min:30
+msgid "Return the minimum value in a Series."
+msgstr ""
+
+#: of pandas.Index.min:32
+msgid ":obj:`DataFrame.min`"
+msgstr ""
+
+#: of pandas.Index.min:33
+msgid "Return the minimum values in a DataFrame."
+msgstr ""
+
+#: of pandas.Index.min:38
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Index.min:47
+msgid "For a MultiIndex, the minimum is determined lexicographically."
+msgstr ""
+

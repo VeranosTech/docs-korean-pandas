@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.to_parquet.rst:2
+msgid "pandas.DataFrame.to\\_parquet"
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:2
+msgid "Write a DataFrame to the binary parquet format."
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:6
+msgid ""
+"This function writes the dataframe as a `parquet file "
+"<https://parquet.apache.org/>`_. You can choose different parquet "
+"backends, and have the option of compression. See :ref:`the user guide "
+"<io.parquet>` for more details."
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:17
+msgid "**fname**"
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:16
+msgid "str"
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:14
+msgid ""
+"File path or Root Directory path. Will be used as Root Directory path "
+"while writing a partitioned dataset."
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:23
+msgid "**engine**"
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:22
+msgid "{'auto', 'pyarrow', 'fastparquet'}, default 'auto'"
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:20
+msgid ""
+"Parquet library to use. If 'auto', then the option ``io.parquet.engine`` "
+"is used. The default ``io.parquet.engine`` behavior is to try 'pyarrow', "
+"falling back to 'fastparquet' if 'pyarrow' is unavailable."
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:26
+msgid "**compression**"
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:25
+msgid "{'snappy', 'gzip', 'brotli', None}, default 'snappy'"
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:26
+msgid "Name of the compression to use. Use ``None`` for no compression."
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:33
+msgid "**index**"
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:32
+msgid "bool, default None"
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:29
+msgid ""
+"If ``True``, include the dataframe's index(es) in the file output. If "
+"``False``, they will not be written to the file. If ``None``, the "
+"behavior depends on the chosen engine."
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:39
+msgid "**partition_cols**"
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:38
+msgid "list, optional, default None"
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:36
+msgid ""
+"Column names by which to partition the dataset Columns are partitioned in"
+" the order they are given"
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:49
+msgid "**\\*\\*kwargs**"
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:42
+msgid ""
+"Additional arguments passed to the parquet library. See :ref:`pandas io "
+"<io.parquet>` for more details."
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:55
+msgid ":obj:`read_parquet`"
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:55
+msgid "Read a parquet file."
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:58
+msgid ":obj:`DataFrame.to_csv`"
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:58
+msgid "Write a csv file."
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:61
+msgid ":obj:`DataFrame.to_sql`"
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:61
+msgid "Write to a sql table."
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:63
+msgid ":obj:`DataFrame.to_hdf`"
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:64
+msgid "Write to hdf."
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:67
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:68
+msgid ""
+"This function requires either the `fastparquet "
+"<https://pypi.org/project/fastparquet>`_ or `pyarrow "
+"<https://arrow.apache.org/docs/python/>`_ library."
+msgstr ""
+
+#: of pandas.DataFrame.to_parquet:74
+msgid "Examples"
+msgstr ""
+

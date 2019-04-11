@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.MultiIndex.sortlevel.rst:2
+msgid "pandas.MultiIndex.sortlevel"
+msgstr ""
+
+#: of pandas.MultiIndex.sortlevel:2
+msgid ""
+"Sort MultiIndex at the requested level. The result will respect the "
+"original ordering of the associated factor at that level."
+msgstr ""
+
+#: of pandas.MultiIndex.sortlevel
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.MultiIndex.sortlevel:10
+msgid "**level**"
+msgstr ""
+
+#: of pandas.MultiIndex.sortlevel:9
+msgid "list-like, int or str, default 0"
+msgstr ""
+
+#: of pandas.MultiIndex.sortlevel:9
+msgid ""
+"If a string is given, must be a name of the level If list-like must be "
+"names or ints of levels."
+msgstr ""
+
+#: of pandas.MultiIndex.sortlevel:14
+msgid "**ascending**"
+msgstr ""
+
+#: of pandas.MultiIndex.sortlevel:13
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.MultiIndex.sortlevel:13
+msgid ""
+"False to sort in descending order Can also be a list to specify a "
+"directed ordering"
+msgstr ""
+
+#: of pandas.MultiIndex.sortlevel:17
+msgid "**sort_remaining**"
+msgstr ""
+
+#: of pandas.MultiIndex.sortlevel:16
+msgid "sort by the remaining levels after level"
+msgstr ""
+
+#: of pandas.MultiIndex.sortlevel
+msgid "Returns"
+msgstr ""
+
+#: of pandas.MultiIndex.sortlevel:22
+msgid "**sorted_index**"
+msgstr ""
+
+#: of pandas.MultiIndex.sortlevel:21
+msgid "pd.MultiIndex"
+msgstr ""
+
+#: of pandas.MultiIndex.sortlevel:22
+msgid "Resulting index"
+msgstr ""
+
+#: of pandas.MultiIndex.sortlevel:36
+msgid "**indexer**"
+msgstr ""
+
+#: of pandas.MultiIndex.sortlevel:35
+msgid "np.ndarray"
+msgstr ""
+
+#: of pandas.MultiIndex.sortlevel:25
+msgid "Indices of output values in original index"
+msgstr ""
+

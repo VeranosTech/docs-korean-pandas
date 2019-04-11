@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.tseries.offsets.BYearEnd.rst:2
+msgid "pandas.tseries.offsets.BYearEnd"
+msgstr ""
+
+#: of pandas.tseries.offsets.BYearEnd:2
+msgid "DateOffset increments between business EOM dates."
+msgstr ""
+
+#: of pandas.tseries.offsets.BYearEnd:17
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.tseries.offsets.BYearEnd:23:<autosummary>:1
+msgid ":obj:`base <pandas.tseries.offsets.BYearEnd.base>`\\"
+msgstr ""
+
+#: of pandas.tseries.offsets.BYearEnd:23:<autosummary>:1
+msgid ""
+"Returns a copy of the calling offset object with n=1 and all other "
+"attributes equal."
+msgstr ""
+
+#: of pandas.tseries.offsets.BYearEnd:25
+msgid "**freqstr**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BYearEnd:26
+msgid "**kwds**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BYearEnd:27
+msgid "**name**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BYearEnd:28
+msgid "**nanos**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BYearEnd:29
+msgid "**rule_code**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BYearEnd:33
+msgid "Methods"
+msgstr ""
+
+#: of pandas.tseries.offsets.BYearEnd:40:<autosummary>:1
+msgid ":obj:`rollback <pandas.tseries.offsets.BYearEnd.rollback>`\\ \\(dt\\)"
+msgstr ""
+
+#: of pandas.tseries.offsets.BYearEnd:40:<autosummary>:1
+msgid "Roll provided date backward to next offset only if not on offset."
+msgstr ""
+
+#: of pandas.tseries.offsets.BYearEnd:40:<autosummary>:1
+msgid ""
+":obj:`rollforward <pandas.tseries.offsets.BYearEnd.rollforward>`\\ "
+"\\(dt\\)"
+msgstr ""
+
+#: of pandas.tseries.offsets.BYearEnd:40:<autosummary>:1
+msgid "Roll provided date forward to next offset only if not on offset."
+msgstr ""
+
+#: of pandas.tseries.offsets.BYearEnd:42
+msgid "**__call__**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BYearEnd:43
+msgid "**apply**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BYearEnd:44
+msgid "**apply_index**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BYearEnd:45
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BYearEnd:46
+msgid "**isAnchored**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BYearEnd:47
+msgid "**onOffset**"
+msgstr ""
+

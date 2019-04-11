@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.from_csv.rst:2
+msgid "pandas.Series.from\\_csv"
+msgstr ""
+
+#: of pandas.Series.from_csv:2
+msgid "Read CSV file."
+msgstr ""
+
+#: of pandas.Series.from_csv:4
+msgid "Use :func:`pandas.read_csv` instead."
+msgstr ""
+
+#: of pandas.Series.from_csv:7
+msgid ""
+"It is preferable to use the more powerful :func:`pandas.read_csv` for "
+"most general purposes, but ``from_csv`` makes for an easy roundtrip to "
+"and from a file (the exact counterpart of ``to_csv``), especially with a "
+"time Series."
+msgstr ""
+
+#: of pandas.Series.from_csv:12
+msgid "This method only differs from :func:`pandas.read_csv` in some defaults:"
+msgstr ""
+
+#: of pandas.Series.from_csv:14
+msgid ""
+"`index_col` is ``0`` instead of ``None`` (take first column as index by "
+"default)"
+msgstr ""
+
+#: of pandas.Series.from_csv:16
+msgid ""
+"`header` is ``None`` instead of ``0`` (the first row is not used as the "
+"column names)"
+msgstr ""
+
+#: of pandas.Series.from_csv:18
+msgid ""
+"`parse_dates` is ``True`` instead of ``False`` (try parsing the index as "
+"datetime by default)"
+msgstr ""
+
+#: of pandas.Series.from_csv:21
+msgid ""
+"With :func:`pandas.read_csv`, the option ``squeeze=True`` can be used to "
+"return a Series like ``from_csv``."
+msgstr ""
+
+#: of pandas.Series.from_csv
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.from_csv:27
+msgid "**path**"
+msgstr ""
+
+#: of pandas.Series.from_csv:26
+msgid "string file path or file handle / StringIO"
+msgstr ""
+
+#: of pandas.Series.from_csv:30
+msgid "**sep**"
+msgstr ""
+
+#: of pandas.Series.from_csv:29
+msgid "string, default ','"
+msgstr ""
+
+#: of pandas.Series.from_csv:30
+msgid "Field delimiter"
+msgstr ""
+
+#: of pandas.Series.from_csv:33
+msgid "**parse_dates**"
+msgstr ""
+
+#: of pandas.Series.from_csv:32
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.Series.from_csv:33
+msgid "Parse dates. Different default from read_table"
+msgstr ""
+
+#: of pandas.Series.from_csv:36
+msgid "**header**"
+msgstr ""
+
+#: of pandas.Series.from_csv:35
+msgid "int, default None"
+msgstr ""
+
+#: of pandas.Series.from_csv:36
+msgid "Row to use as header (skip prior rows)"
+msgstr ""
+
+#: of pandas.Series.from_csv:40
+msgid "**index_col**"
+msgstr ""
+
+#: of pandas.Series.from_csv:39
+msgid "int or sequence, default 0"
+msgstr ""
+
+#: of pandas.Series.from_csv:39
+msgid ""
+"Column to use for index. If a sequence is given, a MultiIndex is used. "
+"Different default from read_table"
+msgstr ""
+
+#: of pandas.Series.from_csv:44
+msgid "**encoding**"
+msgstr ""
+
+#: of pandas.Series.from_csv:43
+msgid "string, optional"
+msgstr ""
+
+#: of pandas.Series.from_csv:43
+msgid ""
+"a string representing the encoding to use if the contents are non-ascii, "
+"for python versions prior to 3"
+msgstr ""
+
+#: of pandas.Series.from_csv:49
+msgid "**infer_datetime_format**"
+msgstr ""
+
+#: of pandas.Series.from_csv:48
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.Series.from_csv:47
+msgid ""
+"If True and `parse_dates` is True for a column, try to infer the datetime"
+" format based on the first datetime string. If the format can be "
+"inferred, there often will be a large parsing speed-up."
+msgstr ""
+
+#: of pandas.Series.from_csv
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.from_csv:59
+msgid "**y**"
+msgstr ""
+
+#: of pandas.Series.from_csv:58
+msgid "Series"
+msgstr ""
+
+#: of pandas.Series.from_csv:64
+msgid ":obj:`read_csv`"
+msgstr ""
+

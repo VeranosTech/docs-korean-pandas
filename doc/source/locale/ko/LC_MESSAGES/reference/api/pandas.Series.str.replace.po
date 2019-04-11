@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.str.replace.rst:2
+msgid "pandas.Series.str.replace"
+msgstr ""
+
+#: of pandas.Series.str.replace:2
+msgid ""
+"Replace occurrences of pattern/regex in the Series/Index with some other "
+"string. Equivalent to :meth:`str.replace` or :func:`re.sub`."
+msgstr ""
+
+#: of pandas.Series.str.replace
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.str.replace:13
+msgid "**pat**"
+msgstr ""
+
+#: of pandas.Series.str.replace:12
+msgid "string or compiled regex"
+msgstr ""
+
+#: of pandas.Series.str.replace:10
+msgid "String can be a character sequence or regular expression."
+msgstr ""
+
+#: of pandas.Series.str.replace:12
+msgid "`pat` also accepts a compiled regex."
+msgstr ""
+
+#: of pandas.Series.str.replace:21
+msgid "**repl**"
+msgstr ""
+
+#: of pandas.Series.str.replace:20
+msgid "string or callable"
+msgstr ""
+
+#: of pandas.Series.str.replace:16
+msgid ""
+"Replacement string or a callable. The callable is passed the regex match "
+"object and must return a replacement string to be used. See "
+":func:`re.sub`."
+msgstr ""
+
+#: of pandas.Series.str.replace:20
+msgid "`repl` also accepts a callable."
+msgstr ""
+
+#: of pandas.Series.str.replace:24
+msgid "**n**"
+msgstr ""
+
+#: of pandas.Series.str.replace:23
+msgid "int, default -1 (all)"
+msgstr ""
+
+#: of pandas.Series.str.replace:24
+msgid "Number of replacements to make from start"
+msgstr ""
+
+#: of pandas.Series.str.replace:29
+msgid "**case**"
+msgstr ""
+
+#: of pandas.Series.str.replace:28
+msgid "boolean, default None"
+msgstr ""
+
+#: of pandas.Series.str.replace:27
+msgid "If True, case sensitive (the default if `pat` is a string)"
+msgstr ""
+
+#: of pandas.Series.str.replace:28
+msgid "Set to False for case insensitive"
+msgstr ""
+
+#: of pandas.Series.str.replace:29 pandas.Series.str.replace:33
+msgid "Cannot be set if `pat` is a compiled regex"
+msgstr ""
+
+#: of pandas.Series.str.replace:33
+msgid "**flags**"
+msgstr ""
+
+#: of pandas.Series.str.replace:32
+msgid "int, default 0 (no flags)"
+msgstr ""
+
+#: of pandas.Series.str.replace:32
+msgid "re module flags, e.g. re.IGNORECASE"
+msgstr ""
+
+#: of pandas.Series.str.replace:41
+msgid "**regex**"
+msgstr ""
+
+#: of pandas.Series.str.replace:40
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.Series.str.replace:36
+msgid "If True, assumes the passed-in pattern is a regular expression."
+msgstr ""
+
+#: of pandas.Series.str.replace:37
+msgid "If False, treats the pattern as a literal string"
+msgstr ""
+
+#: of pandas.Series.str.replace:38
+msgid ""
+"Cannot be set to False if `pat` is a compiled regex or `repl` is a "
+"callable."
+msgstr ""
+
+#: of pandas.Series.str.replace
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.str.replace:49
+msgid "**Series or Index of object**"
+msgstr ""
+
+#: of pandas.Series.str.replace:46
+msgid ""
+"A copy of the object with all matching occurrences of `pat` replaced by "
+"`repl`."
+msgstr ""
+
+#: of pandas.Series.str.replace
+msgid "Raises"
+msgstr ""
+
+#: of pandas.Series.str.replace:59
+msgid "**ValueError**"
+msgstr ""
+
+#: of pandas.Series.str.replace:54
+msgid "if `regex` is False and `repl` is a callable or `pat` is a compiled regex"
+msgstr ""
+
+#: of pandas.Series.str.replace:56
+msgid "if `pat` is a compiled regex and `case` or `flags` is set"
+msgstr ""
+
+#: of pandas.Series.str.replace:62
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Series.str.replace:63
+msgid ""
+"When `pat` is a compiled regex, all flags should be included in the "
+"compiled regex. Use of `case`, `flags`, or `regex=False` with a compiled "
+"regex will raise an error."
+msgstr ""
+
+#: of pandas.Series.str.replace:69
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.str.replace:70
+msgid ""
+"When `pat` is a string and `regex` is True (the default), the given `pat`"
+" is compiled as a regex. When `repl` is a string, it replaces matching "
+"regex patterns as with :meth:`re.sub`. NaN value(s) in the Series are "
+"left as is:"
+msgstr ""
+
+#: of pandas.Series.str.replace:81
+msgid ""
+"When `pat` is a string and `regex` is False, every `pat` is replaced with"
+" `repl` as with :meth:`str.replace`:"
+msgstr ""
+
+#: of pandas.Series.str.replace:90
+msgid ""
+"When `repl` is a callable, it is called on every `pat` using "
+":func:`re.sub`. The callable should expect one positional argument (a "
+"regex object) and return a string."
+msgstr ""
+
+#: of pandas.Series.str.replace:94
+msgid "To get the idea:"
+msgstr ""
+
+#: of pandas.Series.str.replace:102
+msgid "Reverse every lowercase alphabetic word:"
+msgstr ""
+
+#: of pandas.Series.str.replace:111
+msgid "Using regex groups (extract second group and swap case):"
+msgstr ""
+
+#: of pandas.Series.str.replace:120
+msgid "Using a compiled regex with flags"
+msgstr ""
+

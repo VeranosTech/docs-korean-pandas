@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.select.rst:2
+msgid "pandas.Series.select"
+msgstr ""
+
+#: of pandas.Series.select:2
+msgid "Return data corresponding to axis labels matching criteria."
+msgstr ""
+
+#: of pandas.Series.select:4
+msgid "Use df.loc[df.index.map(crit)] to select via labels"
+msgstr ""
+
+#: of pandas.Series.select
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.select:10
+msgid "**crit**"
+msgstr ""
+
+#: of pandas.Series.select:9
+msgid "function"
+msgstr ""
+
+#: of pandas.Series.select:10
+msgid "To be called on each index (label). Should return True or False"
+msgstr ""
+
+#: of pandas.Series.select:13
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.Series.select:12
+msgid "int"
+msgstr ""
+
+#: of pandas.Series.select
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.select:29
+msgid "**selection**"
+msgstr ""
+
+#: of pandas.Series.select:28
+msgid "same type as caller"
+msgstr ""
+

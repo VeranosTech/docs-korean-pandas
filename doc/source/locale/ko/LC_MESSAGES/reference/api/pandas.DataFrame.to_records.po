@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.to_records.rst:2
+msgid "pandas.DataFrame.to\\_records"
+msgstr ""
+
+#: of pandas.DataFrame.to_records:2
+msgid "Convert DataFrame to a NumPy record array."
+msgstr ""
+
+#: of pandas.DataFrame.to_records:4
+msgid ""
+"Index will be included as the first field of the record array if "
+"requested."
+msgstr ""
+
+#: of pandas.DataFrame.to_records
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.to_records:11
+msgid "**index**"
+msgstr ""
+
+#: of pandas.DataFrame.to_records:10
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.DataFrame.to_records:10
+msgid ""
+"Include index in resulting record array, stored in 'index' field or using"
+" the index label, if set."
+msgstr ""
+
+#: of pandas.DataFrame.to_records:17
+msgid "**convert_datetime64**"
+msgstr ""
+
+#: of pandas.DataFrame.to_records:16
+msgid "bool, default None"
+msgstr ""
+
+#: of pandas.DataFrame.to_records:16
+msgid ""
+"Whether to convert the index to datetime.datetime if it is a "
+"DatetimeIndex."
+msgstr ""
+
+#: of pandas.DataFrame.to_records:24
+msgid "**column_dtypes**"
+msgstr ""
+
+#: of pandas.DataFrame.to_records:23 pandas.DataFrame.to_records:32
+msgid "str, type, dict, default None"
+msgstr ""
+
+#: of pandas.DataFrame.to_records:22
+msgid ""
+"If a string or type, the data type to store all columns. If a dictionary,"
+" a mapping of column names and indices (zero-indexed) to specific data "
+"types."
+msgstr ""
+
+#: of pandas.DataFrame.to_records:33
+msgid "**index_dtypes**"
+msgstr ""
+
+#: of pandas.DataFrame.to_records:29
+msgid ""
+"If a string or type, the data type to store all index levels. If a "
+"dictionary, a mapping of index level names and indices (zero-indexed) to "
+"specific data types."
+msgstr ""
+
+#: of pandas.DataFrame.to_records:33
+msgid "This mapping is applied only if `index=True`."
+msgstr ""
+
+#: of pandas.DataFrame.to_records
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.to_records:44
+msgid "**numpy.recarray**"
+msgstr ""
+
+#: of pandas.DataFrame.to_records:38
+msgid ""
+"NumPy ndarray with the DataFrame labels as fields and each row of the "
+"DataFrame as entries."
+msgstr ""
+
+#: of pandas.DataFrame.to_records:50
+msgid ":obj:`DataFrame.from_records`"
+msgstr ""
+
+#: of pandas.DataFrame.to_records:50
+msgid "Convert structured or record ndarray to DataFrame."
+msgstr ""
+
+#: of pandas.DataFrame.to_records:52
+msgid ":obj:`numpy.recarray`"
+msgstr ""
+
+#: of pandas.DataFrame.to_records:53
+msgid ""
+"An ndarray that allows field access using attributes, analogous to typed "
+"columns in a spreadsheet."
+msgstr ""
+
+#: of pandas.DataFrame.to_records:58
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.to_records:69
+msgid ""
+"If the DataFrame index has no label then the recarray field name is set "
+"to 'index'. If the index has a label then this is used as the field name:"
+msgstr ""
+
+#: of pandas.DataFrame.to_records:78
+msgid "The index can be excluded from the record array:"
+msgstr ""
+
+#: of pandas.DataFrame.to_records:84
+msgid "Data types can be specified for the columns:"
+msgstr ""
+
+#: of pandas.DataFrame.to_records:90
+msgid "As well as for the index:"
+msgstr ""
+

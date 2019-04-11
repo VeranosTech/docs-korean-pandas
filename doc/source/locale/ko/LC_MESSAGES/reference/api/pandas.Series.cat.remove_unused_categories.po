@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.cat.remove_unused_categories.rst:2
+msgid "pandas.Series.cat.remove_unused_categories"
+msgstr ""
+
+#: of pandas.Series.cat.remove_unused_categories:2
+msgid "Removes categories which are not used."
+msgstr ""
+
+#: of pandas.Series.cat.remove_unused_categories
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.cat.remove_unused_categories:9
+msgid "**inplace**"
+msgstr ""
+
+#: of pandas.Series.cat.remove_unused_categories:8
+msgid "boolean (default: False)"
+msgstr ""
+
+#: of pandas.Series.cat.remove_unused_categories:8
+msgid ""
+"Whether or not to drop unused categories inplace or return a copy of this"
+" categorical with unused categories dropped."
+msgstr ""
+
+#: of pandas.Series.cat.remove_unused_categories
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.cat.remove_unused_categories:19
+msgid "**cat**"
+msgstr ""
+
+#: of pandas.Series.cat.remove_unused_categories:18
+msgid "Categorical with unused categories dropped or None if inplace."
+msgstr ""
+
+#: of pandas.Series.cat.remove_unused_categories:24
+msgid ""
+":obj:`rename_categories`, :obj:`reorder_categories`, "
+":obj:`add_categories`, :obj:`remove_categories`, :obj:`set_categories`"
+msgstr ""
+

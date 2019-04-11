@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.MultiIndex.to_frame.rst:2
+msgid "pandas.MultiIndex.to\\_frame"
+msgstr ""
+
+#: of pandas.MultiIndex.to_frame:2
+msgid "Create a DataFrame with the levels of the MultiIndex as columns."
+msgstr ""
+
+#: of pandas.MultiIndex.to_frame:4
+msgid ""
+"Column ordering is determined by the DataFrame constructor with data as a"
+" dict."
+msgstr ""
+
+#: of pandas.MultiIndex.to_frame
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.MultiIndex.to_frame:12
+msgid "**index**"
+msgstr ""
+
+#: of pandas.MultiIndex.to_frame:11
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.MultiIndex.to_frame:12
+msgid "Set the index of the returned DataFrame as the original MultiIndex."
+msgstr ""
+
+#: of pandas.MultiIndex.to_frame:15
+msgid "**name**"
+msgstr ""
+
+#: of pandas.MultiIndex.to_frame:14
+msgid "list / sequence of strings, optional"
+msgstr ""
+
+#: of pandas.MultiIndex.to_frame:15
+msgid "The passed names should substitute index level names."
+msgstr ""
+
+#: of pandas.MultiIndex.to_frame
+msgid "Returns"
+msgstr ""
+
+#: of pandas.MultiIndex.to_frame:25
+msgid "**DataFrame**"
+msgstr ""
+
+#: of pandas.MultiIndex.to_frame:24
+msgid "a DataFrame containing the original MultiIndex data."
+msgstr ""
+
+#: of pandas.MultiIndex.to_frame:30
+msgid ":obj:`DataFrame`"
+msgstr ""
+

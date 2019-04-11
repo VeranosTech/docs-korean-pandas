@@ -1,0 +1,1427 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/arrays.rst:1
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../reference/arrays.rst:7
+msgid "Pandas Arrays"
+msgstr ""
+
+#: ../../reference/arrays.rst:11
+msgid ""
+"For most data types, pandas uses NumPy arrays as the concrete objects "
+"contained with a :class:`Index`, :class:`Series`, or :class:`DataFrame`."
+msgstr ""
+
+#: ../../reference/arrays.rst:15
+msgid "For some data types, pandas extends NumPy's type system."
+msgstr ""
+
+#: ../../reference/arrays.rst:18
+msgid "Kind of Data"
+msgstr ""
+
+#: ../../reference/arrays.rst:18
+msgid "Pandas Data Type"
+msgstr ""
+
+#: ../../reference/arrays.rst:18
+msgid "Scalar"
+msgstr ""
+
+#: ../../reference/arrays.rst:18
+msgid "Array"
+msgstr ""
+
+#: ../../reference/arrays.rst:20
+msgid "TZ-aware datetime"
+msgstr ""
+
+#: ../../reference/arrays.rst:20
+msgid ":class:`DatetimeTZDtype`"
+msgstr ""
+
+#: ../../reference/arrays.rst:20
+msgid ":class:`Timestamp`"
+msgstr ""
+
+#: ../../reference/arrays.rst:20
+msgid ":ref:`api.arrays.datetime`"
+msgstr ""
+
+#: ../../reference/arrays.rst:21
+msgid "Timedeltas"
+msgstr ""
+
+#: ../../reference/arrays.rst:21 ../../reference/arrays.rst:24
+#: ../../reference/arrays.rst:25 ../../reference/arrays.rst:26
+msgid "(none)"
+msgstr ""
+
+#: ../../reference/arrays.rst:21
+msgid ":class:`Timedelta`"
+msgstr ""
+
+#: ../../reference/arrays.rst:21
+msgid ":ref:`api.arrays.timedelta`"
+msgstr ""
+
+#: ../../reference/arrays.rst:22
+msgid "Period (time spans)"
+msgstr ""
+
+#: ../../reference/arrays.rst:22
+msgid ":class:`PeriodDtype`"
+msgstr ""
+
+#: ../../reference/arrays.rst:22
+msgid ":class:`Period`"
+msgstr ""
+
+#: ../../reference/arrays.rst:22
+msgid ":ref:`api.arrays.period`"
+msgstr ""
+
+#: ../../reference/arrays.rst:23
+msgid "Intervals"
+msgstr ""
+
+#: ../../reference/arrays.rst:23
+msgid ":class:`IntervalDtype`"
+msgstr ""
+
+#: ../../reference/arrays.rst:23
+msgid ":class:`Interval`"
+msgstr ""
+
+#: ../../reference/arrays.rst:23
+msgid ":ref:`api.arrays.interval`"
+msgstr ""
+
+#: ../../reference/arrays.rst:24 ../../reference/arrays.rst:304
+msgid "Nullable Integer"
+msgstr ""
+
+#: ../../reference/arrays.rst:24
+msgid ":class:`Int64Dtype`, ..."
+msgstr ""
+
+#: ../../reference/arrays.rst:24
+msgid ":ref:`api.arrays.integer_na`"
+msgstr ""
+
+#: ../../reference/arrays.rst:25
+msgid "Categorical"
+msgstr ""
+
+#: ../../reference/arrays.rst:25
+msgid ":class:`CategoricalDtype`"
+msgstr ""
+
+#: ../../reference/arrays.rst:25
+msgid ":ref:`api.arrays.categorical`"
+msgstr ""
+
+#: ../../reference/arrays.rst:26
+msgid "Sparse"
+msgstr ""
+
+#: ../../reference/arrays.rst:26
+msgid ":class:`SparseDtype`"
+msgstr ""
+
+#: ../../reference/arrays.rst:26
+msgid ":ref:`api.arrays.sparse`"
+msgstr ""
+
+#: ../../reference/arrays.rst:29
+msgid ""
+"Pandas and third-party libraries can extend NumPy's type system (see "
+":ref:`extending.extension-types`). The top-level :meth:`array` method can"
+" be used to create a new array, which may be stored in a :class:`Series`,"
+" :class:`Index`, or as a column in a :class:`DataFrame`."
+msgstr ""
+
+#: ../../reference/arrays.rst:37:<autosummary>:1
+msgid ":obj:`array <pandas.array>`\\ \\(data\\[\\, dtype\\, copy\\]\\)"
+msgstr ""
+
+#: ../../reference/arrays.rst:37:<autosummary>:1
+msgid "Create an array."
+msgstr ""
+
+#: ../../reference/arrays.rst:41
+msgid "Datetime Data"
+msgstr ""
+
+#: ../../reference/arrays.rst:43
+msgid ""
+"NumPy cannot natively represent timezone-aware datetimes. Pandas supports"
+" this with the :class:`arrays.DatetimeArray` extension array, which can "
+"hold timezone-naive or timezone-aware values."
+msgstr ""
+
+#: ../../reference/arrays.rst:47
+msgid ""
+":class:`Timestamp`, a subclass of :class:`datetime.datetime`, is pandas' "
+"scalar type for timezone-naive or timezone-aware datetime data."
+msgstr ""
+
+#: ../../reference/arrays.rst:54:<autosummary>:1
+msgid ":obj:`Timestamp <pandas.Timestamp>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:54:<autosummary>:1
+msgid "Pandas replacement for datetime.datetime"
+msgstr ""
+
+#: ../../reference/arrays.rst:56 ../../reference/arrays.rst:165
+#: ../../reference/arrays.rst:220 ../../reference/arrays.rst:278
+msgid "Properties"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.asm8 <pandas.Timestamp.asm8>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.day <pandas.Timestamp.day>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.dayofweek <pandas.Timestamp.dayofweek>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.dayofyear <pandas.Timestamp.dayofyear>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.days_in_month <pandas.Timestamp.days_in_month>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.daysinmonth <pandas.Timestamp.daysinmonth>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.fold <pandas.Timestamp.fold>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.hour <pandas.Timestamp.hour>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.is_leap_year <pandas.Timestamp.is_leap_year>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.is_month_end <pandas.Timestamp.is_month_end>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.is_month_start <pandas.Timestamp.is_month_start>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.is_quarter_end <pandas.Timestamp.is_quarter_end>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.is_quarter_start <pandas.Timestamp.is_quarter_start>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.is_year_end <pandas.Timestamp.is_year_end>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.is_year_start <pandas.Timestamp.is_year_start>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.max <pandas.Timestamp.max>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.microsecond <pandas.Timestamp.microsecond>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.min <pandas.Timestamp.min>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.minute <pandas.Timestamp.minute>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.month <pandas.Timestamp.month>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.nanosecond <pandas.Timestamp.nanosecond>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.quarter <pandas.Timestamp.quarter>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.resolution <pandas.Timestamp.resolution>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ""
+"Return resolution describing the smallest difference between two times "
+"that can be represented by Timestamp object_state"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.second <pandas.Timestamp.second>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.tz <pandas.Timestamp.tz>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid "Alias for tzinfo"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.tzinfo <pandas.Timestamp.tzinfo>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.value <pandas.Timestamp.value>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.week <pandas.Timestamp.week>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.weekofyear <pandas.Timestamp.weekofyear>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:90:<autosummary>:1
+msgid ":obj:`Timestamp.year <pandas.Timestamp.year>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:92 ../../reference/arrays.rst:185
+#: ../../reference/arrays.rst:247
+msgid "Methods"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.astimezone <pandas.Timestamp.astimezone>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Convert tz-aware Timestamp to another time zone."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.ceil <pandas.Timestamp.ceil>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "return a new Timestamp ceiled to this resolution"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.combine <pandas.Timestamp.combine>`\\ \\(date\\, time\\)"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "date, time -> datetime with same date and time fields"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.ctime <pandas.Timestamp.ctime>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Return ctime() style string."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.date <pandas.Timestamp.date>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Return date object with same year, month and day."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.day_name <pandas.Timestamp.day_name>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Return the day name of the Timestamp with specified locale."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.dst <pandas.Timestamp.dst>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Return self.tzinfo.dst(self)."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.floor <pandas.Timestamp.floor>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "return a new Timestamp floored to this resolution"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.freq <pandas.Timestamp.freq>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.freqstr <pandas.Timestamp.freqstr>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ""
+":obj:`Timestamp.fromordinal <pandas.Timestamp.fromordinal>`\\ "
+"\\(ordinal\\[\\, freq\\, tz\\]\\)"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ""
+"passed an ordinal, translate and convert to a ts note: by definition "
+"there cannot be any tz info on the ordinal itself"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.fromtimestamp <pandas.Timestamp.fromtimestamp>`\\ \\(ts\\)"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "timestamp[, tz] -> tz's local time from POSIX timestamp."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.isocalendar <pandas.Timestamp.isocalendar>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Return a 3-tuple containing ISO year, week number, and weekday."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.isoformat <pandas.Timestamp.isoformat>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.isoweekday <pandas.Timestamp.isoweekday>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Return the day of the week represented by the date."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.month_name <pandas.Timestamp.month_name>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Return the month name of the Timestamp with specified locale."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.normalize <pandas.Timestamp.normalize>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Normalize Timestamp to midnight, preserving tz information."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.now <pandas.Timestamp.now>`\\ \\(\\[tz\\]\\)"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Returns new Timestamp object representing current time local to tz."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.replace <pandas.Timestamp.replace>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "implements datetime.replace, handles nanoseconds"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.round <pandas.Timestamp.round>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Round the Timestamp to the specified resolution"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.strftime <pandas.Timestamp.strftime>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "format -> strftime() style string."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.strptime <pandas.Timestamp.strptime>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ""
+"string, format -> new datetime parsed from a string (like "
+"time.strptime())."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.time <pandas.Timestamp.time>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Return time object with same time but with tzinfo=None."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.timestamp <pandas.Timestamp.timestamp>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Return POSIX timestamp as float."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.timetuple <pandas.Timestamp.timetuple>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Return time tuple, compatible with time.localtime()."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.timetz <pandas.Timestamp.timetz>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Return time object with same time and tzinfo."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.to_datetime64 <pandas.Timestamp.to_datetime64>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Returns a numpy.datetime64 object with 'ns' precision"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.to_numpy <Timestamp.to_numpy>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.to_julian_date <pandas.Timestamp.to_julian_date>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Convert TimeStamp to a Julian Date."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.to_period <pandas.Timestamp.to_period>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Return an period of which this timestamp is an observation."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.to_pydatetime <pandas.Timestamp.to_pydatetime>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Convert a Timestamp object to a native Python datetime object."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.today <pandas.Timestamp.today>`\\ \\(cls\\[\\, tz\\]\\)"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Return the current time in the local timezone."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.toordinal <pandas.Timestamp.toordinal>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Return proleptic Gregorian ordinal."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.tz_convert <pandas.Timestamp.tz_convert>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.tz_localize <pandas.Timestamp.tz_localize>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ""
+"Convert naive Timestamp to local time zone, or remove timezone from tz-"
+"aware Timestamp."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.tzname <pandas.Timestamp.tzname>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Return self.tzinfo.tzname(self)."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ""
+":obj:`Timestamp.utcfromtimestamp <pandas.Timestamp.utcfromtimestamp>`\\ "
+"\\(ts\\)"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Construct a naive UTC datetime from a POSIX timestamp."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.utcnow <pandas.Timestamp.utcnow>`\\ \\(\\)"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Return a new Timestamp representing UTC day and time."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.utcoffset <pandas.Timestamp.utcoffset>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Return self.tzinfo.utcoffset(self)."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.utctimetuple <pandas.Timestamp.utctimetuple>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid "Return UTC time tuple, compatible with time.localtime()."
+msgstr ""
+
+#: ../../reference/arrays.rst:137:<autosummary>:1
+msgid ":obj:`Timestamp.weekday <pandas.Timestamp.weekday>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:138
+msgid ""
+"A collection of timestamps may be stored in a "
+":class:`arrays.DatetimeArray`. For timezone-aware data, the ``.dtype`` of"
+" a ``DatetimeArray`` is a :class:`DatetimeTZDtype`. For timezone-naive "
+"data, ``np.dtype(\"datetime64[ns]\")`` is used."
+msgstr ""
+
+#: ../../reference/arrays.rst:143
+msgid ""
+"If the data are tz-aware, then every value in the array must have the "
+"same timezone."
+msgstr ""
+
+#: ../../reference/arrays.rst:150:<autosummary>:1
+msgid ""
+":obj:`arrays.DatetimeArray <pandas.arrays.DatetimeArray>`\\ "
+"\\(values\\[\\, dtype\\, freq\\, copy\\]\\)"
+msgstr ""
+
+#: ../../reference/arrays.rst:150:<autosummary>:1
+msgid "Pandas ExtensionArray for tz-naive or tz-aware datetime data."
+msgstr ""
+
+#: ../../reference/arrays.rst:150:<autosummary>:1
+msgid ":obj:`DatetimeTZDtype <pandas.DatetimeTZDtype>`\\ \\(\\[unit\\, tz\\]\\)"
+msgstr ""
+
+#: ../../reference/arrays.rst:150:<autosummary>:1
+msgid ""
+"A np.dtype duck-typed class, suitable for holding a custom datetime with "
+"tz dtype."
+msgstr ""
+
+#: ../../reference/arrays.rst:154
+msgid "Timedelta Data"
+msgstr ""
+
+#: ../../reference/arrays.rst:156
+msgid ""
+"NumPy can natively represent timedeltas. Pandas provides "
+":class:`Timedelta` for symmetry with :class:`Timestamp`."
+msgstr ""
+
+#: ../../reference/arrays.rst:163:<autosummary>:1
+msgid ":obj:`Timedelta <pandas.Timedelta>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:163:<autosummary>:1
+msgid "Represents a duration, the difference between two dates or times."
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid ":obj:`Timedelta.asm8 <pandas.Timedelta.asm8>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid "Return a numpy timedelta64 array scalar view."
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid ":obj:`Timedelta.components <pandas.Timedelta.components>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid "Return a Components NamedTuple-like"
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid ":obj:`Timedelta.days <pandas.Timedelta.days>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid "Number of days."
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid ":obj:`Timedelta.delta <pandas.Timedelta.delta>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid "Return the timedelta in nanoseconds (ns), for internal compatibility."
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid ":obj:`Timedelta.freq <pandas.Timedelta.freq>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid ":obj:`Timedelta.is_populated <pandas.Timedelta.is_populated>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid ":obj:`Timedelta.max <pandas.Timedelta.max>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid ":obj:`Timedelta.microseconds <pandas.Timedelta.microseconds>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid "Number of microseconds (>= 0 and less than 1 second)."
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid ":obj:`Timedelta.min <pandas.Timedelta.min>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid ":obj:`Timedelta.nanoseconds <pandas.Timedelta.nanoseconds>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid "Return the number of nanoseconds (n), where 0 <= n < 1 microsecond."
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid ":obj:`Timedelta.resolution <pandas.Timedelta.resolution>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid "Return a string representing the lowest timedelta resolution."
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid ":obj:`Timedelta.seconds <pandas.Timedelta.seconds>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid "Number of seconds (>= 0 and less than 1 day)."
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid ":obj:`Timedelta.value <pandas.Timedelta.value>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid ":obj:`Timedelta.view <pandas.Timedelta.view>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:183:<autosummary>:1
+msgid "array view compat"
+msgstr ""
+
+#: ../../reference/arrays.rst:197:<autosummary>:1
+msgid ":obj:`Timedelta.ceil <pandas.Timedelta.ceil>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:197:<autosummary>:1
+msgid "return a new Timedelta ceiled to this resolution"
+msgstr ""
+
+#: ../../reference/arrays.rst:197:<autosummary>:1
+msgid ":obj:`Timedelta.floor <pandas.Timedelta.floor>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:197:<autosummary>:1
+msgid "return a new Timedelta floored to this resolution"
+msgstr ""
+
+#: ../../reference/arrays.rst:197:<autosummary>:1
+msgid ":obj:`Timedelta.isoformat <pandas.Timedelta.isoformat>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:197:<autosummary>:1
+msgid ""
+"Format Timedelta as ISO 8601 Duration like "
+"``P[n]Y[n]M[n]DT[n]H[n]M[n]S``, where the ``[n]`` s are replaced by the "
+"values."
+msgstr ""
+
+#: ../../reference/arrays.rst:197:<autosummary>:1
+msgid ":obj:`Timedelta.round <pandas.Timedelta.round>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:197:<autosummary>:1
+msgid "Round the Timedelta to the specified resolution"
+msgstr ""
+
+#: ../../reference/arrays.rst:197:<autosummary>:1
+msgid ":obj:`Timedelta.to_pytimedelta <pandas.Timedelta.to_pytimedelta>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:197:<autosummary>:1
+msgid ""
+"return an actual datetime.timedelta object note: we lose nanosecond "
+"resolution if any"
+msgstr ""
+
+#: ../../reference/arrays.rst:197:<autosummary>:1
+msgid ":obj:`Timedelta.to_timedelta64 <pandas.Timedelta.to_timedelta64>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:197:<autosummary>:1
+msgid "Returns a numpy.timedelta64 object with 'ns' precision"
+msgstr ""
+
+#: ../../reference/arrays.rst:197:<autosummary>:1
+msgid ":obj:`Timedelta.to_numpy <Timedelta.to_numpy>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:197:<autosummary>:1
+msgid ":obj:`Timedelta.total_seconds <pandas.Timedelta.total_seconds>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:197:<autosummary>:1
+msgid "Total duration of timedelta in seconds (to ns precision)"
+msgstr ""
+
+#: ../../reference/arrays.rst:198
+msgid "A collection of timedeltas may be stored in a :class:`TimedeltaArray`."
+msgstr ""
+
+#: ../../reference/arrays.rst:204:<autosummary>:1
+msgid ""
+":obj:`arrays.TimedeltaArray <pandas.arrays.TimedeltaArray>`\\ "
+"\\(values\\[\\, dtype\\, freq\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/arrays.rst:204:<autosummary>:1
+msgid "Pandas ExtensionArray for timedelta data."
+msgstr ""
+
+#: ../../reference/arrays.rst:208
+msgid "Timespan Data"
+msgstr ""
+
+#: ../../reference/arrays.rst:210
+msgid "Pandas represents spans of times as :class:`Period` objects."
+msgstr ""
+
+#: ../../reference/arrays.rst:213
+msgid "Period"
+msgstr ""
+
+#: ../../reference/arrays.rst:218:<autosummary>:1
+msgid ":obj:`Period <pandas.Period>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:218:<autosummary>:1
+msgid "Represents a period of time"
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid ":obj:`Period.day <pandas.Period.day>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid "Get day of the month that a Period falls on."
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid ":obj:`Period.dayofweek <pandas.Period.dayofweek>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid "Day of the week the period lies in, with Monday=0 and Sunday=6."
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid ":obj:`Period.dayofyear <pandas.Period.dayofyear>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid "Return the day of the year."
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid ":obj:`Period.days_in_month <pandas.Period.days_in_month>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid "Get the total number of days in the month that this period falls on."
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid ":obj:`Period.daysinmonth <pandas.Period.daysinmonth>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid "Get the total number of days of the month that the Period falls in."
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid ":obj:`Period.end_time <pandas.Period.end_time>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid ":obj:`Period.freq <pandas.Period.freq>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid ":obj:`Period.freqstr <pandas.Period.freqstr>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid ":obj:`Period.hour <pandas.Period.hour>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid "Get the hour of the day component of the Period."
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid ":obj:`Period.is_leap_year <pandas.Period.is_leap_year>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid ":obj:`Period.minute <pandas.Period.minute>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid "Get minute of the hour component of the Period."
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid ":obj:`Period.month <pandas.Period.month>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid ":obj:`Period.ordinal <pandas.Period.ordinal>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid ":obj:`Period.quarter <pandas.Period.quarter>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid ":obj:`Period.qyear <pandas.Period.qyear>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid "Fiscal year the Period lies in according to its starting-quarter."
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid ":obj:`Period.second <pandas.Period.second>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid "Get the second component of the Period."
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid ":obj:`Period.start_time <pandas.Period.start_time>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid "Get the Timestamp for the start of the period."
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid ":obj:`Period.week <pandas.Period.week>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid "Get the week of the year on the given Period."
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid ":obj:`Period.weekday <pandas.Period.weekday>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid ":obj:`Period.weekofyear <pandas.Period.weekofyear>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:245:<autosummary>:1
+msgid ":obj:`Period.year <pandas.Period.year>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:255:<autosummary>:1
+msgid ":obj:`Period.asfreq <pandas.Period.asfreq>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:255:<autosummary>:1
+msgid ""
+"Convert Period to desired frequency, either at the start or end of the "
+"interval"
+msgstr ""
+
+#: ../../reference/arrays.rst:255:<autosummary>:1
+msgid ":obj:`Period.now <pandas.Period.now>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:255:<autosummary>:1
+msgid ":obj:`Period.strftime <pandas.Period.strftime>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:255:<autosummary>:1
+msgid ""
+"Returns the string representation of the :class:`Period`, depending on "
+"the selected ``fmt``."
+msgstr ""
+
+#: ../../reference/arrays.rst:255:<autosummary>:1
+msgid ":obj:`Period.to_timestamp <pandas.Period.to_timestamp>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:255:<autosummary>:1
+msgid ""
+"Return the Timestamp representation of the Period at the target frequency"
+" at the specified end (how) of the Period"
+msgstr ""
+
+#: ../../reference/arrays.rst:256
+msgid ""
+"A collection of timedeltas may be stored in a "
+":class:`arrays.PeriodArray`. Every period in a ``PeriodArray`` must have "
+"the same ``freq``."
+msgstr ""
+
+#: ../../reference/arrays.rst:264:<autosummary>:1
+msgid ""
+":obj:`arrays.PeriodArray <pandas.arrays.PeriodArray>`\\ \\(values\\[\\, "
+"freq\\, dtype\\, copy\\]\\)"
+msgstr ""
+
+#: ../../reference/arrays.rst:264:<autosummary>:1
+msgid "Pandas ExtensionArray for storing Period data."
+msgstr ""
+
+#: ../../reference/arrays.rst:264:<autosummary>:1
+msgid ":obj:`PeriodDtype <pandas.PeriodDtype>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:264:<autosummary>:1
+msgid "A Period duck-typed class, suitable for holding a period with freq dtype."
+msgstr ""
+
+#: ../../reference/arrays.rst:268
+msgid "Interval Data"
+msgstr ""
+
+#: ../../reference/arrays.rst:270
+msgid "Arbitrary intervals can be represented as :class:`Interval` objects."
+msgstr ""
+
+#: ../../reference/arrays.rst:276:<autosummary>:1
+msgid ":obj:`Interval <pandas.Interval>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:276:<autosummary>:1
+msgid "Immutable object implementing an Interval, a bounded slice-like interval."
+msgstr ""
+
+#: ../../reference/arrays.rst:292:<autosummary>:1
+msgid ":obj:`Interval.closed <pandas.Interval.closed>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:292:<autosummary>:1
+msgid ""
+"Whether the interval is closed on the left-side, right-side, both or "
+"neither"
+msgstr ""
+
+#: ../../reference/arrays.rst:292:<autosummary>:1
+msgid ":obj:`Interval.closed_left <pandas.Interval.closed_left>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:292:<autosummary>:1
+msgid "Check if the interval is closed on the left side."
+msgstr ""
+
+#: ../../reference/arrays.rst:292:<autosummary>:1
+msgid ":obj:`Interval.closed_right <pandas.Interval.closed_right>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:292:<autosummary>:1
+msgid "Check if the interval is closed on the right side."
+msgstr ""
+
+#: ../../reference/arrays.rst:292:<autosummary>:1
+msgid ":obj:`Interval.left <pandas.Interval.left>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:292:<autosummary>:1
+msgid "Left bound for the interval"
+msgstr ""
+
+#: ../../reference/arrays.rst:292:<autosummary>:1
+msgid ":obj:`Interval.length <pandas.Interval.length>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:292:<autosummary>:1
+msgid "Return the length of the Interval"
+msgstr ""
+
+#: ../../reference/arrays.rst:292:<autosummary>:1
+msgid ":obj:`Interval.mid <pandas.Interval.mid>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:292:<autosummary>:1
+msgid "Return the midpoint of the Interval"
+msgstr ""
+
+#: ../../reference/arrays.rst:292:<autosummary>:1
+msgid ":obj:`Interval.open_left <pandas.Interval.open_left>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:292:<autosummary>:1
+msgid "Check if the interval is open on the left side."
+msgstr ""
+
+#: ../../reference/arrays.rst:292:<autosummary>:1
+msgid ":obj:`Interval.open_right <pandas.Interval.open_right>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:292:<autosummary>:1
+msgid "Check if the interval is open on the right side."
+msgstr ""
+
+#: ../../reference/arrays.rst:292:<autosummary>:1
+msgid ":obj:`Interval.overlaps <pandas.Interval.overlaps>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:292:<autosummary>:1
+msgid "Check whether two Interval objects overlap."
+msgstr ""
+
+#: ../../reference/arrays.rst:292:<autosummary>:1
+msgid ":obj:`Interval.right <pandas.Interval.right>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:292:<autosummary>:1
+msgid "Right bound for the interval"
+msgstr ""
+
+#: ../../reference/arrays.rst:293
+msgid ""
+"A collection of intervals may be stored in an "
+":class:`arrays.IntervalArray`."
+msgstr ""
+
+#: ../../reference/arrays.rst:300:<autosummary>:1
+msgid ":obj:`arrays.IntervalArray <pandas.arrays.IntervalArray>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:300:<autosummary>:1
+msgid "Pandas array for interval data that are closed on the same side."
+msgstr ""
+
+#: ../../reference/arrays.rst:300:<autosummary>:1
+msgid ":obj:`IntervalDtype <pandas.IntervalDtype>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:300:<autosummary>:1
+msgid "A Interval duck-typed class, suitable for holding an interval"
+msgstr ""
+
+#: ../../reference/arrays.rst:306
+msgid ""
+":class:`numpy.ndarray` cannot natively represent integer-data with "
+"missing values. Pandas provides this through "
+":class:`arrays.IntegerArray`."
+msgstr ""
+
+#: ../../reference/arrays.rst:321:<autosummary>:1
+msgid ""
+":obj:`arrays.IntegerArray <pandas.arrays.IntegerArray>`\\ \\(values\\, "
+"mask\\[\\, copy\\]\\)"
+msgstr ""
+
+#: ../../reference/arrays.rst:321:<autosummary>:1
+msgid "Array of integer (optional missing) values."
+msgstr ""
+
+#: ../../reference/arrays.rst:321:<autosummary>:1
+msgid ":obj:`Int8Dtype <pandas.Int8Dtype>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst
+msgid "Attributes"
+msgstr ""
+
+#: ../../reference/arrays.rst:321:<autosummary>:1
+msgid ":obj:`Int16Dtype <pandas.Int16Dtype>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:321:<autosummary>:1
+msgid ":obj:`Int32Dtype <pandas.Int32Dtype>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:321:<autosummary>:1
+msgid ":obj:`Int64Dtype <pandas.Int64Dtype>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:321:<autosummary>:1
+msgid ":obj:`UInt8Dtype <pandas.UInt8Dtype>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:321:<autosummary>:1
+msgid ":obj:`UInt16Dtype <pandas.UInt16Dtype>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:321:<autosummary>:1
+msgid ":obj:`UInt32Dtype <pandas.UInt32Dtype>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:321:<autosummary>:1
+msgid ":obj:`UInt64Dtype <pandas.UInt64Dtype>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:325
+msgid "Categorical Data"
+msgstr ""
+
+#: ../../reference/arrays.rst:327
+msgid ""
+"Pandas defines a custom data type for representing data that can take "
+"only a limited, fixed set of values. The dtype of a ``Categorical`` can "
+"be described by a :class:`pandas.api.types.CategoricalDtype`."
+msgstr ""
+
+#: ../../reference/arrays.rst:336:<autosummary>:1
+msgid ""
+":obj:`CategoricalDtype <pandas.CategoricalDtype>`\\ \\(\\[categories\\, "
+"ordered\\]\\)"
+msgstr ""
+
+#: ../../reference/arrays.rst:336:<autosummary>:1
+msgid "Type for categorical data with the categories and orderedness"
+msgstr ""
+
+#: ../../reference/arrays.rst:342:<autosummary>:1
+msgid ":obj:`CategoricalDtype.categories <pandas.CategoricalDtype.categories>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:342:<autosummary>:1
+msgid "An ``Index`` containing the unique categories allowed."
+msgstr ""
+
+#: ../../reference/arrays.rst:342:<autosummary>:1
+msgid ":obj:`CategoricalDtype.ordered <pandas.CategoricalDtype.ordered>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:342:<autosummary>:1
+#: ../../reference/arrays.rst:368:<autosummary>:1
+msgid "Whether the categories have an ordered relationship."
+msgstr ""
+
+#: ../../reference/arrays.rst:343
+msgid "Categorical data can be stored in a :class:`pandas.Categorical`"
+msgstr ""
+
+#: ../../reference/arrays.rst:350:<autosummary>:1
+msgid ""
+":obj:`Categorical <pandas.Categorical>`\\ \\(values\\[\\, categories\\, "
+"ordered\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/arrays.rst:350:<autosummary>:1
+msgid "Represents a categorical variable in classic R / S-plus fashion"
+msgstr ""
+
+#: ../../reference/arrays.rst:351
+msgid ""
+"The alternative :meth:`Categorical.from_codes` constructor can be used "
+"when you have the categories and integer codes already:"
+msgstr ""
+
+#: ../../reference/arrays.rst:358:<autosummary>:1
+msgid ""
+":obj:`Categorical.from_codes <pandas.Categorical.from_codes>`\\ "
+"\\(codes\\[\\, categories\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/arrays.rst:358:<autosummary>:1
+msgid "Make a Categorical type from codes and categories or dtype."
+msgstr ""
+
+#: ../../reference/arrays.rst:359
+msgid "The dtype information is available on the ``Categorical``"
+msgstr ""
+
+#: ../../reference/arrays.rst:368:<autosummary>:1
+msgid ":obj:`Categorical.dtype <pandas.Categorical.dtype>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:368:<autosummary>:1
+msgid "The :class:`~pandas.api.types.CategoricalDtype` for this instance"
+msgstr ""
+
+#: ../../reference/arrays.rst:368:<autosummary>:1
+msgid ":obj:`Categorical.categories <pandas.Categorical.categories>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:368:<autosummary>:1
+msgid "The categories of this categorical."
+msgstr ""
+
+#: ../../reference/arrays.rst:368:<autosummary>:1
+msgid ":obj:`Categorical.ordered <pandas.Categorical.ordered>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:368:<autosummary>:1
+msgid ":obj:`Categorical.codes <pandas.Categorical.codes>`\\"
+msgstr ""
+
+#: ../../reference/arrays.rst:368:<autosummary>:1
+msgid "The category codes of this categorical."
+msgstr ""
+
+#: ../../reference/arrays.rst:369
+msgid ""
+"``np.asarray(categorical)`` works by implementing the array interface. Be"
+" aware, that this converts the Categorical back to a NumPy array, so "
+"categories and order information is not preserved!"
+msgstr ""
+
+#: ../../reference/arrays.rst:376:<autosummary>:1
+msgid ""
+":obj:`Categorical.__array__ <pandas.Categorical.__array__>`\\ "
+"\\(\\[dtype\\]\\)"
+msgstr ""
+
+#: ../../reference/arrays.rst:376:<autosummary>:1
+msgid "The numpy array interface."
+msgstr ""
+
+#: ../../reference/arrays.rst:377
+msgid ""
+"A ``Categorical`` can be stored in a ``Series`` or ``DataFrame``. To "
+"create a Series of dtype ``category``, use ``cat = s.astype(dtype)`` or "
+"``Series(..., dtype=dtype)`` where ``dtype`` is either"
+msgstr ""
+
+#: ../../reference/arrays.rst:381
+msgid "the string ``'category'``"
+msgstr ""
+
+#: ../../reference/arrays.rst:382
+msgid "an instance of :class:`~pandas.api.types.CategoricalDtype`."
+msgstr ""
+
+#: ../../reference/arrays.rst:384
+msgid ""
+"If the Series is of dtype ``CategoricalDtype``, ``Series.cat`` can be "
+"used to change the categorical data. See :ref:`api.series.cat` for more."
+msgstr ""
+
+#: ../../reference/arrays.rst:390
+msgid "Sparse Data"
+msgstr ""
+
+#: ../../reference/arrays.rst:392
+msgid ""
+"Data where a single value is repeated many times (e.g. ``0`` or ``NaN``) "
+"may be stored efficiently as a :class:`SparseArray`."
+msgstr ""
+
+#: ../../reference/arrays.rst:400:<autosummary>:1
+msgid ""
+":obj:`SparseArray <pandas.SparseArray>`\\ \\(data\\[\\, sparse\\_index\\,"
+" index\\, ...\\]\\)"
+msgstr ""
+
+#: ../../reference/arrays.rst:400:<autosummary>:1
+msgid "An ExtensionArray for storing sparse data."
+msgstr ""
+
+#: ../../reference/arrays.rst:400:<autosummary>:1
+msgid ""
+":obj:`SparseDtype <pandas.SparseDtype>`\\ \\(\\[dtype\\, "
+"fill\\_value\\]\\)"
+msgstr ""
+
+#: ../../reference/arrays.rst:400:<autosummary>:1
+msgid "Dtype for data stored in :class:`SparseArray`."
+msgstr ""
+
+#: ../../reference/arrays.rst:401
+msgid ""
+"The ``Series.sparse`` accessor may be used to access sparse-specific "
+"attributes and methods if the :class:`Series` contains sparse values. See"
+" :ref:`api.series.sparse` for more."
+msgstr ""
+

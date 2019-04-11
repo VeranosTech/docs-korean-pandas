@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.equals.rst:2
+msgid "pandas.Series.equals"
+msgstr ""
+
+#: of pandas.Series.equals:2
+msgid "Test whether two objects contain the same elements."
+msgstr ""
+
+#: of pandas.Series.equals:4
+msgid ""
+"This function allows two Series or DataFrames to be compared against each"
+" other to see if they have the same shape and elements. NaNs in the same "
+"location are considered equal. The column headers do not need to have the"
+" same type, but the elements within the columns must be the same dtype."
+msgstr ""
+
+#: of pandas.Series.equals
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.equals:13
+msgid "**other**"
+msgstr ""
+
+#: of pandas.Series.equals:12
+msgid "Series or DataFrame"
+msgstr ""
+
+#: of pandas.Series.equals:13
+msgid "The other Series or DataFrame to be compared with the first."
+msgstr ""
+
+#: of pandas.Series.equals
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.equals:24
+msgid "**bool**"
+msgstr ""
+
+#: of pandas.Series.equals:18
+msgid "True if all elements are the same in both objects, False otherwise."
+msgstr ""
+
+#: of pandas.Series.equals:30
+msgid ":obj:`Series.eq`"
+msgstr ""
+
+#: of pandas.Series.equals:30
+msgid ""
+"Compare two Series objects of the same length and return a Series where "
+"each element is True if the element in each Series is equal, False "
+"otherwise."
+msgstr ""
+
+#: of pandas.Series.equals:33
+msgid ":obj:`DataFrame.eq`"
+msgstr ""
+
+#: of pandas.Series.equals:33
+msgid ""
+"Compare two DataFrame objects of the same shape and return a DataFrame "
+"where each element is True if the respective element in each DataFrame is"
+" equal, False otherwise."
+msgstr ""
+
+#: of pandas.Series.equals:36
+msgid ":obj:`assert_series_equal`"
+msgstr ""
+
+#: of pandas.Series.equals:36
+msgid "Return True if left and right Series are equal, False otherwise."
+msgstr ""
+
+#: of pandas.Series.equals:39
+msgid ":obj:`assert_frame_equal`"
+msgstr ""
+
+#: of pandas.Series.equals:39
+msgid "Return True if left and right DataFrames are equal, False otherwise."
+msgstr ""
+
+#: of pandas.Series.equals:41
+msgid ":obj:`numpy.array_equal`"
+msgstr ""
+
+#: of pandas.Series.equals:42
+msgid ""
+"Return True if two arrays have the same shape and elements, False "
+"otherwise."
+msgstr ""
+
+#: of pandas.Series.equals:45
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Series.equals:46
+msgid ""
+"This function requires that the elements have the same dtype as their "
+"respective elements in the other Series or DataFrame. However, the column"
+" labels do not need to have the same type, as long as they are still "
+"considered equal."
+msgstr ""
+
+#: of pandas.Series.equals:53
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.equals:59
+msgid ""
+"DataFrames df and exactly_equal have the same types and values for their "
+"elements and column labels, which will return True."
+msgstr ""
+
+#: of pandas.Series.equals:69
+msgid ""
+"DataFrames df and different_column_type have the same element types and "
+"values, but have different types for the column labels, which will still "
+"return True."
+msgstr ""
+
+#: of pandas.Series.equals:80
+msgid ""
+"DataFrames df and different_data_type have different types for the same "
+"values for their elements, and will return False even though their column"
+" labels are the same values and types."
+msgstr ""
+

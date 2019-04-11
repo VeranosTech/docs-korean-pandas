@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.argmin.rst:2
+msgid "pandas.Index.argmin"
+msgstr ""
+
+#: of pandas.Index.argmin:2
+msgid "Return a ndarray of the minimum argument indexer."
+msgstr ""
+
+#: of pandas.Index.argmin
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.argmin:8
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.Index.argmin:7
+msgid "{None}"
+msgstr ""
+
+#: of pandas.Index.argmin:8
+msgid "Dummy argument for consistency with Series"
+msgstr ""
+
+#: of pandas.Index.argmin:17
+msgid "**skipna**"
+msgstr ""
+
+#: of pandas.Index.argmin:16
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.Index.argmin:22
+msgid ":obj:`numpy.ndarray.argmin`"
+msgstr ""
+

@@ -1,0 +1,465 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../whatsnew/v0.11.0.rst:4
+msgid "v0.11.0 (April 22, 2013)"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:6
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:9
+msgid ""
+"This is a major release from 0.10.1 and includes many new features and "
+"enhancements along with a large number of bug fixes. The methods of "
+"Selecting Data have had quite a number of additions, and Dtype support is"
+" now full-fledged. There are also a number of important API changes that "
+"long-time pandas users should pay close attention to."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:15
+msgid ""
+"There is a new section in the documentation, :ref:`10 Minutes to Pandas "
+"<10min>`, primarily geared to new users."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:18
+msgid ""
+"There is a new section in the documentation, :ref:`Cookbook <cookbook>`, "
+"a collection of useful recipes in pandas (and that we want "
+"contributions!)."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:21
+msgid ""
+"There are several libraries that are now :ref:`Recommended Dependencies "
+"<install.recommended_dependencies>`"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:24
+msgid "Selection Choices"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:26
+msgid ""
+"Starting in 0.11.0, object selection has had a number of user-requested "
+"additions in order to support more explicit location based indexing. "
+"Pandas now supports three types of multi-axis indexing."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:30
+msgid ""
+"``.loc`` is strictly label based, will raise ``KeyError`` when the items "
+"are not found, allowed inputs are:"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:32
+msgid ""
+"A single label, e.g. ``5`` or ``'a'``, (note that ``5`` is interpreted as"
+" a *label* of the index. This use is **not** an integer position along "
+"the index)"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:33
+msgid "A list or array of labels ``['a', 'b', 'c']``"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:34
+msgid ""
+"A slice object with labels ``'a':'f'``, (note that contrary to usual "
+"python slices, **both** the start and the stop are included!)"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:35 ../../whatsnew/v0.11.0.rst:44
+msgid "A boolean array"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:37
+msgid "See more at :ref:`Selection by Label <indexing.label>`"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:39
+msgid ""
+"``.iloc`` is strictly integer position based (from ``0`` to ``length-1`` "
+"of the axis), will raise ``IndexError`` when the requested indices are "
+"out of bounds. Allowed inputs are:"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:41
+msgid "An integer e.g. ``5``"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:42
+msgid "A list or array of integers ``[4, 3, 0]``"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:43
+msgid "A slice object with ints ``1:7``"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:46
+msgid "See more at :ref:`Selection by Position <indexing.integer>`"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:48
+msgid ""
+"``.ix`` supports mixed integer and label based access. It is primarily "
+"label based, but will fallback to integer positional access. ``.ix`` is "
+"the most general and will support any of the inputs to ``.loc`` and "
+"``.iloc``, as well as support for floating point label schemes. ``.ix`` "
+"is especially useful when dealing with mixed positional and label based "
+"hierarchical indexes."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:52
+msgid ""
+"As using integer slices with ``.ix`` have different behavior depending on"
+" whether the slice is interpreted as position based or label based, it's "
+"usually better to be explicit and use ``.iloc`` or ``.loc``."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:56
+msgid ""
+"See more at :ref:`Advanced Indexing <advanced>` and :ref:`Advanced "
+"Hierarchical <advanced.advanced_hierarchical>`."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:60
+msgid "Selection Deprecations"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:62
+msgid ""
+"Starting in version 0.11.0, these methods *may* be deprecated in future "
+"versions."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:64
+msgid "``irow``"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:65
+msgid "``icol``"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:66
+msgid "``iget_value``"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:68
+msgid ""
+"See the section :ref:`Selection by Position <indexing.integer>` for "
+"substitutes."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:71
+msgid "Dtypes"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:73
+msgid ""
+"Numeric dtypes will propagate and can coexist in DataFrames. If a dtype "
+"is passed (either directly via the ``dtype`` keyword, a passed "
+"``ndarray``, or a passed ``Series``, then it will be preserved in "
+"DataFrame operations. Furthermore, different numeric dtypes will **NOT** "
+"be combined. The following example will give you a taste."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:92
+msgid "Dtype Conversion"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:94
+msgid ""
+"This is lower-common-denominator upcasting, meaning you get the dtype "
+"which can accommodate all of the types"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:100
+msgid "Conversion"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:106
+msgid "Mixed Conversion"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:120
+msgid "Forcing Date coercion (and setting ``NaT`` when not datelike)"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:131
+msgid "Dtype Gotchas"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:133
+msgid "**Platform Gotchas**"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:135
+msgid ""
+"Starting in 0.11.0, construction of DataFrame/Series will use default "
+"dtypes of ``int64`` and ``float64``, *regardless of platform*. This is "
+"not an apparent change from earlier versions of pandas. If you specify "
+"dtypes, they *WILL* be respected, however (:issue:`2837`)"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:139
+msgid "The following will all result in ``int64`` dtypes"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:147
+msgid ""
+"Keep in mind that ``DataFrame(np.array([1,2]))`` **WILL** result in "
+"``int32`` on 32-bit platforms!"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:150
+msgid "**Upcasting Gotchas**"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:152
+msgid ""
+"Performing indexing operations on integer type data can easily upcast the"
+" data. The dtype of the input data will be preserved in cases where "
+"``nans`` are not introduced."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:166
+msgid "While float dtypes are unchanged."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:179
+msgid "Datetimes Conversion"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:181
+msgid ""
+"Datetime64[ns] columns in a DataFrame (or a Series) allow the use of "
+"``np.nan`` to indicate a nan value, in addition to the traditional "
+"``NaT``, or not-a-time. This allows convenient nan setting in a generic "
+"way. Furthermore ``datetime64[ns]`` columns are created by default, when "
+"passed datetimelike objects (*this change was introduced in 0.10.1*) "
+"(:issue:`2809`, :issue:`2810`)"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:200
+msgid ""
+"Astype conversion on ``datetime64[ns]`` to ``object``, implicitly "
+"converts ``NaT`` to ``np.nan``"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:215
+msgid "API changes"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:217
+msgid ""
+"Added to_series() method to indices, to facilitate the creation of "
+"indexers (:issue:`3275`)"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:220 ../../whatsnew/v0.11.0.rst:237
+msgid "``HDFStore``"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:222
+msgid ""
+"added the method ``select_column`` to select a single column from a table"
+" as a Series."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:223
+msgid ""
+"deprecated the ``unique`` method, can be replicated by "
+"``select_column(key,column).unique()``"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:224
+msgid ""
+"``min_itemsize`` parameter to ``append`` will now automatically create "
+"data_columns for passed keys"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:227
+msgid "Enhancements"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:229
+msgid ""
+"Improved performance of df.to_csv() by up to 10x in some cases. "
+"(:issue:`3059`)"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:231
+msgid ""
+"Numexpr is now a :ref:`Recommended Dependencies "
+"<install.recommended_dependencies>`, to accelerate certain types of "
+"numerical and boolean operations"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:234
+msgid ""
+"Bottleneck is now a :ref:`Recommended Dependencies "
+"<install.recommended_dependencies>`, to accelerate certain types of "
+"``nan`` operations"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:239
+msgid "support ``read_hdf/to_hdf`` API similar to ``read_csv/to_csv``"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:260
+msgid ""
+"provide dotted attribute access to ``get`` from stores, e.g. ``store.df "
+"== store['df']``"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:262
+msgid ""
+"new keywords ``iterator=boolean``, and ``chunksize=number_in_a_chunk`` "
+"are provided to support iteration on ``select`` and "
+"``select_as_multiple`` (:issue:`3076`)"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:265
+msgid ""
+"You can now select timestamps from an *unordered* timeseries similarly to"
+" an *ordered* timeseries (:issue:`2437`)"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:267
+msgid ""
+"You can now select with a string from a DataFrame with a datelike index, "
+"in a similar way to a Series (:issue:`3070`)"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:278
+msgid "``Squeeze`` to possibly remove length 1 dimensions from an object."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:289
+msgid "In ``pd.io.data.Options``,"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:291
+msgid ""
+"Fix bug when trying to fetch data for the current month when already past"
+" expiry."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:293
+msgid "Now using lxml to scrape html instead of BeautifulSoup (lxml was faster)."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:294
+msgid ""
+"New instance variables for calls and puts are automatically created when "
+"a method that creates them is called. This works for current month where "
+"the instance variables are simply ``calls`` and ``puts``. Also works for "
+"future expiry months and save the instance variable as ``callsMMYY`` or "
+"``putsMMYY``, where ``MMYY`` are, respectively, the month and year of the"
+" option's expiry."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:300
+msgid ""
+"``Options.get_near_stock_price`` now allows the user to specify the month"
+" for which to get relevant options data."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:302
+msgid ""
+"``Options.get_forward_data`` now has optional kwargs ``near`` and "
+"``above_below``. This allows the user to specify if they would like to "
+"only return forward looking data for options near the current stock "
+"price. This just obtains the data from Options.get_near_stock_price "
+"instead of Options.get_xxx_data() (:issue:`2758`)."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:308
+msgid "Cursor coordinate information is now displayed in time-series plots."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:310
+msgid ""
+"added option `display.max_seq_items` to control the number of elements "
+"printed per sequence pprinting it.  (:issue:`2979`)"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:313
+msgid ""
+"added option `display.chop_threshold` to control display of small "
+"numerical values. (:issue:`2739`)"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:316
+msgid ""
+"added option `display.max_info_rows` to prevent verbose_info from being "
+"calculated for frames above 1M rows (configurable). (:issue:`2807`, "
+":issue:`2918`)"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:319
+msgid ""
+"value_counts() now accepts a \"normalize\" argument, for normalized "
+"histograms. (:issue:`2710`)."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:322
+msgid ""
+"DataFrame.from_records now accepts not only dicts but any instance of the"
+" collections.Mapping ABC."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:325
+msgid ""
+"added option `display.mpl_style` providing a sleeker visual style for "
+"plots. Based on https://gist.github.com/huyng/816622 (:issue:`3075`)."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:328
+msgid ""
+"Treat boolean values as integers (values 1 and 0) for numeric operations."
+" (:issue:`2641`)"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:331
+msgid ""
+"to_html() now accepts an optional \"escape\" argument to control reserved"
+" HTML character escaping (enabled by default) and escapes ``&``, in "
+"addition to ``<`` and ``>``.  (:issue:`2919`)"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:335
+msgid ""
+"See the :ref:`full release notes <release>` or issue tracker on GitHub "
+"for a complete list."
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:343
+msgid "Contributors"
+msgstr ""
+
+#: ../../whatsnew/v0.11.0.rst:345
+msgid ""
+"A total of 50 people contributed patches to this release.  People with a "
+"\"+\" by their names contributed a patch for the first time."
+msgstr ""
+

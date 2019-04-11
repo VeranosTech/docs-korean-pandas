@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.plotting.bootstrap_plot.rst:2
+msgid "pandas.plotting.bootstrap\\_plot"
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:2
+msgid "Bootstrap plot on mean, median and mid-range statistics."
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:4
+msgid ""
+"The bootstrap plot is used to estimate the uncertainty of a statistic by "
+"relaying on random sampling with replacement [R11075647b7c8-1]_. This "
+"function will generate bootstrapping plots for mean, median and mid-range"
+" statistics for the given number of samples of the given size."
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:9
+#, python-format
+msgid ""
+"\"Bootstrapping (statistics)\" in     "
+"https://en.wikipedia.org/wiki/Bootstrapping_%28statistics%29"
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:14
+msgid "**series**"
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:13
+msgid "pandas.Series"
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:14
+msgid "Pandas Series from where to get the samplings for the bootstrapping."
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:18 pandas.plotting.bootstrap_plot:38
+msgid "**fig**"
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:17
+msgid "matplotlib.figure.Figure, default None"
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:17
+msgid ""
+"If given, it will use the `fig` reference for plotting instead of "
+"creating a new one with default parameters."
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:22
+msgid "**size**"
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:21
+msgid "int, default 50"
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:21
+msgid ""
+"Number of data points to consider during each sampling. It must be "
+"greater or equal than the length of the `series`."
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:25
+msgid "**samples**"
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:24
+msgid "int, default 500"
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:25
+msgid "Number of times the bootstrap procedure is performed."
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:28
+msgid "**\\*\\*kwds :**"
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:28
+msgid "Options to pass to matplotlib plotting method."
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot
+msgid "Returns"
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:37
+msgid "matplotlib.figure.Figure"
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:33
+msgid "Matplotlib figure"
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:44
+msgid ":obj:`pandas.DataFrame.plot`"
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:44
+msgid "Basic plotting for DataFrame objects."
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:46
+msgid ":obj:`pandas.Series.plot`"
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:47
+msgid "Basic plotting for Series objects."
+msgstr ""
+
+#: of pandas.plotting.bootstrap_plot:52
+msgid "Examples"
+msgstr ""
+

@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.str.startswith.rst:2
+msgid "pandas.Series.str.startswith"
+msgstr ""
+
+#: of pandas.Series.str.startswith:2
+msgid "Test if the start of each string element matches a pattern."
+msgstr ""
+
+#: of pandas.Series.str.startswith:4
+msgid "Equivalent to :meth:`str.startswith`."
+msgstr ""
+
+#: of pandas.Series.str.startswith
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.str.startswith:9
+msgid "**pat**"
+msgstr ""
+
+#: of pandas.Series.str.startswith:8
+msgid "str"
+msgstr ""
+
+#: of pandas.Series.str.startswith:9
+msgid "Character sequence. Regular expressions are not accepted."
+msgstr ""
+
+#: of pandas.Series.str.startswith:12
+msgid "**na**"
+msgstr ""
+
+#: of pandas.Series.str.startswith:11
+msgid "object, default NaN"
+msgstr ""
+
+#: of pandas.Series.str.startswith:12
+msgid "Object shown if element tested is not a string."
+msgstr ""
+
+#: of pandas.Series.str.startswith
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.str.startswith:23
+msgid "**Series or Index of bool**"
+msgstr ""
+
+#: of pandas.Series.str.startswith:17
+msgid ""
+"A Series of booleans indicating whether the given pattern matches the "
+"start of each string element."
+msgstr ""
+
+#: of pandas.Series.str.startswith:29
+msgid ":obj:`str.startswith`"
+msgstr ""
+
+#: of pandas.Series.str.startswith:29
+msgid "Python standard library string method."
+msgstr ""
+
+#: of pandas.Series.str.startswith:32
+msgid ":obj:`Series.str.endswith`"
+msgstr ""
+
+#: of pandas.Series.str.startswith:32
+msgid "Same as startswith, but tests the end of string."
+msgstr ""
+
+#: of pandas.Series.str.startswith:34
+msgid ":obj:`Series.str.contains`"
+msgstr ""
+
+#: of pandas.Series.str.startswith:35
+msgid "Tests if string element contains a pattern."
+msgstr ""
+
+#: of pandas.Series.str.startswith:40
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.str.startswith:56
+msgid "Specifying `na` to be `False` instead of `NaN`."
+msgstr ""
+

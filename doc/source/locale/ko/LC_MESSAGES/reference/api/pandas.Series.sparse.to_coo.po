@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.sparse.to_coo.rst:2
+msgid "pandas.Series.sparse.to\\_coo"
+msgstr ""
+
+#: of pandas.Series.sparse.to_coo:2
+msgid "Create a scipy.sparse.coo_matrix from a SparseSeries with MultiIndex."
+msgstr ""
+
+#: of pandas.Series.sparse.to_coo:4
+msgid ""
+"Use row_levels and column_levels to determine the row and column "
+"coordinates respectively. row_levels and column_levels are the names "
+"(labels) or numbers of the levels. {row_levels, column_levels} must be a "
+"partition of the MultiIndex level names (or numbers)."
+msgstr ""
+
+#: of pandas.Series.sparse.to_coo
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.sparse.to_coo:12
+msgid "**row_levels**"
+msgstr ""
+
+#: of pandas.Series.sparse.to_coo:11 pandas.Series.sparse.to_coo:14
+msgid "tuple/list"
+msgstr ""
+
+#: of pandas.Series.sparse.to_coo:15
+msgid "**column_levels**"
+msgstr ""
+
+#: of pandas.Series.sparse.to_coo:18
+msgid "**sort_labels**"
+msgstr ""
+
+#: of pandas.Series.sparse.to_coo:17
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.Series.sparse.to_coo:18
+msgid "Sort the row and column labels before forming the sparse matrix."
+msgstr ""
+
+#: of pandas.Series.sparse.to_coo
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.sparse.to_coo:23
+msgid "**y**"
+msgstr ""
+
+#: of pandas.Series.sparse.to_coo:22
+msgid "scipy.sparse.coo_matrix"
+msgstr ""
+
+#: of pandas.Series.sparse.to_coo:26
+msgid "**rows**"
+msgstr ""
+
+#: of pandas.Series.sparse.to_coo:25
+msgid "list (row labels)"
+msgstr ""
+
+#: of pandas.Series.sparse.to_coo:37
+msgid "**columns**"
+msgstr ""
+
+#: of pandas.Series.sparse.to_coo:36
+msgid "list (column labels)"
+msgstr ""
+
+#: of pandas.Series.sparse.to_coo:40
+msgid "Examples"
+msgstr ""
+

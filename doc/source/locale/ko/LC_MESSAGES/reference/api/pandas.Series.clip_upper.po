@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.clip_upper.rst:2
+msgid "pandas.Series.clip\\_upper"
+msgstr ""
+
+#: of pandas.Series.clip_upper:2
+msgid "Trim values above a given threshold."
+msgstr ""
+
+#: of pandas.Series.clip_upper:4
+msgid "Use clip(upper=threshold) instead."
+msgstr ""
+
+#: of pandas.Series.clip_upper:7
+msgid ""
+"Elements above the `threshold` will be changed to match the `threshold` "
+"value(s). Threshold can be a single value or an array, in the latter case"
+" it performs the truncation element-wise."
+msgstr ""
+
+#: of pandas.Series.clip_upper
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.clip_upper:22
+msgid "**threshold**"
+msgstr ""
+
+#: of pandas.Series.clip_upper:21
+msgid "numeric or array-like"
+msgstr ""
+
+#: of pandas.Series.clip_upper:14
+msgid ""
+"Maximum value allowed. All values above threshold will be set to this "
+"value."
+msgstr ""
+
+#: of pandas.Series.clip_upper:17
+msgid "float : every value is compared to `threshold`."
+msgstr ""
+
+#: of pandas.Series.clip_upper:18
+msgid ""
+"array-like : The shape of `threshold` should match the object it's "
+"compared to. When `self` is a Series, `threshold` should be the length. "
+"When `self` is a DataFrame, `threshold` should 2-D and the same shape as "
+"`self` for ``axis=None``, or 1-D and the same length as the axis being "
+"compared."
+msgstr ""
+
+#: of pandas.Series.clip_upper:25
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.Series.clip_upper:24
+msgid "{0 or 'index', 1 or 'columns'}, default 0"
+msgstr ""
+
+#: of pandas.Series.clip_upper:25
+msgid "Align object with `threshold` along the given axis."
+msgstr ""
+
+#: of pandas.Series.clip_upper:30
+msgid "**inplace**"
+msgstr ""
+
+#: of pandas.Series.clip_upper:29
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.Series.clip_upper:28
+msgid "Whether to perform the operation in place on the data."
+msgstr ""
+
+#: of pandas.Series.clip_upper
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.clip_upper:40
+msgid "**Series or DataFrame**"
+msgstr ""
+
+#: of pandas.Series.clip_upper:35
+msgid "Original data with values trimmed."
+msgstr ""
+
+#: of pandas.Series.clip_upper:46
+msgid ":obj:`Series.clip`"
+msgstr ""
+
+#: of pandas.Series.clip_upper:46
+msgid "General purpose method to trim Series values to given threshold(s)."
+msgstr ""
+
+#: of pandas.Series.clip_upper:48
+msgid ":obj:`DataFrame.clip`"
+msgstr ""
+
+#: of pandas.Series.clip_upper:49
+msgid "General purpose method to trim DataFrame values to given threshold(s)."
+msgstr ""
+
+#: of pandas.Series.clip_upper:54
+msgid "Examples"
+msgstr ""
+

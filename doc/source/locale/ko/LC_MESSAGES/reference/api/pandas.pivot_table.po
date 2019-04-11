@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.pivot_table.rst:2
+msgid "pandas.pivot\\_table"
+msgstr ""
+
+#: of pandas.pivot_table:2
+msgid ""
+"Create a spreadsheet-style pivot table as a DataFrame. The levels in the "
+"pivot table will be stored in MultiIndex objects (hierarchical indexes) "
+"on the index and columns of the result DataFrame."
+msgstr ""
+
+#: of pandas.pivot_table
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.pivot_table:10
+msgid "**data**"
+msgstr ""
+
+#: of pandas.pivot_table:9 pandas.pivot_table:54
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.pivot_table:13
+msgid "**values**"
+msgstr ""
+
+#: of pandas.pivot_table:12
+msgid "column to aggregate, optional"
+msgstr ""
+
+#: of pandas.pivot_table:19
+msgid "**index**"
+msgstr ""
+
+#: of pandas.pivot_table:18 pandas.pivot_table:24
+msgid "column, Grouper, array, or list of the previous"
+msgstr ""
+
+#: of pandas.pivot_table:16
+msgid ""
+"If an array is passed, it must be the same length as the data. The list "
+"can contain any of the other types (except list). Keys to group by on the"
+" pivot table index.  If an array is passed, it is being used as the same "
+"manner as column values."
+msgstr ""
+
+#: of pandas.pivot_table:25
+msgid "**columns**"
+msgstr ""
+
+#: of pandas.pivot_table:22
+msgid ""
+"If an array is passed, it must be the same length as the data. The list "
+"can contain any of the other types (except list). Keys to group by on the"
+" pivot table column.  If an array is passed, it is being used as the same"
+" manner as column values."
+msgstr ""
+
+#: of pandas.pivot_table:32
+msgid "**aggfunc**"
+msgstr ""
+
+#: of pandas.pivot_table:31
+msgid "function, list of functions, dict, default numpy.mean"
+msgstr ""
+
+#: of pandas.pivot_table:28
+msgid ""
+"If list of functions passed, the resulting pivot table will have "
+"hierarchical columns whose top level are the function names (inferred "
+"from the function objects themselves) If dict is passed, the key is "
+"column to aggregate and value is function or list of functions"
+msgstr ""
+
+#: of pandas.pivot_table:35
+msgid "**fill_value**"
+msgstr ""
+
+#: of pandas.pivot_table:34
+msgid "scalar, default None"
+msgstr ""
+
+#: of pandas.pivot_table:35
+msgid "Value to replace missing values with"
+msgstr ""
+
+#: of pandas.pivot_table:38
+msgid "**margins**"
+msgstr ""
+
+#: of pandas.pivot_table:37
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.pivot_table:38
+msgid "Add all row / columns (e.g. for subtotal / grand totals)"
+msgstr ""
+
+#: of pandas.pivot_table:41
+msgid "**dropna**"
+msgstr ""
+
+#: of pandas.pivot_table:40
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.pivot_table:41
+msgid "Do not include columns whose entries are all NaN"
+msgstr ""
+
+#: of pandas.pivot_table:45
+msgid "**margins_name**"
+msgstr ""
+
+#: of pandas.pivot_table:44
+msgid "string, default 'All'"
+msgstr ""
+
+#: of pandas.pivot_table:44
+msgid ""
+"Name of the row / column that will contain the totals when margins is "
+"True."
+msgstr ""
+
+#: of pandas.pivot_table
+msgid "Returns"
+msgstr ""
+
+#: of pandas.pivot_table:55
+msgid "**table**"
+msgstr ""
+
+#: of pandas.pivot_table:60
+msgid ":obj:`DataFrame.pivot`"
+msgstr ""
+
+#: of pandas.pivot_table:61
+msgid "Pivot without aggregation that can handle non-numeric data."
+msgstr ""
+
+#: of pandas.pivot_table:66
+msgid "Examples"
+msgstr ""
+
+#: of pandas.pivot_table:88
+msgid "This first example aggregates values by taking the sum."
+msgstr ""
+
+#: of pandas.pivot_table:100
+msgid "We can also fill missing values using the `fill_value` parameter."
+msgstr ""
+
+#: of pandas.pivot_table:112
+msgid "The next example aggregates by taking the mean across multiple columns."
+msgstr ""
+
+#: of pandas.pivot_table:126
+msgid ""
+"We can also calculate multiple types of aggregations for any given value "
+"column."
+msgstr ""
+

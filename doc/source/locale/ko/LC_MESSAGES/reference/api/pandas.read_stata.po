@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.read_stata.rst:2
+msgid "pandas.read\\_stata"
+msgstr ""
+
+#: of pandas.read_stata:2
+msgid "Read Stata file into DataFrame."
+msgstr ""
+
+#: of pandas.read_stata
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.read_stata:8
+msgid "**filepath_or_buffer**"
+msgstr ""
+
+#: of pandas.read_stata:7
+msgid "string or file-like object"
+msgstr ""
+
+#: of pandas.read_stata:8
+msgid "Path to .dta file or object implementing a binary read() functions."
+msgstr ""
+
+#: of pandas.read_stata:11
+msgid "**convert_dates**"
+msgstr ""
+
+#: of pandas.read_stata:10 pandas.read_stata:13 pandas.read_stata:30
+#: pandas.read_stata:37
+msgid "boolean, defaults to True"
+msgstr ""
+
+#: of pandas.read_stata:11
+msgid "Convert date variables to DataFrame time values."
+msgstr ""
+
+#: of pandas.read_stata:14
+msgid "**convert_categoricals**"
+msgstr ""
+
+#: of pandas.read_stata:14
+msgid "Read value labels and convert columns to Categorical/Factor variables."
+msgstr ""
+
+#: of pandas.read_stata:17
+msgid "**encoding**"
+msgstr ""
+
+#: of pandas.read_stata:16
+msgid "string, None or encoding"
+msgstr ""
+
+#: of pandas.read_stata:17
+msgid "Encoding used to parse the files. None defaults to latin-1."
+msgstr ""
+
+#: of pandas.read_stata:20
+msgid "**index_col**"
+msgstr ""
+
+#: of pandas.read_stata:19
+msgid "string, optional, default: None"
+msgstr ""
+
+#: of pandas.read_stata:20
+msgid "Column to set as index."
+msgstr ""
+
+#: of pandas.read_stata:27
+msgid "**convert_missing**"
+msgstr ""
+
+#: of pandas.read_stata:26
+msgid "boolean, defaults to False"
+msgstr ""
+
+#: of pandas.read_stata:23
+msgid ""
+"Flag indicating whether to convert missing values to their Stata "
+"representations.  If False, missing values are replaced with nan. If "
+"True, columns containing missing values are returned with object data "
+"types and missing values are represented by StataMissingValue objects."
+msgstr ""
+
+#: of pandas.read_stata:31
+msgid "**preserve_dtypes**"
+msgstr ""
+
+#: of pandas.read_stata:30
+msgid ""
+"Preserve Stata datatypes. If False, numeric data are upcast to pandas "
+"default types for foreign data (float64 or int64)."
+msgstr ""
+
+#: of pandas.read_stata:35
+msgid "**columns**"
+msgstr ""
+
+#: of pandas.read_stata:34
+msgid "list or None"
+msgstr ""
+
+#: of pandas.read_stata:34
+msgid ""
+"Columns to retain.  Columns will be returned in the given order.  None "
+"returns all columns."
+msgstr ""
+
+#: of pandas.read_stata:38
+msgid "**order_categoricals**"
+msgstr ""
+
+#: of pandas.read_stata:38
+msgid "Flag indicating whether converted categorical data are ordered."
+msgstr ""
+
+#: of pandas.read_stata:42
+msgid "**chunksize**"
+msgstr ""
+
+#: of pandas.read_stata:41
+msgid "int, default None"
+msgstr ""
+
+#: of pandas.read_stata:41
+msgid ""
+"Return StataReader object for iterations, returns chunks with given "
+"number of lines."
+msgstr ""
+
+#: of pandas.read_stata:45
+msgid "**iterator**"
+msgstr ""
+
+#: of pandas.read_stata:44
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.read_stata:45
+msgid "Return StataReader object."
+msgstr ""
+
+#: of pandas.read_stata
+msgid "Returns"
+msgstr ""
+
+#: of pandas.read_stata:55
+msgid "**DataFrame or StataReader**"
+msgstr ""
+
+#: of pandas.read_stata:61
+msgid ":obj:`pandas.io.stata.StataReader`"
+msgstr ""
+
+#: of pandas.read_stata:61
+msgid "Low-level reader for Stata data files."
+msgstr ""
+
+#: of pandas.read_stata:63
+msgid ":obj:`pandas.DataFrame.to_stata`"
+msgstr ""
+
+#: of pandas.read_stata:64
+msgid "Export Stata data files."
+msgstr ""
+
+#: of pandas.read_stata:69
+msgid "Examples"
+msgstr ""
+
+#: of pandas.read_stata:70
+msgid "Read a Stata dta file:"
+msgstr ""
+
+#: of pandas.read_stata:74
+msgid "Read a Stata dta file in 10,000 line chunks:"
+msgstr ""
+

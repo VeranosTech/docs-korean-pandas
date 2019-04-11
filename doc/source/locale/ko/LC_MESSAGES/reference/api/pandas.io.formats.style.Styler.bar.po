@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.io.formats.style.Styler.bar.rst:2
+msgid "pandas.io.formats.style.Styler.bar"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:2
+msgid "Draw bar chart in the cell backgrounds."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:8
+msgid "**subset**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:7
+msgid "IndexSlice, optional"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:8
+msgid "A valid slice for `data` to limit the style application to."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:13
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:12
+msgid "int, str or None, default 0"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:11
+msgid ""
+"Apply to each column (`axis=0` or `'index'`) or to each row (`axis=1` or "
+"`'columns'`) or to the entire DataFrame at once with `axis=None`."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:19
+msgid "**color**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:18
+msgid "str or 2-tuple/list"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:16
+msgid ""
+"If a str is passed, the color is the same for both negative and positive "
+"numbers. If 2-tuple/list is used, the first element is the color_negative"
+" and the second is the color_positive (eg: ['#d65f5f', '#5fba7d'])."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:23
+msgid "**width**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:22
+msgid "float, default 100"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:22
+msgid ""
+"A number between 0 or 100. The largest value will cover `width` percent "
+"of the cell's width."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:34
+msgid "**align**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:33
+msgid "{'left', 'zero',' mid'}, default 'left'"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:26
+msgid "How to align the bars with the cells."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:28
+msgid "'left' : the min value starts at the left of the cell."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:29
+msgid "'zero' : a value of zero is located at the center of the cell."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:30
+msgid ""
+"'mid' : the center of the cell is at (max-min)/2, or if values are all "
+"negative (positive) the zero is aligned at the right (left) of the cell."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:41
+msgid "**vmin**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:40
+#: pandas.io.formats.style.Styler.bar:47
+msgid "float, optional"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:37
+msgid ""
+"Minimum bar value, defining the left hand limit of the bar drawing range,"
+" lower values are clipped to `vmin`. When None (default): the minimum "
+"value of the data will be used."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:48
+msgid "**vmax**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:44
+msgid ""
+"Maximum bar value, defining the right hand limit of the bar drawing "
+"range, higher values are clipped to `vmax`. When None (default): the "
+"maximum value of the data will be used."
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar
+msgid "Returns"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:64
+msgid "**self**"
+msgstr ""
+
+#: of pandas.io.formats.style.Styler.bar:63
+msgid "Styler"
+msgstr ""
+

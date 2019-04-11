@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.core.groupby.DataFrameGroupBy.any.rst:2
+msgid "pandas.core.groupby.DataFrameGroupBy.any"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.any:2
+msgid "Returns True if any value in the group is truthful, else False."
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.any
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.any:14
+msgid "**skipna**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.any:13
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.any:8
+msgid "Flag to ignore nan values during truth testing"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.any:19
+msgid ""
+":obj:`pandas.Series.groupby`, :obj:`pandas.DataFrame.groupby`, "
+":obj:`pandas.Panel.groupby`"
+msgstr ""
+

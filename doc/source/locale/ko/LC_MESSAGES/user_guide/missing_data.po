@@ -1,0 +1,665 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../user_guide/missing_data.rst:3
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:7
+msgid "Working with missing data"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:9
+msgid ""
+"In this section, we will discuss missing (also referred to as NA) values "
+"in pandas."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:14
+msgid ""
+"The choice of using ``NaN`` internally to denote missing data was largely"
+" for simplicity and performance reasons. It differs from the MaskedArray "
+"approach of, for example, :mod:`scikits.timeseries`. We are hopeful that "
+"NumPy will soon be able to provide a native NA type solution (similar to "
+"R) performant enough to be used in pandas."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:20
+msgid ""
+"See the :ref:`cookbook<cookbook.missing_data>` for some advanced "
+"strategies."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:23
+msgid "Values considered \"missing\""
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:25
+msgid ""
+"As data comes in many shapes and forms, pandas aims to be flexible with "
+"regard to handling missing data. While ``NaN`` is the default missing "
+"value marker for reasons of computational speed and convenience, we need "
+"to be able to easily detect this value with data of different types: "
+"floating point, integer, boolean, and general object. In many cases, "
+"however, the Python ``None`` will arise and we wish to also consider that"
+" \"missing\" or \"not available\" or \"NA\"."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:34
+msgid ""
+"If you want to consider ``inf`` and ``-inf`` to be \"NA\" in "
+"computations, you can set ``pandas.options.mode.use_inf_as_na = True``."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:49
+msgid ""
+"To make detecting missing values easier (and across different array "
+"dtypes), pandas provides the :func:`isna` and :func:`notna` functions, "
+"which are also methods on Series and DataFrame objects:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:63
+msgid ""
+"One has to be mindful that in Python (and NumPy), the ``nan's`` don't "
+"compare equal, but ``None's`` **do**. Note that pandas/NumPy uses the "
+"fact that ``np.nan != np.nan``, and treats ``None`` like ``np.nan``."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:71
+msgid ""
+"So as compared to above, a scalar equality comparison versus a "
+"``None/np.nan`` doesn't provide useful information."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:78
+msgid "Integer Dtypes and Missing Data"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:80
+msgid ""
+"Because ``NaN`` is a float, a column of integers with even one missing "
+"values is cast to floating-point dtype (see :ref:`gotchas.intna` for "
+"more). Pandas provides a nullable integer array, which can be used by "
+"explicitly requesting the dtype:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:89
+msgid ""
+"Alternatively, the string alias ``dtype='Int64'`` (note the capital "
+"``\"I\"``) can be used."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:92 ../../user_guide/missing_data.rst:765
+msgid "See :ref:`integer_na` for more."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:95
+msgid "Datetimes"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:97
+msgid ""
+"For datetime64[ns] types, ``NaT`` represents missing values. This is a "
+"pseudo-native sentinel value that can be represented by NumPy in a "
+"singular dtype (datetime64[ns]). pandas objects provide compatibility "
+"between ``NaT`` and ``NaN``."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:113
+msgid "Inserting missing data"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:115
+msgid ""
+"You can insert missing values by simply assigning to containers. The "
+"actual missing value used will be chosen based on the dtype."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:118
+msgid ""
+"For example, numeric containers will always use ``NaN`` regardless of the"
+" missing value type chosen:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:127
+msgid "Likewise, datetime containers will always use ``NaT``."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:129
+msgid "For object containers, pandas will use the value given:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:140
+msgid "Calculations with missing data"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:142
+msgid ""
+"Missing values propagate naturally through arithmetic operations between "
+"pandas objects."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:158
+msgid ""
+"The descriptive statistics and computational methods discussed in the "
+":ref:`data structure overview <basics.stats>` (and listed :ref:`here "
+"<api.series.stats>` and :ref:`here <api.dataframe.stats>`) are all "
+"written to account for missing data. For example:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:163
+msgid "When summing data, NA (missing) values will be treated as zero."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:164
+msgid "If the data are all NA, the result will be 0."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:165
+msgid ""
+"Cumulative methods like :meth:`~DataFrame.cumsum` and "
+":meth:`~DataFrame.cumprod` ignore NA values by default, but preserve them"
+" in the resulting arrays. To override this behaviour and include NA "
+"values, use ``skipna=False``."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:179
+msgid "Sum/Prod of Empties/Nans"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:183
+msgid ""
+"This behavior is now standard as of v0.22.0 and is consistent with the "
+"default in ``numpy``; previously sum/prod of all-NA or empty "
+"Series/DataFrames would return NaN. See :ref:`v0.22.0 whatsnew "
+"<whatsnew_0220>` for more."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:186
+msgid "The sum of an empty or all-NA Series or column of a DataFrame is 0."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:194
+msgid "The product of an empty or all-NA Series or column of a DataFrame is 1."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:204
+msgid "NA values in GroupBy"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:206
+msgid ""
+"NA groups in GroupBy are automatically excluded. This behavior is "
+"consistent with R, for example:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:214
+msgid ""
+"See the groupby section :ref:`here <groupby.missing>` for more "
+"information."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:217
+msgid "Cleaning / filling missing data"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:219
+msgid ""
+"pandas objects are equipped with various data manipulation methods for "
+"dealing with missing data."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:225
+msgid "Filling missing values: fillna"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:227
+msgid ""
+":meth:`~DataFrame.fillna` can \"fill in\" NA values with non-NA data in a"
+" couple of ways, which we illustrate:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:230
+msgid "**Replace NA with a scalar value**"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:238
+msgid "**Fill gaps forward or backward**"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:240
+msgid ""
+"Using the same filling arguments as :ref:`reindexing "
+"<basics.reindexing>`, we can propagate non-NA values forward or backward:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:250
+msgid "**Limit the amount of filling**"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:252
+msgid ""
+"If we only want consecutive gaps filled up to a certain number of data "
+"points, we can use the `limit` keyword:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:265
+msgid "To remind you, these are the available filling methods:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:1
+msgid "Method"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:1
+msgid "Action"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:1
+msgid "pad / ffill"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:1
+msgid "Fill values forward"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:1
+msgid "bfill / backfill"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:1
+msgid "Fill values backward"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:274
+msgid ""
+"With time series data, using pad/ffill is extremely common so that the "
+"\"last known value\" is available at every time point."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:277
+msgid ""
+":meth:`~DataFrame.ffill` is equivalent to ``fillna(method='ffill')`` and "
+":meth:`~DataFrame.bfill` is equivalent to ``fillna(method='bfill')``"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:283
+msgid "Filling with a PandasObject"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:285
+msgid ""
+"You can also fillna using a dict or Series that is alignable. The labels "
+"of the dict or index of the Series must match the columns of the frame "
+"you wish to fill. The use case of this is to fill a DataFrame with the "
+"mean of that column."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:300
+msgid ""
+"Same result as above, but is aligning the 'fill' value which is a Series "
+"in this case."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:311
+msgid "Dropping axis labels with missing data: dropna"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:313
+msgid ""
+"You may wish to simply exclude labels from a data set which refer to "
+"missing data. To do this, use :meth:`~DataFrame.dropna`:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:329
+msgid ""
+"An equivalent :meth:`~Series.dropna` is available for Series. "
+"DataFrame.dropna has considerably more options than Series.dropna, which "
+"can be examined :ref:`in the API <api.dataframe.missing>`."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:336
+msgid "Interpolation"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:340
+msgid "The ``limit_area`` keyword argument was added."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:342
+msgid ""
+"Both Series and DataFrame objects have :meth:`~DataFrame.interpolate` "
+"that, by default, performs linear interpolation at missing data points."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:364
+msgid "Index aware interpolation is available via the ``method`` keyword:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:377
+msgid "For a floating-point index, use ``method='values'``:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:391
+msgid "You can also interpolate with a DataFrame:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:400
+msgid ""
+"The ``method`` argument gives access to fancier interpolation methods. If"
+" you have scipy_ installed, you can pass the name of a 1-d interpolation "
+"routine to ``method``. You'll want to consult the full scipy "
+"interpolation documentation_ and reference guide_ for details. The "
+"appropriate interpolation method will depend on the type of data you are "
+"working with."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:405
+msgid ""
+"If you are dealing with a time series that is growing at an increasing "
+"rate, ``method='quadratic'`` may be appropriate."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:407
+msgid ""
+"If you have values approximating a cumulative distribution function, then"
+" ``method='pchip'`` should work well."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:409
+msgid ""
+"To fill missing values with goal of smooth plotting, consider "
+"``method='akima'``."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:413
+msgid "These methods require ``scipy``."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:423
+msgid ""
+"When interpolating via a polynomial or spline approximation, you must "
+"also specify the degree or order of the approximation:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:432
+msgid "Compare several methods:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:447
+msgid ""
+"Another use case is interpolation at *new* values. Suppose you have 100 "
+"observations from some distribution. And let's suppose that you're "
+"particularly interested in what's happening around the middle. You can "
+"mix pandas' ``reindex`` and ``interpolate`` methods to interpolate at the"
+" new values."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:471
+msgid ""
+"Like other pandas fill methods, :meth:`~DataFrame.interpolate` accepts a "
+"``limit`` keyword argument. Use this argument to limit the number of "
+"consecutive ``NaN`` values filled since the last valid observation:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:486
+msgid ""
+"By default, ``NaN`` values are filled in a ``forward`` direction. Use "
+"``limit_direction`` parameter to fill ``backward`` or from ``both`` "
+"directions."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:500
+msgid ""
+"By default, ``NaN`` values are filled whether they are inside (surrounded"
+" by) existing valid values, or outside existing valid values. Introduced "
+"in v0.23 the ``limit_area`` parameter restricts filling to either inside "
+"or outside values."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:518
+msgid "Replacing Generic Values"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:519
+msgid "Often times we want to replace arbitrary values with other values."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:521
+msgid ""
+":meth:`~Series.replace` in Series and :meth:`~DataFrame.replace` in "
+"DataFrame provides an efficient yet flexible way to perform such "
+"replacements."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:524
+msgid ""
+"For a Series, you can replace a single value or a list of values by "
+"another value:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:533
+msgid "You can replace a list of values by a list of other values:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:539
+msgid "You can also specify a mapping dict:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:545
+msgid "For a DataFrame, you can specify individual values by column:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:553
+msgid ""
+"Instead of replacing with specified values, you can treat all given "
+"values as missing and interpolate over them:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:563
+msgid "String/Regular Expression Replacement"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:567
+msgid ""
+"Python strings prefixed with the ``r`` character such as ``r'hello "
+"world'`` are so-called \"raw\" strings. They have different semantics "
+"regarding backslashes than strings without this prefix. Backslashes in "
+"raw strings will be interpreted as an escaped backslash, e.g., ``r'\\' =="
+" '\\\\'``. You should `read about them "
+"<https://docs.python.org/3/reference/lexical_analysis.html#string-"
+"literals>`__ if this is unclear."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:575
+msgid "Replace the '.' with ``NaN`` (str -> str):"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:583
+msgid ""
+"Now do it with a regular expression that removes surrounding whitespace "
+"(regex -> regex):"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:590
+msgid "Replace a few different values (list -> list):"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:596
+msgid "list of regex -> list of regex:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:602
+msgid "Only search in column ``'b'`` (dict -> dict):"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:608
+msgid ""
+"Same as the previous example, but use a regular expression for searching "
+"instead (dict of regex -> dict):"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:615
+msgid ""
+"You can pass nested dictionaries of regular expressions that use "
+"``regex=True``:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:621
+msgid "Alternatively, you can pass the nested dictionary like so:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:627
+msgid ""
+"You can also use the group of a regular expression match when replacing "
+"(dict of regex -> dict of regex), this works for lists as well."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:634
+msgid ""
+"You can pass a list of regular expressions, of which those that match "
+"will be replaced with a scalar (list of regex -> regex)."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:641
+msgid ""
+"All of the regular expression examples can also be passed with the "
+"``to_replace`` argument as the ``regex`` argument. In this case the "
+"``value`` argument must be passed explicitly by name or ``regex`` must be"
+" a nested dictionary. The previous example, in this case, would then be:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:650
+msgid ""
+"This can be convenient if you do not want to pass ``regex=True`` every "
+"time you want to use a regular expression."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:655
+msgid ""
+"Anywhere in the above ``replace`` examples that you see a regular "
+"expression a compiled regular expression is valid as well."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:659
+msgid "Numeric Replacement"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:661
+msgid ":meth:`~DataFrame.replace` is similar to :meth:`~DataFrame.fillna`."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:669
+msgid "Replacing more than one value is possible by passing a list."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:677
+msgid "You can also operate on the DataFrame in place:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:685
+msgid ""
+"When replacing multiple ``bool`` or ``datetime64`` objects, the first "
+"argument to ``replace`` (``to_replace``) must match the type of the value"
+" being replaced. For example,"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:695
+msgid ""
+"will raise a ``TypeError`` because one of the ``dict`` keys is not of the"
+" correct type for replacement."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:698
+msgid "However, when replacing a *single* object such as,"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:705
+msgid ""
+"the original ``NDFrame`` object will be returned untouched. We're working"
+" on unifying this API, but for backwards compatibility reasons we cannot "
+"break the latter behavior. See :issue:`6354` for more details."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:710
+msgid "Missing data casting rules and indexing"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:712
+msgid ""
+"While pandas supports storing arrays of integer and boolean type, these "
+"types are not capable of storing missing data. Until we can switch to "
+"using a native NA type in NumPy, we've established some \"casting "
+"rules\". When a reindexing operation introduces missing data, the Series "
+"will be cast according to the rules introduced in the table below."
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:1
+msgid "data type"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:1
+msgid "Cast to"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:1
+msgid "integer"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:1
+msgid "float"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:1
+msgid "boolean"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:1
+msgid "object"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:1
+msgid "no cast"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:727
+msgid "For example:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:738
+msgid ""
+"Ordinarily NumPy will complain if you try to use an object array (even if"
+" it contains boolean values) instead of a boolean array to get or set "
+"values from an ndarray (e.g. selecting values based on some criteria). If"
+" a boolean vector contains NAs, an exception will be generated:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:749
+msgid ""
+"However, these can be filled in using :meth:`~DataFrame.fillna` and it "
+"will work fine:"
+msgstr ""
+
+#: ../../user_guide/missing_data.rst:756
+msgid ""
+"Pandas provides a nullable integer dtype, but you must explicitly request"
+" it when creating the series or column. Notice that we use a capital "
+"\"I\" in the ``dtype=\"Int64\"``."
+msgstr ""
+

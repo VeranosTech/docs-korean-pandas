@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.plotting.andrews_curves.rst:2
+msgid "pandas.plotting.andrews\\_curves"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:2
+msgid ""
+"Generates a matplotlib plot of Andrews curves, for visualising clusters "
+"of multivariate data."
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:5
+msgid "Andrews curves have the functional form:"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:8
+msgid "f(t) = x_1/sqrt(2) + x_2 sin(t) + x_3 cos(t) +"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:8
+msgid "x_4 sin(2t) + x_5 cos(2t) + ..."
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:10
+msgid ""
+"Where x coefficients correspond to the values of each dimension and t is "
+"linearly spaced between -pi and +pi. Each row of frame then corresponds "
+"to a single curve."
+msgstr ""
+
+#: of pandas.plotting.andrews_curves
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:17
+msgid "**frame**"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:16
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:17
+msgid "Data to be plotted, preferably normalized to (0.0, 1.0)"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:20
+msgid "**class_column**"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:19
+msgid "Name of the column containing class names"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:23 pandas.plotting.andrews_curves:52
+msgid "**ax**"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:22
+msgid "matplotlib axes object, default None"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:26
+msgid "**samples**"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:25
+msgid "Number of points to plot in each curve"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:29
+msgid "**color**"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:28
+msgid "list or tuple, optional"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:29
+msgid "Colors to use for the different classes"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:33
+msgid "**colormap**"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:32
+msgid "str or matplotlib colormap object, default None"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:32
+msgid ""
+"Colormap to select colors from. If string, load colormap with that name "
+"from matplotlib."
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:36
+msgid "**kwds**"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:35
+msgid "keywords"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:36
+msgid "Options to pass to matplotlib plotting method"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves
+msgid "Returns"
+msgstr ""
+
+#: of pandas.plotting.andrews_curves:51
+msgid "Matplotlib axis object"
+msgstr ""
+

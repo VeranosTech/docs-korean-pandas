@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.MultiIndex.get_indexer.rst:2
+msgid "pandas.MultiIndex.get\\_indexer"
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:2
+msgid ""
+"Compute indexer and mask for new index given the current index. The "
+"indexer should be then used as an input to ndarray.take to align the "
+"current data to the new index."
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:10
+msgid "**target**"
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:9
+msgid "MultiIndex or list of tuples"
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:17
+msgid "**method**"
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:16
+msgid "{None, 'pad'/'ffill', 'backfill'/'bfill', 'nearest'}, optional"
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:13
+msgid "default: exact matches only."
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:14
+msgid "pad / ffill: find the PREVIOUS index value if no exact match."
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:15
+msgid "backfill / bfill: use NEXT index value if no exact match"
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:16
+msgid ""
+"nearest: use the NEAREST index value if no exact match. Tied distances "
+"are broken by preferring the larger index value."
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:21
+msgid "**limit**"
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:20
+msgid "int, optional"
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:20
+msgid ""
+"Maximum number of consecutive labels in ``target`` to match for inexact "
+"matches."
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:34
+msgid "**tolerance**"
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:33
+msgid "optional"
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:24
+msgid ""
+"Maximum distance between original and new labels for inexact matches. The"
+" values of the index at the matching locations most satisfy the equation "
+"``abs(index[indexer] - target) <= tolerance``."
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:28
+msgid ""
+"Tolerance may be a scalar value, which applies the same tolerance to all "
+"values, or list-like, which applies variable tolerance per element. List-"
+"like includes list, tuple, array, Series, and must be the same size as "
+"the index and its dtype must exactly match the index's type."
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:34
+msgid "(list-like tolerance)"
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer
+msgid "Returns"
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:49
+msgid "**indexer**"
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:48
+msgid "ndarray of int"
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:39
+msgid ""
+"Integers from 0 to n - 1 indicating that the index at these positions "
+"matches the corresponding target values. Missing values in the target are"
+" marked by -1."
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:52
+msgid "Examples"
+msgstr ""
+
+#: of pandas.MultiIndex.get_indexer:57
+msgid ""
+"Notice that the return value is an array of locations in ``index`` and "
+"``x`` is marked by -1, as it is not in ``index``."
+msgstr ""
+

@@ -1,0 +1,690 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../user_guide/reshaping.rst:3
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:7
+msgid "Reshaping and Pivot Tables"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:10
+msgid "Reshaping by pivoting DataFrame objects"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:30
+msgid "Data is often stored in so-called \"stacked\" or \"record\" format:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:37
+msgid "For the curious here is how the above ``DataFrame`` was created:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:56
+msgid "To select out everything for variable ``A`` we could do:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:62
+msgid ""
+"But suppose we wish to do time series operations with the variables. A "
+"better representation would be where the ``columns`` are the unique "
+"variables and an ``index`` of dates identifies individual observations. "
+"To reshape the data into this form, we use the :meth:`DataFrame.pivot` "
+"method (also implemented as a top level function :func:`~pandas.pivot`):"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:72
+msgid ""
+"If the ``values`` argument is omitted, and the input ``DataFrame`` has "
+"more than one column of values which are not used as column or index "
+"inputs to ``pivot``, then the resulting \"pivoted\" ``DataFrame`` will "
+"have :ref:`hierarchical columns <advanced.hierarchical>` whose topmost "
+"level indicates the respective value column:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:84
+msgid "You can then select subsets from the pivoted ``DataFrame``:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:90
+msgid ""
+"Note that this returns a view on the underlying data in the case where "
+"the data are homogeneously-typed."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:94
+msgid ""
+":func:`~pandas.pivot` will error with a ``ValueError: Index contains "
+"duplicate entries, cannot reshape`` if the index/column pair is not "
+"unique. In this case, consider using :func:`~pandas.pivot_table` which is"
+" a generalization of pivot that can handle duplicate values for one "
+"index/column pair."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:102
+msgid "Reshaping by stacking and unstacking"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:106
+msgid ""
+"Closely related to the :meth:`~DataFrame.pivot` method are the related "
+":meth:`~DataFrame.stack` and :meth:`~DataFrame.unstack` methods available"
+" on ``Series`` and ``DataFrame``. These methods are designed to work "
+"together with ``MultiIndex`` objects (see the section on "
+":ref:`hierarchical indexing <advanced.hierarchical>`). Here are "
+"essentially what these methods do:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:112
+msgid ""
+"``stack``: \"pivot\" a level of the (possibly hierarchical) column "
+"labels, returning a ``DataFrame`` with an index with a new inner-most "
+"level of row labels."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:115
+msgid ""
+"``unstack``: (inverse operation of ``stack``) \"pivot\" a level of the "
+"(possibly hierarchical) row index to the column axis, producing a "
+"reshaped ``DataFrame`` with a new inner-most level of column labels."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:121
+msgid ""
+"The clearest way to explain is by example. Let's take a prior example "
+"data set from the hierarchical indexing section:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:135
+msgid ""
+"The ``stack`` function \"compresses\" a level in the ``DataFrame``'s "
+"columns to produce either:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:138
+msgid "A ``Series``, in the case of a simple column Index."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:139
+msgid "A ``DataFrame``, in the case of a ``MultiIndex`` in the columns."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:141
+msgid ""
+"If the columns have a ``MultiIndex``, you can choose which level to "
+"stack. The stacked level becomes the new lowest level in a ``MultiIndex``"
+" on the columns:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:149
+msgid ""
+"With a \"stacked\" ``DataFrame`` or ``Series`` (having a ``MultiIndex`` "
+"as the ``index``), the inverse operation of ``stack`` is ``unstack``, "
+"which by default unstacks the **last level**:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:163
+msgid ""
+"If the indexes have names, you can use the level names instead of "
+"specifying the level numbers:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:173
+msgid ""
+"Notice that the ``stack`` and ``unstack`` methods implicitly sort the "
+"index levels involved. Hence a call to ``stack`` and then ``unstack``, or"
+" vice versa, will result in a **sorted** copy of the original "
+"``DataFrame`` or ``Series``:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:184
+msgid ""
+"The above code will raise a ``TypeError`` if the call to ``sort_index`` "
+"is removed."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:190
+msgid "Multiple Levels"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:192
+msgid ""
+"You may also stack or unstack more than one level at a time by passing a "
+"list of levels, in which case the end result is as if each level in the "
+"list were processed individually."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:208
+msgid ""
+"The list of levels can contain either level names or level numbers (but "
+"not a mixture of the two)."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:218
+msgid "Missing Data"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:220
+msgid ""
+"These functions are intelligent about handling missing data and do not "
+"expect each subgroup within the hierarchical index to have the same set "
+"of labels. They also can handle the index being unsorted (but you can "
+"make it sorted by calling ``sort_index``, of course). Here is a more "
+"complex example:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:237
+msgid ""
+"As mentioned above, ``stack`` can be called with a ``level`` argument to "
+"select which level in the columns to stack:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:245
+msgid ""
+"Unstacking can result in missing values if subgroups do not have the same"
+" set of labels.  By default, missing values will be replaced with the "
+"default fill value for that data type, ``NaN`` for float, ``NaT`` for "
+"datetimelike, etc.  For integer types, by default data will converted to "
+"float and missing values will be set to ``NaN``."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:259
+msgid ""
+"Alternatively, unstack takes an optional ``fill_value`` argument, for "
+"specifying the value of missing data."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:267
+msgid "With a MultiIndex"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:269
+msgid ""
+"Unstacking when the columns are a ``MultiIndex`` is also careful about "
+"doing the right thing:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:280
+msgid "Reshaping by Melt"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:284
+msgid ""
+"The top-level :func:`~pandas.melt` function and the corresponding "
+":meth:`DataFrame.melt` are useful to massage a ``DataFrame`` into a "
+"format where one or more columns are *identifier variables*, while all "
+"other columns, considered *measured variables*, are \"unpivoted\" to the "
+"row axis, leaving just two non-identifier columns, \"variable\" and "
+"\"value\". The names of those columns can be customized by supplying the "
+"``var_name`` and ``value_name`` parameters."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:291
+msgid "For instance,"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:303
+msgid ""
+"Another way to transform is to use the :func:`~pandas.wide_to_long` panel"
+" data convenience function. It is less flexible than "
+":func:`~pandas.melt`, but more user-friendly."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:320
+msgid "Combining with stats and GroupBy"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:322
+msgid ""
+"It should be no shock that combining ``pivot`` / ``stack`` / ``unstack`` "
+"with GroupBy and the basic Series and DataFrame statistical functions can"
+" produce some very expressive and fast data manipulations."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:340
+msgid "Pivot tables"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:346
+msgid ""
+"While :meth:`~DataFrame.pivot` provides general purpose pivoting with "
+"various data types (strings, numerics, etc.), pandas also provides "
+":func:`~pandas.pivot_table` for pivoting with aggregation of numeric "
+"data."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:350
+msgid ""
+"The function :func:`~pandas.pivot_table` can be used to create "
+"spreadsheet-style pivot tables. See the :ref:`cookbook<cookbook.pivot>` "
+"for some advanced strategies."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:354
+msgid "It takes a number of arguments:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:356
+msgid "``data``: a DataFrame object."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:357
+msgid "``values``: a column or a list of columns to aggregate."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:358
+msgid ""
+"``index``: a column, Grouper, array which has the same length as data, or"
+" list of them. Keys to group by on the pivot table index. If an array is "
+"passed, it is being used as the same manner as column values."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:360
+msgid ""
+"``columns``: a column, Grouper, array which has the same length as data, "
+"or list of them. Keys to group by on the pivot table column. If an array "
+"is passed, it is being used as the same manner as column values."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:362
+msgid ""
+"``aggfunc``: function to use for aggregation, defaulting to "
+"``numpy.mean``."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:364
+msgid "Consider a data set like this:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:378
+msgid "We can produce pivot tables from this data very easily:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:387
+msgid ""
+"The result object is a ``DataFrame`` having potentially hierarchical "
+"indexes on the rows and columns. If the ``values`` column name is not "
+"given, the pivot table will include all of the data that can be "
+"aggregated in an additional level of hierarchy in the columns:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:396
+msgid ""
+"Also, you can use ``Grouper`` for ``index`` and ``columns`` keywords. For"
+" detail of ``Grouper``, see :ref:`Grouping with a Grouper specification "
+"<groupby.specify>`."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:403
+msgid ""
+"You can render a nice output of the table omitting the missing values by "
+"calling ``to_string`` if you wish:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:412
+msgid ""
+"Note that ``pivot_table`` is also available as an instance method on "
+"DataFrame,"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:412
+msgid "i.e. :meth:`DataFrame.pivot_table`."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:417
+msgid "Adding margins"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:419
+msgid ""
+"If you pass ``margins=True`` to ``pivot_table``, special ``All`` columns "
+"and rows will be added with partial group aggregates across the "
+"categories on the rows and columns:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:430
+msgid "Cross tabulations"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:432
+msgid ""
+"Use :func:`~pandas.crosstab` to compute a cross-tabulation of two (or "
+"more) factors. By default ``crosstab`` computes a frequency table of the "
+"factors unless an array of values and an aggregation function are passed."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:436
+msgid "It takes a number of arguments"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:438
+msgid "``index``: array-like, values to group by in the rows."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:439
+msgid "``columns``: array-like, values to group by in the columns."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:440
+msgid ""
+"``values``: array-like, optional, array of values to aggregate according "
+"to the factors."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:442
+msgid ""
+"``aggfunc``: function, optional, If no values array is passed, computes a"
+" frequency table."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:444
+msgid ""
+"``rownames``: sequence, default ``None``, must match number of row arrays"
+" passed."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:445
+msgid ""
+"``colnames``: sequence, default ``None``, if passed, must match number of"
+" column arrays passed."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:447
+msgid ""
+"``margins``: boolean, default ``False``, Add row/column margins "
+"(subtotals)"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:448
+msgid ""
+"``normalize``: boolean, {'all', 'index', 'columns'}, or {0,1}, default "
+"``False``. Normalize by dividing all values by the sum of values."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:452
+msgid ""
+"Any ``Series`` passed will have their name attributes used unless row or "
+"column names for the cross-tabulation are specified"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:455
+msgid "For example:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:466
+msgid ""
+"If ``crosstab`` receives only two Series, it will provide a frequency "
+"table."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:476
+msgid ""
+"Any input passed containing ``Categorical`` data will have **all** of its"
+" categories included in the cross-tabulation, even if the actual data "
+"does not contain any instances of a particular category."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:487
+msgid "Normalization"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:491
+msgid ""
+"Frequency tables can also be normalized to show percentages rather than "
+"counts using the ``normalize`` argument:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:498
+msgid ""
+"``normalize`` can also normalize values within each row or within each "
+"column:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:504
+msgid ""
+"``crosstab`` can also be passed a third ``Series`` and an aggregation "
+"function (``aggfunc``) that will be applied to the values of the third "
+"``Series`` within each group defined by the first two ``Series``:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:513
+msgid "Adding Margins"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:515
+msgid "Finally, one can also add margins or normalize this output."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:526
+msgid "Tiling"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:528
+msgid ""
+"The :func:`~pandas.cut` function computes groupings for the values of the"
+" input array and is often used to transform continuous variables to "
+"discrete or categorical variables:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:538
+msgid ""
+"If the ``bins`` keyword is an integer, then equal-width bins are formed. "
+"Alternatively we can specify custom bin-edges:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:548
+msgid ""
+"If the ``bins`` keyword is an ``IntervalIndex``, then these will be used "
+"to bin the passed data.::"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:557
+msgid "Computing indicator / dummy variables"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:559
+msgid ""
+"To convert a categorical variable into a \"dummy\" or \"indicator\" "
+"``DataFrame``, for example a column in a ``DataFrame`` (a ``Series``) "
+"which has ``k`` distinct values, can derive a ``DataFrame`` containing "
+"``k`` columns of 1s and 0s using :func:`~pandas.get_dummies`:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:570
+msgid ""
+"Sometimes it's useful to prefix the column names, for example when "
+"merging the result with the original ``DataFrame``:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:580
+msgid ""
+"This function is often used along with discretization functions like "
+"``cut``:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:591
+msgid "See also :func:`Series.str.get_dummies <pandas.Series.str.get_dummies>`."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:593
+msgid ""
+":func:`get_dummies` also accepts a ``DataFrame``. By default all "
+"categorical variables (categorical in the statistical sense, those with "
+"`object` or `categorical` dtype) are encoded as dummy variables."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:604
+msgid ""
+"All non-object columns are included untouched in the output. You can "
+"control the columns that are encoded with the ``columns`` keyword."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:611
+msgid ""
+"Notice that the ``B`` column is still included in the output, it just "
+"hasn't been encoded. You can drop ``B`` before calling ``get_dummies`` if"
+" you don't want to include it in the output."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:615
+msgid ""
+"As with the ``Series`` version, you can pass values for the ``prefix`` "
+"and ``prefix_sep``. By default the column name is used as the prefix, and"
+" '_' as the prefix separator. You can specify ``prefix`` and "
+"``prefix_sep`` in 3 ways:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:619
+msgid ""
+"string: Use the same value for ``prefix`` or ``prefix_sep`` for each "
+"column to be encoded."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:621
+msgid "list: Must be the same length as the number of columns being encoded."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:622
+msgid "dict: Mapping column name to prefix."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:635
+msgid ""
+"Sometimes it will be useful to only keep k-1 levels of a categorical "
+"variable to avoid collinearity when feeding the result to statistical "
+"models. You can switch to this mode by turn on ``drop_first``."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:647
+msgid "When a column contains only one level, it will be omitted in the result."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:657
+msgid ""
+"By default new columns will have ``np.uint8`` dtype. To choose another "
+"dtype, use the ``dtype`` argument:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:672
+msgid "Factorizing values"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:674
+msgid "To encode 1-d values as an enumerated type use :func:`~pandas.factorize`:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:684
+msgid ""
+"Note that ``factorize`` is similar to ``numpy.unique``, but differs in "
+"its handling of NaN:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:688
+msgid ""
+"The following ``numpy.unique`` will fail under Python 3 with a "
+"``TypeError`` because of an ordering bug. See also `here "
+"<https://github.com/numpy/numpy/issues/641>`__."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:704
+msgid ""
+"If you just want to handle one column as a categorical variable (like R's"
+" factor), you can use  ``df[\"cat_col\"] = pd.Categorical(df[\"col\"])`` "
+"or ``df[\"cat_col\"] = df[\"col\"].astype(\"category\")``. For full docs "
+"on :class:`~pandas.Categorical`, see the :ref:`Categorical introduction "
+"<categorical>` and the :ref:`API documentation <api.categorical>`."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:711
+msgid "Examples"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:713
+msgid ""
+"In this section, we will review frequently asked questions and examples. "
+"The column names and relevant column values are named to correspond with "
+"how this DataFrame will be pivoted in the answers below."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:731
+msgid "Pivoting with Single Aggregations"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:733
+msgid ""
+"Suppose we wanted to pivot ``df`` such that the ``col`` values are "
+"columns, ``row`` values are the index, and the mean of ``val0`` are the "
+"values? In particular, the resulting DataFrame should look like:"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:739
+msgid ""
+"col   col0   col1   col2   col3  col4 row row0  0.77  0.605    NaN  0.860"
+"  0.65 row2  0.13    NaN  0.395  0.500  0.25 row3   NaN  0.310    NaN  "
+"0.545   NaN row4   NaN  0.100  0.395  0.760  0.24"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:746
+msgid ""
+"This solution uses :func:`~pandas.pivot_table`. Also note that "
+"``aggfunc='mean'`` is the default. It is included here to be explicit."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:754
+msgid ""
+"Note that we can also replace the missing values by using the "
+"``fill_value`` parameter."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:762
+msgid ""
+"Also note that we can pass in other aggregation functions as well. For "
+"example, we can also pass in ``sum``."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:770
+msgid ""
+"Another aggregation we can do is calculate the frequency in which the "
+"columns and rows occur together a.k.a. \"cross tabulation\". To do this, "
+"we can pass ``size`` to the ``aggfunc`` parameter."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:779
+msgid "Pivoting with Multiple Aggregations"
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:781
+msgid ""
+"We can also perform multiple aggregations. For example, to perform both a"
+" ``sum`` and ``mean``, we can pass in a list to the ``aggfunc`` argument."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:789
+msgid ""
+"Note to aggregate over multiple value columns, we can pass in a list to "
+"the ``values`` parameter."
+msgstr ""
+
+#: ../../user_guide/reshaping.rst:797
+msgid ""
+"Note to subdivide over multiple columns we can pass in a list to the "
+"``columns`` parameter."
+msgstr ""
+

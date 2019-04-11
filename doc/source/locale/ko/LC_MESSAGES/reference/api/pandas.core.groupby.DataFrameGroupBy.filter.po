@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.core.groupby.DataFrameGroupBy.filter.rst:2
+msgid "pandas.core.groupby.DataFrameGroupBy.filter"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.filter:2
+msgid ""
+"Return a copy of a DataFrame excluding elements from groups that do not "
+"satisfy the boolean criterion specified by func."
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.filter
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.filter:9
+msgid "**f**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.filter:8
+msgid "function"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.filter:9
+msgid "Function to apply to each subframe. Should return True or False."
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.filter:12
+msgid "**dropna**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.filter:11
+msgid "Drop groups that do not pass the filter. True by default;"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.filter:12
+msgid "if False, groups that evaluate False are filled with NaNs."
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.filter
+msgid "Returns"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.filter:23
+msgid "**filtered**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.filter:22
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.filter:26
+msgid "Notes"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.filter:27
+msgid ""
+"Each subframe is endowed the attribute 'name' in case you need to know "
+"which group you are working on."
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.filter:32
+msgid "Examples"
+msgstr ""
+

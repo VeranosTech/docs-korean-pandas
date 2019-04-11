@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.skew.rst:2
+msgid "pandas.DataFrame.skew"
+msgstr ""
+
+#: of pandas.DataFrame.skew:2
+msgid "Return unbiased skew over requested axis Normalized by N-1."
+msgstr ""
+
+#: of pandas.DataFrame.skew
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.skew:9
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.DataFrame.skew:8
+msgid "{index (0), columns (1)}"
+msgstr ""
+
+#: of pandas.DataFrame.skew:9
+msgid "Axis for the function to be applied on."
+msgstr ""
+
+#: of pandas.DataFrame.skew:12
+msgid "**skipna**"
+msgstr ""
+
+#: of pandas.DataFrame.skew:11
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.DataFrame.skew:12
+msgid "Exclude NA/null values when computing the result."
+msgstr ""
+
+#: of pandas.DataFrame.skew:16
+msgid "**level**"
+msgstr ""
+
+#: of pandas.DataFrame.skew:15
+msgid "int or level name, default None"
+msgstr ""
+
+#: of pandas.DataFrame.skew:15
+msgid ""
+"If the axis is a MultiIndex (hierarchical), count along a particular "
+"level, collapsing into a Series."
+msgstr ""
+
+#: of pandas.DataFrame.skew:20
+msgid "**numeric_only**"
+msgstr ""
+
+#: of pandas.DataFrame.skew:19
+msgid "bool, default None"
+msgstr ""
+
+#: of pandas.DataFrame.skew:19
+msgid ""
+"Include only float, int, boolean columns. If None, will attempt to use "
+"everything, then use only numeric data. Not implemented for Series."
+msgstr ""
+
+#: of pandas.DataFrame.skew:23
+msgid "**\\*\\*kwargs**"
+msgstr ""
+
+#: of pandas.DataFrame.skew:23
+msgid "Additional keyword arguments to be passed to the function."
+msgstr ""
+
+#: of pandas.DataFrame.skew
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.skew:39
+msgid "**skew**"
+msgstr ""
+
+#: of pandas.DataFrame.skew:38
+msgid "Series or DataFrame (if level specified)"
+msgstr ""
+

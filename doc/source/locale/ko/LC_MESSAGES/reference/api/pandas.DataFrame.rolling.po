@@ -1,0 +1,267 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.rolling.rst:2
+msgid "pandas.DataFrame.rolling"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:2
+msgid "Provides rolling window calculations."
+msgstr ""
+
+#: of pandas.DataFrame.rolling
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:15
+msgid "**window**"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:14
+msgid "int, or offset"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:9
+msgid ""
+"Size of the moving window. This is the number of observations used for "
+"calculating the statistic. Each window will be a fixed size."
+msgstr ""
+
+#: of pandas.DataFrame.rolling:12
+msgid ""
+"If its an offset then this will be the time period of each window. Each "
+"window will be a variable sized based on the observations included in the"
+" time-period. This is only valid for datetimelike indexes. This is new in"
+" 0.19.0"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:21
+msgid "**min_periods**"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:20
+msgid "int, default None"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:18
+msgid ""
+"Minimum number of observations in window required to have a value "
+"(otherwise result is NA). For a window that is specified by an offset, "
+"`min_periods` will default to 1. Otherwise, `min_periods` will default to"
+" the size of the window."
+msgstr ""
+
+#: of pandas.DataFrame.rolling:24
+msgid "**center**"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:23
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:24
+msgid "Set the labels at the center of the window."
+msgstr ""
+
+#: of pandas.DataFrame.rolling:28
+msgid "**win_type**"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:27 pandas.DataFrame.rolling:43
+msgid "str, default None"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:27
+msgid ""
+"Provide a window type. If ``None``, all points are evenly weighted. See "
+"the notes below for further information."
+msgstr ""
+
+#: of pandas.DataFrame.rolling:32
+msgid "**on**"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:31
+msgid "str, optional"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:31
+msgid ""
+"For a DataFrame, column on which to calculate the rolling window, rather "
+"than the index"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:35
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:34
+msgid "int or str, default 0"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:44
+msgid "**closed**"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:38
+msgid ""
+"Make the interval closed on the 'right', 'left', 'both' or 'neither' "
+"endpoints. For offset-based windows, it defaults to 'right'. For fixed "
+"windows, defaults to 'both'. Remaining cases not implemented for fixed "
+"windows."
+msgstr ""
+
+#: of pandas.DataFrame.rolling
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:54
+msgid "**a Window or Rolling sub-classed for the particular operation**"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:60
+msgid ":obj:`expanding`"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:60
+msgid "Provides expanding transformations."
+msgstr ""
+
+#: of pandas.DataFrame.rolling:62
+msgid ":obj:`ewm`"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:63
+msgid "Provides exponential weighted functions."
+msgstr ""
+
+#: of pandas.DataFrame.rolling:66
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:67
+msgid ""
+"By default, the result is set to the right edge of the window. This can "
+"be changed to the center of the window by setting ``center=True``."
+msgstr ""
+
+#: of pandas.DataFrame.rolling:70
+msgid ""
+"To learn more about the offsets & frequency strings, please see `this "
+"link <http://pandas.pydata.org/pandas-docs/stable/timeseries.html#offset-"
+"aliases>`__."
+msgstr ""
+
+#: of pandas.DataFrame.rolling:73
+msgid "The recognized win_types are:"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:75
+msgid "``boxcar``"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:76
+msgid "``triang``"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:77
+msgid "``blackman``"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:78
+msgid "``hamming``"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:79
+msgid "``bartlett``"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:80
+msgid "``parzen``"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:81
+msgid "``bohman``"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:82
+msgid "``blackmanharris``"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:83
+msgid "``nuttall``"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:84
+msgid "``barthann``"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:85
+msgid "``kaiser`` (needs beta)"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:86
+msgid "``gaussian`` (needs std)"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:87
+msgid "``general_gaussian`` (needs power, width)"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:88
+msgid "``slepian`` (needs width)."
+msgstr ""
+
+#: of pandas.DataFrame.rolling:90
+msgid ""
+"If ``win_type=None`` all points are evenly weighted. To learn more about "
+"different window types see `scipy.signal window functions "
+"<https://docs.scipy.org/doc/scipy/reference/signal.html#window-"
+"functions>`__."
+msgstr ""
+
+#: of pandas.DataFrame.rolling:96
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:106
+msgid "Rolling sum with a window length of 2, using the 'triang' window type."
+msgstr ""
+
+#: of pandas.DataFrame.rolling:117
+msgid ""
+"Rolling sum with a window length of 2, min_periods defaults to the window"
+" length."
+msgstr ""
+
+#: of pandas.DataFrame.rolling:128
+msgid "Same as above, but explicitly set the min_periods"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:138
+msgid "A ragged (meaning not-a-regular frequency), time-indexed DataFrame"
+msgstr ""
+
+#: of pandas.DataFrame.rolling:155
+msgid ""
+"Contrasting to an integer rolling window, this will roll a variable "
+"length window corresponding to the time period. The default for "
+"min_periods is 1."
+msgstr ""
+

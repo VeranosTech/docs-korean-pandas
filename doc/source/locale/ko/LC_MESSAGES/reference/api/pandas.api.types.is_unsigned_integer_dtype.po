@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.api.types.is_unsigned_integer_dtype.rst:2
+msgid "pandas.api.types.is\\_unsigned\\_integer\\_dtype"
+msgstr ""
+
+#: of pandas.api.types.is_unsigned_integer_dtype:2
+msgid "Check whether the provided array or dtype is of an unsigned integer dtype."
+msgstr ""
+
+#: of pandas.api.types.is_unsigned_integer_dtype:6
+msgid ""
+"The nullable Integer dtypes (e.g. pandas.UInt64Dtype) are also considered"
+" as integer by this function."
+msgstr ""
+
+#: of pandas.api.types.is_unsigned_integer_dtype
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.api.types.is_unsigned_integer_dtype:12
+msgid "**arr_or_dtype**"
+msgstr ""
+
+#: of pandas.api.types.is_unsigned_integer_dtype:11
+msgid "array-like"
+msgstr ""
+
+#: of pandas.api.types.is_unsigned_integer_dtype:12
+msgid "The array or dtype to check."
+msgstr ""
+
+#: of pandas.api.types.is_unsigned_integer_dtype
+msgid "Returns"
+msgstr ""
+
+#: of pandas.api.types.is_unsigned_integer_dtype:25
+msgid "**boolean**"
+msgstr ""
+
+#: of pandas.api.types.is_unsigned_integer_dtype:24
+msgid "Whether or not the array or dtype is of an"
+msgstr ""
+
+#: of pandas.api.types.is_unsigned_integer_dtype:17
+msgid "unsigned integer dtype."
+msgstr ""
+
+#: of pandas.api.types.is_unsigned_integer_dtype:28
+msgid "Examples"
+msgstr ""
+

@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Grouper.rst:2
+msgid "pandas.Grouper"
+msgstr ""
+
+#: of pandas.Grouper:2
+msgid ""
+"A Grouper allows the user to specify a groupby instruction for a target "
+"object"
+msgstr ""
+
+#: of pandas.Grouper:5
+msgid ""
+"This specification will select a column via the key parameter, or if the "
+"level and/or axis parameters are given, a level of the index of the "
+"target object."
+msgstr ""
+
+#: of pandas.Grouper:9
+msgid ""
+"These are local specifications and will override 'global' settings, that "
+"is the parameters axis and level which are passed to the groupby itself."
+msgstr ""
+
+#: of pandas.Grouper
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Grouper:16
+msgid "**key**"
+msgstr ""
+
+#: of pandas.Grouper:15
+msgid "string, defaults to None"
+msgstr ""
+
+#: of pandas.Grouper:16
+msgid "groupby key, which selects the grouping column of the target"
+msgstr ""
+
+#: of pandas.Grouper:19
+msgid "**level**"
+msgstr ""
+
+#: of pandas.Grouper:18
+msgid "name/number, defaults to None"
+msgstr ""
+
+#: of pandas.Grouper:19
+msgid "the level for the target index"
+msgstr ""
+
+#: of pandas.Grouper:25
+msgid "**freq**"
+msgstr ""
+
+#: of pandas.Grouper:24
+msgid "string / frequency object, defaults to None"
+msgstr ""
+
+#: of pandas.Grouper:22
+msgid ""
+"This will groupby the specified frequency if the target selection (via "
+"key or level) is a datetime-like object. For full specification of "
+"available frequencies, please see `here <http://pandas.pydata.org/pandas-"
+"docs/stable/timeseries.html#offset-aliases>`_."
+msgstr ""
+
+#: of pandas.Grouper:28
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.Grouper:27
+msgid "number/name of the axis, defaults to 0"
+msgstr ""
+
+#: of pandas.Grouper:31
+msgid "**sort**"
+msgstr ""
+
+#: of pandas.Grouper:30
+msgid "boolean, default to False"
+msgstr ""
+
+#: of pandas.Grouper:31
+msgid "whether to sort the resulting labels"
+msgstr ""
+
+#: of pandas.Grouper:34
+msgid ""
+"**additional kwargs to control time-like groupers (when `freq` is "
+"passed)**"
+msgstr ""
+
+#: of pandas.Grouper:37
+msgid "**closed**"
+msgstr ""
+
+#: of pandas.Grouper:36
+msgid "closed end of interval; 'left' or 'right'"
+msgstr ""
+
+#: of pandas.Grouper:40
+msgid "**label**"
+msgstr ""
+
+#: of pandas.Grouper:39
+msgid "interval boundary to use for labeling; 'left' or 'right'"
+msgstr ""
+
+#: of pandas.Grouper:43
+msgid "**convention**"
+msgstr ""
+
+#: of pandas.Grouper:42
+msgid "{'start', 'end', 'e', 's'}"
+msgstr ""
+
+#: of pandas.Grouper:43
+msgid "If grouper is PeriodIndex"
+msgstr ""
+
+#: of pandas.Grouper:46
+msgid "**base, loffset**"
+msgstr ""
+
+#: of pandas.Grouper
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Grouper:59
+msgid "**A specification for a groupby instruction**"
+msgstr ""
+
+#: of pandas.Grouper:62
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Grouper:63
+msgid "Syntactic sugar for ``df.groupby('A')``"
+msgstr ""
+
+#: of pandas.Grouper:67
+msgid "Specify a resample operation on the column 'date'"
+msgstr ""
+
+#: of pandas.Grouper:71
+msgid ""
+"Specify a resample operation on the level 'date' on the columns axis with"
+" a frequency of 60s"
+msgstr ""
+
+#: of pandas.Grouper:79
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.Grouper:81
+msgid "**ax**"
+msgstr ""
+
+#: of pandas.Grouper:82
+msgid "**groups**"
+msgstr ""
+

@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Categorical.rst:2
+msgid "pandas.Categorical"
+msgstr ""
+
+#: of pandas.Categorical:2
+msgid "Represents a categorical variable in classic R / S-plus fashion"
+msgstr ""
+
+#: of pandas.Categorical:4
+msgid ""
+"`Categoricals` can only take on only a limited, and usually fixed, number"
+" of possible values (`categories`). In contrast to statistical "
+"categorical variables, a `Categorical` might have an order, but numerical"
+" operations (additions, divisions, ...) are not possible."
+msgstr ""
+
+#: of pandas.Categorical:9
+msgid ""
+"All values of the `Categorical` are either in `categories` or `np.nan`. "
+"Assigning values outside of `categories` will raise a `ValueError`. Order"
+" is defined by the order of the `categories`, not lexical order of the "
+"values."
+msgstr ""
+
+#: of pandas.Categorical
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Categorical:18
+msgid "**values**"
+msgstr ""
+
+#: of pandas.Categorical:17
+msgid "list-like"
+msgstr ""
+
+#: of pandas.Categorical:17
+msgid ""
+"The values of the categorical. If categories are given, values not in "
+"categories will be replaced with NaN."
+msgstr ""
+
+#: of pandas.Categorical:23
+msgid "**categories**"
+msgstr ""
+
+#: of pandas.Categorical:22
+msgid "Index-like (unique), optional"
+msgstr ""
+
+#: of pandas.Categorical:21
+msgid ""
+"The unique categories for this categorical. If not given, the categories "
+"are assumed to be the unique values of `values` (sorted, if possible, "
+"otherwise in the order in which they appear)."
+msgstr ""
+
+#: of pandas.Categorical:30
+msgid "**ordered**"
+msgstr ""
+
+#: of pandas.Categorical:29
+msgid "boolean, (default False)"
+msgstr ""
+
+#: of pandas.Categorical:26
+msgid ""
+"Whether or not this categorical is treated as a ordered categorical. If "
+"True, the resulting categorical will be ordered. An ordered categorical "
+"respects, when sorted, the order of its `categories` attribute (which in "
+"turn is the `categories` argument, if provided)."
+msgstr ""
+
+#: of pandas.Categorical:38
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.Categorical:37
+msgid "CategoricalDtype"
+msgstr ""
+
+#: of pandas.Categorical:33
+msgid "An instance of ``CategoricalDtype`` to use for this categorical"
+msgstr ""
+
+#: of pandas.Categorical
+msgid "Raises"
+msgstr ""
+
+#: of pandas.Categorical:43
+msgid "**ValueError**"
+msgstr ""
+
+#: of pandas.Categorical:43
+msgid "If the categories do not validate."
+msgstr ""
+
+#: of pandas.Categorical:49
+msgid "**TypeError**"
+msgstr ""
+
+#: of pandas.Categorical:46
+msgid ""
+"If an explicit ``ordered=True`` is given but no `categories` and the "
+"`values` are not sortable."
+msgstr ""
+
+#: of pandas.Categorical:55
+msgid ":obj:`pandas.api.types.CategoricalDtype`"
+msgstr ""
+
+#: of pandas.Categorical:55
+msgid "Type for categorical data."
+msgstr ""
+
+#: of pandas.Categorical:57
+msgid ":obj:`CategoricalIndex`"
+msgstr ""
+
+#: of pandas.Categorical:58
+msgid "An Index with an underlying ``Categorical``."
+msgstr ""
+
+#: of pandas.Categorical:61
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Categorical:62
+msgid ""
+"See the `user guide <http://pandas.pydata.org/pandas-"
+"docs/stable/categorical.html>`_ for more."
+msgstr ""
+
+#: of pandas.Categorical:67
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Categorical:76
+msgid ""
+"Ordered `Categoricals` can be sorted according to the custom order of the"
+" categories and can have a min and max value."
+msgstr ""
+
+#: of pandas.Categorical:88
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.Categorical:96:<autosummary>:1
+msgid ":obj:`categories <pandas.Categorical.categories>`\\"
+msgstr ""
+
+#: of pandas.Categorical:96:<autosummary>:1
+msgid "The categories of this categorical."
+msgstr ""
+
+#: of pandas.Categorical:96:<autosummary>:1
+msgid ":obj:`codes <pandas.Categorical.codes>`\\"
+msgstr ""
+
+#: of pandas.Categorical:96:<autosummary>:1
+msgid "The category codes of this categorical."
+msgstr ""
+
+#: of pandas.Categorical:96:<autosummary>:1
+msgid ":obj:`ordered <pandas.Categorical.ordered>`\\"
+msgstr ""
+
+#: of pandas.Categorical:96:<autosummary>:1
+msgid "Whether the categories have an ordered relationship."
+msgstr ""
+
+#: of pandas.Categorical:96:<autosummary>:1
+msgid ":obj:`dtype <pandas.Categorical.dtype>`\\"
+msgstr ""
+
+#: of pandas.Categorical:96:<autosummary>:1
+msgid "The :class:`~pandas.api.types.CategoricalDtype` for this instance"
+msgstr ""
+
+#: of pandas.Categorical:98
+msgid "Methods"
+msgstr ""
+
+#: of pandas.Categorical:104:<autosummary>:1
+msgid ""
+":obj:`from_codes <pandas.Categorical.from_codes>`\\ \\(codes\\[\\, "
+"categories\\, ordered\\, dtype\\]\\)"
+msgstr ""
+
+#: of pandas.Categorical:104:<autosummary>:1
+msgid "Make a Categorical type from codes and categories or dtype."
+msgstr ""
+
+#: of pandas.Categorical:104:<autosummary>:1
+msgid ":obj:`__array__ <pandas.Categorical.__array__>`\\ \\(\\[dtype\\]\\)"
+msgstr ""
+
+#: of pandas.Categorical:104:<autosummary>:1
+msgid "The numpy array interface."
+msgstr ""
+

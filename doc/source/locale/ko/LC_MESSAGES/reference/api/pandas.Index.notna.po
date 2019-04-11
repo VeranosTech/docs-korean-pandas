@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.notna.rst:2
+msgid "pandas.Index.notna"
+msgstr ""
+
+#: of pandas.Index.notna:2
+msgid "Detect existing (non-missing) values."
+msgstr ""
+
+#: of pandas.Index.notna:4
+msgid ""
+"Return a boolean same-sized object indicating if the values are not NA. "
+"Non-missing values get mapped to ``True``. Characters such as empty "
+"strings ``''`` or :attr:`numpy.inf` are not considered NA values (unless "
+"you set ``pandas.options.mode.use_inf_as_na = True``). NA values, such as"
+" None or :attr:`numpy.NaN`, get mapped to ``False`` values."
+msgstr ""
+
+#: of pandas.Index.notna
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.notna:22
+msgid "**numpy.ndarray**"
+msgstr ""
+
+#: of pandas.Index.notna:17
+msgid "Boolean array to indicate which entries are not NA."
+msgstr ""
+
+#: of pandas.Index.notna:28
+msgid ":obj:`Index.notnull`"
+msgstr ""
+
+#: of pandas.Index.notna:28
+msgid "Alias of notna."
+msgstr ""
+
+#: of pandas.Index.notna:31
+msgid ":obj:`Index.isna`"
+msgstr ""
+
+#: of pandas.Index.notna:31
+msgid "Inverse of notna."
+msgstr ""
+
+#: of pandas.Index.notna:33
+msgid ":obj:`pandas.notna`"
+msgstr ""
+
+#: of pandas.Index.notna:34
+msgid "Top-level notna."
+msgstr ""
+
+#: of pandas.Index.notna:39
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Index.notna:40
+msgid "Show which entries in an Index are not NA. The result is an array."
+msgstr ""
+
+#: of pandas.Index.notna:49
+msgid "Empty strings are not considered NA values. None is considered a NA value."
+msgstr ""
+

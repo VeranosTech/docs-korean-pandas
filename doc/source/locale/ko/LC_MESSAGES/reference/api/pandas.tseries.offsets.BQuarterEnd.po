@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.tseries.offsets.BQuarterEnd.rst:2
+msgid "pandas.tseries.offsets.BQuarterEnd"
+msgstr ""
+
+#: of pandas.tseries.offsets.BQuarterEnd:2
+msgid "DateOffset increments between business Quarter dates."
+msgstr ""
+
+#: of pandas.tseries.offsets.BQuarterEnd:4
+msgid ""
+"startingMonth = 1 corresponds to dates like 1/31/2007, 4/30/2007, ... "
+"startingMonth = 2 corresponds to dates like 2/28/2007, 5/31/2007, ... "
+"startingMonth = 3 corresponds to dates like 3/30/2007, 6/29/2007, ..."
+msgstr ""
+
+#: of pandas.tseries.offsets.BQuarterEnd:20
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.tseries.offsets.BQuarterEnd:26:<autosummary>:1
+msgid ":obj:`base <pandas.tseries.offsets.BQuarterEnd.base>`\\"
+msgstr ""
+
+#: of pandas.tseries.offsets.BQuarterEnd:26:<autosummary>:1
+msgid ""
+"Returns a copy of the calling offset object with n=1 and all other "
+"attributes equal."
+msgstr ""
+
+#: of pandas.tseries.offsets.BQuarterEnd:28
+msgid "**freqstr**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BQuarterEnd:29
+msgid "**kwds**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BQuarterEnd:30
+msgid "**name**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BQuarterEnd:31
+msgid "**nanos**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BQuarterEnd:32
+msgid "**rule_code**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BQuarterEnd:36
+msgid "Methods"
+msgstr ""
+
+#: of pandas.tseries.offsets.BQuarterEnd:43:<autosummary>:1
+msgid ":obj:`rollback <pandas.tseries.offsets.BQuarterEnd.rollback>`\\ \\(dt\\)"
+msgstr ""
+
+#: of pandas.tseries.offsets.BQuarterEnd:43:<autosummary>:1
+msgid "Roll provided date backward to next offset only if not on offset."
+msgstr ""
+
+#: of pandas.tseries.offsets.BQuarterEnd:43:<autosummary>:1
+msgid ""
+":obj:`rollforward <pandas.tseries.offsets.BQuarterEnd.rollforward>`\\ "
+"\\(dt\\)"
+msgstr ""
+
+#: of pandas.tseries.offsets.BQuarterEnd:43:<autosummary>:1
+msgid "Roll provided date forward to next offset only if not on offset."
+msgstr ""
+
+#: of pandas.tseries.offsets.BQuarterEnd:45
+msgid "**__call__**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BQuarterEnd:46
+msgid "**apply**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BQuarterEnd:47
+msgid "**apply_index**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BQuarterEnd:48
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BQuarterEnd:49
+msgid "**isAnchored**"
+msgstr ""
+
+#: of pandas.tseries.offsets.BQuarterEnd:50
+msgid "**onOffset**"
+msgstr ""
+

@@ -1,0 +1,651 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../getting_started/10min.rst:3
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../getting_started/10min.rst:7
+msgid "10 Minutes to pandas"
+msgstr ""
+
+#: ../../getting_started/10min.rst:9
+msgid ""
+"This is a short introduction to pandas, geared mainly for new users. You "
+"can see more complex recipes in the :ref:`Cookbook<cookbook>`."
+msgstr ""
+
+#: ../../getting_started/10min.rst:12
+msgid "Customarily, we import as follows:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:20
+msgid "Object Creation"
+msgstr ""
+
+#: ../../getting_started/10min.rst:22
+msgid "See the :ref:`Data Structure Intro section <dsintro>`."
+msgstr ""
+
+#: ../../getting_started/10min.rst:24
+msgid ""
+"Creating a :class:`Series` by passing a list of values, letting pandas "
+"create a default integer index:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:32
+msgid ""
+"Creating a :class:`DataFrame` by passing a NumPy array, with a datetime "
+"index and labeled columns:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:42
+msgid ""
+"Creating a ``DataFrame`` by passing a dict of objects that can be "
+"converted to series-like."
+msgstr ""
+
+#: ../../getting_started/10min.rst:54
+msgid ""
+"The columns of the resulting ``DataFrame`` have different :ref:`dtypes "
+"<basics.dtypes>`."
+msgstr ""
+
+#: ../../getting_started/10min.rst:61
+msgid ""
+"If you're using IPython, tab completion for column names (as well as "
+"public attributes) is automatically enabled. Here's a subset of the "
+"attributes that will be completed:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:82
+msgid ""
+"As you can see, the columns ``A``, ``B``, ``C``, and ``D`` are "
+"automatically tab completed. ``E`` is there as well; the rest of the "
+"attributes have been truncated for brevity."
+msgstr ""
+
+#: ../../getting_started/10min.rst:87
+msgid "Viewing Data"
+msgstr ""
+
+#: ../../getting_started/10min.rst:89
+msgid "See the :ref:`Basics section <basics>`."
+msgstr ""
+
+#: ../../getting_started/10min.rst:91
+msgid "Here is how to view the top and bottom rows of the frame:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:98
+msgid "Display the index, columns:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:105
+msgid ""
+":meth:`DataFrame.to_numpy` gives a NumPy representation of the underlying"
+" data. Note that this can be an expensive operation when your "
+":class:`DataFrame` has columns with different data types, which comes "
+"down to a fundamental difference between pandas and NumPy: **NumPy arrays"
+" have one dtype for the entire array, while pandas DataFrames have one "
+"dtype per column**. When you call :meth:`DataFrame.to_numpy`, pandas will"
+" find the NumPy dtype that can hold *all* of the dtypes in the DataFrame."
+" This may end up being ``object``, which requires casting every value to "
+"a Python object."
+msgstr ""
+
+#: ../../getting_started/10min.rst:114
+msgid ""
+"For ``df``, our :class:`DataFrame` of all floating-point values, "
+":meth:`DataFrame.to_numpy` is fast and doesn't require copying data."
+msgstr ""
+
+#: ../../getting_started/10min.rst:121
+msgid ""
+"For ``df2``, the :class:`DataFrame` with multiple dtypes, "
+":meth:`DataFrame.to_numpy` is relatively expensive."
+msgstr ""
+
+#: ../../getting_started/10min.rst:130
+msgid ""
+":meth:`DataFrame.to_numpy` does *not* include the index or column labels "
+"in the output."
+msgstr ""
+
+#: ../../getting_started/10min.rst:133
+msgid ":func:`~DataFrame.describe` shows a quick statistic summary of your data:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:139
+msgid "Transposing your data:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:145
+msgid "Sorting by an axis:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:151
+msgid "Sorting by values:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:158
+msgid "Selection"
+msgstr ""
+
+#: ../../getting_started/10min.rst:162
+msgid ""
+"While standard Python / Numpy expressions for selecting and setting are "
+"intuitive and come in handy for interactive work, for production code, we"
+" recommend the optimized pandas data access methods, ``.at``, ``.iat``, "
+"``.loc`` and ``.iloc``."
+msgstr ""
+
+#: ../../getting_started/10min.rst:167
+msgid ""
+"See the indexing documentation :ref:`Indexing and Selecting Data "
+"<indexing>` and :ref:`MultiIndex / Advanced Indexing <advanced>`."
+msgstr ""
+
+#: ../../getting_started/10min.rst:170
+msgid "Getting"
+msgstr ""
+
+#: ../../getting_started/10min.rst:172
+msgid ""
+"Selecting a single column, which yields a ``Series``, equivalent to "
+"``df.A``:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:179
+msgid "Selecting via ``[]``, which slices the rows."
+msgstr ""
+
+#: ../../getting_started/10min.rst:187
+msgid "Selection by Label"
+msgstr ""
+
+#: ../../getting_started/10min.rst:189
+msgid "See more in :ref:`Selection by Label <indexing.label>`."
+msgstr ""
+
+#: ../../getting_started/10min.rst:191
+msgid "For getting a cross section using a label:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:197
+msgid "Selecting on a multi-axis by label:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:203
+msgid "Showing label slicing, both endpoints are *included*:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:209
+msgid "Reduction in the dimensions of the returned object:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:215
+msgid "For getting a scalar value:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:221 ../../getting_started/10min.rst:268
+msgid "For getting fast access to a scalar (equivalent to the prior method):"
+msgstr ""
+
+#: ../../getting_started/10min.rst:228
+msgid "Selection by Position"
+msgstr ""
+
+#: ../../getting_started/10min.rst:230
+msgid "See more in :ref:`Selection by Position <indexing.integer>`."
+msgstr ""
+
+#: ../../getting_started/10min.rst:232
+msgid "Select via the position of the passed integers:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:238
+msgid "By integer slices, acting similar to numpy/python:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:244
+msgid "By lists of integer position locations, similar to the numpy/python style:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:250
+msgid "For slicing rows explicitly:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:256
+msgid "For slicing columns explicitly:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:262
+msgid "For getting a value explicitly:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:275
+msgid "Boolean Indexing"
+msgstr ""
+
+#: ../../getting_started/10min.rst:277
+msgid "Using a single column's values to select data."
+msgstr ""
+
+#: ../../getting_started/10min.rst:283
+msgid "Selecting values from a DataFrame where a boolean condition is met."
+msgstr ""
+
+#: ../../getting_started/10min.rst:289
+msgid "Using the :func:`~Series.isin` method for filtering:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:299
+msgid "Setting"
+msgstr ""
+
+#: ../../getting_started/10min.rst:301
+msgid "Setting a new column automatically aligns the data by the indexes."
+msgstr ""
+
+#: ../../getting_started/10min.rst:310
+msgid "Setting values by label:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:316
+msgid "Setting values by position:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:322
+msgid "Setting by assigning with a NumPy array:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:328
+msgid "The result of the prior setting operations."
+msgstr ""
+
+#: ../../getting_started/10min.rst:334
+msgid "A ``where`` operation with setting."
+msgstr ""
+
+#: ../../getting_started/10min.rst:344
+msgid "Missing Data"
+msgstr ""
+
+#: ../../getting_started/10min.rst:346
+msgid ""
+"pandas primarily uses the value ``np.nan`` to represent missing data. It "
+"is by default not included in computations. See the :ref:`Missing Data "
+"section <missing_data>`."
+msgstr ""
+
+#: ../../getting_started/10min.rst:350
+msgid ""
+"Reindexing allows you to change/add/delete the index on a specified axis."
+" This returns a copy of the data."
+msgstr ""
+
+#: ../../getting_started/10min.rst:359
+msgid "To drop any rows that have missing data."
+msgstr ""
+
+#: ../../getting_started/10min.rst:365
+msgid "Filling missing data."
+msgstr ""
+
+#: ../../getting_started/10min.rst:371
+msgid "To get the boolean mask where values are ``nan``."
+msgstr ""
+
+#: ../../getting_started/10min.rst:379
+msgid "Operations"
+msgstr ""
+
+#: ../../getting_started/10min.rst:381
+msgid "See the :ref:`Basic section on Binary Ops <basics.binop>`."
+msgstr ""
+
+#: ../../getting_started/10min.rst:384
+msgid "Stats"
+msgstr ""
+
+#: ../../getting_started/10min.rst:386
+msgid "Operations in general *exclude* missing data."
+msgstr ""
+
+#: ../../getting_started/10min.rst:388
+msgid "Performing a descriptive statistic:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:394
+msgid "Same operation on the other axis:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:400
+msgid ""
+"Operating with objects that have different dimensionality and need "
+"alignment. In addition, pandas automatically broadcasts along the "
+"specified dimension."
+msgstr ""
+
+#: ../../getting_started/10min.rst:411
+msgid "Apply"
+msgstr ""
+
+#: ../../getting_started/10min.rst:413
+msgid "Applying functions to the data:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:421
+msgid "Histogramming"
+msgstr ""
+
+#: ../../getting_started/10min.rst:423
+msgid ""
+"See more at :ref:`Histogramming and Discretization "
+"<basics.discretization>`."
+msgstr ""
+
+#: ../../getting_started/10min.rst:432
+msgid "String Methods"
+msgstr ""
+
+#: ../../getting_started/10min.rst:434
+msgid ""
+"Series is equipped with a set of string processing methods in the `str` "
+"attribute that make it easy to operate on each element of the array, as "
+"in the code snippet below. Note that pattern-matching in `str` generally "
+"uses `regular expressions <https://docs.python.org/3/library/re.html>`__ "
+"by default (and in some cases always uses them). See more at "
+":ref:`Vectorized String Methods <text.string_methods>`."
+msgstr ""
+
+#: ../../getting_started/10min.rst:447
+msgid "Merge"
+msgstr ""
+
+#: ../../getting_started/10min.rst:450
+msgid "Concat"
+msgstr ""
+
+#: ../../getting_started/10min.rst:452
+msgid ""
+"pandas provides various facilities for easily combining together Series "
+"and DataFrame objects with various kinds of set logic for the indexes and"
+" relational algebra functionality in the case of join / merge-type "
+"operations."
+msgstr ""
+
+#: ../../getting_started/10min.rst:457
+msgid "See the :ref:`Merging section <merging>`."
+msgstr ""
+
+#: ../../getting_started/10min.rst:459
+msgid "Concatenating pandas objects together with :func:`concat`:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:472
+msgid "Join"
+msgstr ""
+
+#: ../../getting_started/10min.rst:474
+msgid ""
+"SQL style merges. See the :ref:`Database style joining <merging.join>` "
+"section."
+msgstr ""
+
+#: ../../getting_started/10min.rst:484
+msgid "Another example that can be given is:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:496
+msgid "Append"
+msgstr ""
+
+#: ../../getting_started/10min.rst:498
+msgid ""
+"Append rows to a dataframe. See the :ref:`Appending "
+"<merging.concatenation>` section."
+msgstr ""
+
+#: ../../getting_started/10min.rst:510
+msgid "Grouping"
+msgstr ""
+
+#: ../../getting_started/10min.rst:512
+msgid ""
+"By \"group by\" we are referring to a process involving one or more of "
+"the following steps:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:515
+msgid "**Splitting** the data into groups based on some criteria"
+msgstr ""
+
+#: ../../getting_started/10min.rst:516
+msgid "**Applying** a function to each group independently"
+msgstr ""
+
+#: ../../getting_started/10min.rst:517
+msgid "**Combining** the results into a data structure"
+msgstr ""
+
+#: ../../getting_started/10min.rst:519
+msgid "See the :ref:`Grouping section <groupby>`."
+msgstr ""
+
+#: ../../getting_started/10min.rst:531
+msgid ""
+"Grouping and then applying the :meth:`~DataFrame.sum` function to the "
+"resulting groups."
+msgstr ""
+
+#: ../../getting_started/10min.rst:538
+msgid ""
+"Grouping by multiple columns forms a hierarchical index, and again we can"
+" apply the ``sum`` function."
+msgstr ""
+
+#: ../../getting_started/10min.rst:546
+msgid "Reshaping"
+msgstr ""
+
+#: ../../getting_started/10min.rst:548
+msgid ""
+"See the sections on :ref:`Hierarchical Indexing <advanced.hierarchical>` "
+"and :ref:`Reshaping <reshaping.stacking>`."
+msgstr ""
+
+#: ../../getting_started/10min.rst:552
+msgid "Stack"
+msgstr ""
+
+#: ../../getting_started/10min.rst:565
+msgid ""
+"The :meth:`~DataFrame.stack` method \"compresses\" a level in the "
+"DataFrame's columns."
+msgstr ""
+
+#: ../../getting_started/10min.rst:573
+msgid ""
+"With a \"stacked\" DataFrame or Series (having a ``MultiIndex`` as the "
+"``index``), the inverse operation of :meth:`~DataFrame.stack` is "
+":meth:`~DataFrame.unstack`, which by default unstacks the **last level**:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:584
+msgid "Pivot Tables"
+msgstr ""
+
+#: ../../getting_started/10min.rst:585
+msgid "See the section on :ref:`Pivot Tables <reshaping.pivot>`."
+msgstr ""
+
+#: ../../getting_started/10min.rst:596
+msgid "We can produce pivot tables from this data very easily:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:604
+msgid "Time Series"
+msgstr ""
+
+#: ../../getting_started/10min.rst:606
+msgid ""
+"pandas has simple, powerful, and efficient functionality for performing "
+"resampling operations during frequency conversion (e.g., converting "
+"secondly data into 5-minutely data). This is extremely common in, but not"
+" limited to, financial applications. See the :ref:`Time Series section "
+"<timeseries>`."
+msgstr ""
+
+#: ../../getting_started/10min.rst:617
+msgid "Time zone representation:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:627
+msgid "Converting to another time zone:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:633
+msgid "Converting between time span representations:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:644
+msgid ""
+"Converting between period and timestamp enables some convenient "
+"arithmetic functions to be used. In the following example, we convert a "
+"quarterly frequency with year ending in November to 9am of the end of the"
+" month following the quarter end:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:657
+msgid "Categoricals"
+msgstr ""
+
+#: ../../getting_started/10min.rst:659
+msgid ""
+"pandas can include categorical data in a ``DataFrame``. For full docs, "
+"see the :ref:`categorical introduction <categorical>` and the :ref:`API "
+"documentation <api.arrays.categorical>`."
+msgstr ""
+
+#: ../../getting_started/10min.rst:667
+msgid "Convert the raw grades to a categorical data type."
+msgstr ""
+
+#: ../../getting_started/10min.rst:674
+msgid ""
+"Rename the categories to more meaningful names (assigning to "
+"``Series.cat.categories`` is inplace!)."
+msgstr ""
+
+#: ../../getting_started/10min.rst:681
+msgid ""
+"Reorder the categories and simultaneously add the missing categories "
+"(methods under ``Series .cat`` return a new ``Series`` by default)."
+msgstr ""
+
+#: ../../getting_started/10min.rst:690
+msgid "Sorting is per order in the categories, not lexical order."
+msgstr ""
+
+#: ../../getting_started/10min.rst:696
+msgid "Grouping by a categorical column also shows empty categories."
+msgstr ""
+
+#: ../../getting_started/10min.rst:704
+msgid "Plotting"
+msgstr ""
+
+#: ../../getting_started/10min.rst:706
+msgid "See the :ref:`Plotting <visualization>` docs."
+msgstr ""
+
+#: ../../getting_started/10min.rst:723
+msgid ""
+"On a DataFrame, the :meth:`~DataFrame.plot` method is a convenience to "
+"plot all of the columns with labels:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:738
+msgid "Getting Data In/Out"
+msgstr ""
+
+#: ../../getting_started/10min.rst:741
+msgid "CSV"
+msgstr ""
+
+#: ../../getting_started/10min.rst:743
+msgid ":ref:`Writing to a csv file. <io.store_in_csv>`"
+msgstr ""
+
+#: ../../getting_started/10min.rst:749
+msgid ":ref:`Reading from a csv file. <io.read_csv_table>`"
+msgstr ""
+
+#: ../../getting_started/10min.rst:762
+msgid "HDF5"
+msgstr ""
+
+#: ../../getting_started/10min.rst:764
+msgid "Reading and writing to :ref:`HDFStores <io.hdf5>`."
+msgstr ""
+
+#: ../../getting_started/10min.rst:766
+msgid "Writing to a HDF5 Store."
+msgstr ""
+
+#: ../../getting_started/10min.rst:772
+msgid "Reading from a HDF5 Store."
+msgstr ""
+
+#: ../../getting_started/10min.rst:784
+msgid "Excel"
+msgstr ""
+
+#: ../../getting_started/10min.rst:786
+msgid "Reading and writing to :ref:`MS Excel <io.excel>`."
+msgstr ""
+
+#: ../../getting_started/10min.rst:788
+msgid "Writing to an excel file."
+msgstr ""
+
+#: ../../getting_started/10min.rst:794
+msgid "Reading from an excel file."
+msgstr ""
+
+#: ../../getting_started/10min.rst:806
+msgid "Gotchas"
+msgstr ""
+
+#: ../../getting_started/10min.rst:808
+msgid ""
+"If you are attempting to perform an operation you might see an exception "
+"like:"
+msgstr ""
+
+#: ../../getting_started/10min.rst:818
+msgid "See :ref:`Comparisons<basics.compare>` for an explanation and what to do."
+msgstr ""
+
+#: ../../getting_started/10min.rst:820
+msgid "See :ref:`Gotchas<gotchas>` as well."
+msgstr ""
+

@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.api.extensions.ExtensionArray.take.rst:2
+msgid "pandas.api.extensions.ExtensionArray.take"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:2
+msgid "Take elements from an array."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:8
+msgid "**indices**"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:7
+msgid "sequence of integers"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:8
+msgid "Indices to be taken."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:19
+msgid "**allow_fill**"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:18
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:11
+msgid "How to handle negative values in `indices`."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:13
+msgid ""
+"False: negative values in `indices` indicate positional indices from the "
+"right (the default). This is similar to :func:`numpy.take`."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:17
+msgid ""
+"True: negative values in `indices` indicate missing values. These values "
+"are set to `fill_value`. Any other other negative values raise a "
+"``ValueError``."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:30
+msgid "**fill_value**"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:29
+msgid "any, optional"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:22
+msgid ""
+"Fill value to use for NA-indices when `allow_fill` is True. This may be "
+"``None``, in which case the default NA value for the type, "
+"``self.dtype.na_value``, is used."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:26
+msgid ""
+"For many ExtensionArrays, there will be two representations of "
+"`fill_value`: a user-facing \"boxed\" scalar, and a low-level physical NA"
+" value. `fill_value` should be the user-facing version, and the "
+"implementation should handle translating that to the physical version for"
+" processing the take if necessary."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take
+msgid "Returns"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:37
+msgid "**ExtensionArray**"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take
+msgid "Raises"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:42
+msgid "**IndexError**"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:42
+msgid "When the indices are out of bounds for the array."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:48
+msgid "**ValueError**"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:45
+msgid ""
+"When `indices` contains negative values other than ``-1`` and "
+"`allow_fill` is True."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:53
+msgid ":obj:`numpy.take`, :obj:`pandas.api.extensions.take`"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:56
+msgid "Notes"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:57
+msgid ""
+"ExtensionArray.take is called by ``Series.__getitem__``, ``.loc``, "
+"``iloc``, when `indices` is a sequence of values. Additionally, it's "
+"called by :meth:`Series.reindex`, or any other method that causes "
+"realignment, with a `fill_value`."
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:64
+msgid "Examples"
+msgstr ""
+
+#: of pandas.api.extensions.ExtensionArray.take:65
+msgid ""
+"Here's an example implementation, which relies on casting the extension "
+"array to object dtype. This uses the helper method "
+":func:`pandas.api.extensions.take`."
+msgstr ""
+

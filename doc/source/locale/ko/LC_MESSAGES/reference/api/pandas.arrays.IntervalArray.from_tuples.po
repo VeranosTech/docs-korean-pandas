@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.arrays.IntervalArray.from_tuples.rst:2
+msgid "pandas.arrays.IntervalArray.from\\_tuples"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples:2
+msgid "Construct an IntervalArray from an array-like of tuples"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples:8
+msgid "**data**"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples:7
+msgid "array-like (1-dimensional)"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples:8
+msgid "Array of tuples"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples:12
+msgid "**closed**"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples:11
+msgid "{'left', 'right', 'both', 'neither'}, default 'right'"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples:11
+msgid ""
+"Whether the intervals are closed on the left-side, right-side, both or "
+"neither."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples:15
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples:14
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples:15
+msgid "by-default copy the data, this is compat only and ignored"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples:26
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples:25
+msgid "dtype or None, default None"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples:18
+msgid "If None, dtype will be inferred"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples:20
+msgid "..versionadded:: 0.23.0"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples:32
+msgid ":obj:`interval_range`"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples:32
+msgid "Function to create a fixed frequency IntervalIndex."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples:35
+msgid ":obj:`IntervalArray.from_arrays`"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples:35
+msgid "Construct an IntervalArray from a left and right array."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples:37
+msgid ":obj:`IntervalArray.from_breaks`"
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples:38
+msgid "Construct an IntervalArray from an array of splits."
+msgstr ""
+
+#: of pandas.arrays.IntervalArray.from_tuples:43
+msgid "Examples"
+msgstr ""
+

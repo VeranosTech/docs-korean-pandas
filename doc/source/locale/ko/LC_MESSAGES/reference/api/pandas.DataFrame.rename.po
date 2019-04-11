@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.rename.rst:2
+msgid "pandas.DataFrame.rename"
+msgstr ""
+
+#: of pandas.DataFrame.rename:2
+msgid "Alter axes labels."
+msgstr ""
+
+#: of pandas.DataFrame.rename:4
+msgid ""
+"Function / dict values must be unique (1-to-1). Labels not contained in a"
+" dict / Series will be left as-is. Extra labels listed don't throw an "
+"error."
+msgstr ""
+
+#: of pandas.DataFrame.rename:8
+msgid "See the :ref:`user guide <basics.rename>` for more."
+msgstr ""
+
+#: of pandas.DataFrame.rename
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.rename:16
+msgid "**mapper, index, columns**"
+msgstr ""
+
+#: of pandas.DataFrame.rename:15
+msgid "dict-like or function, optional"
+msgstr ""
+
+#: of pandas.DataFrame.rename:13
+msgid ""
+"dict-like or functions transformations to apply to that axis' values. Use"
+" either ``mapper`` and ``axis`` to specify the axis to target with "
+"``mapper``, or ``index`` and ``columns``."
+msgstr ""
+
+#: of pandas.DataFrame.rename:20
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.DataFrame.rename:19
+msgid "int or str, optional"
+msgstr ""
+
+#: of pandas.DataFrame.rename:19
+msgid ""
+"Axis to target with ``mapper``. Can be either the axis name ('index', "
+"'columns') or number (0, 1). The default is 'index'."
+msgstr ""
+
+#: of pandas.DataFrame.rename:23
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.DataFrame.rename:22
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.DataFrame.rename:23
+msgid "Also copy underlying data"
+msgstr ""
+
+#: of pandas.DataFrame.rename:27
+msgid "**inplace**"
+msgstr ""
+
+#: of pandas.DataFrame.rename:26
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.DataFrame.rename:26
+msgid "Whether to return a new DataFrame. If True then value of copy is ignored."
+msgstr ""
+
+#: of pandas.DataFrame.rename:31
+msgid "**level**"
+msgstr ""
+
+#: of pandas.DataFrame.rename:30
+msgid "int or level name, default None"
+msgstr ""
+
+#: of pandas.DataFrame.rename:30
+msgid "In case of a MultiIndex, only rename labels in the specified level."
+msgstr ""
+
+#: of pandas.DataFrame.rename
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.rename:41
+msgid "**renamed**"
+msgstr ""
+
+#: of pandas.DataFrame.rename:40
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.DataFrame.rename:46
+msgid ":obj:`pandas.DataFrame.rename_axis`"
+msgstr ""
+
+#: of pandas.DataFrame.rename:51
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.rename:52
+msgid "``DataFrame.rename`` supports two calling conventions"
+msgstr ""
+
+#: of pandas.DataFrame.rename:54
+msgid "``(index=index_mapper, columns=columns_mapper, ...)``"
+msgstr ""
+
+#: of pandas.DataFrame.rename:55
+msgid "``(mapper, axis={'index', 'columns'}, ...)``"
+msgstr ""
+
+#: of pandas.DataFrame.rename:57
+msgid "We *highly* recommend using keyword arguments to clarify your intent."
+msgstr ""
+
+#: of pandas.DataFrame.rename:73
+msgid "Using axis-style parameters"
+msgstr ""
+

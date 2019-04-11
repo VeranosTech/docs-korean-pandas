@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.dot.rst:2
+msgid "pandas.Series.dot"
+msgstr ""
+
+#: of pandas.Series.dot:2
+msgid "Compute the dot product between the Series and the columns of other."
+msgstr ""
+
+#: of pandas.Series.dot:4
+msgid ""
+"This method computes the dot product between the Series and another one, "
+"or the Series and each columns of a DataFrame, or the Series and each "
+"columns of an array."
+msgstr ""
+
+#: of pandas.Series.dot:8
+msgid "It can also be called using `self @ other` in Python >= 3.5."
+msgstr ""
+
+#: of pandas.Series.dot
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.dot:13
+msgid "**other**"
+msgstr ""
+
+#: of pandas.Series.dot:12
+msgid "Series, DataFrame or array-like"
+msgstr ""
+
+#: of pandas.Series.dot:13
+msgid "The other object to compute the dot product with its columns."
+msgstr ""
+
+#: of pandas.Series.dot
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.dot:26
+msgid "**scalar, Series or numpy.ndarray**"
+msgstr ""
+
+#: of pandas.Series.dot:18
+msgid ""
+"Return the dot product of the Series and other if other is a Series, the "
+"Series of the dot product of Series and each rows of other if other is a "
+"DataFrame or a numpy.ndarray between the Series and each columns of the "
+"numpy array."
+msgstr ""
+
+#: of pandas.Series.dot:32
+msgid ":obj:`DataFrame.dot`"
+msgstr ""
+
+#: of pandas.Series.dot:32
+msgid "Compute the matrix product with the DataFrame."
+msgstr ""
+
+#: of pandas.Series.dot:34
+msgid ":obj:`Series.mul`"
+msgstr ""
+
+#: of pandas.Series.dot:35
+msgid "Multiplication of series and other, element-wise."
+msgstr ""
+
+#: of pandas.Series.dot:38
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Series.dot:39
+msgid ""
+"The Series and other has to share the same index if other is a Series or "
+"a DataFrame."
+msgstr ""
+
+#: of pandas.Series.dot:44
+msgid "Examples"
+msgstr ""
+

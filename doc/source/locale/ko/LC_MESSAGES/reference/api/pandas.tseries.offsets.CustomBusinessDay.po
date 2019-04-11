@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.tseries.offsets.CustomBusinessDay.rst:2
+msgid "pandas.tseries.offsets.CustomBusinessDay"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:2
+msgid ""
+"DateOffset subclass representing possibly n custom business days, "
+"excluding holidays."
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:9
+msgid "**n**"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:8
+msgid "int, default 1"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:12
+msgid "**normalize**"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:11
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:12
+msgid "Normalize start/end dates to midnight before generating date range"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:15
+msgid "**weekmask**"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:14
+msgid "str, Default 'Mon Tue Wed Thu Fri'"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:15
+msgid "weekmask of valid business days, passed to ``numpy.busdaycalendar``"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:19
+msgid "**holidays**"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:18
+msgid "list"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:18
+msgid ""
+"list/array of dates to exclude from the set of valid business days, "
+"passed to ``numpy.busdaycalendar``"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:22
+msgid "**calendar**"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:21
+msgid "pd.HolidayCalendar or np.busdaycalendar"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:35
+msgid "**offset**"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:34
+msgid "timedelta, default timedelta(0)"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:38
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:45:<autosummary>:1
+msgid ":obj:`base <pandas.tseries.offsets.CustomBusinessDay.base>`\\"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:45:<autosummary>:1
+msgid ""
+"Returns a copy of the calling offset object with n=1 and all other "
+"attributes equal."
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:45:<autosummary>:1
+msgid ":obj:`offset <pandas.tseries.offsets.CustomBusinessDay.offset>`\\"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:45:<autosummary>:1
+msgid "Alias for self._offset."
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:47
+msgid "**freqstr**"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:48
+msgid "**kwds**"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:49
+msgid "**name**"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:50
+msgid "**nanos**"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:51
+msgid "**rule_code**"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:55
+msgid "Methods"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:63:<autosummary>:1
+msgid ""
+":obj:`apply_index "
+"<pandas.tseries.offsets.CustomBusinessDay.apply_index>`\\ \\(i\\)"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:63:<autosummary>:1
+msgid ""
+"Vectorized apply of DateOffset to DatetimeIndex, raises NotImplentedError"
+" for offsets without a vectorized implementation."
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:63:<autosummary>:1
+msgid ""
+":obj:`rollback <pandas.tseries.offsets.CustomBusinessDay.rollback>`\\ "
+"\\(dt\\)"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:63:<autosummary>:1
+msgid "Roll provided date backward to next offset only if not on offset."
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:63:<autosummary>:1
+msgid ""
+":obj:`rollforward "
+"<pandas.tseries.offsets.CustomBusinessDay.rollforward>`\\ \\(dt\\)"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:63:<autosummary>:1
+msgid "Roll provided date forward to next offset only if not on offset."
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:65
+msgid "**__call__**"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:66
+msgid "**apply**"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:67
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:68
+msgid "**isAnchored**"
+msgstr ""
+
+#: of pandas.tseries.offsets.CustomBusinessDay:69
+msgid "**onOffset**"
+msgstr ""
+

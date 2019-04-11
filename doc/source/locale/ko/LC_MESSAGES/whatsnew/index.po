@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../whatsnew/index.rst:3
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../whatsnew/index.rst:7
+msgid "Release Notes"
+msgstr ""
+
+#: ../../whatsnew/index.rst:9
+msgid ""
+"This is the list of changes to pandas between each release. For full "
+"details, see the commit logs at http://github.com/pandas-dev/pandas. For "
+"install and upgrade instructions, see :ref:`install`."
+msgstr ""
+
+#: ../../whatsnew/index.rst:14
+msgid "Version 0.24"
+msgstr ""
+
+#: ../../whatsnew/index.rst:24
+msgid "Version 0.23"
+msgstr ""
+
+#: ../../whatsnew/index.rst:36
+msgid "Version 0.22"
+msgstr ""
+
+#: ../../whatsnew/index.rst:44
+msgid "Version 0.21"
+msgstr ""
+
+#: ../../whatsnew/index.rst:53
+msgid "Version 0.20"
+msgstr ""
+
+#: ../../whatsnew/index.rst:63
+msgid "Version 0.19"
+msgstr ""
+
+#: ../../whatsnew/index.rst:73
+msgid "Version 0.18"
+msgstr ""
+
+#: ../../whatsnew/index.rst:82
+msgid "Version 0.17"
+msgstr ""
+
+#: ../../whatsnew/index.rst:91
+msgid "Version 0.16"
+msgstr ""
+
+#: ../../whatsnew/index.rst:101
+msgid "Version 0.15"
+msgstr ""
+
+#: ../../whatsnew/index.rst:111
+msgid "Version 0.14"
+msgstr ""
+
+#: ../../whatsnew/index.rst:120
+msgid "Version 0.13"
+msgstr ""
+
+#: ../../whatsnew/index.rst:129
+msgid "Version 0.12"
+msgstr ""
+
+#: ../../whatsnew/index.rst:137
+msgid "Version 0.11"
+msgstr ""
+
+#: ../../whatsnew/index.rst:145
+msgid "Version 0.10"
+msgstr ""
+
+#: ../../whatsnew/index.rst:154
+msgid "Version 0.9"
+msgstr ""
+
+#: ../../whatsnew/index.rst:163
+msgid "Version 0.8"
+msgstr ""
+
+#: ../../whatsnew/index.rst:172
+msgid "Version 0.7"
+msgstr ""
+
+#: ../../whatsnew/index.rst:183
+msgid "Version 0.6"
+msgstr ""
+
+#: ../../whatsnew/index.rst:192
+msgid "Version 0.5"
+msgstr ""
+
+#: ../../whatsnew/index.rst:200
+msgid "Version 0.4"
+msgstr ""
+

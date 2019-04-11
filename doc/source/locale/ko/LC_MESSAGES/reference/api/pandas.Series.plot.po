@@ -1,0 +1,398 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.plot.rst:2
+msgid "pandas.Series.plot"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:2
+msgid "Make plots of Series using matplotlib / pylab."
+msgstr ""
+
+#: of pandas.Series.plot.__call__:4
+msgid ""
+"*New in version 0.17.0:* Each plot kind has a corresponding method on the"
+" ``Series.plot`` accessor: ``s.plot(kind='line')`` is equivalent to "
+"``s.plot.line()``."
+msgstr ""
+
+#: of pandas.Series.plot.__call__
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:12
+msgid "**data**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:11
+msgid "Series"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:23
+msgid "**kind**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:22
+msgid "str"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:15
+msgid "'line' : line plot (default)"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:16
+msgid "'bar' : vertical bar plot"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:17
+msgid "'barh' : horizontal bar plot"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:18
+msgid "'hist' : histogram"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:19
+msgid "'box' : boxplot"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:20
+msgid "'kde' : Kernel Density Estimation plot"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:21
+msgid "'density' : same as 'kde'"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:22
+msgid "'area' : area plot"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:23
+msgid "'pie' : pie plot"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:26
+msgid "**ax**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:25
+msgid "matplotlib axes object"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:26
+msgid "If not passed, uses gca()"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:29
+msgid "**figsize**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:28
+msgid "a tuple (width, height) in inches"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:32
+msgid "**use_index**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:31 pandas.Series.plot.__call__:105
+msgid "boolean, default True"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:32
+msgid "Use index as ticks for x axis"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:37
+msgid "**title**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:36
+msgid "string or list"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:35
+msgid ""
+"Title to use for the plot. If a string is passed, print the string at the"
+" top of the figure. If a list is passed and `subplots` is True, print "
+"each item in the list above the corresponding subplot."
+msgstr ""
+
+#: of pandas.Series.plot.__call__:40
+msgid "**grid**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:39
+msgid "boolean, default None (matlab style default)"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:40
+msgid "Axis grid lines"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:43
+msgid "**legend**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:42
+msgid "False/True/'reverse'"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:43
+msgid "Place legend on axis subplots"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:46
+msgid "**style**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:45
+msgid "list or dict"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:46
+msgid "matplotlib line style per column"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:49
+msgid "**logx**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:48 pandas.Series.plot.__call__:51
+#: pandas.Series.plot.__call__:54
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:49
+msgid "Use log scaling on x axis"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:52
+msgid "**logy**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:52
+msgid "Use log scaling on y axis"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:55
+msgid "**loglog**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:55
+msgid "Use log scaling on both x and y axes"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:58
+msgid "**xticks**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:57 pandas.Series.plot.__call__:60
+msgid "sequence"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:58
+msgid "Values to use for the xticks"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:61
+msgid "**yticks**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:61
+msgid "Values to use for the yticks"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:64
+msgid "**xlim**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:63 pandas.Series.plot.__call__:66
+msgid "2-tuple/list"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:67
+msgid "**ylim**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:70
+msgid "**rot**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:69 pandas.Series.plot.__call__:72
+msgid "int, default None"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:70
+msgid "Rotation for ticks (xticks for vertical, yticks for horizontal plots)"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:73
+msgid "**fontsize**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:73
+msgid "Font size for xticks and yticks"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:77
+msgid "**colormap**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:76
+msgid "str or matplotlib colormap object, default None"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:76
+msgid ""
+"Colormap to select colors from. If string, load colormap with that name "
+"from matplotlib."
+msgstr ""
+
+#: of pandas.Series.plot.__call__:80
+msgid "**colorbar**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:79
+msgid "boolean, optional"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:80
+msgid "If True, plot colorbar (only relevant for 'scatter' and 'hexbin' plots)"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:84
+msgid "**position**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:83
+msgid "float"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:83
+msgid ""
+"Specify relative alignments for bar plot layout. From 0 (left/bottom-end)"
+" to 1 (right/top-end). Default is 0.5 (center)"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:89
+msgid "**table**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:88
+msgid "boolean, Series or DataFrame, default False"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:87
+msgid ""
+"If True, draw a table using the data in the DataFrame and the data will "
+"be transposed to meet matplotlib's default layout. If a Series or "
+"DataFrame is passed, use passed data to draw a table."
+msgstr ""
+
+#: of pandas.Series.plot.__call__:93
+msgid "**yerr**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:92
+msgid "DataFrame, Series, array-like, dict and str"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:92
+msgid "See :ref:`Plotting with Error Bars <visualization.errorbars>` for detail."
+msgstr ""
+
+#: of pandas.Series.plot.__call__:96
+msgid "**xerr**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:95
+msgid "same types as yerr."
+msgstr ""
+
+#: of pandas.Series.plot.__call__:99
+msgid "**label**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:98
+msgid "label argument to provide to plot"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:102
+msgid "**secondary_y**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:101
+msgid "boolean or sequence of ints, default False"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:102
+msgid "If True then y-axis will be on the right"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:106
+msgid "**mark_right**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:105
+msgid ""
+"When using a secondary_y axis, automatically mark the column labels with "
+"\"(right)\" in the legend"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:109
+msgid "**`**kwds`**"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:108
+msgid "keywords"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:109
+msgid "Options to pass to matplotlib plotting method"
+msgstr ""
+
+#: of pandas.Series.plot.__call__
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:120
+msgid "**axes** : :class:`matplotlib.axes.Axes` or numpy.ndarray of them"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:119
+msgid "matplotlib.axes.Axes or numpy.ndarray of them"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:123
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:124
+msgid "See matplotlib documentation online for more on this subject"
+msgstr ""
+
+#: of pandas.Series.plot.__call__:125
+msgid ""
+"If `kind` = 'bar' or 'barh', you can specify relative alignments for bar "
+"plot layout by `position` keyword. From 0 (left/bottom-end) to 1 (right"
+"/top-end). Default is 0.5 (center)"
+msgstr ""
+

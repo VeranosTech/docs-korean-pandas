@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.plot.line.rst:2
+msgid "pandas.DataFrame.plot.line"
+msgstr ""
+
+#: of pandas.DataFrame.plot.line:2
+msgid "Plot DataFrame columns as lines."
+msgstr ""
+
+#: of pandas.DataFrame.plot.line:4
+msgid ""
+"This function is useful to plot lines using DataFrame's values as "
+"coordinates."
+msgstr ""
+
+#: of pandas.DataFrame.plot.line
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.plot.line:12
+msgid "**x**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.line:11
+msgid "int or str, optional"
+msgstr ""
+
+#: of pandas.DataFrame.plot.line:10
+msgid ""
+"Columns to use for the horizontal axis. Either the location or the label "
+"of the columns to be used. By default, it will use the DataFrame indices."
+msgstr ""
+
+#: of pandas.DataFrame.plot.line:17
+msgid "**y**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.line:16
+msgid "int, str, or list of them, optional"
+msgstr ""
+
+#: of pandas.DataFrame.plot.line:15
+msgid ""
+"The values to be plotted. Either the location or the label of the columns"
+" to be used. By default, it will use the remaining DataFrame numeric "
+"columns."
+msgstr ""
+
+#: of pandas.DataFrame.plot.line:20
+msgid "**\\*\\*kwds**"
+msgstr ""
+
+#: of pandas.DataFrame.plot.line:20
+msgid "Keyword arguments to pass on to :meth:`pandas.DataFrame.plot`."
+msgstr ""
+
+#: of pandas.DataFrame.plot.line
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.plot.line:30
+msgid "**axes** : :class:`matplotlib.axes.Axes` or :class:`numpy.ndarray`"
+msgstr ""
+
+#: of pandas.DataFrame.plot.line:29
+msgid "matplotlib.axes.Axes or numpy.ndarray"
+msgstr ""
+
+#: of pandas.DataFrame.plot.line:25
+msgid "Returns an ndarray when ``subplots=True``."
+msgstr ""
+
+#: of pandas.DataFrame.plot.line:35
+msgid ":obj:`matplotlib.pyplot.plot`"
+msgstr ""
+
+#: of pandas.DataFrame.plot.line:36
+msgid "Plot y versus x as lines and/or markers."
+msgstr ""
+
+#: of pandas.DataFrame.plot.line:41
+msgid "Examples"
+msgstr ""
+
+#: ../../reference/api/pandas.DataFrame.plot.line.rst:3
+msgid ""
+"The following example shows the populations for some animals over the "
+"years."
+msgstr ""
+
+#: ../../reference/api/pandas.DataFrame.plot.line.rst:3
+msgid "An example with subplots, so an array of axes is returned."
+msgstr ""
+
+#: ../../reference/api/pandas.DataFrame.plot.line.rst:3
+msgid "The following example shows the relationship between both populations."
+msgstr ""
+

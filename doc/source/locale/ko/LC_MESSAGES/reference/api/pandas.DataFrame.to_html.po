@@ -1,0 +1,349 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.to_html.rst:2
+msgid "pandas.DataFrame.to\\_html"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:2
+msgid "Render a DataFrame as an HTML table."
+msgstr ""
+
+#: of pandas.DataFrame.to_html
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:8
+msgid "**buf**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:7
+msgid "StringIO-like, optional"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:8
+msgid "Buffer to write to."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:11
+msgid "**columns**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:10
+msgid "sequence, optional, default None"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:11
+msgid "The subset of columns to write. Writes all columns by default."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:14
+msgid "**col_space**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:13 pandas.DataFrame.to_html:59
+#: pandas.DataFrame.to_html:62
+msgid "int, optional"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:14
+msgid "The minimum width of each column."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:17
+msgid "**header**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:16
+msgid "bool, optional"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:17
+msgid "Whether to print column labels, default True."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:20
+msgid "**index**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:19 pandas.DataFrame.to_html:36
+#: pandas.DataFrame.to_html:39
+msgid "bool, optional, default True"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:20
+msgid "Whether to print index (row) labels."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:23
+msgid "**na_rep**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:22
+msgid "str, optional, default 'NaN'"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:23
+msgid "String representation of NAN to use."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:29
+msgid "**formatters**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:28
+msgid "list or dict of one-param. functions, optional"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:26
+msgid ""
+"Formatter functions to apply to columns' elements by position or name. "
+"The result of each function must be a unicode string. List must be of "
+"length equal to the number of columns."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:33
+msgid "**float_format**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:32
+msgid "one-parameter function, optional, default None"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:32
+msgid ""
+"Formatter function to apply to columns' elements if they are floats. The "
+"result of this function must be a unicode string."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:37
+msgid "**sparsify**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:36
+msgid ""
+"Set to False for a DataFrame with a hierarchical index to print every "
+"multiindex key at each row."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:40
+msgid "**index_names**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:40
+msgid "Prints the names of the indexes."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:57
+msgid "**justify**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:56
+msgid "str, default None"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:43
+msgid ""
+"How to justify the column labels. If None uses the option from the print "
+"configuration (controlled by set_option), 'right' out of the box. Valid "
+"values are"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:47
+msgid "left"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:48
+msgid "right"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:49
+msgid "center"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:50
+msgid "justify"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:51
+msgid "justify-all"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:52
+msgid "start"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:53
+msgid "end"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:54
+msgid "inherit"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:55
+msgid "match-parent"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:56
+msgid "initial"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:57
+msgid "unset."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:60
+msgid "**max_rows**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:60
+msgid "Maximum number of rows to display in the console."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:63
+msgid "**max_cols**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:63
+msgid "Maximum number of columns to display in the console."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:66
+msgid "**show_dimensions**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:65 pandas.DataFrame.to_html:98
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:66
+msgid "Display DataFrame dimensions (number of rows by number of columns)."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:71
+msgid "**decimal**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:70
+msgid "str, default '.'"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:69
+msgid "Character recognized as decimal separator, e.g. ',' in Europe."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:74
+msgid "**bold_rows**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:73 pandas.DataFrame.to_html:79
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:74
+msgid "Make the row labels bold in the output."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:77
+msgid "**classes**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:76
+msgid "str or list or tuple, default None"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:77
+msgid "CSS class(es) to apply to the resulting html table."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:80
+msgid "**escape**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:80
+msgid "Convert the characters <, >, and & to HTML-safe sequences."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:83
+msgid "**notebook**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:82
+msgid "{True, False}, default False"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:83
+msgid "Whether the generated HTML is for IPython Notebook."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:89
+msgid "**border**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:88
+msgid "int"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:86
+msgid ""
+"A ``border=border`` attribute is included in the opening `<table>` tag. "
+"Default ``pd.options.html.border``."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:94
+msgid "**table_id**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:93
+msgid "str, optional"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:92
+msgid "A css id is included in the opening `<table>` tag if specified."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:99
+msgid "**render_links**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:97
+msgid "Convert URLs to HTML links."
+msgstr ""
+
+#: of pandas.DataFrame.to_html
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:109
+msgid "**str (or unicode, depending on data and options)**"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:104
+msgid "String representation of the dataframe."
+msgstr ""
+
+#: of pandas.DataFrame.to_html:114
+msgid ":obj:`to_string`"
+msgstr ""
+
+#: of pandas.DataFrame.to_html:115
+msgid "Convert DataFrame to a string."
+msgstr ""
+

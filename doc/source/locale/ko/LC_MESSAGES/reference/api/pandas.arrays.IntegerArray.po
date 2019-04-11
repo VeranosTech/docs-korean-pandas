@@ -1,0 +1,269 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.arrays.IntegerArray.rst:2
+msgid "pandas.arrays.IntegerArray"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:2
+msgid "Array of integer (optional missing) values."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:8
+msgid ""
+"IntegerArray is currently experimental, and its API or internal "
+"implementation may change without warning."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:11
+msgid "We represent an IntegerArray with 2 numpy arrays:"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:13
+msgid "data: contains a numpy integer array of the appropriate dtype"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:14
+msgid "mask: a boolean array holding a mask on the data, True is missing"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:16
+msgid ""
+"To construct an IntegerArray from generic array-like input, use "
+":func:`pandas.array` with one of the integer dtypes (see examples)."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:19
+msgid "See :ref:`integer_na` for more."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:24
+msgid "**values**"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:23 pandas.arrays.IntegerArray:26
+msgid "numpy.ndarray"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:24
+msgid "A 1-d integer-dtype array."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:27
+msgid "**mask**"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:27
+msgid "A 1-d boolean-dtype array indicating missing values."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:30
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:29
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:30
+msgid "Whether to copy the `values` and `mask`."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray
+msgid "Returns"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:43
+msgid "**IntegerArray**"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:46
+msgid "Examples"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:47
+msgid "Create an IntegerArray with :func:`pandas.array`."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:55
+msgid "String aliases for the dtypes are also available. They are capitalized."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:68
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:76:<autosummary>:1
+msgid ":obj:`nbytes <pandas.arrays.IntegerArray.nbytes>`\\"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:76:<autosummary>:1
+msgid "The number of bytes needed to store this object in memory."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:76:<autosummary>:1
+msgid ":obj:`ndim <pandas.arrays.IntegerArray.ndim>`\\"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:76:<autosummary>:1
+msgid "Extension Arrays are only allowed to be 1-dimensional."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:76:<autosummary>:1
+msgid ":obj:`shape <pandas.arrays.IntegerArray.shape>`\\"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:76:<autosummary>:1
+msgid "Return a tuple of the array dimensions."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:78
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:82
+msgid "Methods"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid ""
+":obj:`argsort <pandas.arrays.IntegerArray.argsort>`\\ \\(\\[ascending\\, "
+"kind\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid "Return the indices that would sort this array."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid ""
+":obj:`astype <pandas.arrays.IntegerArray.astype>`\\ \\(dtype\\[\\, "
+"copy\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid "Cast to a NumPy array or IntegerArray with 'dtype'."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid ":obj:`copy <pandas.arrays.IntegerArray.copy>`\\ \\(\\[deep\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid "Return a copy of the array."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid ":obj:`dropna <pandas.arrays.IntegerArray.dropna>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid "Return ExtensionArray without NA values"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid ""
+":obj:`factorize <pandas.arrays.IntegerArray.factorize>`\\ "
+"\\(\\[na\\_sentinel\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid "Encode the extension array as an enumerated type."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid ""
+":obj:`fillna <pandas.arrays.IntegerArray.fillna>`\\ \\(\\[value\\, "
+"method\\, limit\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid "Fill NA/NaN values using the specified method."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid ":obj:`isna <pandas.arrays.IntegerArray.isna>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid "A 1-D array indicating if each value is missing."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid ""
+":obj:`repeat <pandas.arrays.IntegerArray.repeat>`\\ \\(repeats\\[\\, "
+"axis\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid "Repeat elements of a ExtensionArray."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid ""
+":obj:`searchsorted <pandas.arrays.IntegerArray.searchsorted>`\\ "
+"\\(value\\[\\, side\\, sorter\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid "Find indices where elements should be inserted to maintain order."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid ""
+":obj:`shift <pandas.arrays.IntegerArray.shift>`\\ \\(\\[periods\\, "
+"fill\\_value\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid "Shift values by desired number."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid ""
+":obj:`take <pandas.arrays.IntegerArray.take>`\\ \\(indexer\\[\\, "
+"allow\\_fill\\, fill\\_value\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid "Take elements from an array."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid ":obj:`unique <pandas.arrays.IntegerArray.unique>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid "Compute the ExtensionArray of unique values."
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid ""
+":obj:`value_counts <pandas.arrays.IntegerArray.value_counts>`\\ "
+"\\(\\[dropna\\]\\)"
+msgstr ""
+
+#: of pandas.arrays.IntegerArray:99:<autosummary>:1
+msgid "Returns a Series containing counts of each category."
+msgstr ""
+

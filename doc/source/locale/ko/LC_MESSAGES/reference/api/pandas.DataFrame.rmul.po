@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.rmul.rst:2
+msgid "pandas.DataFrame.rmul"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:2
+msgid ""
+"Multiplication of dataframe and other, element-wise (binary operator "
+"`rmul`)."
+msgstr ""
+
+#: of pandas.DataFrame.rmul:4
+msgid ""
+"Equivalent to ``other * dataframe``, but with support to substitute a "
+"fill_value for missing data in one of the inputs. With reverse version, "
+"`mul`."
+msgstr ""
+
+#: of pandas.DataFrame.rmul:7
+msgid ""
+"Among flexible wrappers (`add`, `sub`, `mul`, `div`, `mod`, `pow`) to "
+"arithmetic operators: `+`, `-`, `*`, `/`, `//`, `%`, `**`."
+msgstr ""
+
+#: of pandas.DataFrame.rmul
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:13
+msgid "**other**"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:12
+msgid "scalar, sequence, Series, or DataFrame"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:13
+msgid "Any single or multiple element data structure, or list-like object."
+msgstr ""
+
+#: of pandas.DataFrame.rmul:17
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:16
+msgid "{0 or 'index', 1 or 'columns'}"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:16
+msgid ""
+"Whether to compare by the index (0 or 'index') or columns (1 or "
+"'columns'). For Series input, axis to match Series index on."
+msgstr ""
+
+#: of pandas.DataFrame.rmul:21
+msgid "**level**"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:20
+msgid "int or label"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:20
+msgid ""
+"Broadcast across a level, matching Index values on the passed MultiIndex "
+"level."
+msgstr ""
+
+#: of pandas.DataFrame.rmul:27
+msgid "**fill_value**"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:26
+msgid "float or None, default None"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:24
+msgid ""
+"Fill existing missing (NaN) values, and any new element needed for "
+"successful DataFrame alignment, with this value before computation. If "
+"data in both corresponding DataFrame locations is missing the result will"
+" be missing."
+msgstr ""
+
+#: of pandas.DataFrame.rmul
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:37
+msgid "**DataFrame**"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:32
+msgid "Result of the arithmetic operation."
+msgstr ""
+
+#: of pandas.DataFrame.rmul:43
+msgid ":obj:`DataFrame.add`"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:43
+msgid "Add DataFrames."
+msgstr ""
+
+#: of pandas.DataFrame.rmul:46
+msgid ":obj:`DataFrame.sub`"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:46
+msgid "Subtract DataFrames."
+msgstr ""
+
+#: of pandas.DataFrame.rmul:49
+msgid ":obj:`DataFrame.mul`"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:49
+msgid "Multiply DataFrames."
+msgstr ""
+
+#: of pandas.DataFrame.rmul:52
+msgid ":obj:`DataFrame.div`"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:52 pandas.DataFrame.rmul:55
+msgid "Divide DataFrames (float division)."
+msgstr ""
+
+#: of pandas.DataFrame.rmul:55
+msgid ":obj:`DataFrame.truediv`"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:58
+msgid ":obj:`DataFrame.floordiv`"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:58
+msgid "Divide DataFrames (integer division)."
+msgstr ""
+
+#: of pandas.DataFrame.rmul:61
+msgid ":obj:`DataFrame.mod`"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:61
+msgid "Calculate modulo (remainder after division)."
+msgstr ""
+
+#: of pandas.DataFrame.rmul:63
+msgid ":obj:`DataFrame.pow`"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:64
+msgid "Calculate exponential power."
+msgstr ""
+
+#: of pandas.DataFrame.rmul:67
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:68
+msgid "Mismatched indices will be unioned together."
+msgstr ""
+
+#: of pandas.DataFrame.rmul:72
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.rmul:82
+msgid "Add a scalar with operator version which return the same results."
+msgstr ""
+
+#: of pandas.DataFrame.rmul:97
+msgid "Divide by constant with reverse version."
+msgstr ""
+
+#: of pandas.DataFrame.rmul:111
+msgid "Subtract a list and Series by axis with operator version."
+msgstr ""
+
+#: of pandas.DataFrame.rmul:132
+msgid "Multiply a DataFrame of different shape with operator version."
+msgstr ""
+
+#: of pandas.DataFrame.rmul:154
+msgid "Divide by a MultiIndex by level."
+msgstr ""
+

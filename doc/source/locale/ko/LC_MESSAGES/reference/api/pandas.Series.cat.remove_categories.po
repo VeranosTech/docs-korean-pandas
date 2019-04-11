@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.cat.remove_categories.rst:2
+msgid "pandas.Series.cat.remove_categories"
+msgstr ""
+
+#: of pandas.Series.cat.remove_categories:2
+msgid "Removes the specified categories."
+msgstr ""
+
+#: of pandas.Series.cat.remove_categories:4
+msgid ""
+"`removals` must be included in the old categories. Values which were in "
+"the removed categories will be set to NaN"
+msgstr ""
+
+#: of pandas.Series.cat.remove_categories
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.cat.remove_categories:10
+msgid "**removals**"
+msgstr ""
+
+#: of pandas.Series.cat.remove_categories:9
+msgid "category or list of categories"
+msgstr ""
+
+#: of pandas.Series.cat.remove_categories:10
+msgid "The categories which should be removed."
+msgstr ""
+
+#: of pandas.Series.cat.remove_categories:14
+msgid "**inplace**"
+msgstr ""
+
+#: of pandas.Series.cat.remove_categories:13
+msgid "boolean (default: False)"
+msgstr ""
+
+#: of pandas.Series.cat.remove_categories:13
+msgid ""
+"Whether or not to remove the categories inplace or return a copy of this "
+"categorical with removed categories."
+msgstr ""
+
+#: of pandas.Series.cat.remove_categories
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.cat.remove_categories:21
+msgid "**cat**"
+msgstr ""
+
+#: of pandas.Series.cat.remove_categories:20
+msgid "Categorical with removed categories or None if inplace."
+msgstr ""
+
+#: of pandas.Series.cat.remove_categories
+msgid "Raises"
+msgstr ""
+
+#: of pandas.Series.cat.remove_categories:28
+msgid "**ValueError**"
+msgstr ""
+
+#: of pandas.Series.cat.remove_categories:26
+msgid "If the removals are not contained in the categories"
+msgstr ""
+
+#: of pandas.Series.cat.remove_categories:33
+msgid ""
+":obj:`rename_categories`, :obj:`reorder_categories`, "
+":obj:`add_categories`, :obj:`remove_unused_categories`, "
+":obj:`set_categories`"
+msgstr ""
+

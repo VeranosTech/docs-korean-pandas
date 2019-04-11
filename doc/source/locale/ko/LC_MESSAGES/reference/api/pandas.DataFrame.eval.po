@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.eval.rst:2
+msgid "pandas.DataFrame.eval"
+msgstr ""
+
+#: of pandas.DataFrame.eval:2
+msgid "Evaluate a string describing operations on DataFrame columns."
+msgstr ""
+
+#: of pandas.DataFrame.eval:4
+msgid ""
+"Operates on columns only, not specific rows or elements.  This allows "
+"`eval` to run arbitrary code, which can make you vulnerable to code "
+"injection if you pass user input to this function."
+msgstr ""
+
+#: of pandas.DataFrame.eval
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.eval:11
+msgid "**expr**"
+msgstr ""
+
+#: of pandas.DataFrame.eval:10
+msgid "str"
+msgstr ""
+
+#: of pandas.DataFrame.eval:11
+msgid "The expression string to evaluate."
+msgstr ""
+
+#: of pandas.DataFrame.eval:18
+msgid "**inplace**"
+msgstr ""
+
+#: of pandas.DataFrame.eval:17
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.DataFrame.eval:14
+msgid ""
+"If the expression contains an assignment, whether to perform the "
+"operation inplace and mutate the existing DataFrame. Otherwise, a new "
+"DataFrame is returned."
+msgstr ""
+
+#: of pandas.DataFrame.eval:23
+msgid "**kwargs**"
+msgstr ""
+
+#: of pandas.DataFrame.eval:22
+msgid "dict"
+msgstr ""
+
+#: of pandas.DataFrame.eval:21
+msgid ""
+"See the documentation for :func:`~pandas.eval` for complete details on "
+"the keyword arguments accepted by :meth:`~pandas.DataFrame.query`."
+msgstr ""
+
+#: of pandas.DataFrame.eval
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.eval:33
+msgid "**ndarray, scalar, or pandas object**"
+msgstr ""
+
+#: of pandas.DataFrame.eval:28
+msgid "The result of the evaluation."
+msgstr ""
+
+#: of pandas.DataFrame.eval:39
+msgid ":obj:`DataFrame.query`"
+msgstr ""
+
+#: of pandas.DataFrame.eval:39
+msgid "Evaluates a boolean expression to query the columns of a frame."
+msgstr ""
+
+#: of pandas.DataFrame.eval:42
+msgid ":obj:`DataFrame.assign`"
+msgstr ""
+
+#: of pandas.DataFrame.eval:42
+msgid "Can evaluate an expression or function to create new values for a column."
+msgstr ""
+
+#: of pandas.DataFrame.eval:44
+msgid ":obj:`pandas.eval`"
+msgstr ""
+
+#: of pandas.DataFrame.eval:45
+msgid "Evaluate a Python expression as a string using various backends."
+msgstr ""
+
+#: of pandas.DataFrame.eval:48
+msgid "Notes"
+msgstr ""
+
+#: of pandas.DataFrame.eval:49
+msgid ""
+"For more details see the API documentation for :func:`~pandas.eval`. For "
+"detailed examples see :ref:`enhancing performance with eval "
+"<enhancingperf.eval>`."
+msgstr ""
+
+#: of pandas.DataFrame.eval:55
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.eval:72
+msgid ""
+"Assignment is allowed though by default the original DataFrame is not "
+"modified."
+msgstr ""
+
+#: of pandas.DataFrame.eval:90
+msgid "Use ``inplace=True`` to modify the original DataFrame."
+msgstr ""
+

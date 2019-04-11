@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Series.cat.rename_categories.rst:2
+msgid "pandas.Series.cat.rename_categories"
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories:2
+msgid "Renames categories."
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories:26
+msgid "**new_categories**"
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories:25
+msgid "list-like, dict-like or callable"
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories:8
+msgid ""
+"list-like: all items must be unique and the number of items in the new "
+"categories must match the existing number of categories."
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories:11
+msgid ""
+"dict-like: specifies a mapping from old categories to new. Categories not"
+" contained in the mapping are passed through and extra categories in the "
+"mapping are ignored."
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories:18
+msgid ""
+"callable : a callable that is called on all items in the old categories "
+"and whose return values comprise the new categories."
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories:25
+msgid ""
+"Currently, Series are considered list like. In a future version of pandas"
+" they'll be considered dict-like."
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories:30
+msgid "**inplace**"
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories:29
+msgid "boolean (default: False)"
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories:29
+msgid ""
+"Whether or not to rename the categories inplace or return a copy of this "
+"categorical with renamed categories."
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories:38
+msgid "**cat**"
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories:37
+msgid "Categorical or None"
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories:35
+msgid ""
+"With ``inplace=False``, the new categorical is returned. With "
+"``inplace=True``, there is no return value."
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories
+msgid "Raises"
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories:46
+msgid "**ValueError**"
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories:43
+msgid ""
+"If new categories are list-like and do not have the same number of items "
+"than the current categories or do not validate as categories"
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories:51
+msgid ""
+":obj:`reorder_categories`, :obj:`add_categories`, "
+":obj:`remove_categories`, :obj:`remove_unused_categories`, "
+":obj:`set_categories`"
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories:56
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories:62
+msgid ""
+"For dict-like ``new_categories``, extra keys are ignored and categories "
+"not in the dictionary are passed through"
+msgstr ""
+
+#: of pandas.Series.cat.rename_categories:69
+msgid "You may also provide a callable to create the new categories"
+msgstr ""
+

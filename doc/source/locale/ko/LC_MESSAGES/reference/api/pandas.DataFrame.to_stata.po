@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.to_stata.rst:2
+msgid "pandas.DataFrame.to\\_stata"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:2
+msgid "Export DataFrame object to Stata dta format."
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:4
+msgid ""
+"Writes the DataFrame to a Stata dataset file. \"dta\" files contain a "
+"Stata dataset."
+msgstr ""
+
+#: of pandas.DataFrame.to_stata
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:13
+msgid "**fname**"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:12
+msgid "str, buffer or path object"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:10
+msgid ""
+"String, path object (pathlib.Path or py._path.local.LocalPath) or object "
+"implementing a binary write() function. If using a buffer then the buffer"
+" will not be automatically closed after the file data has been written."
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:21
+msgid "**convert_dates**"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:20 pandas.DataFrame.to_stata:42
+msgid "dict"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:16
+msgid ""
+"Dictionary mapping columns containing datetime types to stata internal "
+"format to use when writing the dates. Options are 'tc', 'td', 'tm', 'tw',"
+" 'th', 'tq', 'ty'. Column can be either an integer or a name. Datetime "
+"columns that do not have a conversion type specified will be converted to"
+" 'tc'. Raises NotImplementedError if a datetime column has timezone "
+"information."
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:24
+msgid "**write_index**"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:23
+msgid "bool"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:24
+msgid "Write the index to Stata dataset."
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:27
+msgid "**encoding**"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:26 pandas.DataFrame.to_stata:29
+msgid "str"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:27
+msgid "Default is latin-1. Unicode is not supported."
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:30
+msgid "**byteorder**"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:30
+msgid "Can be \">\", \"<\", \"little\", or \"big\". default is `sys.byteorder`."
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:34
+msgid "**time_stamp**"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:33
+msgid "datetime"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:33
+msgid "A datetime to use as file creation date.  Default is the current time."
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:37
+msgid "**data_label**"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:36
+msgid "str, optional"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:37
+msgid "A label for the data set.  Must be 80 characters or smaller."
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:43
+msgid "**variable_labels**"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:40
+msgid ""
+"Dictionary containing columns as keys and variable labels as values. Each"
+" label must be 80 characters or smaller."
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:52
+msgid "**version**"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:51
+msgid "{114, 117}, default 114"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:46
+msgid ""
+"Version to use in the output dta file.  Version 114 can be used read by "
+"Stata 10 and later.  Version 117 can be read by Stata 13 or later. "
+"Version 114 limits string variables to 244 characters or fewer while 117 "
+"allows strings with lengths up to 2,000,000 characters."
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:63
+msgid "**convert_strl**"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:62
+msgid "list, optional"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:55
+msgid ""
+"List of column names to convert to string columns to Stata StrL format. "
+"Only available if version is 117.  Storing strings in the StrL format can"
+" produce smaller dta files if strings have more than 8 characters and "
+"values are repeated."
+msgstr ""
+
+#: of pandas.DataFrame.to_stata
+msgid "Raises"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:69
+msgid "**NotImplementedError**"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:68
+msgid "If datetimes contain timezone information"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:69
+msgid "Column dtype is not representable in Stata"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:79
+msgid "**ValueError**"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:72
+msgid ""
+"Columns listed in convert_dates are neither datetime64[ns] or "
+"datetime.datetime"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:74
+msgid "Column listed in convert_dates is not in DataFrame"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:75
+msgid "Categorical label contains more than 32,000 characters"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:85
+msgid ":obj:`read_stata`"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:85
+msgid "Import Stata data files."
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:88
+msgid ":obj:`io.stata.StataWriter`"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:88
+msgid "Low-level writer for Stata data files."
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:90
+msgid ":obj:`io.stata.StataWriter117`"
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:91
+msgid "Low-level writer for version 117 files."
+msgstr ""
+
+#: of pandas.DataFrame.to_stata:96
+msgid "Examples"
+msgstr ""
+

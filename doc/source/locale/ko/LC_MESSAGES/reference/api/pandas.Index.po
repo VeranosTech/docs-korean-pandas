@@ -1,0 +1,1030 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.rst:2
+msgid "pandas.Index"
+msgstr ""
+
+#: of pandas.Index:2
+msgid ""
+"Immutable ndarray implementing an ordered, sliceable set. The basic "
+"object storing axis labels for all pandas objects."
+msgstr ""
+
+#: of pandas.Index
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index:9
+msgid "**data**"
+msgstr ""
+
+#: of pandas.Index:8
+msgid "array-like (1-dimensional)"
+msgstr ""
+
+#: of pandas.Index:14
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.Index:13
+msgid "NumPy dtype (default: object)"
+msgstr ""
+
+#: of pandas.Index:12
+msgid ""
+"If dtype is None, we find the dtype that best fits the data. If an actual"
+" dtype is provided, we coerce to that dtype if it's safe. Otherwise, an "
+"error will be raised."
+msgstr ""
+
+#: of pandas.Index:17
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.Index:16
+msgid "bool"
+msgstr ""
+
+#: of pandas.Index:17
+msgid "Make a copy of input ndarray"
+msgstr ""
+
+#: of pandas.Index:20 pandas.Index:93
+msgid "**name**"
+msgstr ""
+
+#: of pandas.Index:19
+msgid "object"
+msgstr ""
+
+#: of pandas.Index:20
+msgid "Name to be stored in the index"
+msgstr ""
+
+#: of pandas.Index:29
+msgid "**tupleize_cols**"
+msgstr ""
+
+#: of pandas.Index:28
+msgid "bool (default: True)"
+msgstr ""
+
+#: of pandas.Index:23
+msgid "When True, attempt to create a MultiIndex if possible"
+msgstr ""
+
+#: of pandas.Index:35
+msgid ":obj:`RangeIndex`"
+msgstr ""
+
+#: of pandas.Index:35
+msgid "Index implementing a monotonic integer range."
+msgstr ""
+
+#: of pandas.Index:38
+msgid ":obj:`CategoricalIndex`"
+msgstr ""
+
+#: of pandas.Index:38
+msgid "Index of :class:`Categorical` s."
+msgstr ""
+
+#: of pandas.Index:41
+msgid ":obj:`MultiIndex`"
+msgstr ""
+
+#: of pandas.Index:41
+msgid "A multi-level, or hierarchical, Index."
+msgstr ""
+
+#: of pandas.Index:44
+msgid ":obj:`IntervalIndex`"
+msgstr ""
+
+#: of pandas.Index:44
+msgid "An Index of :class:`Interval` s."
+msgstr ""
+
+#: of pandas.Index:46
+msgid ""
+":obj:`DatetimeIndex`, :obj:`TimedeltaIndex`, :obj:`PeriodIndex`, "
+":obj:`Int64Index`, :obj:`UInt64Index`, :obj:`Float64Index`"
+msgstr ""
+
+#: of pandas.Index:49
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Index:50
+msgid "An Index instance can **only** contain hashable objects"
+msgstr ""
+
+#: of pandas.Index:54
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Index:62
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ":obj:`T <pandas.Index.T>`\\"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1 pandas.Index:87:<autosummary>:1
+msgid "Return the transpose, which is by definition self."
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ":obj:`array <pandas.Index.array>`\\"
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid "The ExtensionArray of the data backing this Series or Index."
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ":obj:`base <pandas.Index.base>`\\"
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid "Return the base object if the memory of the underlying data is shared."
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ":obj:`data <pandas.Index.data>`\\"
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid "Return the data pointer of the underlying data."
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ":obj:`dtype <pandas.Index.dtype>`\\"
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid "Return the dtype object of the underlying data."
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ":obj:`dtype_str <pandas.Index.dtype_str>`\\"
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid "Return the dtype str of the underlying data."
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ":obj:`flags <pandas.Index.flags>`\\"
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ":obj:`hasnans <pandas.Index.hasnans>`\\"
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid "Return if I have any nans; enables various perf speedups."
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ":obj:`inferred_type <pandas.Index.inferred_type>`\\"
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid "Return a string of the type inferred from the values."
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ":obj:`is_monotonic <pandas.Index.is_monotonic>`\\"
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid "Alias for is_monotonic_increasing."
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ":obj:`is_monotonic_decreasing <pandas.Index.is_monotonic_decreasing>`\\"
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ""
+"Return if the index is monotonic decreasing (only equal or decreasing) "
+"values."
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ":obj:`is_monotonic_increasing <pandas.Index.is_monotonic_increasing>`\\"
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ""
+"Return if the index is monotonic increasing (only equal or increasing) "
+"values."
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ":obj:`is_unique <pandas.Index.is_unique>`\\"
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid "Return if the index has unique values."
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ":obj:`itemsize <pandas.Index.itemsize>`\\"
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid "Return the size of the dtype of the item of the underlying data."
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ":obj:`nbytes <pandas.Index.nbytes>`\\"
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid "Return the number of bytes in the underlying data."
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ":obj:`ndim <pandas.Index.ndim>`\\"
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid "Number of dimensions of the underlying data, by definition 1."
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ":obj:`shape <pandas.Index.shape>`\\"
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid "Return a tuple of the shape of the underlying data."
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ":obj:`size <pandas.Index.size>`\\"
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid "Return the number of elements in the underlying data."
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ":obj:`strides <pandas.Index.strides>`\\"
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid "Return the strides of the underlying data."
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid ":obj:`values <pandas.Index.values>`\\"
+msgstr ""
+
+#: of pandas.Index:87:<autosummary>:1
+msgid "Return an array representing the data in the Index."
+msgstr ""
+
+#: of pandas.Index:89
+msgid "**asi8**"
+msgstr ""
+
+#: of pandas.Index:90
+msgid "**empty**"
+msgstr ""
+
+#: of pandas.Index:91
+msgid "**has_duplicates**"
+msgstr ""
+
+#: of pandas.Index:92
+msgid "**is_all_dates**"
+msgstr ""
+
+#: of pandas.Index:94
+msgid "**names**"
+msgstr ""
+
+#: of pandas.Index:95
+msgid "**nlevels**"
+msgstr ""
+
+#: of pandas.Index:99
+msgid "Methods"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`all <pandas.Index.all>`\\ \\(\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return whether all elements are True."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`any <pandas.Index.any>`\\ \\(\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return whether any element is True."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`append <pandas.Index.append>`\\ \\(other\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Append a collection of Index options together."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`argmax <pandas.Index.argmax>`\\ \\(\\[axis\\, skipna\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return a ndarray of the maximum argument indexer."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`argmin <pandas.Index.argmin>`\\ \\(\\[axis\\, skipna\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return a ndarray of the minimum argument indexer."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`argsort <pandas.Index.argsort>`\\ \\(\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return the integer indices that would sort the index."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`asof <pandas.Index.asof>`\\ \\(label\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return the label from the index, or, if not present, the previous one."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`asof_locs <pandas.Index.asof_locs>`\\ \\(where\\, mask\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+"Finds the locations (indices) of the labels from the index for every "
+"entry in the `where` argument."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`astype <pandas.Index.astype>`\\ \\(dtype\\[\\, copy\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Create an Index with values cast to dtypes."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`contains <pandas.Index.contains>`\\ \\(key\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return a boolean indicating whether the provided key is in the index."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`copy <pandas.Index.copy>`\\ \\(\\[name\\, deep\\, dtype\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Make a copy of this object."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`delete <pandas.Index.delete>`\\ \\(loc\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Make new Index with passed location(-s) deleted."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`difference <pandas.Index.difference>`\\ \\(other\\[\\, sort\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return a new Index with elements from the index that are not in `other`."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`drop <pandas.Index.drop>`\\ \\(labels\\[\\, errors\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Make new Index with passed list of labels deleted."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`drop_duplicates <pandas.Index.drop_duplicates>`\\ \\(\\[keep\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return Index with duplicate values removed."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`droplevel <pandas.Index.droplevel>`\\ \\(\\[level\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return index with requested level(s) removed."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`dropna <pandas.Index.dropna>`\\ \\(\\[how\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return Index without NA/NaN values"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`duplicated <pandas.Index.duplicated>`\\ \\(\\[keep\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Indicate duplicate index values."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`equals <pandas.Index.equals>`\\ \\(other\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Determines if two Index objects contain the same elements."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+":obj:`factorize <pandas.Index.factorize>`\\ \\(\\[sort\\, "
+"na\\_sentinel\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Encode the object as an enumerated type or categorical variable."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`fillna <pandas.Index.fillna>`\\ \\(\\[value\\, downcast\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Fill NA/NaN values with the specified value"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`format <pandas.Index.format>`\\ \\(\\[name\\, formatter\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Render a string representation of the Index."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`get_duplicates <pandas.Index.get_duplicates>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "(DEPRECATED) Extract duplicated index elements."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+":obj:`get_indexer <pandas.Index.get_indexer>`\\ \\(target\\[\\, method\\,"
+" limit\\, tolerance\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Compute indexer and mask for new index given the current index."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+":obj:`get_indexer_for <pandas.Index.get_indexer_for>`\\ \\(target\\, "
+"\\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Guaranteed return of an indexer even when non-unique."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+":obj:`get_indexer_non_unique <pandas.Index.get_indexer_non_unique>`\\ "
+"\\(target\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`get_level_values <pandas.Index.get_level_values>`\\ \\(level\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return an Index of values for requested level."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+":obj:`get_loc <pandas.Index.get_loc>`\\ \\(key\\[\\, method\\, "
+"tolerance\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Get integer location, slice or boolean mask for requested label."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+":obj:`get_slice_bound <pandas.Index.get_slice_bound>`\\ \\(label\\, "
+"side\\, kind\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Calculate slice bound that corresponds to given label."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`get_value <pandas.Index.get_value>`\\ \\(series\\, key\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Fast lookup of value from 1-dimensional ndarray."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`get_values <pandas.Index.get_values>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return `Index` data as an `numpy.ndarray`."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`groupby <pandas.Index.groupby>`\\ \\(values\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Group the index labels by a given array of values."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`identical <pandas.Index.identical>`\\ \\(other\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+"Similar to equals, but check that other comparable attributes are also "
+"equal."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`insert <pandas.Index.insert>`\\ \\(loc\\, item\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Make new Index inserting new item at location."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+":obj:`intersection <pandas.Index.intersection>`\\ \\(other\\[\\, "
+"sort\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Form the intersection of two Index objects."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`is_ <pandas.Index.is_>`\\ \\(other\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "More flexible, faster check like ``is`` but that works through views."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`is_categorical <pandas.Index.is_categorical>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Check if the Index holds categorical data."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`isin <pandas.Index.isin>`\\ \\(values\\[\\, level\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return a boolean array where the index values are in `values`."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`isna <pandas.Index.isna>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Detect missing values."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`isnull <pandas.Index.isnull>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`item <pandas.Index.item>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return the first element of the underlying data as a python scalar."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+":obj:`join <pandas.Index.join>`\\ \\(other\\[\\, how\\, level\\, "
+"return\\_indexers\\, sort\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+"Compute join_index and indexers to conform data structures to the new "
+"index."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`map <pandas.Index.map>`\\ \\(mapper\\[\\, na\\_action\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Map values using input correspondence (a dict, Series, or function)."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`max <pandas.Index.max>`\\ \\(\\[axis\\, skipna\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return the maximum value of the Index."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`memory_usage <pandas.Index.memory_usage>`\\ \\(\\[deep\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Memory usage of the values"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`min <pandas.Index.min>`\\ \\(\\[axis\\, skipna\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return the minimum value of the Index."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`notna <pandas.Index.notna>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Detect existing (non-missing) values."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`notnull <pandas.Index.notnull>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`nunique <pandas.Index.nunique>`\\ \\(\\[dropna\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return number of unique elements in the object."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`putmask <pandas.Index.putmask>`\\ \\(mask\\, value\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return a new Index of the values set with the mask."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`ravel <pandas.Index.ravel>`\\ \\(\\[order\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return an ndarray of the flattened values of the underlying data."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+":obj:`reindex <pandas.Index.reindex>`\\ \\(target\\[\\, method\\, "
+"level\\, limit\\, ...\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Create index with target's values (move/add/delete values as necessary)."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`rename <pandas.Index.rename>`\\ \\(name\\[\\, inplace\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Alter Index or MultiIndex name."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`repeat <pandas.Index.repeat>`\\ \\(repeats\\[\\, axis\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Repeat elements of a Index."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+":obj:`searchsorted <pandas.Index.searchsorted>`\\ \\(value\\[\\, side\\, "
+"sorter\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Find indices where elements should be inserted to maintain order."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+":obj:`set_names <pandas.Index.set_names>`\\ \\(names\\[\\, level\\, "
+"inplace\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Set Index or MultiIndex name."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`set_value <pandas.Index.set_value>`\\ \\(arr\\, key\\, value\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`shift <pandas.Index.shift>`\\ \\(\\[periods\\, freq\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Shift index by desired number of time frequency increments."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+":obj:`slice_indexer <pandas.Index.slice_indexer>`\\ \\(\\[start\\, end\\,"
+" step\\, kind\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+"For an ordered or unique index, compute the slice indexer for input "
+"labels and step."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+":obj:`slice_locs <pandas.Index.slice_locs>`\\ \\(\\[start\\, end\\, "
+"step\\, kind\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Compute slice locations for input labels."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+":obj:`sort_values <pandas.Index.sort_values>`\\ \\(\\[return\\_indexer\\,"
+" ascending\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return a sorted copy of the index."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+":obj:`sortlevel <pandas.Index.sortlevel>`\\ \\(\\[level\\, ascending\\, "
+"sort\\_remaining\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "For internal compatibility with with the Index API."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`str <pandas.Index.str>`\\"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "alias of :class:`pandas.core.strings.StringMethods`"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`summary <pandas.Index.summary>`\\ \\(\\[name\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "(DEPRECATED) Return a summarized representation."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+":obj:`symmetric_difference <pandas.Index.symmetric_difference>`\\ "
+"\\(other\\[\\, result\\_name\\, sort\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Compute the symmetric difference of two Index objects."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+":obj:`take <pandas.Index.take>`\\ \\(indices\\[\\, axis\\, "
+"allow\\_fill\\, fill\\_value\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return a new Index of the values selected by the indices."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`to_flat_index <pandas.Index.to_flat_index>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Identity method."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`to_frame <pandas.Index.to_frame>`\\ \\(\\[index\\, name\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Create a DataFrame with a column containing the Index."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`to_list <pandas.Index.to_list>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return a list of the values."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`to_native_types <pandas.Index.to_native_types>`\\ \\(\\[slicer\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Format specified values of `self` and return them."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`to_numpy <pandas.Index.to_numpy>`\\ \\(\\[dtype\\, copy\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "A NumPy ndarray representing the values in this Series or Index."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`to_series <pandas.Index.to_series>`\\ \\(\\[index\\, name\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+"Create a Series with both index and values equal to the index keys useful"
+" with map for returning an indexer based on an index."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`tolist <pandas.Index.tolist>`\\ \\(\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`transpose <pandas.Index.transpose>`\\ \\(\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`union <pandas.Index.union>`\\ \\(other\\[\\, sort\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Form the union of two Index objects."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`unique <pandas.Index.unique>`\\ \\(\\[level\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return unique values in the index."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+":obj:`value_counts <pandas.Index.value_counts>`\\ \\(\\[normalize\\, "
+"sort\\, ascending\\, ...\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid "Return a Series containing counts of unique values."
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ":obj:`where <pandas.Index.where>`\\ \\(cond\\[\\, other\\]\\)"
+msgstr ""
+
+#: of pandas.Index:182:<autosummary>:1
+msgid ""
+"Return an Index of same shape as self and whose corresponding entries are"
+" from self where cond is True and otherwise are from other."
+msgstr ""
+
+#: of pandas.Index:184
+msgid "**holds_integer**"
+msgstr ""
+
+#: of pandas.Index:185
+msgid "**is_boolean**"
+msgstr ""
+
+#: of pandas.Index:186
+msgid "**is_floating**"
+msgstr ""
+
+#: of pandas.Index:187
+msgid "**is_integer**"
+msgstr ""
+
+#: of pandas.Index:188
+msgid "**is_interval**"
+msgstr ""
+
+#: of pandas.Index:189
+msgid "**is_lexsorted_for_tuple**"
+msgstr ""
+
+#: of pandas.Index:190
+msgid "**is_mixed**"
+msgstr ""
+
+#: of pandas.Index:191
+msgid "**is_numeric**"
+msgstr ""
+
+#: of pandas.Index:192
+msgid "**is_object**"
+msgstr ""
+
+#: of pandas.Index:193
+msgid "**is_type_compatible**"
+msgstr ""
+
+#: of pandas.Index:194
+msgid "**sort**"
+msgstr ""
+
+#: of pandas.Index:195
+msgid "**view**"
+msgstr ""
+

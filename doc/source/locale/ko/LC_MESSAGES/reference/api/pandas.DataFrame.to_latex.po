@@ -1,0 +1,309 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.to_latex.rst:2
+msgid "pandas.DataFrame.to\\_latex"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:2
+msgid "Render an object to a LaTeX tabular environment table."
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:4
+msgid ""
+"Render an object to a tabular environment table. You can splice this into"
+" a LaTeX document. Requires \\usepackage{booktabs}."
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:7
+msgid "Added to Series"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:13
+msgid "**buf**"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:12
+msgid "file descriptor or None"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:13
+msgid "Buffer to write to. If None, the output is returned as a string."
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:16
+msgid "**columns**"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:15
+msgid "list of label, optional"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:16
+msgid "The subset of columns to write. Writes all columns by default."
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:19
+msgid "**col_space**"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:18
+msgid "int, optional"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:19
+msgid "The minimum width of each column."
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:23
+msgid "**header**"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:22
+msgid "bool or list of str, default True"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:22
+msgid ""
+"Write out the column names. If a list of strings is given, it is assumed "
+"to be aliases for the column names."
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:26
+msgid "**index**"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:25 pandas.DataFrame.to_latex:44
+#: pandas.DataFrame.to_latex:76
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:26
+msgid "Write row names (index)."
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:29
+msgid "**na_rep**"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:28
+msgid "str, default 'NaN'"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:29
+msgid "Missing data representation."
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:34
+msgid "**formatters**"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:33
+msgid "list of functions or dict of {str: function}, optional"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:32
+msgid ""
+"Formatter functions to apply to columns' elements by position or name. "
+"The result of each function must be a unicode string. List must be of "
+"length equal to the number of columns."
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:37
+msgid "**float_format**"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:36 pandas.DataFrame.to_latex:53
+#: pandas.DataFrame.to_latex:67
+msgid "str, optional"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:37
+msgid "Format string for floating point numbers."
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:42
+msgid "**sparsify**"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:41 pandas.DataFrame.to_latex:58
+#: pandas.DataFrame.to_latex:63
+msgid "bool, optional"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:40
+msgid ""
+"Set to False for a DataFrame with a hierarchical index to print every "
+"multiindex key at each row. By default, the value will be read from the "
+"config module."
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:45
+msgid "**index_names**"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:45
+msgid "Prints the names of the indexes."
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:48
+msgid "**bold_rows**"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:47 pandas.DataFrame.to_latex:89
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:48
+msgid "Make the row labels bold in the output."
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:54
+msgid "**column_format**"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:51
+msgid ""
+"The columns format as specified in `LaTeX table format "
+"<https://en.wikibooks.org/wiki/LaTeX/Tables>`__ e.g. 'rcl' for 3 columns."
+" By default, 'l' will be used for all columns except columns of numbers, "
+"which default to 'r'."
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:59
+msgid "**longtable**"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:57
+msgid ""
+"By default, the value will be read from the pandas config module. Use a "
+"longtable environment instead of tabular. Requires adding a "
+"\\usepackage{longtable} to your LaTeX preamble."
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:64
+msgid "**escape**"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:62
+msgid ""
+"By default, the value will be read from the pandas config module. When "
+"set to False prevents from escaping latex special characters in column "
+"names."
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:68
+msgid "**encoding**"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:67
+msgid ""
+"A string representing the encoding to use in the output file, defaults to"
+" 'ascii' on Python 2 and 'utf-8' on Python 3."
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:72
+msgid "**decimal**"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:71
+msgid "str, default '.'"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:71
+msgid ""
+"Character recognized as decimal separator, e.g. ',' in Europe. .. "
+"versionadded:: 0.18.0"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:77
+msgid "**multicolumn**"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:75
+msgid ""
+"Use \\multicolumn to enhance MultiIndex columns. The default will be read"
+" from the config module. .. versionadded:: 0.20.0"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:82
+msgid "**multicolumn_format**"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:81
+msgid "str, default 'l'"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:80
+msgid ""
+"The alignment for multicolumns, similar to `column_format` The default "
+"will be read from the config module. .. versionadded:: 0.20.0"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:90
+msgid "**multirow**"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:85
+msgid ""
+"Use \\multirow to enhance MultiIndex rows. Requires adding a "
+"\\usepackage{multirow} to your LaTeX preamble. Will print centered labels"
+" (instead of top-aligned) across the contained rows, separating groups "
+"via clines. The default will be read from the pandas config module. .. "
+"versionadded:: 0.20.0"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:101
+msgid "**str or None**"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:95
+msgid ""
+"If buf is None, returns the resulting LateX format as a string. Otherwise"
+" returns None."
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:107
+msgid ":obj:`DataFrame.to_string`"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:107
+msgid "Render a DataFrame to a console-friendly tabular output."
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:109
+msgid ":obj:`DataFrame.to_html`"
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:110
+msgid "Render a DataFrame as an HTML table."
+msgstr ""
+
+#: of pandas.DataFrame.to_latex:115
+msgid "Examples"
+msgstr ""
+

@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.fillna.rst:2
+msgid "pandas.Index.fillna"
+msgstr ""
+
+#: of pandas.Index.fillna:2
+msgid "Fill NA/NaN values with the specified value"
+msgstr ""
+
+#: of pandas.Index.fillna
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.fillna:9
+msgid "**value**"
+msgstr ""
+
+#: of pandas.Index.fillna:8
+msgid "scalar"
+msgstr ""
+
+#: of pandas.Index.fillna:8
+msgid ""
+"Scalar value to use to fill holes (e.g. 0). This value cannot be a list-"
+"likes."
+msgstr ""
+
+#: of pandas.Index.fillna:14
+msgid "**downcast**"
+msgstr ""
+
+#: of pandas.Index.fillna:13
+msgid "dict, default is None"
+msgstr ""
+
+#: of pandas.Index.fillna:12
+msgid ""
+"a dict of item->dtype of what to downcast if possible, or the string "
+"'infer' which will try to downcast to an appropriate equal type (e.g. "
+"float64 to int64 if possible)"
+msgstr ""
+
+#: of pandas.Index.fillna
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.fillna:30
+msgid "**filled**"
+msgstr ""
+
+#: of pandas.Index.fillna:29
+msgid "Index"
+msgstr ""
+

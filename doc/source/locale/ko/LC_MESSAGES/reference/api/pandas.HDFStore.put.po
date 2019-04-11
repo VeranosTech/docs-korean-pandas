@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.HDFStore.put.rst:2
+msgid "pandas.HDFStore.put"
+msgstr ""
+
+#: of pandas.HDFStore.put:2
+msgid "Store object in HDFStore"
+msgstr ""
+
+#: of pandas.HDFStore.put
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.HDFStore.put:8
+msgid "**key**"
+msgstr ""
+
+#: of pandas.HDFStore.put:7
+msgid "object"
+msgstr ""
+
+#: of pandas.HDFStore.put:11
+msgid "**value**"
+msgstr ""
+
+#: of pandas.HDFStore.put:10
+msgid "{Series, DataFrame, Panel}"
+msgstr ""
+
+#: of pandas.HDFStore.put:19
+msgid "**format**"
+msgstr ""
+
+#: of pandas.HDFStore.put:18
+msgid "'fixed(f)|table(t)', default is 'fixed'"
+msgstr ""
+
+#: of pandas.HDFStore.put:14
+msgid "fixed(f)"
+msgstr ""
+
+#: of pandas.HDFStore.put:13
+msgid "Fixed format"
+msgstr ""
+
+#: of pandas.HDFStore.put:15
+msgid "Fast writing/reading. Not-appendable, nor searchable"
+msgstr ""
+
+#: of pandas.HDFStore.put:19
+msgid "table(t)"
+msgstr ""
+
+#: of pandas.HDFStore.put:18
+msgid "Table format"
+msgstr ""
+
+#: of pandas.HDFStore.put:17
+msgid ""
+"Write as a PyTables Table structure which may perform worse but allow "
+"more flexible operations like searching / selecting subsets of the data"
+msgstr ""
+
+#: of pandas.HDFStore.put:23
+msgid "**append**"
+msgstr ""
+
+#: of pandas.HDFStore.put:22
+msgid "boolean, default False"
+msgstr ""
+
+#: of pandas.HDFStore.put:22
+msgid "This will force Table format, append the input data to the existing."
+msgstr ""
+
+#: of pandas.HDFStore.put:27
+msgid "**data_columns**"
+msgstr ""
+
+#: of pandas.HDFStore.put:26
+msgid "list of columns to create as data columns, or True to"
+msgstr ""
+
+#: of pandas.HDFStore.put:26
+msgid ""
+"use all columns. See `here <http://pandas.pydata.org/pandas-"
+"docs/stable/io.html#query-via-data-columns>`__ # noqa"
+msgstr ""
+
+#: of pandas.HDFStore.put:30
+msgid "**encoding**"
+msgstr ""
+
+#: of pandas.HDFStore.put:29
+msgid "default None, provide an encoding for strings"
+msgstr ""
+
+#: of pandas.HDFStore.put:45
+msgid "**dropna**"
+msgstr ""
+
+#: of pandas.HDFStore.put:44
+msgid "boolean, default False, do not write an ALL nan row to"
+msgstr ""
+
+#: of pandas.HDFStore.put:33
+msgid "the store settable by the option 'io.hdf.dropna_table'"
+msgstr ""
+

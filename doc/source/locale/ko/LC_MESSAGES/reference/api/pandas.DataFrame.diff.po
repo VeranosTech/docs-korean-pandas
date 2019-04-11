@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.DataFrame.diff.rst:2
+msgid "pandas.DataFrame.diff"
+msgstr ""
+
+#: of pandas.DataFrame.diff:2
+msgid "First discrete difference of element."
+msgstr ""
+
+#: of pandas.DataFrame.diff:4
+msgid ""
+"Calculates the difference of a DataFrame element compared with another "
+"element in the DataFrame (default is the element in the same column of "
+"the previous row)."
+msgstr ""
+
+#: of pandas.DataFrame.diff
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.DataFrame.diff:12
+msgid "**periods**"
+msgstr ""
+
+#: of pandas.DataFrame.diff:11
+msgid "int, default 1"
+msgstr ""
+
+#: of pandas.DataFrame.diff:11
+msgid "Periods to shift for calculating difference, accepts negative values."
+msgstr ""
+
+#: of pandas.DataFrame.diff:17
+msgid "**axis**"
+msgstr ""
+
+#: of pandas.DataFrame.diff:16
+msgid "{0 or 'index', 1 or 'columns'}, default 0"
+msgstr ""
+
+#: of pandas.DataFrame.diff:15
+msgid "Take difference over rows (0) or columns (1)."
+msgstr ""
+
+#: of pandas.DataFrame.diff
+msgid "Returns"
+msgstr ""
+
+#: of pandas.DataFrame.diff:27
+msgid "**diffed**"
+msgstr ""
+
+#: of pandas.DataFrame.diff:26
+msgid "DataFrame"
+msgstr ""
+
+#: of pandas.DataFrame.diff:33
+msgid ":obj:`Series.diff`"
+msgstr ""
+
+#: of pandas.DataFrame.diff:33
+msgid "First discrete difference for a Series."
+msgstr ""
+
+#: of pandas.DataFrame.diff:36
+msgid ":obj:`DataFrame.pct_change`"
+msgstr ""
+
+#: of pandas.DataFrame.diff:36
+msgid "Percent change over given number of periods."
+msgstr ""
+
+#: of pandas.DataFrame.diff:38
+msgid ":obj:`DataFrame.shift`"
+msgstr ""
+
+#: of pandas.DataFrame.diff:39
+msgid "Shift index by desired number of periods with an optional time freq."
+msgstr ""
+
+#: of pandas.DataFrame.diff:44
+msgid "Examples"
+msgstr ""
+
+#: of pandas.DataFrame.diff:45
+msgid "Difference with previous row"
+msgstr ""
+
+#: of pandas.DataFrame.diff:68
+msgid "Difference with previous column"
+msgstr ""
+
+#: of pandas.DataFrame.diff:79
+msgid "Difference with 3rd previous row"
+msgstr ""
+
+#: of pandas.DataFrame.diff:90
+msgid "Difference with following row"
+msgstr ""
+

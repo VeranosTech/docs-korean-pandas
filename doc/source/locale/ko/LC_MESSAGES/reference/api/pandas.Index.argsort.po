@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.argsort.rst:2
+msgid "pandas.Index.argsort"
+msgstr ""
+
+#: of pandas.Index.argsort:2
+msgid "Return the integer indices that would sort the index."
+msgstr ""
+
+#: of pandas.Index.argsort
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.Index.argsort:8
+msgid "**\\*args**"
+msgstr ""
+
+#: of pandas.Index.argsort:8 pandas.Index.argsort:11
+msgid "Passed to `numpy.ndarray.argsort`."
+msgstr ""
+
+#: of pandas.Index.argsort:11
+msgid "**\\*\\*kwargs**"
+msgstr ""
+
+#: of pandas.Index.argsort
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.argsort:22
+msgid "**numpy.ndarray**"
+msgstr ""
+
+#: of pandas.Index.argsort:16
+msgid "Integer indices that would sort the index if used as an indexer."
+msgstr ""
+
+#: of pandas.Index.argsort:28
+msgid ":obj:`numpy.argsort`"
+msgstr ""
+
+#: of pandas.Index.argsort:28
+msgid "Similar method for NumPy arrays."
+msgstr ""
+
+#: of pandas.Index.argsort:30
+msgid ":obj:`Index.sort_values`"
+msgstr ""
+
+#: of pandas.Index.argsort:31
+msgid "Return sorted copy of Index."
+msgstr ""
+
+#: of pandas.Index.argsort:36
+msgid "Examples"
+msgstr ""
+

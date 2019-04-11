@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../whatsnew/v0.23.4.rst:4
+msgid "What's New in 0.23.4 (August 3, 2018)"
+msgstr ""
+
+#: ../../whatsnew/v0.23.4.rst:6
+msgid "{{ header }}"
+msgstr ""
+
+#: ../../whatsnew/v0.23.4.rst:9
+msgid ""
+"This is a minor bug-fix release in the 0.23.x series and includes some "
+"small regression fixes and bug fixes. We recommend that all users upgrade"
+" to this version."
+msgstr ""
+
+#: ../../whatsnew/v0.23.4.rst:14
+msgid ""
+"Starting January 1, 2019, pandas feature releases will support Python 3 "
+"only. See :ref:`install.dropping-27` for more."
+msgstr ""
+
+#: ../../whatsnew/v0.23.4.rst:19
+msgid "What's new in v0.23.4"
+msgstr ""
+
+#: ../../whatsnew/v0.23.4.rst:24
+msgid "Fixed Regressions"
+msgstr ""
+
+#: ../../whatsnew/v0.23.4.rst:26
+msgid ""
+"Python 3.7 with Windows gave all missing values for rolling variance "
+"calculations (:issue:`21813`)"
+msgstr ""
+
+#: ../../whatsnew/v0.23.4.rst:31
+msgid "Bug Fixes"
+msgstr ""
+
+#: ../../whatsnew/v0.23.4.rst:33
+msgid "**Groupby/Resample/Rolling**"
+msgstr ""
+
+#: ../../whatsnew/v0.23.4.rst:35
+msgid ""
+"Bug where calling :func:`DataFrameGroupBy.agg` with a list of functions "
+"including ``ohlc`` as the non-initial element would raise a "
+"``ValueError`` (:issue:`21716`)"
+msgstr ""
+
+#: ../../whatsnew/v0.23.4.rst:36
+msgid ""
+"Bug in ``roll_quantile`` caused a memory leak when calling "
+"``.rolling(...).quantile(q)`` with ``q`` in (0,1) (:issue:`21965`)"
+msgstr ""
+
+#: ../../whatsnew/v0.23.4.rst:38
+msgid "**Missing**"
+msgstr ""
+
+#: ../../whatsnew/v0.23.4.rst:40
+msgid ""
+"Bug in :func:`Series.clip` and :func:`DataFrame.clip` cannot accept list-"
+"like threshold containing ``NaN`` (:issue:`19992`)"
+msgstr ""
+
+#: ../../whatsnew/v0.23.4.rst:45
+msgid "Contributors"
+msgstr ""
+
+#: ../../whatsnew/v0.23.4.rst:47
+msgid ""
+"A total of 6 people contributed patches to this release.  People with a "
+"\"+\" by their names contributed a patch for the first time."
+msgstr ""
+

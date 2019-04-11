@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.Index.array.rst:2
+msgid "pandas.Index.array"
+msgstr ""
+
+#: of pandas.Index.array:2
+msgid "The ExtensionArray of the data backing this Series or Index."
+msgstr ""
+
+#: of pandas.Index.array
+msgid "Returns"
+msgstr ""
+
+#: of pandas.Index.array:20
+msgid "**array**"
+msgstr ""
+
+#: of pandas.Index.array:19
+msgid "ExtensionArray"
+msgstr ""
+
+#: of pandas.Index.array:10
+msgid ""
+"An ExtensionArray of the values stored within. For extension types, this "
+"is the actual array. For NumPy native types, this is a thin (no copy) "
+"wrapper around :class:`numpy.ndarray`."
+msgstr ""
+
+#: of pandas.Index.array:14
+msgid ""
+"``.array`` differs ``.values`` which may require converting the data to a"
+" different form."
+msgstr ""
+
+#: of pandas.Index.array:26
+msgid ":obj:`Index.to_numpy`"
+msgstr ""
+
+#: of pandas.Index.array:26 pandas.Index.array:29
+msgid "Similar method that always returns a NumPy array."
+msgstr ""
+
+#: of pandas.Index.array:28
+msgid ":obj:`Series.to_numpy`"
+msgstr ""
+
+#: of pandas.Index.array:32
+msgid "Notes"
+msgstr ""
+
+#: of pandas.Index.array:33
+msgid ""
+"This table lays out the different array types for each extension dtype "
+"within pandas."
+msgstr ""
+
+#: of pandas.Index.array:37
+msgid "dtype"
+msgstr ""
+
+#: of pandas.Index.array:37
+msgid "array type"
+msgstr ""
+
+#: of pandas.Index.array:39
+msgid "category"
+msgstr ""
+
+#: of pandas.Index.array:39
+msgid "Categorical"
+msgstr ""
+
+#: of pandas.Index.array:40
+msgid "period"
+msgstr ""
+
+#: of pandas.Index.array:40
+msgid "PeriodArray"
+msgstr ""
+
+#: of pandas.Index.array:41
+msgid "interval"
+msgstr ""
+
+#: of pandas.Index.array:41
+msgid "IntervalArray"
+msgstr ""
+
+#: of pandas.Index.array:42
+msgid "IntegerNA"
+msgstr ""
+
+#: of pandas.Index.array:42
+msgid "IntegerArray"
+msgstr ""
+
+#: of pandas.Index.array:43
+msgid "datetime64[ns, tz]"
+msgstr ""
+
+#: of pandas.Index.array:43
+msgid "DatetimeArray"
+msgstr ""
+
+#: of pandas.Index.array:46
+msgid ""
+"For any 3rd-party extension types, the array type will be an "
+"ExtensionArray."
+msgstr ""
+
+#: of pandas.Index.array:49
+msgid ""
+"For all remaining dtypes ``.array`` will be a "
+":class:`arrays.NumpyExtensionArray` wrapping the actual ndarray stored "
+"within. If you absolutely need a NumPy array (possibly with copying / "
+"coercing data), then use :meth:`Series.to_numpy` instead."
+msgstr ""
+
+#: of pandas.Index.array:56
+msgid "Examples"
+msgstr ""
+
+#: of pandas.Index.array:57
+msgid "For regular NumPy types like int, and float, a PandasArray is returned."
+msgstr ""
+
+#: of pandas.Index.array:65
+msgid ""
+"For extension types, like Categorical, the actual ExtensionArray is "
+"returned"
+msgstr ""
+

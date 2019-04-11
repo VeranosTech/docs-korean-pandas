@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.core.groupby.DataFrameGroupBy.boxplot.rst:2
+msgid "pandas.core.groupby.DataFrameGroupBy.boxplot"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:2
+msgid "Make box plots from DataFrameGroupBy data."
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:8
+msgid "**grouped**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:7
+msgid "Grouped DataFrame"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:12
+msgid "**subplots :**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:11
+msgid "``False`` - no subplots will be used"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:12
+msgid "``True`` - create a subplot for each group"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:15
+msgid "**column**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:14
+msgid "column name or list of names, or vector"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:15
+msgid "Can be any valid input to groupby"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:18
+msgid "**fontsize**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:17
+msgid "int or string"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:21
+msgid "**rot**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:20
+msgid "label rotation angle"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:24
+msgid "**grid**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:23
+msgid "Setting this to True will show the grid"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:27
+msgid "**ax**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:26
+msgid "Matplotlib axis object, default None"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:30
+msgid "**figsize**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:29
+msgid "A tuple (width, height) in inches"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:33
+msgid "**layout**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:32
+msgid "tuple (optional)"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:33
+msgid "(rows, columns) for the layout of the plot"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:38
+msgid "**sharex**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:37
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:36
+msgid "Whether x-axes will be shared among subplots"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:43
+msgid "**sharey**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:42
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:41
+msgid "Whether y-axes will be shared among subplots"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:47
+msgid "**`**kwds`**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:46
+msgid "Keyword Arguments"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:46
+msgid ""
+"All other plotting keyword arguments to be passed to matplotlib's boxplot"
+" function"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot
+msgid "Returns"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:52
+msgid "**dict of key/value = group key/DataFrame.boxplot return value**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:63
+msgid "**or DataFrame.boxplot return value in case subplots=figures=False**"
+msgstr ""
+
+#: of pandas.core.groupby.DataFrameGroupBy.boxplot:66
+msgid "Examples"
+msgstr ""
+

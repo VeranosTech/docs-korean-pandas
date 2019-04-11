@@ -1,0 +1,335 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.IntervalIndex.rst:2
+msgid "pandas.IntervalIndex"
+msgstr ""
+
+#: of pandas.IntervalIndex:2
+msgid "Immutable index of intervals that are closed on the same side."
+msgstr ""
+
+#: of pandas.IntervalIndex:8
+msgid ""
+"The indexing behaviors are provisional and may change in a future version"
+" of pandas."
+msgstr ""
+
+#: of pandas.IntervalIndex
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.IntervalIndex:15
+msgid "**data**"
+msgstr ""
+
+#: of pandas.IntervalIndex:14
+msgid "array-like (1-dimensional)"
+msgstr ""
+
+#: of pandas.IntervalIndex:14
+msgid ""
+"Array-like containing Interval objects from which to build the "
+"IntervalIndex."
+msgstr ""
+
+#: of pandas.IntervalIndex:19
+msgid "**closed**"
+msgstr ""
+
+#: of pandas.IntervalIndex:18
+msgid "{'left', 'right', 'both', 'neither'}, default 'right'"
+msgstr ""
+
+#: of pandas.IntervalIndex:18
+msgid ""
+"Whether the intervals are closed on the left-side, right-side, both or "
+"neither."
+msgstr ""
+
+#: of pandas.IntervalIndex:24
+msgid "**dtype**"
+msgstr ""
+
+#: of pandas.IntervalIndex:23
+msgid "dtype or None, default None"
+msgstr ""
+
+#: of pandas.IntervalIndex:22
+msgid "If None, dtype will be inferred."
+msgstr ""
+
+#: of pandas.IntervalIndex:27
+msgid "**copy**"
+msgstr ""
+
+#: of pandas.IntervalIndex:26
+msgid "bool, default False"
+msgstr ""
+
+#: of pandas.IntervalIndex:27
+msgid "Copy the input data."
+msgstr ""
+
+#: of pandas.IntervalIndex:30
+msgid "**name**"
+msgstr ""
+
+#: of pandas.IntervalIndex:29
+msgid "object, optional"
+msgstr ""
+
+#: of pandas.IntervalIndex:30
+msgid "Name to be stored in the index."
+msgstr ""
+
+#: of pandas.IntervalIndex:39
+msgid "**verify_integrity**"
+msgstr ""
+
+#: of pandas.IntervalIndex:38
+msgid "bool, default True"
+msgstr ""
+
+#: of pandas.IntervalIndex:33
+msgid "Verify that the IntervalIndex is valid."
+msgstr ""
+
+#: of pandas.IntervalIndex:45
+msgid ":obj:`Index`"
+msgstr ""
+
+#: of pandas.IntervalIndex:45
+msgid "The base pandas Index type."
+msgstr ""
+
+#: of pandas.IntervalIndex:48
+msgid ":obj:`Interval`"
+msgstr ""
+
+#: of pandas.IntervalIndex:48
+msgid "A bounded slice-like interval; the elements of an IntervalIndex."
+msgstr ""
+
+#: of pandas.IntervalIndex:51
+msgid ":obj:`interval_range`"
+msgstr ""
+
+#: of pandas.IntervalIndex:51
+msgid "Function to create a fixed frequency IntervalIndex."
+msgstr ""
+
+#: of pandas.IntervalIndex:54
+msgid ":obj:`cut`"
+msgstr ""
+
+#: of pandas.IntervalIndex:54
+msgid "Bin values into discrete Intervals."
+msgstr ""
+
+#: of pandas.IntervalIndex:56
+msgid ":obj:`qcut`"
+msgstr ""
+
+#: of pandas.IntervalIndex:57
+msgid "Bin values into equal-sized Intervals based on rank or sample quantiles."
+msgstr ""
+
+#: of pandas.IntervalIndex:60
+msgid "Notes"
+msgstr ""
+
+#: of pandas.IntervalIndex:61
+msgid ""
+"See the `user guide <http://pandas.pydata.org/pandas-"
+"docs/stable/advanced.html#intervalindex>`_ for more."
+msgstr ""
+
+#: of pandas.IntervalIndex:67
+msgid "Examples"
+msgstr ""
+
+#: of pandas.IntervalIndex:68
+msgid ""
+"A new ``IntervalIndex`` is typically constructed using "
+":func:`interval_range`:"
+msgstr ""
+
+#: of pandas.IntervalIndex:76
+msgid ""
+"It may also be constructed using one of the constructor methods: "
+":meth:`IntervalIndex.from_arrays`, :meth:`IntervalIndex.from_breaks`, and"
+" :meth:`IntervalIndex.from_tuples`."
+msgstr ""
+
+#: of pandas.IntervalIndex:80
+msgid ""
+"See further examples in the doc strings of ``interval_range`` and the "
+"mentioned constructor methods."
+msgstr ""
+
+#: of pandas.IntervalIndex:84
+msgid "Attributes"
+msgstr ""
+
+#: of pandas.IntervalIndex:96:<autosummary>:1
+msgid ":obj:`left <pandas.IntervalIndex.left>`\\"
+msgstr ""
+
+#: of pandas.IntervalIndex:96:<autosummary>:1
+msgid ""
+"Return the left endpoints of each Interval in the IntervalIndex as an "
+"Index"
+msgstr ""
+
+#: of pandas.IntervalIndex:96:<autosummary>:1
+msgid ":obj:`right <pandas.IntervalIndex.right>`\\"
+msgstr ""
+
+#: of pandas.IntervalIndex:96:<autosummary>:1
+msgid ""
+"Return the right endpoints of each Interval in the IntervalIndex as an "
+"Index"
+msgstr ""
+
+#: of pandas.IntervalIndex:96:<autosummary>:1
+msgid ":obj:`closed <pandas.IntervalIndex.closed>`\\"
+msgstr ""
+
+#: of pandas.IntervalIndex:96:<autosummary>:1
+msgid ""
+"Whether the intervals are closed on the left-side, right-side, both or "
+"neither"
+msgstr ""
+
+#: of pandas.IntervalIndex:96:<autosummary>:1
+msgid ":obj:`mid <pandas.IntervalIndex.mid>`\\"
+msgstr ""
+
+#: of pandas.IntervalIndex:96:<autosummary>:1
+msgid "Return the midpoint of each Interval in the IntervalIndex as an Index"
+msgstr ""
+
+#: of pandas.IntervalIndex:96:<autosummary>:1
+msgid ":obj:`length <pandas.IntervalIndex.length>`\\"
+msgstr ""
+
+#: of pandas.IntervalIndex:96:<autosummary>:1
+msgid ""
+"Return an Index with entries denoting the length of each Interval in the "
+"IntervalIndex"
+msgstr ""
+
+#: of pandas.IntervalIndex:96:<autosummary>:1
+msgid ""
+":obj:`is_non_overlapping_monotonic "
+"<pandas.IntervalIndex.is_non_overlapping_monotonic>`\\"
+msgstr ""
+
+#: of pandas.IntervalIndex:96:<autosummary>:1
+msgid ""
+"Return True if the IntervalIndex is non-overlapping (no Intervals share "
+"points) and is either monotonic increasing or monotonic decreasing, else "
+"False"
+msgstr ""
+
+#: of pandas.IntervalIndex:96:<autosummary>:1
+msgid ":obj:`is_overlapping <pandas.IntervalIndex.is_overlapping>`\\"
+msgstr ""
+
+#: of pandas.IntervalIndex:96:<autosummary>:1
+msgid "Return True if the IntervalIndex has overlapping intervals, else False."
+msgstr ""
+
+#: of pandas.IntervalIndex:96:<autosummary>:1
+msgid ":obj:`values <pandas.IntervalIndex.values>`\\"
+msgstr ""
+
+#: of pandas.IntervalIndex:96:<autosummary>:1
+msgid "Return the IntervalIndex's data as an IntervalArray."
+msgstr ""
+
+#: of pandas.IntervalIndex:98
+msgid "Methods"
+msgstr ""
+
+#: of pandas.IntervalIndex:109:<autosummary>:1
+msgid ""
+":obj:`from_arrays <pandas.IntervalIndex.from_arrays>`\\ \\(left\\, "
+"right\\[\\, closed\\, name\\, ...\\]\\)"
+msgstr ""
+
+#: of pandas.IntervalIndex:109:<autosummary>:1
+msgid "Construct from two arrays defining the left and right bounds."
+msgstr ""
+
+#: of pandas.IntervalIndex:109:<autosummary>:1
+msgid ""
+":obj:`from_tuples <pandas.IntervalIndex.from_tuples>`\\ \\(data\\[\\, "
+"closed\\, name\\, copy\\, dtype\\]\\)"
+msgstr ""
+
+#: of pandas.IntervalIndex:109:<autosummary>:1
+msgid "Construct an IntervalIndex from an array-like of tuples"
+msgstr ""
+
+#: of pandas.IntervalIndex:109:<autosummary>:1
+msgid ""
+":obj:`from_breaks <pandas.IntervalIndex.from_breaks>`\\ \\(breaks\\[\\, "
+"closed\\, name\\, copy\\, dtype\\]\\)"
+msgstr ""
+
+#: of pandas.IntervalIndex:109:<autosummary>:1
+msgid "Construct an IntervalIndex from an array of splits."
+msgstr ""
+
+#: of pandas.IntervalIndex:109:<autosummary>:1
+msgid ":obj:`overlaps <pandas.IntervalIndex.overlaps>`\\ \\(other\\)"
+msgstr ""
+
+#: of pandas.IntervalIndex:109:<autosummary>:1
+msgid "Check elementwise if an Interval overlaps the values in the IntervalIndex."
+msgstr ""
+
+#: of pandas.IntervalIndex:109:<autosummary>:1
+msgid ":obj:`set_closed <pandas.IntervalIndex.set_closed>`\\ \\(closed\\)"
+msgstr ""
+
+#: of pandas.IntervalIndex:109:<autosummary>:1
+msgid ""
+"Return an IntervalIndex identical to the current one, but closed on the "
+"specified side"
+msgstr ""
+
+#: of pandas.IntervalIndex:109:<autosummary>:1
+msgid ":obj:`to_tuples <pandas.IntervalIndex.to_tuples>`\\ \\(\\[na\\_tuple\\]\\)"
+msgstr ""
+
+#: of pandas.IntervalIndex:109:<autosummary>:1
+msgid "Return an Index of tuples of the form (left, right)"
+msgstr ""
+
+#: of pandas.IntervalIndex:109:<autosummary>:1
+msgid ":obj:`contains <pandas.IntervalIndex.contains>`\\ \\(key\\)"
+msgstr ""
+
+#: of pandas.IntervalIndex:109:<autosummary>:1
+msgid "Return a boolean indicating if the key is IN the index"
+msgstr ""
+

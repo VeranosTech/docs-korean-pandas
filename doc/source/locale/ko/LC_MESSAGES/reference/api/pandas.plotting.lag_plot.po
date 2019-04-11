@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2014, the pandas development team
+# This file is distributed under the same license as the pandas package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pandas 0.24.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 11:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../reference/api/pandas.plotting.lag_plot.rst:2
+msgid "pandas.plotting.lag\\_plot"
+msgstr ""
+
+#: of pandas.plotting.lag_plot:2
+msgid "Lag plot for time series."
+msgstr ""
+
+#: of pandas.plotting.lag_plot
+msgid "Parameters"
+msgstr ""
+
+#: of pandas.plotting.lag_plot:8
+msgid "**series**"
+msgstr ""
+
+#: of pandas.plotting.lag_plot:7
+msgid "Time series"
+msgstr ""
+
+#: of pandas.plotting.lag_plot:11
+msgid "**lag**"
+msgstr ""
+
+#: of pandas.plotting.lag_plot:10
+msgid "lag of the scatter plot, default 1"
+msgstr ""
+
+#: of pandas.plotting.lag_plot:14
+msgid "**ax**"
+msgstr ""
+
+#: of pandas.plotting.lag_plot:13
+msgid "Matplotlib axis object, optional"
+msgstr ""
+
+#: of pandas.plotting.lag_plot:17
+msgid "**kwds**"
+msgstr ""
+
+#: of pandas.plotting.lag_plot:16
+msgid "Matplotlib scatter method keyword arguments, optional"
+msgstr ""
+
+#: of pandas.plotting.lag_plot
+msgid "Returns"
+msgstr ""
+
+#: of pandas.plotting.lag_plot:33
+msgid "**ax: Matplotlib axis object**"
+msgstr ""
+
