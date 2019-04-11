@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: pandas 0.24.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-11 11:49+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2019-04-11 15:06+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../index.rst:7
 msgid "pandas: powerful Python data analysis toolkit"
-msgstr ""
+msgstr "판다스(pandas): 초강력 파이썬 데이터 분석 도구"
 
 #: ../../index.rst:9
 msgid "**Date**: |today| **Version**: |version|"
