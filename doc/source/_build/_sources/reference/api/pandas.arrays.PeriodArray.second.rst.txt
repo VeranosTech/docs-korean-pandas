@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.second
+================================
+
+.. currentmodule:: pandas.arrays
+
+.. autoattribute:: PeriodArray.second

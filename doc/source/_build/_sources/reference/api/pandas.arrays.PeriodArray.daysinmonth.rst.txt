@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.daysinmonth
+=====================================
+
+.. currentmodule:: pandas.arrays
+
+.. autoattribute:: PeriodArray.daysinmonth

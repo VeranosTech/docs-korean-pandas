@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.min
+=============================
+
+.. currentmodule:: pandas.arrays
+
+.. automethod:: PeriodArray.min

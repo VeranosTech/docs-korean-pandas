@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.view
+==============================
+
+.. currentmodule:: pandas.arrays
+
+.. automethod:: PeriodArray.view

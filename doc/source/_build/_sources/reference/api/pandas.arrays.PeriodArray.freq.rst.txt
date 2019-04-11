@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.freq
+==============================
+
+.. currentmodule:: pandas.arrays
+
+.. autoattribute:: PeriodArray.freq

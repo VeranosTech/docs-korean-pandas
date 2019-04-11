@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.take
+==============================
+
+.. currentmodule:: pandas.arrays
+
+.. automethod:: PeriodArray.take

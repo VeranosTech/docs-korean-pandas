@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.start\_time
+=====================================
+
+.. currentmodule:: pandas.arrays
+
+.. autoattribute:: PeriodArray.start_time

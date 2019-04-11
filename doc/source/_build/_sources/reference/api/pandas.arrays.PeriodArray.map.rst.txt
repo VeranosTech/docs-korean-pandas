@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.map
+=============================
+
+.. currentmodule:: pandas.arrays
+
+.. automethod:: PeriodArray.map

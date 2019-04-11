@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.factorize
+===================================
+
+.. currentmodule:: pandas.arrays
+
+.. automethod:: PeriodArray.factorize

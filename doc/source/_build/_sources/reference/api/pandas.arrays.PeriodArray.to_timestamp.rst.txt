@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.to\_timestamp
+=======================================
+
+.. currentmodule:: pandas.arrays
+
+.. automethod:: PeriodArray.to_timestamp

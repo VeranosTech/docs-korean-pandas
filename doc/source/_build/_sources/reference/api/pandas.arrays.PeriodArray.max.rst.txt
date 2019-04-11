@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.max
+=============================
+
+.. currentmodule:: pandas.arrays
+
+.. automethod:: PeriodArray.max

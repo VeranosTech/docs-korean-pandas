@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.size
+==============================
+
+.. currentmodule:: pandas.arrays
+
+.. autoattribute:: PeriodArray.size

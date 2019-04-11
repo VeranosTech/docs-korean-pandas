@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.dayofyear
+===================================
+
+.. currentmodule:: pandas.arrays
+
+.. autoattribute:: PeriodArray.dayofyear

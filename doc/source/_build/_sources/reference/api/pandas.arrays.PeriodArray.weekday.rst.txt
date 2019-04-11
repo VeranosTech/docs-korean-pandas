@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.weekday
+=================================
+
+.. currentmodule:: pandas.arrays
+
+.. autoattribute:: PeriodArray.weekday

@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.year
+==============================
+
+.. currentmodule:: pandas.arrays
+
+.. autoattribute:: PeriodArray.year

@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.resolution
+====================================
+
+.. currentmodule:: pandas.arrays
+
+.. autoattribute:: PeriodArray.resolution

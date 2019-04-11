@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.unique
+================================
+
+.. currentmodule:: pandas.arrays
+
+.. automethod:: PeriodArray.unique

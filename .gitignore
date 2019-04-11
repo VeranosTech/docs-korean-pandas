@@ -117,3 +117,4 @@ doc/source/savefig/
 
 doc/source/_build
 *.mo
+!doc/source/_build

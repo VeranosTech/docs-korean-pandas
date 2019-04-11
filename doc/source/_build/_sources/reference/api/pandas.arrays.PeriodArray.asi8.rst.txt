@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.asi8
+==============================
+
+.. currentmodule:: pandas.arrays
+
+.. autoattribute:: PeriodArray.asi8

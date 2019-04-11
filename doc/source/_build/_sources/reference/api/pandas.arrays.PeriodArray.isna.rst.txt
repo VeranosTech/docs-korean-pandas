@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.isna
+==============================
+
+.. currentmodule:: pandas.arrays
+
+.. automethod:: PeriodArray.isna

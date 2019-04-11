@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.value\_counts
+=======================================
+
+.. currentmodule:: pandas.arrays
+
+.. automethod:: PeriodArray.value_counts

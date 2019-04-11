@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.minute
+================================
+
+.. currentmodule:: pandas.arrays
+
+.. autoattribute:: PeriodArray.minute

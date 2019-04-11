@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.end\_time
+===================================
+
+.. currentmodule:: pandas.arrays
+
+.. autoattribute:: PeriodArray.end_time

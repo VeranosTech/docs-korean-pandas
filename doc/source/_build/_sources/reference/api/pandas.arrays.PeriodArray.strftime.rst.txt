@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.strftime
+==================================
+
+.. currentmodule:: pandas.arrays
+
+.. automethod:: PeriodArray.strftime

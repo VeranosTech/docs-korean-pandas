@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.quarter
+=================================
+
+.. currentmodule:: pandas.arrays
+
+.. autoattribute:: PeriodArray.quarter

@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.nbytes
+================================
+
+.. currentmodule:: pandas.arrays
+
+.. autoattribute:: PeriodArray.nbytes

@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.astype
+================================
+
+.. currentmodule:: pandas.arrays
+
+.. automethod:: PeriodArray.astype

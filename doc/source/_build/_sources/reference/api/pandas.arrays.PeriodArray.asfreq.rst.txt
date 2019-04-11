@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.asfreq
+================================
+
+.. currentmodule:: pandas.arrays
+
+.. automethod:: PeriodArray.asfreq

@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.is\_leap\_year
+========================================
+
+.. currentmodule:: pandas.arrays
+
+.. autoattribute:: PeriodArray.is_leap_year

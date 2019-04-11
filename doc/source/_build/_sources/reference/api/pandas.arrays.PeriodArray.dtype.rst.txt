@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.dtype
+===============================
+
+.. currentmodule:: pandas.arrays
+
+.. autoattribute:: PeriodArray.dtype

@@ -1,0 +1,79 @@
+pandas.arrays.PeriodArray
+=========================
+
+.. currentmodule:: pandas.arrays
+
+.. autoclass:: PeriodArray
+
+   
+
+
+..
+   HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+   .. autosummary::
+      :toctree:
+      
+      PeriodArray.argsort
+      PeriodArray.asfreq
+      PeriodArray.astype
+      PeriodArray.copy
+      PeriodArray.dropna
+      PeriodArray.factorize
+      PeriodArray.fillna
+      PeriodArray.isna
+      PeriodArray.map
+      PeriodArray.max
+      PeriodArray.min
+      PeriodArray.repeat
+      PeriodArray.searchsorted
+      PeriodArray.shift
+      PeriodArray.strftime
+      PeriodArray.take
+      PeriodArray.to_timestamp
+      PeriodArray.unique
+      PeriodArray.value_counts
+      PeriodArray.view
+
+
+
+
+   
+
+
+..
+   HACK -- the point here is that we don't want this to appear in the output, but the autosummary should still generate the pages.
+   .. autosummary::
+      :toctree:
+      
+      PeriodArray.asi8
+      PeriodArray.day
+      PeriodArray.day_of_year
+      PeriodArray.dayofweek
+      PeriodArray.dayofyear
+      PeriodArray.days_in_month
+      PeriodArray.daysinmonth
+      PeriodArray.dtype
+      PeriodArray.end_time
+      PeriodArray.flags
+      PeriodArray.freq
+      PeriodArray.freqstr
+      PeriodArray.hour
+      PeriodArray.inferred_freq
+      PeriodArray.is_leap_year
+      PeriodArray.minute
+      PeriodArray.month
+      PeriodArray.nbytes
+      PeriodArray.ndim
+      PeriodArray.quarter
+      PeriodArray.qyear
+      PeriodArray.resolution
+      PeriodArray.second
+      PeriodArray.shape
+      PeriodArray.size
+      PeriodArray.start_time
+      PeriodArray.week
+      PeriodArray.weekday
+      PeriodArray.weekofyear
+      PeriodArray.year
+
+

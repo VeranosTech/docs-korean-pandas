@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.weekofyear
+====================================
+
+.. currentmodule:: pandas.arrays
+
+.. autoattribute:: PeriodArray.weekofyear

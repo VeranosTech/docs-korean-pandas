@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.argsort
+=================================
+
+.. currentmodule:: pandas.arrays
+
+.. automethod:: PeriodArray.argsort

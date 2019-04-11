@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.inferred\_freq
+========================================
+
+.. currentmodule:: pandas.arrays
+
+.. autoattribute:: PeriodArray.inferred_freq

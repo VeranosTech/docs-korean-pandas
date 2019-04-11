@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.hour
+==============================
+
+.. currentmodule:: pandas.arrays
+
+.. autoattribute:: PeriodArray.hour

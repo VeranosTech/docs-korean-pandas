@@ -1,0 +1,6 @@
+pandas.arrays.PeriodArray.copy
+==============================
+
+.. currentmodule:: pandas.arrays
+
+.. automethod:: PeriodArray.copy
